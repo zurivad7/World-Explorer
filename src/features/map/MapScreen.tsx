@@ -1,9 +1,10 @@
 import { useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Screen } from '@/components/Screen';
 import { paths } from '@/app/routes';
 import { countries } from '@/data';
 import { CONTINENTS, type Continent } from '@/types';
+import { LazyWorldMap } from './LazyWorldMap';
 
 /**
  * S03 World Map — Phase 1 shows a searchable, filterable country list with flags
@@ -11,6 +12,7 @@ import { CONTINENTS, type Continent } from '@/types';
  * data behind it) arrives in Phase 2; basic browsing never depends on tiles.
  */
 export function MapScreen() {
+  const navigate = useNavigate();
   const [continent, setContinent] = useState<Continent | 'all'>('all');
   const [query, setQuery] = useState('');
 
@@ -29,9 +31,13 @@ export function MapScreen() {
 
   return (
     <Screen title="Explore the World" subtitle="Tap a country to learn about it.">
-      <div className="map-placeholder" role="note">
-        🗺️ The interactive map arrives in Phase 2. For now, browse below.
-      </div>
+      <LazyWorldMap
+        ariaLabel="World map. Tap a country to open its details."
+        onSelectCountry={(id) => navigate(paths.country(id))}
+        className="world-map--explore"
+      />
+
+      <p className="map-hint">Tap a country on the map, or find one in the list below.</p>
 
       <label className="field">
         <span className="field__label">Search countries</span>

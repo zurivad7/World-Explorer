@@ -10,6 +10,9 @@ import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 import { mkdirSync, copyFileSync, writeFileSync, existsSync } from 'node:fs';
+import { feature } from 'topojson-client';
+import type { Topology } from 'topojson-specification';
+import type { FeatureCollection, Geometry } from 'geojson';
 import type { Continent, Country, Question } from '../src/types/index.ts';
 import { COUNTRY_SOURCES } from '../src/data/countries/source.ts';
 import { FLAG_TEMPLATES } from '../src/data/flags/templates.ts';
@@ -23,6 +26,7 @@ const worldCountries = require('world-countries') as WcCountry[];
 interface WcCountry {
   cca2: string;
   cca3: string;
+  ccn3?: string;
   name: { common: string };
   capital?: string[];
   region: string;
@@ -110,7 +114,34 @@ const hints = new Map(
 );
 const questions: Question[] = generateQuestions({ countries, hints, templates: FLAG_TEMPLATES });
 
-// Write generated data (stable, pretty-printed for review).
+// Build country geometry (PRD §16): convert Natural Earth (via world-atlas)
+// TopoJSON to GeoJSON, keep only the slice, key each feature by geometryId.
+const topo = require('world-atlas/countries-110m.json') as Topology;
+const ccn3ToId = new Map<string, string>();
+for (const c of countries) {
+  const wc = wcByCca2.get(c.iso2.toUpperCase());
+  if (!wc?.ccn3) throw new Error(`No ccn3 for ${c.iso2}`);
+  ccn3ToId.set(wc.ccn3, c.id);
+}
+const countriesObject = topo.objects.countries;
+if (!countriesObject) throw new Error('world-atlas topology has no "countries" object');
+const worldFc = feature(topo, countriesObject) as unknown as FeatureCollection<Geometry>;
+const features = worldFc.features
+  .filter((f) => f.id != null && ccn3ToId.has(String(f.id)))
+  .map((f) => {
+    const id = ccn3ToId.get(String(f.id))!;
+    const country = countries.find((c) => c.id === id)!;
+    return { type: 'Feature' as const, id, properties: { id, name: country.name }, geometry: f.geometry };
+  })
+  .sort((a, b) => a.id.localeCompare(b.id));
+
+const missingGeometry = countries.filter((c) => !features.some((f) => f.id === c.id));
+if (missingGeometry.length > 0) {
+  throw new Error(`Missing geometry for: ${missingGeometry.map((c) => c.id).join(', ')}`);
+}
+const geometryFc: FeatureCollection<Geometry> = { type: 'FeatureCollection', features };
+
+// Write generated data (stable, pretty-printed for review where practical).
 const dataDir = resolve(root, 'src/data');
 writeFileSync(
   resolve(dataDir, 'countries/countries.generated.json'),
@@ -119,6 +150,12 @@ writeFileSync(
 writeFileSync(
   resolve(dataDir, 'questions/questions.generated.json'),
   JSON.stringify(questions, null, 2) + '\n'
+);
+mkdirSync(resolve(dataDir, 'geometry'), { recursive: true });
+// Geometry is machine data (large coordinate arrays) — write compact.
+writeFileSync(
+  resolve(dataDir, 'geometry/countries.geo.json'),
+  JSON.stringify(geometryFc) + '\n'
 );
 
 // Validate before finishing so a bad build fails loudly.
@@ -138,6 +175,6 @@ const perMode = questions.reduce<Record<string, number>>((acc, q) => {
   return acc;
 }, {});
 console.log(
-  `Built ${countries.length} countries, ${questions.length} questions, copied ${countries.length} flags.`
+  `Built ${countries.length} countries, ${questions.length} questions, ${features.length} geometries, copied ${countries.length} flags.`
 );
 console.log('Questions per mode:', perMode);

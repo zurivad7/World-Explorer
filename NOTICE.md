@@ -30,8 +30,19 @@ so, subject to the above copyright notice and this permission notice being
 included in all copies or substantial portions of the Software.
 ```
 
-## Map data — OpenStreetMap / Natural Earth (Phase 2)
+## Map geometry — Natural Earth (via `world-atlas`)
 
-Interactive map geometry and tiles (added in Phase 2) will use OpenStreetMap-compatible
-data and providers. Their required attribution (e.g. "© OpenStreetMap contributors")
-and any provider terms will be displayed in-app and recorded here when introduced.
+Country polygons are derived from [Natural Earth](https://www.naturalearthdata.com/)
+via [`world-atlas`](https://github.com/topojson/world-atlas) (110m resolution).
+Natural Earth is in the **public domain**; no attribution is legally required, but
+we credit it here. Geometry is converted to GeoJSON at build time by
+`scripts/build-content.ts` and committed to `src/data/geometry/`.
+
+## Map tiles — OpenStreetMap (optional)
+
+The interactive map renders country polygons on a plain background and needs **no
+tiles**, so it works fully offline. An OpenStreetMap raster tile layer can be
+enabled per-map (`showTiles`); when it is, the required attribution
+"© OpenStreetMap contributors" is shown by Leaflet's attribution control. Tiles
+are off by default, keeping the app free of third-party tile requests unless
+explicitly enabled.

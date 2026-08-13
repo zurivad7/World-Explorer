@@ -9,12 +9,34 @@ open questions to resolve. The product source of truth is [`docs/PRD.md`](docs/P
 | --- | --- |
 | 0 Foundation | ✅ Complete |
 | 1 Content (50-country slice) | ✅ Complete |
-| 2 Map | ⏳ Next |
+| 2 Map | ✅ Complete |
 | 3 Game engine | 🟡 Skeleton in place (`src/lib/game-engine`) |
-| 4 Games | ⬜ Not started |
+| 4 Games | ⏳ Next |
 | 5 Progress | 🟡 Storage layer in place (`src/lib/storage`) |
-| 6 Offline/PWA | 🟡 Manifest + service worker configured; flags precached |
+| 6 Offline/PWA | 🟡 Manifest + service worker; flags + map geometry precached |
 | 7 QA | ⬜ Not started |
+
+## Map (Phase 2)
+
+- **Geometry** — `scripts/build-content.ts` converts Natural Earth (via
+  `world-atlas`, 110m) TopoJSON to GeoJSON, keeps the 50-country slice, and keys
+  each feature by `geometryId` (= country id). Output: `src/data/geometry/countries.geo.json`.
+- **Abstraction** (`src/features/map/mapModel.ts`) — pure, provider-agnostic:
+  feature→country id, visual-state/style resolver, fit-to-country bounds. Unit-tested.
+  Game/UI code only ever sees country ids, never Leaflet objects (PRD §16).
+- **Rendering** (`WorldMap.tsx`, lazy-loaded via `LazyWorldMap`) — Leaflet with a
+  GeoJSON layer, **no tile layer by default** so it works offline; an OSM tile layer
+  is pluggable per-map (`showTiles`) with attribution. Touch pan/pinch-zoom,
+  responsive via `ResizeObserver`, graceful error fallback ("play other games").
+- **Screens** — Explore renders the map with a searchable list as the accessible /
+  offline fallback (PRD §7.4, §19); Country Detail shows a fit-to-country mini-map.
+- Leaflet + geometry are code-split, so the initial bundle is unchanged.
+
+### E2E note
+
+The environment ships a preinstalled Chromium whose build differs from Playwright's
+expected one. `playwright.config.ts` detects the binary under
+`PLAYWRIGHT_BROWSERS_PATH` and uses it via `executablePath` (no browser download).
 
 ## Content pipeline (Phase 1)
 

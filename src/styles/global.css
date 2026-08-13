@@ -420,6 +420,52 @@ body {
   color: var(--color-muted);
 }
 
+/* ---- Map ---- */
+.world-map {
+  width: 100%;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  background: #aed3ec; /* ocean, shown when there are no tiles */
+  overflow: hidden;
+}
+
+.world-map--explore {
+  height: 320px;
+  margin-bottom: 12px;
+}
+
+.world-map--detail {
+  height: 200px;
+  margin-bottom: var(--space);
+}
+
+.world-map--loading,
+.world-map--error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  color: var(--color-muted);
+  background: var(--color-surface);
+}
+
+.world-map--error {
+  height: auto;
+}
+
+/* Leaflet container needs an explicit background when we skip tiles. */
+.leaflet-container {
+  background: #aed3ec;
+  font: inherit;
+}
+
+.map-hint {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  margin: 0 0 var(--space);
+}
+
 .map-placeholder,
 .game-placeholder {
   padding: 32px 16px;
