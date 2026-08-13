@@ -1,0 +1,31 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+dev-dist
+*.tsbuildinfo
+
+# Generated placeholder PWA icons (see scripts/generate-icons.mjs)
+public/icons/
+
+# Test & coverage output
+coverage
+playwright-report
+test-results
+.playwright
+
+# Editor / OS
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env
+.env
+.env.local
+.env.*.local
