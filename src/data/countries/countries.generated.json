@@ -1,0 +1,1353 @@
+[
+  {
+    "id": "eg",
+    "iso2": "eg",
+    "iso3": "EGY",
+    "name": "Egypt",
+    "capital": "Cairo",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "flagAsset": "/assets/flags/eg.svg",
+    "geometryId": "eg",
+    "neighbours": [
+      "il"
+    ],
+    "facts": [
+      {
+        "text": "Egypt is home to the ancient pyramids of Giza.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The River Nile, one of the longest rivers on Earth, flows through Egypt.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "za",
+    "iso2": "za",
+    "iso3": "ZAF",
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "continent": "Africa",
+    "region": "Southern Africa",
+    "flagAsset": "/assets/flags/za.svg",
+    "geometryId": "za",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "South Africa has three capital cities, not just one.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "You can see lions, elephants and rhinos in its national parks.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ng",
+    "iso2": "ng",
+    "iso3": "NGA",
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/ng.svg",
+    "geometryId": "ng",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "Nigeria has more people than any other country in Africa.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its film industry is nicknamed \"Nollywood\".",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ke",
+    "iso2": "ke",
+    "iso3": "KEN",
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/ke.svg",
+    "geometryId": "ke",
+    "neighbours": [
+      "et",
+      "tz"
+    ],
+    "facts": [
+      {
+        "text": "Kenya is famous for the great migration of wildebeest and zebras.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Long-distance runners from Kenya win races all over the world.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ma",
+    "iso2": "ma",
+    "iso3": "MAR",
+    "name": "Morocco",
+    "capital": "Rabat",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "flagAsset": "/assets/flags/ma.svg",
+    "geometryId": "ma",
+    "neighbours": [
+      "es"
+    ],
+    "facts": [
+      {
+        "text": "Morocco sits in the northwest corner of Africa, close to Europe.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The Sahara, the largest hot desert, reaches into Morocco.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "et",
+    "iso2": "et",
+    "iso3": "ETH",
+    "name": "Ethiopia",
+    "capital": "Addis Ababa",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/et.svg",
+    "geometryId": "et",
+    "neighbours": [
+      "ke"
+    ],
+    "facts": [
+      {
+        "text": "Ethiopia is one of the oldest countries in the world.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "It has its own alphabet and its own calendar.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "gh",
+    "iso2": "gh",
+    "iso3": "GHA",
+    "name": "Ghana",
+    "capital": "Accra",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/gh.svg",
+    "geometryId": "gh",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "Ghana was the first country in Africa south of the Sahara to become independent.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Cocoa beans for chocolate are an important crop in Ghana.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "sn",
+    "iso2": "sn",
+    "iso3": "SEN",
+    "name": "Senegal",
+    "capital": "Dakar",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/sn.svg",
+    "geometryId": "sn",
+    "neighbours": [
+      "ml"
+    ],
+    "facts": [
+      {
+        "text": "Senegal is the westernmost country on the African mainland.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its flag has a green star in the middle, a little like Mali next door.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ml",
+    "iso2": "ml",
+    "iso3": "MLI",
+    "name": "Mali",
+    "capital": "Bamako",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/ml.svg",
+    "geometryId": "ml",
+    "neighbours": [
+      "sn"
+    ],
+    "facts": [
+      {
+        "text": "Mali is a large country in West Africa, mostly covered by desert.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The city of Timbuktu in Mali was once a famous centre of learning.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "tz",
+    "iso2": "tz",
+    "iso3": "TZA",
+    "name": "Tanzania",
+    "capital": "Dodoma",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/tz.svg",
+    "geometryId": "tz",
+    "neighbours": [
+      "ke"
+    ],
+    "facts": [
+      {
+        "text": "Tanzania has Mount Kilimanjaro, the highest mountain in Africa.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The island of Zanzibar is part of Tanzania.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "jp",
+    "iso2": "jp",
+    "iso3": "JPN",
+    "name": "Japan",
+    "capital": "Tokyo",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "flagAsset": "/assets/flags/jp.svg",
+    "geometryId": "jp",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "Japan is made up of thousands of islands.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Mount Fuji is the highest mountain in Japan.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "cn",
+    "iso2": "cn",
+    "iso3": "CHN",
+    "name": "China",
+    "capital": "Beijing",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "flagAsset": "/assets/flags/cn.svg",
+    "geometryId": "cn",
+    "neighbours": [
+      "in",
+      "kz",
+      "ru",
+      "vn"
+    ],
+    "facts": [
+      {
+        "text": "China has the longest wall ever built, the Great Wall.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Giant pandas live in the bamboo forests of China.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "in",
+    "iso2": "in",
+    "iso3": "IND",
+    "name": "India",
+    "capital": "New Delhi",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "flagAsset": "/assets/flags/in.svg",
+    "geometryId": "in",
+    "neighbours": [
+      "cn"
+    ],
+    "facts": [
+      {
+        "text": "India is the most populated country in the world.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The Taj Mahal in India is a famous white marble building.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "id",
+    "iso2": "id",
+    "iso3": "IDN",
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "continent": "Asia",
+    "region": "South-Eastern Asia",
+    "flagAsset": "/assets/flags/id.svg",
+    "geometryId": "id",
+    "neighbours": [
+      "pg"
+    ],
+    "facts": [
+      {
+        "text": "Indonesia is a country of more than seventeen thousand islands.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its red-and-white flag looks almost the same as Monaco and Poland.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "tr",
+    "iso2": "tr",
+    "iso3": "TUR",
+    "name": "Türkiye",
+    "capital": "Ankara",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/tr.svg",
+    "geometryId": "tr",
+    "neighbours": [
+      "gr"
+    ],
+    "facts": [
+      {
+        "text": "Türkiye sits partly in Europe and partly in Asia.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The city of Istanbul spreads across two continents.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "sa",
+    "iso2": "sa",
+    "iso3": "SAU",
+    "name": "Saudi Arabia",
+    "capital": "Riyadh",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/sa.svg",
+    "geometryId": "sa",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "Saudi Arabia is mostly covered by hot, sandy desert.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "It has some of the largest oil supplies in the world.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "th",
+    "iso2": "th",
+    "iso3": "THA",
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "continent": "Asia",
+    "region": "South-Eastern Asia",
+    "flagAsset": "/assets/flags/th.svg",
+    "geometryId": "th",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "Thailand is famous for its temples and elephants.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "It is the only country in Southeast Asia never ruled by Europeans.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "vn",
+    "iso2": "vn",
+    "iso3": "VNM",
+    "name": "Vietnam",
+    "capital": "Hanoi",
+    "continent": "Asia",
+    "region": "South-Eastern Asia",
+    "flagAsset": "/assets/flags/vn.svg",
+    "geometryId": "vn",
+    "neighbours": [
+      "cn"
+    ],
+    "facts": [
+      {
+        "text": "Vietnam is a long, thin country shaped a bit like the letter S.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Rice grows in flooded fields called paddies all over Vietnam.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "kr",
+    "iso2": "kr",
+    "iso3": "KOR",
+    "name": "South Korea",
+    "capital": "Seoul",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "flagAsset": "/assets/flags/kr.svg",
+    "geometryId": "kr",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "South Korea is known around the world for K-pop music.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its capital, Seoul, is a huge, busy city full of technology.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "kz",
+    "iso2": "kz",
+    "iso3": "KAZ",
+    "name": "Kazakhstan",
+    "capital": "Astana",
+    "continent": "Asia",
+    "region": "Central Asia",
+    "flagAsset": "/assets/flags/kz.svg",
+    "geometryId": "kz",
+    "neighbours": [
+      "cn",
+      "ru"
+    ],
+    "facts": [
+      {
+        "text": "Kazakhstan is the largest country that has no coastline on the ocean.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "It has wide, grassy plains called steppes.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "il",
+    "iso2": "il",
+    "iso3": "ISR",
+    "name": "Israel",
+    "capital": "Jerusalem",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/il.svg",
+    "geometryId": "il",
+    "neighbours": [
+      "eg"
+    ],
+    "facts": [
+      {
+        "text": "Israel is a small country at the eastern end of the Mediterranean Sea.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The Dead Sea there is so salty you can float on top of it.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "fr",
+    "iso2": "fr",
+    "iso3": "FRA",
+    "name": "France",
+    "capital": "Paris",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "flagAsset": "/assets/flags/fr.svg",
+    "geometryId": "fr",
+    "neighbours": [
+      "de",
+      "es",
+      "it"
+    ],
+    "facts": [
+      {
+        "text": "The Eiffel Tower in Paris is over 300 metres tall.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "France has coastlines on both the Atlantic Ocean and the Mediterranean Sea.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "de",
+    "iso2": "de",
+    "iso3": "DEU",
+    "name": "Germany",
+    "capital": "Berlin",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "flagAsset": "/assets/flags/de.svg",
+    "geometryId": "de",
+    "neighbours": [
+      "fr",
+      "nl",
+      "pl"
+    ],
+    "facts": [
+      {
+        "text": "Germany is in the middle of Europe and borders nine countries.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "It is famous for fairy-tale castles and car making.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "it",
+    "iso2": "it",
+    "iso3": "ITA",
+    "name": "Italy",
+    "capital": "Rome",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "flagAsset": "/assets/flags/it.svg",
+    "geometryId": "it",
+    "neighbours": [
+      "fr"
+    ],
+    "facts": [
+      {
+        "text": "Italy is shaped like a boot kicking a ball.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its green-white-red flag is easy to mix up with Mexico and Ireland.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "es",
+    "iso2": "es",
+    "iso3": "ESP",
+    "name": "Spain",
+    "capital": "Madrid",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "flagAsset": "/assets/flags/es.svg",
+    "geometryId": "es",
+    "neighbours": [
+      "fr",
+      "ma"
+    ],
+    "facts": [
+      {
+        "text": "Spain shares a peninsula with Portugal in southwest Europe.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The tomato-throwing festival \"La Tomatina\" happens in Spain.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "gb",
+    "iso2": "gb",
+    "iso3": "GBR",
+    "name": "United Kingdom",
+    "capital": "London",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "flagAsset": "/assets/flags/gb.svg",
+    "geometryId": "gb",
+    "neighbours": [
+      "ie"
+    ],
+    "facts": [
+      {
+        "text": "The United Kingdom is made up of four parts, including England and Scotland.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "London, its capital, has a famous clock tower nicknamed Big Ben.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "nl",
+    "iso2": "nl",
+    "iso3": "NLD",
+    "name": "Netherlands",
+    "capital": "Amsterdam",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "flagAsset": "/assets/flags/nl.svg",
+    "geometryId": "nl",
+    "neighbours": [
+      "de"
+    ],
+    "facts": [
+      {
+        "text": "Much of the Netherlands is below sea level, protected by walls and dikes.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its red-white-blue flag looks a lot like Russia and Luxembourg.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "se",
+    "iso2": "se",
+    "iso3": "SWE",
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "flagAsset": "/assets/flags/se.svg",
+    "geometryId": "se",
+    "neighbours": [
+      "no"
+    ],
+    "facts": [
+      {
+        "text": "Sweden is a long country in northern Europe with many lakes and forests.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "In the far north the sun barely sets in summer.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "no",
+    "iso2": "no",
+    "iso3": "NOR",
+    "name": "Norway",
+    "capital": "Oslo",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "flagAsset": "/assets/flags/no.svg",
+    "geometryId": "no",
+    "neighbours": [
+      "ru",
+      "se"
+    ],
+    "facts": [
+      {
+        "text": "Norway has deep sea inlets called fjords carved by ancient ice.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "You can sometimes see the colourful northern lights in its sky.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "pl",
+    "iso2": "pl",
+    "iso3": "POL",
+    "name": "Poland",
+    "capital": "Warsaw",
+    "continent": "Europe",
+    "region": "Central Europe",
+    "flagAsset": "/assets/flags/pl.svg",
+    "geometryId": "pl",
+    "neighbours": [
+      "de",
+      "ru"
+    ],
+    "facts": [
+      {
+        "text": "Poland is in central Europe and has a long history.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The scientist who studied the stars, Copernicus, came from Poland.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "gr",
+    "iso2": "gr",
+    "iso3": "GRC",
+    "name": "Greece",
+    "capital": "Athens",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "flagAsset": "/assets/flags/gr.svg",
+    "geometryId": "gr",
+    "neighbours": [
+      "tr"
+    ],
+    "facts": [
+      {
+        "text": "Greece has thousands of islands in its warm blue seas.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The very first Olympic Games were held in ancient Greece.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ie",
+    "iso2": "ie",
+    "iso3": "IRL",
+    "name": "Ireland",
+    "capital": "Dublin",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "flagAsset": "/assets/flags/ie.svg",
+    "geometryId": "ie",
+    "neighbours": [
+      "gb"
+    ],
+    "facts": [
+      {
+        "text": "Ireland is a green island famous for its rolling hills.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its green-white-orange flag can be confused with Italy and Côte d’Ivoire.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ru",
+    "iso2": "ru",
+    "iso3": "RUS",
+    "name": "Russia",
+    "capital": "Moscow",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "flagAsset": "/assets/flags/ru.svg",
+    "geometryId": "ru",
+    "neighbours": [
+      "cn",
+      "kz",
+      "no",
+      "pl"
+    ],
+    "facts": [
+      {
+        "text": "Russia is the largest country in the world by land.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "It stretches across two continents and many time zones.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "us",
+    "iso2": "us",
+    "iso3": "USA",
+    "name": "United States",
+    "capital": "Washington D.C.",
+    "continent": "North America",
+    "region": "North America",
+    "flagAsset": "/assets/flags/us.svg",
+    "geometryId": "us",
+    "neighbours": [
+      "ca",
+      "mx"
+    ],
+    "facts": [
+      {
+        "text": "The United States has 50 states and a striped-and-starred flag.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The Grand Canyon is a giant valley carved by a river.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ca",
+    "iso2": "ca",
+    "iso3": "CAN",
+    "name": "Canada",
+    "capital": "Ottawa",
+    "continent": "North America",
+    "region": "North America",
+    "flagAsset": "/assets/flags/ca.svg",
+    "geometryId": "ca",
+    "neighbours": [
+      "us"
+    ],
+    "facts": [
+      {
+        "text": "Canada is the second-largest country in the world.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "A red maple leaf sits in the middle of its flag.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "mx",
+    "iso2": "mx",
+    "iso3": "MEX",
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "continent": "North America",
+    "region": "North America",
+    "flagAsset": "/assets/flags/mx.svg",
+    "geometryId": "mx",
+    "neighbours": [
+      "gt",
+      "us"
+    ],
+    "facts": [
+      {
+        "text": "Mexico has ancient pyramids built by the Maya and Aztec peoples.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its green-white-red flag has an eagle in the centre.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "cu",
+    "iso2": "cu",
+    "iso3": "CUB",
+    "name": "Cuba",
+    "capital": "Havana",
+    "continent": "North America",
+    "region": "Caribbean",
+    "flagAsset": "/assets/flags/cu.svg",
+    "geometryId": "cu",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "Cuba is the largest island in the Caribbean Sea.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Colourful vintage cars are a common sight on its streets.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "jm",
+    "iso2": "jm",
+    "iso3": "JAM",
+    "name": "Jamaica",
+    "capital": "Kingston",
+    "continent": "North America",
+    "region": "Caribbean",
+    "flagAsset": "/assets/flags/jm.svg",
+    "geometryId": "jm",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "Jamaica is a Caribbean island famous for reggae music.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its flag is the only national flag with no red, white or blue.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "cr",
+    "iso2": "cr",
+    "iso3": "CRI",
+    "name": "Costa Rica",
+    "capital": "San José",
+    "continent": "North America",
+    "region": "Central America",
+    "flagAsset": "/assets/flags/cr.svg",
+    "geometryId": "cr",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "Costa Rica is a small country full of rainforests and volcanoes.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "It protects huge numbers of plants and animals in its parks.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "gt",
+    "iso2": "gt",
+    "iso3": "GTM",
+    "name": "Guatemala",
+    "capital": "Guatemala City",
+    "continent": "North America",
+    "region": "Central America",
+    "flagAsset": "/assets/flags/gt.svg",
+    "geometryId": "gt",
+    "neighbours": [
+      "mx"
+    ],
+    "facts": [
+      {
+        "text": "Guatemala is in Central America and has many active volcanoes.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The colourful quetzal bird gives its name to the country’s money.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "br",
+    "iso2": "br",
+    "iso3": "BRA",
+    "name": "Brazil",
+    "capital": "Brasília",
+    "continent": "South America",
+    "region": "South America",
+    "flagAsset": "/assets/flags/br.svg",
+    "geometryId": "br",
+    "neighbours": [
+      "ar",
+      "co",
+      "pe",
+      "ve"
+    ],
+    "facts": [
+      {
+        "text": "Brazil is the largest country in South America.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The Amazon rainforest covers much of northern Brazil.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ar",
+    "iso2": "ar",
+    "iso3": "ARG",
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "continent": "South America",
+    "region": "South America",
+    "flagAsset": "/assets/flags/ar.svg",
+    "geometryId": "ar",
+    "neighbours": [
+      "br",
+      "cl"
+    ],
+    "facts": [
+      {
+        "text": "Argentina is famous for football and a dance called the tango.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The southern tip of Argentina is one of the closest places to Antarctica.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "cl",
+    "iso2": "cl",
+    "iso3": "CHL",
+    "name": "Chile",
+    "capital": "Santiago",
+    "continent": "South America",
+    "region": "South America",
+    "flagAsset": "/assets/flags/cl.svg",
+    "geometryId": "cl",
+    "neighbours": [
+      "ar",
+      "pe"
+    ],
+    "facts": [
+      {
+        "text": "Chile is a very long, thin country along the Pacific coast.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The Atacama Desert in Chile is one of the driest places on Earth.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "pe",
+    "iso2": "pe",
+    "iso3": "PER",
+    "name": "Peru",
+    "capital": "Lima",
+    "continent": "South America",
+    "region": "South America",
+    "flagAsset": "/assets/flags/pe.svg",
+    "geometryId": "pe",
+    "neighbours": [
+      "br",
+      "cl",
+      "co"
+    ],
+    "facts": [
+      {
+        "text": "Peru is home to the ancient mountain city of Machu Picchu.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Fluffy llamas and alpacas live high in the Andes mountains.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "co",
+    "iso2": "co",
+    "iso3": "COL",
+    "name": "Colombia",
+    "capital": "Bogotá",
+    "continent": "South America",
+    "region": "South America",
+    "flagAsset": "/assets/flags/co.svg",
+    "geometryId": "co",
+    "neighbours": [
+      "br",
+      "pe",
+      "ve"
+    ],
+    "facts": [
+      {
+        "text": "Colombia grows some of the world’s best-known coffee.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its yellow-blue-red flag is similar to Venezuela and Ecuador.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ve",
+    "iso2": "ve",
+    "iso3": "VEN",
+    "name": "Venezuela",
+    "capital": "Caracas",
+    "continent": "South America",
+    "region": "South America",
+    "flagAsset": "/assets/flags/ve.svg",
+    "geometryId": "ve",
+    "neighbours": [
+      "br",
+      "co"
+    ],
+    "facts": [
+      {
+        "text": "Venezuela has Angel Falls, the highest waterfall in the world.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its yellow-blue-red flag is easy to confuse with Colombia and Ecuador.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "au",
+    "iso2": "au",
+    "iso3": "AUS",
+    "name": "Australia",
+    "capital": "Canberra",
+    "continent": "Oceania",
+    "region": "Australia and New Zealand",
+    "flagAsset": "/assets/flags/au.svg",
+    "geometryId": "au",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "Australia is both a country and a continent.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Kangaroos and koalas live only in the wild in Australia.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "nz",
+    "iso2": "nz",
+    "iso3": "NZL",
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "continent": "Oceania",
+    "region": "Australia and New Zealand",
+    "flagAsset": "/assets/flags/nz.svg",
+    "geometryId": "nz",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "New Zealand is made of two main islands and lots of smaller ones.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its blue flag with stars looks a lot like Australia’s.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "fj",
+    "iso2": "fj",
+    "iso3": "FJI",
+    "name": "Fiji",
+    "capital": "Suva",
+    "continent": "Oceania",
+    "region": "Melanesia",
+    "flagAsset": "/assets/flags/fj.svg",
+    "geometryId": "fj",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "Fiji is a group of more than 300 islands in the Pacific Ocean.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Warm seas and coral reefs surround its islands.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "pg",
+    "iso2": "pg",
+    "iso3": "PNG",
+    "name": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "continent": "Oceania",
+    "region": "Melanesia",
+    "flagAsset": "/assets/flags/pg.svg",
+    "geometryId": "pg",
+    "neighbours": [
+      "id"
+    ],
+    "facts": [
+      {
+        "text": "Papua New Guinea has hundreds of different languages.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Thick rainforests cover much of the country.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  }
+]

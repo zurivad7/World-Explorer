@@ -8,13 +8,37 @@ open questions to resolve. The product source of truth is [`docs/PRD.md`](docs/P
 | Phase | Status |
 | --- | --- |
 | 0 Foundation | ✅ Complete |
-| 1 Content (50-country slice) | ⏳ Next |
-| 2 Map | ⬜ Not started |
+| 1 Content (50-country slice) | ✅ Complete |
+| 2 Map | ⏳ Next |
 | 3 Game engine | 🟡 Skeleton in place (`src/lib/game-engine`) |
 | 4 Games | ⬜ Not started |
 | 5 Progress | 🟡 Storage layer in place (`src/lib/storage`) |
-| 6 Offline/PWA | 🟡 Manifest + service worker configured |
+| 6 Offline/PWA | 🟡 Manifest + service worker configured; flags precached |
 | 7 QA | ⬜ Not started |
+
+## Content pipeline (Phase 1)
+
+Geography content is **generated and validated at build time**, then committed:
+
+- **Authored source** — `src/data/countries/source.ts` (the 50-country slice: which
+  countries, child-friendly facts, difficulty hints, continent overrides) and
+  `src/data/flags/templates.ts` (simplified flags for Flag Builder).
+- **Generator** — `scripts/build-content.ts` (`npm run build:content`) pulls
+  metadata from `world-countries`, copies flag SVGs from `flag-icons` into
+  `public/assets/flags/`, runs the pure generators in `src/data/generate.ts`, and
+  writes `src/data/countries/countries.generated.json` +
+  `src/data/questions/questions.generated.json`.
+- **Questions are templated, not AI-generated** (PRD §4) — deterministic templates
+  over reviewed country data, so the bank is reproducible and reviewable. Current
+  bank: 50 countries, 362 questions (flag 100, capital 100, continent 50, map 50,
+  detective 50, flag-builder 12).
+- **Validation** — `npm run validate:content` runs structural/referential checks
+  (`validateContent`) **and** MVP completeness gates (`validateCompleteness`:
+  ≥50 countries, all inhabited continents, ≥10 questions/mode, flag+capital+geometry
+  present). Both gate CI.
+- Geography/continent conventions and source attributions: see
+  `docs/geography-conventions.md` and `NOTICE.md`. When changing content, edit the
+  source files, run `build:content`, and commit the regenerated JSON + flags.
 
 ## Decisions
 
@@ -51,13 +75,14 @@ open questions to resolve. The product source of truth is [`docs/PRD.md`](docs/P
 
 ## Open questions / to document
 
-- **Disputed & transcontinental geography (PRD §7.3, §15):** need a documented,
-  reviewed convention for cases like Russia/Turkey (Europe vs Asia), Egypt, and
-  disputed territories **before** authoring the 50-country slice. Tracked for Phase 1.
-- **Flag asset licensing:** confirm the chosen flag set's licence and add attribution
-  where required (PRD §15).
-- **Map tile provider & attribution:** select an OSM-compatible tile provider and
-  wire required attribution before Phase 2 ships (PRD §16, §35).
+- ~~**Disputed & transcontinental geography**~~ — resolved in
+  `docs/geography-conventions.md` (Russia→Europe, Türkiye/Kazakhstan→Asia, Egypt→Africa).
+- ~~**Flag asset licensing**~~ — flag-icons is MIT, world-countries is ODbL;
+  attribution recorded in `NOTICE.md`.
+- **Map tile provider & attribution (Phase 2):** select an OSM-compatible tile
+  provider and wire required attribution before Phase 2 ships (PRD §16, §35). Each
+  country already has a stable `geometryId` (currently = its id) ready to bind to
+  real geometry.
 - **Flag Builder templates (PRD §7.6):** decide the controlled template format for
   simplified flags.
 - **Icons:** `public/icons/*` are solid-colour placeholders. Replace with designed
@@ -72,6 +97,7 @@ npm run typecheck        # tsc project references, no emit
 npm run lint             # eslint
 npm run test             # vitest (unit + component)
 npm run test:e2e         # playwright (requires browsers installed)
-npm run validate:content # content integrity checks
+npm run build:content    # regenerate country + question data from sources
+npm run validate:content # content integrity + MVP completeness checks
 npm run build            # typecheck + production build
 ```

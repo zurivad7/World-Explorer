@@ -1,12 +1,48 @@
 import { describe, expect, it } from 'vitest';
 import { achievements, countries, questions } from '@/data';
-import { validateContent } from '@/data/validate';
+import {
+  MVP_GAME_MODES,
+  MVP_MIN_COUNTRIES,
+  MVP_MIN_QUESTIONS_PER_MODE,
+  validateCompleteness,
+  validateContent,
+} from '@/data/validate';
 import type { Country, Question } from '@/types';
 
-describe('validateContent — shipped seed content', () => {
+describe('shipped content — structural', () => {
   it('has no errors', () => {
     const { errors } = validateContent({ countries, questions, achievements });
     expect(errors).toEqual([]);
+  });
+});
+
+describe('shipped content — MVP completeness (PRD §24)', () => {
+  it('meets every completeness gate', () => {
+    const { errors } = validateCompleteness({ countries, questions, achievements });
+    expect(errors).toEqual([]);
+  });
+
+  it(`ships at least ${MVP_MIN_COUNTRIES} countries across all inhabited continents`, () => {
+    expect(countries.length).toBeGreaterThanOrEqual(MVP_MIN_COUNTRIES);
+    const continents = new Set(countries.map((c) => c.continent));
+    for (const cont of ['Africa', 'Asia', 'Europe', 'North America', 'South America', 'Oceania']) {
+      expect(continents).toContain(cont);
+    }
+  });
+
+  it(`ships at least ${MVP_MIN_QUESTIONS_PER_MODE} questions for every game mode`, () => {
+    for (const mode of MVP_GAME_MODES) {
+      const count = questions.filter((q) => q.type === mode).length;
+      expect(count).toBeGreaterThanOrEqual(MVP_MIN_QUESTIONS_PER_MODE);
+    }
+  });
+
+  it('gives every country a flag, capital and geometry id', () => {
+    for (const c of countries) {
+      expect(c.flagAsset).toBeTruthy();
+      expect(c.capital).toBeTruthy();
+      expect(c.geometryId).toBeTruthy();
+    }
   });
 });
 

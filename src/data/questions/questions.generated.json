@@ -1,0 +1,7904 @@
+[
+  {
+    "id": "flag-detective-flag-eg",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "gh",
+      "et",
+      "eg",
+      "ke"
+    ],
+    "correctAnswer": "eg",
+    "explanation": "This is the flag of Egypt. Its capital is Cairo and it is in Africa.",
+    "countryId": "eg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-eg",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Egypt?",
+    "options": [
+      "gh",
+      "ml",
+      "eg",
+      "ke"
+    ],
+    "correctAnswer": "eg",
+    "explanation": "Egypt's flag is shown. Its capital is Cairo.",
+    "countryId": "eg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-eg",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Egypt?",
+    "options": [
+      "Cairo",
+      "Nairobi",
+      "Bamako",
+      "Rabat"
+    ],
+    "correctAnswer": "Cairo",
+    "explanation": "The capital of Egypt is Cairo.",
+    "countryId": "eg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-eg",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Cairo is the capital of which country?",
+    "options": [
+      "eg",
+      "ml",
+      "ma",
+      "ng"
+    ],
+    "correctAnswer": "eg",
+    "explanation": "Cairo is the capital of Egypt.",
+    "countryId": "eg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-eg",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Egypt in?",
+    "options": [
+      "Africa",
+      "North America",
+      "South America",
+      "Europe"
+    ],
+    "correctAnswer": "Africa",
+    "explanation": "Egypt is in Africa.",
+    "countryId": "eg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-eg",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Egypt.",
+    "options": [
+      "ng",
+      "sn",
+      "eg",
+      "ma"
+    ],
+    "correctAnswer": "eg",
+    "explanation": "Egypt is in Africa. Its capital is Cairo.",
+    "countryId": "eg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-eg",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Africa. Its capital city is Cairo. It shares a border with Israel.",
+    "options": [
+      "sn",
+      "za",
+      "ng",
+      "eg"
+    ],
+    "correctAnswer": "eg",
+    "explanation": "The answer is Egypt, in Africa, capital Cairo.",
+    "countryId": "eg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-za",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "et",
+      "za",
+      "ke",
+      "gh"
+    ],
+    "correctAnswer": "za",
+    "explanation": "This is the flag of South Africa. Its capital is Pretoria and it is in Africa.",
+    "countryId": "za",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-za",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to South Africa?",
+    "options": [
+      "ke",
+      "gh",
+      "za",
+      "ml"
+    ],
+    "correctAnswer": "za",
+    "explanation": "South Africa's flag is shown. Its capital is Pretoria.",
+    "countryId": "za",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-za",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of South Africa?",
+    "options": [
+      "Rabat",
+      "Pretoria",
+      "Nairobi",
+      "Bamako"
+    ],
+    "correctAnswer": "Pretoria",
+    "explanation": "The capital of South Africa is Pretoria.",
+    "countryId": "za",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-za",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Pretoria is the capital of which country?",
+    "options": [
+      "ml",
+      "ng",
+      "za",
+      "ma"
+    ],
+    "correctAnswer": "za",
+    "explanation": "Pretoria is the capital of South Africa.",
+    "countryId": "za",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-za",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is South Africa in?",
+    "options": [
+      "North America",
+      "Oceania",
+      "Asia",
+      "Africa"
+    ],
+    "correctAnswer": "Africa",
+    "explanation": "South Africa is in Africa.",
+    "countryId": "za",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-za",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find South Africa.",
+    "options": [
+      "ma",
+      "sn",
+      "ng",
+      "za"
+    ],
+    "correctAnswer": "za",
+    "explanation": "South Africa is in Africa. Its capital is Pretoria.",
+    "countryId": "za",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-za",
+    "type": "geography-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Africa. Its capital city is Pretoria. Its region is Southern Africa.",
+    "options": [
+      "za",
+      "tz",
+      "sn",
+      "ng"
+    ],
+    "correctAnswer": "za",
+    "explanation": "The answer is South Africa, in Africa, capital Pretoria.",
+    "countryId": "za",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-ng",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "gh",
+      "ke",
+      "ml",
+      "ng"
+    ],
+    "correctAnswer": "ng",
+    "explanation": "This is the flag of Nigeria. Its capital is Abuja and it is in Africa.",
+    "countryId": "ng",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-ng",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Nigeria?",
+    "options": [
+      "ng",
+      "ma",
+      "ml",
+      "ke"
+    ],
+    "correctAnswer": "ng",
+    "explanation": "Nigeria's flag is shown. Its capital is Abuja.",
+    "countryId": "ng",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-ng",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Nigeria?",
+    "options": [
+      "Bamako",
+      "Dakar",
+      "Rabat",
+      "Abuja"
+    ],
+    "correctAnswer": "Abuja",
+    "explanation": "The capital of Nigeria is Abuja.",
+    "countryId": "ng",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-ng",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Abuja is the capital of which country?",
+    "options": [
+      "sn",
+      "za",
+      "ma",
+      "ng"
+    ],
+    "correctAnswer": "ng",
+    "explanation": "Abuja is the capital of Nigeria.",
+    "countryId": "ng",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-ng",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Nigeria in?",
+    "options": [
+      "North America",
+      "Africa",
+      "Asia",
+      "Europe"
+    ],
+    "correctAnswer": "Africa",
+    "explanation": "Nigeria is in Africa.",
+    "countryId": "ng",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-ng",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Nigeria.",
+    "options": [
+      "sn",
+      "tz",
+      "ng",
+      "za"
+    ],
+    "correctAnswer": "ng",
+    "explanation": "Nigeria is in Africa. Its capital is Abuja.",
+    "countryId": "ng",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-ng",
+    "type": "geography-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Africa. Its capital city is Abuja. Its region is Western Africa.",
+    "options": [
+      "ng",
+      "tz",
+      "za",
+      "ar"
+    ],
+    "correctAnswer": "ng",
+    "explanation": "The answer is Nigeria, in Africa, capital Abuja.",
+    "countryId": "ng",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-ke",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "ke",
+      "ml",
+      "ma",
+      "ng"
+    ],
+    "correctAnswer": "ke",
+    "explanation": "This is the flag of Kenya. Its capital is Nairobi and it is in Africa.",
+    "countryId": "ke",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-ke",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Kenya?",
+    "options": [
+      "sn",
+      "ke",
+      "ma",
+      "ng"
+    ],
+    "correctAnswer": "ke",
+    "explanation": "Kenya's flag is shown. Its capital is Nairobi.",
+    "countryId": "ke",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-ke",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Kenya?",
+    "options": [
+      "Nairobi",
+      "Abuja",
+      "Dakar",
+      "Pretoria"
+    ],
+    "correctAnswer": "Nairobi",
+    "explanation": "The capital of Kenya is Nairobi.",
+    "countryId": "ke",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-ke",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Nairobi is the capital of which country?",
+    "options": [
+      "za",
+      "sn",
+      "ke",
+      "tz"
+    ],
+    "correctAnswer": "ke",
+    "explanation": "Nairobi is the capital of Kenya.",
+    "countryId": "ke",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-ke",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Kenya in?",
+    "options": [
+      "North America",
+      "South America",
+      "Africa",
+      "Oceania"
+    ],
+    "correctAnswer": "Africa",
+    "explanation": "Kenya is in Africa.",
+    "countryId": "ke",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-ke",
+    "type": "map-find-it",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Kenya.",
+    "options": [
+      "ke",
+      "ar",
+      "tz",
+      "za"
+    ],
+    "correctAnswer": "ke",
+    "explanation": "Kenya is in Africa. Its capital is Nairobi.",
+    "countryId": "ke",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-ke",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Africa. Its capital city is Nairobi. It shares a border with Ethiopia.",
+    "options": [
+      "tz",
+      "au",
+      "ar",
+      "ke"
+    ],
+    "correctAnswer": "ke",
+    "explanation": "The answer is Kenya, in Africa, capital Nairobi.",
+    "countryId": "ke",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-ma",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "ng",
+      "sn",
+      "ma",
+      "ml"
+    ],
+    "correctAnswer": "ma",
+    "explanation": "This is the flag of Morocco. Its capital is Rabat and it is in Africa.",
+    "countryId": "ma",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-ma",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Morocco?",
+    "options": [
+      "ng",
+      "za",
+      "sn",
+      "ma"
+    ],
+    "correctAnswer": "ma",
+    "explanation": "Morocco's flag is shown. Its capital is Rabat.",
+    "countryId": "ma",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-ma",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Morocco?",
+    "options": [
+      "Pretoria",
+      "Dodoma",
+      "Rabat",
+      "Dakar"
+    ],
+    "correctAnswer": "Rabat",
+    "explanation": "The capital of Morocco is Rabat.",
+    "countryId": "ma",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-ma",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Rabat is the capital of which country?",
+    "options": [
+      "ma",
+      "tz",
+      "ar",
+      "za"
+    ],
+    "correctAnswer": "ma",
+    "explanation": "Rabat is the capital of Morocco.",
+    "countryId": "ma",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-ma",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Morocco in?",
+    "options": [
+      "Africa",
+      "Europe",
+      "Oceania",
+      "Asia"
+    ],
+    "correctAnswer": "Africa",
+    "explanation": "Morocco is in Africa.",
+    "countryId": "ma",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-ma",
+    "type": "map-find-it",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Morocco.",
+    "options": [
+      "ar",
+      "tz",
+      "ma",
+      "au"
+    ],
+    "correctAnswer": "ma",
+    "explanation": "Morocco is in Africa. Its capital is Rabat.",
+    "countryId": "ma",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-ma",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Africa. Its capital city is Rabat. It shares a border with Spain.",
+    "options": [
+      "br",
+      "ma",
+      "ar",
+      "au"
+    ],
+    "correctAnswer": "ma",
+    "explanation": "The answer is Morocco, in Africa, capital Rabat.",
+    "countryId": "ma",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-et",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "ng",
+      "et",
+      "za",
+      "sn"
+    ],
+    "correctAnswer": "et",
+    "explanation": "This is the flag of Ethiopia. Its capital is Addis Ababa and it is in Africa.",
+    "countryId": "et",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-et",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Ethiopia?",
+    "options": [
+      "za",
+      "sn",
+      "et",
+      "tz"
+    ],
+    "correctAnswer": "et",
+    "explanation": "Ethiopia's flag is shown. Its capital is Addis Ababa.",
+    "countryId": "et",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-et",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Ethiopia?",
+    "options": [
+      "Pretoria",
+      "Addis Ababa",
+      "Buenos Aires",
+      "Dodoma"
+    ],
+    "correctAnswer": "Addis Ababa",
+    "explanation": "The capital of Ethiopia is Addis Ababa.",
+    "countryId": "et",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-et",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Addis Ababa is the capital of which country?",
+    "options": [
+      "tz",
+      "au",
+      "et",
+      "ar"
+    ],
+    "correctAnswer": "et",
+    "explanation": "Addis Ababa is the capital of Ethiopia.",
+    "countryId": "et",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-et",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Ethiopia in?",
+    "options": [
+      "Asia",
+      "North America",
+      "South America",
+      "Africa"
+    ],
+    "correctAnswer": "Africa",
+    "explanation": "Ethiopia is in Africa.",
+    "countryId": "et",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-et",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Ethiopia.",
+    "options": [
+      "ar",
+      "au",
+      "br",
+      "et"
+    ],
+    "correctAnswer": "et",
+    "explanation": "Ethiopia is in Africa. Its capital is Addis Ababa.",
+    "countryId": "et",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-et",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Africa. Its capital city is Addis Ababa. It shares a border with Kenya.",
+    "options": [
+      "br",
+      "ca",
+      "et",
+      "au"
+    ],
+    "correctAnswer": "et",
+    "explanation": "The answer is Ethiopia, in Africa, capital Addis Ababa.",
+    "countryId": "et",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-gh",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "sn",
+      "za",
+      "tz",
+      "gh"
+    ],
+    "correctAnswer": "gh",
+    "explanation": "This is the flag of Ghana. Its capital is Accra and it is in Africa.",
+    "countryId": "gh",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-gh",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Ghana?",
+    "options": [
+      "gh",
+      "ar",
+      "tz",
+      "za"
+    ],
+    "correctAnswer": "gh",
+    "explanation": "Ghana's flag is shown. Its capital is Accra.",
+    "countryId": "gh",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-gh",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Ghana?",
+    "options": [
+      "Dodoma",
+      "Canberra",
+      "Buenos Aires",
+      "Accra"
+    ],
+    "correctAnswer": "Accra",
+    "explanation": "The capital of Ghana is Accra.",
+    "countryId": "gh",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-gh",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Accra is the capital of which country?",
+    "options": [
+      "au",
+      "br",
+      "ar",
+      "gh"
+    ],
+    "correctAnswer": "gh",
+    "explanation": "Accra is the capital of Ghana.",
+    "countryId": "gh",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-gh",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Ghana in?",
+    "options": [
+      "North America",
+      "Africa",
+      "Asia",
+      "Europe"
+    ],
+    "correctAnswer": "Africa",
+    "explanation": "Ghana is in Africa.",
+    "countryId": "gh",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-gh",
+    "type": "map-find-it",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Ghana.",
+    "options": [
+      "au",
+      "ca",
+      "gh",
+      "br"
+    ],
+    "correctAnswer": "gh",
+    "explanation": "Ghana is in Africa. Its capital is Accra.",
+    "countryId": "gh",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-gh",
+    "type": "geography-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Africa. Its capital city is Accra. Its region is Western Africa.",
+    "options": [
+      "gh",
+      "br",
+      "ca",
+      "cl"
+    ],
+    "correctAnswer": "gh",
+    "explanation": "The answer is Ghana, in Africa, capital Accra.",
+    "countryId": "gh",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-sn",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "ar",
+      "sn",
+      "za",
+      "tz"
+    ],
+    "correctAnswer": "sn",
+    "explanation": "This is the flag of Senegal. Its capital is Dakar and it is in Africa.",
+    "countryId": "sn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-sn",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Senegal?",
+    "options": [
+      "sn",
+      "tz",
+      "ar",
+      "au"
+    ],
+    "correctAnswer": "sn",
+    "explanation": "Senegal's flag is shown. Its capital is Dakar.",
+    "countryId": "sn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-sn",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Senegal?",
+    "options": [
+      "Buenos Aires",
+      "Dakar",
+      "Brasília",
+      "Canberra"
+    ],
+    "correctAnswer": "Dakar",
+    "explanation": "The capital of Senegal is Dakar.",
+    "countryId": "sn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-sn",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Dakar is the capital of which country?",
+    "options": [
+      "au",
+      "sn",
+      "ca",
+      "br"
+    ],
+    "correctAnswer": "sn",
+    "explanation": "Dakar is the capital of Senegal.",
+    "countryId": "sn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-sn",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Senegal in?",
+    "options": [
+      "Asia",
+      "South America",
+      "Oceania",
+      "Africa"
+    ],
+    "correctAnswer": "Africa",
+    "explanation": "Senegal is in Africa.",
+    "countryId": "sn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-sn",
+    "type": "map-find-it",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Senegal.",
+    "options": [
+      "br",
+      "ca",
+      "cl",
+      "sn"
+    ],
+    "correctAnswer": "sn",
+    "explanation": "Senegal is in Africa. Its capital is Dakar.",
+    "countryId": "sn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-sn",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Africa. Its capital city is Dakar. It shares a border with Mali.",
+    "options": [
+      "sn",
+      "cl",
+      "cn",
+      "ca"
+    ],
+    "correctAnswer": "sn",
+    "explanation": "The answer is Senegal, in Africa, capital Dakar.",
+    "countryId": "sn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-ml",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "tz",
+      "au",
+      "ml",
+      "ar"
+    ],
+    "correctAnswer": "ml",
+    "explanation": "This is the flag of Mali. Its capital is Bamako and it is in Africa.",
+    "countryId": "ml",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-ml",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Mali?",
+    "options": [
+      "au",
+      "ar",
+      "ml",
+      "br"
+    ],
+    "correctAnswer": "ml",
+    "explanation": "Mali's flag is shown. Its capital is Bamako.",
+    "countryId": "ml",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-ml",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Mali?",
+    "options": [
+      "Ottawa",
+      "Bamako",
+      "Canberra",
+      "Brasília"
+    ],
+    "correctAnswer": "Bamako",
+    "explanation": "The capital of Mali is Bamako.",
+    "countryId": "ml",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-ml",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Bamako is the capital of which country?",
+    "options": [
+      "cl",
+      "ml",
+      "br",
+      "ca"
+    ],
+    "correctAnswer": "ml",
+    "explanation": "Bamako is the capital of Mali.",
+    "countryId": "ml",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-ml",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Mali in?",
+    "options": [
+      "North America",
+      "South America",
+      "Oceania",
+      "Africa"
+    ],
+    "correctAnswer": "Africa",
+    "explanation": "Mali is in Africa.",
+    "countryId": "ml",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-ml",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Mali.",
+    "options": [
+      "ca",
+      "cl",
+      "cn",
+      "ml"
+    ],
+    "correctAnswer": "ml",
+    "explanation": "Mali is in Africa. Its capital is Bamako.",
+    "countryId": "ml",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-ml",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Africa. Its capital city is Bamako. It shares a border with Senegal.",
+    "options": [
+      "ml",
+      "co",
+      "cn",
+      "cl"
+    ],
+    "correctAnswer": "ml",
+    "explanation": "The answer is Mali, in Africa, capital Bamako.",
+    "countryId": "ml",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-tz",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "tz",
+      "br",
+      "au",
+      "ar"
+    ],
+    "correctAnswer": "tz",
+    "explanation": "This is the flag of Tanzania. Its capital is Dodoma and it is in Africa.",
+    "countryId": "tz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-tz",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Tanzania?",
+    "options": [
+      "au",
+      "br",
+      "ca",
+      "tz"
+    ],
+    "correctAnswer": "tz",
+    "explanation": "Tanzania's flag is shown. Its capital is Dodoma.",
+    "countryId": "tz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-tz",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Tanzania?",
+    "options": [
+      "Dodoma",
+      "Santiago",
+      "Ottawa",
+      "Brasília"
+    ],
+    "correctAnswer": "Dodoma",
+    "explanation": "The capital of Tanzania is Dodoma.",
+    "countryId": "tz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-tz",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Dodoma is the capital of which country?",
+    "options": [
+      "cl",
+      "cn",
+      "tz",
+      "ca"
+    ],
+    "correctAnswer": "tz",
+    "explanation": "Dodoma is the capital of Tanzania.",
+    "countryId": "tz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-tz",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Tanzania in?",
+    "options": [
+      "Asia",
+      "South America",
+      "Africa",
+      "Oceania"
+    ],
+    "correctAnswer": "Africa",
+    "explanation": "Tanzania is in Africa.",
+    "countryId": "tz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-tz",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Tanzania.",
+    "options": [
+      "tz",
+      "cl",
+      "cn",
+      "co"
+    ],
+    "correctAnswer": "tz",
+    "explanation": "Tanzania is in Africa. Its capital is Dodoma.",
+    "countryId": "tz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-tz",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Africa. Its capital city is Dodoma. It shares a border with Kenya.",
+    "options": [
+      "cn",
+      "tz",
+      "cr",
+      "co"
+    ],
+    "correctAnswer": "tz",
+    "explanation": "The answer is Tanzania, in Africa, capital Dodoma.",
+    "countryId": "tz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-jp",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "jp",
+      "br",
+      "au",
+      "ar"
+    ],
+    "correctAnswer": "jp",
+    "explanation": "This is the flag of Japan. Its capital is Tokyo and it is in Asia.",
+    "countryId": "jp",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-jp",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Japan?",
+    "options": [
+      "au",
+      "br",
+      "ca",
+      "jp"
+    ],
+    "correctAnswer": "jp",
+    "explanation": "Japan's flag is shown. Its capital is Tokyo.",
+    "countryId": "jp",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-jp",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Japan?",
+    "options": [
+      "Ottawa",
+      "Santiago",
+      "Tokyo",
+      "Brasília"
+    ],
+    "correctAnswer": "Tokyo",
+    "explanation": "The capital of Japan is Tokyo.",
+    "countryId": "jp",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-jp",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Tokyo is the capital of which country?",
+    "options": [
+      "cl",
+      "co",
+      "jp",
+      "ca"
+    ],
+    "correctAnswer": "jp",
+    "explanation": "Tokyo is the capital of Japan.",
+    "countryId": "jp",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-jp",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Japan in?",
+    "options": [
+      "Africa",
+      "Oceania",
+      "Asia",
+      "Europe"
+    ],
+    "correctAnswer": "Asia",
+    "explanation": "Japan is in Asia.",
+    "countryId": "jp",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-jp",
+    "type": "map-find-it",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Japan.",
+    "options": [
+      "jp",
+      "co",
+      "cl",
+      "cr"
+    ],
+    "correctAnswer": "jp",
+    "explanation": "Japan is in Asia. Its capital is Tokyo.",
+    "countryId": "jp",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-jp",
+    "type": "geography-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Asia. Its capital city is Tokyo. Its region is Eastern Asia.",
+    "options": [
+      "co",
+      "jp",
+      "cu",
+      "cr"
+    ],
+    "correctAnswer": "jp",
+    "explanation": "The answer is Japan, in Asia, capital Tokyo.",
+    "countryId": "jp",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-cn",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "ca",
+      "cn",
+      "au",
+      "br"
+    ],
+    "correctAnswer": "cn",
+    "explanation": "This is the flag of China. Its capital is Beijing and it is in Asia.",
+    "countryId": "cn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-cn",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to China?",
+    "options": [
+      "cn",
+      "ca",
+      "br",
+      "cl"
+    ],
+    "correctAnswer": "cn",
+    "explanation": "China's flag is shown. Its capital is Beijing.",
+    "countryId": "cn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-cn",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of China?",
+    "options": [
+      "Ottawa",
+      "Bogotá",
+      "Beijing",
+      "Santiago"
+    ],
+    "correctAnswer": "Beijing",
+    "explanation": "The capital of China is Beijing.",
+    "countryId": "cn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-cn",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Beijing is the capital of which country?",
+    "options": [
+      "cl",
+      "cn",
+      "cr",
+      "co"
+    ],
+    "correctAnswer": "cn",
+    "explanation": "Beijing is the capital of China.",
+    "countryId": "cn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-cn",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is China in?",
+    "options": [
+      "Oceania",
+      "Africa",
+      "South America",
+      "Asia"
+    ],
+    "correctAnswer": "Asia",
+    "explanation": "China is in Asia.",
+    "countryId": "cn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-cn",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find China.",
+    "options": [
+      "cr",
+      "cu",
+      "co",
+      "cn"
+    ],
+    "correctAnswer": "cn",
+    "explanation": "China is in Asia. Its capital is Beijing.",
+    "countryId": "cn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-cn",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Asia. Its capital city is Beijing. It shares a border with India.",
+    "options": [
+      "cn",
+      "cu",
+      "eg",
+      "cr"
+    ],
+    "correctAnswer": "cn",
+    "explanation": "The answer is China, in Asia, capital Beijing.",
+    "countryId": "cn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-in",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "ca",
+      "cl",
+      "br",
+      "in"
+    ],
+    "correctAnswer": "in",
+    "explanation": "This is the flag of India. Its capital is New Delhi and it is in Asia.",
+    "countryId": "in",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-in",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to India?",
+    "options": [
+      "in",
+      "cl",
+      "co",
+      "ca"
+    ],
+    "correctAnswer": "in",
+    "explanation": "India's flag is shown. Its capital is New Delhi.",
+    "countryId": "in",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-in",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of India?",
+    "options": [
+      "Santiago",
+      "San José",
+      "Bogotá",
+      "New Delhi"
+    ],
+    "correctAnswer": "New Delhi",
+    "explanation": "The capital of India is New Delhi.",
+    "countryId": "in",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-in",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "New Delhi is the capital of which country?",
+    "options": [
+      "co",
+      "cu",
+      "cr",
+      "in"
+    ],
+    "correctAnswer": "in",
+    "explanation": "New Delhi is the capital of India.",
+    "countryId": "in",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-in",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is India in?",
+    "options": [
+      "Oceania",
+      "Europe",
+      "Asia",
+      "North America"
+    ],
+    "correctAnswer": "Asia",
+    "explanation": "India is in Asia.",
+    "countryId": "in",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-in",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find India.",
+    "options": [
+      "eg",
+      "in",
+      "cr",
+      "cu"
+    ],
+    "correctAnswer": "in",
+    "explanation": "India is in Asia. Its capital is New Delhi.",
+    "countryId": "in",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-in",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Asia. Its capital city is New Delhi. It shares a border with China.",
+    "options": [
+      "in",
+      "cu",
+      "eg",
+      "et"
+    ],
+    "correctAnswer": "in",
+    "explanation": "The answer is India, in Asia, capital New Delhi.",
+    "countryId": "in",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-id",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "co",
+      "id",
+      "ca",
+      "cl"
+    ],
+    "correctAnswer": "id",
+    "explanation": "This is the flag of Indonesia. Its capital is Jakarta and it is in Asia.",
+    "countryId": "id",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-id",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Indonesia?",
+    "options": [
+      "id",
+      "co",
+      "cl",
+      "cr"
+    ],
+    "correctAnswer": "id",
+    "explanation": "Indonesia's flag is shown. Its capital is Jakarta.",
+    "countryId": "id",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-id",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Indonesia?",
+    "options": [
+      "Bogotá",
+      "Havana",
+      "Jakarta",
+      "San José"
+    ],
+    "correctAnswer": "Jakarta",
+    "explanation": "The capital of Indonesia is Jakarta.",
+    "countryId": "id",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-id",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Jakarta is the capital of which country?",
+    "options": [
+      "cr",
+      "id",
+      "eg",
+      "cu"
+    ],
+    "correctAnswer": "id",
+    "explanation": "Jakarta is the capital of Indonesia.",
+    "countryId": "id",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-id",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Indonesia in?",
+    "options": [
+      "Africa",
+      "Oceania",
+      "South America",
+      "Asia"
+    ],
+    "correctAnswer": "Asia",
+    "explanation": "Indonesia is in Asia.",
+    "countryId": "id",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-id",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Indonesia.",
+    "options": [
+      "eg",
+      "et",
+      "cu",
+      "id"
+    ],
+    "correctAnswer": "id",
+    "explanation": "Indonesia is in Asia. Its capital is Jakarta.",
+    "countryId": "id",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-id",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Asia. Its capital city is Jakarta. It shares a border with Papua New Guinea.",
+    "options": [
+      "id",
+      "fj",
+      "et",
+      "eg"
+    ],
+    "correctAnswer": "id",
+    "explanation": "The answer is Indonesia, in Asia, capital Jakarta.",
+    "countryId": "id",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-tr",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "co",
+      "cr",
+      "tr",
+      "cl"
+    ],
+    "correctAnswer": "tr",
+    "explanation": "This is the flag of Türkiye. Its capital is Ankara and it is in Asia.",
+    "countryId": "tr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-tr",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Türkiye?",
+    "options": [
+      "cr",
+      "cu",
+      "co",
+      "tr"
+    ],
+    "correctAnswer": "tr",
+    "explanation": "Türkiye's flag is shown. Its capital is Ankara.",
+    "countryId": "tr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-tr",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Türkiye?",
+    "options": [
+      "Havana",
+      "Cairo",
+      "Ankara",
+      "San José"
+    ],
+    "correctAnswer": "Ankara",
+    "explanation": "The capital of Türkiye is Ankara.",
+    "countryId": "tr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-tr",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Ankara is the capital of which country?",
+    "options": [
+      "tr",
+      "et",
+      "eg",
+      "cu"
+    ],
+    "correctAnswer": "tr",
+    "explanation": "Ankara is the capital of Türkiye.",
+    "countryId": "tr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-tr",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Türkiye in?",
+    "options": [
+      "Asia",
+      "Africa",
+      "South America",
+      "Europe"
+    ],
+    "correctAnswer": "Asia",
+    "explanation": "Türkiye is in Asia.",
+    "countryId": "tr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-tr",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Türkiye.",
+    "options": [
+      "tr",
+      "et",
+      "eg",
+      "fj"
+    ],
+    "correctAnswer": "tr",
+    "explanation": "Türkiye is in Asia. Its capital is Ankara.",
+    "countryId": "tr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-tr",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Asia. Its capital city is Ankara. It shares a border with Greece.",
+    "options": [
+      "et",
+      "fr",
+      "tr",
+      "fj"
+    ],
+    "correctAnswer": "tr",
+    "explanation": "The answer is Türkiye, in Asia, capital Ankara.",
+    "countryId": "tr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-sa",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "sa",
+      "cr",
+      "co",
+      "cu"
+    ],
+    "correctAnswer": "sa",
+    "explanation": "This is the flag of Saudi Arabia. Its capital is Riyadh and it is in Asia.",
+    "countryId": "sa",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-sa",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Saudi Arabia?",
+    "options": [
+      "eg",
+      "sa",
+      "cr",
+      "cu"
+    ],
+    "correctAnswer": "sa",
+    "explanation": "Saudi Arabia's flag is shown. Its capital is Riyadh.",
+    "countryId": "sa",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-sa",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Saudi Arabia?",
+    "options": [
+      "Cairo",
+      "Havana",
+      "Riyadh",
+      "Addis Ababa"
+    ],
+    "correctAnswer": "Riyadh",
+    "explanation": "The capital of Saudi Arabia is Riyadh.",
+    "countryId": "sa",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-sa",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Riyadh is the capital of which country?",
+    "options": [
+      "sa",
+      "eg",
+      "et",
+      "fj"
+    ],
+    "correctAnswer": "sa",
+    "explanation": "Riyadh is the capital of Saudi Arabia.",
+    "countryId": "sa",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-sa",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Saudi Arabia in?",
+    "options": [
+      "Asia",
+      "South America",
+      "North America",
+      "Europe"
+    ],
+    "correctAnswer": "Asia",
+    "explanation": "Saudi Arabia is in Asia.",
+    "countryId": "sa",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-sa",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Saudi Arabia.",
+    "options": [
+      "sa",
+      "fj",
+      "fr",
+      "et"
+    ],
+    "correctAnswer": "sa",
+    "explanation": "Saudi Arabia is in Asia. Its capital is Riyadh.",
+    "countryId": "sa",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-sa",
+    "type": "geography-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Asia. Its capital city is Riyadh. Its region is Western Asia.",
+    "options": [
+      "fj",
+      "fr",
+      "de",
+      "sa"
+    ],
+    "correctAnswer": "sa",
+    "explanation": "The answer is Saudi Arabia, in Asia, capital Riyadh.",
+    "countryId": "sa",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-th",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "th",
+      "cu",
+      "cr",
+      "eg"
+    ],
+    "correctAnswer": "th",
+    "explanation": "This is the flag of Thailand. Its capital is Bangkok and it is in Asia.",
+    "countryId": "th",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-th",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Thailand?",
+    "options": [
+      "cu",
+      "th",
+      "et",
+      "eg"
+    ],
+    "correctAnswer": "th",
+    "explanation": "Thailand's flag is shown. Its capital is Bangkok.",
+    "countryId": "th",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-th",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Thailand?",
+    "options": [
+      "Addis Ababa",
+      "Cairo",
+      "Bangkok",
+      "Suva"
+    ],
+    "correctAnswer": "Bangkok",
+    "explanation": "The capital of Thailand is Bangkok.",
+    "countryId": "th",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-th",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Bangkok is the capital of which country?",
+    "options": [
+      "th",
+      "et",
+      "fj",
+      "fr"
+    ],
+    "correctAnswer": "th",
+    "explanation": "Bangkok is the capital of Thailand.",
+    "countryId": "th",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-th",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Thailand in?",
+    "options": [
+      "Asia",
+      "Oceania",
+      "South America",
+      "Europe"
+    ],
+    "correctAnswer": "Asia",
+    "explanation": "Thailand is in Asia.",
+    "countryId": "th",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-th",
+    "type": "map-find-it",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Thailand.",
+    "options": [
+      "th",
+      "fr",
+      "de",
+      "fj"
+    ],
+    "correctAnswer": "th",
+    "explanation": "Thailand is in Asia. Its capital is Bangkok.",
+    "countryId": "th",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-th",
+    "type": "geography-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Asia. Its capital city is Bangkok. Its region is South-Eastern Asia.",
+    "options": [
+      "de",
+      "gh",
+      "fr",
+      "th"
+    ],
+    "correctAnswer": "th",
+    "explanation": "The answer is Thailand, in Asia, capital Bangkok.",
+    "countryId": "th",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-vn",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "eg",
+      "cu",
+      "vn",
+      "et"
+    ],
+    "correctAnswer": "vn",
+    "explanation": "This is the flag of Vietnam. Its capital is Hanoi and it is in Asia.",
+    "countryId": "vn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-vn",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Vietnam?",
+    "options": [
+      "fj",
+      "vn",
+      "eg",
+      "et"
+    ],
+    "correctAnswer": "vn",
+    "explanation": "Vietnam's flag is shown. Its capital is Hanoi.",
+    "countryId": "vn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-vn",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Vietnam?",
+    "options": [
+      "Hanoi",
+      "Suva",
+      "Addis Ababa",
+      "Paris"
+    ],
+    "correctAnswer": "Hanoi",
+    "explanation": "The capital of Vietnam is Hanoi.",
+    "countryId": "vn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-vn",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Hanoi is the capital of which country?",
+    "options": [
+      "vn",
+      "fr",
+      "fj",
+      "de"
+    ],
+    "correctAnswer": "vn",
+    "explanation": "Hanoi is the capital of Vietnam.",
+    "countryId": "vn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-vn",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Vietnam in?",
+    "options": [
+      "Asia",
+      "South America",
+      "North America",
+      "Oceania"
+    ],
+    "correctAnswer": "Asia",
+    "explanation": "Vietnam is in Asia.",
+    "countryId": "vn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-vn",
+    "type": "map-find-it",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Vietnam.",
+    "options": [
+      "vn",
+      "gh",
+      "de",
+      "fr"
+    ],
+    "correctAnswer": "vn",
+    "explanation": "Vietnam is in Asia. Its capital is Hanoi.",
+    "countryId": "vn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-vn",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Asia. Its capital city is Hanoi. It shares a border with China.",
+    "options": [
+      "gh",
+      "gr",
+      "de",
+      "vn"
+    ],
+    "correctAnswer": "vn",
+    "explanation": "The answer is Vietnam, in Asia, capital Hanoi.",
+    "countryId": "vn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-kr",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "eg",
+      "fj",
+      "kr",
+      "et"
+    ],
+    "correctAnswer": "kr",
+    "explanation": "This is the flag of South Korea. Its capital is Seoul and it is in Asia.",
+    "countryId": "kr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-kr",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to South Korea?",
+    "options": [
+      "kr",
+      "et",
+      "fj",
+      "fr"
+    ],
+    "correctAnswer": "kr",
+    "explanation": "South Korea's flag is shown. Its capital is Seoul.",
+    "countryId": "kr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-kr",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of South Korea?",
+    "options": [
+      "Berlin",
+      "Seoul",
+      "Suva",
+      "Paris"
+    ],
+    "correctAnswer": "Seoul",
+    "explanation": "The capital of South Korea is Seoul.",
+    "countryId": "kr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-kr",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Seoul is the capital of which country?",
+    "options": [
+      "gh",
+      "kr",
+      "fr",
+      "de"
+    ],
+    "correctAnswer": "kr",
+    "explanation": "Seoul is the capital of South Korea.",
+    "countryId": "kr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-kr",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is South Korea in?",
+    "options": [
+      "South America",
+      "Africa",
+      "North America",
+      "Asia"
+    ],
+    "correctAnswer": "Asia",
+    "explanation": "South Korea is in Asia.",
+    "countryId": "kr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-kr",
+    "type": "map-find-it",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find South Korea.",
+    "options": [
+      "gh",
+      "gr",
+      "de",
+      "kr"
+    ],
+    "correctAnswer": "kr",
+    "explanation": "South Korea is in Asia. Its capital is Seoul.",
+    "countryId": "kr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-kr",
+    "type": "geography-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Asia. Its capital city is Seoul. Its region is Eastern Asia.",
+    "options": [
+      "kr",
+      "gt",
+      "gr",
+      "gh"
+    ],
+    "correctAnswer": "kr",
+    "explanation": "The answer is South Korea, in Asia, capital Seoul.",
+    "countryId": "kr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-kz",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "fr",
+      "kz",
+      "et",
+      "fj"
+    ],
+    "correctAnswer": "kz",
+    "explanation": "This is the flag of Kazakhstan. Its capital is Astana and it is in Asia.",
+    "countryId": "kz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-kz",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Kazakhstan?",
+    "options": [
+      "kz",
+      "fr",
+      "fj",
+      "de"
+    ],
+    "correctAnswer": "kz",
+    "explanation": "Kazakhstan's flag is shown. Its capital is Astana.",
+    "countryId": "kz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-kz",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Kazakhstan?",
+    "options": [
+      "Paris",
+      "Astana",
+      "Accra",
+      "Berlin"
+    ],
+    "correctAnswer": "Astana",
+    "explanation": "The capital of Kazakhstan is Astana.",
+    "countryId": "kz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-kz",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Astana is the capital of which country?",
+    "options": [
+      "de",
+      "gr",
+      "kz",
+      "gh"
+    ],
+    "correctAnswer": "kz",
+    "explanation": "Astana is the capital of Kazakhstan.",
+    "countryId": "kz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-kz",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Kazakhstan in?",
+    "options": [
+      "Oceania",
+      "Africa",
+      "South America",
+      "Asia"
+    ],
+    "correctAnswer": "Asia",
+    "explanation": "Kazakhstan is in Asia.",
+    "countryId": "kz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-kz",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Kazakhstan.",
+    "options": [
+      "gh",
+      "gr",
+      "gt",
+      "kz"
+    ],
+    "correctAnswer": "kz",
+    "explanation": "Kazakhstan is in Asia. Its capital is Astana.",
+    "countryId": "kz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-kz",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Asia. Its capital city is Astana. It shares a border with China.",
+    "options": [
+      "gt",
+      "ie",
+      "kz",
+      "gr"
+    ],
+    "correctAnswer": "kz",
+    "explanation": "The answer is Kazakhstan, in Asia, capital Astana.",
+    "countryId": "kz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-il",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "fj",
+      "de",
+      "il",
+      "fr"
+    ],
+    "correctAnswer": "il",
+    "explanation": "This is the flag of Israel. Its capital is Jerusalem and it is in Asia.",
+    "countryId": "il",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-il",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Israel?",
+    "options": [
+      "il",
+      "fr",
+      "de",
+      "gh"
+    ],
+    "correctAnswer": "il",
+    "explanation": "Israel's flag is shown. Its capital is Jerusalem.",
+    "countryId": "il",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-il",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Israel?",
+    "options": [
+      "Athens",
+      "Jerusalem",
+      "Berlin",
+      "Accra"
+    ],
+    "correctAnswer": "Jerusalem",
+    "explanation": "The capital of Israel is Jerusalem.",
+    "countryId": "il",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-il",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Jerusalem is the capital of which country?",
+    "options": [
+      "gh",
+      "gt",
+      "il",
+      "gr"
+    ],
+    "correctAnswer": "il",
+    "explanation": "Jerusalem is the capital of Israel.",
+    "countryId": "il",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-il",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Israel in?",
+    "options": [
+      "South America",
+      "North America",
+      "Africa",
+      "Asia"
+    ],
+    "correctAnswer": "Asia",
+    "explanation": "Israel is in Asia.",
+    "countryId": "il",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-il",
+    "type": "map-find-it",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Israel.",
+    "options": [
+      "gr",
+      "ie",
+      "gt",
+      "il"
+    ],
+    "correctAnswer": "il",
+    "explanation": "Israel is in Asia. Its capital is Jerusalem.",
+    "countryId": "il",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-il",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Asia. Its capital city is Jerusalem. It shares a border with Egypt.",
+    "options": [
+      "ie",
+      "it",
+      "il",
+      "gt"
+    ],
+    "correctAnswer": "il",
+    "explanation": "The answer is Israel, in Asia, capital Jerusalem.",
+    "countryId": "il",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-fr",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "fj",
+      "et",
+      "fr",
+      "gh"
+    ],
+    "correctAnswer": "fr",
+    "explanation": "This is the flag of France. Its capital is Paris and it is in Europe.",
+    "countryId": "fr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-fr",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to France?",
+    "options": [
+      "fj",
+      "fr",
+      "gt",
+      "gh"
+    ],
+    "correctAnswer": "fr",
+    "explanation": "France's flag is shown. Its capital is Paris.",
+    "countryId": "fr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-fr",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of France?",
+    "options": [
+      "Guatemala City",
+      "Accra",
+      "Paris",
+      "New Delhi"
+    ],
+    "correctAnswer": "Paris",
+    "explanation": "The capital of France is Paris.",
+    "countryId": "fr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-fr",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Paris is the capital of which country?",
+    "options": [
+      "fr",
+      "in",
+      "gt",
+      "id"
+    ],
+    "correctAnswer": "fr",
+    "explanation": "Paris is the capital of France.",
+    "countryId": "fr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-fr",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is France in?",
+    "options": [
+      "Oceania",
+      "Asia",
+      "Europe",
+      "North America"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "France is in Europe.",
+    "countryId": "fr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-fr",
+    "type": "map-find-it",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find France.",
+    "options": [
+      "fr",
+      "id",
+      "il",
+      "in"
+    ],
+    "correctAnswer": "fr",
+    "explanation": "France is in Europe. Its capital is Paris.",
+    "countryId": "fr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-fr",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Europe. Its capital city is Paris. It shares a border with Germany.",
+    "options": [
+      "id",
+      "il",
+      "jm",
+      "fr"
+    ],
+    "correctAnswer": "fr",
+    "explanation": "The answer is France, in Europe, capital Paris.",
+    "countryId": "fr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-de",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "fj",
+      "gt",
+      "gh",
+      "de"
+    ],
+    "correctAnswer": "de",
+    "explanation": "This is the flag of Germany. Its capital is Berlin and it is in Europe.",
+    "countryId": "de",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-de",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Germany?",
+    "options": [
+      "de",
+      "gt",
+      "in",
+      "gh"
+    ],
+    "correctAnswer": "de",
+    "explanation": "Germany's flag is shown. Its capital is Berlin.",
+    "countryId": "de",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-de",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Germany?",
+    "options": [
+      "Guatemala City",
+      "New Delhi",
+      "Jakarta",
+      "Berlin"
+    ],
+    "correctAnswer": "Berlin",
+    "explanation": "The capital of Germany is Berlin.",
+    "countryId": "de",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-de",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Berlin is the capital of which country?",
+    "options": [
+      "in",
+      "id",
+      "il",
+      "de"
+    ],
+    "correctAnswer": "de",
+    "explanation": "Berlin is the capital of Germany.",
+    "countryId": "de",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-de",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Germany in?",
+    "options": [
+      "Oceania",
+      "Europe",
+      "Africa",
+      "North America"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "Germany is in Europe.",
+    "countryId": "de",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-de",
+    "type": "map-find-it",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Germany.",
+    "options": [
+      "id",
+      "de",
+      "jm",
+      "il"
+    ],
+    "correctAnswer": "de",
+    "explanation": "Germany is in Europe. Its capital is Berlin.",
+    "countryId": "de",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-de",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Europe. Its capital city is Berlin. It shares a border with France.",
+    "options": [
+      "jm",
+      "il",
+      "de",
+      "jp"
+    ],
+    "correctAnswer": "de",
+    "explanation": "The answer is Germany, in Europe, capital Berlin.",
+    "countryId": "de",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-it",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "in",
+      "it",
+      "gh",
+      "gt"
+    ],
+    "correctAnswer": "it",
+    "explanation": "This is the flag of Italy. Its capital is Rome and it is in Europe.",
+    "countryId": "it",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-it",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Italy?",
+    "options": [
+      "it",
+      "gt",
+      "in",
+      "id"
+    ],
+    "correctAnswer": "it",
+    "explanation": "Italy's flag is shown. Its capital is Rome.",
+    "countryId": "it",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-it",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Italy?",
+    "options": [
+      "New Delhi",
+      "Rome",
+      "Jerusalem",
+      "Jakarta"
+    ],
+    "correctAnswer": "Rome",
+    "explanation": "The capital of Italy is Rome.",
+    "countryId": "it",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-it",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Rome is the capital of which country?",
+    "options": [
+      "id",
+      "it",
+      "jm",
+      "il"
+    ],
+    "correctAnswer": "it",
+    "explanation": "Rome is the capital of Italy.",
+    "countryId": "it",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-it",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Italy in?",
+    "options": [
+      "Africa",
+      "North America",
+      "South America",
+      "Europe"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "Italy is in Europe.",
+    "countryId": "it",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-it",
+    "type": "map-find-it",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Italy.",
+    "options": [
+      "il",
+      "jm",
+      "jp",
+      "it"
+    ],
+    "correctAnswer": "it",
+    "explanation": "Italy is in Europe. Its capital is Rome.",
+    "countryId": "it",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-it",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Europe. Its capital city is Rome. It shares a border with France.",
+    "options": [
+      "it",
+      "kz",
+      "jp",
+      "jm"
+    ],
+    "correctAnswer": "it",
+    "explanation": "The answer is Italy, in Europe, capital Rome.",
+    "countryId": "it",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-es",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "es",
+      "gt",
+      "in",
+      "id"
+    ],
+    "correctAnswer": "es",
+    "explanation": "This is the flag of Spain. Its capital is Madrid and it is in Europe.",
+    "countryId": "es",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-es",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Spain?",
+    "options": [
+      "in",
+      "il",
+      "es",
+      "id"
+    ],
+    "correctAnswer": "es",
+    "explanation": "Spain's flag is shown. Its capital is Madrid.",
+    "countryId": "es",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-es",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Spain?",
+    "options": [
+      "Jerusalem",
+      "Jakarta",
+      "Madrid",
+      "Kingston"
+    ],
+    "correctAnswer": "Madrid",
+    "explanation": "The capital of Spain is Madrid.",
+    "countryId": "es",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-es",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Madrid is the capital of which country?",
+    "options": [
+      "jm",
+      "il",
+      "es",
+      "jp"
+    ],
+    "correctAnswer": "es",
+    "explanation": "Madrid is the capital of Spain.",
+    "countryId": "es",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-es",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Spain in?",
+    "options": [
+      "Europe",
+      "South America",
+      "North America",
+      "Asia"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "Spain is in Europe.",
+    "countryId": "es",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-es",
+    "type": "map-find-it",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Spain.",
+    "options": [
+      "jp",
+      "kz",
+      "es",
+      "jm"
+    ],
+    "correctAnswer": "es",
+    "explanation": "Spain is in Europe. Its capital is Madrid.",
+    "countryId": "es",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-es",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Europe. Its capital city is Madrid. It shares a border with France.",
+    "options": [
+      "kz",
+      "ke",
+      "jp",
+      "es"
+    ],
+    "correctAnswer": "es",
+    "explanation": "The answer is Spain, in Europe, capital Madrid.",
+    "countryId": "es",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-gb",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "in",
+      "il",
+      "gb",
+      "id"
+    ],
+    "correctAnswer": "gb",
+    "explanation": "This is the flag of United Kingdom. Its capital is London and it is in Europe.",
+    "countryId": "gb",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-gb",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to United Kingdom?",
+    "options": [
+      "gb",
+      "il",
+      "id",
+      "jm"
+    ],
+    "correctAnswer": "gb",
+    "explanation": "United Kingdom's flag is shown. Its capital is London.",
+    "countryId": "gb",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-gb",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of United Kingdom?",
+    "options": [
+      "Jerusalem",
+      "Tokyo",
+      "London",
+      "Kingston"
+    ],
+    "correctAnswer": "London",
+    "explanation": "The capital of United Kingdom is London.",
+    "countryId": "gb",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-gb",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "London is the capital of which country?",
+    "options": [
+      "kz",
+      "gb",
+      "jm",
+      "jp"
+    ],
+    "correctAnswer": "gb",
+    "explanation": "London is the capital of United Kingdom.",
+    "countryId": "gb",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-gb",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is United Kingdom in?",
+    "options": [
+      "Africa",
+      "North America",
+      "South America",
+      "Europe"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "United Kingdom is in Europe.",
+    "countryId": "gb",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-gb",
+    "type": "map-find-it",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find United Kingdom.",
+    "options": [
+      "jp",
+      "kz",
+      "ke",
+      "gb"
+    ],
+    "correctAnswer": "gb",
+    "explanation": "United Kingdom is in Europe. Its capital is London.",
+    "countryId": "gb",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-gb",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Europe. Its capital city is London. It shares a border with Ireland.",
+    "options": [
+      "gb",
+      "ml",
+      "ke",
+      "kz"
+    ],
+    "correctAnswer": "gb",
+    "explanation": "The answer is United Kingdom, in Europe, capital London.",
+    "countryId": "gb",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-nl",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "nl",
+      "il",
+      "jm",
+      "id"
+    ],
+    "correctAnswer": "nl",
+    "explanation": "This is the flag of Netherlands. Its capital is Amsterdam and it is in Europe.",
+    "countryId": "nl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-nl",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Netherlands?",
+    "options": [
+      "jm",
+      "jp",
+      "il",
+      "nl"
+    ],
+    "correctAnswer": "nl",
+    "explanation": "Netherlands's flag is shown. Its capital is Amsterdam.",
+    "countryId": "nl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-nl",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Netherlands?",
+    "options": [
+      "Amsterdam",
+      "Tokyo",
+      "Astana",
+      "Kingston"
+    ],
+    "correctAnswer": "Amsterdam",
+    "explanation": "The capital of Netherlands is Amsterdam.",
+    "countryId": "nl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-nl",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Amsterdam is the capital of which country?",
+    "options": [
+      "nl",
+      "ke",
+      "kz",
+      "jp"
+    ],
+    "correctAnswer": "nl",
+    "explanation": "Amsterdam is the capital of Netherlands.",
+    "countryId": "nl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-nl",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Netherlands in?",
+    "options": [
+      "Africa",
+      "Oceania",
+      "Europe",
+      "South America"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "Netherlands is in Europe.",
+    "countryId": "nl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-nl",
+    "type": "map-find-it",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Netherlands.",
+    "options": [
+      "nl",
+      "ke",
+      "kz",
+      "ml"
+    ],
+    "correctAnswer": "nl",
+    "explanation": "Netherlands is in Europe. Its capital is Amsterdam.",
+    "countryId": "nl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-nl",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Europe. Its capital city is Amsterdam. It shares a border with Germany.",
+    "options": [
+      "mx",
+      "nl",
+      "ke",
+      "ml"
+    ],
+    "correctAnswer": "nl",
+    "explanation": "The answer is Netherlands, in Europe, capital Amsterdam.",
+    "countryId": "nl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-se",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "se",
+      "il",
+      "jm",
+      "jp"
+    ],
+    "correctAnswer": "se",
+    "explanation": "This is the flag of Sweden. Its capital is Stockholm and it is in Europe.",
+    "countryId": "se",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-se",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Sweden?",
+    "options": [
+      "jm",
+      "se",
+      "kz",
+      "jp"
+    ],
+    "correctAnswer": "se",
+    "explanation": "Sweden's flag is shown. Its capital is Stockholm.",
+    "countryId": "se",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-se",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Sweden?",
+    "options": [
+      "Stockholm",
+      "Tokyo",
+      "Astana",
+      "Nairobi"
+    ],
+    "correctAnswer": "Stockholm",
+    "explanation": "The capital of Sweden is Stockholm.",
+    "countryId": "se",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-se",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Stockholm is the capital of which country?",
+    "options": [
+      "ke",
+      "kz",
+      "se",
+      "ml"
+    ],
+    "correctAnswer": "se",
+    "explanation": "Stockholm is the capital of Sweden.",
+    "countryId": "se",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-se",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Sweden in?",
+    "options": [
+      "Europe",
+      "North America",
+      "South America",
+      "Asia"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "Sweden is in Europe.",
+    "countryId": "se",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-se",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Sweden.",
+    "options": [
+      "se",
+      "mx",
+      "ml",
+      "ke"
+    ],
+    "correctAnswer": "se",
+    "explanation": "Sweden is in Europe. Its capital is Stockholm.",
+    "countryId": "se",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-se",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Europe. Its capital city is Stockholm. It shares a border with Norway.",
+    "options": [
+      "ml",
+      "ma",
+      "mx",
+      "se"
+    ],
+    "correctAnswer": "se",
+    "explanation": "The answer is Sweden, in Europe, capital Stockholm.",
+    "countryId": "se",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-no",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "jp",
+      "kz",
+      "jm",
+      "no"
+    ],
+    "correctAnswer": "no",
+    "explanation": "This is the flag of Norway. Its capital is Oslo and it is in Europe.",
+    "countryId": "no",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-no",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Norway?",
+    "options": [
+      "no",
+      "kz",
+      "ke",
+      "jp"
+    ],
+    "correctAnswer": "no",
+    "explanation": "Norway's flag is shown. Its capital is Oslo.",
+    "countryId": "no",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-no",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Norway?",
+    "options": [
+      "Nairobi",
+      "Bamako",
+      "Astana",
+      "Oslo"
+    ],
+    "correctAnswer": "Oslo",
+    "explanation": "The capital of Norway is Oslo.",
+    "countryId": "no",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-no",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Oslo is the capital of which country?",
+    "options": [
+      "ke",
+      "mx",
+      "ml",
+      "no"
+    ],
+    "correctAnswer": "no",
+    "explanation": "Oslo is the capital of Norway.",
+    "countryId": "no",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-no",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Norway in?",
+    "options": [
+      "Asia",
+      "Europe",
+      "Africa",
+      "North America"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "Norway is in Europe.",
+    "countryId": "no",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-no",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Norway.",
+    "options": [
+      "ml",
+      "no",
+      "ma",
+      "mx"
+    ],
+    "correctAnswer": "no",
+    "explanation": "Norway is in Europe. Its capital is Oslo.",
+    "countryId": "no",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-no",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Europe. Its capital city is Oslo. It shares a border with Russia.",
+    "options": [
+      "ma",
+      "mx",
+      "no",
+      "nz"
+    ],
+    "correctAnswer": "no",
+    "explanation": "The answer is Norway, in Europe, capital Oslo.",
+    "countryId": "no",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-pl",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "pl",
+      "kz",
+      "jp",
+      "ke"
+    ],
+    "correctAnswer": "pl",
+    "explanation": "This is the flag of Poland. Its capital is Warsaw and it is in Europe.",
+    "countryId": "pl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-pl",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Poland?",
+    "options": [
+      "kz",
+      "ml",
+      "pl",
+      "ke"
+    ],
+    "correctAnswer": "pl",
+    "explanation": "Poland's flag is shown. Its capital is Warsaw.",
+    "countryId": "pl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-pl",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Poland?",
+    "options": [
+      "Bamako",
+      "Nairobi",
+      "Warsaw",
+      "Mexico City"
+    ],
+    "correctAnswer": "Warsaw",
+    "explanation": "The capital of Poland is Warsaw.",
+    "countryId": "pl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-pl",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Warsaw is the capital of which country?",
+    "options": [
+      "mx",
+      "ml",
+      "pl",
+      "ma"
+    ],
+    "correctAnswer": "pl",
+    "explanation": "Warsaw is the capital of Poland.",
+    "countryId": "pl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-pl",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Poland in?",
+    "options": [
+      "Europe",
+      "South America",
+      "North America",
+      "Asia"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "Poland is in Europe.",
+    "countryId": "pl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-pl",
+    "type": "map-find-it",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Poland.",
+    "options": [
+      "pl",
+      "nz",
+      "ma",
+      "mx"
+    ],
+    "correctAnswer": "pl",
+    "explanation": "Poland is in Europe. Its capital is Warsaw.",
+    "countryId": "pl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-pl",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Europe. Its capital city is Warsaw. It shares a border with Germany.",
+    "options": [
+      "ma",
+      "nz",
+      "ng",
+      "pl"
+    ],
+    "correctAnswer": "pl",
+    "explanation": "The answer is Poland, in Europe, capital Warsaw.",
+    "countryId": "pl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-gr",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "kz",
+      "gr",
+      "ml",
+      "ke"
+    ],
+    "correctAnswer": "gr",
+    "explanation": "This is the flag of Greece. Its capital is Athens and it is in Europe.",
+    "countryId": "gr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-gr",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Greece?",
+    "options": [
+      "gr",
+      "ke",
+      "ml",
+      "mx"
+    ],
+    "correctAnswer": "gr",
+    "explanation": "Greece's flag is shown. Its capital is Athens.",
+    "countryId": "gr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-gr",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Greece?",
+    "options": [
+      "Bamako",
+      "Athens",
+      "Rabat",
+      "Mexico City"
+    ],
+    "correctAnswer": "Athens",
+    "explanation": "The capital of Greece is Athens.",
+    "countryId": "gr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-gr",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Athens is the capital of which country?",
+    "options": [
+      "nz",
+      "gr",
+      "mx",
+      "ma"
+    ],
+    "correctAnswer": "gr",
+    "explanation": "Athens is the capital of Greece.",
+    "countryId": "gr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-gr",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Greece in?",
+    "options": [
+      "North America",
+      "South America",
+      "Africa",
+      "Europe"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "Greece is in Europe.",
+    "countryId": "gr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-gr",
+    "type": "map-find-it",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Greece.",
+    "options": [
+      "ma",
+      "ng",
+      "nz",
+      "gr"
+    ],
+    "correctAnswer": "gr",
+    "explanation": "Greece is in Europe. Its capital is Athens.",
+    "countryId": "gr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-gr",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Europe. Its capital city is Athens. It shares a border with Türkiye.",
+    "options": [
+      "gr",
+      "ng",
+      "pg",
+      "nz"
+    ],
+    "correctAnswer": "gr",
+    "explanation": "The answer is Greece, in Europe, capital Athens.",
+    "countryId": "gr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-ie",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "ie",
+      "mx",
+      "ml",
+      "ke"
+    ],
+    "correctAnswer": "ie",
+    "explanation": "This is the flag of Ireland. Its capital is Dublin and it is in Europe.",
+    "countryId": "ie",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-ie",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Ireland?",
+    "options": [
+      "ml",
+      "mx",
+      "ma",
+      "ie"
+    ],
+    "correctAnswer": "ie",
+    "explanation": "Ireland's flag is shown. Its capital is Dublin.",
+    "countryId": "ie",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-ie",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Ireland?",
+    "options": [
+      "Rabat",
+      "Wellington",
+      "Dublin",
+      "Mexico City"
+    ],
+    "correctAnswer": "Dublin",
+    "explanation": "The capital of Ireland is Dublin.",
+    "countryId": "ie",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-ie",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Dublin is the capital of which country?",
+    "options": [
+      "nz",
+      "ng",
+      "ie",
+      "ma"
+    ],
+    "correctAnswer": "ie",
+    "explanation": "Dublin is the capital of Ireland.",
+    "countryId": "ie",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-ie",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Ireland in?",
+    "options": [
+      "Africa",
+      "South America",
+      "Europe",
+      "Asia"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "Ireland is in Europe.",
+    "countryId": "ie",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-ie",
+    "type": "map-find-it",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Ireland.",
+    "options": [
+      "ie",
+      "ng",
+      "nz",
+      "pg"
+    ],
+    "correctAnswer": "ie",
+    "explanation": "Ireland is in Europe. Its capital is Dublin.",
+    "countryId": "ie",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-ie",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Europe. Its capital city is Dublin. It shares a border with United Kingdom.",
+    "options": [
+      "pe",
+      "ie",
+      "ng",
+      "pg"
+    ],
+    "correctAnswer": "ie",
+    "explanation": "The answer is Ireland, in Europe, capital Dublin.",
+    "countryId": "ie",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-ru",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "ml",
+      "ma",
+      "ru",
+      "mx"
+    ],
+    "correctAnswer": "ru",
+    "explanation": "This is the flag of Russia. Its capital is Moscow and it is in Europe.",
+    "countryId": "ru",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-ru",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Russia?",
+    "options": [
+      "ma",
+      "mx",
+      "ru",
+      "nz"
+    ],
+    "correctAnswer": "ru",
+    "explanation": "Russia's flag is shown. Its capital is Moscow.",
+    "countryId": "ru",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-ru",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Russia?",
+    "options": [
+      "Abuja",
+      "Moscow",
+      "Rabat",
+      "Wellington"
+    ],
+    "correctAnswer": "Moscow",
+    "explanation": "The capital of Russia is Moscow.",
+    "countryId": "ru",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-ru",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Moscow is the capital of which country?",
+    "options": [
+      "pg",
+      "ru",
+      "nz",
+      "ng"
+    ],
+    "correctAnswer": "ru",
+    "explanation": "Moscow is the capital of Russia.",
+    "countryId": "ru",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-ru",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Russia in?",
+    "options": [
+      "Africa",
+      "South America",
+      "North America",
+      "Europe"
+    ],
+    "correctAnswer": "Europe",
+    "explanation": "Russia is in Europe.",
+    "countryId": "ru",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-ru",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Russia.",
+    "options": [
+      "ng",
+      "pe",
+      "pg",
+      "ru"
+    ],
+    "correctAnswer": "ru",
+    "explanation": "Russia is in Europe. Its capital is Moscow.",
+    "countryId": "ru",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-ru",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Europe. Its capital city is Moscow. It shares a border with China.",
+    "options": [
+      "ru",
+      "pe",
+      "sa",
+      "pg"
+    ],
+    "correctAnswer": "ru",
+    "explanation": "The answer is Russia, in Europe, capital Moscow.",
+    "countryId": "ru",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-us",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "us",
+      "pe",
+      "pg",
+      "pl"
+    ],
+    "correctAnswer": "us",
+    "explanation": "This is the flag of United States. Its capital is Washington D.C. and it is in North America.",
+    "countryId": "us",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-us",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to United States?",
+    "options": [
+      "ru",
+      "us",
+      "pe",
+      "pl"
+    ],
+    "correctAnswer": "us",
+    "explanation": "United States's flag is shown. Its capital is Washington D.C..",
+    "countryId": "us",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-us",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of United States?",
+    "options": [
+      "Washington D.C.",
+      "Warsaw",
+      "Moscow",
+      "Riyadh"
+    ],
+    "correctAnswer": "Washington D.C.",
+    "explanation": "The capital of United States is Washington D.C..",
+    "countryId": "us",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-us",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Washington D.C. is the capital of which country?",
+    "options": [
+      "us",
+      "sa",
+      "ru",
+      "sn"
+    ],
+    "correctAnswer": "us",
+    "explanation": "Washington D.C. is the capital of United States.",
+    "countryId": "us",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-us",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is United States in?",
+    "options": [
+      "North America",
+      "Oceania",
+      "Europe",
+      "Asia"
+    ],
+    "correctAnswer": "North America",
+    "explanation": "United States is in North America.",
+    "countryId": "us",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-us",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find United States.",
+    "options": [
+      "us",
+      "sn",
+      "za",
+      "sa"
+    ],
+    "correctAnswer": "us",
+    "explanation": "United States is in North America. Its capital is Washington D.C..",
+    "countryId": "us",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-us",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in North America. Its capital city is Washington D.C.. It shares a border with Canada.",
+    "options": [
+      "sn",
+      "za",
+      "kr",
+      "us"
+    ],
+    "correctAnswer": "us",
+    "explanation": "The answer is United States, in North America, capital Washington D.C..",
+    "countryId": "us",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-ca",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "ca",
+      "pl",
+      "pe",
+      "ru"
+    ],
+    "correctAnswer": "ca",
+    "explanation": "This is the flag of Canada. Its capital is Ottawa and it is in North America.",
+    "countryId": "ca",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-ca",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Canada?",
+    "options": [
+      "pl",
+      "sa",
+      "ca",
+      "ru"
+    ],
+    "correctAnswer": "ca",
+    "explanation": "Canada's flag is shown. Its capital is Ottawa.",
+    "countryId": "ca",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-ca",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Canada?",
+    "options": [
+      "Ottawa",
+      "Riyadh",
+      "Moscow",
+      "Dakar"
+    ],
+    "correctAnswer": "Ottawa",
+    "explanation": "The capital of Canada is Ottawa.",
+    "countryId": "ca",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-ca",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Ottawa is the capital of which country?",
+    "options": [
+      "ca",
+      "sa",
+      "sn",
+      "za"
+    ],
+    "correctAnswer": "ca",
+    "explanation": "Ottawa is the capital of Canada.",
+    "countryId": "ca",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-ca",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Canada in?",
+    "options": [
+      "North America",
+      "South America",
+      "Asia",
+      "Europe"
+    ],
+    "correctAnswer": "North America",
+    "explanation": "Canada is in North America.",
+    "countryId": "ca",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-ca",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Canada.",
+    "options": [
+      "ca",
+      "kr",
+      "za",
+      "sn"
+    ],
+    "correctAnswer": "ca",
+    "explanation": "Canada is in North America. Its capital is Ottawa.",
+    "countryId": "ca",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-ca",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in North America. Its capital city is Ottawa. It shares a border with United States.",
+    "options": [
+      "za",
+      "kr",
+      "es",
+      "ca"
+    ],
+    "correctAnswer": "ca",
+    "explanation": "The answer is Canada, in North America, capital Ottawa.",
+    "countryId": "ca",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-mx",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "sa",
+      "mx",
+      "pl",
+      "ru"
+    ],
+    "correctAnswer": "mx",
+    "explanation": "This is the flag of Mexico. Its capital is Mexico City and it is in North America.",
+    "countryId": "mx",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-mx",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Mexico?",
+    "options": [
+      "mx",
+      "sa",
+      "ru",
+      "sn"
+    ],
+    "correctAnswer": "mx",
+    "explanation": "Mexico's flag is shown. Its capital is Mexico City.",
+    "countryId": "mx",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-mx",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Mexico?",
+    "options": [
+      "Pretoria",
+      "Mexico City",
+      "Riyadh",
+      "Dakar"
+    ],
+    "correctAnswer": "Mexico City",
+    "explanation": "The capital of Mexico is Mexico City.",
+    "countryId": "mx",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-mx",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Mexico City is the capital of which country?",
+    "options": [
+      "sn",
+      "kr",
+      "mx",
+      "za"
+    ],
+    "correctAnswer": "mx",
+    "explanation": "Mexico City is the capital of Mexico.",
+    "countryId": "mx",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-mx",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Mexico in?",
+    "options": [
+      "Africa",
+      "South America",
+      "Oceania",
+      "North America"
+    ],
+    "correctAnswer": "North America",
+    "explanation": "Mexico is in North America.",
+    "countryId": "mx",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-mx",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Mexico.",
+    "options": [
+      "kr",
+      "es",
+      "za",
+      "mx"
+    ],
+    "correctAnswer": "mx",
+    "explanation": "Mexico is in North America. Its capital is Mexico City.",
+    "countryId": "mx",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-mx",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in North America. Its capital city is Mexico City. It shares a border with Guatemala.",
+    "options": [
+      "mx",
+      "es",
+      "se",
+      "kr"
+    ],
+    "correctAnswer": "mx",
+    "explanation": "The answer is Mexico, in North America, capital Mexico City.",
+    "countryId": "mx",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-cu",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "sa",
+      "ru",
+      "cu",
+      "sn"
+    ],
+    "correctAnswer": "cu",
+    "explanation": "This is the flag of Cuba. Its capital is Havana and it is in North America.",
+    "countryId": "cu",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-cu",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Cuba?",
+    "options": [
+      "sa",
+      "za",
+      "cu",
+      "sn"
+    ],
+    "correctAnswer": "cu",
+    "explanation": "Cuba's flag is shown. Its capital is Havana.",
+    "countryId": "cu",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-cu",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Cuba?",
+    "options": [
+      "Havana",
+      "Pretoria",
+      "Dakar",
+      "Seoul"
+    ],
+    "correctAnswer": "Havana",
+    "explanation": "The capital of Cuba is Havana.",
+    "countryId": "cu",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-cu",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Havana is the capital of which country?",
+    "options": [
+      "cu",
+      "kr",
+      "za",
+      "es"
+    ],
+    "correctAnswer": "cu",
+    "explanation": "Havana is the capital of Cuba.",
+    "countryId": "cu",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-cu",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Cuba in?",
+    "options": [
+      "South America",
+      "Oceania",
+      "North America",
+      "Asia"
+    ],
+    "correctAnswer": "North America",
+    "explanation": "Cuba is in North America.",
+    "countryId": "cu",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-cu",
+    "type": "map-find-it",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Cuba.",
+    "options": [
+      "es",
+      "se",
+      "cu",
+      "kr"
+    ],
+    "correctAnswer": "cu",
+    "explanation": "Cuba is in North America. Its capital is Havana.",
+    "countryId": "cu",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-cu",
+    "type": "geography-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in North America. Its capital city is Havana. Its region is Caribbean.",
+    "options": [
+      "es",
+      "se",
+      "tz",
+      "cu"
+    ],
+    "correctAnswer": "cu",
+    "explanation": "The answer is Cuba, in North America, capital Havana.",
+    "countryId": "cu",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-jm",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "za",
+      "jm",
+      "sa",
+      "sn"
+    ],
+    "correctAnswer": "jm",
+    "explanation": "This is the flag of Jamaica. Its capital is Kingston and it is in North America.",
+    "countryId": "jm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-jm",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Jamaica?",
+    "options": [
+      "za",
+      "sn",
+      "jm",
+      "kr"
+    ],
+    "correctAnswer": "jm",
+    "explanation": "Jamaica's flag is shown. Its capital is Kingston.",
+    "countryId": "jm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-jm",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Jamaica?",
+    "options": [
+      "Pretoria",
+      "Kingston",
+      "Madrid",
+      "Seoul"
+    ],
+    "correctAnswer": "Kingston",
+    "explanation": "The capital of Jamaica is Kingston.",
+    "countryId": "jm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-jm",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Kingston is the capital of which country?",
+    "options": [
+      "kr",
+      "jm",
+      "se",
+      "es"
+    ],
+    "correctAnswer": "jm",
+    "explanation": "Kingston is the capital of Jamaica.",
+    "countryId": "jm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-jm",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Jamaica in?",
+    "options": [
+      "Oceania",
+      "South America",
+      "Europe",
+      "North America"
+    ],
+    "correctAnswer": "North America",
+    "explanation": "Jamaica is in North America.",
+    "countryId": "jm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-jm",
+    "type": "map-find-it",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Jamaica.",
+    "options": [
+      "es",
+      "se",
+      "tz",
+      "jm"
+    ],
+    "correctAnswer": "jm",
+    "explanation": "Jamaica is in North America. Its capital is Kingston.",
+    "countryId": "jm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-jm",
+    "type": "geography-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in North America. Its capital city is Kingston. Its region is Caribbean.",
+    "options": [
+      "jm",
+      "th",
+      "tz",
+      "se"
+    ],
+    "correctAnswer": "jm",
+    "explanation": "The answer is Jamaica, in North America, capital Kingston.",
+    "countryId": "jm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-cr",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "sn",
+      "kr",
+      "cr",
+      "za"
+    ],
+    "correctAnswer": "cr",
+    "explanation": "This is the flag of Costa Rica. Its capital is San José and it is in North America.",
+    "countryId": "cr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-cr",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Costa Rica?",
+    "options": [
+      "cr",
+      "za",
+      "kr",
+      "es"
+    ],
+    "correctAnswer": "cr",
+    "explanation": "Costa Rica's flag is shown. Its capital is San José.",
+    "countryId": "cr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-cr",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Costa Rica?",
+    "options": [
+      "Seoul",
+      "Stockholm",
+      "San José",
+      "Madrid"
+    ],
+    "correctAnswer": "San José",
+    "explanation": "The capital of Costa Rica is San José.",
+    "countryId": "cr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-cr",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "San José is the capital of which country?",
+    "options": [
+      "tz",
+      "cr",
+      "es",
+      "se"
+    ],
+    "correctAnswer": "cr",
+    "explanation": "San José is the capital of Costa Rica.",
+    "countryId": "cr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-cr",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Costa Rica in?",
+    "options": [
+      "Europe",
+      "South America",
+      "Africa",
+      "North America"
+    ],
+    "correctAnswer": "North America",
+    "explanation": "Costa Rica is in North America.",
+    "countryId": "cr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-cr",
+    "type": "map-find-it",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Costa Rica.",
+    "options": [
+      "se",
+      "th",
+      "tz",
+      "cr"
+    ],
+    "correctAnswer": "cr",
+    "explanation": "Costa Rica is in North America. Its capital is San José.",
+    "countryId": "cr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-cr",
+    "type": "geography-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in North America. Its capital city is San José. Its region is Central America.",
+    "options": [
+      "cr",
+      "th",
+      "tr",
+      "tz"
+    ],
+    "correctAnswer": "cr",
+    "explanation": "The answer is Costa Rica, in North America, capital San José.",
+    "countryId": "cr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-gt",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "za",
+      "kr",
+      "es",
+      "gt"
+    ],
+    "correctAnswer": "gt",
+    "explanation": "This is the flag of Guatemala. Its capital is Guatemala City and it is in North America.",
+    "countryId": "gt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-gt",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Guatemala?",
+    "options": [
+      "es",
+      "se",
+      "gt",
+      "kr"
+    ],
+    "correctAnswer": "gt",
+    "explanation": "Guatemala's flag is shown. Its capital is Guatemala City.",
+    "countryId": "gt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-gt",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Guatemala?",
+    "options": [
+      "Stockholm",
+      "Dodoma",
+      "Madrid",
+      "Guatemala City"
+    ],
+    "correctAnswer": "Guatemala City",
+    "explanation": "The capital of Guatemala is Guatemala City.",
+    "countryId": "gt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-gt",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Guatemala City is the capital of which country?",
+    "options": [
+      "tz",
+      "th",
+      "se",
+      "gt"
+    ],
+    "correctAnswer": "gt",
+    "explanation": "Guatemala City is the capital of Guatemala.",
+    "countryId": "gt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-gt",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Guatemala in?",
+    "options": [
+      "Europe",
+      "North America",
+      "Africa",
+      "Oceania"
+    ],
+    "correctAnswer": "North America",
+    "explanation": "Guatemala is in North America.",
+    "countryId": "gt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-gt",
+    "type": "map-find-it",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Guatemala.",
+    "options": [
+      "tz",
+      "tr",
+      "gt",
+      "th"
+    ],
+    "correctAnswer": "gt",
+    "explanation": "Guatemala is in North America. Its capital is Guatemala City.",
+    "countryId": "gt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-gt",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in North America. Its capital city is Guatemala City. It shares a border with Mexico.",
+    "options": [
+      "tr",
+      "th",
+      "gt",
+      "gb"
+    ],
+    "correctAnswer": "gt",
+    "explanation": "The answer is Guatemala, in North America, capital Guatemala City.",
+    "countryId": "gt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-br",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "es",
+      "kr",
+      "br",
+      "se"
+    ],
+    "correctAnswer": "br",
+    "explanation": "This is the flag of Brazil. Its capital is Brasília and it is in South America.",
+    "countryId": "br",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-br",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Brazil?",
+    "options": [
+      "tz",
+      "br",
+      "es",
+      "se"
+    ],
+    "correctAnswer": "br",
+    "explanation": "Brazil's flag is shown. Its capital is Brasília.",
+    "countryId": "br",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-br",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Brazil?",
+    "options": [
+      "Dodoma",
+      "Stockholm",
+      "Brasília",
+      "Bangkok"
+    ],
+    "correctAnswer": "Brasília",
+    "explanation": "The capital of Brazil is Brasília.",
+    "countryId": "br",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-br",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Brasília is the capital of which country?",
+    "options": [
+      "br",
+      "th",
+      "tz",
+      "tr"
+    ],
+    "correctAnswer": "br",
+    "explanation": "Brasília is the capital of Brazil.",
+    "countryId": "br",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-br",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Brazil in?",
+    "options": [
+      "North America",
+      "Asia",
+      "South America",
+      "Europe"
+    ],
+    "correctAnswer": "South America",
+    "explanation": "Brazil is in South America.",
+    "countryId": "br",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-br",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Brazil.",
+    "options": [
+      "br",
+      "tr",
+      "gb",
+      "th"
+    ],
+    "correctAnswer": "br",
+    "explanation": "Brazil is in South America. Its capital is Brasília.",
+    "countryId": "br",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-br",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in South America. Its capital city is Brasília. It shares a border with Argentina.",
+    "options": [
+      "tr",
+      "us",
+      "gb",
+      "br"
+    ],
+    "correctAnswer": "br",
+    "explanation": "The answer is Brazil, in South America, capital Brasília.",
+    "countryId": "br",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-ar",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "es",
+      "se",
+      "tz",
+      "ar"
+    ],
+    "correctAnswer": "ar",
+    "explanation": "This is the flag of Argentina. Its capital is Buenos Aires and it is in South America.",
+    "countryId": "ar",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-ar",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Argentina?",
+    "options": [
+      "tz",
+      "th",
+      "ar",
+      "se"
+    ],
+    "correctAnswer": "ar",
+    "explanation": "Argentina's flag is shown. Its capital is Buenos Aires.",
+    "countryId": "ar",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-ar",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Argentina?",
+    "options": [
+      "Bangkok",
+      "Ankara",
+      "Dodoma",
+      "Buenos Aires"
+    ],
+    "correctAnswer": "Buenos Aires",
+    "explanation": "The capital of Argentina is Buenos Aires.",
+    "countryId": "ar",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-ar",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Buenos Aires is the capital of which country?",
+    "options": [
+      "tr",
+      "gb",
+      "th",
+      "ar"
+    ],
+    "correctAnswer": "ar",
+    "explanation": "Buenos Aires is the capital of Argentina.",
+    "countryId": "ar",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-ar",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Argentina in?",
+    "options": [
+      "Europe",
+      "South America",
+      "Africa",
+      "Asia"
+    ],
+    "correctAnswer": "South America",
+    "explanation": "Argentina is in South America.",
+    "countryId": "ar",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-ar",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Argentina.",
+    "options": [
+      "us",
+      "ar",
+      "tr",
+      "gb"
+    ],
+    "correctAnswer": "ar",
+    "explanation": "Argentina is in South America. Its capital is Buenos Aires.",
+    "countryId": "ar",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-ar",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in South America. Its capital city is Buenos Aires. It shares a border with Brazil.",
+    "options": [
+      "ar",
+      "gb",
+      "us",
+      "vn"
+    ],
+    "correctAnswer": "ar",
+    "explanation": "The answer is Argentina, in South America, capital Buenos Aires.",
+    "countryId": "ar",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-cl",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "se",
+      "th",
+      "tz",
+      "cl"
+    ],
+    "correctAnswer": "cl",
+    "explanation": "This is the flag of Chile. Its capital is Santiago and it is in South America.",
+    "countryId": "cl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-cl",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Chile?",
+    "options": [
+      "th",
+      "tr",
+      "cl",
+      "tz"
+    ],
+    "correctAnswer": "cl",
+    "explanation": "Chile's flag is shown. Its capital is Santiago.",
+    "countryId": "cl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-cl",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Chile?",
+    "options": [
+      "Ankara",
+      "London",
+      "Bangkok",
+      "Santiago"
+    ],
+    "correctAnswer": "Santiago",
+    "explanation": "The capital of Chile is Santiago.",
+    "countryId": "cl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-cl",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Santiago is the capital of which country?",
+    "options": [
+      "tr",
+      "gb",
+      "us",
+      "cl"
+    ],
+    "correctAnswer": "cl",
+    "explanation": "Santiago is the capital of Chile.",
+    "countryId": "cl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-cl",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Chile in?",
+    "options": [
+      "Europe",
+      "South America",
+      "Africa",
+      "Oceania"
+    ],
+    "correctAnswer": "South America",
+    "explanation": "Chile is in South America.",
+    "countryId": "cl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-cl",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Chile.",
+    "options": [
+      "gb",
+      "vn",
+      "cl",
+      "us"
+    ],
+    "correctAnswer": "cl",
+    "explanation": "Chile is in South America. Its capital is Santiago.",
+    "countryId": "cl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-cl",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in South America. Its capital city is Santiago. It shares a border with Argentina.",
+    "options": [
+      "cl",
+      "us",
+      "vn",
+      "ar"
+    ],
+    "correctAnswer": "cl",
+    "explanation": "The answer is Chile, in South America, capital Santiago.",
+    "countryId": "cl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-pe",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "tz",
+      "tr",
+      "th",
+      "pe"
+    ],
+    "correctAnswer": "pe",
+    "explanation": "This is the flag of Peru. Its capital is Lima and it is in South America.",
+    "countryId": "pe",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-pe",
+    "type": "flag-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Peru?",
+    "options": [
+      "pe",
+      "gb",
+      "tr",
+      "th"
+    ],
+    "correctAnswer": "pe",
+    "explanation": "Peru's flag is shown. Its capital is Lima.",
+    "countryId": "pe",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-pe",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Peru?",
+    "options": [
+      "Ankara",
+      "London",
+      "Washington D.C.",
+      "Lima"
+    ],
+    "correctAnswer": "Lima",
+    "explanation": "The capital of Peru is Lima.",
+    "countryId": "pe",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-pe",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Lima is the capital of which country?",
+    "options": [
+      "gb",
+      "us",
+      "vn",
+      "pe"
+    ],
+    "correctAnswer": "pe",
+    "explanation": "Lima is the capital of Peru.",
+    "countryId": "pe",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-pe",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Peru in?",
+    "options": [
+      "Africa",
+      "Asia",
+      "South America",
+      "Oceania"
+    ],
+    "correctAnswer": "South America",
+    "explanation": "Peru is in South America.",
+    "countryId": "pe",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-pe",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Peru.",
+    "options": [
+      "us",
+      "pe",
+      "ar",
+      "vn"
+    ],
+    "correctAnswer": "pe",
+    "explanation": "Peru is in South America. Its capital is Lima.",
+    "countryId": "pe",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-pe",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in South America. Its capital city is Lima. It shares a border with Brazil.",
+    "options": [
+      "ar",
+      "vn",
+      "pe",
+      "br"
+    ],
+    "correctAnswer": "pe",
+    "explanation": "The answer is Peru, in South America, capital Lima.",
+    "countryId": "pe",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-co",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "co",
+      "gb",
+      "tr",
+      "th"
+    ],
+    "correctAnswer": "co",
+    "explanation": "This is the flag of Colombia. Its capital is Bogotá and it is in South America.",
+    "countryId": "co",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-co",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Colombia?",
+    "options": [
+      "tr",
+      "gb",
+      "us",
+      "co"
+    ],
+    "correctAnswer": "co",
+    "explanation": "Colombia's flag is shown. Its capital is Bogotá.",
+    "countryId": "co",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-co",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Colombia?",
+    "options": [
+      "Bogotá",
+      "Washington D.C.",
+      "Hanoi",
+      "London"
+    ],
+    "correctAnswer": "Bogotá",
+    "explanation": "The capital of Colombia is Bogotá.",
+    "countryId": "co",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-co",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Bogotá is the capital of which country?",
+    "options": [
+      "vn",
+      "ar",
+      "co",
+      "us"
+    ],
+    "correctAnswer": "co",
+    "explanation": "Bogotá is the capital of Colombia.",
+    "countryId": "co",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-co",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Colombia in?",
+    "options": [
+      "North America",
+      "Asia",
+      "South America",
+      "Africa"
+    ],
+    "correctAnswer": "South America",
+    "explanation": "Colombia is in South America.",
+    "countryId": "co",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-co",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Colombia.",
+    "options": [
+      "co",
+      "vn",
+      "ar",
+      "br"
+    ],
+    "correctAnswer": "co",
+    "explanation": "Colombia is in South America. Its capital is Bogotá.",
+    "countryId": "co",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-co",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in South America. Its capital city is Bogotá. It shares a border with Brazil.",
+    "options": [
+      "ar",
+      "cl",
+      "co",
+      "br"
+    ],
+    "correctAnswer": "co",
+    "explanation": "The answer is Colombia, in South America, capital Bogotá.",
+    "countryId": "co",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-ve",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "tr",
+      "ve",
+      "us",
+      "gb"
+    ],
+    "correctAnswer": "ve",
+    "explanation": "This is the flag of Venezuela. Its capital is Caracas and it is in South America.",
+    "countryId": "ve",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-ve",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Venezuela?",
+    "options": [
+      "ve",
+      "us",
+      "gb",
+      "vn"
+    ],
+    "correctAnswer": "ve",
+    "explanation": "Venezuela's flag is shown. Its capital is Caracas.",
+    "countryId": "ve",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-ve",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Venezuela?",
+    "options": [
+      "Buenos Aires",
+      "Caracas",
+      "Washington D.C.",
+      "Hanoi"
+    ],
+    "correctAnswer": "Caracas",
+    "explanation": "The capital of Venezuela is Caracas.",
+    "countryId": "ve",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-ve",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Caracas is the capital of which country?",
+    "options": [
+      "vn",
+      "br",
+      "ve",
+      "ar"
+    ],
+    "correctAnswer": "ve",
+    "explanation": "Caracas is the capital of Venezuela.",
+    "countryId": "ve",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-ve",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Venezuela in?",
+    "options": [
+      "Africa",
+      "Europe",
+      "North America",
+      "South America"
+    ],
+    "correctAnswer": "South America",
+    "explanation": "Venezuela is in South America.",
+    "countryId": "ve",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-ve",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Venezuela.",
+    "options": [
+      "br",
+      "cl",
+      "ar",
+      "ve"
+    ],
+    "correctAnswer": "ve",
+    "explanation": "Venezuela is in South America. Its capital is Caracas.",
+    "countryId": "ve",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-ve",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in South America. Its capital city is Caracas. It shares a border with Brazil.",
+    "options": [
+      "cl",
+      "co",
+      "ve",
+      "br"
+    ],
+    "correctAnswer": "ve",
+    "explanation": "The answer is Venezuela, in South America, capital Caracas.",
+    "countryId": "ve",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-au",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "au",
+      "ve",
+      "vn",
+      "us"
+    ],
+    "correctAnswer": "au",
+    "explanation": "This is the flag of Australia. Its capital is Canberra and it is in Oceania.",
+    "countryId": "au",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-au",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Australia?",
+    "options": [
+      "ve",
+      "vn",
+      "fj",
+      "au"
+    ],
+    "correctAnswer": "au",
+    "explanation": "Australia's flag is shown. Its capital is Canberra.",
+    "countryId": "au",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-au",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Australia?",
+    "options": [
+      "Suva",
+      "Wellington",
+      "Canberra",
+      "Hanoi"
+    ],
+    "correctAnswer": "Canberra",
+    "explanation": "The capital of Australia is Canberra.",
+    "countryId": "au",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-au",
+    "type": "capital-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "capitals",
+    "prompt": "Canberra is the capital of which country?",
+    "options": [
+      "au",
+      "nz",
+      "pg",
+      "fj"
+    ],
+    "correctAnswer": "au",
+    "explanation": "Canberra is the capital of Australia.",
+    "countryId": "au",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-au",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Australia in?",
+    "options": [
+      "Oceania",
+      "Asia",
+      "South America",
+      "North America"
+    ],
+    "correctAnswer": "Oceania",
+    "explanation": "Australia is in Oceania.",
+    "countryId": "au",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-au",
+    "type": "map-find-it",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "location",
+    "prompt": "Find Australia.",
+    "options": [
+      "au",
+      "pg",
+      "nz",
+      "ar"
+    ],
+    "correctAnswer": "au",
+    "explanation": "Australia is in Oceania. Its capital is Canberra.",
+    "countryId": "au",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-au",
+    "type": "geography-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Oceania. Its capital city is Canberra. Its region is Australia and New Zealand.",
+    "options": [
+      "br",
+      "au",
+      "pg",
+      "ar"
+    ],
+    "correctAnswer": "au",
+    "explanation": "The answer is Australia, in Oceania, capital Canberra.",
+    "countryId": "au",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-nz",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "nz",
+      "ve",
+      "vn",
+      "au"
+    ],
+    "correctAnswer": "nz",
+    "explanation": "This is the flag of New Zealand. Its capital is Wellington and it is in Oceania.",
+    "countryId": "nz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-nz",
+    "type": "flag-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to New Zealand?",
+    "options": [
+      "fj",
+      "nz",
+      "vn",
+      "au"
+    ],
+    "correctAnswer": "nz",
+    "explanation": "New Zealand's flag is shown. Its capital is Wellington.",
+    "countryId": "nz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-nz",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of New Zealand?",
+    "options": [
+      "Wellington",
+      "Canberra",
+      "Suva",
+      "Port Moresby"
+    ],
+    "correctAnswer": "Wellington",
+    "explanation": "The capital of New Zealand is Wellington.",
+    "countryId": "nz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-nz",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Wellington is the capital of which country?",
+    "options": [
+      "pg",
+      "fj",
+      "nz",
+      "ar"
+    ],
+    "correctAnswer": "nz",
+    "explanation": "Wellington is the capital of New Zealand.",
+    "countryId": "nz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-nz",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is New Zealand in?",
+    "options": [
+      "Oceania",
+      "Europe",
+      "South America",
+      "Asia"
+    ],
+    "correctAnswer": "Oceania",
+    "explanation": "New Zealand is in Oceania.",
+    "countryId": "nz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-nz",
+    "type": "map-find-it",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find New Zealand.",
+    "options": [
+      "nz",
+      "br",
+      "ar",
+      "pg"
+    ],
+    "correctAnswer": "nz",
+    "explanation": "New Zealand is in Oceania. Its capital is Wellington.",
+    "countryId": "nz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-nz",
+    "type": "geography-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Oceania. Its capital city is Wellington. Its region is Australia and New Zealand.",
+    "options": [
+      "ar",
+      "ca",
+      "br",
+      "nz"
+    ],
+    "correctAnswer": "nz",
+    "explanation": "The answer is New Zealand, in Oceania, capital Wellington.",
+    "countryId": "nz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-fj",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "fj",
+      "au",
+      "vn",
+      "nz"
+    ],
+    "correctAnswer": "fj",
+    "explanation": "This is the flag of Fiji. Its capital is Suva and it is in Oceania.",
+    "countryId": "fj",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-fj",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Fiji?",
+    "options": [
+      "pg",
+      "fj",
+      "au",
+      "nz"
+    ],
+    "correctAnswer": "fj",
+    "explanation": "Fiji's flag is shown. Its capital is Suva.",
+    "countryId": "fj",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-fj",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Fiji?",
+    "options": [
+      "Suva",
+      "Port Moresby",
+      "Wellington",
+      "Buenos Aires"
+    ],
+    "correctAnswer": "Suva",
+    "explanation": "The capital of Fiji is Suva.",
+    "countryId": "fj",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-fj",
+    "type": "capital-challenge",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Suva is the capital of which country?",
+    "options": [
+      "fj",
+      "pg",
+      "ar",
+      "br"
+    ],
+    "correctAnswer": "fj",
+    "explanation": "Suva is the capital of Fiji.",
+    "countryId": "fj",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-fj",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Fiji in?",
+    "options": [
+      "Oceania",
+      "North America",
+      "Europe",
+      "South America"
+    ],
+    "correctAnswer": "Oceania",
+    "explanation": "Fiji is in Oceania.",
+    "countryId": "fj",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-fj",
+    "type": "map-find-it",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Fiji.",
+    "options": [
+      "fj",
+      "ca",
+      "br",
+      "ar"
+    ],
+    "correctAnswer": "fj",
+    "explanation": "Fiji is in Oceania. Its capital is Suva.",
+    "countryId": "fj",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-fj",
+    "type": "geography-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Oceania. Its capital city is Suva. Its region is Melanesia.",
+    "options": [
+      "br",
+      "cl",
+      "ca",
+      "fj"
+    ],
+    "correctAnswer": "fj",
+    "explanation": "The answer is Fiji, in Oceania, capital Suva.",
+    "countryId": "fj",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-flag-pg",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which country does this flag belong to?",
+    "options": [
+      "nz",
+      "pg",
+      "au",
+      "fj"
+    ],
+    "correctAnswer": "pg",
+    "explanation": "This is the flag of Papua New Guinea. Its capital is Port Moresby and it is in Oceania.",
+    "countryId": "pg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-detective-country-pg",
+    "type": "flag-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Which flag belongs to Papua New Guinea?",
+    "options": [
+      "nz",
+      "fj",
+      "pg",
+      "ar"
+    ],
+    "correctAnswer": "pg",
+    "explanation": "Papua New Guinea's flag is shown. Its capital is Port Moresby.",
+    "countryId": "pg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-capital-pg",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "What is the capital of Papua New Guinea?",
+    "options": [
+      "Wellington",
+      "Port Moresby",
+      "Brasília",
+      "Buenos Aires"
+    ],
+    "correctAnswer": "Port Moresby",
+    "explanation": "The capital of Papua New Guinea is Port Moresby.",
+    "countryId": "pg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "capital-challenge-country-pg",
+    "type": "capital-challenge",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "capitals",
+    "prompt": "Port Moresby is the capital of which country?",
+    "options": [
+      "ar",
+      "pg",
+      "ca",
+      "br"
+    ],
+    "correctAnswer": "pg",
+    "explanation": "Port Moresby is the capital of Papua New Guinea.",
+    "countryId": "pg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "continent-challenge-pg",
+    "type": "continent-challenge",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "continents",
+    "prompt": "Which continent is Papua New Guinea in?",
+    "options": [
+      "North America",
+      "Europe",
+      "South America",
+      "Oceania"
+    ],
+    "correctAnswer": "Oceania",
+    "explanation": "Papua New Guinea is in Oceania.",
+    "countryId": "pg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "map-find-it-pg",
+    "type": "map-find-it",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Find Papua New Guinea.",
+    "options": [
+      "br",
+      "ca",
+      "cl",
+      "pg"
+    ],
+    "correctAnswer": "pg",
+    "explanation": "Papua New Guinea is in Oceania. Its capital is Port Moresby.",
+    "countryId": "pg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "geography-detective-pg",
+    "type": "geography-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "clues",
+    "prompt": "Which country am I? It is in Oceania. Its capital city is Port Moresby. It shares a border with Indonesia.",
+    "options": [
+      "pg",
+      "cn",
+      "cl",
+      "ca"
+    ],
+    "correctAnswer": "pg",
+    "explanation": "The answer is Papua New Guinea, in Oceania, capital Port Moresby.",
+    "countryId": "pg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-builder-fr",
+    "type": "flag-builder",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Put the colours in the right order to build the flag of France (vertical).",
+    "options": [
+      "blue-white-red",
+      "red-white-blue",
+      "white-red-blue",
+      "red-blue-white"
+    ],
+    "correctAnswer": "blue-white-red",
+    "explanation": "France's flag has vertical bands: blue, white, red.",
+    "countryId": "fr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-builder-it",
+    "type": "flag-builder",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Put the colours in the right order to build the flag of Italy (vertical).",
+    "options": [
+      "red-white-green",
+      "green-white-red",
+      "red-green-white",
+      "white-red-green"
+    ],
+    "correctAnswer": "green-white-red",
+    "explanation": "Italy's flag has vertical bands: green, white, red.",
+    "countryId": "it",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-builder-ie",
+    "type": "flag-builder",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Put the colours in the right order to build the flag of Ireland (vertical).",
+    "options": [
+      "green-white-orange",
+      "orange-green-white",
+      "white-orange-green",
+      "orange-white-green"
+    ],
+    "correctAnswer": "green-white-orange",
+    "explanation": "Ireland's flag has vertical bands: green, white, orange.",
+    "countryId": "ie",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-builder-ng",
+    "type": "flag-builder",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Put the colours in the right order to build the flag of Nigeria (vertical).",
+    "options": [
+      "white-green-green",
+      "green-green-white",
+      "red-white-blue",
+      "green-white-green"
+    ],
+    "correctAnswer": "green-white-green",
+    "explanation": "Nigeria's flag has vertical bands: green, white, green.",
+    "countryId": "ng",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-builder-pe",
+    "type": "flag-builder",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Put the colours in the right order to build the flag of Peru (vertical).",
+    "options": [
+      "white-red-red",
+      "red-white-blue",
+      "red-red-white",
+      "red-white-red"
+    ],
+    "correctAnswer": "red-white-red",
+    "explanation": "Peru's flag has vertical bands: red, white, red.",
+    "countryId": "pe",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-builder-de",
+    "type": "flag-builder",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Put the colours in the right order to build the flag of Germany (horizontal).",
+    "options": [
+      "red-gold-black",
+      "gold-black-red",
+      "gold-red-black",
+      "black-red-gold"
+    ],
+    "correctAnswer": "black-red-gold",
+    "explanation": "Germany's flag has horizontal bands: black, red, gold.",
+    "countryId": "de",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-builder-nl",
+    "type": "flag-builder",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Put the colours in the right order to build the flag of Netherlands (horizontal).",
+    "options": [
+      "red-white-blue",
+      "blue-red-white",
+      "white-blue-red",
+      "blue-white-red"
+    ],
+    "correctAnswer": "red-white-blue",
+    "explanation": "Netherlands's flag has horizontal bands: red, white, blue.",
+    "countryId": "nl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-builder-ru",
+    "type": "flag-builder",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Put the colours in the right order to build the flag of Russia (horizontal).",
+    "options": [
+      "red-blue-white",
+      "white-blue-red",
+      "red-white-blue",
+      "blue-red-white"
+    ],
+    "correctAnswer": "white-blue-red",
+    "explanation": "Russia's flag has horizontal bands: white, blue, red.",
+    "countryId": "ru",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-builder-id",
+    "type": "flag-builder",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Put the colours in the right order to build the flag of Indonesia (horizontal).",
+    "options": [
+      "blue-white-red",
+      "red-white",
+      "white-red",
+      "red-white-blue"
+    ],
+    "correctAnswer": "red-white",
+    "explanation": "Indonesia's flag has horizontal bands: red, white.",
+    "countryId": "id",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-builder-pl",
+    "type": "flag-builder",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Put the colours in the right order to build the flag of Poland (horizontal).",
+    "options": [
+      "white-red",
+      "red-white-blue",
+      "red-white",
+      "blue-white-red"
+    ],
+    "correctAnswer": "white-red",
+    "explanation": "Poland's flag has horizontal bands: white, red.",
+    "countryId": "pl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-builder-ve",
+    "type": "flag-builder",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Put the colours in the right order to build the flag of Venezuela (horizontal).",
+    "options": [
+      "red-blue-yellow",
+      "red-yellow-blue",
+      "yellow-blue-red",
+      "blue-red-yellow"
+    ],
+    "correctAnswer": "yellow-blue-red",
+    "explanation": "Venezuela's flag has horizontal bands: yellow, blue, red.",
+    "countryId": "ve",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "flag-builder-co",
+    "type": "flag-builder",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "flags",
+    "prompt": "Put the colours in the right order to build the flag of Colombia (horizontal).",
+    "options": [
+      "yellow-blue-red",
+      "red-yellow-blue",
+      "blue-red-yellow",
+      "red-blue-yellow"
+    ],
+    "correctAnswer": "yellow-blue-red",
+    "explanation": "Colombia's flag has horizontal bands: yellow, blue, red.",
+    "countryId": "co",
+    "active": true,
+    "source": "generated:world-explorer"
+  }
+]

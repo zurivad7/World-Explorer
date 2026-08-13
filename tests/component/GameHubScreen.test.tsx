@@ -6,7 +6,7 @@ import { GAME_MODE_META } from '@/features/games/gameModes';
 
 function renderScreen() {
   return render(
-    <MemoryRouter>
+    <MemoryRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <GameHubScreen />
     </MemoryRouter>
   );

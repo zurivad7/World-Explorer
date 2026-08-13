@@ -80,24 +80,69 @@ export function validateContent(input: ContentInput): ValidationResult {
     seenAchievement.add(a.id);
   }
 
-  // 5. Coverage warnings (non-fatal in Phase 0, tightened in later phases).
-  const modesWithQuestions = new Set(input.questions.map((q) => q.type));
+  // 5. Content quality warnings.
   for (const c of input.countries) {
     if (c.facts.length < 2) {
       warnings.push(`country ${c.id} has fewer than 2 child-friendly facts`);
     }
   }
-  const expectedModes = [
-    'flag-detective',
-    'capital-challenge',
-    'continent-challenge',
-    'map-find-it',
-    'geography-detective',
-    'flag-builder',
-  ] as const;
-  for (const mode of expectedModes) {
-    if (!modesWithQuestions.has(mode)) {
-      warnings.push(`no questions yet for game mode: ${mode}`);
+
+  return { errors, warnings };
+}
+
+/** MVP content targets (PRD §24). */
+export const MVP_MIN_COUNTRIES = 50;
+export const MVP_MIN_QUESTIONS_PER_MODE = 10;
+export const MVP_GAME_MODES = [
+  'flag-detective',
+  'capital-challenge',
+  'continent-challenge',
+  'map-find-it',
+  'geography-detective',
+  'flag-builder',
+] as const;
+
+/**
+ * MVP completeness gates, checked against the full shipped bank (PRD §24, §28,
+ * §35). Kept separate from `validateContent` so unit tests can exercise the
+ * structural checks on small fixtures without tripping these thresholds.
+ */
+export function validateCompleteness(input: ContentInput): ValidationResult {
+  const errors: string[] = [];
+  const warnings: string[] = [];
+
+  const active = input.countries.filter((c) => c.active);
+  if (active.length < MVP_MIN_COUNTRIES) {
+    errors.push(`expected at least ${MVP_MIN_COUNTRIES} active countries, found ${active.length}`);
+  }
+
+  // Every inhabited continent must be represented (PRD AC-04).
+  const inhabited = ['Africa', 'Asia', 'Europe', 'North America', 'South America', 'Oceania'];
+  const present = new Set(active.map((c) => c.continent));
+  for (const continent of inhabited) {
+    if (!present.has(continent as (typeof active)[number]['continent'])) {
+      errors.push(`no countries on continent: ${continent}`);
+    }
+  }
+
+  // Each country needs flag, capital, continent and a map identity (PRD AC-05).
+  for (const c of active) {
+    if (!c.flagAsset) errors.push(`country ${c.id} has no flag asset`);
+    if (!c.capital) errors.push(`country ${c.id} has no capital`);
+    if (!c.geometryId) errors.push(`country ${c.id} has no geometry id`);
+  }
+
+  // At least N questions per game mode (PRD §24).
+  const perMode = new Map<string, number>();
+  for (const q of input.questions) {
+    if (q.active) perMode.set(q.type, (perMode.get(q.type) ?? 0) + 1);
+  }
+  for (const mode of MVP_GAME_MODES) {
+    const count = perMode.get(mode) ?? 0;
+    if (count < MVP_MIN_QUESTIONS_PER_MODE) {
+      errors.push(
+        `game mode "${mode}" has ${count} questions, needs at least ${MVP_MIN_QUESTIONS_PER_MODE}`
+      );
     }
   }
 
