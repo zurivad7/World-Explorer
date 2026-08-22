@@ -18,6 +18,18 @@ Vitest + React Testing Library + Playwright · ESLint + Prettier.
 
 Local-first and privacy-conscious: no backend, no accounts, no ads, no tracking.
 
+## Live preview
+
+Pushes to `main` auto-deploy to GitHub Pages via
+[`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml):
+
+**https://zurivad7.github.io/World-Explorer/**
+
+One-time setup: in the repo, **Settings → Pages → Build and deployment → Source:
+"GitHub Actions"**. After that, each push to `main` publishes automatically. The
+app is served under the `/World-Explorer/` sub-path (configured via `PAGES_BASE`);
+for a commercial root-domain host, `base` defaults to `/`.
+
 ## Getting started
 
 ```bash
