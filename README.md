@@ -84,7 +84,8 @@ continents and **362 questions** spanning the six game modes. Regenerate with
 
 ## Status
 
-Phases 0 (foundation), 1 (content) and 2 (map) are complete — the app has an
-interactive, offline-capable Leaflet map of the 50-country slice with country
-selection and detail. See [`DEVELOPMENT.md`](DEVELOPMENT.md) for the phase plan and
-what's next (the playable game engine and the six game modes).
+Phases 0–4 are complete: foundation, the 50-country content slice, an
+interactive offline-capable map, the adaptive game engine, and all **six playable
+game modes** plus a daily challenge (with immediate feedback and explanations).
+See [`DEVELOPMENT.md`](DEVELOPMENT.md) for the phase plan and what's next
+(persisting progress, passport and badges in Phase 5).

@@ -10,6 +10,7 @@ export const paths = {
   play: '/play', // S05 Game Hub
   game: (mode: GameMode) => `/play/${mode}`, // S06 / S07
   gamePattern: '/play/:mode',
+  dailyChallenge: '/play/daily', // FR-015
   passport: '/passport', // S08
   achievements: '/achievements', // S09
   progress: '/progress', // S10

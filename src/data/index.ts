@@ -1,17 +1,18 @@
-import type { Country, GameMode, Question } from '@/types';
+import type { Country } from '@/types';
 import countriesJson from './countries/countries.generated.json';
-import questionsJson from './questions/questions.generated.json';
 import { achievements } from './achievements/achievements';
 
 /**
- * Runtime content entry point. The country and question banks are generated and
+ * Runtime content entry point for country metadata + achievements. Generated and
  * validated at build time by scripts/build-content.ts (`npm run build:content`)
  * from `world-countries` + `flag-icons` and the authored sources under
  * src/data/countries/source.ts. The JSON is cast to the domain types here; its
  * integrity is guaranteed by validate:content in CI, not re-checked on every load.
+ *
+ * The question bank lives in `@/data/questions` (its own module) so the large
+ * question JSON is code-split into the games route rather than the initial bundle.
  */
 export const countries = countriesJson as unknown as Country[];
-export const questions = questionsJson as unknown as Question[];
 export { achievements };
 export * from './schema';
 export * from './validate';
@@ -20,10 +21,6 @@ const countryById = new Map(countries.map((c) => [c.id, c]));
 
 export function getCountryById(id: string): Country | undefined {
   return countryById.get(id);
-}
-
-export function getQuestionsForMode(mode: GameMode): Question[] {
-  return questions.filter((q) => q.type === mode && q.active);
 }
 
 export function getCountriesByContinent(): Map<string, Country[]> {

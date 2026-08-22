@@ -4,7 +4,8 @@
  * Runs both structural/referential checks and MVP completeness gates. Exits
  * non-zero on any error so it can gate CI and the production build.
  */
-import { achievements, countries, questions } from '../src/data/index.ts';
+import { achievements, countries } from '../src/data/index.ts';
+import { questions } from '../src/data/questions.ts';
 import { validateCompleteness, validateContent } from '../src/data/validate.ts';
 
 const input = { countries, questions, achievements };

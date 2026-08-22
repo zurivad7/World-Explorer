@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { achievements, countries, questions } from '@/data';
+import { achievements, countries } from '@/data';
+import { questions } from '@/data/questions';
 import {
   MVP_GAME_MODES,
   MVP_MIN_COUNTRIES,
