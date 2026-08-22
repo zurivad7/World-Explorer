@@ -4,7 +4,11 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 // https://vite.dev/config/
+// `base` is '/' for local dev/preview and commercial root-domain hosting, and is
+// set to the repo sub-path (e.g. '/World-Explorer/') for the GitHub Pages preview
+// via the PAGES_BASE env var in the deploy workflow.
 export default defineConfig({
+  base: process.env.PAGES_BASE || '/',
   plugins: [
     react(),
     VitePWA({
@@ -18,8 +22,9 @@ export default defineConfig({
         background_color: '#f4f9ff',
         display: 'standalone',
         orientation: 'any',
-        start_url: '/',
-        scope: '/',
+        // Relative so the installed PWA works under any base path (root or sub-path).
+        start_url: '.',
+        scope: '.',
         icons: [
           { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png' },

@@ -2,6 +2,7 @@ import { Link, useParams } from 'react-router-dom';
 import { Screen } from '@/components/Screen';
 import { paths } from '@/app/routes';
 import { getCountryById } from '@/data';
+import { assetUrl } from '@/lib/assets';
 import { LazyWorldMap } from '@/features/map/LazyWorldMap';
 
 /** S04 Country Detail — flag, capital, continent, region, neighbours, facts (PRD §8, §13). */
@@ -27,7 +28,7 @@ export function CountryDetailScreen() {
     <Screen title={country.name} subtitle={`${country.continent} • ${country.region}`}>
       <img
         className="country-flag"
-        src={country.flagAsset}
+        src={assetUrl(country.flagAsset)}
         alt={`Flag of ${country.name}`}
         width={120}
         height={90}

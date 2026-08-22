@@ -4,6 +4,7 @@ import { Screen } from '@/components/Screen';
 import { paths } from '@/app/routes';
 import { countries } from '@/data';
 import { CONTINENTS, type Continent } from '@/types';
+import { assetUrl } from '@/lib/assets';
 import { LazyWorldMap } from './LazyWorldMap';
 
 /**
@@ -80,7 +81,7 @@ export function MapScreen() {
             <Link to={paths.country(c.id)} className="country-list__item">
               <img
                 className="country-list__flag"
-                src={c.flagAsset}
+                src={assetUrl(c.flagAsset)}
                 alt=""
                 width={32}
                 height={24}
