@@ -10,11 +10,28 @@ open questions to resolve. The product source of truth is [`docs/PRD.md`](docs/P
 | 0 Foundation | ✅ Complete |
 | 1 Content (50-country slice) | ✅ Complete |
 | 2 Map | ✅ Complete |
-| 3 Game engine | 🟡 Skeleton in place (`src/lib/game-engine`) |
+| 3 Game engine | ✅ Complete |
 | 4 Games | ⏳ Next |
 | 5 Progress | 🟡 Storage layer in place (`src/lib/storage`) |
 | 6 Offline/PWA | 🟡 Manifest + service worker; flags + map geometry precached |
 | 7 QA | ⬜ Not started |
+
+## Game engine (Phase 3)
+
+All pure, deterministic and unit-tested in `src/lib/game-engine`; the game UIs in
+Phase 4 consume it.
+
+- **Selection** (`selection.ts`) — adaptive question picking (FR-014, AC-10):
+  filters by age band, targets the difficulty band matching per-topic mastery,
+  prioritises weaker topics, and avoids recently-seen questions. Seeded so ties
+  break deterministically but vary across sessions.
+- **Session** (`session.ts`) — immutable quiz state machine: current question →
+  `answerCurrent` (records + returns feedback, no auto-advance so the explanation
+  can show) → `advance` → summary/score.
+- **Daily challenge** (`dailyChallenge.ts`) — deterministic per local date, drawn
+  from the local bank with variety across game modes (FR-015).
+- **Scoring/mastery** (`scoring.ts`, `mastery.ts`) — from Phase 0: answer
+  validation and the 0–100 mastery update (PRD §10).
 
 ## Map (Phase 2)
 
