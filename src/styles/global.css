@@ -292,6 +292,67 @@ body {
   font-size: 0.85rem;
 }
 
+.country-list__flag {
+  width: 32px;
+  height: 24px;
+  object-fit: cover;
+  border-radius: 3px;
+  border: 1px solid var(--color-border);
+  margin-right: 10px;
+}
+
+.country-list__name {
+  flex: 1;
+}
+
+.country-flag {
+  width: 120px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--color-border);
+  margin-bottom: var(--space);
+}
+
+/* Chips (filters, neighbours) */
+.filter-row,
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: inherit;
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.chip--selected {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+  font-weight: 700;
+}
+
+.result-count {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  margin: 0 0 8px;
+}
+
 .fact-list li {
   padding: 8px 0;
   border-bottom: 1px solid var(--color-border);
@@ -357,6 +418,52 @@ body {
 .badge__desc {
   font-size: 0.8rem;
   color: var(--color-muted);
+}
+
+/* ---- Map ---- */
+.world-map {
+  width: 100%;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  background: #aed3ec; /* ocean, shown when there are no tiles */
+  overflow: hidden;
+}
+
+.world-map--explore {
+  height: 320px;
+  margin-bottom: 12px;
+}
+
+.world-map--detail {
+  height: 200px;
+  margin-bottom: var(--space);
+}
+
+.world-map--loading,
+.world-map--error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  color: var(--color-muted);
+  background: var(--color-surface);
+}
+
+.world-map--error {
+  height: auto;
+}
+
+/* Leaflet container needs an explicit background when we skip tiles. */
+.leaflet-container {
+  background: #aed3ec;
+  font: inherit;
+}
+
+.map-hint {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  margin: 0 0 var(--space);
 }
 
 .map-placeholder,

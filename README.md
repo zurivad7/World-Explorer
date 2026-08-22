@@ -39,7 +39,8 @@ Open the printed local URL. First run sends you through onboarding (pick an age 
 | `npm run format` | Format with Prettier |
 | `npm run test` | Run unit + component tests (Vitest) |
 | `npm run test:e2e` | Run Playwright end-to-end tests |
-| `npm run validate:content` | Validate geography content integrity |
+| `npm run build:content` | Regenerate the country + question data from sources |
+| `npm run validate:content` | Validate content integrity + MVP completeness |
 
 ## Project structure
 
@@ -60,7 +61,18 @@ public/         icons, favicon
 docs/           PRD
 ```
 
+## Content
+
+Geography content is generated from open datasets (`world-countries`, `flag-icons`)
+plus authored facts, then validated and committed — see
+[`docs/geography-conventions.md`](docs/geography-conventions.md) and
+[`NOTICE.md`](NOTICE.md). The current slice: **50 countries** across all inhabited
+continents and **362 questions** spanning the six game modes. Regenerate with
+`npm run build:content`.
+
 ## Status
 
-Phase 0 (foundation) is complete. See [`DEVELOPMENT.md`](DEVELOPMENT.md) for the
-phase plan and what's next (the 50-country content slice).
+Phases 0 (foundation), 1 (content) and 2 (map) are complete — the app has an
+interactive, offline-capable Leaflet map of the 50-country slice with country
+selection and detail. See [`DEVELOPMENT.md`](DEVELOPMENT.md) for the phase plan and
+what's next (the playable game engine and the six game modes).

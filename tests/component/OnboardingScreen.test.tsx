@@ -11,7 +11,7 @@ describe('OnboardingScreen', () => {
   it('lets a child pick an age band and start without an account', async () => {
     const user = userEvent.setup();
     render(
-      <MemoryRouter>
+      <MemoryRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <ProfileProvider>
           <OnboardingScreen />
         </ProfileProvider>

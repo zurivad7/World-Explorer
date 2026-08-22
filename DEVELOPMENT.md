@@ -8,13 +8,76 @@ open questions to resolve. The product source of truth is [`docs/PRD.md`](docs/P
 | Phase | Status |
 | --- | --- |
 | 0 Foundation | ✅ Complete |
-| 1 Content (50-country slice) | ⏳ Next |
-| 2 Map | ⬜ Not started |
-| 3 Game engine | 🟡 Skeleton in place (`src/lib/game-engine`) |
-| 4 Games | ⬜ Not started |
+| 1 Content (50-country slice) | ✅ Complete |
+| 2 Map | ✅ Complete |
+| 3 Game engine | ✅ Complete |
+| 4 Games | ⏳ Next |
 | 5 Progress | 🟡 Storage layer in place (`src/lib/storage`) |
-| 6 Offline/PWA | 🟡 Manifest + service worker configured |
+| 6 Offline/PWA | 🟡 Manifest + service worker; flags + map geometry precached |
 | 7 QA | ⬜ Not started |
+
+## Game engine (Phase 3)
+
+All pure, deterministic and unit-tested in `src/lib/game-engine`; the game UIs in
+Phase 4 consume it.
+
+- **Selection** (`selection.ts`) — adaptive question picking (FR-014, AC-10):
+  filters by age band, targets the difficulty band matching per-topic mastery,
+  prioritises weaker topics, and avoids recently-seen questions. Seeded so ties
+  break deterministically but vary across sessions.
+- **Session** (`session.ts`) — immutable quiz state machine: current question →
+  `answerCurrent` (records + returns feedback, no auto-advance so the explanation
+  can show) → `advance` → summary/score.
+- **Daily challenge** (`dailyChallenge.ts`) — deterministic per local date, drawn
+  from the local bank with variety across game modes (FR-015).
+- **Scoring/mastery** (`scoring.ts`, `mastery.ts`) — from Phase 0: answer
+  validation and the 0–100 mastery update (PRD §10).
+
+## Map (Phase 2)
+
+- **Geometry** — `scripts/build-content.ts` converts Natural Earth (via
+  `world-atlas`, 110m) TopoJSON to GeoJSON, keeps the 50-country slice, and keys
+  each feature by `geometryId` (= country id). Output: `src/data/geometry/countries.geo.json`.
+- **Abstraction** (`src/features/map/mapModel.ts`) — pure, provider-agnostic:
+  feature→country id, visual-state/style resolver, fit-to-country bounds. Unit-tested.
+  Game/UI code only ever sees country ids, never Leaflet objects (PRD §16).
+- **Rendering** (`WorldMap.tsx`, lazy-loaded via `LazyWorldMap`) — Leaflet with a
+  GeoJSON layer, **no tile layer by default** so it works offline; an OSM tile layer
+  is pluggable per-map (`showTiles`) with attribution. Touch pan/pinch-zoom,
+  responsive via `ResizeObserver`, graceful error fallback ("play other games").
+- **Screens** — Explore renders the map with a searchable list as the accessible /
+  offline fallback (PRD §7.4, §19); Country Detail shows a fit-to-country mini-map.
+- Leaflet + geometry are code-split, so the initial bundle is unchanged.
+
+### E2E note
+
+The environment ships a preinstalled Chromium whose build differs from Playwright's
+expected one. `playwright.config.ts` detects the binary under
+`PLAYWRIGHT_BROWSERS_PATH` and uses it via `executablePath` (no browser download).
+
+## Content pipeline (Phase 1)
+
+Geography content is **generated and validated at build time**, then committed:
+
+- **Authored source** — `src/data/countries/source.ts` (the 50-country slice: which
+  countries, child-friendly facts, difficulty hints, continent overrides) and
+  `src/data/flags/templates.ts` (simplified flags for Flag Builder).
+- **Generator** — `scripts/build-content.ts` (`npm run build:content`) pulls
+  metadata from `world-countries`, copies flag SVGs from `flag-icons` into
+  `public/assets/flags/`, runs the pure generators in `src/data/generate.ts`, and
+  writes `src/data/countries/countries.generated.json` +
+  `src/data/questions/questions.generated.json`.
+- **Questions are templated, not AI-generated** (PRD §4) — deterministic templates
+  over reviewed country data, so the bank is reproducible and reviewable. Current
+  bank: 50 countries, 362 questions (flag 100, capital 100, continent 50, map 50,
+  detective 50, flag-builder 12).
+- **Validation** — `npm run validate:content` runs structural/referential checks
+  (`validateContent`) **and** MVP completeness gates (`validateCompleteness`:
+  ≥50 countries, all inhabited continents, ≥10 questions/mode, flag+capital+geometry
+  present). Both gate CI.
+- Geography/continent conventions and source attributions: see
+  `docs/geography-conventions.md` and `NOTICE.md`. When changing content, edit the
+  source files, run `build:content`, and commit the regenerated JSON + flags.
 
 ## Decisions
 
@@ -51,13 +114,14 @@ open questions to resolve. The product source of truth is [`docs/PRD.md`](docs/P
 
 ## Open questions / to document
 
-- **Disputed & transcontinental geography (PRD §7.3, §15):** need a documented,
-  reviewed convention for cases like Russia/Turkey (Europe vs Asia), Egypt, and
-  disputed territories **before** authoring the 50-country slice. Tracked for Phase 1.
-- **Flag asset licensing:** confirm the chosen flag set's licence and add attribution
-  where required (PRD §15).
-- **Map tile provider & attribution:** select an OSM-compatible tile provider and
-  wire required attribution before Phase 2 ships (PRD §16, §35).
+- ~~**Disputed & transcontinental geography**~~ — resolved in
+  `docs/geography-conventions.md` (Russia→Europe, Türkiye/Kazakhstan→Asia, Egypt→Africa).
+- ~~**Flag asset licensing**~~ — flag-icons is MIT, world-countries is ODbL;
+  attribution recorded in `NOTICE.md`.
+- **Map tile provider & attribution (Phase 2):** select an OSM-compatible tile
+  provider and wire required attribution before Phase 2 ships (PRD §16, §35). Each
+  country already has a stable `geometryId` (currently = its id) ready to bind to
+  real geometry.
 - **Flag Builder templates (PRD §7.6):** decide the controlled template format for
   simplified flags.
 - **Icons:** `public/icons/*` are solid-colour placeholders. Replace with designed
@@ -72,6 +136,7 @@ npm run typecheck        # tsc project references, no emit
 npm run lint             # eslint
 npm run test             # vitest (unit + component)
 npm run test:e2e         # playwright (requires browsers installed)
-npm run validate:content # content integrity checks
+npm run build:content    # regenerate country + question data from sources
+npm run validate:content # content integrity + MVP completeness checks
 npm run build            # typecheck + production build
 ```

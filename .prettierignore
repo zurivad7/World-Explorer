@@ -5,3 +5,8 @@ playwright-report
 test-results
 package-lock.json
 docs/PRD.md
+
+# Generated content + assets (owned by scripts/build-content.ts)
+src/data/**/*.generated.json
+public/assets/flags
+public/icons
