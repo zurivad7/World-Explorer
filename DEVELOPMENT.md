@@ -11,10 +11,29 @@ open questions to resolve. The product source of truth is [`docs/PRD.md`](docs/P
 | 1 Content (50-country slice) | ✅ Complete |
 | 2 Map | ✅ Complete |
 | 3 Game engine | ✅ Complete |
-| 4 Games | ⏳ Next |
-| 5 Progress | 🟡 Storage layer in place (`src/lib/storage`) |
+| 4 Games | ✅ Complete |
+| 5 Progress | ⏳ Next — 🟡 storage layer in place (`src/lib/storage`) |
 | 6 Offline/PWA | 🟡 Manifest + service worker; flags + map geometry precached |
 | 7 QA | ⬜ Not started |
+
+## Games (Phase 4)
+
+- `QuizScreen` (`src/features/games/QuizScreen.tsx`) is a single engine-driven
+  screen serving all six modes plus the daily challenge (`/play/:mode`, where
+  `:mode` may be `daily`). It builds a session with the adaptive selector, shows a
+  progress bar, renders options per mode, gives immediate feedback + explanation,
+  then a results screen.
+- Per-mode rendering rules live in `quizConfig.ts` (pure): option kind
+  (country-name / country-flag / text / colours), whether the prompt shows a flag,
+  and whether the question is map-based. Map questions render the interactive map
+  **and** an equivalent set of buttons — the accessible / offline non-map path
+  (PRD §7.4, §19).
+- **Progress is not yet persisted** — mastery updates, discovery, passport and
+  badges are Phase 5. Sessions currently score in-memory only; adaptive selection
+  runs against default mastery until Phase 5 feeds it stored progress.
+- The question bank moved to its own module (`src/data/questions.ts`) and the
+  games route is `React.lazy`-loaded, so the ~180KB of question JSON is code-split
+  into the games chunk and kept out of the initial bundle (PRD §23).
 
 ## Game engine (Phase 3)
 

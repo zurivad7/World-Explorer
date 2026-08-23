@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react';
+import { Suspense, lazy, type ReactNode } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { ProfileProvider, useProfile } from '@/app/providers/ProfileProvider';
 import { AppLayout } from '@/app/layout/AppLayout';
@@ -8,11 +8,15 @@ import { OnboardingScreen } from '@/features/onboarding/OnboardingScreen';
 import { MapScreen } from '@/features/map/MapScreen';
 import { CountryDetailScreen } from '@/features/country/CountryDetailScreen';
 import { GameHubScreen } from '@/features/games/GameHubScreen';
-import { GameScreen } from '@/features/games/GameScreen';
 import { PassportScreen } from '@/features/passport/PassportScreen';
 import { AchievementsScreen } from '@/features/passport/AchievementsScreen';
 import { ProgressScreen } from '@/features/progress/ProgressScreen';
 import { SettingsScreen } from '@/features/settings/SettingsScreen';
+
+// Code-split the playable quiz (and its ~180KB question bank) out of the initial bundle.
+const QuizScreen = lazy(() =>
+  import('@/features/games/QuizScreen').then((m) => ({ default: m.QuizScreen }))
+);
 
 /** Send first-time users through onboarding before the main app (PRD core experience §6). */
 function RequireProfile({ children }: { children: ReactNode }) {
@@ -37,7 +41,14 @@ function AppRoutes() {
         <Route path={paths.map} element={<MapScreen />} />
         <Route path={paths.countryPattern} element={<CountryDetailScreen />} />
         <Route path={paths.play} element={<GameHubScreen />} />
-        <Route path={paths.gamePattern} element={<GameScreen />} />
+        <Route
+          path={paths.gamePattern}
+          element={
+            <Suspense fallback={<div className="loading">Loading…</div>}>
+              <QuizScreen />
+            </Suspense>
+          }
+        />
         <Route path={paths.passport} element={<PassportScreen />} />
         <Route path={paths.achievements} element={<AchievementsScreen />} />
         <Route path={paths.progress} element={<ProgressScreen />} />

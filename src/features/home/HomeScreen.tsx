@@ -7,7 +7,7 @@ const tiles = [
   { to: paths.map, label: 'Explore World', icon: '🗺️' },
   { to: paths.play, label: 'Play', icon: '🎮' },
   { to: paths.passport, label: 'Passport', icon: '🛂' },
-  { to: paths.play, label: 'Daily Challenge', icon: '⭐' },
+  { to: paths.dailyChallenge, label: 'Daily Challenge', icon: '⭐' },
 ];
 
 /** S01 Home — Explore, Play, Passport, Daily Challenge. Uncluttered (PRD §13). */

@@ -7,6 +7,16 @@ import { GAME_MODE_META } from './gameModes';
 export function GameHubScreen() {
   return (
     <Screen title="Choose a game" subtitle="Pick a challenge and start exploring.">
+      <Link to={paths.dailyChallenge} className="daily-card">
+        <span className="daily-card__icon" aria-hidden="true">
+          ⭐
+        </span>
+        <span className="daily-card__text">
+          <span className="daily-card__title">Daily Challenge</span>
+          <span className="daily-card__blurb">A fresh mix of questions every day.</span>
+        </span>
+      </Link>
+
       <div className="card-grid">
         {GAME_MODE_META.map((meta) => (
           <Link key={meta.mode} to={paths.game(meta.mode)} className="game-card">
