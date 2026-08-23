@@ -55,8 +55,8 @@ Phase 4 consume it.
 ## Map (Phase 2)
 
 - **Geometry** — `scripts/build-content.ts` converts Natural Earth (via
-  `world-atlas`, 110m) TopoJSON to GeoJSON, keeps the 50-country slice, and keys
-  each feature by `geometryId` (= country id). Output: `src/data/geometry/countries.geo.json`.
+  `world-atlas`, 110m) TopoJSON to GeoJSON, keeps every included country with
+  geometry, and keys each feature by `geometryId` (= country id). Output: `src/data/geometry/countries.geo.json`.
 - **Abstraction** (`src/features/map/mapModel.ts`) — pure, provider-agnostic:
   feature→country id, visual-state/style resolver, fit-to-country bounds. Unit-tested.
   Game/UI code only ever sees country ids, never Leaflet objects (PRD §16).
@@ -66,10 +66,9 @@ Phase 4 consume it.
   responsive via `ResizeObserver`, graceful error fallback ("play other games").
 - **Screens** — Explore renders the map with a searchable list as the accessible /
   offline fallback (PRD §7.4, §19); Country Detail shows a fit-to-country mini-map.
-- **Full world map** — the build also emits `world-base.geo.json` (every country
-  *except* the 50 explorable ones, unwrapped). `WorldMap` draws it as a faint,
-  non-interactive gray layer in a lower pane, so the map reads as a complete world
-  map with the 50 explorable countries highlighted on top.
+- **Full world map** — `countries.geo.json` contains every independent country with
+  110m geometry (165), all interactive. (An earlier faint gray base layer was
+  removed once every country became explorable.)
 - **Antimeridian** — Russia and Fiji cross ±180°; the build unwraps polygon rings
   so they render contiguously instead of as bands across the map.
 - Leaflet + geometry are code-split, so the initial bundle is unchanged.
@@ -84,18 +83,26 @@ expected one. `playwright.config.ts` detects the binary under
 
 Geography content is **generated and validated at build time**, then committed:
 
-- **Authored source** — `src/data/countries/source.ts` (the 50-country slice: which
-  countries, child-friendly facts, difficulty hints, continent overrides) and
-  `src/data/flags/templates.ts` (simplified flags for Flag Builder).
+- **Authored source** — `src/data/countries/source.ts` is an enrichment overlay
+  (child-friendly facts, difficulty hints, continent overrides) for the originally-
+  curated countries, plus `src/data/flags/templates.ts` (simplified flags for Flag
+  Builder). Country *inclusion* is now driven by `world-countries` (all independent
+  states), not this file.
 - **Generator** — `scripts/build-content.ts` (`npm run build:content`) pulls
   metadata from `world-countries`, copies flag SVGs from `flag-icons` into
   `public/assets/flags/`, runs the pure generators in `src/data/generate.ts`, and
   writes `src/data/countries/countries.generated.json` +
   `src/data/questions/questions.generated.json`.
+- **Full dataset:** the build includes **all ~194 independent countries** from
+  `world-countries` (capital + flag + mappable continent). `source.ts` is now an
+  *enrichment overlay* (authored facts, difficulty hints, continent overrides) for
+  the originally-curated set; everything else is derived — difficulty from land
+  area, facts default to none (optional; Country Detail hides the section).
 - **Questions are templated, not AI-generated** (PRD §4) — deterministic templates
   over reviewed country data, so the bank is reproducible and reviewable. Current
-  bank: 50 countries, 362 questions (flag 100, capital 100, continent 50, map 50,
-  detective 50, flag-builder 12).
+  bank: 194 countries, 1370 questions (flag 388, capital 388, continent 194, map
+  194, detective 194, flag-builder 12). 29 micro-states have no 110m map geometry,
+  so they're in the dataset but not drawn on the map (165 map geometries).
 - **Validation** — `npm run validate:content` runs structural/referential checks
   (`validateContent`) **and** MVP completeness gates (`validateCompleteness`:
   ≥50 countries, all inhabited continents, ≥10 questions/mode, flag+capital+geometry

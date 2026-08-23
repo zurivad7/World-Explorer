@@ -1,8 +1,10 @@
 /**
- * Content build (PRD §15, §24). Assembles the 50-country slice from
- * `world-countries`, copies flag SVGs from `flag-icons`, generates the question
- * bank, and validates the result. Output is committed under src/data and
- * public/assets/flags so the runtime never depends on the source packages.
+ * Content build (PRD §15, §24). Assembles the full dataset of independent
+ * countries from `world-countries`, enriched by authored facts/hints in
+ * src/data/countries/source.ts, copies flag SVGs from `flag-icons`, builds map
+ * geometry, generates the question bank, and validates the result. Output is
+ * committed under src/data and public/assets/flags so the runtime never depends
+ * on the source packages.
  *
  * Run with `npm run build:content`.
  */
@@ -32,12 +34,16 @@ interface WcCountry {
   region: string;
   subregion?: string;
   borders?: string[];
+  independent?: boolean;
+  area?: number;
 }
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const REVIEWED_AT = '2026-08-13';
+const flagsSrcDir = resolve(root, 'node_modules/flag-icons/flags/4x3');
 
-function continentFor(wc: WcCountry): Continent {
+/** Returns the teaching continent, or null if the region can't be mapped. */
+function continentFor(wc: WcCountry): Continent | null {
   switch (wc.region) {
     case 'Europe':
       return 'Europe';
@@ -52,65 +58,82 @@ function continentFor(wc: WcCountry): Continent {
     case 'Americas':
       return wc.subregion === 'South America' ? 'South America' : 'North America';
     default:
-      throw new Error(`Unmapped region "${wc.region}" for ${wc.cca2}`);
+      return null;
   }
 }
 
-// Build lookup + the cca3 -> iso2 map limited to the selected slice.
-const selected = COUNTRY_SOURCES.map((s) => s.iso2.toUpperCase());
-const wcByCca2 = new Map(worldCountries.map((c) => [c.cca2, c]));
-const cca3ToId = new Map<string, string>();
-for (const iso of selected) {
-  const wc = wcByCca2.get(iso);
-  if (!wc) throw new Error(`world-countries has no entry for ${iso}`);
-  cca3ToId.set(wc.cca3, wc.cca2.toLowerCase());
+/** Difficulty hint derived from land area when no hand-tuned hint exists. */
+function mapSizeForArea(area = 0): 'large' | 'medium' | 'small' {
+  if (area >= 400_000) return 'large';
+  if (area >= 30_000) return 'medium';
+  return 'small';
 }
 
-const countries: Country[] = COUNTRY_SOURCES.map((src) => {
-  const wc = wcByCca2.get(src.iso2.toUpperCase());
-  if (!wc) throw new Error(`world-countries has no entry for ${src.iso2}`);
-  const capital = wc.capital?.[0];
-  if (!capital) throw new Error(`No capital for ${src.iso2}`);
+// Authored enrichment (facts, difficulty hints, continent overrides) for the
+// originally-curated countries. Everything else is derived from world-countries.
+const overlayById = new Map(COUNTRY_SOURCES.map((s) => [s.iso2.toLowerCase(), s]));
 
-  const neighbours = (wc.borders ?? [])
-    .map((b) => cca3ToId.get(b))
-    .filter((id): id is string => Boolean(id))
-    .sort();
+const wcByCca2 = new Map(worldCountries.map((c) => [c.cca2, c]));
 
-  return {
-    id: src.iso2.toLowerCase(),
-    iso2: src.iso2.toLowerCase(),
-    iso3: wc.cca3,
-    name: wc.name.common,
-    capital,
-    continent: src.continentOverride ?? continentFor(wc),
-    region: wc.subregion ?? wc.region,
-    flagAsset: `/assets/flags/${src.iso2.toLowerCase()}.svg`,
-    geometryId: src.iso2.toLowerCase(),
-    neighbours,
-    facts: src.facts.map((text) => ({ text, source: 'world-explorer/authored' })),
-    active: true,
-    source: 'world-countries',
-    reviewedAt: REVIEWED_AT,
-  };
-});
+// Include every independent country that has a capital, a flag SVG and a mappable
+// continent (PRD §24 — full dataset). Micro-states missing map geometry are still
+// included in the dataset; they simply aren't drawn on the map.
+const included = worldCountries.filter(
+  (wc) =>
+    wc.independent === true &&
+    Boolean(wc.capital?.[0]) &&
+    continentFor(wc) !== null &&
+    existsSync(resolve(flagsSrcDir, `${wc.cca2.toLowerCase()}.svg`))
+);
+
+const cca3ToId = new Map<string, string>();
+for (const wc of included) cca3ToId.set(wc.cca3, wc.cca2.toLowerCase());
+
+const countries: Country[] = included
+  .map((wc): Country => {
+    const id = wc.cca2.toLowerCase();
+    const overlay = overlayById.get(id);
+    const neighbours = (wc.borders ?? [])
+      .map((b) => cca3ToId.get(b))
+      .filter((n): n is string => Boolean(n))
+      .sort();
+
+    const country: Country = {
+      id,
+      iso2: id,
+      iso3: wc.cca3,
+      name: wc.name.common,
+      capital: wc.capital![0]!,
+      continent: overlay?.continentOverride ?? continentFor(wc)!,
+      region: wc.subregion || wc.region,
+      flagAsset: `/assets/flags/${id}.svg`,
+      geometryId: id,
+      neighbours,
+      facts: overlay ? overlay.facts.map((text) => ({ text, source: 'world-explorer/authored' })) : [],
+      active: true,
+      source: 'world-countries',
+    };
+    // Only the hand-authored/reviewed set carries a review date.
+    if (overlay) country.reviewedAt = REVIEWED_AT;
+    return country;
+  })
+  .sort((a, b) => a.name.localeCompare(b.name));
 
 // Copy flag SVGs into public/assets/flags.
-const flagsSrcDir = resolve(root, 'node_modules/flag-icons/flags/4x3');
 const flagsOutDir = resolve(root, 'public/assets/flags');
 mkdirSync(flagsOutDir, { recursive: true });
 for (const c of countries) {
-  const from = resolve(flagsSrcDir, `${c.id}.svg`);
-  if (!existsSync(from)) throw new Error(`Missing flag SVG for ${c.id} at ${from}`);
-  copyFileSync(from, resolve(flagsOutDir, `${c.id}.svg`));
+  copyFileSync(resolve(flagsSrcDir, `${c.id}.svg`), resolve(flagsOutDir, `${c.id}.svg`));
 }
 
-// Generate the question bank.
+// Generate the question bank. Difficulty hints come from the authored overlay
+// where present, otherwise from land area.
 const hints = new Map(
-  COUNTRY_SOURCES.map((s) => [
-    s.iso2.toLowerCase(),
-    s.similarFlag ? { mapSize: s.mapSize, similarFlag: true } : { mapSize: s.mapSize },
-  ])
+  countries.map((c) => {
+    const overlay = overlayById.get(c.id);
+    const mapSize = overlay?.mapSize ?? mapSizeForArea(wcByCca2.get(c.iso2.toUpperCase())?.area);
+    return [c.id, overlay?.similarFlag ? { mapSize, similarFlag: true } : { mapSize }] as const;
+  })
 );
 const questions: Question[] = generateQuestions({ countries, hints, templates: FLAG_TEMPLATES });
 
@@ -119,9 +142,8 @@ const questions: Question[] = generateQuestions({ countries, hints, templates: F
 const topo = require('world-atlas/countries-110m.json') as Topology;
 const ccn3ToId = new Map<string, string>();
 for (const c of countries) {
-  const wc = wcByCca2.get(c.iso2.toUpperCase());
-  if (!wc?.ccn3) throw new Error(`No ccn3 for ${c.iso2}`);
-  ccn3ToId.set(wc.ccn3, c.id);
+  const ccn3 = wcByCca2.get(c.iso2.toUpperCase())?.ccn3;
+  if (ccn3) ccn3ToId.set(ccn3, c.id);
 }
 const countriesObject = topo.objects.countries;
 if (!countriesObject) throw new Error('world-atlas topology has no "countries" object');
@@ -169,26 +191,11 @@ const features = worldFc.features
   })
   .sort((a, b) => a.id.localeCompare(b.id));
 
-const missingGeometry = countries.filter((c) => !features.some((f) => f.id === c.id));
-if (missingGeometry.length > 0) {
-  throw new Error(`Missing geometry for: ${missingGeometry.map((c) => c.id).join(', ')}`);
-}
+// Micro-states (e.g. Singapore, Malta, Monaco) aren't in the 110m map data. They
+// stay in the dataset (list, games, detail) but aren't drawn on the map — they are
+// invisible at world zoom anyway.
+const withoutGeometry = countries.filter((c) => !features.some((f) => f.id === c.id));
 const geometryFc: FeatureCollection<Geometry> = { type: 'FeatureCollection', features };
-
-// A faint full-world base layer: every country *except* the 50 explorable ones
-// (those are drawn on top), geometry only — rendered non-interactively so the map
-// reads as a complete world map without overdrawing the interactive countries.
-const baseFeatures = worldFc.features
-  .filter((f) => f.id == null || !ccn3ToId.has(String(f.id)))
-  .map((f) => ({
-    type: 'Feature' as const,
-    properties: {},
-    geometry: unwrapGeometry(f.geometry),
-  }));
-const worldBaseFc: FeatureCollection<Geometry> = {
-  type: 'FeatureCollection',
-  features: baseFeatures,
-};
 
 // Write generated data (stable, pretty-printed for review where practical).
 const dataDir = resolve(root, 'src/data');
@@ -205,10 +212,6 @@ mkdirSync(resolve(dataDir, 'geometry'), { recursive: true });
 writeFileSync(
   resolve(dataDir, 'geometry/countries.geo.json'),
   JSON.stringify(geometryFc) + '\n'
-);
-writeFileSync(
-  resolve(dataDir, 'geometry/world-base.geo.json'),
-  JSON.stringify(worldBaseFc) + '\n'
 );
 
 // Validate before finishing so a bad build fails loudly.
@@ -228,6 +231,13 @@ const perMode = questions.reduce<Record<string, number>>((acc, q) => {
   return acc;
 }, {});
 console.log(
-  `Built ${countries.length} countries, ${questions.length} questions, ${features.length} geometries, copied ${countries.length} flags.`
+  `Built ${countries.length} countries, ${questions.length} questions, ${features.length} map geometries, copied ${countries.length} flags.`
 );
+if (withoutGeometry.length > 0) {
+  console.log(
+    `  ${withoutGeometry.length} countries in the dataset but not on the map (no 110m geometry): ${withoutGeometry
+      .map((c) => c.id)
+      .join(', ')}`
+  );
+}
 console.log('Questions per mode:', perMode);

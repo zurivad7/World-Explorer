@@ -1,5 +1,1038 @@
 [
   {
+    "id": "af",
+    "iso2": "af",
+    "iso3": "AFG",
+    "name": "Afghanistan",
+    "capital": "Kabul",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "flagAsset": "/assets/flags/af.svg",
+    "geometryId": "af",
+    "neighbours": [
+      "cn",
+      "ir",
+      "pk",
+      "tj",
+      "tm",
+      "uz"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "al",
+    "iso2": "al",
+    "iso3": "ALB",
+    "name": "Albania",
+    "capital": "Tirana",
+    "continent": "Europe",
+    "region": "Southeast Europe",
+    "flagAsset": "/assets/flags/al.svg",
+    "geometryId": "al",
+    "neighbours": [
+      "gr",
+      "me",
+      "mk"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "dz",
+    "iso2": "dz",
+    "iso3": "DZA",
+    "name": "Algeria",
+    "capital": "Algiers",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "flagAsset": "/assets/flags/dz.svg",
+    "geometryId": "dz",
+    "neighbours": [
+      "ly",
+      "ma",
+      "ml",
+      "mr",
+      "ne",
+      "tn"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ad",
+    "iso2": "ad",
+    "iso3": "AND",
+    "name": "Andorra",
+    "capital": "Andorra la Vella",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "flagAsset": "/assets/flags/ad.svg",
+    "geometryId": "ad",
+    "neighbours": [
+      "es",
+      "fr"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ao",
+    "iso2": "ao",
+    "iso3": "AGO",
+    "name": "Angola",
+    "capital": "Luanda",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "flagAsset": "/assets/flags/ao.svg",
+    "geometryId": "ao",
+    "neighbours": [
+      "cd",
+      "cg",
+      "na",
+      "zm"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ag",
+    "iso2": "ag",
+    "iso3": "ATG",
+    "name": "Antigua and Barbuda",
+    "capital": "Saint John's",
+    "continent": "North America",
+    "region": "Caribbean",
+    "flagAsset": "/assets/flags/ag.svg",
+    "geometryId": "ag",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ar",
+    "iso2": "ar",
+    "iso3": "ARG",
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "continent": "South America",
+    "region": "South America",
+    "flagAsset": "/assets/flags/ar.svg",
+    "geometryId": "ar",
+    "neighbours": [
+      "bo",
+      "br",
+      "cl",
+      "py",
+      "uy"
+    ],
+    "facts": [
+      {
+        "text": "Argentina is famous for football and a dance called the tango.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The southern tip of Argentina is one of the closest places to Antarctica.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "am",
+    "iso2": "am",
+    "iso3": "ARM",
+    "name": "Armenia",
+    "capital": "Yerevan",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/am.svg",
+    "geometryId": "am",
+    "neighbours": [
+      "az",
+      "ge",
+      "ir",
+      "tr"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "au",
+    "iso2": "au",
+    "iso3": "AUS",
+    "name": "Australia",
+    "capital": "Canberra",
+    "continent": "Oceania",
+    "region": "Australia and New Zealand",
+    "flagAsset": "/assets/flags/au.svg",
+    "geometryId": "au",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "Australia is both a country and a continent.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Kangaroos and koalas live only in the wild in Australia.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "at",
+    "iso2": "at",
+    "iso3": "AUT",
+    "name": "Austria",
+    "capital": "Vienna",
+    "continent": "Europe",
+    "region": "Central Europe",
+    "flagAsset": "/assets/flags/at.svg",
+    "geometryId": "at",
+    "neighbours": [
+      "ch",
+      "cz",
+      "de",
+      "hu",
+      "it",
+      "li",
+      "si",
+      "sk"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "az",
+    "iso2": "az",
+    "iso3": "AZE",
+    "name": "Azerbaijan",
+    "capital": "Baku",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/az.svg",
+    "geometryId": "az",
+    "neighbours": [
+      "am",
+      "ge",
+      "ir",
+      "ru",
+      "tr"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "bs",
+    "iso2": "bs",
+    "iso3": "BHS",
+    "name": "Bahamas",
+    "capital": "Nassau",
+    "continent": "North America",
+    "region": "Caribbean",
+    "flagAsset": "/assets/flags/bs.svg",
+    "geometryId": "bs",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "bh",
+    "iso2": "bh",
+    "iso3": "BHR",
+    "name": "Bahrain",
+    "capital": "Manama",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/bh.svg",
+    "geometryId": "bh",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "bd",
+    "iso2": "bd",
+    "iso3": "BGD",
+    "name": "Bangladesh",
+    "capital": "Dhaka",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "flagAsset": "/assets/flags/bd.svg",
+    "geometryId": "bd",
+    "neighbours": [
+      "in",
+      "mm"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "bb",
+    "iso2": "bb",
+    "iso3": "BRB",
+    "name": "Barbados",
+    "capital": "Bridgetown",
+    "continent": "North America",
+    "region": "Caribbean",
+    "flagAsset": "/assets/flags/bb.svg",
+    "geometryId": "bb",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "by",
+    "iso2": "by",
+    "iso3": "BLR",
+    "name": "Belarus",
+    "capital": "Minsk",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "flagAsset": "/assets/flags/by.svg",
+    "geometryId": "by",
+    "neighbours": [
+      "lt",
+      "lv",
+      "pl",
+      "ru",
+      "ua"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "be",
+    "iso2": "be",
+    "iso3": "BEL",
+    "name": "Belgium",
+    "capital": "Brussels",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "flagAsset": "/assets/flags/be.svg",
+    "geometryId": "be",
+    "neighbours": [
+      "de",
+      "fr",
+      "lu",
+      "nl"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "bz",
+    "iso2": "bz",
+    "iso3": "BLZ",
+    "name": "Belize",
+    "capital": "Belmopan",
+    "continent": "North America",
+    "region": "Central America",
+    "flagAsset": "/assets/flags/bz.svg",
+    "geometryId": "bz",
+    "neighbours": [
+      "gt",
+      "mx"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "bj",
+    "iso2": "bj",
+    "iso3": "BEN",
+    "name": "Benin",
+    "capital": "Porto-Novo",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/bj.svg",
+    "geometryId": "bj",
+    "neighbours": [
+      "bf",
+      "ne",
+      "ng",
+      "tg"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "bt",
+    "iso2": "bt",
+    "iso3": "BTN",
+    "name": "Bhutan",
+    "capital": "Thimphu",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "flagAsset": "/assets/flags/bt.svg",
+    "geometryId": "bt",
+    "neighbours": [
+      "cn",
+      "in"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "bo",
+    "iso2": "bo",
+    "iso3": "BOL",
+    "name": "Bolivia",
+    "capital": "Sucre",
+    "continent": "South America",
+    "region": "South America",
+    "flagAsset": "/assets/flags/bo.svg",
+    "geometryId": "bo",
+    "neighbours": [
+      "ar",
+      "br",
+      "cl",
+      "pe",
+      "py"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ba",
+    "iso2": "ba",
+    "iso3": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "continent": "Europe",
+    "region": "Southeast Europe",
+    "flagAsset": "/assets/flags/ba.svg",
+    "geometryId": "ba",
+    "neighbours": [
+      "hr",
+      "me",
+      "rs"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "bw",
+    "iso2": "bw",
+    "iso3": "BWA",
+    "name": "Botswana",
+    "capital": "Gaborone",
+    "continent": "Africa",
+    "region": "Southern Africa",
+    "flagAsset": "/assets/flags/bw.svg",
+    "geometryId": "bw",
+    "neighbours": [
+      "na",
+      "za",
+      "zm",
+      "zw"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "br",
+    "iso2": "br",
+    "iso3": "BRA",
+    "name": "Brazil",
+    "capital": "Brasília",
+    "continent": "South America",
+    "region": "South America",
+    "flagAsset": "/assets/flags/br.svg",
+    "geometryId": "br",
+    "neighbours": [
+      "ar",
+      "bo",
+      "co",
+      "gy",
+      "pe",
+      "py",
+      "sr",
+      "uy",
+      "ve"
+    ],
+    "facts": [
+      {
+        "text": "Brazil is the largest country in South America.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The Amazon rainforest covers much of northern Brazil.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "bn",
+    "iso2": "bn",
+    "iso3": "BRN",
+    "name": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "continent": "Asia",
+    "region": "South-Eastern Asia",
+    "flagAsset": "/assets/flags/bn.svg",
+    "geometryId": "bn",
+    "neighbours": [
+      "my"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "bg",
+    "iso2": "bg",
+    "iso3": "BGR",
+    "name": "Bulgaria",
+    "capital": "Sofia",
+    "continent": "Europe",
+    "region": "Southeast Europe",
+    "flagAsset": "/assets/flags/bg.svg",
+    "geometryId": "bg",
+    "neighbours": [
+      "gr",
+      "mk",
+      "ro",
+      "rs",
+      "tr"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "bf",
+    "iso2": "bf",
+    "iso3": "BFA",
+    "name": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/bf.svg",
+    "geometryId": "bf",
+    "neighbours": [
+      "bj",
+      "ci",
+      "gh",
+      "ml",
+      "ne",
+      "tg"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "bi",
+    "iso2": "bi",
+    "iso3": "BDI",
+    "name": "Burundi",
+    "capital": "Gitega",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/bi.svg",
+    "geometryId": "bi",
+    "neighbours": [
+      "cd",
+      "rw",
+      "tz"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "kh",
+    "iso2": "kh",
+    "iso3": "KHM",
+    "name": "Cambodia",
+    "capital": "Phnom Penh",
+    "continent": "Asia",
+    "region": "South-Eastern Asia",
+    "flagAsset": "/assets/flags/kh.svg",
+    "geometryId": "kh",
+    "neighbours": [
+      "la",
+      "th",
+      "vn"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "cm",
+    "iso2": "cm",
+    "iso3": "CMR",
+    "name": "Cameroon",
+    "capital": "Yaoundé",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "flagAsset": "/assets/flags/cm.svg",
+    "geometryId": "cm",
+    "neighbours": [
+      "cf",
+      "cg",
+      "ga",
+      "gq",
+      "ng",
+      "td"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ca",
+    "iso2": "ca",
+    "iso3": "CAN",
+    "name": "Canada",
+    "capital": "Ottawa",
+    "continent": "North America",
+    "region": "North America",
+    "flagAsset": "/assets/flags/ca.svg",
+    "geometryId": "ca",
+    "neighbours": [
+      "us"
+    ],
+    "facts": [
+      {
+        "text": "Canada is the second-largest country in the world.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "A red maple leaf sits in the middle of its flag.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "cv",
+    "iso2": "cv",
+    "iso3": "CPV",
+    "name": "Cape Verde",
+    "capital": "Praia",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/cv.svg",
+    "geometryId": "cv",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "cf",
+    "iso2": "cf",
+    "iso3": "CAF",
+    "name": "Central African Republic",
+    "capital": "Bangui",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "flagAsset": "/assets/flags/cf.svg",
+    "geometryId": "cf",
+    "neighbours": [
+      "cd",
+      "cg",
+      "cm",
+      "sd",
+      "ss",
+      "td"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "td",
+    "iso2": "td",
+    "iso3": "TCD",
+    "name": "Chad",
+    "capital": "N'Djamena",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "flagAsset": "/assets/flags/td.svg",
+    "geometryId": "td",
+    "neighbours": [
+      "cf",
+      "cm",
+      "ly",
+      "ne",
+      "ng",
+      "sd"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "cl",
+    "iso2": "cl",
+    "iso3": "CHL",
+    "name": "Chile",
+    "capital": "Santiago",
+    "continent": "South America",
+    "region": "South America",
+    "flagAsset": "/assets/flags/cl.svg",
+    "geometryId": "cl",
+    "neighbours": [
+      "ar",
+      "bo",
+      "pe"
+    ],
+    "facts": [
+      {
+        "text": "Chile is a very long, thin country along the Pacific coast.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The Atacama Desert in Chile is one of the driest places on Earth.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "cn",
+    "iso2": "cn",
+    "iso3": "CHN",
+    "name": "China",
+    "capital": "Beijing",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "flagAsset": "/assets/flags/cn.svg",
+    "geometryId": "cn",
+    "neighbours": [
+      "af",
+      "bt",
+      "in",
+      "kg",
+      "kp",
+      "kz",
+      "la",
+      "mm",
+      "mn",
+      "np",
+      "pk",
+      "ru",
+      "tj",
+      "vn"
+    ],
+    "facts": [
+      {
+        "text": "China has the longest wall ever built, the Great Wall.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Giant pandas live in the bamboo forests of China.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "co",
+    "iso2": "co",
+    "iso3": "COL",
+    "name": "Colombia",
+    "capital": "Bogotá",
+    "continent": "South America",
+    "region": "South America",
+    "flagAsset": "/assets/flags/co.svg",
+    "geometryId": "co",
+    "neighbours": [
+      "br",
+      "ec",
+      "pa",
+      "pe",
+      "ve"
+    ],
+    "facts": [
+      {
+        "text": "Colombia grows some of the world’s best-known coffee.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its yellow-blue-red flag is similar to Venezuela and Ecuador.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "km",
+    "iso2": "km",
+    "iso3": "COM",
+    "name": "Comoros",
+    "capital": "Moroni",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/km.svg",
+    "geometryId": "km",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "cr",
+    "iso2": "cr",
+    "iso3": "CRI",
+    "name": "Costa Rica",
+    "capital": "San José",
+    "continent": "North America",
+    "region": "Central America",
+    "flagAsset": "/assets/flags/cr.svg",
+    "geometryId": "cr",
+    "neighbours": [
+      "ni",
+      "pa"
+    ],
+    "facts": [
+      {
+        "text": "Costa Rica is a small country full of rainforests and volcanoes.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "It protects huge numbers of plants and animals in its parks.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "hr",
+    "iso2": "hr",
+    "iso3": "HRV",
+    "name": "Croatia",
+    "capital": "Zagreb",
+    "continent": "Europe",
+    "region": "Southeast Europe",
+    "flagAsset": "/assets/flags/hr.svg",
+    "geometryId": "hr",
+    "neighbours": [
+      "ba",
+      "hu",
+      "me",
+      "rs",
+      "si"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "cu",
+    "iso2": "cu",
+    "iso3": "CUB",
+    "name": "Cuba",
+    "capital": "Havana",
+    "continent": "North America",
+    "region": "Caribbean",
+    "flagAsset": "/assets/flags/cu.svg",
+    "geometryId": "cu",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "Cuba is the largest island in the Caribbean Sea.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Colourful vintage cars are a common sight on its streets.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "cy",
+    "iso2": "cy",
+    "iso3": "CYP",
+    "name": "Cyprus",
+    "capital": "Nicosia",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "flagAsset": "/assets/flags/cy.svg",
+    "geometryId": "cy",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "cz",
+    "iso2": "cz",
+    "iso3": "CZE",
+    "name": "Czechia",
+    "capital": "Prague",
+    "continent": "Europe",
+    "region": "Central Europe",
+    "flagAsset": "/assets/flags/cz.svg",
+    "geometryId": "cz",
+    "neighbours": [
+      "at",
+      "de",
+      "pl",
+      "sk"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "dk",
+    "iso2": "dk",
+    "iso3": "DNK",
+    "name": "Denmark",
+    "capital": "Copenhagen",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "flagAsset": "/assets/flags/dk.svg",
+    "geometryId": "dk",
+    "neighbours": [
+      "de"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "dj",
+    "iso2": "dj",
+    "iso3": "DJI",
+    "name": "Djibouti",
+    "capital": "Djibouti",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/dj.svg",
+    "geometryId": "dj",
+    "neighbours": [
+      "er",
+      "et",
+      "so"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "dm",
+    "iso2": "dm",
+    "iso3": "DMA",
+    "name": "Dominica",
+    "capital": "Roseau",
+    "continent": "North America",
+    "region": "Caribbean",
+    "flagAsset": "/assets/flags/dm.svg",
+    "geometryId": "dm",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "do",
+    "iso2": "do",
+    "iso3": "DOM",
+    "name": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "continent": "North America",
+    "region": "Caribbean",
+    "flagAsset": "/assets/flags/do.svg",
+    "geometryId": "do",
+    "neighbours": [
+      "ht"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "cd",
+    "iso2": "cd",
+    "iso3": "COD",
+    "name": "DR Congo",
+    "capital": "Kinshasa",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "flagAsset": "/assets/flags/cd.svg",
+    "geometryId": "cd",
+    "neighbours": [
+      "ao",
+      "bi",
+      "cf",
+      "cg",
+      "rw",
+      "ss",
+      "tz",
+      "ug",
+      "zm"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ec",
+    "iso2": "ec",
+    "iso3": "ECU",
+    "name": "Ecuador",
+    "capital": "Quito",
+    "continent": "South America",
+    "region": "South America",
+    "flagAsset": "/assets/flags/ec.svg",
+    "geometryId": "ec",
+    "neighbours": [
+      "co",
+      "pe"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
     "id": "eg",
     "iso2": "eg",
     "iso3": "EGY",
@@ -10,7 +1043,9 @@
     "flagAsset": "/assets/flags/eg.svg",
     "geometryId": "eg",
     "neighbours": [
-      "il"
+      "il",
+      "ly",
+      "sd"
     ],
     "facts": [
       {
@@ -27,109 +1062,95 @@
     "reviewedAt": "2026-08-13"
   },
   {
-    "id": "za",
-    "iso2": "za",
-    "iso3": "ZAF",
-    "name": "South Africa",
-    "capital": "Pretoria",
-    "continent": "Africa",
-    "region": "Southern Africa",
-    "flagAsset": "/assets/flags/za.svg",
-    "geometryId": "za",
-    "neighbours": [],
-    "facts": [
-      {
-        "text": "South Africa has three capital cities, not just one.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "You can see lions, elephants and rhinos in its national parks.",
-        "source": "world-explorer/authored"
-      }
+    "id": "sv",
+    "iso2": "sv",
+    "iso3": "SLV",
+    "name": "El Salvador",
+    "capital": "San Salvador",
+    "continent": "North America",
+    "region": "Central America",
+    "flagAsset": "/assets/flags/sv.svg",
+    "geometryId": "sv",
+    "neighbours": [
+      "gt",
+      "hn"
     ],
+    "facts": [],
     "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
+    "source": "world-countries"
   },
   {
-    "id": "ng",
-    "iso2": "ng",
-    "iso3": "NGA",
-    "name": "Nigeria",
-    "capital": "Abuja",
+    "id": "gq",
+    "iso2": "gq",
+    "iso3": "GNQ",
+    "name": "Equatorial Guinea",
+    "capital": "Malabo",
     "continent": "Africa",
-    "region": "Western Africa",
-    "flagAsset": "/assets/flags/ng.svg",
-    "geometryId": "ng",
-    "neighbours": [],
-    "facts": [
-      {
-        "text": "Nigeria has more people than any other country in Africa.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "Its film industry is nicknamed \"Nollywood\".",
-        "source": "world-explorer/authored"
-      }
+    "region": "Middle Africa",
+    "flagAsset": "/assets/flags/gq.svg",
+    "geometryId": "gq",
+    "neighbours": [
+      "cm",
+      "ga"
     ],
+    "facts": [],
     "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
+    "source": "world-countries"
   },
   {
-    "id": "ke",
-    "iso2": "ke",
-    "iso3": "KEN",
-    "name": "Kenya",
-    "capital": "Nairobi",
+    "id": "er",
+    "iso2": "er",
+    "iso3": "ERI",
+    "name": "Eritrea",
+    "capital": "Asmara",
     "continent": "Africa",
     "region": "Eastern Africa",
-    "flagAsset": "/assets/flags/ke.svg",
-    "geometryId": "ke",
+    "flagAsset": "/assets/flags/er.svg",
+    "geometryId": "er",
     "neighbours": [
+      "dj",
       "et",
-      "tz"
+      "sd"
     ],
-    "facts": [
-      {
-        "text": "Kenya is famous for the great migration of wildebeest and zebras.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "Long-distance runners from Kenya win races all over the world.",
-        "source": "world-explorer/authored"
-      }
-    ],
+    "facts": [],
     "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
+    "source": "world-countries"
   },
   {
-    "id": "ma",
-    "iso2": "ma",
-    "iso3": "MAR",
-    "name": "Morocco",
-    "capital": "Rabat",
-    "continent": "Africa",
-    "region": "Northern Africa",
-    "flagAsset": "/assets/flags/ma.svg",
-    "geometryId": "ma",
+    "id": "ee",
+    "iso2": "ee",
+    "iso3": "EST",
+    "name": "Estonia",
+    "capital": "Tallinn",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "flagAsset": "/assets/flags/ee.svg",
+    "geometryId": "ee",
     "neighbours": [
-      "es"
+      "lv",
+      "ru"
     ],
-    "facts": [
-      {
-        "text": "Morocco sits in the northwest corner of Africa, close to Europe.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "The Sahara, the largest hot desert, reaches into Morocco.",
-        "source": "world-explorer/authored"
-      }
-    ],
+    "facts": [],
     "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
+    "source": "world-countries"
+  },
+  {
+    "id": "sz",
+    "iso2": "sz",
+    "iso3": "SWZ",
+    "name": "Eswatini",
+    "capital": "Lobamba",
+    "continent": "Africa",
+    "region": "Southern Africa",
+    "flagAsset": "/assets/flags/sz.svg",
+    "geometryId": "sz",
+    "neighbours": [
+      "mz",
+      "za"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
   },
   {
     "id": "et",
@@ -142,7 +1163,12 @@
     "flagAsset": "/assets/flags/et.svg",
     "geometryId": "et",
     "neighbours": [
-      "ke"
+      "dj",
+      "er",
+      "ke",
+      "sd",
+      "so",
+      "ss"
     ],
     "facts": [
       {
@@ -151,6 +1177,175 @@
       },
       {
         "text": "It has its own alphabet and its own calendar.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "fj",
+    "iso2": "fj",
+    "iso3": "FJI",
+    "name": "Fiji",
+    "capital": "Suva",
+    "continent": "Oceania",
+    "region": "Melanesia",
+    "flagAsset": "/assets/flags/fj.svg",
+    "geometryId": "fj",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "Fiji is a group of more than 300 islands in the Pacific Ocean.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Warm seas and coral reefs surround its islands.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "fi",
+    "iso2": "fi",
+    "iso3": "FIN",
+    "name": "Finland",
+    "capital": "Helsinki",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "flagAsset": "/assets/flags/fi.svg",
+    "geometryId": "fi",
+    "neighbours": [
+      "no",
+      "ru",
+      "se"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "fr",
+    "iso2": "fr",
+    "iso3": "FRA",
+    "name": "France",
+    "capital": "Paris",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "flagAsset": "/assets/flags/fr.svg",
+    "geometryId": "fr",
+    "neighbours": [
+      "ad",
+      "be",
+      "ch",
+      "de",
+      "es",
+      "it",
+      "lu",
+      "mc"
+    ],
+    "facts": [
+      {
+        "text": "The Eiffel Tower in Paris is over 300 metres tall.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "France has coastlines on both the Atlantic Ocean and the Mediterranean Sea.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ga",
+    "iso2": "ga",
+    "iso3": "GAB",
+    "name": "Gabon",
+    "capital": "Libreville",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "flagAsset": "/assets/flags/ga.svg",
+    "geometryId": "ga",
+    "neighbours": [
+      "cg",
+      "cm",
+      "gq"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "gm",
+    "iso2": "gm",
+    "iso3": "GMB",
+    "name": "Gambia",
+    "capital": "Banjul",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/gm.svg",
+    "geometryId": "gm",
+    "neighbours": [
+      "sn"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ge",
+    "iso2": "ge",
+    "iso3": "GEO",
+    "name": "Georgia",
+    "capital": "Tbilisi",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/ge.svg",
+    "geometryId": "ge",
+    "neighbours": [
+      "am",
+      "az",
+      "ru",
+      "tr"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "de",
+    "iso2": "de",
+    "iso3": "DEU",
+    "name": "Germany",
+    "capital": "Berlin",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "flagAsset": "/assets/flags/de.svg",
+    "geometryId": "de",
+    "neighbours": [
+      "at",
+      "be",
+      "ch",
+      "cz",
+      "dk",
+      "fr",
+      "lu",
+      "nl",
+      "pl"
+    ],
+    "facts": [
+      {
+        "text": "Germany is in the middle of Europe and borders nine countries.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "It is famous for fairy-tale castles and car making.",
         "source": "world-explorer/authored"
       }
     ],
@@ -168,7 +1363,11 @@
     "region": "Western Africa",
     "flagAsset": "/assets/flags/gh.svg",
     "geometryId": "gh",
-    "neighbours": [],
+    "neighbours": [
+      "bf",
+      "ci",
+      "tg"
+    ],
     "facts": [
       {
         "text": "Ghana was the first country in Africa south of the Sahara to become independent.",
@@ -184,25 +1383,28 @@
     "reviewedAt": "2026-08-13"
   },
   {
-    "id": "sn",
-    "iso2": "sn",
-    "iso3": "SEN",
-    "name": "Senegal",
-    "capital": "Dakar",
-    "continent": "Africa",
-    "region": "Western Africa",
-    "flagAsset": "/assets/flags/sn.svg",
-    "geometryId": "sn",
+    "id": "gr",
+    "iso2": "gr",
+    "iso3": "GRC",
+    "name": "Greece",
+    "capital": "Athens",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "flagAsset": "/assets/flags/gr.svg",
+    "geometryId": "gr",
     "neighbours": [
-      "ml"
+      "al",
+      "bg",
+      "mk",
+      "tr"
     ],
     "facts": [
       {
-        "text": "Senegal is the westernmost country on the African mainland.",
+        "text": "Greece has thousands of islands in its warm blue seas.",
         "source": "world-explorer/authored"
       },
       {
-        "text": "Its flag has a green star in the middle, a little like Mali next door.",
+        "text": "The very first Olympic Games were held in ancient Greece.",
         "source": "world-explorer/authored"
       }
     ],
@@ -211,25 +1413,208 @@
     "reviewedAt": "2026-08-13"
   },
   {
-    "id": "ml",
-    "iso2": "ml",
-    "iso3": "MLI",
-    "name": "Mali",
-    "capital": "Bamako",
+    "id": "gd",
+    "iso2": "gd",
+    "iso3": "GRD",
+    "name": "Grenada",
+    "capital": "St. George's",
+    "continent": "North America",
+    "region": "Caribbean",
+    "flagAsset": "/assets/flags/gd.svg",
+    "geometryId": "gd",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "gt",
+    "iso2": "gt",
+    "iso3": "GTM",
+    "name": "Guatemala",
+    "capital": "Guatemala City",
+    "continent": "North America",
+    "region": "Central America",
+    "flagAsset": "/assets/flags/gt.svg",
+    "geometryId": "gt",
+    "neighbours": [
+      "bz",
+      "hn",
+      "mx",
+      "sv"
+    ],
+    "facts": [
+      {
+        "text": "Guatemala is in Central America and has many active volcanoes.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The colourful quetzal bird gives its name to the country’s money.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "gn",
+    "iso2": "gn",
+    "iso3": "GIN",
+    "name": "Guinea",
+    "capital": "Conakry",
     "continent": "Africa",
     "region": "Western Africa",
-    "flagAsset": "/assets/flags/ml.svg",
-    "geometryId": "ml",
+    "flagAsset": "/assets/flags/gn.svg",
+    "geometryId": "gn",
     "neighbours": [
+      "ci",
+      "gw",
+      "lr",
+      "ml",
+      "sl",
       "sn"
     ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "gw",
+    "iso2": "gw",
+    "iso3": "GNB",
+    "name": "Guinea-Bissau",
+    "capital": "Bissau",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/gw.svg",
+    "geometryId": "gw",
+    "neighbours": [
+      "gn",
+      "sn"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "gy",
+    "iso2": "gy",
+    "iso3": "GUY",
+    "name": "Guyana",
+    "capital": "Georgetown",
+    "continent": "South America",
+    "region": "South America",
+    "flagAsset": "/assets/flags/gy.svg",
+    "geometryId": "gy",
+    "neighbours": [
+      "br",
+      "sr",
+      "ve"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ht",
+    "iso2": "ht",
+    "iso3": "HTI",
+    "name": "Haiti",
+    "capital": "Port-au-Prince",
+    "continent": "North America",
+    "region": "Caribbean",
+    "flagAsset": "/assets/flags/ht.svg",
+    "geometryId": "ht",
+    "neighbours": [
+      "do"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "hn",
+    "iso2": "hn",
+    "iso3": "HND",
+    "name": "Honduras",
+    "capital": "Tegucigalpa",
+    "continent": "North America",
+    "region": "Central America",
+    "flagAsset": "/assets/flags/hn.svg",
+    "geometryId": "hn",
+    "neighbours": [
+      "gt",
+      "ni",
+      "sv"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "hu",
+    "iso2": "hu",
+    "iso3": "HUN",
+    "name": "Hungary",
+    "capital": "Budapest",
+    "continent": "Europe",
+    "region": "Central Europe",
+    "flagAsset": "/assets/flags/hu.svg",
+    "geometryId": "hu",
+    "neighbours": [
+      "at",
+      "hr",
+      "ro",
+      "rs",
+      "si",
+      "sk",
+      "ua"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "is",
+    "iso2": "is",
+    "iso3": "ISL",
+    "name": "Iceland",
+    "capital": "Reykjavik",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "flagAsset": "/assets/flags/is.svg",
+    "geometryId": "is",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "in",
+    "iso2": "in",
+    "iso3": "IND",
+    "name": "India",
+    "capital": "New Delhi",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "flagAsset": "/assets/flags/in.svg",
+    "geometryId": "in",
+    "neighbours": [
+      "bd",
+      "bt",
+      "cn",
+      "mm",
+      "np",
+      "pk"
+    ],
     "facts": [
       {
-        "text": "Mali is a large country in West Africa, mostly covered by desert.",
+        "text": "India is the most populated country in the world.",
         "source": "world-explorer/authored"
       },
       {
-        "text": "The city of Timbuktu in Mali was once a famous centre of learning.",
+        "text": "The Taj Mahal in India is a famous white marble building.",
         "source": "world-explorer/authored"
       }
     ],
@@ -238,25 +1623,207 @@
     "reviewedAt": "2026-08-13"
   },
   {
-    "id": "tz",
-    "iso2": "tz",
-    "iso3": "TZA",
-    "name": "Tanzania",
-    "capital": "Dodoma",
-    "continent": "Africa",
-    "region": "Eastern Africa",
-    "flagAsset": "/assets/flags/tz.svg",
-    "geometryId": "tz",
+    "id": "id",
+    "iso2": "id",
+    "iso3": "IDN",
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "continent": "Asia",
+    "region": "South-Eastern Asia",
+    "flagAsset": "/assets/flags/id.svg",
+    "geometryId": "id",
     "neighbours": [
-      "ke"
+      "my",
+      "pg",
+      "tl"
     ],
     "facts": [
       {
-        "text": "Tanzania has Mount Kilimanjaro, the highest mountain in Africa.",
+        "text": "Indonesia is a country of more than seventeen thousand islands.",
         "source": "world-explorer/authored"
       },
       {
-        "text": "The island of Zanzibar is part of Tanzania.",
+        "text": "Its red-and-white flag looks almost the same as Monaco and Poland.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ir",
+    "iso2": "ir",
+    "iso3": "IRN",
+    "name": "Iran",
+    "capital": "Tehran",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "flagAsset": "/assets/flags/ir.svg",
+    "geometryId": "ir",
+    "neighbours": [
+      "af",
+      "am",
+      "az",
+      "iq",
+      "pk",
+      "tm",
+      "tr"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "iq",
+    "iso2": "iq",
+    "iso3": "IRQ",
+    "name": "Iraq",
+    "capital": "Baghdad",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/iq.svg",
+    "geometryId": "iq",
+    "neighbours": [
+      "ir",
+      "jo",
+      "kw",
+      "sa",
+      "sy",
+      "tr"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ie",
+    "iso2": "ie",
+    "iso3": "IRL",
+    "name": "Ireland",
+    "capital": "Dublin",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "flagAsset": "/assets/flags/ie.svg",
+    "geometryId": "ie",
+    "neighbours": [
+      "gb"
+    ],
+    "facts": [
+      {
+        "text": "Ireland is a green island famous for its rolling hills.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its green-white-orange flag can be confused with Italy and Côte d’Ivoire.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "il",
+    "iso2": "il",
+    "iso3": "ISR",
+    "name": "Israel",
+    "capital": "Jerusalem",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/il.svg",
+    "geometryId": "il",
+    "neighbours": [
+      "eg",
+      "jo",
+      "lb",
+      "sy"
+    ],
+    "facts": [
+      {
+        "text": "Israel is a small country at the eastern end of the Mediterranean Sea.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The Dead Sea there is so salty you can float on top of it.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "it",
+    "iso2": "it",
+    "iso3": "ITA",
+    "name": "Italy",
+    "capital": "Rome",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "flagAsset": "/assets/flags/it.svg",
+    "geometryId": "it",
+    "neighbours": [
+      "at",
+      "ch",
+      "fr",
+      "si",
+      "sm",
+      "va"
+    ],
+    "facts": [
+      {
+        "text": "Italy is shaped like a boot kicking a ball.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its green-white-red flag is easy to mix up with Mexico and Ireland.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ci",
+    "iso2": "ci",
+    "iso3": "CIV",
+    "name": "Ivory Coast",
+    "capital": "Yamoussoukro",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/ci.svg",
+    "geometryId": "ci",
+    "neighbours": [
+      "bf",
+      "gh",
+      "gn",
+      "lr",
+      "ml"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "jm",
+    "iso2": "jm",
+    "iso3": "JAM",
+    "name": "Jamaica",
+    "capital": "Kingston",
+    "continent": "North America",
+    "region": "Caribbean",
+    "flagAsset": "/assets/flags/jm.svg",
+    "geometryId": "jm",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "Jamaica is a Caribbean island famous for reggae music.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its flag is the only national flag with no red, white or blue.",
         "source": "world-explorer/authored"
       }
     ],
@@ -290,115 +1857,1336 @@
     "reviewedAt": "2026-08-13"
   },
   {
-    "id": "cn",
-    "iso2": "cn",
-    "iso3": "CHN",
-    "name": "China",
-    "capital": "Beijing",
-    "continent": "Asia",
-    "region": "Eastern Asia",
-    "flagAsset": "/assets/flags/cn.svg",
-    "geometryId": "cn",
-    "neighbours": [
-      "in",
-      "kz",
-      "ru",
-      "vn"
-    ],
-    "facts": [
-      {
-        "text": "China has the longest wall ever built, the Great Wall.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "Giant pandas live in the bamboo forests of China.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "in",
-    "iso2": "in",
-    "iso3": "IND",
-    "name": "India",
-    "capital": "New Delhi",
-    "continent": "Asia",
-    "region": "Southern Asia",
-    "flagAsset": "/assets/flags/in.svg",
-    "geometryId": "in",
-    "neighbours": [
-      "cn"
-    ],
-    "facts": [
-      {
-        "text": "India is the most populated country in the world.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "The Taj Mahal in India is a famous white marble building.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "id",
-    "iso2": "id",
-    "iso3": "IDN",
-    "name": "Indonesia",
-    "capital": "Jakarta",
-    "continent": "Asia",
-    "region": "South-Eastern Asia",
-    "flagAsset": "/assets/flags/id.svg",
-    "geometryId": "id",
-    "neighbours": [
-      "pg"
-    ],
-    "facts": [
-      {
-        "text": "Indonesia is a country of more than seventeen thousand islands.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "Its red-and-white flag looks almost the same as Monaco and Poland.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "tr",
-    "iso2": "tr",
-    "iso3": "TUR",
-    "name": "Türkiye",
-    "capital": "Ankara",
+    "id": "jo",
+    "iso2": "jo",
+    "iso3": "JOR",
+    "name": "Jordan",
+    "capital": "Amman",
     "continent": "Asia",
     "region": "Western Asia",
-    "flagAsset": "/assets/flags/tr.svg",
-    "geometryId": "tr",
+    "flagAsset": "/assets/flags/jo.svg",
+    "geometryId": "jo",
     "neighbours": [
-      "gr"
+      "il",
+      "iq",
+      "sa",
+      "sy"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "kz",
+    "iso2": "kz",
+    "iso3": "KAZ",
+    "name": "Kazakhstan",
+    "capital": "Astana",
+    "continent": "Asia",
+    "region": "Central Asia",
+    "flagAsset": "/assets/flags/kz.svg",
+    "geometryId": "kz",
+    "neighbours": [
+      "cn",
+      "kg",
+      "ru",
+      "tm",
+      "uz"
     ],
     "facts": [
       {
-        "text": "Türkiye sits partly in Europe and partly in Asia.",
+        "text": "Kazakhstan is the largest country that has no coastline on the ocean.",
         "source": "world-explorer/authored"
       },
       {
-        "text": "The city of Istanbul spreads across two continents.",
+        "text": "It has wide, grassy plains called steppes.",
         "source": "world-explorer/authored"
       }
     ],
     "active": true,
     "source": "world-countries",
     "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ke",
+    "iso2": "ke",
+    "iso3": "KEN",
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/ke.svg",
+    "geometryId": "ke",
+    "neighbours": [
+      "et",
+      "so",
+      "ss",
+      "tz",
+      "ug"
+    ],
+    "facts": [
+      {
+        "text": "Kenya is famous for the great migration of wildebeest and zebras.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Long-distance runners from Kenya win races all over the world.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ki",
+    "iso2": "ki",
+    "iso3": "KIR",
+    "name": "Kiribati",
+    "capital": "South Tarawa",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "flagAsset": "/assets/flags/ki.svg",
+    "geometryId": "ki",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "kw",
+    "iso2": "kw",
+    "iso3": "KWT",
+    "name": "Kuwait",
+    "capital": "Kuwait City",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/kw.svg",
+    "geometryId": "kw",
+    "neighbours": [
+      "iq",
+      "sa"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "kg",
+    "iso2": "kg",
+    "iso3": "KGZ",
+    "name": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "continent": "Asia",
+    "region": "Central Asia",
+    "flagAsset": "/assets/flags/kg.svg",
+    "geometryId": "kg",
+    "neighbours": [
+      "cn",
+      "kz",
+      "tj",
+      "uz"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "la",
+    "iso2": "la",
+    "iso3": "LAO",
+    "name": "Laos",
+    "capital": "Vientiane",
+    "continent": "Asia",
+    "region": "South-Eastern Asia",
+    "flagAsset": "/assets/flags/la.svg",
+    "geometryId": "la",
+    "neighbours": [
+      "cn",
+      "kh",
+      "mm",
+      "th",
+      "vn"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "lv",
+    "iso2": "lv",
+    "iso3": "LVA",
+    "name": "Latvia",
+    "capital": "Riga",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "flagAsset": "/assets/flags/lv.svg",
+    "geometryId": "lv",
+    "neighbours": [
+      "by",
+      "ee",
+      "lt",
+      "ru"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "lb",
+    "iso2": "lb",
+    "iso3": "LBN",
+    "name": "Lebanon",
+    "capital": "Beirut",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/lb.svg",
+    "geometryId": "lb",
+    "neighbours": [
+      "il",
+      "sy"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ls",
+    "iso2": "ls",
+    "iso3": "LSO",
+    "name": "Lesotho",
+    "capital": "Maseru",
+    "continent": "Africa",
+    "region": "Southern Africa",
+    "flagAsset": "/assets/flags/ls.svg",
+    "geometryId": "ls",
+    "neighbours": [
+      "za"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "lr",
+    "iso2": "lr",
+    "iso3": "LBR",
+    "name": "Liberia",
+    "capital": "Monrovia",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/lr.svg",
+    "geometryId": "lr",
+    "neighbours": [
+      "ci",
+      "gn",
+      "sl"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ly",
+    "iso2": "ly",
+    "iso3": "LBY",
+    "name": "Libya",
+    "capital": "Tripoli",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "flagAsset": "/assets/flags/ly.svg",
+    "geometryId": "ly",
+    "neighbours": [
+      "dz",
+      "eg",
+      "ne",
+      "sd",
+      "td",
+      "tn"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "li",
+    "iso2": "li",
+    "iso3": "LIE",
+    "name": "Liechtenstein",
+    "capital": "Vaduz",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "flagAsset": "/assets/flags/li.svg",
+    "geometryId": "li",
+    "neighbours": [
+      "at",
+      "ch"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "lt",
+    "iso2": "lt",
+    "iso3": "LTU",
+    "name": "Lithuania",
+    "capital": "Vilnius",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "flagAsset": "/assets/flags/lt.svg",
+    "geometryId": "lt",
+    "neighbours": [
+      "by",
+      "lv",
+      "pl",
+      "ru"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "lu",
+    "iso2": "lu",
+    "iso3": "LUX",
+    "name": "Luxembourg",
+    "capital": "Luxembourg",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "flagAsset": "/assets/flags/lu.svg",
+    "geometryId": "lu",
+    "neighbours": [
+      "be",
+      "de",
+      "fr"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "mg",
+    "iso2": "mg",
+    "iso3": "MDG",
+    "name": "Madagascar",
+    "capital": "Antananarivo",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/mg.svg",
+    "geometryId": "mg",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "mw",
+    "iso2": "mw",
+    "iso3": "MWI",
+    "name": "Malawi",
+    "capital": "Lilongwe",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/mw.svg",
+    "geometryId": "mw",
+    "neighbours": [
+      "mz",
+      "tz",
+      "zm"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "my",
+    "iso2": "my",
+    "iso3": "MYS",
+    "name": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "continent": "Asia",
+    "region": "South-Eastern Asia",
+    "flagAsset": "/assets/flags/my.svg",
+    "geometryId": "my",
+    "neighbours": [
+      "bn",
+      "id",
+      "th"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "mv",
+    "iso2": "mv",
+    "iso3": "MDV",
+    "name": "Maldives",
+    "capital": "Malé",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "flagAsset": "/assets/flags/mv.svg",
+    "geometryId": "mv",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ml",
+    "iso2": "ml",
+    "iso3": "MLI",
+    "name": "Mali",
+    "capital": "Bamako",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/ml.svg",
+    "geometryId": "ml",
+    "neighbours": [
+      "bf",
+      "ci",
+      "dz",
+      "gn",
+      "mr",
+      "ne",
+      "sn"
+    ],
+    "facts": [
+      {
+        "text": "Mali is a large country in West Africa, mostly covered by desert.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The city of Timbuktu in Mali was once a famous centre of learning.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "mt",
+    "iso2": "mt",
+    "iso3": "MLT",
+    "name": "Malta",
+    "capital": "Valletta",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "flagAsset": "/assets/flags/mt.svg",
+    "geometryId": "mt",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "mh",
+    "iso2": "mh",
+    "iso3": "MHL",
+    "name": "Marshall Islands",
+    "capital": "Majuro",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "flagAsset": "/assets/flags/mh.svg",
+    "geometryId": "mh",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "mr",
+    "iso2": "mr",
+    "iso3": "MRT",
+    "name": "Mauritania",
+    "capital": "Nouakchott",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/mr.svg",
+    "geometryId": "mr",
+    "neighbours": [
+      "dz",
+      "ml",
+      "sn"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "mu",
+    "iso2": "mu",
+    "iso3": "MUS",
+    "name": "Mauritius",
+    "capital": "Port Louis",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/mu.svg",
+    "geometryId": "mu",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "mx",
+    "iso2": "mx",
+    "iso3": "MEX",
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "continent": "North America",
+    "region": "North America",
+    "flagAsset": "/assets/flags/mx.svg",
+    "geometryId": "mx",
+    "neighbours": [
+      "bz",
+      "gt",
+      "us"
+    ],
+    "facts": [
+      {
+        "text": "Mexico has ancient pyramids built by the Maya and Aztec peoples.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its green-white-red flag has an eagle in the centre.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "fm",
+    "iso2": "fm",
+    "iso3": "FSM",
+    "name": "Micronesia",
+    "capital": "Palikir",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "flagAsset": "/assets/flags/fm.svg",
+    "geometryId": "fm",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "md",
+    "iso2": "md",
+    "iso3": "MDA",
+    "name": "Moldova",
+    "capital": "Chișinău",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "flagAsset": "/assets/flags/md.svg",
+    "geometryId": "md",
+    "neighbours": [
+      "ro",
+      "ua"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "mc",
+    "iso2": "mc",
+    "iso3": "MCO",
+    "name": "Monaco",
+    "capital": "Monaco",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "flagAsset": "/assets/flags/mc.svg",
+    "geometryId": "mc",
+    "neighbours": [
+      "fr"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "mn",
+    "iso2": "mn",
+    "iso3": "MNG",
+    "name": "Mongolia",
+    "capital": "Ulan Bator",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "flagAsset": "/assets/flags/mn.svg",
+    "geometryId": "mn",
+    "neighbours": [
+      "cn",
+      "ru"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "me",
+    "iso2": "me",
+    "iso3": "MNE",
+    "name": "Montenegro",
+    "capital": "Podgorica",
+    "continent": "Europe",
+    "region": "Southeast Europe",
+    "flagAsset": "/assets/flags/me.svg",
+    "geometryId": "me",
+    "neighbours": [
+      "al",
+      "ba",
+      "hr",
+      "rs"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ma",
+    "iso2": "ma",
+    "iso3": "MAR",
+    "name": "Morocco",
+    "capital": "Rabat",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "flagAsset": "/assets/flags/ma.svg",
+    "geometryId": "ma",
+    "neighbours": [
+      "dz",
+      "es"
+    ],
+    "facts": [
+      {
+        "text": "Morocco sits in the northwest corner of Africa, close to Europe.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The Sahara, the largest hot desert, reaches into Morocco.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "mz",
+    "iso2": "mz",
+    "iso3": "MOZ",
+    "name": "Mozambique",
+    "capital": "Maputo",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/mz.svg",
+    "geometryId": "mz",
+    "neighbours": [
+      "mw",
+      "sz",
+      "tz",
+      "za",
+      "zm",
+      "zw"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "mm",
+    "iso2": "mm",
+    "iso3": "MMR",
+    "name": "Myanmar",
+    "capital": "Naypyidaw",
+    "continent": "Asia",
+    "region": "South-Eastern Asia",
+    "flagAsset": "/assets/flags/mm.svg",
+    "geometryId": "mm",
+    "neighbours": [
+      "bd",
+      "cn",
+      "in",
+      "la",
+      "th"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "na",
+    "iso2": "na",
+    "iso3": "NAM",
+    "name": "Namibia",
+    "capital": "Windhoek",
+    "continent": "Africa",
+    "region": "Southern Africa",
+    "flagAsset": "/assets/flags/na.svg",
+    "geometryId": "na",
+    "neighbours": [
+      "ao",
+      "bw",
+      "za",
+      "zm"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "nr",
+    "iso2": "nr",
+    "iso3": "NRU",
+    "name": "Nauru",
+    "capital": "Yaren",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "flagAsset": "/assets/flags/nr.svg",
+    "geometryId": "nr",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "np",
+    "iso2": "np",
+    "iso3": "NPL",
+    "name": "Nepal",
+    "capital": "Kathmandu",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "flagAsset": "/assets/flags/np.svg",
+    "geometryId": "np",
+    "neighbours": [
+      "cn",
+      "in"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "nl",
+    "iso2": "nl",
+    "iso3": "NLD",
+    "name": "Netherlands",
+    "capital": "Amsterdam",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "flagAsset": "/assets/flags/nl.svg",
+    "geometryId": "nl",
+    "neighbours": [
+      "be",
+      "de"
+    ],
+    "facts": [
+      {
+        "text": "Much of the Netherlands is below sea level, protected by walls and dikes.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its red-white-blue flag looks a lot like Russia and Luxembourg.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "nz",
+    "iso2": "nz",
+    "iso3": "NZL",
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "continent": "Oceania",
+    "region": "Australia and New Zealand",
+    "flagAsset": "/assets/flags/nz.svg",
+    "geometryId": "nz",
+    "neighbours": [],
+    "facts": [
+      {
+        "text": "New Zealand is made of two main islands and lots of smaller ones.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its blue flag with stars looks a lot like Australia’s.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ni",
+    "iso2": "ni",
+    "iso3": "NIC",
+    "name": "Nicaragua",
+    "capital": "Managua",
+    "continent": "North America",
+    "region": "Central America",
+    "flagAsset": "/assets/flags/ni.svg",
+    "geometryId": "ni",
+    "neighbours": [
+      "cr",
+      "hn"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ne",
+    "iso2": "ne",
+    "iso3": "NER",
+    "name": "Niger",
+    "capital": "Niamey",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/ne.svg",
+    "geometryId": "ne",
+    "neighbours": [
+      "bf",
+      "bj",
+      "dz",
+      "ly",
+      "ml",
+      "ng",
+      "td"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ng",
+    "iso2": "ng",
+    "iso3": "NGA",
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/ng.svg",
+    "geometryId": "ng",
+    "neighbours": [
+      "bj",
+      "cm",
+      "ne",
+      "td"
+    ],
+    "facts": [
+      {
+        "text": "Nigeria has more people than any other country in Africa.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Its film industry is nicknamed \"Nollywood\".",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "kp",
+    "iso2": "kp",
+    "iso3": "PRK",
+    "name": "North Korea",
+    "capital": "Pyongyang",
+    "continent": "Asia",
+    "region": "Eastern Asia",
+    "flagAsset": "/assets/flags/kp.svg",
+    "geometryId": "kp",
+    "neighbours": [
+      "cn",
+      "kr",
+      "ru"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "mk",
+    "iso2": "mk",
+    "iso3": "MKD",
+    "name": "North Macedonia",
+    "capital": "Skopje",
+    "continent": "Europe",
+    "region": "Southeast Europe",
+    "flagAsset": "/assets/flags/mk.svg",
+    "geometryId": "mk",
+    "neighbours": [
+      "al",
+      "bg",
+      "gr",
+      "rs"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "no",
+    "iso2": "no",
+    "iso3": "NOR",
+    "name": "Norway",
+    "capital": "Oslo",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "flagAsset": "/assets/flags/no.svg",
+    "geometryId": "no",
+    "neighbours": [
+      "fi",
+      "ru",
+      "se"
+    ],
+    "facts": [
+      {
+        "text": "Norway has deep sea inlets called fjords carved by ancient ice.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "You can sometimes see the colourful northern lights in its sky.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "om",
+    "iso2": "om",
+    "iso3": "OMN",
+    "name": "Oman",
+    "capital": "Muscat",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/om.svg",
+    "geometryId": "om",
+    "neighbours": [
+      "ae",
+      "sa",
+      "ye"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "pk",
+    "iso2": "pk",
+    "iso3": "PAK",
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "flagAsset": "/assets/flags/pk.svg",
+    "geometryId": "pk",
+    "neighbours": [
+      "af",
+      "cn",
+      "in",
+      "ir"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "pw",
+    "iso2": "pw",
+    "iso3": "PLW",
+    "name": "Palau",
+    "capital": "Ngerulmud",
+    "continent": "Oceania",
+    "region": "Micronesia",
+    "flagAsset": "/assets/flags/pw.svg",
+    "geometryId": "pw",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "pa",
+    "iso2": "pa",
+    "iso3": "PAN",
+    "name": "Panama",
+    "capital": "Panama City",
+    "continent": "North America",
+    "region": "Central America",
+    "flagAsset": "/assets/flags/pa.svg",
+    "geometryId": "pa",
+    "neighbours": [
+      "co",
+      "cr"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "pg",
+    "iso2": "pg",
+    "iso3": "PNG",
+    "name": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "continent": "Oceania",
+    "region": "Melanesia",
+    "flagAsset": "/assets/flags/pg.svg",
+    "geometryId": "pg",
+    "neighbours": [
+      "id"
+    ],
+    "facts": [
+      {
+        "text": "Papua New Guinea has hundreds of different languages.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Thick rainforests cover much of the country.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "py",
+    "iso2": "py",
+    "iso3": "PRY",
+    "name": "Paraguay",
+    "capital": "Asunción",
+    "continent": "South America",
+    "region": "South America",
+    "flagAsset": "/assets/flags/py.svg",
+    "geometryId": "py",
+    "neighbours": [
+      "ar",
+      "bo",
+      "br"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "pe",
+    "iso2": "pe",
+    "iso3": "PER",
+    "name": "Peru",
+    "capital": "Lima",
+    "continent": "South America",
+    "region": "South America",
+    "flagAsset": "/assets/flags/pe.svg",
+    "geometryId": "pe",
+    "neighbours": [
+      "bo",
+      "br",
+      "cl",
+      "co",
+      "ec"
+    ],
+    "facts": [
+      {
+        "text": "Peru is home to the ancient mountain city of Machu Picchu.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "Fluffy llamas and alpacas live high in the Andes mountains.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ph",
+    "iso2": "ph",
+    "iso3": "PHL",
+    "name": "Philippines",
+    "capital": "Manila",
+    "continent": "Asia",
+    "region": "South-Eastern Asia",
+    "flagAsset": "/assets/flags/ph.svg",
+    "geometryId": "ph",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "pl",
+    "iso2": "pl",
+    "iso3": "POL",
+    "name": "Poland",
+    "capital": "Warsaw",
+    "continent": "Europe",
+    "region": "Central Europe",
+    "flagAsset": "/assets/flags/pl.svg",
+    "geometryId": "pl",
+    "neighbours": [
+      "by",
+      "cz",
+      "de",
+      "lt",
+      "ru",
+      "sk",
+      "ua"
+    ],
+    "facts": [
+      {
+        "text": "Poland is in central Europe and has a long history.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The scientist who studied the stars, Copernicus, came from Poland.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "pt",
+    "iso2": "pt",
+    "iso3": "PRT",
+    "name": "Portugal",
+    "capital": "Lisbon",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "flagAsset": "/assets/flags/pt.svg",
+    "geometryId": "pt",
+    "neighbours": [
+      "es"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "qa",
+    "iso2": "qa",
+    "iso3": "QAT",
+    "name": "Qatar",
+    "capital": "Doha",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/qa.svg",
+    "geometryId": "qa",
+    "neighbours": [
+      "sa"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "cg",
+    "iso2": "cg",
+    "iso3": "COG",
+    "name": "Republic of the Congo",
+    "capital": "Brazzaville",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "flagAsset": "/assets/flags/cg.svg",
+    "geometryId": "cg",
+    "neighbours": [
+      "ao",
+      "cd",
+      "cf",
+      "cm",
+      "ga"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ro",
+    "iso2": "ro",
+    "iso3": "ROU",
+    "name": "Romania",
+    "capital": "Bucharest",
+    "continent": "Europe",
+    "region": "Southeast Europe",
+    "flagAsset": "/assets/flags/ro.svg",
+    "geometryId": "ro",
+    "neighbours": [
+      "bg",
+      "hu",
+      "md",
+      "rs",
+      "ua"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ru",
+    "iso2": "ru",
+    "iso3": "RUS",
+    "name": "Russia",
+    "capital": "Moscow",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "flagAsset": "/assets/flags/ru.svg",
+    "geometryId": "ru",
+    "neighbours": [
+      "az",
+      "by",
+      "cn",
+      "ee",
+      "fi",
+      "ge",
+      "kp",
+      "kz",
+      "lt",
+      "lv",
+      "mn",
+      "no",
+      "pl",
+      "ua"
+    ],
+    "facts": [
+      {
+        "text": "Russia is the largest country in the world by land.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "It stretches across two continents and many time zones.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "rw",
+    "iso2": "rw",
+    "iso3": "RWA",
+    "name": "Rwanda",
+    "capital": "Kigali",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/rw.svg",
+    "geometryId": "rw",
+    "neighbours": [
+      "bi",
+      "cd",
+      "tz",
+      "ug"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "kn",
+    "iso2": "kn",
+    "iso3": "KNA",
+    "name": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "continent": "North America",
+    "region": "Caribbean",
+    "flagAsset": "/assets/flags/kn.svg",
+    "geometryId": "kn",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "lc",
+    "iso2": "lc",
+    "iso3": "LCA",
+    "name": "Saint Lucia",
+    "capital": "Castries",
+    "continent": "North America",
+    "region": "Caribbean",
+    "flagAsset": "/assets/flags/lc.svg",
+    "geometryId": "lc",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "vc",
+    "iso2": "vc",
+    "iso3": "VCT",
+    "name": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "continent": "North America",
+    "region": "Caribbean",
+    "flagAsset": "/assets/flags/vc.svg",
+    "geometryId": "vc",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ws",
+    "iso2": "ws",
+    "iso3": "WSM",
+    "name": "Samoa",
+    "capital": "Apia",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "flagAsset": "/assets/flags/ws.svg",
+    "geometryId": "ws",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "sm",
+    "iso2": "sm",
+    "iso3": "SMR",
+    "name": "San Marino",
+    "capital": "City of San Marino",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "flagAsset": "/assets/flags/sm.svg",
+    "geometryId": "sm",
+    "neighbours": [
+      "it"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "st",
+    "iso2": "st",
+    "iso3": "STP",
+    "name": "São Tomé and Príncipe",
+    "capital": "São Tomé",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "flagAsset": "/assets/flags/st.svg",
+    "geometryId": "st",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
   },
   {
     "id": "sa",
@@ -410,7 +3198,15 @@
     "region": "Western Asia",
     "flagAsset": "/assets/flags/sa.svg",
     "geometryId": "sa",
-    "neighbours": [],
+    "neighbours": [
+      "ae",
+      "iq",
+      "jo",
+      "kw",
+      "om",
+      "qa",
+      "ye"
+    ],
     "facts": [
       {
         "text": "Saudi Arabia is mostly covered by hot, sandy desert.",
@@ -426,23 +3222,29 @@
     "reviewedAt": "2026-08-13"
   },
   {
-    "id": "th",
-    "iso2": "th",
-    "iso3": "THA",
-    "name": "Thailand",
-    "capital": "Bangkok",
-    "continent": "Asia",
-    "region": "South-Eastern Asia",
-    "flagAsset": "/assets/flags/th.svg",
-    "geometryId": "th",
-    "neighbours": [],
+    "id": "sn",
+    "iso2": "sn",
+    "iso3": "SEN",
+    "name": "Senegal",
+    "capital": "Dakar",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/sn.svg",
+    "geometryId": "sn",
+    "neighbours": [
+      "gm",
+      "gn",
+      "gw",
+      "ml",
+      "mr"
+    ],
     "facts": [
       {
-        "text": "Thailand is famous for its temples and elephants.",
+        "text": "Senegal is the westernmost country on the African mainland.",
         "source": "world-explorer/authored"
       },
       {
-        "text": "It is the only country in Southeast Asia never ruled by Europeans.",
+        "text": "Its flag has a green star in the middle, a little like Mali next door.",
         "source": "world-explorer/authored"
       }
     ],
@@ -451,25 +3253,176 @@
     "reviewedAt": "2026-08-13"
   },
   {
-    "id": "vn",
-    "iso2": "vn",
-    "iso3": "VNM",
-    "name": "Vietnam",
-    "capital": "Hanoi",
+    "id": "rs",
+    "iso2": "rs",
+    "iso3": "SRB",
+    "name": "Serbia",
+    "capital": "Belgrade",
+    "continent": "Europe",
+    "region": "Southeast Europe",
+    "flagAsset": "/assets/flags/rs.svg",
+    "geometryId": "rs",
+    "neighbours": [
+      "ba",
+      "bg",
+      "hr",
+      "hu",
+      "me",
+      "mk",
+      "ro"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "sc",
+    "iso2": "sc",
+    "iso3": "SYC",
+    "name": "Seychelles",
+    "capital": "Victoria",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/sc.svg",
+    "geometryId": "sc",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "sl",
+    "iso2": "sl",
+    "iso3": "SLE",
+    "name": "Sierra Leone",
+    "capital": "Freetown",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/sl.svg",
+    "geometryId": "sl",
+    "neighbours": [
+      "gn",
+      "lr"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "sg",
+    "iso2": "sg",
+    "iso3": "SGP",
+    "name": "Singapore",
+    "capital": "Singapore",
     "continent": "Asia",
     "region": "South-Eastern Asia",
-    "flagAsset": "/assets/flags/vn.svg",
-    "geometryId": "vn",
+    "flagAsset": "/assets/flags/sg.svg",
+    "geometryId": "sg",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "sk",
+    "iso2": "sk",
+    "iso3": "SVK",
+    "name": "Slovakia",
+    "capital": "Bratislava",
+    "continent": "Europe",
+    "region": "Central Europe",
+    "flagAsset": "/assets/flags/sk.svg",
+    "geometryId": "sk",
     "neighbours": [
-      "cn"
+      "at",
+      "cz",
+      "hu",
+      "pl",
+      "ua"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "si",
+    "iso2": "si",
+    "iso3": "SVN",
+    "name": "Slovenia",
+    "capital": "Ljubljana",
+    "continent": "Europe",
+    "region": "Central Europe",
+    "flagAsset": "/assets/flags/si.svg",
+    "geometryId": "si",
+    "neighbours": [
+      "at",
+      "hr",
+      "hu",
+      "it"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "sb",
+    "iso2": "sb",
+    "iso3": "SLB",
+    "name": "Solomon Islands",
+    "capital": "Honiara",
+    "continent": "Oceania",
+    "region": "Melanesia",
+    "flagAsset": "/assets/flags/sb.svg",
+    "geometryId": "sb",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "so",
+    "iso2": "so",
+    "iso3": "SOM",
+    "name": "Somalia",
+    "capital": "Mogadishu",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/so.svg",
+    "geometryId": "so",
+    "neighbours": [
+      "dj",
+      "et",
+      "ke"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "za",
+    "iso2": "za",
+    "iso3": "ZAF",
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "continent": "Africa",
+    "region": "Southern Africa",
+    "flagAsset": "/assets/flags/za.svg",
+    "geometryId": "za",
+    "neighbours": [
+      "bw",
+      "ls",
+      "mz",
+      "na",
+      "sz",
+      "zw"
     ],
     "facts": [
       {
-        "text": "Vietnam is a long, thin country shaped a bit like the letter S.",
+        "text": "South Africa has three capital cities, not just one.",
         "source": "world-explorer/authored"
       },
       {
-        "text": "Rice grows in flooded fields called paddies all over Vietnam.",
+        "text": "You can see lions, elephants and rhinos in its national parks.",
         "source": "world-explorer/authored"
       }
     ],
@@ -487,7 +3440,9 @@
     "region": "Eastern Asia",
     "flagAsset": "/assets/flags/kr.svg",
     "geometryId": "kr",
-    "neighbours": [],
+    "neighbours": [
+      "kp"
+    ],
     "facts": [
       {
         "text": "South Korea is known around the world for K-pop music.",
@@ -503,144 +3458,26 @@
     "reviewedAt": "2026-08-13"
   },
   {
-    "id": "kz",
-    "iso2": "kz",
-    "iso3": "KAZ",
-    "name": "Kazakhstan",
-    "capital": "Astana",
-    "continent": "Asia",
-    "region": "Central Asia",
-    "flagAsset": "/assets/flags/kz.svg",
-    "geometryId": "kz",
+    "id": "ss",
+    "iso2": "ss",
+    "iso3": "SSD",
+    "name": "South Sudan",
+    "capital": "Juba",
+    "continent": "Africa",
+    "region": "Middle Africa",
+    "flagAsset": "/assets/flags/ss.svg",
+    "geometryId": "ss",
     "neighbours": [
-      "cn",
-      "ru"
+      "cd",
+      "cf",
+      "et",
+      "ke",
+      "sd",
+      "ug"
     ],
-    "facts": [
-      {
-        "text": "Kazakhstan is the largest country that has no coastline on the ocean.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "It has wide, grassy plains called steppes.",
-        "source": "world-explorer/authored"
-      }
-    ],
+    "facts": [],
     "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "il",
-    "iso2": "il",
-    "iso3": "ISR",
-    "name": "Israel",
-    "capital": "Jerusalem",
-    "continent": "Asia",
-    "region": "Western Asia",
-    "flagAsset": "/assets/flags/il.svg",
-    "geometryId": "il",
-    "neighbours": [
-      "eg"
-    ],
-    "facts": [
-      {
-        "text": "Israel is a small country at the eastern end of the Mediterranean Sea.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "The Dead Sea there is so salty you can float on top of it.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "fr",
-    "iso2": "fr",
-    "iso3": "FRA",
-    "name": "France",
-    "capital": "Paris",
-    "continent": "Europe",
-    "region": "Western Europe",
-    "flagAsset": "/assets/flags/fr.svg",
-    "geometryId": "fr",
-    "neighbours": [
-      "de",
-      "es",
-      "it"
-    ],
-    "facts": [
-      {
-        "text": "The Eiffel Tower in Paris is over 300 metres tall.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "France has coastlines on both the Atlantic Ocean and the Mediterranean Sea.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "de",
-    "iso2": "de",
-    "iso3": "DEU",
-    "name": "Germany",
-    "capital": "Berlin",
-    "continent": "Europe",
-    "region": "Western Europe",
-    "flagAsset": "/assets/flags/de.svg",
-    "geometryId": "de",
-    "neighbours": [
-      "fr",
-      "nl",
-      "pl"
-    ],
-    "facts": [
-      {
-        "text": "Germany is in the middle of Europe and borders nine countries.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "It is famous for fairy-tale castles and car making.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "it",
-    "iso2": "it",
-    "iso3": "ITA",
-    "name": "Italy",
-    "capital": "Rome",
-    "continent": "Europe",
-    "region": "Southern Europe",
-    "flagAsset": "/assets/flags/it.svg",
-    "geometryId": "it",
-    "neighbours": [
-      "fr"
-    ],
-    "facts": [
-      {
-        "text": "Italy is shaped like a boot kicking a ball.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "Its green-white-red flag is easy to mix up with Mexico and Ireland.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
+    "source": "world-countries"
   },
   {
     "id": "es",
@@ -653,8 +3490,10 @@
     "flagAsset": "/assets/flags/es.svg",
     "geometryId": "es",
     "neighbours": [
+      "ad",
       "fr",
-      "ma"
+      "ma",
+      "pt"
     ],
     "facts": [
       {
@@ -669,6 +3508,433 @@
     "active": true,
     "source": "world-countries",
     "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "lk",
+    "iso2": "lk",
+    "iso3": "LKA",
+    "name": "Sri Lanka",
+    "capital": "Colombo",
+    "continent": "Asia",
+    "region": "Southern Asia",
+    "flagAsset": "/assets/flags/lk.svg",
+    "geometryId": "lk",
+    "neighbours": [
+      "in"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "sd",
+    "iso2": "sd",
+    "iso3": "SDN",
+    "name": "Sudan",
+    "capital": "Khartoum",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "flagAsset": "/assets/flags/sd.svg",
+    "geometryId": "sd",
+    "neighbours": [
+      "cf",
+      "eg",
+      "er",
+      "et",
+      "ly",
+      "ss",
+      "td"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "sr",
+    "iso2": "sr",
+    "iso3": "SUR",
+    "name": "Suriname",
+    "capital": "Paramaribo",
+    "continent": "South America",
+    "region": "South America",
+    "flagAsset": "/assets/flags/sr.svg",
+    "geometryId": "sr",
+    "neighbours": [
+      "br",
+      "gy"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "se",
+    "iso2": "se",
+    "iso3": "SWE",
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "continent": "Europe",
+    "region": "Northern Europe",
+    "flagAsset": "/assets/flags/se.svg",
+    "geometryId": "se",
+    "neighbours": [
+      "fi",
+      "no"
+    ],
+    "facts": [
+      {
+        "text": "Sweden is a long country in northern Europe with many lakes and forests.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "In the far north the sun barely sets in summer.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ch",
+    "iso2": "ch",
+    "iso3": "CHE",
+    "name": "Switzerland",
+    "capital": "Bern",
+    "continent": "Europe",
+    "region": "Western Europe",
+    "flagAsset": "/assets/flags/ch.svg",
+    "geometryId": "ch",
+    "neighbours": [
+      "at",
+      "de",
+      "fr",
+      "it",
+      "li"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "sy",
+    "iso2": "sy",
+    "iso3": "SYR",
+    "name": "Syria",
+    "capital": "Damascus",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/sy.svg",
+    "geometryId": "sy",
+    "neighbours": [
+      "il",
+      "iq",
+      "jo",
+      "lb",
+      "tr"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "tj",
+    "iso2": "tj",
+    "iso3": "TJK",
+    "name": "Tajikistan",
+    "capital": "Dushanbe",
+    "continent": "Asia",
+    "region": "Central Asia",
+    "flagAsset": "/assets/flags/tj.svg",
+    "geometryId": "tj",
+    "neighbours": [
+      "af",
+      "cn",
+      "kg",
+      "uz"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "tz",
+    "iso2": "tz",
+    "iso3": "TZA",
+    "name": "Tanzania",
+    "capital": "Dodoma",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/tz.svg",
+    "geometryId": "tz",
+    "neighbours": [
+      "bi",
+      "cd",
+      "ke",
+      "mw",
+      "mz",
+      "rw",
+      "ug",
+      "zm"
+    ],
+    "facts": [
+      {
+        "text": "Tanzania has Mount Kilimanjaro, the highest mountain in Africa.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The island of Zanzibar is part of Tanzania.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "th",
+    "iso2": "th",
+    "iso3": "THA",
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "continent": "Asia",
+    "region": "South-Eastern Asia",
+    "flagAsset": "/assets/flags/th.svg",
+    "geometryId": "th",
+    "neighbours": [
+      "kh",
+      "la",
+      "mm",
+      "my"
+    ],
+    "facts": [
+      {
+        "text": "Thailand is famous for its temples and elephants.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "It is the only country in Southeast Asia never ruled by Europeans.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "tl",
+    "iso2": "tl",
+    "iso3": "TLS",
+    "name": "Timor-Leste",
+    "capital": "Dili",
+    "continent": "Asia",
+    "region": "South-Eastern Asia",
+    "flagAsset": "/assets/flags/tl.svg",
+    "geometryId": "tl",
+    "neighbours": [
+      "id"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "tg",
+    "iso2": "tg",
+    "iso3": "TGO",
+    "name": "Togo",
+    "capital": "Lomé",
+    "continent": "Africa",
+    "region": "Western Africa",
+    "flagAsset": "/assets/flags/tg.svg",
+    "geometryId": "tg",
+    "neighbours": [
+      "bf",
+      "bj",
+      "gh"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "to",
+    "iso2": "to",
+    "iso3": "TON",
+    "name": "Tonga",
+    "capital": "Nuku'alofa",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "flagAsset": "/assets/flags/to.svg",
+    "geometryId": "to",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "tt",
+    "iso2": "tt",
+    "iso3": "TTO",
+    "name": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "continent": "North America",
+    "region": "Caribbean",
+    "flagAsset": "/assets/flags/tt.svg",
+    "geometryId": "tt",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "tn",
+    "iso2": "tn",
+    "iso3": "TUN",
+    "name": "Tunisia",
+    "capital": "Tunis",
+    "continent": "Africa",
+    "region": "Northern Africa",
+    "flagAsset": "/assets/flags/tn.svg",
+    "geometryId": "tn",
+    "neighbours": [
+      "dz",
+      "ly"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "tr",
+    "iso2": "tr",
+    "iso3": "TUR",
+    "name": "Türkiye",
+    "capital": "Ankara",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/tr.svg",
+    "geometryId": "tr",
+    "neighbours": [
+      "am",
+      "az",
+      "bg",
+      "ge",
+      "gr",
+      "iq",
+      "ir",
+      "sy"
+    ],
+    "facts": [
+      {
+        "text": "Türkiye sits partly in Europe and partly in Asia.",
+        "source": "world-explorer/authored"
+      },
+      {
+        "text": "The city of Istanbul spreads across two continents.",
+        "source": "world-explorer/authored"
+      }
+    ],
+    "active": true,
+    "source": "world-countries",
+    "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "tm",
+    "iso2": "tm",
+    "iso3": "TKM",
+    "name": "Turkmenistan",
+    "capital": "Ashgabat",
+    "continent": "Asia",
+    "region": "Central Asia",
+    "flagAsset": "/assets/flags/tm.svg",
+    "geometryId": "tm",
+    "neighbours": [
+      "af",
+      "ir",
+      "kz",
+      "uz"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "tv",
+    "iso2": "tv",
+    "iso3": "TUV",
+    "name": "Tuvalu",
+    "capital": "Funafuti",
+    "continent": "Oceania",
+    "region": "Polynesia",
+    "flagAsset": "/assets/flags/tv.svg",
+    "geometryId": "tv",
+    "neighbours": [],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ug",
+    "iso2": "ug",
+    "iso3": "UGA",
+    "name": "Uganda",
+    "capital": "Kampala",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/ug.svg",
+    "geometryId": "ug",
+    "neighbours": [
+      "cd",
+      "ke",
+      "rw",
+      "ss",
+      "tz"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ua",
+    "iso2": "ua",
+    "iso3": "UKR",
+    "name": "Ukraine",
+    "capital": "Kyiv",
+    "continent": "Europe",
+    "region": "Eastern Europe",
+    "flagAsset": "/assets/flags/ua.svg",
+    "geometryId": "ua",
+    "neighbours": [
+      "by",
+      "hu",
+      "md",
+      "pl",
+      "ro",
+      "ru",
+      "sk"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "ae",
+    "iso2": "ae",
+    "iso3": "ARE",
+    "name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/ae.svg",
+    "geometryId": "ae",
+    "neighbours": [
+      "om",
+      "sa"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
   },
   {
     "id": "gb",
@@ -690,200 +3956,6 @@
       },
       {
         "text": "London, its capital, has a famous clock tower nicknamed Big Ben.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "nl",
-    "iso2": "nl",
-    "iso3": "NLD",
-    "name": "Netherlands",
-    "capital": "Amsterdam",
-    "continent": "Europe",
-    "region": "Western Europe",
-    "flagAsset": "/assets/flags/nl.svg",
-    "geometryId": "nl",
-    "neighbours": [
-      "de"
-    ],
-    "facts": [
-      {
-        "text": "Much of the Netherlands is below sea level, protected by walls and dikes.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "Its red-white-blue flag looks a lot like Russia and Luxembourg.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "se",
-    "iso2": "se",
-    "iso3": "SWE",
-    "name": "Sweden",
-    "capital": "Stockholm",
-    "continent": "Europe",
-    "region": "Northern Europe",
-    "flagAsset": "/assets/flags/se.svg",
-    "geometryId": "se",
-    "neighbours": [
-      "no"
-    ],
-    "facts": [
-      {
-        "text": "Sweden is a long country in northern Europe with many lakes and forests.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "In the far north the sun barely sets in summer.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "no",
-    "iso2": "no",
-    "iso3": "NOR",
-    "name": "Norway",
-    "capital": "Oslo",
-    "continent": "Europe",
-    "region": "Northern Europe",
-    "flagAsset": "/assets/flags/no.svg",
-    "geometryId": "no",
-    "neighbours": [
-      "ru",
-      "se"
-    ],
-    "facts": [
-      {
-        "text": "Norway has deep sea inlets called fjords carved by ancient ice.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "You can sometimes see the colourful northern lights in its sky.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "pl",
-    "iso2": "pl",
-    "iso3": "POL",
-    "name": "Poland",
-    "capital": "Warsaw",
-    "continent": "Europe",
-    "region": "Central Europe",
-    "flagAsset": "/assets/flags/pl.svg",
-    "geometryId": "pl",
-    "neighbours": [
-      "de",
-      "ru"
-    ],
-    "facts": [
-      {
-        "text": "Poland is in central Europe and has a long history.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "The scientist who studied the stars, Copernicus, came from Poland.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "gr",
-    "iso2": "gr",
-    "iso3": "GRC",
-    "name": "Greece",
-    "capital": "Athens",
-    "continent": "Europe",
-    "region": "Southern Europe",
-    "flagAsset": "/assets/flags/gr.svg",
-    "geometryId": "gr",
-    "neighbours": [
-      "tr"
-    ],
-    "facts": [
-      {
-        "text": "Greece has thousands of islands in its warm blue seas.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "The very first Olympic Games were held in ancient Greece.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "ie",
-    "iso2": "ie",
-    "iso3": "IRL",
-    "name": "Ireland",
-    "capital": "Dublin",
-    "continent": "Europe",
-    "region": "Northern Europe",
-    "flagAsset": "/assets/flags/ie.svg",
-    "geometryId": "ie",
-    "neighbours": [
-      "gb"
-    ],
-    "facts": [
-      {
-        "text": "Ireland is a green island famous for its rolling hills.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "Its green-white-orange flag can be confused with Italy and Côte d’Ivoire.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "ru",
-    "iso2": "ru",
-    "iso3": "RUS",
-    "name": "Russia",
-    "capital": "Moscow",
-    "continent": "Europe",
-    "region": "Eastern Europe",
-    "flagAsset": "/assets/flags/ru.svg",
-    "geometryId": "ru",
-    "neighbours": [
-      "cn",
-      "kz",
-      "no",
-      "pl"
-    ],
-    "facts": [
-      {
-        "text": "Russia is the largest country in the world by land.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "It stretches across two continents and many time zones.",
         "source": "world-explorer/authored"
       }
     ],
@@ -920,305 +3992,75 @@
     "reviewedAt": "2026-08-13"
   },
   {
-    "id": "ca",
-    "iso2": "ca",
-    "iso3": "CAN",
-    "name": "Canada",
-    "capital": "Ottawa",
-    "continent": "North America",
-    "region": "North America",
-    "flagAsset": "/assets/flags/ca.svg",
-    "geometryId": "ca",
-    "neighbours": [
-      "us"
-    ],
-    "facts": [
-      {
-        "text": "Canada is the second-largest country in the world.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "A red maple leaf sits in the middle of its flag.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "mx",
-    "iso2": "mx",
-    "iso3": "MEX",
-    "name": "Mexico",
-    "capital": "Mexico City",
-    "continent": "North America",
-    "region": "North America",
-    "flagAsset": "/assets/flags/mx.svg",
-    "geometryId": "mx",
-    "neighbours": [
-      "gt",
-      "us"
-    ],
-    "facts": [
-      {
-        "text": "Mexico has ancient pyramids built by the Maya and Aztec peoples.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "Its green-white-red flag has an eagle in the centre.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "cu",
-    "iso2": "cu",
-    "iso3": "CUB",
-    "name": "Cuba",
-    "capital": "Havana",
-    "continent": "North America",
-    "region": "Caribbean",
-    "flagAsset": "/assets/flags/cu.svg",
-    "geometryId": "cu",
-    "neighbours": [],
-    "facts": [
-      {
-        "text": "Cuba is the largest island in the Caribbean Sea.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "Colourful vintage cars are a common sight on its streets.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "jm",
-    "iso2": "jm",
-    "iso3": "JAM",
-    "name": "Jamaica",
-    "capital": "Kingston",
-    "continent": "North America",
-    "region": "Caribbean",
-    "flagAsset": "/assets/flags/jm.svg",
-    "geometryId": "jm",
-    "neighbours": [],
-    "facts": [
-      {
-        "text": "Jamaica is a Caribbean island famous for reggae music.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "Its flag is the only national flag with no red, white or blue.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "cr",
-    "iso2": "cr",
-    "iso3": "CRI",
-    "name": "Costa Rica",
-    "capital": "San José",
-    "continent": "North America",
-    "region": "Central America",
-    "flagAsset": "/assets/flags/cr.svg",
-    "geometryId": "cr",
-    "neighbours": [],
-    "facts": [
-      {
-        "text": "Costa Rica is a small country full of rainforests and volcanoes.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "It protects huge numbers of plants and animals in its parks.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "gt",
-    "iso2": "gt",
-    "iso3": "GTM",
-    "name": "Guatemala",
-    "capital": "Guatemala City",
-    "continent": "North America",
-    "region": "Central America",
-    "flagAsset": "/assets/flags/gt.svg",
-    "geometryId": "gt",
-    "neighbours": [
-      "mx"
-    ],
-    "facts": [
-      {
-        "text": "Guatemala is in Central America and has many active volcanoes.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "The colourful quetzal bird gives its name to the country’s money.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "br",
-    "iso2": "br",
-    "iso3": "BRA",
-    "name": "Brazil",
-    "capital": "Brasília",
+    "id": "uy",
+    "iso2": "uy",
+    "iso3": "URY",
+    "name": "Uruguay",
+    "capital": "Montevideo",
     "continent": "South America",
     "region": "South America",
-    "flagAsset": "/assets/flags/br.svg",
-    "geometryId": "br",
+    "flagAsset": "/assets/flags/uy.svg",
+    "geometryId": "uy",
     "neighbours": [
       "ar",
-      "co",
-      "pe",
-      "ve"
+      "br"
     ],
-    "facts": [
-      {
-        "text": "Brazil is the largest country in South America.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "The Amazon rainforest covers much of northern Brazil.",
-        "source": "world-explorer/authored"
-      }
-    ],
+    "facts": [],
     "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
+    "source": "world-countries"
   },
   {
-    "id": "ar",
-    "iso2": "ar",
-    "iso3": "ARG",
-    "name": "Argentina",
-    "capital": "Buenos Aires",
-    "continent": "South America",
-    "region": "South America",
-    "flagAsset": "/assets/flags/ar.svg",
-    "geometryId": "ar",
+    "id": "uz",
+    "iso2": "uz",
+    "iso3": "UZB",
+    "name": "Uzbekistan",
+    "capital": "Tashkent",
+    "continent": "Asia",
+    "region": "Central Asia",
+    "flagAsset": "/assets/flags/uz.svg",
+    "geometryId": "uz",
     "neighbours": [
-      "br",
-      "cl"
+      "af",
+      "kg",
+      "kz",
+      "tj",
+      "tm"
     ],
-    "facts": [
-      {
-        "text": "Argentina is famous for football and a dance called the tango.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "The southern tip of Argentina is one of the closest places to Antarctica.",
-        "source": "world-explorer/authored"
-      }
-    ],
+    "facts": [],
     "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
+    "source": "world-countries"
   },
   {
-    "id": "cl",
-    "iso2": "cl",
-    "iso3": "CHL",
-    "name": "Chile",
-    "capital": "Santiago",
-    "continent": "South America",
-    "region": "South America",
-    "flagAsset": "/assets/flags/cl.svg",
-    "geometryId": "cl",
-    "neighbours": [
-      "ar",
-      "pe"
-    ],
-    "facts": [
-      {
-        "text": "Chile is a very long, thin country along the Pacific coast.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "The Atacama Desert in Chile is one of the driest places on Earth.",
-        "source": "world-explorer/authored"
-      }
-    ],
+    "id": "vu",
+    "iso2": "vu",
+    "iso3": "VUT",
+    "name": "Vanuatu",
+    "capital": "Port Vila",
+    "continent": "Oceania",
+    "region": "Melanesia",
+    "flagAsset": "/assets/flags/vu.svg",
+    "geometryId": "vu",
+    "neighbours": [],
+    "facts": [],
     "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
+    "source": "world-countries"
   },
   {
-    "id": "pe",
-    "iso2": "pe",
-    "iso3": "PER",
-    "name": "Peru",
-    "capital": "Lima",
-    "continent": "South America",
-    "region": "South America",
-    "flagAsset": "/assets/flags/pe.svg",
-    "geometryId": "pe",
+    "id": "va",
+    "iso2": "va",
+    "iso3": "VAT",
+    "name": "Vatican City",
+    "capital": "Vatican City",
+    "continent": "Europe",
+    "region": "Southern Europe",
+    "flagAsset": "/assets/flags/va.svg",
+    "geometryId": "va",
     "neighbours": [
-      "br",
-      "cl",
-      "co"
+      "it"
     ],
-    "facts": [
-      {
-        "text": "Peru is home to the ancient mountain city of Machu Picchu.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "Fluffy llamas and alpacas live high in the Andes mountains.",
-        "source": "world-explorer/authored"
-      }
-    ],
+    "facts": [],
     "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "co",
-    "iso2": "co",
-    "iso3": "COL",
-    "name": "Colombia",
-    "capital": "Bogotá",
-    "continent": "South America",
-    "region": "South America",
-    "flagAsset": "/assets/flags/co.svg",
-    "geometryId": "co",
-    "neighbours": [
-      "br",
-      "pe",
-      "ve"
-    ],
-    "facts": [
-      {
-        "text": "Colombia grows some of the world’s best-known coffee.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "Its yellow-blue-red flag is similar to Venezuela and Ecuador.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
+    "source": "world-countries"
   },
   {
     "id": "ve",
@@ -1232,7 +4074,8 @@
     "geometryId": "ve",
     "neighbours": [
       "br",
-      "co"
+      "co",
+      "gy"
     ],
     "facts": [
       {
@@ -1249,105 +4092,94 @@
     "reviewedAt": "2026-08-13"
   },
   {
-    "id": "au",
-    "iso2": "au",
-    "iso3": "AUS",
-    "name": "Australia",
-    "capital": "Canberra",
-    "continent": "Oceania",
-    "region": "Australia and New Zealand",
-    "flagAsset": "/assets/flags/au.svg",
-    "geometryId": "au",
-    "neighbours": [],
-    "facts": [
-      {
-        "text": "Australia is both a country and a continent.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "Kangaroos and koalas live only in the wild in Australia.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "nz",
-    "iso2": "nz",
-    "iso3": "NZL",
-    "name": "New Zealand",
-    "capital": "Wellington",
-    "continent": "Oceania",
-    "region": "Australia and New Zealand",
-    "flagAsset": "/assets/flags/nz.svg",
-    "geometryId": "nz",
-    "neighbours": [],
-    "facts": [
-      {
-        "text": "New Zealand is made of two main islands and lots of smaller ones.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "Its blue flag with stars looks a lot like Australia’s.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "fj",
-    "iso2": "fj",
-    "iso3": "FJI",
-    "name": "Fiji",
-    "capital": "Suva",
-    "continent": "Oceania",
-    "region": "Melanesia",
-    "flagAsset": "/assets/flags/fj.svg",
-    "geometryId": "fj",
-    "neighbours": [],
-    "facts": [
-      {
-        "text": "Fiji is a group of more than 300 islands in the Pacific Ocean.",
-        "source": "world-explorer/authored"
-      },
-      {
-        "text": "Warm seas and coral reefs surround its islands.",
-        "source": "world-explorer/authored"
-      }
-    ],
-    "active": true,
-    "source": "world-countries",
-    "reviewedAt": "2026-08-13"
-  },
-  {
-    "id": "pg",
-    "iso2": "pg",
-    "iso3": "PNG",
-    "name": "Papua New Guinea",
-    "capital": "Port Moresby",
-    "continent": "Oceania",
-    "region": "Melanesia",
-    "flagAsset": "/assets/flags/pg.svg",
-    "geometryId": "pg",
+    "id": "vn",
+    "iso2": "vn",
+    "iso3": "VNM",
+    "name": "Vietnam",
+    "capital": "Hanoi",
+    "continent": "Asia",
+    "region": "South-Eastern Asia",
+    "flagAsset": "/assets/flags/vn.svg",
+    "geometryId": "vn",
     "neighbours": [
-      "id"
+      "cn",
+      "kh",
+      "la"
     ],
     "facts": [
       {
-        "text": "Papua New Guinea has hundreds of different languages.",
+        "text": "Vietnam is a long, thin country shaped a bit like the letter S.",
         "source": "world-explorer/authored"
       },
       {
-        "text": "Thick rainforests cover much of the country.",
+        "text": "Rice grows in flooded fields called paddies all over Vietnam.",
         "source": "world-explorer/authored"
       }
     ],
     "active": true,
     "source": "world-countries",
     "reviewedAt": "2026-08-13"
+  },
+  {
+    "id": "ye",
+    "iso2": "ye",
+    "iso3": "YEM",
+    "name": "Yemen",
+    "capital": "Sana'a",
+    "continent": "Asia",
+    "region": "Western Asia",
+    "flagAsset": "/assets/flags/ye.svg",
+    "geometryId": "ye",
+    "neighbours": [
+      "om",
+      "sa"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "zm",
+    "iso2": "zm",
+    "iso3": "ZMB",
+    "name": "Zambia",
+    "capital": "Lusaka",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/zm.svg",
+    "geometryId": "zm",
+    "neighbours": [
+      "ao",
+      "bw",
+      "cd",
+      "mw",
+      "mz",
+      "na",
+      "tz",
+      "zw"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
+  },
+  {
+    "id": "zw",
+    "iso2": "zw",
+    "iso3": "ZWE",
+    "name": "Zimbabwe",
+    "capital": "Harare",
+    "continent": "Africa",
+    "region": "Eastern Africa",
+    "flagAsset": "/assets/flags/zw.svg",
+    "geometryId": "zw",
+    "neighbours": [
+      "bw",
+      "mz",
+      "za",
+      "zm"
+    ],
+    "facts": [],
+    "active": true,
+    "source": "world-countries"
   }
 ]

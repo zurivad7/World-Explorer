@@ -34,7 +34,8 @@ export const countrySchema = z.object({
   flagAsset: z.string().min(1),
   geometryId: z.string().min(1),
   neighbours: z.array(z.string()),
-  facts: z.array(countryFactSchema).min(1),
+  // Facts are authored/reviewed and optional — most countries have none yet.
+  facts: z.array(countryFactSchema),
   active: z.boolean(),
   source: z.string().min(1),
   reviewedAt: z.string().optional(),

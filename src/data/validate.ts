@@ -80,10 +80,12 @@ export function validateContent(input: ContentInput): ValidationResult {
     seenAchievement.add(a.id);
   }
 
-  // 5. Content quality warnings.
+  // 5. Content quality warning: a country with exactly one fact is likely a
+  //    half-authored record (facts come in pairs). Zero facts is fine — most
+  //    countries are not yet enriched.
   for (const c of input.countries) {
-    if (c.facts.length < 2) {
-      warnings.push(`country ${c.id} has fewer than 2 child-friendly facts`);
+    if (c.facts.length === 1) {
+      warnings.push(`country ${c.id} has only one fact (expected 0 or 2+)`);
     }
   }
 
