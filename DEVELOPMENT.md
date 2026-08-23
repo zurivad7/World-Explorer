@@ -43,6 +43,26 @@ open questions to resolve. The product source of truth is [`docs/PRD.md`](docs/P
   and e2e (`pwa.spec.ts`: install section renders; offline banner toggles via
   `context.setOffline`).
 
+## Speed Run & Contact (post-Phase 6)
+
+- **Speed Run** (`src/features/games/speedrun`) is an extra challenge for **ages 8+**
+  (`isSpeedRunAllowed` gates the Game Hub card, the hub and the play screen; the 5–7
+  band never sees it). Three 30-second blitzes share one `SpeedRunScreen`: **Flag
+  Blitz** (see a flag, tap the country from four choices), **Find It Blitz** (tap the
+  named country on the map — targets limited to countries ≥ 50,000 km² so they are
+  findable), and **Capital Blitz** (type the capital, no options). Answer as many as
+  you can before the clock hits zero; score is the correct count.
+  - Pure, tested helpers: `answerMatch.ts` (`normalizeAnswer`/`answerMatches` —
+    accent/case/punctuation-forgiving, accepts the part before a comma so
+    "Washington" matches "Washington, D.C."), `speedRunModes.ts` (`speedRunPool`),
+    and `speedRunDeck.ts` (`shuffledDeck`, `choiceOptions`).
+  - Progress: each item updates topic + country mastery via the normal `recordAnswer`
+    path; a finished run is logged as a **Speed Run** activity (`recordGameCompleted`).
+- **Contact link** — `AppFooter` renders a footer on every screen with a "Contact Me"
+  mailto for feedback/suggestions/corrections. The address is a single constant
+  (`FEEDBACK_EMAIL` in `AppFooter.tsx`); until it is set the footer shows a neutral
+  line and no link, so a placeholder is never shipped.
+
 ## Games (Phase 4)
 
 - `QuizScreen` (`src/features/games/QuizScreen.tsx`) is a single engine-driven

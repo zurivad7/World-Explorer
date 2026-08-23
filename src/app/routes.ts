@@ -13,6 +13,9 @@ export const paths = {
   dailyChallenge: '/play/daily', // FR-015
   playCountry: (id: string) => `/play/country/${id}`, // per-country quiz
   playCountryPattern: '/play/country/:countryId',
+  speedRun: '/play/speed', // Speed Run hub (8+)
+  speedRunGame: (kind: string) => `/play/speed/${kind}`,
+  speedRunPattern: '/play/speed/:kind',
   passport: '/passport', // S08
   achievements: '/achievements', // S09
   progress: '/progress', // S10

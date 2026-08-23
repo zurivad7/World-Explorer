@@ -32,7 +32,7 @@ interface ProgressContextValue {
   recordAnswer: (question: Question, correct: boolean) => Promise<void>;
   /** Record a finished session (counter, recent activity, daily stamp). */
   recordGameCompleted: (
-    mode: GameMode | 'daily' | 'country',
+    mode: GameMode | 'daily' | 'country' | 'speedrun',
     correct: number,
     total: number
   ) => Promise<void>;
@@ -105,7 +105,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const recordGameCompleted = useCallback(
-    async (mode: GameMode | 'daily' | 'country', correct: number, total: number) => {
+    async (mode: GameMode | 'daily' | 'country' | 'speedrun', correct: number, total: number) => {
       const dailyDate = mode === 'daily' ? localDateKey() : undefined;
       const next = await persistGameCompleted(
         { mode, correct, total, at: new Date().toISOString() },
