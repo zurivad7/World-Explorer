@@ -948,6 +948,119 @@ body {
   opacity: 0.95;
 }
 
+/* Speed Run entry card — a distinct electric look. */
+.daily-card--speed {
+  background: linear-gradient(120deg, #4f46e5 0%, #06b6d4 100%);
+}
+
+.game-card--speed {
+  outline: 2px solid #06b6d4;
+  outline-offset: -2px;
+}
+
+/* Speed Run play screen. */
+.speedrun-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+  font-weight: 900;
+}
+
+.speedrun-timer {
+  font-size: 1.5rem;
+  padding: 4px 14px;
+  border-radius: 999px;
+  background: #e0f2fe;
+  color: #075985;
+}
+
+.speedrun-timer--low {
+  background: var(--color-danger-bg);
+  color: var(--color-danger);
+  animation: speedrun-pulse 1s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .speedrun-timer--low {
+    animation: none;
+  }
+}
+
+@keyframes speedrun-pulse {
+  50% {
+    transform: scale(1.08);
+  }
+}
+
+.speedrun-score {
+  font-size: 1.25rem;
+  color: var(--color-success);
+}
+
+.speedrun-intro {
+  font-size: 1.05rem;
+  margin-bottom: 18px;
+}
+
+.speedrun-typing {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.speedrun-input {
+  flex: 1;
+  min-height: var(--touch-target);
+  padding: 0 16px;
+  font-size: 1.15rem;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.speedrun-input:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 1px;
+}
+
+.speedrun-feedback {
+  margin-top: 14px;
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  font-weight: 800;
+  text-align: center;
+}
+
+.speedrun-feedback--ok {
+  background: var(--color-success-bg);
+  color: var(--color-success);
+}
+
+.speedrun-feedback--no {
+  background: var(--color-danger-bg);
+  color: var(--color-danger);
+}
+
+/* App footer with the Contact link. */
+.app-footer {
+  margin-top: auto;
+  padding: 18px calc(var(--space) + env(safe-area-inset-left, 0px))
+    calc(18px + env(safe-area-inset-bottom, 0px))
+    calc(var(--space) + env(safe-area-inset-right, 0px));
+  text-align: center;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.app-footer a {
+  color: var(--color-primary-dark);
+  font-weight: 700;
+}
+
 .map-placeholder,
 .game-placeholder {
   padding: 32px 16px;

@@ -18,6 +18,12 @@ import { SettingsScreen } from '@/features/settings/SettingsScreen';
 const QuizScreen = lazy(() =>
   import('@/features/games/QuizScreen').then((m) => ({ default: m.QuizScreen }))
 );
+const SpeedRunHubScreen = lazy(() =>
+  import('@/features/games/speedrun/SpeedRunHubScreen').then((m) => ({ default: m.SpeedRunHubScreen }))
+);
+const SpeedRunScreen = lazy(() =>
+  import('@/features/games/speedrun/SpeedRunScreen').then((m) => ({ default: m.SpeedRunScreen }))
+);
 
 /** Send first-time users through onboarding before the main app (PRD core experience §6). */
 function RequireProfile({ children }: { children: ReactNode }) {
@@ -44,6 +50,22 @@ function AppRoutes() {
         <Route path={paths.map} element={<MapScreen />} />
         <Route path={paths.countryPattern} element={<CountryDetailScreen />} />
         <Route path={paths.play} element={<GameHubScreen />} />
+        <Route
+          path={paths.speedRun}
+          element={
+            <Suspense fallback={<div className="loading">Loading…</div>}>
+              <SpeedRunHubScreen />
+            </Suspense>
+          }
+        />
+        <Route
+          path={paths.speedRunPattern}
+          element={
+            <Suspense fallback={<div className="loading">Loading…</div>}>
+              <SpeedRunScreen />
+            </Suspense>
+          }
+        />
         <Route
           path={paths.playCountryPattern}
           element={

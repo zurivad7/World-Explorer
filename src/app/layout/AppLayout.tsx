@@ -1,6 +1,7 @@
 import { Link, NavLink, Outlet } from 'react-router-dom';
 import { paths, primaryNav } from '@/app/routes';
 import { OfflineBanner } from '@/features/pwa/OfflineBanner';
+import { AppFooter } from './AppFooter';
 
 /** App shell: a header (links home) with the primary nav on top, then the routed screen. */
 export function AppLayout() {
@@ -38,6 +39,8 @@ export function AppLayout() {
       <main className="app-main" id="main-content">
         <Outlet />
       </main>
+
+      <AppFooter />
     </div>
   );
 }
