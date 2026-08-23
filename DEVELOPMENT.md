@@ -111,6 +111,21 @@ Geography content is **generated and validated at build time**, then committed:
   `docs/geography-conventions.md` and `NOTICE.md`. When changing content, edit the
   source files, run `build:content`, and commit the regenerated JSON + flags.
 
+## Visual design & accessibility
+
+- Playful, high-energy look for children: a gradient header, a vibrant "jewel-tone"
+  palette where each game and home tile has its own colour, rounded cards, soft
+  shadows and gentle hover lifts (all animation respects `prefers-reduced-motion`).
+- **Colour is never the only signal** (PRD §21, colour-blind safety):
+  - Quiz answers show a **✓ / ✗ badge** and a "Correct! / Good try!" headline with
+    an emoji, in addition to green/red — so right vs wrong is clear without colour.
+  - Nav/active and selected states use weight + a filled pill, not just colour.
+  - Card colours are decorative; every card also carries a distinct emoji + label.
+- Text is AA-contrast: dark ink on light surfaces, white on the jewel-tone cards.
+  Focus-visible rings are kept for keyboard users.
+- All styling lives in `src/styles/global.css` (design tokens in `:root`); card
+  colours are assigned by `:nth-child` so no component changes are needed.
+
 ## Decisions
 
 - **Stack** follows PRD §17: React + TypeScript + Vite, `vite-plugin-pwa`, Dexie
