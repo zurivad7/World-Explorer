@@ -96,6 +96,8 @@ export interface Country {
   demonym?: string; // what the people are called, e.g. "French"
   /** A major/notable river — authored & reviewed, present only where written. */
   notableRiver?: string;
+  /** Representative [lat, lng] point, used to pin countries too small to draw on the map. */
+  latlng?: [number, number];
   active: boolean;
   source: string;
   reviewedAt?: string; // ISO date

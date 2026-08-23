@@ -14,8 +14,9 @@ const TOPIC_LABELS: Record<Topic, string> = {
 
 const TOPICS = Object.keys(TOPIC_LABELS) as Topic[];
 
-function modeLabel(mode: GameMode | 'daily'): string {
+function modeLabel(mode: GameMode | 'daily' | 'country'): string {
   if (mode === 'daily') return 'Daily Challenge';
+  if (mode === 'country') return 'Country Quiz';
   return GAME_MODE_META.find((m) => m.mode === mode)?.title ?? mode;
 }
 

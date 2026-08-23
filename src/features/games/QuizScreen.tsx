@@ -14,6 +14,7 @@ import {
   currentQuestion,
   dailyChallengeQuestions,
   localDateKey,
+  seededShuffle,
   selectQuestions,
   sessionSummary,
   type AnswerResult,
@@ -42,16 +43,29 @@ function labelForOption(question: Question, option: string): string {
 }
 
 export function QuizScreen() {
-  const { mode } = useParams<{ mode: string }>();
+  const { mode, countryId } = useParams<{ mode: string; countryId: string }>();
   const { profile } = useProfile();
   const progress = useProgress();
   const ageBand = profile?.ageBand ?? '8-10';
 
+  // A per-country quiz (/play/country/:countryId) mixes every mode's questions
+  // for one country; otherwise mode picks a single game (or the daily challenge).
+  const country = countryId ? getCountryById(countryId) : undefined;
+  const isCountry = Boolean(countryId);
   const isDaily = mode === DAILY;
   const meta = mode && !isDaily ? getGameModeMeta(mode) : undefined;
-  const valid = isDaily || Boolean(meta);
+  const valid = isCountry ? Boolean(country) : isDaily || Boolean(meta);
 
   const buildQuestions = useCallback((): Question[] => {
+    if (isCountry) {
+      if (!country) return [];
+      // Every active question about this country, in a fresh order each play.
+      const forCountry = allQuestions.filter((q) => q.active && q.countryId === country.id);
+      return seededShuffle(forCountry, `country-${country.id}-${Date.now()}`).slice(
+        0,
+        DEFAULT_SESSION_LENGTH
+      );
+    }
     if (isDaily) return dailyChallengeQuestions(allQuestions, localDateKey(), DEFAULT_SESSION_LENGTH);
     if (!meta) return [];
     // Adaptive selection reads the player's stored mastery (persisted across sessions).
@@ -60,7 +74,7 @@ export function QuizScreen() {
       { ageBand, progress: progress.progressByKey, seed: `${mode}-${Date.now()}` },
       DEFAULT_SESSION_LENGTH
     );
-  }, [isDaily, meta, ageBand, mode, progress.progressByKey]);
+  }, [isCountry, country, isDaily, meta, ageBand, mode, progress.progressByKey]);
 
   const [session, setSession] = useState<QuizSession>(() => createSession([]));
   const [built, setBuilt] = useState(false);
@@ -79,12 +93,9 @@ export function QuizScreen() {
     if (!session.finished || session.questions.length === 0 || recordedRef.current) return;
     recordedRef.current = true;
     const summary = sessionSummary(session);
-    void progress.recordGameCompleted(
-      isDaily ? 'daily' : meta!.mode,
-      summary.correct,
-      summary.total
-    );
-  }, [session, isDaily, meta, progress]);
+    const completedMode = isCountry ? 'country' : isDaily ? 'daily' : meta!.mode;
+    void progress.recordGameCompleted(completedMode, summary.correct, summary.total);
+  }, [session, isCountry, isDaily, meta, progress]);
 
   const question = currentQuestion(session);
 
@@ -120,7 +131,15 @@ export function QuizScreen() {
     );
   }
 
-  const title = isDaily ? 'Daily Challenge' : (meta?.title ?? 'Quiz');
+  const title = isCountry
+    ? `${country?.name ?? 'Country'} Quiz`
+    : isDaily
+      ? 'Daily Challenge'
+      : (meta?.title ?? 'Quiz');
+
+  // A country quiz returns to that country's page; everything else to the Game Hub.
+  const backTo = isCountry && country ? paths.country(country.id) : paths.play;
+  const backLabel = isCountry && country ? `Back to ${country.name}` : 'Back to games';
 
   if (!built) {
     return (
@@ -134,8 +153,8 @@ export function QuizScreen() {
     return (
       <Screen title={title}>
         <p className="empty-state">No questions available yet for this game.</p>
-        <Link to={paths.play} className="button">
-          Back to games
+        <Link to={backTo} className="button">
+          {backLabel}
         </Link>
       </Screen>
     );
@@ -156,8 +175,8 @@ export function QuizScreen() {
           <button type="button" className="button button--primary" onClick={playAgain}>
             Play again
           </button>
-          <Link to={paths.play} className="button">
-            Back to games
+          <Link to={backTo} className="button">
+            {backLabel}
           </Link>
         </div>
       </Screen>

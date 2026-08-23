@@ -1,20 +1,18 @@
-import { NavLink, Outlet } from 'react-router-dom';
-import { primaryNav } from '@/app/routes';
+import { Link, NavLink, Outlet } from 'react-router-dom';
+import { paths, primaryNav } from '@/app/routes';
 
-/** App shell: a header, the routed screen, and a primary nav (PRD §21 — large touch targets). */
+/** App shell: a header (links home) with the primary nav on top, then the routed screen. */
 export function AppLayout() {
   return (
     <div className="app-shell">
       <header className="app-header">
-        <span className="app-header__logo" aria-hidden="true">
-          🌍
-        </span>
-        <span className="app-header__title">World Explorer</span>
+        <Link to={paths.home} className="app-header__brand" aria-label="World Explorer — go to Home">
+          <span className="app-header__logo" aria-hidden="true">
+            🌍
+          </span>
+          <span className="app-header__title">World Explorer</span>
+        </Link>
       </header>
-
-      <main className="app-main" id="main-content">
-        <Outlet />
-      </main>
 
       <nav className="app-nav" aria-label="Primary">
         {primaryNav.map((item) => (
@@ -33,6 +31,10 @@ export function AppLayout() {
           </NavLink>
         ))}
       </nav>
+
+      <main className="app-main" id="main-content">
+        <Outlet />
+      </main>
     </div>
   );
 }

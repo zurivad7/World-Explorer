@@ -45,6 +45,14 @@ function AppRoutes() {
         <Route path={paths.countryPattern} element={<CountryDetailScreen />} />
         <Route path={paths.play} element={<GameHubScreen />} />
         <Route
+          path={paths.playCountryPattern}
+          element={
+            <Suspense fallback={<div className="loading">Loading…</div>}>
+              <QuizScreen />
+            </Suspense>
+          }
+        />
+        <Route
           path={paths.gamePattern}
           element={
             <Suspense fallback={<div className="loading">Loading…</div>}>

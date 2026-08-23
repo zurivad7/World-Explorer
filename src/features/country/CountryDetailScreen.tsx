@@ -70,6 +70,7 @@ export function CountryDetailScreen() {
         highlightedIds={new Set([country.id])}
         ariaLabel={`Map showing where ${country.name} is`}
         className="world-map--detail"
+        {...(country.latlng ? { markerLatLng: country.latlng } : {})}
       />
 
       <dl className="detail-list">
@@ -123,7 +124,7 @@ export function CountryDetailScreen() {
         </>
       ) : null}
 
-      <Link to={paths.play} className="button button--primary">
+      <Link to={paths.playCountry(country.id)} className="button button--primary">
         Play this country
       </Link>
     </Screen>

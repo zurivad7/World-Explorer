@@ -41,6 +41,7 @@ interface WcCountry {
   currencies?: Record<string, { name: string; symbol?: string }>;
   idd?: { root?: string; suffixes?: string[] };
   demonyms?: { eng?: { m?: string; f?: string } };
+  latlng?: [number, number];
 }
 
 function firstCurrency(wc: WcCountry): Currency | undefined {
@@ -147,6 +148,10 @@ const countries: Country[] = included
     if (demonym) country.demonym = demonym;
     const river = NOTABLE_RIVERS[id];
     if (river) country.notableRiver = river;
+    // Representative point [lat, lng] — used to pin countries too small to draw.
+    if (Array.isArray(wc.latlng) && wc.latlng.length === 2) {
+      country.latlng = [wc.latlng[0]!, wc.latlng[1]!];
+    }
     // Only the hand-authored/reviewed set carries a review date.
     if (overlay) country.reviewedAt = REVIEWED_AT;
     return country;
@@ -173,7 +178,7 @@ const questions: Question[] = generateQuestions({ countries, hints, templates: F
 
 // Build country geometry (PRD §16): convert Natural Earth (via world-atlas)
 // TopoJSON to GeoJSON, keep only the slice, key each feature by geometryId.
-const topo = require('world-atlas/countries-110m.json') as Topology;
+const topo = require('world-atlas/countries-50m.json') as Topology;
 const ccn3ToId = new Map<string, string>();
 for (const c of countries) {
   const ccn3 = wcByCca2.get(c.iso2.toUpperCase())?.ccn3;
@@ -189,16 +194,19 @@ const worldFc = feature(topo, countriesObject) as unknown as FeatureCollection<G
 // consecutive longitudes within 180° of each other, so the polygon stays
 // contiguous (extending just past 180° rather than wrapping).
 type Ring = number[][];
+// Round to 2 decimals (~1 km): plenty for a world/country-zoom map, and it keeps
+// the higher-resolution 50m geometry file small enough to ship.
+const round2 = (n: number): number => Math.round(n * 100) / 100;
 function unwrapRing(ring: Ring): Ring {
   if (ring.length === 0) return ring;
   let prev = ring[0]![0]!;
   return ring.map((pt, i) => {
-    if (i === 0) return pt;
+    if (i === 0) return [round2(pt[0]!), round2(pt[1]!)];
     let lng = pt[0]!;
     while (lng - prev > 180) lng -= 360;
     while (prev - lng > 180) lng += 360;
     prev = lng;
-    return [lng, pt[1]!];
+    return [round2(lng), round2(pt[1]!)];
   });
 }
 function unwrapGeometry(geom: Geometry): Geometry {
@@ -269,7 +277,7 @@ console.log(
 );
 if (withoutGeometry.length > 0) {
   console.log(
-    `  ${withoutGeometry.length} countries in the dataset but not on the map (no 110m geometry): ${withoutGeometry
+    `  ${withoutGeometry.length} countries in the dataset shown by map pin (no 50m polygon): ${withoutGeometry
       .map((c) => c.id)
       .join(', ')}`
   );

@@ -33,7 +33,11 @@
       "symbol": "؋"
     },
     "callingCode": "+93",
-    "demonym": "Afghan"
+    "demonym": "Afghan",
+    "latlng": [
+      33,
+      65
+    ]
   },
   {
     "id": "al",
@@ -64,7 +68,11 @@
       "symbol": "L"
     },
     "callingCode": "+355",
-    "demonym": "Albanian"
+    "demonym": "Albanian",
+    "latlng": [
+      41,
+      20
+    ]
   },
   {
     "id": "dz",
@@ -98,7 +106,11 @@
       "symbol": "د.ج"
     },
     "callingCode": "+213",
-    "demonym": "Algerian"
+    "demonym": "Algerian",
+    "latlng": [
+      28,
+      3
+    ]
   },
   {
     "id": "ad",
@@ -128,7 +140,11 @@
       "symbol": "€"
     },
     "callingCode": "+376",
-    "demonym": "Andorran"
+    "demonym": "Andorran",
+    "latlng": [
+      42.5,
+      1.5
+    ]
   },
   {
     "id": "ao",
@@ -160,7 +176,11 @@
       "symbol": "Kz"
     },
     "callingCode": "+244",
-    "demonym": "Angolan"
+    "demonym": "Angolan",
+    "latlng": [
+      -12.5,
+      18.5
+    ]
   },
   {
     "id": "ag",
@@ -187,7 +207,11 @@
       "symbol": "$"
     },
     "callingCode": "+1268",
-    "demonym": "Antiguan, Barbudan"
+    "demonym": "Antiguan, Barbudan",
+    "latlng": [
+      17.05,
+      -61.8
+    ]
   },
   {
     "id": "ar",
@@ -232,6 +256,10 @@
     "callingCode": "+54",
     "demonym": "Argentine",
     "notableRiver": "Paraná",
+    "latlng": [
+      -34,
+      -64
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -264,7 +292,11 @@
       "symbol": "֏"
     },
     "callingCode": "+374",
-    "demonym": "Armenian"
+    "demonym": "Armenian",
+    "latlng": [
+      40,
+      45
+    ]
   },
   {
     "id": "au",
@@ -302,6 +334,10 @@
     "callingCode": "+61",
     "demonym": "Australian",
     "notableRiver": "Murray",
+    "latlng": [
+      -27,
+      133
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -338,7 +374,11 @@
       "symbol": "€"
     },
     "callingCode": "+43",
-    "demonym": "Austrian"
+    "demonym": "Austrian",
+    "latlng": [
+      47.33333333,
+      13.33333333
+    ]
   },
   {
     "id": "az",
@@ -372,7 +412,11 @@
       "symbol": "₼"
     },
     "callingCode": "+994",
-    "demonym": "Azerbaijani"
+    "demonym": "Azerbaijani",
+    "latlng": [
+      40.5,
+      47.5
+    ]
   },
   {
     "id": "bs",
@@ -399,7 +443,11 @@
       "symbol": "$"
     },
     "callingCode": "+1242",
-    "demonym": "Bahamian"
+    "demonym": "Bahamian",
+    "latlng": [
+      24.25,
+      -76
+    ]
   },
   {
     "id": "bh",
@@ -426,7 +474,11 @@
       "symbol": ".د.ب"
     },
     "callingCode": "+973",
-    "demonym": "Bahraini"
+    "demonym": "Bahraini",
+    "latlng": [
+      26,
+      50.55
+    ]
   },
   {
     "id": "bd",
@@ -456,7 +508,11 @@
       "symbol": "৳"
     },
     "callingCode": "+880",
-    "demonym": "Bangladeshi"
+    "demonym": "Bangladeshi",
+    "latlng": [
+      24,
+      90
+    ]
   },
   {
     "id": "bb",
@@ -483,7 +539,11 @@
       "symbol": "$"
     },
     "callingCode": "+1246",
-    "demonym": "Barbadian"
+    "demonym": "Barbadian",
+    "latlng": [
+      13.16666666,
+      -59.53333333
+    ]
   },
   {
     "id": "by",
@@ -517,7 +577,11 @@
       "symbol": "Br"
     },
     "callingCode": "+375",
-    "demonym": "Belarusian"
+    "demonym": "Belarusian",
+    "latlng": [
+      53,
+      28
+    ]
   },
   {
     "id": "be",
@@ -551,7 +615,11 @@
       "symbol": "€"
     },
     "callingCode": "+32",
-    "demonym": "Belgian"
+    "demonym": "Belgian",
+    "latlng": [
+      50.83333333,
+      4
+    ]
   },
   {
     "id": "bz",
@@ -583,7 +651,11 @@
       "symbol": "$"
     },
     "callingCode": "+501",
-    "demonym": "Belizean"
+    "demonym": "Belizean",
+    "latlng": [
+      17.25,
+      -88.75
+    ]
   },
   {
     "id": "bj",
@@ -615,7 +687,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+229",
-    "demonym": "Beninese"
+    "demonym": "Beninese",
+    "latlng": [
+      9.5,
+      2.25
+    ]
   },
   {
     "id": "bt",
@@ -645,7 +721,11 @@
       "symbol": "Nu."
     },
     "callingCode": "+975",
-    "demonym": "Bhutanese"
+    "demonym": "Bhutanese",
+    "latlng": [
+      27.5,
+      90.5
+    ]
   },
   {
     "id": "bo",
@@ -681,7 +761,11 @@
       "symbol": "Bs."
     },
     "callingCode": "+591",
-    "demonym": "Bolivian"
+    "demonym": "Bolivian",
+    "latlng": [
+      -17,
+      -65
+    ]
   },
   {
     "id": "ba",
@@ -714,7 +798,11 @@
       "symbol": "KM"
     },
     "callingCode": "+387",
-    "demonym": "Bosnian, Herzegovinian"
+    "demonym": "Bosnian, Herzegovinian",
+    "latlng": [
+      44,
+      18
+    ]
   },
   {
     "id": "bw",
@@ -747,7 +835,11 @@
       "symbol": "P"
     },
     "callingCode": "+267",
-    "demonym": "Motswana"
+    "demonym": "Motswana",
+    "latlng": [
+      -22,
+      24
+    ]
   },
   {
     "id": "br",
@@ -795,6 +887,10 @@
     "callingCode": "+55",
     "demonym": "Brazilian",
     "notableRiver": "Amazon",
+    "latlng": [
+      -10,
+      -55
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -824,7 +920,11 @@
       "symbol": "$"
     },
     "callingCode": "+673",
-    "demonym": "Bruneian"
+    "demonym": "Bruneian",
+    "latlng": [
+      4.5,
+      114.66666666
+    ]
   },
   {
     "id": "bg",
@@ -857,7 +957,11 @@
       "symbol": "лв"
     },
     "callingCode": "+359",
-    "demonym": "Bulgarian"
+    "demonym": "Bulgarian",
+    "latlng": [
+      43,
+      25
+    ]
   },
   {
     "id": "bf",
@@ -891,7 +995,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+226",
-    "demonym": "Burkinabe"
+    "demonym": "Burkinabe",
+    "latlng": [
+      13,
+      -2
+    ]
   },
   {
     "id": "bi",
@@ -923,7 +1031,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+257",
-    "demonym": "Burundian"
+    "demonym": "Burundian",
+    "latlng": [
+      -3.5,
+      30
+    ]
   },
   {
     "id": "kh",
@@ -954,7 +1066,11 @@
       "symbol": "៛"
     },
     "callingCode": "+855",
-    "demonym": "Cambodian"
+    "demonym": "Cambodian",
+    "latlng": [
+      13,
+      105
+    ]
   },
   {
     "id": "cm",
@@ -989,7 +1105,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+237",
-    "demonym": "Cameroonian"
+    "demonym": "Cameroonian",
+    "latlng": [
+      6,
+      12
+    ]
   },
   {
     "id": "ca",
@@ -1030,6 +1150,10 @@
     "callingCode": "+1",
     "demonym": "Canadian",
     "notableRiver": "Mackenzie",
+    "latlng": [
+      60,
+      -95
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1057,7 +1181,11 @@
       "symbol": "Esc"
     },
     "callingCode": "+238",
-    "demonym": "Cape Verdian"
+    "demonym": "Cape Verdian",
+    "latlng": [
+      16,
+      -24
+    ]
   },
   {
     "id": "cf",
@@ -1092,7 +1220,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+236",
-    "demonym": "Central African"
+    "demonym": "Central African",
+    "latlng": [
+      7,
+      21
+    ]
   },
   {
     "id": "td",
@@ -1127,7 +1259,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+235",
-    "demonym": "Chadian"
+    "demonym": "Chadian",
+    "latlng": [
+      15,
+      19
+    ]
   },
   {
     "id": "cl",
@@ -1169,6 +1305,10 @@
     "callingCode": "+56",
     "demonym": "Chilean",
     "notableRiver": "Loa",
+    "latlng": [
+      -30,
+      -71
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1222,6 +1362,10 @@
     "callingCode": "+86",
     "demonym": "Chinese",
     "notableRiver": "Yangtze",
+    "latlng": [
+      35,
+      105
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1266,6 +1410,10 @@
     "callingCode": "+57",
     "demonym": "Colombian",
     "notableRiver": "Magdalena",
+    "latlng": [
+      4,
+      -72
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1295,7 +1443,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+269",
-    "demonym": "Comoran"
+    "demonym": "Comoran",
+    "latlng": [
+      -12.16666666,
+      44.25
+    ]
   },
   {
     "id": "cr",
@@ -1335,6 +1487,10 @@
     },
     "callingCode": "+506",
     "demonym": "Costa Rican",
+    "latlng": [
+      10,
+      -84
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1368,7 +1524,11 @@
       "symbol": "€"
     },
     "callingCode": "+385",
-    "demonym": "Croatian"
+    "demonym": "Croatian",
+    "latlng": [
+      45.16666666,
+      15.5
+    ]
   },
   {
     "id": "cu",
@@ -1406,6 +1566,10 @@
     "callingCode": "+53",
     "demonym": "Cuban",
     "notableRiver": "Cauto",
+    "latlng": [
+      21.5,
+      -80
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1434,7 +1598,11 @@
       "symbol": "€"
     },
     "callingCode": "+357",
-    "demonym": "Cypriot"
+    "demonym": "Cypriot",
+    "latlng": [
+      35,
+      33
+    ]
   },
   {
     "id": "cz",
@@ -1467,7 +1635,11 @@
       "symbol": "Kč"
     },
     "callingCode": "+420",
-    "demonym": "Czech"
+    "demonym": "Czech",
+    "latlng": [
+      49.75,
+      15.5
+    ]
   },
   {
     "id": "dk",
@@ -1496,7 +1668,11 @@
       "symbol": "kr"
     },
     "callingCode": "+45",
-    "demonym": "Danish"
+    "demonym": "Danish",
+    "latlng": [
+      56,
+      10
+    ]
   },
   {
     "id": "dj",
@@ -1528,7 +1704,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+253",
-    "demonym": "Djibouti"
+    "demonym": "Djibouti",
+    "latlng": [
+      11.5,
+      43
+    ]
   },
   {
     "id": "dm",
@@ -1555,7 +1735,11 @@
       "symbol": "$"
     },
     "callingCode": "+1767",
-    "demonym": "Dominican"
+    "demonym": "Dominican",
+    "latlng": [
+      15.41666666,
+      -61.33333333
+    ]
   },
   {
     "id": "do",
@@ -1584,7 +1768,11 @@
       "symbol": "$"
     },
     "callingCode": "+1",
-    "demonym": "Dominican"
+    "demonym": "Dominican",
+    "latlng": [
+      19,
+      -70.66666666
+    ]
   },
   {
     "id": "cd",
@@ -1625,7 +1813,11 @@
       "symbol": "FC"
     },
     "callingCode": "+243",
-    "demonym": "Congolese"
+    "demonym": "Congolese",
+    "latlng": [
+      0,
+      25
+    ]
   },
   {
     "id": "ec",
@@ -1655,7 +1847,11 @@
       "symbol": "$"
     },
     "callingCode": "+593",
-    "demonym": "Ecuadorean"
+    "demonym": "Ecuadorean",
+    "latlng": [
+      -2,
+      -77.5
+    ]
   },
   {
     "id": "eg",
@@ -1697,6 +1893,10 @@
     "callingCode": "+20",
     "demonym": "Egyptian",
     "notableRiver": "Nile",
+    "latlng": [
+      27,
+      30
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1727,7 +1927,11 @@
       "symbol": "$"
     },
     "callingCode": "+503",
-    "demonym": "Salvadoran"
+    "demonym": "Salvadoran",
+    "latlng": [
+      13.83333333,
+      -88.91666666
+    ]
   },
   {
     "id": "gq",
@@ -1759,7 +1963,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+240",
-    "demonym": "Equatorial Guinean"
+    "demonym": "Equatorial Guinean",
+    "latlng": [
+      2,
+      10
+    ]
   },
   {
     "id": "er",
@@ -1792,7 +2000,11 @@
       "symbol": "Nfk"
     },
     "callingCode": "+291",
-    "demonym": "Eritrean"
+    "demonym": "Eritrean",
+    "latlng": [
+      15,
+      39
+    ]
   },
   {
     "id": "ee",
@@ -1822,7 +2034,11 @@
       "symbol": "€"
     },
     "callingCode": "+372",
-    "demonym": "Estonian"
+    "demonym": "Estonian",
+    "latlng": [
+      59,
+      26
+    ]
   },
   {
     "id": "sz",
@@ -1853,7 +2069,11 @@
       "symbol": "L"
     },
     "callingCode": "+268",
-    "demonym": "Swazi"
+    "demonym": "Swazi",
+    "latlng": [
+      -26.5,
+      31.5
+    ]
   },
   {
     "id": "et",
@@ -1898,6 +2118,10 @@
     "callingCode": "+251",
     "demonym": "Ethiopian",
     "notableRiver": "Blue Nile",
+    "latlng": [
+      8,
+      38
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1938,6 +2162,10 @@
     "callingCode": "+679",
     "demonym": "Fijian",
     "notableRiver": "Rewa",
+    "latlng": [
+      -18,
+      175
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1970,7 +2198,11 @@
       "symbol": "€"
     },
     "callingCode": "+358",
-    "demonym": "Finnish"
+    "demonym": "Finnish",
+    "latlng": [
+      64,
+      26
+    ]
   },
   {
     "id": "fr",
@@ -2017,6 +2249,10 @@
     "callingCode": "+33",
     "demonym": "French",
     "notableRiver": "Loire",
+    "latlng": [
+      46,
+      2
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2048,7 +2284,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+241",
-    "demonym": "Gabonese"
+    "demonym": "Gabonese",
+    "latlng": [
+      -1,
+      11.75
+    ]
   },
   {
     "id": "gm",
@@ -2077,7 +2317,11 @@
       "symbol": "D"
     },
     "callingCode": "+220",
-    "demonym": "Gambian"
+    "demonym": "Gambian",
+    "latlng": [
+      13.46666666,
+      -16.56666666
+    ]
   },
   {
     "id": "ge",
@@ -2109,7 +2353,11 @@
       "symbol": "₾"
     },
     "callingCode": "+995",
-    "demonym": "Georgian"
+    "demonym": "Georgian",
+    "latlng": [
+      42,
+      43.5
+    ]
   },
   {
     "id": "de",
@@ -2157,6 +2405,10 @@
     "callingCode": "+49",
     "demonym": "German",
     "notableRiver": "Rhine",
+    "latlng": [
+      51,
+      9
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2199,6 +2451,10 @@
     "callingCode": "+233",
     "demonym": "Ghanaian",
     "notableRiver": "Volta",
+    "latlng": [
+      8,
+      -2
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2242,6 +2498,10 @@
     "callingCode": "+30",
     "demonym": "Greek",
     "notableRiver": "Aliakmon",
+    "latlng": [
+      39,
+      22
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2269,7 +2529,11 @@
       "symbol": "$"
     },
     "callingCode": "+1473",
-    "demonym": "Grenadian"
+    "demonym": "Grenadian",
+    "latlng": [
+      12.11666666,
+      -61.66666666
+    ]
   },
   {
     "id": "gt",
@@ -2312,6 +2576,10 @@
     "callingCode": "+502",
     "demonym": "Guatemalan",
     "notableRiver": "Motagua",
+    "latlng": [
+      15.5,
+      -90.25
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2346,7 +2614,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+224",
-    "demonym": "Guinean"
+    "demonym": "Guinean",
+    "latlng": [
+      11,
+      -10
+    ]
   },
   {
     "id": "gw",
@@ -2377,7 +2649,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+245",
-    "demonym": "Guinea-Bissauan"
+    "demonym": "Guinea-Bissauan",
+    "latlng": [
+      12,
+      -15
+    ]
   },
   {
     "id": "gy",
@@ -2408,7 +2684,11 @@
       "symbol": "$"
     },
     "callingCode": "+592",
-    "demonym": "Guyanese"
+    "demonym": "Guyanese",
+    "latlng": [
+      5,
+      -59
+    ]
   },
   {
     "id": "ht",
@@ -2438,7 +2718,11 @@
       "symbol": "G"
     },
     "callingCode": "+509",
-    "demonym": "Haitian"
+    "demonym": "Haitian",
+    "latlng": [
+      19,
+      -72.41666666
+    ]
   },
   {
     "id": "hn",
@@ -2469,7 +2753,11 @@
       "symbol": "L"
     },
     "callingCode": "+504",
-    "demonym": "Honduran"
+    "demonym": "Honduran",
+    "latlng": [
+      15,
+      -86.5
+    ]
   },
   {
     "id": "hu",
@@ -2504,7 +2792,11 @@
       "symbol": "Ft"
     },
     "callingCode": "+36",
-    "demonym": "Hungarian"
+    "demonym": "Hungarian",
+    "latlng": [
+      47,
+      20
+    ]
   },
   {
     "id": "is",
@@ -2531,7 +2823,11 @@
       "symbol": "kr"
     },
     "callingCode": "+354",
-    "demonym": "Icelander"
+    "demonym": "Icelander",
+    "latlng": [
+      65,
+      -18
+    ]
   },
   {
     "id": "in",
@@ -2578,6 +2874,10 @@
     "callingCode": "+91",
     "demonym": "Indian",
     "notableRiver": "Ganges",
+    "latlng": [
+      20,
+      77
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2620,6 +2920,10 @@
     "callingCode": "+62",
     "demonym": "Indonesian",
     "notableRiver": "Kapuas",
+    "latlng": [
+      -5,
+      120
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2655,7 +2959,11 @@
       "symbol": "﷼"
     },
     "callingCode": "+98",
-    "demonym": "Iranian"
+    "demonym": "Iranian",
+    "latlng": [
+      32,
+      53
+    ]
   },
   {
     "id": "iq",
@@ -2691,7 +2999,11 @@
       "symbol": "ع.د"
     },
     "callingCode": "+964",
-    "demonym": "Iraqi"
+    "demonym": "Iraqi",
+    "latlng": [
+      33,
+      44
+    ]
   },
   {
     "id": "ie",
@@ -2732,6 +3044,10 @@
     "callingCode": "+353",
     "demonym": "Irish",
     "notableRiver": "Shannon",
+    "latlng": [
+      53,
+      -8
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2776,6 +3092,10 @@
     "callingCode": "+972",
     "demonym": "Israeli",
     "notableRiver": "Jordan",
+    "latlng": [
+      31.47,
+      35.13
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2821,6 +3141,10 @@
     "callingCode": "+39",
     "demonym": "Italian",
     "notableRiver": "Po",
+    "latlng": [
+      42.83333333,
+      12.83333333
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2854,7 +3178,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+225",
-    "demonym": "Ivorian"
+    "demonym": "Ivorian",
+    "latlng": [
+      8,
+      -5
+    ]
   },
   {
     "id": "jm",
@@ -2893,6 +3221,10 @@
     "callingCode": "+1876",
     "demonym": "Jamaican",
     "notableRiver": "Rio Minho",
+    "latlng": [
+      18.25,
+      -77.5
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2931,6 +3263,10 @@
     "callingCode": "+81",
     "demonym": "Japanese",
     "notableRiver": "Shinano",
+    "latlng": [
+      36,
+      138
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2963,7 +3299,11 @@
       "symbol": "د.ا"
     },
     "callingCode": "+962",
-    "demonym": "Jordanian"
+    "demonym": "Jordanian",
+    "latlng": [
+      31,
+      36
+    ]
   },
   {
     "id": "kz",
@@ -3008,6 +3348,10 @@
     "callingCode": "+7",
     "demonym": "Kazakhstani",
     "notableRiver": "Irtysh",
+    "latlng": [
+      48,
+      68
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -3053,6 +3397,10 @@
     "callingCode": "+254",
     "demonym": "Kenyan",
     "notableRiver": "Tana",
+    "latlng": [
+      1,
+      38
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -3081,7 +3429,11 @@
       "symbol": "$"
     },
     "callingCode": "+686",
-    "demonym": "I-Kiribati"
+    "demonym": "I-Kiribati",
+    "latlng": [
+      1.41666666,
+      173
+    ]
   },
   {
     "id": "kw",
@@ -3111,7 +3463,11 @@
       "symbol": "د.ك"
     },
     "callingCode": "+965",
-    "demonym": "Kuwaiti"
+    "demonym": "Kuwaiti",
+    "latlng": [
+      29.5,
+      45.75
+    ]
   },
   {
     "id": "kg",
@@ -3144,7 +3500,11 @@
       "symbol": "с"
     },
     "callingCode": "+996",
-    "demonym": "Kirghiz"
+    "demonym": "Kirghiz",
+    "latlng": [
+      41,
+      75
+    ]
   },
   {
     "id": "la",
@@ -3177,7 +3537,11 @@
       "symbol": "₭"
     },
     "callingCode": "+856",
-    "demonym": "Laotian"
+    "demonym": "Laotian",
+    "latlng": [
+      18,
+      105
+    ]
   },
   {
     "id": "lv",
@@ -3209,7 +3573,11 @@
       "symbol": "€"
     },
     "callingCode": "+371",
-    "demonym": "Latvian"
+    "demonym": "Latvian",
+    "latlng": [
+      57,
+      25
+    ]
   },
   {
     "id": "lb",
@@ -3240,7 +3608,11 @@
       "symbol": "ل.ل"
     },
     "callingCode": "+961",
-    "demonym": "Lebanese"
+    "demonym": "Lebanese",
+    "latlng": [
+      33.83333333,
+      35.83333333
+    ]
   },
   {
     "id": "ls",
@@ -3270,7 +3642,11 @@
       "symbol": "L"
     },
     "callingCode": "+266",
-    "demonym": "Mosotho"
+    "demonym": "Mosotho",
+    "latlng": [
+      -29.5,
+      28.5
+    ]
   },
   {
     "id": "lr",
@@ -3301,7 +3677,11 @@
       "symbol": "$"
     },
     "callingCode": "+231",
-    "demonym": "Liberian"
+    "demonym": "Liberian",
+    "latlng": [
+      6.5,
+      -9.5
+    ]
   },
   {
     "id": "ly",
@@ -3335,7 +3715,11 @@
       "symbol": "ل.د"
     },
     "callingCode": "+218",
-    "demonym": "Libyan"
+    "demonym": "Libyan",
+    "latlng": [
+      25,
+      17
+    ]
   },
   {
     "id": "li",
@@ -3365,7 +3749,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+423",
-    "demonym": "Liechtensteiner"
+    "demonym": "Liechtensteiner",
+    "latlng": [
+      47.26666666,
+      9.53333333
+    ]
   },
   {
     "id": "lt",
@@ -3397,7 +3785,11 @@
       "symbol": "€"
     },
     "callingCode": "+370",
-    "demonym": "Lithuanian"
+    "demonym": "Lithuanian",
+    "latlng": [
+      56,
+      24
+    ]
   },
   {
     "id": "lu",
@@ -3430,7 +3822,11 @@
       "symbol": "€"
     },
     "callingCode": "+352",
-    "demonym": "Luxembourger"
+    "demonym": "Luxembourger",
+    "latlng": [
+      49.75,
+      6.16666666
+    ]
   },
   {
     "id": "mg",
@@ -3458,7 +3854,11 @@
       "symbol": "Ar"
     },
     "callingCode": "+261",
-    "demonym": "Malagasy"
+    "demonym": "Malagasy",
+    "latlng": [
+      -20,
+      47
+    ]
   },
   {
     "id": "mw",
@@ -3490,7 +3890,11 @@
       "symbol": "MK"
     },
     "callingCode": "+265",
-    "demonym": "Malawian"
+    "demonym": "Malawian",
+    "latlng": [
+      -13.5,
+      34
+    ]
   },
   {
     "id": "my",
@@ -3522,7 +3926,11 @@
       "symbol": "RM"
     },
     "callingCode": "+60",
-    "demonym": "Malaysian"
+    "demonym": "Malaysian",
+    "latlng": [
+      2.5,
+      112.5
+    ]
   },
   {
     "id": "mv",
@@ -3549,7 +3957,11 @@
       "symbol": ".ރ"
     },
     "callingCode": "+960",
-    "demonym": "Maldivan"
+    "demonym": "Maldivan",
+    "latlng": [
+      3.25,
+      73
+    ]
   },
   {
     "id": "ml",
@@ -3595,6 +4007,10 @@
     "callingCode": "+223",
     "demonym": "Malian",
     "notableRiver": "Niger",
+    "latlng": [
+      17,
+      -4
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -3623,7 +4039,11 @@
       "symbol": "€"
     },
     "callingCode": "+356",
-    "demonym": "Maltese"
+    "demonym": "Maltese",
+    "latlng": [
+      35.83333333,
+      14.58333333
+    ]
   },
   {
     "id": "mh",
@@ -3651,7 +4071,11 @@
       "symbol": "$"
     },
     "callingCode": "+692",
-    "demonym": "Marshallese"
+    "demonym": "Marshallese",
+    "latlng": [
+      9,
+      168
+    ]
   },
   {
     "id": "mr",
@@ -3682,7 +4106,11 @@
       "symbol": "UM"
     },
     "callingCode": "+222",
-    "demonym": "Mauritanian"
+    "demonym": "Mauritanian",
+    "latlng": [
+      20,
+      -12
+    ]
   },
   {
     "id": "mu",
@@ -3711,7 +4139,11 @@
       "symbol": "₨"
     },
     "callingCode": "+230",
-    "demonym": "Mauritian"
+    "demonym": "Mauritian",
+    "latlng": [
+      -20.28333333,
+      57.55
+    ]
   },
   {
     "id": "mx",
@@ -3753,6 +4185,10 @@
     "callingCode": "+52",
     "demonym": "Mexican",
     "notableRiver": "Rio Grande",
+    "latlng": [
+      23,
+      -102
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -3775,7 +4211,11 @@
     "active": true,
     "source": "world-countries",
     "callingCode": "+691",
-    "demonym": "Micronesian"
+    "demonym": "Micronesian",
+    "latlng": [
+      6.91666666,
+      158.25
+    ]
   },
   {
     "id": "md",
@@ -3805,7 +4245,11 @@
       "symbol": "L"
     },
     "callingCode": "+373",
-    "demonym": "Moldovan"
+    "demonym": "Moldovan",
+    "latlng": [
+      47,
+      29
+    ]
   },
   {
     "id": "mc",
@@ -3834,7 +4278,11 @@
       "symbol": "€"
     },
     "callingCode": "+377",
-    "demonym": "Monegasque"
+    "demonym": "Monegasque",
+    "latlng": [
+      43.73333333,
+      7.4
+    ]
   },
   {
     "id": "mn",
@@ -3864,7 +4312,11 @@
       "symbol": "₮"
     },
     "callingCode": "+976",
-    "demonym": "Mongolian"
+    "demonym": "Mongolian",
+    "latlng": [
+      46,
+      105
+    ]
   },
   {
     "id": "me",
@@ -3896,7 +4348,11 @@
       "symbol": "€"
     },
     "callingCode": "+382",
-    "demonym": "Montenegrin"
+    "demonym": "Montenegrin",
+    "latlng": [
+      42.5,
+      19.3
+    ]
   },
   {
     "id": "ma",
@@ -3938,6 +4394,10 @@
     "callingCode": "+212",
     "demonym": "Moroccan",
     "notableRiver": "Draa",
+    "latlng": [
+      32,
+      -5
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -3972,7 +4432,11 @@
       "symbol": "MT"
     },
     "callingCode": "+258",
-    "demonym": "Mozambican"
+    "demonym": "Mozambican",
+    "latlng": [
+      -18.25,
+      35
+    ]
   },
   {
     "id": "mm",
@@ -4005,7 +4469,11 @@
       "symbol": "Ks"
     },
     "callingCode": "+95",
-    "demonym": "Burmese"
+    "demonym": "Burmese",
+    "latlng": [
+      22,
+      98
+    ]
   },
   {
     "id": "na",
@@ -4045,7 +4513,11 @@
       "symbol": "$"
     },
     "callingCode": "+264",
-    "demonym": "Namibian"
+    "demonym": "Namibian",
+    "latlng": [
+      -22,
+      17
+    ]
   },
   {
     "id": "nr",
@@ -4073,7 +4545,11 @@
       "symbol": "$"
     },
     "callingCode": "+674",
-    "demonym": "Nauruan"
+    "demonym": "Nauruan",
+    "latlng": [
+      -0.53333333,
+      166.91666666
+    ]
   },
   {
     "id": "np",
@@ -4103,7 +4579,11 @@
       "symbol": "₨"
     },
     "callingCode": "+977",
-    "demonym": "Nepalese"
+    "demonym": "Nepalese",
+    "latlng": [
+      28,
+      84
+    ]
   },
   {
     "id": "nl",
@@ -4144,6 +4624,10 @@
     "callingCode": "+31",
     "demonym": "Dutch",
     "notableRiver": "Rhine",
+    "latlng": [
+      52.5,
+      5.75
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -4184,6 +4668,10 @@
     "callingCode": "+64",
     "demonym": "New Zealander",
     "notableRiver": "Waikato",
+    "latlng": [
+      -41,
+      174
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -4214,7 +4702,11 @@
       "symbol": "C$"
     },
     "callingCode": "+505",
-    "demonym": "Nicaraguan"
+    "demonym": "Nicaraguan",
+    "latlng": [
+      13,
+      -85
+    ]
   },
   {
     "id": "ne",
@@ -4249,7 +4741,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+227",
-    "demonym": "Nigerien"
+    "demonym": "Nigerien",
+    "latlng": [
+      16,
+      8
+    ]
   },
   {
     "id": "ng",
@@ -4292,6 +4788,10 @@
     "callingCode": "+234",
     "demonym": "Nigerian",
     "notableRiver": "Niger",
+    "latlng": [
+      10,
+      8
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -4323,7 +4823,11 @@
       "symbol": "₩"
     },
     "callingCode": "+850",
-    "demonym": "North Korean"
+    "demonym": "North Korean",
+    "latlng": [
+      40,
+      127
+    ]
   },
   {
     "id": "mk",
@@ -4355,7 +4859,11 @@
       "symbol": "den"
     },
     "callingCode": "+389",
-    "demonym": "Macedonian"
+    "demonym": "Macedonian",
+    "latlng": [
+      41.83333333,
+      22
+    ]
   },
   {
     "id": "no",
@@ -4399,6 +4907,10 @@
     "callingCode": "+47",
     "demonym": "Norwegian",
     "notableRiver": "Glomma",
+    "latlng": [
+      62,
+      10
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -4430,7 +4942,11 @@
       "symbol": "ر.ع."
     },
     "callingCode": "+968",
-    "demonym": "Omani"
+    "demonym": "Omani",
+    "latlng": [
+      21,
+      57
+    ]
   },
   {
     "id": "pk",
@@ -4463,7 +4979,11 @@
       "symbol": "₨"
     },
     "callingCode": "+92",
-    "demonym": "Pakistani"
+    "demonym": "Pakistani",
+    "latlng": [
+      30,
+      70
+    ]
   },
   {
     "id": "pw",
@@ -4491,7 +5011,11 @@
       "symbol": "$"
     },
     "callingCode": "+680",
-    "demonym": "Palauan"
+    "demonym": "Palauan",
+    "latlng": [
+      7.5,
+      134.5
+    ]
   },
   {
     "id": "pa",
@@ -4521,7 +5045,11 @@
       "symbol": "B/."
     },
     "callingCode": "+507",
-    "demonym": "Panamanian"
+    "demonym": "Panamanian",
+    "latlng": [
+      9,
+      -80
+    ]
   },
   {
     "id": "pg",
@@ -4563,6 +5091,10 @@
     "callingCode": "+675",
     "demonym": "Papua New Guinean",
     "notableRiver": "Sepik",
+    "latlng": [
+      -6,
+      147
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -4595,7 +5127,11 @@
       "symbol": "₲"
     },
     "callingCode": "+595",
-    "demonym": "Paraguayan"
+    "demonym": "Paraguayan",
+    "latlng": [
+      -23,
+      -58
+    ]
   },
   {
     "id": "pe",
@@ -4641,6 +5177,10 @@
     "callingCode": "+51",
     "demonym": "Peruvian",
     "notableRiver": "Amazon",
+    "latlng": [
+      -10,
+      -76
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -4669,7 +5209,11 @@
       "symbol": "₱"
     },
     "callingCode": "+63",
-    "demonym": "Filipino"
+    "demonym": "Filipino",
+    "latlng": [
+      13,
+      122
+    ]
   },
   {
     "id": "pl",
@@ -4715,6 +5259,10 @@
     "callingCode": "+48",
     "demonym": "Polish",
     "notableRiver": "Vistula",
+    "latlng": [
+      52,
+      20
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -4744,7 +5292,11 @@
       "symbol": "€"
     },
     "callingCode": "+351",
-    "demonym": "Portuguese"
+    "demonym": "Portuguese",
+    "latlng": [
+      39.5,
+      -8
+    ]
   },
   {
     "id": "qa",
@@ -4773,7 +5325,11 @@
       "symbol": "ر.ق"
     },
     "callingCode": "+974",
-    "demonym": "Qatari"
+    "demonym": "Qatari",
+    "latlng": [
+      25.5,
+      51.25
+    ]
   },
   {
     "id": "cg",
@@ -4808,7 +5364,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+242",
-    "demonym": "Congolese"
+    "demonym": "Congolese",
+    "latlng": [
+      -1,
+      15
+    ]
   },
   {
     "id": "ro",
@@ -4841,7 +5401,11 @@
       "symbol": "lei"
     },
     "callingCode": "+40",
-    "demonym": "Romanian"
+    "demonym": "Romanian",
+    "latlng": [
+      46,
+      25
+    ]
   },
   {
     "id": "ru",
@@ -4894,6 +5458,10 @@
     "callingCode": "+7",
     "demonym": "Russian",
     "notableRiver": "Volga",
+    "latlng": [
+      60,
+      100
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -4928,7 +5496,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+250",
-    "demonym": "Rwandan"
+    "demonym": "Rwandan",
+    "latlng": [
+      -2,
+      30
+    ]
   },
   {
     "id": "kn",
@@ -4955,7 +5527,11 @@
       "symbol": "$"
     },
     "callingCode": "+1869",
-    "demonym": "Kittitian or Nevisian"
+    "demonym": "Kittitian or Nevisian",
+    "latlng": [
+      17.33333333,
+      -62.75
+    ]
   },
   {
     "id": "lc",
@@ -4982,7 +5558,11 @@
       "symbol": "$"
     },
     "callingCode": "+1758",
-    "demonym": "Saint Lucian"
+    "demonym": "Saint Lucian",
+    "latlng": [
+      13.88333333,
+      -60.96666666
+    ]
   },
   {
     "id": "vc",
@@ -5009,7 +5589,11 @@
       "symbol": "$"
     },
     "callingCode": "+1784",
-    "demonym": "Saint Vincentian"
+    "demonym": "Saint Vincentian",
+    "latlng": [
+      13.25,
+      -61.2
+    ]
   },
   {
     "id": "ws",
@@ -5037,7 +5621,11 @@
       "symbol": "T"
     },
     "callingCode": "+685",
-    "demonym": "Samoan"
+    "demonym": "Samoan",
+    "latlng": [
+      -13.58333333,
+      -172.33333333
+    ]
   },
   {
     "id": "sm",
@@ -5066,7 +5654,11 @@
       "symbol": "€"
     },
     "callingCode": "+378",
-    "demonym": "Sammarinese"
+    "demonym": "Sammarinese",
+    "latlng": [
+      43.76666666,
+      12.41666666
+    ]
   },
   {
     "id": "st",
@@ -5093,7 +5685,11 @@
       "symbol": "Db"
     },
     "callingCode": "+239",
-    "demonym": "Sao Tomean"
+    "demonym": "Sao Tomean",
+    "latlng": [
+      1,
+      7
+    ]
   },
   {
     "id": "sa",
@@ -5138,6 +5734,10 @@
     },
     "callingCode": "+966",
     "demonym": "Saudi Arabian",
+    "latlng": [
+      25,
+      45
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -5182,6 +5782,10 @@
     "callingCode": "+221",
     "demonym": "Senegalese",
     "notableRiver": "Senegal",
+    "latlng": [
+      14,
+      -14
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -5217,7 +5821,11 @@
       "symbol": "дин."
     },
     "callingCode": "+381",
-    "demonym": "Serbian"
+    "demonym": "Serbian",
+    "latlng": [
+      44,
+      21
+    ]
   },
   {
     "id": "sc",
@@ -5246,7 +5854,11 @@
       "symbol": "₨"
     },
     "callingCode": "+248",
-    "demonym": "Seychellois"
+    "demonym": "Seychellois",
+    "latlng": [
+      -4.58333333,
+      55.66666666
+    ]
   },
   {
     "id": "sl",
@@ -5276,7 +5888,11 @@
       "symbol": "Le"
     },
     "callingCode": "+232",
-    "demonym": "Sierra Leonean"
+    "demonym": "Sierra Leonean",
+    "latlng": [
+      8.5,
+      -11.5
+    ]
   },
   {
     "id": "sg",
@@ -5306,7 +5922,11 @@
       "symbol": "$"
     },
     "callingCode": "+65",
-    "demonym": "Singaporean"
+    "demonym": "Singaporean",
+    "latlng": [
+      1.36666666,
+      103.8
+    ]
   },
   {
     "id": "sk",
@@ -5339,7 +5959,11 @@
       "symbol": "€"
     },
     "callingCode": "+421",
-    "demonym": "Slovak"
+    "demonym": "Slovak",
+    "latlng": [
+      48.66666666,
+      19.5
+    ]
   },
   {
     "id": "si",
@@ -5371,7 +5995,11 @@
       "symbol": "€"
     },
     "callingCode": "+386",
-    "demonym": "Slovene"
+    "demonym": "Slovene",
+    "latlng": [
+      46.11666666,
+      14.81666666
+    ]
   },
   {
     "id": "sb",
@@ -5398,7 +6026,11 @@
       "symbol": "$"
     },
     "callingCode": "+677",
-    "demonym": "Solomon Islander"
+    "demonym": "Solomon Islander",
+    "latlng": [
+      -8,
+      159
+    ]
   },
   {
     "id": "so",
@@ -5430,7 +6062,11 @@
       "symbol": "Sh"
     },
     "callingCode": "+252",
-    "demonym": "Somali"
+    "demonym": "Somali",
+    "latlng": [
+      10,
+      49
+    ]
   },
   {
     "id": "za",
@@ -5485,6 +6121,10 @@
     "callingCode": "+27",
     "demonym": "South African",
     "notableRiver": "Orange",
+    "latlng": [
+      -29,
+      24
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -5525,6 +6165,10 @@
     "callingCode": "+82",
     "demonym": "South Korean",
     "notableRiver": "Han",
+    "latlng": [
+      37,
+      127.5
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -5559,7 +6203,11 @@
       "symbol": "£"
     },
     "callingCode": "+211",
-    "demonym": "South Sudanese"
+    "demonym": "South Sudanese",
+    "latlng": [
+      7,
+      30
+    ]
   },
   {
     "id": "es",
@@ -5602,6 +6250,10 @@
     "callingCode": "+34",
     "demonym": "Spanish",
     "notableRiver": "Ebro",
+    "latlng": [
+      40,
+      -4
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -5632,7 +6284,11 @@
       "symbol": "Rs  රු"
     },
     "callingCode": "+94",
-    "demonym": "Sri Lankan"
+    "demonym": "Sri Lankan",
+    "latlng": [
+      7,
+      81
+    ]
   },
   {
     "id": "sd",
@@ -5668,7 +6324,11 @@
       "symbol": "PT"
     },
     "callingCode": "+249",
-    "demonym": "Sudanese"
+    "demonym": "Sudanese",
+    "latlng": [
+      15,
+      30
+    ]
   },
   {
     "id": "sr",
@@ -5698,7 +6358,11 @@
       "symbol": "$"
     },
     "callingCode": "+597",
-    "demonym": "Surinamer"
+    "demonym": "Surinamer",
+    "latlng": [
+      4,
+      -56
+    ]
   },
   {
     "id": "se",
@@ -5739,6 +6403,10 @@
     "callingCode": "+46",
     "demonym": "Swedish",
     "notableRiver": "Klarälven",
+    "latlng": [
+      62,
+      15
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -5775,7 +6443,11 @@
       "symbol": "Fr."
     },
     "callingCode": "+41",
-    "demonym": "Swiss"
+    "demonym": "Swiss",
+    "latlng": [
+      47,
+      8
+    ]
   },
   {
     "id": "sy",
@@ -5808,7 +6480,11 @@
       "symbol": "£"
     },
     "callingCode": "+963",
-    "demonym": "Syrian"
+    "demonym": "Syrian",
+    "latlng": [
+      35,
+      38
+    ]
   },
   {
     "id": "tj",
@@ -5841,7 +6517,11 @@
       "symbol": "ЅМ"
     },
     "callingCode": "+992",
-    "demonym": "Tadzhik"
+    "demonym": "Tadzhik",
+    "latlng": [
+      39,
+      71
+    ]
   },
   {
     "id": "tz",
@@ -5889,6 +6569,10 @@
     "callingCode": "+255",
     "demonym": "Tanzanian",
     "notableRiver": "Rufiji",
+    "latlng": [
+      -6,
+      35
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -5932,6 +6616,10 @@
     "callingCode": "+66",
     "demonym": "Thai",
     "notableRiver": "Chao Phraya",
+    "latlng": [
+      15,
+      100
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -5962,7 +6650,11 @@
       "symbol": "$"
     },
     "callingCode": "+670",
-    "demonym": "East Timorese"
+    "demonym": "East Timorese",
+    "latlng": [
+      -8.83333333,
+      125.91666666
+    ]
   },
   {
     "id": "tg",
@@ -5993,7 +6685,11 @@
       "symbol": "Fr"
     },
     "callingCode": "+228",
-    "demonym": "Togolese"
+    "demonym": "Togolese",
+    "latlng": [
+      8,
+      1.16666666
+    ]
   },
   {
     "id": "to",
@@ -6021,7 +6717,11 @@
       "symbol": "T$"
     },
     "callingCode": "+676",
-    "demonym": "Tongan"
+    "demonym": "Tongan",
+    "latlng": [
+      -20,
+      -175
+    ]
   },
   {
     "id": "tt",
@@ -6048,7 +6748,11 @@
       "symbol": "$"
     },
     "callingCode": "+1868",
-    "demonym": "Trinidadian"
+    "demonym": "Trinidadian",
+    "latlng": [
+      11,
+      -61
+    ]
   },
   {
     "id": "tn",
@@ -6078,7 +6782,11 @@
       "symbol": "د.ت"
     },
     "callingCode": "+216",
-    "demonym": "Tunisian"
+    "demonym": "Tunisian",
+    "latlng": [
+      34,
+      9
+    ]
   },
   {
     "id": "tr",
@@ -6125,6 +6833,10 @@
     "callingCode": "+90",
     "demonym": "Turkish",
     "notableRiver": "Kızılırmak",
+    "latlng": [
+      39,
+      35
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -6158,7 +6870,11 @@
       "symbol": "m"
     },
     "callingCode": "+993",
-    "demonym": "Turkmen"
+    "demonym": "Turkmen",
+    "latlng": [
+      40,
+      60
+    ]
   },
   {
     "id": "tv",
@@ -6186,7 +6902,11 @@
       "symbol": "$"
     },
     "callingCode": "+688",
-    "demonym": "Tuvaluan"
+    "demonym": "Tuvaluan",
+    "latlng": [
+      -8,
+      178
+    ]
   },
   {
     "id": "ug",
@@ -6220,7 +6940,11 @@
       "symbol": "Sh"
     },
     "callingCode": "+256",
-    "demonym": "Ugandan"
+    "demonym": "Ugandan",
+    "latlng": [
+      1,
+      32
+    ]
   },
   {
     "id": "ua",
@@ -6255,7 +6979,11 @@
       "symbol": "₴"
     },
     "callingCode": "+380",
-    "demonym": "Ukrainian"
+    "demonym": "Ukrainian",
+    "latlng": [
+      49,
+      32
+    ]
   },
   {
     "id": "ae",
@@ -6285,7 +7013,11 @@
       "symbol": "د.إ"
     },
     "callingCode": "+971",
-    "demonym": "Emirati"
+    "demonym": "Emirati",
+    "latlng": [
+      24,
+      54
+    ]
   },
   {
     "id": "gb",
@@ -6325,6 +7057,10 @@
     "callingCode": "+44",
     "demonym": "British",
     "notableRiver": "Severn",
+    "latlng": [
+      54,
+      -2
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -6366,6 +7102,10 @@
     "callingCode": "+1",
     "demonym": "American",
     "notableRiver": "Mississippi",
+    "latlng": [
+      38,
+      -97
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -6396,7 +7136,11 @@
       "symbol": "$"
     },
     "callingCode": "+598",
-    "demonym": "Uruguayan"
+    "demonym": "Uruguayan",
+    "latlng": [
+      -33,
+      -56
+    ]
   },
   {
     "id": "uz",
@@ -6430,7 +7174,11 @@
       "symbol": "so'm"
     },
     "callingCode": "+998",
-    "demonym": "Uzbekistani"
+    "demonym": "Uzbekistani",
+    "latlng": [
+      41,
+      64
+    ]
   },
   {
     "id": "vu",
@@ -6459,7 +7207,11 @@
       "symbol": "Vt"
     },
     "callingCode": "+678",
-    "demonym": "Ni-Vanuatu"
+    "demonym": "Ni-Vanuatu",
+    "latlng": [
+      -16,
+      167
+    ]
   },
   {
     "id": "va",
@@ -6489,7 +7241,11 @@
       "symbol": "€"
     },
     "callingCode": "+3",
-    "demonym": "Vatican"
+    "demonym": "Vatican",
+    "latlng": [
+      41.9,
+      12.45
+    ]
   },
   {
     "id": "ve",
@@ -6531,6 +7287,10 @@
     "callingCode": "+58",
     "demonym": "Venezuelan",
     "notableRiver": "Orinoco",
+    "latlng": [
+      8,
+      -66
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -6573,6 +7333,10 @@
     "callingCode": "+84",
     "demonym": "Vietnamese",
     "notableRiver": "Mekong",
+    "latlng": [
+      16.16666666,
+      107.83333333
+    ],
     "reviewedAt": "2026-08-13"
   },
   {
@@ -6603,7 +7367,11 @@
       "symbol": "﷼"
     },
     "callingCode": "+967",
-    "demonym": "Yemeni"
+    "demonym": "Yemeni",
+    "latlng": [
+      15,
+      48
+    ]
   },
   {
     "id": "zm",
@@ -6639,7 +7407,11 @@
       "symbol": "ZK"
     },
     "callingCode": "+260",
-    "demonym": "Zambian"
+    "demonym": "Zambian",
+    "latlng": [
+      -15,
+      30
+    ]
   },
   {
     "id": "zw",
@@ -6685,6 +7457,10 @@
       "symbol": "P"
     },
     "callingCode": "+263",
-    "demonym": "Zimbabwean"
+    "demonym": "Zimbabwean",
+    "latlng": [
+      -20,
+      30
+    ]
   }
 ]
