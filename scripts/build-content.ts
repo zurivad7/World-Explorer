@@ -175,6 +175,21 @@ if (missingGeometry.length > 0) {
 }
 const geometryFc: FeatureCollection<Geometry> = { type: 'FeatureCollection', features };
 
+// A faint full-world base layer: every country *except* the 50 explorable ones
+// (those are drawn on top), geometry only — rendered non-interactively so the map
+// reads as a complete world map without overdrawing the interactive countries.
+const baseFeatures = worldFc.features
+  .filter((f) => f.id == null || !ccn3ToId.has(String(f.id)))
+  .map((f) => ({
+    type: 'Feature' as const,
+    properties: {},
+    geometry: unwrapGeometry(f.geometry),
+  }));
+const worldBaseFc: FeatureCollection<Geometry> = {
+  type: 'FeatureCollection',
+  features: baseFeatures,
+};
+
 // Write generated data (stable, pretty-printed for review where practical).
 const dataDir = resolve(root, 'src/data');
 writeFileSync(
@@ -190,6 +205,10 @@ mkdirSync(resolve(dataDir, 'geometry'), { recursive: true });
 writeFileSync(
   resolve(dataDir, 'geometry/countries.geo.json'),
   JSON.stringify(geometryFc) + '\n'
+);
+writeFileSync(
+  resolve(dataDir, 'geometry/world-base.geo.json'),
+  JSON.stringify(worldBaseFc) + '\n'
 );
 
 // Validate before finishing so a bad build fails loudly.
