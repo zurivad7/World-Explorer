@@ -7,6 +7,8 @@ import {
   getAllProgress,
   getProfile,
   getProgress,
+  getStats,
+  recordGameCompleted,
   resetAll,
   saveProfile,
   saveProgress,
@@ -71,15 +73,39 @@ describe('progress persistence', () => {
   });
 });
 
+describe('stats', () => {
+  it('defaults to empty', async () => {
+    const db = track(freshDb());
+    expect(await getStats(db)).toEqual({ gamesCompleted: 0, recentActivity: [] });
+  });
+
+  it('records completed games, recent activity and the daily stamp', async () => {
+    const db = track(freshDb());
+    await recordGameCompleted({ mode: 'flag-detective', correct: 5, total: 8, at: 't1' }, undefined, db);
+    const after = await recordGameCompleted(
+      { mode: 'daily', correct: 7, total: 8, at: 't2' },
+      '2026-08-23',
+      db
+    );
+    expect(after.gamesCompleted).toBe(2);
+    expect(after.lastDailyDate).toBe('2026-08-23');
+    // Most recent first.
+    expect(after.recentActivity[0]?.mode).toBe('daily');
+    expect(after.recentActivity).toHaveLength(2);
+  });
+});
+
 describe('resetAll (FR-020)', () => {
   it('clears all local player data', async () => {
     const db = track(freshDb());
     await saveProfile(createDefaultProfile('8-10'), db);
     await saveProgress(createProgress('fr'), db);
+    await recordGameCompleted({ mode: 'flag-detective', correct: 1, total: 1, at: 't' }, undefined, db);
 
     await resetAll(db);
 
     expect(await getProfile(db)).toBeUndefined();
     expect(await getAllProgress(db)).toHaveLength(0);
+    expect(await getStats(db)).toEqual({ gamesCompleted: 0, recentActivity: [] });
   });
 });

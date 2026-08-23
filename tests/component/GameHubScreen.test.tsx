@@ -1,13 +1,17 @@
+import 'fake-indexeddb/auto';
 import { describe, expect, it } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
+import { ProgressProvider } from '@/app/providers/ProgressProvider';
 import { GameHubScreen } from '@/features/games/GameHubScreen';
 import { GAME_MODE_META } from '@/features/games/gameModes';
 
 function renderScreen() {
   return render(
     <MemoryRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
-      <GameHubScreen />
+      <ProgressProvider>
+        <GameHubScreen />
+      </ProgressProvider>
     </MemoryRouter>
   );
 }

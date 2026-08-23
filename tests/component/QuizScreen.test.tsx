@@ -4,6 +4,7 @@ import { render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import { ProfileProvider } from '@/app/providers/ProfileProvider';
+import { ProgressProvider } from '@/app/providers/ProgressProvider';
 import { QuizScreen } from '@/features/games/QuizScreen';
 
 function renderQuiz(mode: string) {
@@ -13,9 +14,11 @@ function renderQuiz(mode: string) {
       future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
     >
       <ProfileProvider>
-        <Routes>
-          <Route path="/play/:mode" element={<QuizScreen />} />
-        </Routes>
+        <ProgressProvider>
+          <Routes>
+            <Route path="/play/:mode" element={<QuizScreen />} />
+          </Routes>
+        </ProgressProvider>
       </ProfileProvider>
     </MemoryRouter>
   );

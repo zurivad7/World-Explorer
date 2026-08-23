@@ -12,8 +12,8 @@ open questions to resolve. The product source of truth is [`docs/PRD.md`](docs/P
 | 2 Map | ✅ Complete |
 | 3 Game engine | ✅ Complete |
 | 4 Games | ✅ Complete |
-| 5 Progress | ⏳ Next — 🟡 storage layer in place (`src/lib/storage`) |
-| 6 Offline/PWA | 🟡 Manifest + service worker; flags + map geometry precached |
+| 5 Progress | ✅ Complete |
+| 6 Offline/PWA | ⏳ Next — 🟡 manifest + service worker; content precached |
 | 7 QA | ⬜ Not started |
 
 ## Games (Phase 4)
@@ -28,12 +28,29 @@ open questions to resolve. The product source of truth is [`docs/PRD.md`](docs/P
   and whether the question is map-based. Map questions render the interactive map
   **and** an equivalent set of buttons — the accessible / offline non-map path
   (PRD §7.4, §19).
-- **Progress is not yet persisted** — mastery updates, discovery, passport and
-  badges are Phase 5. Sessions currently score in-memory only; adaptive selection
-  runs against default mastery until Phase 5 feeds it stored progress.
 - The question bank moved to its own module (`src/data/questions.ts`) and the
   games route is `React.lazy`-loaded, so the ~180KB of question JSON is code-split
   into the games chunk and kept out of the initial bundle (PRD §23).
+
+## Progress & persistence (Phase 5)
+
+- `ProgressProvider` (`src/app/providers/ProgressProvider.tsx`) loads all progress
+  + stats from IndexedDB on mount and exposes `recordAnswer`, `recordGameCompleted`,
+  derived selectors (`discoveredCountryIds`, `topicMastery`, `masteryFor`) and
+  `reset`. It wraps the authenticated app under `RequireProfile`.
+- Every answered question updates **topic mastery** and **per-country mastery**
+  (`applyAnswer`, 0–100 clamp); a country becomes **discovered** on its first
+  correct answer (`discoveredAt`). Persisted immediately (FR-011/FR-012/FR-016).
+- Adaptive selection is now cross-session: `QuizScreen` feeds stored progress into
+  `selectQuestions`, so difficulty tracks real mastery (FR-014/AC-10).
+- **Passport** shows discovered count, per-continent completion bars, and flag
+  "stamps"; **Achievements** evaluates badge criteria via the pure
+  `earnedAchievementIds` (FR-013); **Progress** shows topic mastery, practise
+  suggestions and recent activity. The Explore map highlights discovered/mastered
+  countries. The Game Hub shows a "done today" state for the daily challenge.
+- A v2 Dexie `stats` store holds `gamesCompleted`, `lastDailyDate` and a capped
+  `recentActivity` list. Settings → reset clears everything and restarts onboarding.
+- Verified by an e2e that plays a game and re-reads progress after a full reload.
 
 ## Game engine (Phase 3)
 

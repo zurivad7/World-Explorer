@@ -4,3 +4,4 @@ export * from './selection';
 export * from './session';
 export * from './dailyChallenge';
 export * from './random';
+export * from './achievements';
