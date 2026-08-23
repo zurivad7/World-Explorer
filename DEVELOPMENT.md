@@ -66,6 +66,12 @@ Phase 4 consume it.
   responsive via `ResizeObserver`, graceful error fallback ("play other games").
 - **Screens** — Explore renders the map with a searchable list as the accessible /
   offline fallback (PRD §7.4, §19); Country Detail shows a fit-to-country mini-map.
+- **Full world map** — the build also emits `world-base.geo.json` (every country
+  *except* the 50 explorable ones, unwrapped). `WorldMap` draws it as a faint,
+  non-interactive gray layer in a lower pane, so the map reads as a complete world
+  map with the 50 explorable countries highlighted on top.
+- **Antimeridian** — Russia and Fiji cross ±180°; the build unwraps polygon rings
+  so they render contiguously instead of as bands across the map.
 - Leaflet + geometry are code-split, so the initial bundle is unchanged.
 
 ### E2E note
