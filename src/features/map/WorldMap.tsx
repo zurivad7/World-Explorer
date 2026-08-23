@@ -74,7 +74,9 @@ export function WorldMap({
       keyboard: interactive,
       attributionControl: showTiles,
       minZoom: 1,
-      worldCopyJump: true,
+      // Polygons are unwrapped past ±180° at build time (Russia/Fiji); disabling
+      // world-copy avoids duplicating those small overhangs on the opposite edge.
+      worldCopyJump: false,
     });
     mapRef.current = map;
     map.setView([20, 0], 1);
