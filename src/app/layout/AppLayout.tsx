@@ -1,5 +1,6 @@
 import { Link, NavLink, Outlet } from 'react-router-dom';
 import { paths, primaryNav } from '@/app/routes';
+import { OfflineBanner } from '@/features/pwa/OfflineBanner';
 
 /** App shell: a header (links home) with the primary nav on top, then the routed screen. */
 export function AppLayout() {
@@ -31,6 +32,8 @@ export function AppLayout() {
           </NavLink>
         ))}
       </nav>
+
+      <OfflineBanner />
 
       <main className="app-main" id="main-content">
         <Outlet />
