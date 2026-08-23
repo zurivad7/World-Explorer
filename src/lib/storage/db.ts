@@ -14,7 +14,7 @@ interface ProfileRow extends Profile {
 
 /** A recently-played session, for the Progress screen. */
 export interface RecentActivity {
-  mode: GameMode | 'daily';
+  mode: GameMode | 'daily' | 'country';
   correct: number;
   total: number;
   at: string; // ISO date-time

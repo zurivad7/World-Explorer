@@ -45,6 +45,7 @@ export const countrySchema = z.object({
   callingCode: z.string().optional(),
   demonym: z.string().optional(),
   notableRiver: z.string().optional(),
+  latlng: z.tuple([z.number(), z.number()]).optional(),
   active: z.boolean(),
   source: z.string().min(1),
   reviewedAt: z.string().optional(),

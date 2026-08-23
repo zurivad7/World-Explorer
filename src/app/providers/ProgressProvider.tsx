@@ -31,7 +31,11 @@ interface ProgressContextValue {
   /** Record one answered question (updates topic + country mastery and discovery). */
   recordAnswer: (question: Question, correct: boolean) => Promise<void>;
   /** Record a finished session (counter, recent activity, daily stamp). */
-  recordGameCompleted: (mode: GameMode | 'daily', correct: number, total: number) => Promise<void>;
+  recordGameCompleted: (
+    mode: GameMode | 'daily' | 'country',
+    correct: number,
+    total: number
+  ) => Promise<void>;
   /** Wipe all local player data (Settings → reset). */
   reset: () => Promise<void>;
 }
@@ -101,7 +105,7 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const recordGameCompleted = useCallback(
-    async (mode: GameMode | 'daily', correct: number, total: number) => {
+    async (mode: GameMode | 'daily' | 'country', correct: number, total: number) => {
       const dailyDate = mode === 'daily' ? localDateKey() : undefined;
       const next = await persistGameCompleted(
         { mode, correct, total, at: new Date().toISOString() },

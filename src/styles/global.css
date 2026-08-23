@@ -77,41 +77,52 @@ body {
 .app-header {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: calc(env(safe-area-inset-top, 0px) + 14px) var(--space) 14px;
+  padding: calc(env(safe-area-inset-top, 0px) + 12px) var(--space) 12px;
   background: linear-gradient(100deg, #2563eb 0%, #7c3aed 100%);
   color: #fff;
+}
+
+.app-header__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  text-decoration: none;
   font-weight: 800;
   letter-spacing: 0.2px;
-  box-shadow: var(--shadow-sm);
 }
 
 .app-header__logo {
   font-size: 1.5rem;
 }
 
+.app-header__title {
+  font-size: 1.15rem;
+}
+
 .app-main {
   flex: 1;
   padding: var(--space);
-  padding-bottom: calc(var(--space) + 84px);
+  padding-bottom: calc(var(--space) + env(safe-area-inset-bottom, 0px));
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
 }
 
-/* Bottom nav on mobile, becomes a top-aligned row on wide screens. */
+/* Primary nav: a sticky top bar directly under the header, on all screen sizes. */
 .app-nav {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  position: sticky;
+  top: 0;
+  z-index: 500;
   display: flex;
-  justify-content: space-around;
-  background: rgba(255, 255, 255, 0.96);
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  background: rgba(255, 255, 255, 0.97);
   backdrop-filter: blur(8px);
-  border-top: 1px solid var(--color-border);
-  padding: 6px 4px calc(env(safe-area-inset-bottom, 0px) + 6px);
-  box-shadow: 0 -4px 16px rgba(26, 51, 99, 0.08);
+  border-bottom: 1px solid var(--color-border);
+  padding: 6px 8px;
+  box-shadow: var(--shadow-sm);
 }
 
 .app-nav__link {
@@ -119,7 +130,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 2px;
-  min-width: var(--touch-target);
+  min-width: 64px;
   min-height: var(--touch-target);
   justify-content: center;
   text-decoration: none;
@@ -127,7 +138,7 @@ body {
   font-size: 0.72rem;
   font-weight: 600;
   border-radius: var(--radius-sm);
-  padding: 4px 8px;
+  padding: 4px 10px;
   transition: color 0.15s ease, background 0.15s ease;
 }
 
@@ -139,6 +150,19 @@ body {
 
 .app-nav__icon {
   font-size: 1.35rem;
+}
+
+/* Wide screens: roomier nav. */
+@media (min-width: 720px) {
+  .app-nav {
+    gap: 10px;
+    padding: 8px;
+  }
+  .app-nav__link {
+    flex-direction: row;
+    gap: 8px;
+    font-size: 0.9rem;
+  }
 }
 
 /* ---- Screens ---- */

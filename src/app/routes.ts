@@ -11,6 +11,8 @@ export const paths = {
   game: (mode: GameMode) => `/play/${mode}`, // S06 / S07
   gamePattern: '/play/:mode',
   dailyChallenge: '/play/daily', // FR-015
+  playCountry: (id: string) => `/play/country/${id}`, // per-country quiz
+  playCountryPattern: '/play/country/:countryId',
   passport: '/passport', // S08
   achievements: '/achievements', // S09
   progress: '/progress', // S10

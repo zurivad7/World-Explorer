@@ -17,6 +17,11 @@ export interface WorldMapProps extends MapStateInput {
   onSelectCountry?: (id: string) => void;
   /** Fit the view to this country; if omitted, fit to all countries. */
   focusId?: string;
+  /**
+   * [lat, lng] fallback pin for the focused country. Used when that country is too
+   * small to have its own polygon (micro-states): we drop a marker and centre on it.
+   */
+  markerLatLng?: [number, number] | undefined;
   /** Optionally show OpenStreetMap tiles under the polygons (off by default; PRD §16/§20). */
   showTiles?: boolean;
   /** Disable panning/zooming (e.g. a static country thumbnail). */
@@ -41,6 +46,7 @@ function polygonStyle(id: string, state: MapStateInput): L.PathOptions {
 export function WorldMap({
   onSelectCountry,
   focusId,
+  markerLatLng,
   showTiles = false,
   interactive = true,
   ariaLabel = 'World map',
@@ -50,6 +56,7 @@ export function WorldMap({
   const containerRef = useRef<HTMLDivElement | null>(null);
   const mapRef = useRef<L.Map | null>(null);
   const layerRef = useRef<L.GeoJSON | null>(null);
+  const markerRef = useRef<L.CircleMarker | null>(null);
   const [error, setError] = useState(false);
   const [ready, setReady] = useState(false);
 
@@ -148,19 +155,42 @@ export function WorldMap({
     ready,
   ]);
 
-  // Fit to a specific country when asked.
+  // Fit to a specific country when asked. If it has no polygon (a micro-state too
+  // small to draw), drop a marker at markerLatLng and centre on it instead, so the
+  // country is still shown rather than leaving the whole world unhighlighted.
   useEffect(() => {
     const map = mapRef.current;
     const layer = layerRef.current;
     if (!map || !layer || !focusId) return;
+
+    if (markerRef.current) {
+      markerRef.current.remove();
+      markerRef.current = null;
+    }
+
+    let found = false;
     layer.eachLayer((lyr) => {
       const feature = (lyr as L.Layer & { feature?: CountryFeature }).feature;
       if (feature && featureCountryId(feature) === focusId) {
+        found = true;
         const bounds = featureBounds(feature);
         if (bounds) map.fitBounds(bounds, { padding: [12, 12], maxZoom: 6 });
       }
     });
-  }, [focusId, ready]);
+
+    if (!found && markerLatLng) {
+      const marker = L.circleMarker(markerLatLng, {
+        radius: 8,
+        color: '#0d3f6e',
+        weight: 3,
+        fillColor: '#f5a623',
+        fillOpacity: 1,
+        className: 'country-pin',
+      }).addTo(map);
+      markerRef.current = marker;
+      map.setView(markerLatLng, 5);
+    }
+  }, [focusId, markerLatLng, ready]);
 
   if (error) {
     return (

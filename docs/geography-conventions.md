@@ -76,10 +76,11 @@ partly in Europe and partly in Asia") without making it the quiz answer.
   status, international **calling code**, and **demonym**. A **major river** is an
   **authored, reviewed** field (`NOTABLE_RIVERS` in `source.ts`) shown only where
   written — there is no reliable open dataset for it, so it is never fabricated.
-- Countries missing from the 110m map geometry (micro-states such as Singapore,
-  Monaco, Malta, Vatican, and small island nations) remain fully in the dataset —
-  in Explore, the games and Country Detail — but are not drawn on the map (they are
-  invisible at world zoom). Higher-resolution geometry can add them later.
+- Map geometry uses Natural Earth **50m** resolution, which draws a polygon for
+  every country in the dataset except Tuvalu. Any country without a polygon (only
+  Tuvalu at present) still appears everywhere else — in Explore, the games and
+  Country Detail — and on the map it is shown by a **location pin** at its
+  representative `latlng` point rather than a drawn shape.
 
 ## Disputed territories & naming
 
