@@ -1,7 +1,7 @@
 // Feedback address for the "Contact Me" link. Set this to the address you want
 // shown publicly on the live site. Until it is a real address the footer shows a
 // neutral line with no mailto, so we never ship a broken/placeholder link.
-const FEEDBACK_EMAIL = '';
+const FEEDBACK_EMAIL = 'feedback.worldexplorer@gmail.com';
 
 /** App footer with a Contact link for feedback, suggestions and corrections. */
 export function AppFooter() {
