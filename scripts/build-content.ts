@@ -126,12 +126,46 @@ for (const c of countries) {
 const countriesObject = topo.objects.countries;
 if (!countriesObject) throw new Error('world-atlas topology has no "countries" object');
 const worldFc = feature(topo, countriesObject) as unknown as FeatureCollection<Geometry>;
+
+// Countries that cross the ±180° antimeridian (Russia, Fiji) are stored with
+// coordinates that jump from +180 to -180. Rendered in Leaflet that draws the
+// polygon fill as a band straight across the map. Unwrapping keeps each ring's
+// consecutive longitudes within 180° of each other, so the polygon stays
+// contiguous (extending just past 180° rather than wrapping).
+type Ring = number[][];
+function unwrapRing(ring: Ring): Ring {
+  if (ring.length === 0) return ring;
+  let prev = ring[0]![0]!;
+  return ring.map((pt, i) => {
+    if (i === 0) return pt;
+    let lng = pt[0]!;
+    while (lng - prev > 180) lng -= 360;
+    while (prev - lng > 180) lng += 360;
+    prev = lng;
+    return [lng, pt[1]!];
+  });
+}
+function unwrapGeometry(geom: Geometry): Geometry {
+  if (geom.type === 'Polygon') {
+    return { ...geom, coordinates: (geom.coordinates as Ring[]).map(unwrapRing) };
+  }
+  if (geom.type === 'MultiPolygon') {
+    return { ...geom, coordinates: (geom.coordinates as Ring[][]).map((p) => p.map(unwrapRing)) };
+  }
+  return geom;
+}
+
 const features = worldFc.features
   .filter((f) => f.id != null && ccn3ToId.has(String(f.id)))
   .map((f) => {
     const id = ccn3ToId.get(String(f.id))!;
     const country = countries.find((c) => c.id === id)!;
-    return { type: 'Feature' as const, id, properties: { id, name: country.name }, geometry: f.geometry };
+    return {
+      type: 'Feature' as const,
+      id,
+      properties: { id, name: country.name },
+      geometry: unwrapGeometry(f.geometry),
+    };
   })
   .sort((a, b) => a.id.localeCompare(b.id));
 
