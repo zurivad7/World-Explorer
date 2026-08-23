@@ -15,8 +15,8 @@ import { mkdirSync, copyFileSync, writeFileSync, existsSync } from 'node:fs';
 import { feature } from 'topojson-client';
 import type { Topology } from 'topojson-specification';
 import type { FeatureCollection, Geometry } from 'geojson';
-import type { Continent, Country, Question } from '../src/types/index.ts';
-import { COUNTRY_SOURCES } from '../src/data/countries/source.ts';
+import type { Continent, Country, Currency, Question } from '../src/types/index.ts';
+import { COUNTRY_SOURCES, NOTABLE_RIVERS } from '../src/data/countries/source.ts';
 import { FLAG_TEMPLATES } from '../src/data/flags/templates.ts';
 import { generateQuestions } from '../src/data/generate.ts';
 import { validateCompleteness, validateContent } from '../src/data/validate.ts';
@@ -36,6 +36,28 @@ interface WcCountry {
   borders?: string[];
   independent?: boolean;
   area?: number;
+  landlocked?: boolean;
+  languages?: Record<string, string>;
+  currencies?: Record<string, { name: string; symbol?: string }>;
+  idd?: { root?: string; suffixes?: string[] };
+  demonyms?: { eng?: { m?: string; f?: string } };
+}
+
+function firstCurrency(wc: WcCountry): Currency | undefined {
+  const entries = Object.entries(wc.currencies ?? {});
+  const first = entries[0];
+  if (!first) return undefined;
+  const [code, info] = first;
+  const currency: Currency = { code, name: info.name };
+  if (info.symbol) currency.symbol = info.symbol;
+  return currency;
+}
+
+function callingCode(wc: WcCountry): string | undefined {
+  const root = wc.idd?.root;
+  if (!root) return undefined;
+  const suffixes = wc.idd?.suffixes;
+  return suffixes && suffixes.length === 1 ? `${root}${suffixes[0]}` : root;
 }
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -110,9 +132,21 @@ const countries: Country[] = included
       geometryId: id,
       neighbours,
       facts: overlay ? overlay.facts.map((text) => ({ text, source: 'world-explorer/authored' })) : [],
+      area: wc.area ?? 0,
+      landlocked: Boolean(wc.landlocked),
+      languages: Object.values(wc.languages ?? {}),
       active: true,
       source: 'world-countries',
     };
+    // Verifiable optional fields — only set when present (exactOptionalPropertyTypes).
+    const currency = firstCurrency(wc);
+    if (currency) country.currency = currency;
+    const idd = callingCode(wc);
+    if (idd) country.callingCode = idd;
+    const demonym = wc.demonyms?.eng?.m;
+    if (demonym) country.demonym = demonym;
+    const river = NOTABLE_RIVERS[id];
+    if (river) country.notableRiver = river;
     // Only the hand-authored/reviewed set carries a review date.
     if (overlay) country.reviewedAt = REVIEWED_AT;
     return country;

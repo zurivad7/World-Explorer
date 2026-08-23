@@ -68,6 +68,12 @@ export interface CountryFact {
   source?: string;
 }
 
+export interface Currency {
+  code: string;
+  name: string;
+  symbol?: string;
+}
+
 /** A country record (PRD §14). `geometryId` links to map geometry, kept separate from text. */
 export interface Country {
   id: string; // stable internal id (we use iso2 lowercased)
@@ -81,6 +87,15 @@ export interface Country {
   geometryId: string;
   neighbours: string[]; // country ids
   facts: CountryFact[];
+  // Verifiable "good to know" facts, sourced from world-countries (PRD §15).
+  area: number; // land area in km²
+  landlocked: boolean;
+  languages: string[]; // language names
+  currency?: Currency;
+  callingCode?: string; // e.g. "+33"
+  demonym?: string; // what the people are called, e.g. "French"
+  /** A major/notable river — authored & reviewed, present only where written. */
+  notableRiver?: string;
   active: boolean;
   source: string;
   reviewedAt?: string; // ISO date

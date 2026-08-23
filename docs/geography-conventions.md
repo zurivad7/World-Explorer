@@ -71,6 +71,11 @@ partly in Europe and partly in Asia") without making it the quiz answer.
   and reviewed per country and are **optional** — only the originally-curated set
   has them so far; the rest show metadata only until facts are written. No facts
   are AI-generated (PRD §4).
+- Each country also carries verifiable **"good to know"** fields from
+  `world-countries`: land **area**, **currency**, **language(s)**, **landlocked**
+  status, international **calling code**, and **demonym**. A **major river** is an
+  **authored, reviewed** field (`NOTABLE_RIVERS` in `source.ts`) shown only where
+  written — there is no reliable open dataset for it, so it is never fabricated.
 - Countries missing from the 110m map geometry (micro-states such as Singapore,
   Monaco, Malta, Vatican, and small island nations) remain fully in the dataset —
   in Explore, the games and Country Detail — but are not drawn on the map (they are
