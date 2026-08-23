@@ -10,7 +10,7 @@ import {
   type CountryFeatureCollection,
   type MapStateInput,
 } from './mapModel';
-import { loadCountryGeometry, loadWorldBaseGeometry } from './geometry';
+import { loadCountryGeometry } from './geometry';
 
 export interface WorldMapProps extends MapStateInput {
   /** Called with a country id when a country polygon is tapped/clicked. */
@@ -27,15 +27,6 @@ export interface WorldMapProps extends MapStateInput {
 
 const OSM_URL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 const OSM_ATTRIBUTION = '&copy; OpenStreetMap contributors';
-
-/** Non-interactive style for the rest of the world's countries (the base layer). */
-const BASE_STYLE: L.PathOptions = {
-  color: '#c3cfdb',
-  weight: 1,
-  fillColor: '#e4e9ef',
-  fillOpacity: 1,
-  interactive: false,
-};
 
 function polygonStyle(id: string, state: MapStateInput): L.PathOptions {
   const s = styleForState(resolveCountryState(id, state));
@@ -95,20 +86,6 @@ export function WorldMap({
     }
 
     let cancelled = false;
-
-    // Full-world base layer, in a pane below the interactive countries so the map
-    // reads as a complete world map. Non-interactive: clicks fall through.
-    map.createPane('worldBase');
-    const basePane = map.getPane('worldBase');
-    if (basePane) basePane.style.zIndex = '350'; // below the default overlayPane (400)
-    loadWorldBaseGeometry()
-      .then((base) => {
-        if (cancelled) return;
-        L.geoJSON(base, { style: () => BASE_STYLE, pane: 'worldBase' }).addTo(map);
-      })
-      .catch(() => {
-        // The base is decorative; if it fails, the interactive map still works.
-      });
 
     loadCountryGeometry()
       .then((geo: CountryFeatureCollection) => {

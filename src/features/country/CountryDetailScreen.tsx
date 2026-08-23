@@ -57,12 +57,16 @@ export function CountryDetailScreen() {
         </div>
       </dl>
 
-      <h2 className="section-heading">Did you know?</h2>
-      <ul className="fact-list">
-        {country.facts.map((fact) => (
-          <li key={fact.text}>{fact.text}</li>
-        ))}
-      </ul>
+      {country.facts.length > 0 ? (
+        <>
+          <h2 className="section-heading">Did you know?</h2>
+          <ul className="fact-list">
+            {country.facts.map((fact) => (
+              <li key={fact.text}>{fact.text}</li>
+            ))}
+          </ul>
+        </>
+      ) : null}
 
       {neighbours.length > 0 ? (
         <>

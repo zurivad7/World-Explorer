@@ -58,18 +58,33 @@ partly in Europe and partly in Asia") without making it the quiz answer.
 ## Neighbours
 
 - `neighbours[]` holds country **ids** (lowercased ISO 3166-1 alpha-2).
-- Only neighbours **within the 50-country slice** are stored, so every reference
-  resolves (referential integrity, enforced by `validate:content`). As the dataset
-  grows toward full coverage, neighbour graphs fill in automatically.
+- Only neighbours **within the dataset** are stored, so every reference resolves
+  (referential integrity, enforced by `validate:content`). With the full
+  independent-country set, neighbour graphs are now essentially complete.
+
+## Dataset scope
+
+- The dataset now covers **all independent countries** in `world-countries`
+  (those with `independent: true`, a capital and a flag) — ~194 countries.
+- Country **metadata** (name, capital, continent, region, neighbours) comes from
+  the reviewed `world-countries` open dataset. Child-facing **facts** are authored
+  and reviewed per country and are **optional** — only the originally-curated set
+  has them so far; the rest show metadata only until facts are written. No facts
+  are AI-generated (PRD §4).
+- Countries missing from the 110m map geometry (micro-states such as Singapore,
+  Monaco, Malta, Vatican, and small island nations) remain fully in the dataset —
+  in Explore, the games and Country Detail — but are not drawn on the map (they are
+  invisible at world zoom). Higher-resolution geometry can add them later.
 
 ## Disputed territories & naming
 
-- The MVP slice deliberately uses widely-recognised sovereign states to avoid
-  disputed cases in child-facing content.
 - Country names follow `world-countries` common names (e.g. "Türkiye").
-- Before public launch, content undergoes a review pass (PRD §22, §35), including
-  a check that no fact or naming choice is politically contentious for the target
-  markets.
+- Expanding to the full independent-country set brings in geopolitically sensitive
+  cases. The MVP presents neutral metadata only (name, capital, continent), makes
+  no sovereignty claims, and includes no facts for these unless authored/reviewed.
+- **Before public launch**, content undergoes a review pass (PRD §22, §35) — now
+  covering the full set — checking that no name, inclusion or fact is politically
+  contentious for the target markets, and confirming the children's-privacy review.
 
 ## Changing a convention
 

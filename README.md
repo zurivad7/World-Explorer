@@ -78,14 +78,16 @@ docs/           PRD
 Geography content is generated from open datasets (`world-countries`, `flag-icons`)
 plus authored facts, then validated and committed — see
 [`docs/geography-conventions.md`](docs/geography-conventions.md) and
-[`NOTICE.md`](NOTICE.md). The current slice: **50 countries** across all inhabited
-continents and **362 questions** spanning the six game modes. Regenerate with
+[`NOTICE.md`](NOTICE.md). The dataset covers **all ~194 independent countries**
+(165 with map geometry) and **~1,370 questions** spanning the six game modes.
+Child-friendly facts are authored per country and optional. Regenerate with
 `npm run build:content`.
 
 ## Status
 
-Phases 0–4 are complete: foundation, the 50-country content slice, an
-interactive offline-capable map, the adaptive game engine, and all **six playable
-game modes** plus a daily challenge (with immediate feedback and explanations).
-See [`DEVELOPMENT.md`](DEVELOPMENT.md) for the phase plan and what's next
-(persisting progress, passport and badges in Phase 5).
+Phases 0–4 are complete: foundation, a content dataset covering **all ~194
+independent countries**, an interactive offline-capable world map, the adaptive
+game engine, and all **six playable game modes** plus a daily challenge (with
+immediate feedback and explanations). See [`DEVELOPMENT.md`](DEVELOPMENT.md) for
+the phase plan and what's next (persisting progress, passport and badges in
+Phase 5).
