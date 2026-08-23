@@ -13,8 +13,35 @@ open questions to resolve. The product source of truth is [`docs/PRD.md`](docs/P
 | 3 Game engine | ✅ Complete |
 | 4 Games | ✅ Complete |
 | 5 Progress | ✅ Complete |
-| 6 Offline/PWA | ⏳ Next — 🟡 manifest + service worker; content precached |
-| 7 QA | ⬜ Not started |
+| 6 Offline/PWA | ✅ Complete |
+| 7 QA | ⏳ Next |
+
+## Offline & PWA (Phase 6)
+
+- **Manifest & service worker** are provided by `vite-plugin-pwa` (`registerType:
+  'autoUpdate'`), registered feature-detected in `main.tsx`. Workbox precaches the
+  whole shell plus content — JS/CSS/HTML, the 194 flag SVGs, icons and the generated
+  country/geometry/question JSON — so **core non-map games and the map work fully
+  offline** (PRD §19/§20). `navigateFallback` is base-aware (`${base}index.html`) so
+  offline client-side routing resolves under both the root domain and the GitHub
+  Pages sub-path; `maximumFileSizeToCacheInBytes` is lifted to 4 MiB so the ~1.3 MB
+  50m geometry chunk is precached, and `cleanupOutdatedCaches` prunes old revisions.
+- **PWA helpers** live in `src/lib/pwa`: pure `platform.ts` (`installPlatform`,
+  `isStandalone` — kept side-effect-free and unit-tested, and it handles iPadOS
+  masquerading as a Mac), plus `useOnlineStatus` and `useInstallPrompt` hooks. The
+  hooks are feature-detected and never assume identical PWA support (PRD §19).
+- **Offline state** — `OfflineBanner` (in the app shell) shows a calm, reassuring
+  banner only while `navigator.onLine` is false; play continues from cache.
+- **Installation help** — Settings → *Install on this device* (`InstallHelp`) offers
+  a one-tap **Install app** button where the browser fires `beforeinstallprompt`
+  (Android/desktop Chromium), always shows platform-specific manual Add-to-Home-Screen
+  steps as a fallback, and shows an "installed" state when running standalone.
+- **iOS** — `index.html` carries `viewport-fit=cover` and the Apple web-app meta;
+  the top header/nav and main use `env(safe-area-inset-*)` so the standalone app
+  respects the notch and home indicator.
+- Verified by unit tests (platform helpers), component tests (banner + install help)
+  and e2e (`pwa.spec.ts`: install section renders; offline banner toggles via
+  `context.setOffline`).
 
 ## Games (Phase 4)
 

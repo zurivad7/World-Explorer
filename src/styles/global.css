@@ -986,6 +986,52 @@ body {
   font-weight: 600;
 }
 
+/* Offline state banner (PRD §18/§20). */
+.offline-banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px calc(var(--space) + env(safe-area-inset-left, 0px)) 10px
+    calc(var(--space) + env(safe-area-inset-left, 0px));
+  background: #fff4e5;
+  color: #7a3d00;
+  border-bottom: 1px solid #f2c48a;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.offline-banner__icon {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+/* Install help (Settings → Install on this device). */
+.install-help {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.install-help p {
+  margin: 0;
+}
+
+.install-help__steps {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}
+
+.install-help__note {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.install-help__done {
+  margin: 0;
+  color: var(--color-success);
+  font-weight: 600;
+}
+
 /* Wide screens: nav becomes a top row. */
 @media (min-width: 720px) {
   .app-nav {

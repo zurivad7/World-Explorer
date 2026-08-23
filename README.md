@@ -85,11 +85,13 @@ Child-friendly facts are authored per country and optional. Regenerate with
 
 ## Status
 
-Phases 0–4 are complete: foundation, a content dataset covering **all ~194
+Phases 0–6 are complete: foundation, a content dataset covering **all ~194
 independent countries**, an interactive offline-capable world map, the adaptive
-game engine, and all **six playable game modes** plus a daily challenge (with
-immediate feedback and explanations). See [`DEVELOPMENT.md`](DEVELOPMENT.md) for
-the phase plan and what's next (offline/PWA hardening and QA).
+game engine, all **six playable game modes** plus a daily challenge (with immediate
+feedback and explanations), on-device progress, and **offline/PWA hardening** —
+installable with platform-specific help, an offline banner, and full precaching so
+core games and the map work with no connection. See [`DEVELOPMENT.md`](DEVELOPMENT.md)
+for the phase plan and what's next (QA).
 
 Progress persists on-device (IndexedDB): mastery, discovered countries, the
 passport, badges and adaptive difficulty all carry across sessions.

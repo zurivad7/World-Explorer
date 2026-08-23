@@ -1,6 +1,7 @@
 import { Screen } from '@/components/Screen';
 import { useProfile } from '@/app/providers/ProfileProvider';
 import { useProgress } from '@/app/providers/ProgressProvider';
+import { InstallHelp } from '@/features/pwa/InstallHelp';
 
 /** S11 Settings — sound, motion, age band, reset progress, privacy/about (PRD §13, FR-020). */
 export function SettingsScreen() {
@@ -34,6 +35,11 @@ export function SettingsScreen() {
             onChange={(e) => void updateProfile({ reducedMotion: e.target.checked })}
           />
         </label>
+      </div>
+
+      <div className="settings-group">
+        <h2 className="section-heading">Install on this device</h2>
+        <InstallHelp />
       </div>
 
       <div className="settings-group">
