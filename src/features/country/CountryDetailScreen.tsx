@@ -24,6 +24,36 @@ export function CountryDetailScreen() {
     .map((n) => getCountryById(n))
     .filter((c): c is NonNullable<typeof c> => Boolean(c));
 
+  // Verifiable "good to know" facts (present where available in the dataset).
+  const goodToKnow: { label: string; value: string }[] = [];
+  if (country.currency) {
+    goodToKnow.push({
+      label: 'Money',
+      value: country.currency.symbol
+        ? `${country.currency.name} (${country.currency.symbol})`
+        : country.currency.name,
+    });
+  }
+  if (country.languages.length > 0) {
+    goodToKnow.push({ label: 'Language', value: country.languages.join(', ') });
+  }
+  if (country.area > 0) {
+    goodToKnow.push({ label: 'Land size', value: `${country.area.toLocaleString('en')} km²` });
+  }
+  goodToKnow.push({
+    label: 'Sea coast',
+    value: country.landlocked ? 'Landlocked — no coast' : 'Yes, it has a coast',
+  });
+  if (country.notableRiver) {
+    goodToKnow.push({ label: 'Major river', value: country.notableRiver });
+  }
+  if (country.callingCode) {
+    goodToKnow.push({ label: 'Phone code', value: country.callingCode });
+  }
+  if (country.demonym) {
+    goodToKnow.push({ label: 'People are called', value: country.demonym });
+  }
+
   return (
     <Screen title={country.name} subtitle={`${country.continent} • ${country.region}`}>
       <img
@@ -55,6 +85,16 @@ export function CountryDetailScreen() {
           <dt>Region</dt>
           <dd>{country.region}</dd>
         </div>
+      </dl>
+
+      <h2 className="section-heading">Good to know</h2>
+      <dl className="detail-list">
+        {goodToKnow.map((row) => (
+          <div key={row.label} className="detail-list__row">
+            <dt>{row.label}</dt>
+            <dd>{row.value}</dd>
+          </div>
+        ))}
       </dl>
 
       {country.facts.length > 0 ? (

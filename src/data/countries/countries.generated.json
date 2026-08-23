@@ -18,8 +18,22 @@
       "uz"
     ],
     "facts": [],
+    "area": 652230,
+    "landlocked": true,
+    "languages": [
+      "Dari",
+      "Pashto",
+      "Turkmen"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "AFN",
+      "name": "Afghan afghani",
+      "symbol": "؋"
+    },
+    "callingCode": "+93",
+    "demonym": "Afghan"
   },
   {
     "id": "al",
@@ -37,8 +51,20 @@
       "mk"
     ],
     "facts": [],
+    "area": 28748,
+    "landlocked": false,
+    "languages": [
+      "Albanian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "ALL",
+      "name": "Albanian lek",
+      "symbol": "L"
+    },
+    "callingCode": "+355",
+    "demonym": "Albanian"
   },
   {
     "id": "dz",
@@ -59,8 +85,20 @@
       "tn"
     ],
     "facts": [],
+    "area": 2381741,
+    "landlocked": false,
+    "languages": [
+      "Arabic"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "DZD",
+      "name": "Algerian dinar",
+      "symbol": "د.ج"
+    },
+    "callingCode": "+213",
+    "demonym": "Algerian"
   },
   {
     "id": "ad",
@@ -77,8 +115,20 @@
       "fr"
     ],
     "facts": [],
+    "area": 468,
+    "landlocked": true,
+    "languages": [
+      "Catalan"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+376",
+    "demonym": "Andorran"
   },
   {
     "id": "ao",
@@ -97,8 +147,20 @@
       "zm"
     ],
     "facts": [],
+    "area": 1246700,
+    "landlocked": false,
+    "languages": [
+      "Portuguese"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "AOA",
+      "name": "Angolan kwanza",
+      "symbol": "Kz"
+    },
+    "callingCode": "+244",
+    "demonym": "Angolan"
   },
   {
     "id": "ag",
@@ -112,8 +174,20 @@
     "geometryId": "ag",
     "neighbours": [],
     "facts": [],
+    "area": 442,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XCD",
+      "name": "Eastern Caribbean dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+1268",
+    "demonym": "Antiguan, Barbudan"
   },
   {
     "id": "ar",
@@ -142,8 +216,22 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 2780400,
+    "landlocked": false,
+    "languages": [
+      "Guaraní",
+      "Spanish"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "ARS",
+      "name": "Argentine peso",
+      "symbol": "$"
+    },
+    "callingCode": "+54",
+    "demonym": "Argentine",
+    "notableRiver": "Paraná",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -163,8 +251,20 @@
       "tr"
     ],
     "facts": [],
+    "area": 29743,
+    "landlocked": true,
+    "languages": [
+      "Armenian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "AMD",
+      "name": "Armenian dram",
+      "symbol": "֏"
+    },
+    "callingCode": "+374",
+    "demonym": "Armenian"
   },
   {
     "id": "au",
@@ -187,8 +287,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 7692024,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "AUD",
+      "name": "Australian dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+61",
+    "demonym": "Australian",
+    "notableRiver": "Murray",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -212,8 +325,20 @@
       "sk"
     ],
     "facts": [],
+    "area": 83871,
+    "landlocked": true,
+    "languages": [
+      "Austro-Bavarian German"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+43",
+    "demonym": "Austrian"
   },
   {
     "id": "az",
@@ -233,8 +358,21 @@
       "tr"
     ],
     "facts": [],
+    "area": 86600,
+    "landlocked": true,
+    "languages": [
+      "Azerbaijani",
+      "Russian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "AZN",
+      "name": "Azerbaijani manat",
+      "symbol": "₼"
+    },
+    "callingCode": "+994",
+    "demonym": "Azerbaijani"
   },
   {
     "id": "bs",
@@ -248,8 +386,20 @@
     "geometryId": "bs",
     "neighbours": [],
     "facts": [],
+    "area": 13943,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "BSD",
+      "name": "Bahamian dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+1242",
+    "demonym": "Bahamian"
   },
   {
     "id": "bh",
@@ -263,8 +413,20 @@
     "geometryId": "bh",
     "neighbours": [],
     "facts": [],
+    "area": 765,
+    "landlocked": false,
+    "languages": [
+      "Arabic"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "BHD",
+      "name": "Bahraini dinar",
+      "symbol": ".د.ب"
+    },
+    "callingCode": "+973",
+    "demonym": "Bahraini"
   },
   {
     "id": "bd",
@@ -281,8 +443,20 @@
       "mm"
     ],
     "facts": [],
+    "area": 147570,
+    "landlocked": false,
+    "languages": [
+      "Bengali"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "BDT",
+      "name": "Bangladeshi taka",
+      "symbol": "৳"
+    },
+    "callingCode": "+880",
+    "demonym": "Bangladeshi"
   },
   {
     "id": "bb",
@@ -296,8 +470,20 @@
     "geometryId": "bb",
     "neighbours": [],
     "facts": [],
+    "area": 430,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "BBD",
+      "name": "Barbadian dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+1246",
+    "demonym": "Barbadian"
   },
   {
     "id": "by",
@@ -317,8 +503,21 @@
       "ua"
     ],
     "facts": [],
+    "area": 207600,
+    "landlocked": true,
+    "languages": [
+      "Belarusian",
+      "Russian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "BYN",
+      "name": "Belarusian ruble",
+      "symbol": "Br"
+    },
+    "callingCode": "+375",
+    "demonym": "Belarusian"
   },
   {
     "id": "be",
@@ -337,8 +536,22 @@
       "nl"
     ],
     "facts": [],
+    "area": 30528,
+    "landlocked": false,
+    "languages": [
+      "German",
+      "French",
+      "Dutch"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+32",
+    "demonym": "Belgian"
   },
   {
     "id": "bz",
@@ -355,8 +568,22 @@
       "mx"
     ],
     "facts": [],
+    "area": 22966,
+    "landlocked": false,
+    "languages": [
+      "Belizean Creole",
+      "English",
+      "Spanish"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "BZD",
+      "name": "Belize dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+501",
+    "demonym": "Belizean"
   },
   {
     "id": "bj",
@@ -375,8 +602,20 @@
       "tg"
     ],
     "facts": [],
+    "area": 112622,
+    "landlocked": false,
+    "languages": [
+      "French"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XOF",
+      "name": "West African CFA franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+229",
+    "demonym": "Beninese"
   },
   {
     "id": "bt",
@@ -393,8 +632,20 @@
       "in"
     ],
     "facts": [],
+    "area": 38394,
+    "landlocked": true,
+    "languages": [
+      "Dzongkha"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "BTN",
+      "name": "Bhutanese ngultrum",
+      "symbol": "Nu."
+    },
+    "callingCode": "+975",
+    "demonym": "Bhutanese"
   },
   {
     "id": "bo",
@@ -414,8 +665,23 @@
       "py"
     ],
     "facts": [],
+    "area": 1098581,
+    "landlocked": true,
+    "languages": [
+      "Aymara",
+      "Guaraní",
+      "Quechua",
+      "Spanish"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "BOB",
+      "name": "Bolivian boliviano",
+      "symbol": "Bs."
+    },
+    "callingCode": "+591",
+    "demonym": "Bolivian"
   },
   {
     "id": "ba",
@@ -433,8 +699,22 @@
       "rs"
     ],
     "facts": [],
+    "area": 51209,
+    "landlocked": false,
+    "languages": [
+      "Bosnian",
+      "Croatian",
+      "Serbian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "BAM",
+      "name": "Bosnia and Herzegovina convertible mark",
+      "symbol": "KM"
+    },
+    "callingCode": "+387",
+    "demonym": "Bosnian, Herzegovinian"
   },
   {
     "id": "bw",
@@ -453,8 +733,21 @@
       "zw"
     ],
     "facts": [],
+    "area": 582000,
+    "landlocked": true,
+    "languages": [
+      "English",
+      "Tswana"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "BWP",
+      "name": "Botswana pula",
+      "symbol": "P"
+    },
+    "callingCode": "+267",
+    "demonym": "Motswana"
   },
   {
     "id": "br",
@@ -487,8 +780,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 8515767,
+    "landlocked": false,
+    "languages": [
+      "Portuguese"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "BRL",
+      "name": "Brazilian real",
+      "symbol": "R$"
+    },
+    "callingCode": "+55",
+    "demonym": "Brazilian",
+    "notableRiver": "Amazon",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -505,8 +811,20 @@
       "my"
     ],
     "facts": [],
+    "area": 5765,
+    "landlocked": false,
+    "languages": [
+      "Malay"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "BND",
+      "name": "Brunei dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+673",
+    "demonym": "Bruneian"
   },
   {
     "id": "bg",
@@ -526,8 +844,20 @@
       "tr"
     ],
     "facts": [],
+    "area": 110879,
+    "landlocked": false,
+    "languages": [
+      "Bulgarian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "BGN",
+      "name": "Bulgarian lev",
+      "symbol": "лв"
+    },
+    "callingCode": "+359",
+    "demonym": "Bulgarian"
   },
   {
     "id": "bf",
@@ -548,8 +878,20 @@
       "tg"
     ],
     "facts": [],
+    "area": 272967,
+    "landlocked": true,
+    "languages": [
+      "French"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XOF",
+      "name": "West African CFA franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+226",
+    "demonym": "Burkinabe"
   },
   {
     "id": "bi",
@@ -567,8 +909,21 @@
       "tz"
     ],
     "facts": [],
+    "area": 27834,
+    "landlocked": true,
+    "languages": [
+      "French",
+      "Kirundi"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "BIF",
+      "name": "Burundian franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+257",
+    "demonym": "Burundian"
   },
   {
     "id": "kh",
@@ -586,8 +941,20 @@
       "vn"
     ],
     "facts": [],
+    "area": 181035,
+    "landlocked": false,
+    "languages": [
+      "Khmer"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "KHR",
+      "name": "Cambodian riel",
+      "symbol": "៛"
+    },
+    "callingCode": "+855",
+    "demonym": "Cambodian"
   },
   {
     "id": "cm",
@@ -608,8 +975,21 @@
       "td"
     ],
     "facts": [],
+    "area": 475442,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "French"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XAF",
+      "name": "Central African CFA franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+237",
+    "demonym": "Cameroonian"
   },
   {
     "id": "ca",
@@ -634,8 +1014,22 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 9984670,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "French"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "CAD",
+      "name": "Canadian dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+1",
+    "demonym": "Canadian",
+    "notableRiver": "Mackenzie",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -650,8 +1044,20 @@
     "geometryId": "cv",
     "neighbours": [],
     "facts": [],
+    "area": 4033,
+    "landlocked": false,
+    "languages": [
+      "Portuguese"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "CVE",
+      "name": "Cape Verdean escudo",
+      "symbol": "Esc"
+    },
+    "callingCode": "+238",
+    "demonym": "Cape Verdian"
   },
   {
     "id": "cf",
@@ -672,8 +1078,21 @@
       "td"
     ],
     "facts": [],
+    "area": 622984,
+    "landlocked": true,
+    "languages": [
+      "French",
+      "Sango"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XAF",
+      "name": "Central African CFA franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+236",
+    "demonym": "Central African"
   },
   {
     "id": "td",
@@ -694,8 +1113,21 @@
       "sd"
     ],
     "facts": [],
+    "area": 1284000,
+    "landlocked": true,
+    "languages": [
+      "Arabic",
+      "French"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XAF",
+      "name": "Central African CFA franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+235",
+    "demonym": "Chadian"
   },
   {
     "id": "cl",
@@ -722,8 +1154,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 756102,
+    "landlocked": false,
+    "languages": [
+      "Spanish"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "CLP",
+      "name": "Chilean peso",
+      "symbol": "$"
+    },
+    "callingCode": "+56",
+    "demonym": "Chilean",
+    "notableRiver": "Loa",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -762,8 +1207,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 9706961,
+    "landlocked": false,
+    "languages": [
+      "Chinese"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "CNY",
+      "name": "Chinese yuan",
+      "symbol": "¥"
+    },
+    "callingCode": "+86",
+    "demonym": "Chinese",
+    "notableRiver": "Yangtze",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -793,8 +1251,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 1141748,
+    "landlocked": false,
+    "languages": [
+      "Spanish"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "COP",
+      "name": "Colombian peso",
+      "symbol": "$"
+    },
+    "callingCode": "+57",
+    "demonym": "Colombian",
+    "notableRiver": "Magdalena",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -809,8 +1280,22 @@
     "geometryId": "km",
     "neighbours": [],
     "facts": [],
+    "area": 1862,
+    "landlocked": false,
+    "languages": [
+      "Arabic",
+      "French",
+      "Comorian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "KMF",
+      "name": "Comorian franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+269",
+    "demonym": "Comoran"
   },
   {
     "id": "cr",
@@ -836,8 +1321,20 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 51100,
+    "landlocked": false,
+    "languages": [
+      "Spanish"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "CRC",
+      "name": "Costa Rican colón",
+      "symbol": "₡"
+    },
+    "callingCode": "+506",
+    "demonym": "Costa Rican",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -858,8 +1355,20 @@
       "si"
     ],
     "facts": [],
+    "area": 56594,
+    "landlocked": false,
+    "languages": [
+      "Croatian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+385",
+    "demonym": "Croatian"
   },
   {
     "id": "cu",
@@ -882,8 +1391,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 109884,
+    "landlocked": false,
+    "languages": [
+      "Spanish"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "CUC",
+      "name": "Cuban convertible peso",
+      "symbol": "$"
+    },
+    "callingCode": "+53",
+    "demonym": "Cuban",
+    "notableRiver": "Cauto",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -898,8 +1420,21 @@
     "geometryId": "cy",
     "neighbours": [],
     "facts": [],
+    "area": 9251,
+    "landlocked": false,
+    "languages": [
+      "Greek",
+      "Turkish"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+357",
+    "demonym": "Cypriot"
   },
   {
     "id": "cz",
@@ -918,8 +1453,21 @@
       "sk"
     ],
     "facts": [],
+    "area": 78865,
+    "landlocked": true,
+    "languages": [
+      "Czech",
+      "Slovak"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "CZK",
+      "name": "Czech koruna",
+      "symbol": "Kč"
+    },
+    "callingCode": "+420",
+    "demonym": "Czech"
   },
   {
     "id": "dk",
@@ -935,8 +1483,20 @@
       "de"
     ],
     "facts": [],
+    "area": 43094,
+    "landlocked": false,
+    "languages": [
+      "Danish"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "DKK",
+      "name": "Danish krone",
+      "symbol": "kr"
+    },
+    "callingCode": "+45",
+    "demonym": "Danish"
   },
   {
     "id": "dj",
@@ -954,8 +1514,21 @@
       "so"
     ],
     "facts": [],
+    "area": 23200,
+    "landlocked": false,
+    "languages": [
+      "Arabic",
+      "French"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "DJF",
+      "name": "Djiboutian franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+253",
+    "demonym": "Djibouti"
   },
   {
     "id": "dm",
@@ -969,8 +1542,20 @@
     "geometryId": "dm",
     "neighbours": [],
     "facts": [],
+    "area": 751,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XCD",
+      "name": "Eastern Caribbean dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+1767",
+    "demonym": "Dominican"
   },
   {
     "id": "do",
@@ -986,8 +1571,20 @@
       "ht"
     ],
     "facts": [],
+    "area": 48671,
+    "landlocked": false,
+    "languages": [
+      "Spanish"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "DOP",
+      "name": "Dominican peso",
+      "symbol": "$"
+    },
+    "callingCode": "+1",
+    "demonym": "Dominican"
   },
   {
     "id": "cd",
@@ -1011,8 +1608,24 @@
       "zm"
     ],
     "facts": [],
+    "area": 2344858,
+    "landlocked": false,
+    "languages": [
+      "French",
+      "Kikongo",
+      "Lingala",
+      "Tshiluba",
+      "Swahili"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "CDF",
+      "name": "Congolese franc",
+      "symbol": "FC"
+    },
+    "callingCode": "+243",
+    "demonym": "Congolese"
   },
   {
     "id": "ec",
@@ -1029,8 +1642,20 @@
       "pe"
     ],
     "facts": [],
+    "area": 276841,
+    "landlocked": false,
+    "languages": [
+      "Spanish"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "USD",
+      "name": "United States dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+593",
+    "demonym": "Ecuadorean"
   },
   {
     "id": "eg",
@@ -1057,8 +1682,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 1002450,
+    "landlocked": false,
+    "languages": [
+      "Arabic"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "EGP",
+      "name": "Egyptian pound",
+      "symbol": "£"
+    },
+    "callingCode": "+20",
+    "demonym": "Egyptian",
+    "notableRiver": "Nile",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1076,8 +1714,20 @@
       "hn"
     ],
     "facts": [],
+    "area": 21041,
+    "landlocked": false,
+    "languages": [
+      "Spanish"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "USD",
+      "name": "United States dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+503",
+    "demonym": "Salvadoran"
   },
   {
     "id": "gq",
@@ -1094,8 +1744,22 @@
       "ga"
     ],
     "facts": [],
+    "area": 28051,
+    "landlocked": false,
+    "languages": [
+      "French",
+      "Portuguese",
+      "Spanish"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XAF",
+      "name": "Central African CFA franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+240",
+    "demonym": "Equatorial Guinean"
   },
   {
     "id": "er",
@@ -1113,8 +1777,22 @@
       "sd"
     ],
     "facts": [],
+    "area": 117600,
+    "landlocked": false,
+    "languages": [
+      "Arabic",
+      "English",
+      "Tigrinya"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "ERN",
+      "name": "Eritrean nakfa",
+      "symbol": "Nfk"
+    },
+    "callingCode": "+291",
+    "demonym": "Eritrean"
   },
   {
     "id": "ee",
@@ -1131,8 +1809,20 @@
       "ru"
     ],
     "facts": [],
+    "area": 45227,
+    "landlocked": false,
+    "languages": [
+      "Estonian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+372",
+    "demonym": "Estonian"
   },
   {
     "id": "sz",
@@ -1149,8 +1839,21 @@
       "za"
     ],
     "facts": [],
+    "area": 17364,
+    "landlocked": true,
+    "languages": [
+      "English",
+      "Swazi"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "SZL",
+      "name": "Swazi lilangeni",
+      "symbol": "L"
+    },
+    "callingCode": "+268",
+    "demonym": "Swazi"
   },
   {
     "id": "et",
@@ -1180,8 +1883,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 1104300,
+    "landlocked": true,
+    "languages": [
+      "Amharic"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "ETB",
+      "name": "Ethiopian birr",
+      "symbol": "Br"
+    },
+    "callingCode": "+251",
+    "demonym": "Ethiopian",
+    "notableRiver": "Blue Nile",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1205,8 +1921,23 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 18272,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Fijian",
+      "Fiji Hindi"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "FJD",
+      "name": "Fijian dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+679",
+    "demonym": "Fijian",
+    "notableRiver": "Rewa",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1225,8 +1956,21 @@
       "se"
     ],
     "facts": [],
+    "area": 338424,
+    "landlocked": false,
+    "languages": [
+      "Finnish",
+      "Swedish"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+358",
+    "demonym": "Finnish"
   },
   {
     "id": "fr",
@@ -1258,8 +2002,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 551695,
+    "landlocked": false,
+    "languages": [
+      "French"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+33",
+    "demonym": "French",
+    "notableRiver": "Loire",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1278,8 +2035,20 @@
       "gq"
     ],
     "facts": [],
+    "area": 267668,
+    "landlocked": false,
+    "languages": [
+      "French"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XAF",
+      "name": "Central African CFA franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+241",
+    "demonym": "Gabonese"
   },
   {
     "id": "gm",
@@ -1295,8 +2064,20 @@
       "sn"
     ],
     "facts": [],
+    "area": 10689,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "GMD",
+      "name": "dalasi",
+      "symbol": "D"
+    },
+    "callingCode": "+220",
+    "demonym": "Gambian"
   },
   {
     "id": "ge",
@@ -1315,8 +2096,20 @@
       "tr"
     ],
     "facts": [],
+    "area": 69700,
+    "landlocked": false,
+    "languages": [
+      "Georgian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "GEL",
+      "name": "lari",
+      "symbol": "₾"
+    },
+    "callingCode": "+995",
+    "demonym": "Georgian"
   },
   {
     "id": "de",
@@ -1349,8 +2142,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 357114,
+    "landlocked": false,
+    "languages": [
+      "German"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+49",
+    "demonym": "German",
+    "notableRiver": "Rhine",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1378,8 +2184,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 238533,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "GHS",
+      "name": "Ghanaian cedi",
+      "symbol": "₵"
+    },
+    "callingCode": "+233",
+    "demonym": "Ghanaian",
+    "notableRiver": "Volta",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1408,8 +2227,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 131990,
+    "landlocked": false,
+    "languages": [
+      "Greek"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+30",
+    "demonym": "Greek",
+    "notableRiver": "Aliakmon",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1424,8 +2256,20 @@
     "geometryId": "gd",
     "neighbours": [],
     "facts": [],
+    "area": 344,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XCD",
+      "name": "Eastern Caribbean dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+1473",
+    "demonym": "Grenadian"
   },
   {
     "id": "gt",
@@ -1453,8 +2297,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 108889,
+    "landlocked": false,
+    "languages": [
+      "Spanish"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "GTQ",
+      "name": "Guatemalan quetzal",
+      "symbol": "Q"
+    },
+    "callingCode": "+502",
+    "demonym": "Guatemalan",
+    "notableRiver": "Motagua",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1476,8 +2333,20 @@
       "sn"
     ],
     "facts": [],
+    "area": 245857,
+    "landlocked": false,
+    "languages": [
+      "French"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "GNF",
+      "name": "Guinean franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+224",
+    "demonym": "Guinean"
   },
   {
     "id": "gw",
@@ -1494,8 +2363,21 @@
       "sn"
     ],
     "facts": [],
+    "area": 36125,
+    "landlocked": false,
+    "languages": [
+      "Portuguese",
+      "Upper Guinea Creole"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XOF",
+      "name": "West African CFA franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+245",
+    "demonym": "Guinea-Bissauan"
   },
   {
     "id": "gy",
@@ -1513,8 +2395,20 @@
       "ve"
     ],
     "facts": [],
+    "area": 214969,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "GYD",
+      "name": "Guyanese dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+592",
+    "demonym": "Guyanese"
   },
   {
     "id": "ht",
@@ -1530,8 +2424,21 @@
       "do"
     ],
     "facts": [],
+    "area": 27750,
+    "landlocked": false,
+    "languages": [
+      "French",
+      "Haitian Creole"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "HTG",
+      "name": "Haitian gourde",
+      "symbol": "G"
+    },
+    "callingCode": "+509",
+    "demonym": "Haitian"
   },
   {
     "id": "hn",
@@ -1549,8 +2456,20 @@
       "sv"
     ],
     "facts": [],
+    "area": 112492,
+    "landlocked": false,
+    "languages": [
+      "Spanish"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "HNL",
+      "name": "Honduran lempira",
+      "symbol": "L"
+    },
+    "callingCode": "+504",
+    "demonym": "Honduran"
   },
   {
     "id": "hu",
@@ -1572,8 +2491,20 @@
       "ua"
     ],
     "facts": [],
+    "area": 93028,
+    "landlocked": true,
+    "languages": [
+      "Hungarian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "HUF",
+      "name": "Hungarian forint",
+      "symbol": "Ft"
+    },
+    "callingCode": "+36",
+    "demonym": "Hungarian"
   },
   {
     "id": "is",
@@ -1587,8 +2518,20 @@
     "geometryId": "is",
     "neighbours": [],
     "facts": [],
+    "area": 103000,
+    "landlocked": false,
+    "languages": [
+      "Icelandic"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "ISK",
+      "name": "Icelandic króna",
+      "symbol": "kr"
+    },
+    "callingCode": "+354",
+    "demonym": "Icelander"
   },
   {
     "id": "in",
@@ -1618,8 +2561,23 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 3287590,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Hindi",
+      "Tamil"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "INR",
+      "name": "Indian rupee",
+      "symbol": "₹"
+    },
+    "callingCode": "+91",
+    "demonym": "Indian",
+    "notableRiver": "Ganges",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1647,8 +2605,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 1904569,
+    "landlocked": false,
+    "languages": [
+      "Indonesian"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "IDR",
+      "name": "Indonesian rupiah",
+      "symbol": "Rp"
+    },
+    "callingCode": "+62",
+    "demonym": "Indonesian",
+    "notableRiver": "Kapuas",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1671,8 +2642,20 @@
       "tr"
     ],
     "facts": [],
+    "area": 1648195,
+    "landlocked": false,
+    "languages": [
+      "Persian (Farsi)"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "IRR",
+      "name": "Iranian rial",
+      "symbol": "﷼"
+    },
+    "callingCode": "+98",
+    "demonym": "Iranian"
   },
   {
     "id": "iq",
@@ -1693,8 +2676,22 @@
       "tr"
     ],
     "facts": [],
+    "area": 438317,
+    "landlocked": false,
+    "languages": [
+      "Arabic",
+      "Aramaic",
+      "Sorani"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "IQD",
+      "name": "Iraqi dinar",
+      "symbol": "ع.د"
+    },
+    "callingCode": "+964",
+    "demonym": "Iraqi"
   },
   {
     "id": "ie",
@@ -1719,8 +2716,22 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 70273,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Irish"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+353",
+    "demonym": "Irish",
+    "notableRiver": "Shannon",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1749,8 +2760,22 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 20770,
+    "landlocked": false,
+    "languages": [
+      "Arabic",
+      "Hebrew"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "ILS",
+      "name": "Israeli new shekel",
+      "symbol": "₪"
+    },
+    "callingCode": "+972",
+    "demonym": "Israeli",
+    "notableRiver": "Jordan",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1781,8 +2806,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 301336,
+    "landlocked": false,
+    "languages": [
+      "Italian"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+39",
+    "demonym": "Italian",
+    "notableRiver": "Po",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1803,8 +2841,20 @@
       "ml"
     ],
     "facts": [],
+    "area": 322463,
+    "landlocked": false,
+    "languages": [
+      "French"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XOF",
+      "name": "West African CFA franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+225",
+    "demonym": "Ivorian"
   },
   {
     "id": "jm",
@@ -1827,8 +2877,22 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 10991,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Jamaican Patois"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "JMD",
+      "name": "Jamaican dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+1876",
+    "demonym": "Jamaican",
+    "notableRiver": "Rio Minho",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1852,8 +2916,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 377930,
+    "landlocked": false,
+    "languages": [
+      "Japanese"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "JPY",
+      "name": "Japanese yen",
+      "symbol": "¥"
+    },
+    "callingCode": "+81",
+    "demonym": "Japanese",
+    "notableRiver": "Shinano",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1873,8 +2950,20 @@
       "sy"
     ],
     "facts": [],
+    "area": 89342,
+    "landlocked": false,
+    "languages": [
+      "Arabic"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "JOD",
+      "name": "Jordanian dinar",
+      "symbol": "د.ا"
+    },
+    "callingCode": "+962",
+    "demonym": "Jordanian"
   },
   {
     "id": "kz",
@@ -1903,8 +2992,22 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 2724900,
+    "landlocked": true,
+    "languages": [
+      "Kazakh",
+      "Russian"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "KZT",
+      "name": "Kazakhstani tenge",
+      "symbol": "₸"
+    },
+    "callingCode": "+7",
+    "demonym": "Kazakhstani",
+    "notableRiver": "Irtysh",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1934,8 +3037,22 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 580367,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Swahili"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "KES",
+      "name": "Kenyan shilling",
+      "symbol": "Sh"
+    },
+    "callingCode": "+254",
+    "demonym": "Kenyan",
+    "notableRiver": "Tana",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -1950,8 +3067,21 @@
     "geometryId": "ki",
     "neighbours": [],
     "facts": [],
+    "area": 811,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Gilbertese"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "AUD",
+      "name": "Australian dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+686",
+    "demonym": "I-Kiribati"
   },
   {
     "id": "kw",
@@ -1968,8 +3098,20 @@
       "sa"
     ],
     "facts": [],
+    "area": 17818,
+    "landlocked": false,
+    "languages": [
+      "Arabic"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "KWD",
+      "name": "Kuwaiti dinar",
+      "symbol": "د.ك"
+    },
+    "callingCode": "+965",
+    "demonym": "Kuwaiti"
   },
   {
     "id": "kg",
@@ -1988,8 +3130,21 @@
       "uz"
     ],
     "facts": [],
+    "area": 199951,
+    "landlocked": true,
+    "languages": [
+      "Kyrgyz",
+      "Russian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "KGS",
+      "name": "Kyrgyzstani som",
+      "symbol": "с"
+    },
+    "callingCode": "+996",
+    "demonym": "Kirghiz"
   },
   {
     "id": "la",
@@ -2009,8 +3164,20 @@
       "vn"
     ],
     "facts": [],
+    "area": 236800,
+    "landlocked": true,
+    "languages": [
+      "Lao"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "LAK",
+      "name": "Lao kip",
+      "symbol": "₭"
+    },
+    "callingCode": "+856",
+    "demonym": "Laotian"
   },
   {
     "id": "lv",
@@ -2029,8 +3196,20 @@
       "ru"
     ],
     "facts": [],
+    "area": 64559,
+    "landlocked": false,
+    "languages": [
+      "Latvian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+371",
+    "demonym": "Latvian"
   },
   {
     "id": "lb",
@@ -2047,8 +3226,21 @@
       "sy"
     ],
     "facts": [],
+    "area": 10452,
+    "landlocked": false,
+    "languages": [
+      "Arabic",
+      "French"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "LBP",
+      "name": "Lebanese pound",
+      "symbol": "ل.ل"
+    },
+    "callingCode": "+961",
+    "demonym": "Lebanese"
   },
   {
     "id": "ls",
@@ -2064,8 +3256,21 @@
       "za"
     ],
     "facts": [],
+    "area": 30355,
+    "landlocked": true,
+    "languages": [
+      "English",
+      "Sotho"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "LSL",
+      "name": "Lesotho loti",
+      "symbol": "L"
+    },
+    "callingCode": "+266",
+    "demonym": "Mosotho"
   },
   {
     "id": "lr",
@@ -2083,8 +3288,20 @@
       "sl"
     ],
     "facts": [],
+    "area": 111369,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "LRD",
+      "name": "Liberian dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+231",
+    "demonym": "Liberian"
   },
   {
     "id": "ly",
@@ -2105,8 +3322,20 @@
       "tn"
     ],
     "facts": [],
+    "area": 1759540,
+    "landlocked": false,
+    "languages": [
+      "Arabic"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "LYD",
+      "name": "Libyan dinar",
+      "symbol": "ل.د"
+    },
+    "callingCode": "+218",
+    "demonym": "Libyan"
   },
   {
     "id": "li",
@@ -2123,8 +3352,20 @@
       "ch"
     ],
     "facts": [],
+    "area": 160,
+    "landlocked": true,
+    "languages": [
+      "German"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "CHF",
+      "name": "Swiss franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+423",
+    "demonym": "Liechtensteiner"
   },
   {
     "id": "lt",
@@ -2143,8 +3384,20 @@
       "ru"
     ],
     "facts": [],
+    "area": 65300,
+    "landlocked": false,
+    "languages": [
+      "Lithuanian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+370",
+    "demonym": "Lithuanian"
   },
   {
     "id": "lu",
@@ -2162,8 +3415,22 @@
       "fr"
     ],
     "facts": [],
+    "area": 2586,
+    "landlocked": true,
+    "languages": [
+      "German",
+      "French",
+      "Luxembourgish"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+352",
+    "demonym": "Luxembourger"
   },
   {
     "id": "mg",
@@ -2177,8 +3444,21 @@
     "geometryId": "mg",
     "neighbours": [],
     "facts": [],
+    "area": 587041,
+    "landlocked": false,
+    "languages": [
+      "French",
+      "Malagasy"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "MGA",
+      "name": "Malagasy ariary",
+      "symbol": "Ar"
+    },
+    "callingCode": "+261",
+    "demonym": "Malagasy"
   },
   {
     "id": "mw",
@@ -2196,8 +3476,21 @@
       "zm"
     ],
     "facts": [],
+    "area": 118484,
+    "landlocked": true,
+    "languages": [
+      "English",
+      "Chewa"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "MWK",
+      "name": "Malawian kwacha",
+      "symbol": "MK"
+    },
+    "callingCode": "+265",
+    "demonym": "Malawian"
   },
   {
     "id": "my",
@@ -2215,8 +3508,21 @@
       "th"
     ],
     "facts": [],
+    "area": 330803,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Malay"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "MYR",
+      "name": "Malaysian ringgit",
+      "symbol": "RM"
+    },
+    "callingCode": "+60",
+    "demonym": "Malaysian"
   },
   {
     "id": "mv",
@@ -2230,8 +3536,20 @@
     "geometryId": "mv",
     "neighbours": [],
     "facts": [],
+    "area": 300,
+    "landlocked": false,
+    "languages": [
+      "Maldivian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "MVR",
+      "name": "Maldivian rufiyaa",
+      "symbol": ".ރ"
+    },
+    "callingCode": "+960",
+    "demonym": "Maldivan"
   },
   {
     "id": "ml",
@@ -2262,8 +3580,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 1240192,
+    "landlocked": true,
+    "languages": [
+      "French"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "XOF",
+      "name": "West African CFA franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+223",
+    "demonym": "Malian",
+    "notableRiver": "Niger",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2278,8 +3609,21 @@
     "geometryId": "mt",
     "neighbours": [],
     "facts": [],
+    "area": 316,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Maltese"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+356",
+    "demonym": "Maltese"
   },
   {
     "id": "mh",
@@ -2293,8 +3637,21 @@
     "geometryId": "mh",
     "neighbours": [],
     "facts": [],
+    "area": 181,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Marshallese"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "USD",
+      "name": "United States dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+692",
+    "demonym": "Marshallese"
   },
   {
     "id": "mr",
@@ -2312,8 +3669,20 @@
       "sn"
     ],
     "facts": [],
+    "area": 1030700,
+    "landlocked": false,
+    "languages": [
+      "Arabic"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "MRU",
+      "name": "Mauritanian ouguiya",
+      "symbol": "UM"
+    },
+    "callingCode": "+222",
+    "demonym": "Mauritanian"
   },
   {
     "id": "mu",
@@ -2327,8 +3696,22 @@
     "geometryId": "mu",
     "neighbours": [],
     "facts": [],
+    "area": 2040,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "French",
+      "Mauritian Creole"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "MUR",
+      "name": "Mauritian rupee",
+      "symbol": "₨"
+    },
+    "callingCode": "+230",
+    "demonym": "Mauritian"
   },
   {
     "id": "mx",
@@ -2355,8 +3738,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 1964375,
+    "landlocked": false,
+    "languages": [
+      "Spanish"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "MXN",
+      "name": "Mexican peso",
+      "symbol": "$"
+    },
+    "callingCode": "+52",
+    "demonym": "Mexican",
+    "notableRiver": "Rio Grande",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2371,8 +3767,15 @@
     "geometryId": "fm",
     "neighbours": [],
     "facts": [],
+    "area": 702,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "callingCode": "+691",
+    "demonym": "Micronesian"
   },
   {
     "id": "md",
@@ -2389,8 +3792,20 @@
       "ua"
     ],
     "facts": [],
+    "area": 33846,
+    "landlocked": true,
+    "languages": [
+      "Moldavian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "MDL",
+      "name": "Moldovan leu",
+      "symbol": "L"
+    },
+    "callingCode": "+373",
+    "demonym": "Moldovan"
   },
   {
     "id": "mc",
@@ -2406,8 +3821,20 @@
       "fr"
     ],
     "facts": [],
+    "area": 2.02,
+    "landlocked": false,
+    "languages": [
+      "French"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+377",
+    "demonym": "Monegasque"
   },
   {
     "id": "mn",
@@ -2424,8 +3851,20 @@
       "ru"
     ],
     "facts": [],
+    "area": 1564110,
+    "landlocked": true,
+    "languages": [
+      "Mongolian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "MNT",
+      "name": "Mongolian tögrög",
+      "symbol": "₮"
+    },
+    "callingCode": "+976",
+    "demonym": "Mongolian"
   },
   {
     "id": "me",
@@ -2444,8 +3883,20 @@
       "rs"
     ],
     "facts": [],
+    "area": 13812,
+    "landlocked": false,
+    "languages": [
+      "Montenegrin"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+382",
+    "demonym": "Montenegrin"
   },
   {
     "id": "ma",
@@ -2471,8 +3922,22 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 446550,
+    "landlocked": false,
+    "languages": [
+      "Arabic",
+      "Berber"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "MAD",
+      "name": "Moroccan dirham",
+      "symbol": "د.م."
+    },
+    "callingCode": "+212",
+    "demonym": "Moroccan",
+    "notableRiver": "Draa",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2494,8 +3959,20 @@
       "zw"
     ],
     "facts": [],
+    "area": 801590,
+    "landlocked": false,
+    "languages": [
+      "Portuguese"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "MZN",
+      "name": "Mozambican metical",
+      "symbol": "MT"
+    },
+    "callingCode": "+258",
+    "demonym": "Mozambican"
   },
   {
     "id": "mm",
@@ -2515,8 +3992,20 @@
       "th"
     ],
     "facts": [],
+    "area": 676578,
+    "landlocked": false,
+    "languages": [
+      "Burmese"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "MMK",
+      "name": "Burmese kyat",
+      "symbol": "Ks"
+    },
+    "callingCode": "+95",
+    "demonym": "Burmese"
   },
   {
     "id": "na",
@@ -2535,8 +4024,28 @@
       "zm"
     ],
     "facts": [],
+    "area": 825615,
+    "landlocked": false,
+    "languages": [
+      "Afrikaans",
+      "German",
+      "English",
+      "Herero",
+      "Khoekhoe",
+      "Kwangali",
+      "Lozi",
+      "Ndonga",
+      "Tswana"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "NAD",
+      "name": "Namibian dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+264",
+    "demonym": "Namibian"
   },
   {
     "id": "nr",
@@ -2550,8 +4059,21 @@
     "geometryId": "nr",
     "neighbours": [],
     "facts": [],
+    "area": 21,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Nauru"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "AUD",
+      "name": "Australian dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+674",
+    "demonym": "Nauruan"
   },
   {
     "id": "np",
@@ -2568,8 +4090,20 @@
       "in"
     ],
     "facts": [],
+    "area": 147181,
+    "landlocked": true,
+    "languages": [
+      "Nepali"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "NPR",
+      "name": "Nepalese rupee",
+      "symbol": "₨"
+    },
+    "callingCode": "+977",
+    "demonym": "Nepalese"
   },
   {
     "id": "nl",
@@ -2595,8 +4129,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 41850,
+    "landlocked": false,
+    "languages": [
+      "Dutch"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+31",
+    "demonym": "Dutch",
+    "notableRiver": "Rhine",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2620,8 +4167,23 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 270467,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Māori",
+      "New Zealand Sign Language"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "NZD",
+      "name": "New Zealand dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+64",
+    "demonym": "New Zealander",
+    "notableRiver": "Waikato",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2639,8 +4201,20 @@
       "hn"
     ],
     "facts": [],
+    "area": 130373,
+    "landlocked": false,
+    "languages": [
+      "Spanish"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "NIO",
+      "name": "Nicaraguan córdoba",
+      "symbol": "C$"
+    },
+    "callingCode": "+505",
+    "demonym": "Nicaraguan"
   },
   {
     "id": "ne",
@@ -2662,8 +4236,20 @@
       "td"
     ],
     "facts": [],
+    "area": 1267000,
+    "landlocked": true,
+    "languages": [
+      "French"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XOF",
+      "name": "West African CFA franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+227",
+    "demonym": "Nigerien"
   },
   {
     "id": "ng",
@@ -2691,8 +4277,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 923768,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "NGN",
+      "name": "Nigerian naira",
+      "symbol": "₦"
+    },
+    "callingCode": "+234",
+    "demonym": "Nigerian",
+    "notableRiver": "Niger",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2711,8 +4310,20 @@
       "ru"
     ],
     "facts": [],
+    "area": 120538,
+    "landlocked": false,
+    "languages": [
+      "Korean"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "KPW",
+      "name": "North Korean won",
+      "symbol": "₩"
+    },
+    "callingCode": "+850",
+    "demonym": "North Korean"
   },
   {
     "id": "mk",
@@ -2731,8 +4342,20 @@
       "rs"
     ],
     "facts": [],
+    "area": 25713,
+    "landlocked": true,
+    "languages": [
+      "Macedonian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "MKD",
+      "name": "denar",
+      "symbol": "den"
+    },
+    "callingCode": "+389",
+    "demonym": "Macedonian"
   },
   {
     "id": "no",
@@ -2759,8 +4382,23 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 323802,
+    "landlocked": false,
+    "languages": [
+      "Norwegian Nynorsk",
+      "Norwegian Bokmål",
+      "Sami"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "NOK",
+      "name": "Norwegian krone",
+      "symbol": "kr"
+    },
+    "callingCode": "+47",
+    "demonym": "Norwegian",
+    "notableRiver": "Glomma",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2779,8 +4417,20 @@
       "ye"
     ],
     "facts": [],
+    "area": 309500,
+    "landlocked": false,
+    "languages": [
+      "Arabic"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "OMR",
+      "name": "Omani rial",
+      "symbol": "ر.ع."
+    },
+    "callingCode": "+968",
+    "demonym": "Omani"
   },
   {
     "id": "pk",
@@ -2799,8 +4449,21 @@
       "ir"
     ],
     "facts": [],
+    "area": 881912,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Urdu"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "PKR",
+      "name": "Pakistani rupee",
+      "symbol": "₨"
+    },
+    "callingCode": "+92",
+    "demonym": "Pakistani"
   },
   {
     "id": "pw",
@@ -2814,8 +4477,21 @@
     "geometryId": "pw",
     "neighbours": [],
     "facts": [],
+    "area": 459,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Palauan"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "USD",
+      "name": "United States dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+680",
+    "demonym": "Palauan"
   },
   {
     "id": "pa",
@@ -2832,8 +4508,20 @@
       "cr"
     ],
     "facts": [],
+    "area": 75417,
+    "landlocked": false,
+    "languages": [
+      "Spanish"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "PAB",
+      "name": "Panamanian balboa",
+      "symbol": "B/."
+    },
+    "callingCode": "+507",
+    "demonym": "Panamanian"
   },
   {
     "id": "pg",
@@ -2858,8 +4546,23 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 462840,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Hiri Motu",
+      "Tok Pisin"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "PGK",
+      "name": "Papua New Guinean kina",
+      "symbol": "K"
+    },
+    "callingCode": "+675",
+    "demonym": "Papua New Guinean",
+    "notableRiver": "Sepik",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2878,8 +4581,21 @@
       "br"
     ],
     "facts": [],
+    "area": 406752,
+    "landlocked": true,
+    "languages": [
+      "Guaraní",
+      "Spanish"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "PYG",
+      "name": "Paraguayan guaraní",
+      "symbol": "₲"
+    },
+    "callingCode": "+595",
+    "demonym": "Paraguayan"
   },
   {
     "id": "pe",
@@ -2908,8 +4624,23 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 1285216,
+    "landlocked": false,
+    "languages": [
+      "Aymara",
+      "Quechua",
+      "Spanish"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "PEN",
+      "name": "Peruvian sol",
+      "symbol": "S/."
+    },
+    "callingCode": "+51",
+    "demonym": "Peruvian",
+    "notableRiver": "Amazon",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2924,8 +4655,21 @@
     "geometryId": "ph",
     "neighbours": [],
     "facts": [],
+    "area": 342353,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Filipino"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "PHP",
+      "name": "Philippine peso",
+      "symbol": "₱"
+    },
+    "callingCode": "+63",
+    "demonym": "Filipino"
   },
   {
     "id": "pl",
@@ -2956,8 +4700,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 312679,
+    "landlocked": false,
+    "languages": [
+      "Polish"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "PLN",
+      "name": "Polish złoty",
+      "symbol": "zł"
+    },
+    "callingCode": "+48",
+    "demonym": "Polish",
+    "notableRiver": "Vistula",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -2974,8 +4731,20 @@
       "es"
     ],
     "facts": [],
+    "area": 92090,
+    "landlocked": false,
+    "languages": [
+      "Portuguese"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+351",
+    "demonym": "Portuguese"
   },
   {
     "id": "qa",
@@ -2991,8 +4760,20 @@
       "sa"
     ],
     "facts": [],
+    "area": 11586,
+    "landlocked": false,
+    "languages": [
+      "Arabic"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "QAR",
+      "name": "Qatari riyal",
+      "symbol": "ر.ق"
+    },
+    "callingCode": "+974",
+    "demonym": "Qatari"
   },
   {
     "id": "cg",
@@ -3012,8 +4793,22 @@
       "ga"
     ],
     "facts": [],
+    "area": 342000,
+    "landlocked": false,
+    "languages": [
+      "French",
+      "Kikongo",
+      "Lingala"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XAF",
+      "name": "Central African CFA franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+242",
+    "demonym": "Congolese"
   },
   {
     "id": "ro",
@@ -3033,8 +4828,20 @@
       "ua"
     ],
     "facts": [],
+    "area": 238391,
+    "landlocked": false,
+    "languages": [
+      "Romanian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "RON",
+      "name": "Romanian leu",
+      "symbol": "lei"
+    },
+    "callingCode": "+40",
+    "demonym": "Romanian"
   },
   {
     "id": "ru",
@@ -3072,8 +4879,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 17098242,
+    "landlocked": false,
+    "languages": [
+      "Russian"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "RUB",
+      "name": "Russian ruble",
+      "symbol": "₽"
+    },
+    "callingCode": "+7",
+    "demonym": "Russian",
+    "notableRiver": "Volga",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -3093,8 +4913,22 @@
       "ug"
     ],
     "facts": [],
+    "area": 26338,
+    "landlocked": true,
+    "languages": [
+      "English",
+      "French",
+      "Kinyarwanda"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "RWF",
+      "name": "Rwandan franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+250",
+    "demonym": "Rwandan"
   },
   {
     "id": "kn",
@@ -3108,8 +4942,20 @@
     "geometryId": "kn",
     "neighbours": [],
     "facts": [],
+    "area": 261,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XCD",
+      "name": "Eastern Caribbean dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+1869",
+    "demonym": "Kittitian or Nevisian"
   },
   {
     "id": "lc",
@@ -3123,8 +4969,20 @@
     "geometryId": "lc",
     "neighbours": [],
     "facts": [],
+    "area": 616,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XCD",
+      "name": "Eastern Caribbean dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+1758",
+    "demonym": "Saint Lucian"
   },
   {
     "id": "vc",
@@ -3138,8 +4996,20 @@
     "geometryId": "vc",
     "neighbours": [],
     "facts": [],
+    "area": 389,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XCD",
+      "name": "Eastern Caribbean dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+1784",
+    "demonym": "Saint Vincentian"
   },
   {
     "id": "ws",
@@ -3153,8 +5023,21 @@
     "geometryId": "ws",
     "neighbours": [],
     "facts": [],
+    "area": 2842,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Samoan"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "WST",
+      "name": "Samoan tālā",
+      "symbol": "T"
+    },
+    "callingCode": "+685",
+    "demonym": "Samoan"
   },
   {
     "id": "sm",
@@ -3170,8 +5053,20 @@
       "it"
     ],
     "facts": [],
+    "area": 61,
+    "landlocked": true,
+    "languages": [
+      "Italian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+378",
+    "demonym": "Sammarinese"
   },
   {
     "id": "st",
@@ -3185,8 +5080,20 @@
     "geometryId": "st",
     "neighbours": [],
     "facts": [],
+    "area": 964,
+    "landlocked": false,
+    "languages": [
+      "Portuguese"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "STN",
+      "name": "São Tomé and Príncipe dobra",
+      "symbol": "Db"
+    },
+    "callingCode": "+239",
+    "demonym": "Sao Tomean"
   },
   {
     "id": "sa",
@@ -3217,8 +5124,20 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 2149690,
+    "landlocked": false,
+    "languages": [
+      "Arabic"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "SAR",
+      "name": "Saudi riyal",
+      "symbol": "ر.س"
+    },
+    "callingCode": "+966",
+    "demonym": "Saudi Arabian",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -3248,8 +5167,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 196722,
+    "landlocked": false,
+    "languages": [
+      "French"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "XOF",
+      "name": "West African CFA franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+221",
+    "demonym": "Senegalese",
+    "notableRiver": "Senegal",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -3272,8 +5204,20 @@
       "ro"
     ],
     "facts": [],
+    "area": 88361,
+    "landlocked": true,
+    "languages": [
+      "Serbian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "RSD",
+      "name": "Serbian dinar",
+      "symbol": "дин."
+    },
+    "callingCode": "+381",
+    "demonym": "Serbian"
   },
   {
     "id": "sc",
@@ -3287,8 +5231,22 @@
     "geometryId": "sc",
     "neighbours": [],
     "facts": [],
+    "area": 452,
+    "landlocked": false,
+    "languages": [
+      "Seychellois Creole",
+      "English",
+      "French"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "SCR",
+      "name": "Seychellois rupee",
+      "symbol": "₨"
+    },
+    "callingCode": "+248",
+    "demonym": "Seychellois"
   },
   {
     "id": "sl",
@@ -3305,8 +5263,20 @@
       "lr"
     ],
     "facts": [],
+    "area": 71740,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "SLL",
+      "name": "Sierra Leonean leone",
+      "symbol": "Le"
+    },
+    "callingCode": "+232",
+    "demonym": "Sierra Leonean"
   },
   {
     "id": "sg",
@@ -3320,8 +5290,23 @@
     "geometryId": "sg",
     "neighbours": [],
     "facts": [],
+    "area": 710,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Malay",
+      "Tamil",
+      "Chinese"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "SGD",
+      "name": "Singapore dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+65",
+    "demonym": "Singaporean"
   },
   {
     "id": "sk",
@@ -3341,8 +5326,20 @@
       "ua"
     ],
     "facts": [],
+    "area": 49037,
+    "landlocked": true,
+    "languages": [
+      "Slovak"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+421",
+    "demonym": "Slovak"
   },
   {
     "id": "si",
@@ -3361,8 +5358,20 @@
       "it"
     ],
     "facts": [],
+    "area": 20273,
+    "landlocked": false,
+    "languages": [
+      "Slovene"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+386",
+    "demonym": "Slovene"
   },
   {
     "id": "sb",
@@ -3376,8 +5385,20 @@
     "geometryId": "sb",
     "neighbours": [],
     "facts": [],
+    "area": 28896,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "SBD",
+      "name": "Solomon Islands dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+677",
+    "demonym": "Solomon Islander"
   },
   {
     "id": "so",
@@ -3395,8 +5416,21 @@
       "ke"
     ],
     "facts": [],
+    "area": 637657,
+    "landlocked": false,
+    "languages": [
+      "Arabic",
+      "Somali"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "SOS",
+      "name": "Somali shilling",
+      "symbol": "Sh"
+    },
+    "callingCode": "+252",
+    "demonym": "Somali"
   },
   {
     "id": "za",
@@ -3426,8 +5460,31 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 1221037,
+    "landlocked": false,
+    "languages": [
+      "Afrikaans",
+      "English",
+      "Southern Ndebele",
+      "Northern Sotho",
+      "Southern Sotho",
+      "Swazi",
+      "Tswana",
+      "Tsonga",
+      "Venda",
+      "Xhosa",
+      "Zulu"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "ZAR",
+      "name": "South African rand",
+      "symbol": "R"
+    },
+    "callingCode": "+27",
+    "demonym": "South African",
+    "notableRiver": "Orange",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -3453,8 +5510,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 100210,
+    "landlocked": false,
+    "languages": [
+      "Korean"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "KRW",
+      "name": "South Korean won",
+      "symbol": "₩"
+    },
+    "callingCode": "+82",
+    "demonym": "South Korean",
+    "notableRiver": "Han",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -3476,8 +5546,20 @@
       "ug"
     ],
     "facts": [],
+    "area": 619745,
+    "landlocked": true,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "SSP",
+      "name": "South Sudanese pound",
+      "symbol": "£"
+    },
+    "callingCode": "+211",
+    "demonym": "South Sudanese"
   },
   {
     "id": "es",
@@ -3505,8 +5587,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 505992,
+    "landlocked": false,
+    "languages": [
+      "Spanish"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+34",
+    "demonym": "Spanish",
+    "notableRiver": "Ebro",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -3523,8 +5618,21 @@
       "in"
     ],
     "facts": [],
+    "area": 65610,
+    "landlocked": false,
+    "languages": [
+      "Sinhala",
+      "Tamil"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "LKR",
+      "name": "Sri Lankan rupee",
+      "symbol": "Rs  රු"
+    },
+    "callingCode": "+94",
+    "demonym": "Sri Lankan"
   },
   {
     "id": "sd",
@@ -3546,8 +5654,21 @@
       "td"
     ],
     "facts": [],
+    "area": 1886068,
+    "landlocked": false,
+    "languages": [
+      "Arabic",
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "SDG",
+      "name": "Sudanese pound",
+      "symbol": "PT"
+    },
+    "callingCode": "+249",
+    "demonym": "Sudanese"
   },
   {
     "id": "sr",
@@ -3564,8 +5685,20 @@
       "gy"
     ],
     "facts": [],
+    "area": 163820,
+    "landlocked": false,
+    "languages": [
+      "Dutch"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "SRD",
+      "name": "Surinamese dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+597",
+    "demonym": "Surinamer"
   },
   {
     "id": "se",
@@ -3591,8 +5724,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 450295,
+    "landlocked": false,
+    "languages": [
+      "Swedish"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "SEK",
+      "name": "Swedish krona",
+      "symbol": "kr"
+    },
+    "callingCode": "+46",
+    "demonym": "Swedish",
+    "notableRiver": "Klarälven",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -3613,8 +5759,23 @@
       "li"
     ],
     "facts": [],
+    "area": 41284,
+    "landlocked": true,
+    "languages": [
+      "French",
+      "Swiss German",
+      "Italian",
+      "Romansh"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "CHF",
+      "name": "Swiss franc",
+      "symbol": "Fr."
+    },
+    "callingCode": "+41",
+    "demonym": "Swiss"
   },
   {
     "id": "sy",
@@ -3634,8 +5795,20 @@
       "tr"
     ],
     "facts": [],
+    "area": 185180,
+    "landlocked": false,
+    "languages": [
+      "Arabic"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "SYP",
+      "name": "Syrian pound",
+      "symbol": "£"
+    },
+    "callingCode": "+963",
+    "demonym": "Syrian"
   },
   {
     "id": "tj",
@@ -3654,8 +5827,21 @@
       "uz"
     ],
     "facts": [],
+    "area": 143100,
+    "landlocked": true,
+    "languages": [
+      "Russian",
+      "Tajik"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "TJS",
+      "name": "Tajikistani somoni",
+      "symbol": "ЅМ"
+    },
+    "callingCode": "+992",
+    "demonym": "Tadzhik"
   },
   {
     "id": "tz",
@@ -3687,8 +5873,22 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 945087,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Swahili"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "TZS",
+      "name": "Tanzanian shilling",
+      "symbol": "Sh"
+    },
+    "callingCode": "+255",
+    "demonym": "Tanzanian",
+    "notableRiver": "Rufiji",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -3717,8 +5917,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 513120,
+    "landlocked": false,
+    "languages": [
+      "Thai"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "THB",
+      "name": "Thai baht",
+      "symbol": "฿"
+    },
+    "callingCode": "+66",
+    "demonym": "Thai",
+    "notableRiver": "Chao Phraya",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -3735,8 +5948,21 @@
       "id"
     ],
     "facts": [],
+    "area": 14874,
+    "landlocked": false,
+    "languages": [
+      "Portuguese",
+      "Tetum"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "USD",
+      "name": "United States dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+670",
+    "demonym": "East Timorese"
   },
   {
     "id": "tg",
@@ -3754,8 +5980,20 @@
       "gh"
     ],
     "facts": [],
+    "area": 56785,
+    "landlocked": false,
+    "languages": [
+      "French"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "XOF",
+      "name": "West African CFA franc",
+      "symbol": "Fr"
+    },
+    "callingCode": "+228",
+    "demonym": "Togolese"
   },
   {
     "id": "to",
@@ -3769,8 +6007,21 @@
     "geometryId": "to",
     "neighbours": [],
     "facts": [],
+    "area": 747,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Tongan"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "TOP",
+      "name": "Tongan paʻanga",
+      "symbol": "T$"
+    },
+    "callingCode": "+676",
+    "demonym": "Tongan"
   },
   {
     "id": "tt",
@@ -3784,8 +6035,20 @@
     "geometryId": "tt",
     "neighbours": [],
     "facts": [],
+    "area": 5130,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "TTD",
+      "name": "Trinidad and Tobago dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+1868",
+    "demonym": "Trinidadian"
   },
   {
     "id": "tn",
@@ -3802,8 +6065,20 @@
       "ly"
     ],
     "facts": [],
+    "area": 163610,
+    "landlocked": false,
+    "languages": [
+      "Arabic"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "TND",
+      "name": "Tunisian dinar",
+      "symbol": "د.ت"
+    },
+    "callingCode": "+216",
+    "demonym": "Tunisian"
   },
   {
     "id": "tr",
@@ -3835,8 +6110,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 783562,
+    "landlocked": false,
+    "languages": [
+      "Turkish"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "TRY",
+      "name": "Turkish lira",
+      "symbol": "₺"
+    },
+    "callingCode": "+90",
+    "demonym": "Turkish",
+    "notableRiver": "Kızılırmak",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -3856,8 +6144,21 @@
       "uz"
     ],
     "facts": [],
+    "area": 488100,
+    "landlocked": true,
+    "languages": [
+      "Russian",
+      "Turkmen"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "TMT",
+      "name": "Turkmenistan manat",
+      "symbol": "m"
+    },
+    "callingCode": "+993",
+    "demonym": "Turkmen"
   },
   {
     "id": "tv",
@@ -3871,8 +6172,21 @@
     "geometryId": "tv",
     "neighbours": [],
     "facts": [],
+    "area": 26,
+    "landlocked": false,
+    "languages": [
+      "English",
+      "Tuvaluan"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "AUD",
+      "name": "Australian dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+688",
+    "demonym": "Tuvaluan"
   },
   {
     "id": "ug",
@@ -3892,8 +6206,21 @@
       "tz"
     ],
     "facts": [],
+    "area": 241550,
+    "landlocked": true,
+    "languages": [
+      "English",
+      "Swahili"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "UGX",
+      "name": "Ugandan shilling",
+      "symbol": "Sh"
+    },
+    "callingCode": "+256",
+    "demonym": "Ugandan"
   },
   {
     "id": "ua",
@@ -3915,8 +6242,20 @@
       "sk"
     ],
     "facts": [],
+    "area": 603500,
+    "landlocked": false,
+    "languages": [
+      "Ukrainian"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "UAH",
+      "name": "Ukrainian hryvnia",
+      "symbol": "₴"
+    },
+    "callingCode": "+380",
+    "demonym": "Ukrainian"
   },
   {
     "id": "ae",
@@ -3933,8 +6272,20 @@
       "sa"
     ],
     "facts": [],
+    "area": 83600,
+    "landlocked": false,
+    "languages": [
+      "Arabic"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "AED",
+      "name": "United Arab Emirates dirham",
+      "symbol": "د.إ"
+    },
+    "callingCode": "+971",
+    "demonym": "Emirati"
   },
   {
     "id": "gb",
@@ -3959,8 +6310,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 242900,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "GBP",
+      "name": "British pound",
+      "symbol": "£"
+    },
+    "callingCode": "+44",
+    "demonym": "British",
+    "notableRiver": "Severn",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -3987,8 +6351,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 9372610,
+    "landlocked": false,
+    "languages": [
+      "English"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "USD",
+      "name": "United States dollar",
+      "symbol": "$"
+    },
+    "callingCode": "+1",
+    "demonym": "American",
+    "notableRiver": "Mississippi",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -4006,8 +6383,20 @@
       "br"
     ],
     "facts": [],
+    "area": 181034,
+    "landlocked": false,
+    "languages": [
+      "Spanish"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "UYU",
+      "name": "Uruguayan peso",
+      "symbol": "$"
+    },
+    "callingCode": "+598",
+    "demonym": "Uruguayan"
   },
   {
     "id": "uz",
@@ -4027,8 +6416,21 @@
       "tm"
     ],
     "facts": [],
+    "area": 447400,
+    "landlocked": true,
+    "languages": [
+      "Russian",
+      "Uzbek"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "UZS",
+      "name": "Uzbekistani soʻm",
+      "symbol": "so'm"
+    },
+    "callingCode": "+998",
+    "demonym": "Uzbekistani"
   },
   {
     "id": "vu",
@@ -4042,8 +6444,22 @@
     "geometryId": "vu",
     "neighbours": [],
     "facts": [],
+    "area": 12189,
+    "landlocked": false,
+    "languages": [
+      "Bislama",
+      "English",
+      "French"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "VUV",
+      "name": "Vanuatu vatu",
+      "symbol": "Vt"
+    },
+    "callingCode": "+678",
+    "demonym": "Ni-Vanuatu"
   },
   {
     "id": "va",
@@ -4059,8 +6475,21 @@
       "it"
     ],
     "facts": [],
+    "area": 0.44,
+    "landlocked": true,
+    "languages": [
+      "Italian",
+      "Latin"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "callingCode": "+3",
+    "demonym": "Vatican"
   },
   {
     "id": "ve",
@@ -4087,8 +6516,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 916445,
+    "landlocked": false,
+    "languages": [
+      "Spanish"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "VES",
+      "name": "Venezuelan bolívar soberano",
+      "symbol": "Bs.S."
+    },
+    "callingCode": "+58",
+    "demonym": "Venezuelan",
+    "notableRiver": "Orinoco",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -4116,8 +6558,21 @@
         "source": "world-explorer/authored"
       }
     ],
+    "area": 331212,
+    "landlocked": false,
+    "languages": [
+      "Vietnamese"
+    ],
     "active": true,
     "source": "world-countries",
+    "currency": {
+      "code": "VND",
+      "name": "Vietnamese đồng",
+      "symbol": "₫"
+    },
+    "callingCode": "+84",
+    "demonym": "Vietnamese",
+    "notableRiver": "Mekong",
     "reviewedAt": "2026-08-13"
   },
   {
@@ -4135,8 +6590,20 @@
       "sa"
     ],
     "facts": [],
+    "area": 527968,
+    "landlocked": false,
+    "languages": [
+      "Arabic"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "YER",
+      "name": "Yemeni rial",
+      "symbol": "﷼"
+    },
+    "callingCode": "+967",
+    "demonym": "Yemeni"
   },
   {
     "id": "zm",
@@ -4159,8 +6626,20 @@
       "zw"
     ],
     "facts": [],
+    "area": 752612,
+    "landlocked": true,
+    "languages": [
+      "English"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "ZMW",
+      "name": "Zambian kwacha",
+      "symbol": "ZK"
+    },
+    "callingCode": "+260",
+    "demonym": "Zambian"
   },
   {
     "id": "zw",
@@ -4179,7 +6658,33 @@
       "zm"
     ],
     "facts": [],
+    "area": 390757,
+    "landlocked": true,
+    "languages": [
+      "Chibarwe",
+      "English",
+      "Kalanga",
+      "Khoisan",
+      "Ndau",
+      "Northern Ndebele",
+      "Chewa",
+      "Shona",
+      "Sotho",
+      "Tonga",
+      "Tswana",
+      "Tsonga",
+      "Venda",
+      "Xhosa",
+      "Zimbabwean Sign Language"
+    ],
     "active": true,
-    "source": "world-countries"
+    "source": "world-countries",
+    "currency": {
+      "code": "BWP",
+      "name": "Botswana pula",
+      "symbol": "P"
+    },
+    "callingCode": "+263",
+    "demonym": "Zimbabwean"
   }
 ]

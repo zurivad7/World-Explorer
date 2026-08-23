@@ -36,6 +36,15 @@ export const countrySchema = z.object({
   neighbours: z.array(z.string()),
   // Facts are authored/reviewed and optional — most countries have none yet.
   facts: z.array(countryFactSchema),
+  area: z.number().nonnegative(),
+  landlocked: z.boolean(),
+  languages: z.array(z.string()),
+  currency: z
+    .object({ code: z.string().min(1), name: z.string().min(1), symbol: z.string().optional() })
+    .optional(),
+  callingCode: z.string().optional(),
+  demonym: z.string().optional(),
+  notableRiver: z.string().optional(),
   active: z.boolean(),
   source: z.string().min(1),
   reviewedAt: z.string().optional(),
