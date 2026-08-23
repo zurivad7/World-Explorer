@@ -89,5 +89,7 @@ Phases 0–4 are complete: foundation, a content dataset covering **all ~194
 independent countries**, an interactive offline-capable world map, the adaptive
 game engine, and all **six playable game modes** plus a daily challenge (with
 immediate feedback and explanations). See [`DEVELOPMENT.md`](DEVELOPMENT.md) for
-the phase plan and what's next (persisting progress, passport and badges in
-Phase 5).
+the phase plan and what's next (offline/PWA hardening and QA).
+
+Progress persists on-device (IndexedDB): mastery, discovered countries, the
+passport, badges and adaptive difficulty all carry across sessions.

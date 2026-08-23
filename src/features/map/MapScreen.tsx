@@ -5,6 +5,8 @@ import { paths } from '@/app/routes';
 import { countries } from '@/data';
 import { CONTINENTS, type Continent } from '@/types';
 import { assetUrl } from '@/lib/assets';
+import { useProgress } from '@/app/providers/ProgressProvider';
+import { MASTERED_THRESHOLD } from '@/lib/game-engine';
 import { LazyWorldMap } from './LazyWorldMap';
 
 /**
@@ -14,8 +16,17 @@ import { LazyWorldMap } from './LazyWorldMap';
  */
 export function MapScreen() {
   const navigate = useNavigate();
+  const { discoveredCountryIds, progressByKey } = useProgress();
   const [continent, setContinent] = useState<Continent | 'all'>('all');
   const [query, setQuery] = useState('');
+
+  const masteredIds = useMemo(() => {
+    const ids = new Set<string>();
+    for (const id of discoveredCountryIds) {
+      if ((progressByKey.get(id)?.masteryScore ?? 0) >= MASTERED_THRESHOLD) ids.add(id);
+    }
+    return ids;
+  }, [discoveredCountryIds, progressByKey]);
 
   const usedContinents = useMemo(
     () => CONTINENTS.filter((c) => countries.some((country) => country.continent === c)),
@@ -35,10 +46,14 @@ export function MapScreen() {
       <LazyWorldMap
         ariaLabel="World map. Tap a country to open its details."
         onSelectCountry={(id) => navigate(paths.country(id))}
+        discoveredIds={discoveredCountryIds}
+        masteredIds={masteredIds}
         className="world-map--explore"
       />
 
-      <p className="map-hint">Tap a country on the map, or find one in the list below.</p>
+      <p className="map-hint">
+        Tap a country to explore it. Countries you have discovered are highlighted.
+      </p>
 
       <label className="field">
         <span className="field__label">Search countries</span>

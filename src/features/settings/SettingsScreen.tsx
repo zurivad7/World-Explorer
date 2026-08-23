@@ -1,16 +1,17 @@
-import { useState } from 'react';
 import { Screen } from '@/components/Screen';
 import { useProfile } from '@/app/providers/ProfileProvider';
-import { resetAll } from '@/lib/storage';
+import { useProgress } from '@/app/providers/ProgressProvider';
 
 /** S11 Settings — sound, motion, age band, reset progress, privacy/about (PRD §13, FR-020). */
 export function SettingsScreen() {
   const { profile, updateProfile } = useProfile();
-  const [resetDone, setResetDone] = useState(false);
+  const { reset } = useProgress();
 
   async function handleReset() {
-    await resetAll();
-    setResetDone(true);
+    if (!window.confirm('Delete all progress and start over? This cannot be undone.')) return;
+    await reset();
+    // Reload for a clean slate (back to onboarding, since the profile is cleared too).
+    window.location.assign(import.meta.env.BASE_URL);
   }
 
   return (
@@ -40,7 +41,6 @@ export function SettingsScreen() {
         <button type="button" className="button button--danger" onClick={() => void handleReset()}>
           Reset all progress
         </button>
-        {resetDone ? <p className="empty-state">Your local progress has been cleared.</p> : null}
       </div>
 
       <div className="settings-group">

@@ -1,6 +1,7 @@
 import { Suspense, lazy, type ReactNode } from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { ProfileProvider, useProfile } from '@/app/providers/ProfileProvider';
+import { ProgressProvider } from '@/app/providers/ProgressProvider';
 import { AppLayout } from '@/app/layout/AppLayout';
 import { paths } from '@/app/routes';
 import { HomeScreen } from '@/features/home/HomeScreen';
@@ -33,7 +34,9 @@ function AppRoutes() {
       <Route
         element={
           <RequireProfile>
-            <AppLayout />
+            <ProgressProvider>
+              <AppLayout />
+            </ProgressProvider>
           </RequireProfile>
         }
       >

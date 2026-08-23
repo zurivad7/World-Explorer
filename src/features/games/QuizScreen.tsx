@@ -1,8 +1,9 @@
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { Screen } from '@/components/Screen';
 import { paths } from '@/app/routes';
 import { useProfile } from '@/app/providers/ProfileProvider';
+import { useProgress } from '@/app/providers/ProgressProvider';
 import { assetUrl } from '@/lib/assets';
 import { getCountryById } from '@/data';
 import { getQuestionsForMode, questions as allQuestions } from '@/data/questions';
@@ -43,6 +44,7 @@ function labelForOption(question: Question, option: string): string {
 export function QuizScreen() {
   const { mode } = useParams<{ mode: string }>();
   const { profile } = useProfile();
+  const progress = useProgress();
   const ageBand = profile?.ageBand ?? '8-10';
 
   const isDaily = mode === DAILY;
@@ -52,15 +54,37 @@ export function QuizScreen() {
   const buildQuestions = useCallback((): Question[] => {
     if (isDaily) return dailyChallengeQuestions(allQuestions, localDateKey(), DEFAULT_SESSION_LENGTH);
     if (!meta) return [];
+    // Adaptive selection reads the player's stored mastery (persisted across sessions).
     return selectQuestions(
       getQuestionsForMode(meta.mode),
-      { ageBand, seed: `${mode}-${Date.now()}` },
+      { ageBand, progress: progress.progressByKey, seed: `${mode}-${Date.now()}` },
       DEFAULT_SESSION_LENGTH
     );
-  }, [isDaily, meta, ageBand, mode]);
+  }, [isDaily, meta, ageBand, mode, progress.progressByKey]);
 
-  const [session, setSession] = useState<QuizSession>(() => createSession(buildQuestions()));
+  const [session, setSession] = useState<QuizSession>(() => createSession([]));
+  const [built, setBuilt] = useState(false);
   const [feedback, setFeedback] = useState<{ chosen: string; result: AnswerResult } | null>(null);
+  const recordedRef = useRef(false);
+
+  // Build the session once the player's progress has loaded (so selection is adaptive).
+  useEffect(() => {
+    if (progress.loading || built) return;
+    setSession(createSession(buildQuestions()));
+    setBuilt(true);
+  }, [progress.loading, built, buildQuestions]);
+
+  // Record the completed session once (counter, recent activity, daily stamp).
+  useEffect(() => {
+    if (!session.finished || session.questions.length === 0 || recordedRef.current) return;
+    recordedRef.current = true;
+    const summary = sessionSummary(session);
+    void progress.recordGameCompleted(
+      isDaily ? 'daily' : meta!.mode,
+      summary.correct,
+      summary.total
+    );
+  }, [session, isDaily, meta, progress]);
 
   const question = currentQuestion(session);
 
@@ -70,8 +94,9 @@ export function QuizScreen() {
       const { session: next, result } = answerCurrent(session, option);
       setSession(next);
       setFeedback({ chosen: option, result });
+      void progress.recordAnswer(question, result.correct);
     },
-    [feedback, question, session]
+    [feedback, question, session, progress]
   );
 
   const goNext = useCallback(() => {
@@ -80,6 +105,7 @@ export function QuizScreen() {
   }, []);
 
   const playAgain = useCallback(() => {
+    recordedRef.current = false;
     setSession(createSession(buildQuestions()));
     setFeedback(null);
   }, [buildQuestions]);
@@ -95,6 +121,14 @@ export function QuizScreen() {
   }
 
   const title = isDaily ? 'Daily Challenge' : (meta?.title ?? 'Quiz');
+
+  if (!built) {
+    return (
+      <Screen title={title}>
+        <p className="loading">Getting your questions ready…</p>
+      </Screen>
+    );
+  }
 
   if (session.questions.length === 0) {
     return (
