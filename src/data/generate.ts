@@ -79,6 +79,26 @@ function seededShuffle<T>(items: T[], seed: string): T[] {
   return out;
 }
 
+/**
+ * Pick `count` deterministic text distractors for a "good to know" fact question
+ * (language, currency, dialing code, domain). Draws from `pool` of all values,
+ * excluding the correct answer and anything in `exclude` (e.g. every language the
+ * country actually speaks, so a real answer is never offered as a wrong option).
+ */
+function valueDistractors(
+  correct: string,
+  pool: string[],
+  exclude: Set<string>,
+  count: number,
+  seed: string
+): string[] {
+  const candidates = seededShuffle(
+    pool.filter((v) => v !== correct && !exclude.has(v)),
+    seed
+  );
+  return candidates.slice(0, count);
+}
+
 function flagDifficulty(hint?: Pick<CountrySource, 'mapSize' | 'similarFlag'>): Difficulty {
   if (hint?.similarFlag) return 'hard';
   if (hint?.mapSize === 'large') return 'easy';
@@ -95,6 +115,14 @@ export function generateQuestions(inputs: GeneratorInputs): Question[] {
   const { countries, hints, templates } = inputs;
   const questions: Question[] = [];
   const byId = new Map(countries.map((c) => [c.id, c]));
+
+  // Value pools for "good to know" fact questions (distractors are drawn from
+  // real values other countries have, so wrong options still look plausible).
+  const uniq = (values: string[]): string[] => [...new Set(values)].sort();
+  const allLanguages = uniq(countries.flatMap((c) => c.languages));
+  const allCurrencies = uniq(countries.map((c) => c.currency?.name ?? '').filter(Boolean));
+  const allCallingCodes = uniq(countries.map((c) => c.callingCode ?? '').filter(Boolean));
+  const allTlds = uniq(countries.map((c) => c.tld ?? '').filter(Boolean));
 
   countries.forEach((c, index) => {
     const hint = hints.get(c.id);
@@ -259,6 +287,124 @@ export function generateQuestions(inputs: GeneratorInputs): Question[] {
         active: true,
         source: SOURCE,
       });
+    }
+
+    // --- Good to know: language ---
+    if (c.languages.length > 0 && allLanguages.length >= 4) {
+      const correct = c.languages[0]!;
+      const distractors = valueDistractors(
+        correct,
+        allLanguages,
+        new Set(c.languages),
+        3,
+        `gtk-lang-d-${c.id}`
+      );
+      if (distractors.length === 3) {
+        const options = seededShuffle([correct, ...distractors], `gtk-lang-${c.id}`);
+        const spoken = c.languages.join(', ');
+        questions.push({
+          id: `good-to-know-language-${c.id}`,
+          type: 'good-to-know',
+          difficulty: 'medium',
+          ageBands: ageBands('medium'),
+          topic: 'facts',
+          prompt: `Which language do people speak in ${c.name}?`,
+          options,
+          correctAnswer: correct,
+          explanation: `In ${c.name}, people speak ${spoken}.`,
+          countryId: c.id,
+          active: true,
+          source: SOURCE,
+        });
+      }
+    }
+
+    // --- Good to know: currency (money) ---
+    if (c.currency && allCurrencies.length >= 4) {
+      const correct = c.currency.name;
+      const distractors = valueDistractors(
+        correct,
+        allCurrencies,
+        new Set([correct]),
+        3,
+        `gtk-cur-d-${c.id}`
+      );
+      if (distractors.length === 3) {
+        const options = seededShuffle([correct, ...distractors], `gtk-cur-${c.id}`);
+        const symbol = c.currency.symbol ? ` (${c.currency.symbol})` : '';
+        questions.push({
+          id: `good-to-know-currency-${c.id}`,
+          type: 'good-to-know',
+          difficulty: 'medium',
+          ageBands: ageBands('medium'),
+          topic: 'facts',
+          prompt: `What money do people use in ${c.name}?`,
+          options,
+          correctAnswer: correct,
+          explanation: `${c.name} uses the ${correct}${symbol}.`,
+          countryId: c.id,
+          active: true,
+          source: SOURCE,
+        });
+      }
+    }
+
+    // --- Good to know: dialing (calling) code ---
+    if (c.callingCode && allCallingCodes.length >= 4) {
+      const correct = c.callingCode;
+      const distractors = valueDistractors(
+        correct,
+        allCallingCodes,
+        new Set([correct]),
+        3,
+        `gtk-call-d-${c.id}`
+      );
+      if (distractors.length === 3) {
+        const options = seededShuffle([correct, ...distractors], `gtk-call-${c.id}`);
+        questions.push({
+          id: `good-to-know-calling-${c.id}`,
+          type: 'good-to-know',
+          difficulty: 'hard',
+          ageBands: ageBands('hard'),
+          topic: 'facts',
+          prompt: `What is the phone dialing code for ${c.name}?`,
+          options,
+          correctAnswer: correct,
+          explanation: `To phone ${c.name}, you dial ${correct}.`,
+          countryId: c.id,
+          active: true,
+          source: SOURCE,
+        });
+      }
+    }
+
+    // --- Good to know: internet top-level domain ---
+    if (c.tld && allTlds.length >= 4) {
+      const correct = c.tld;
+      const distractors = valueDistractors(
+        correct,
+        allTlds,
+        new Set([correct]),
+        3,
+        `gtk-tld-d-${c.id}`
+      );
+      if (distractors.length === 3) {
+        const options = seededShuffle([correct, ...distractors], `gtk-tld-${c.id}`);
+        questions.push({
+          id: `good-to-know-tld-${c.id}`,
+          type: 'good-to-know',
+          difficulty: 'hard',
+          ageBands: ageBands('hard'),
+          topic: 'facts',
+          prompt: `Which internet address ending belongs to ${c.name}?`,
+          options,
+          correctAnswer: correct,
+          explanation: `Websites from ${c.name} can end in ${correct}.`,
+          countryId: c.id,
+          active: true,
+          source: SOURCE,
+        });
+      }
     }
   });
 

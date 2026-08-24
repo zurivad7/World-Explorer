@@ -50,6 +50,9 @@ export function CountryDetailScreen() {
   if (country.callingCode) {
     goodToKnow.push({ label: 'Phone code', value: country.callingCode });
   }
+  if (country.tld) {
+    goodToKnow.push({ label: 'Internet ending', value: country.tld });
+  }
   if (country.demonym) {
     goodToKnow.push({ label: 'People are called', value: country.demonym });
   }

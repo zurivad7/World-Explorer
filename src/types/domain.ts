@@ -33,14 +33,20 @@ export type Difficulty = 'easy' | 'medium' | 'hard';
 
 export const DIFFICULTIES: readonly Difficulty[] = ['easy', 'medium', 'hard'] as const;
 
-/** The six MVP game modes (PRD §7). */
+/**
+ * Game modes. The first six are the MVP standalone games with Game Hub cards
+ * (PRD §7). `good-to-know` is a bonus category of fact questions (language,
+ * currency, dialing code, internet domain) that has no hub card of its own — it
+ * adds variety to the per-country quiz and the daily challenge.
+ */
 export type GameMode =
   | 'flag-detective'
   | 'capital-challenge'
   | 'continent-challenge'
   | 'map-find-it'
   | 'geography-detective'
-  | 'flag-builder';
+  | 'flag-builder'
+  | 'good-to-know';
 
 export const GAME_MODES: readonly GameMode[] = [
   'flag-detective',
@@ -49,10 +55,11 @@ export const GAME_MODES: readonly GameMode[] = [
   'map-find-it',
   'geography-detective',
   'flag-builder',
+  'good-to-know',
 ] as const;
 
 /** A learning topic used for mastery tracking and question selection (PRD §10). */
-export type Topic = 'flags' | 'capitals' | 'continents' | 'location' | 'clues';
+export type Topic = 'flags' | 'capitals' | 'continents' | 'location' | 'clues' | 'facts';
 
 /**
  * Metadata about the provenance of a factual record. Every factual content
@@ -93,6 +100,7 @@ export interface Country {
   languages: string[]; // language names
   currency?: Currency;
   callingCode?: string; // e.g. "+33"
+  tld?: string; // internet top-level domain, e.g. ".fr"
   demonym?: string; // what the people are called, e.g. "French"
   /** A major/notable river — authored & reviewed, present only where written. */
   notableRiver?: string;
