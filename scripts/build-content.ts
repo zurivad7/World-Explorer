@@ -42,6 +42,7 @@ interface WcCountry {
   idd?: { root?: string; suffixes?: string[] };
   demonyms?: { eng?: { m?: string; f?: string } };
   latlng?: [number, number];
+  tld?: string[];
 }
 
 function firstCurrency(wc: WcCountry): Currency | undefined {
@@ -144,6 +145,8 @@ const countries: Country[] = included
     if (currency) country.currency = currency;
     const idd = callingCode(wc);
     if (idd) country.callingCode = idd;
+    const tld = wc.tld?.[0];
+    if (tld) country.tld = tld;
     const demonym = wc.demonyms?.eng?.m;
     if (demonym) country.demonym = demonym;
     const river = NOTABLE_RIVERS[id];

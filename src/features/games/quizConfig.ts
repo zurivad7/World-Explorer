@@ -15,6 +15,8 @@ export function optionKind(question: Question): OptionKind {
     case 'flag-builder':
       return 'colours';
     case 'continent-challenge':
+    case 'good-to-know':
+      // Language / currency / dialing code / domain — plain text options.
       return 'text';
     case 'capital-challenge':
       // "capital" direction: options are capital-city strings.

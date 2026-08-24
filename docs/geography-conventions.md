@@ -73,9 +73,14 @@ partly in Europe and partly in Asia") without making it the quiz answer.
   are AI-generated (PRD §4).
 - Each country also carries verifiable **"good to know"** fields from
   `world-countries`: land **area**, **currency**, **language(s)**, **landlocked**
-  status, international **calling code**, and **demonym**. A **major river** is an
-  **authored, reviewed** field (`NOTABLE_RIVERS` in `source.ts`) shown only where
-  written — there is no reliable open dataset for it, so it is never fabricated.
+  status, international **calling code**, internet **top-level domain** (e.g. `.fr`),
+  and **demonym**. A **major river** is an **authored, reviewed** field
+  (`NOTABLE_RIVERS` in `source.ts`) shown only where written — there is no reliable
+  open dataset for it, so it is never fabricated.
+- These fields also feed a **`good-to-know`** question category (language, currency,
+  dialing code, domain) generated per country. It has no Game Hub card of its own —
+  it adds variety to the **per-country quiz** and the **daily challenge** so those
+  are less repetitive. Distractors are drawn from other countries' real values.
 - Map geometry uses Natural Earth **50m** resolution, which draws a polygon for
   every country in the dataset except Tuvalu. Any country without a polygon (only
   Tuvalu at present) still appears everywhere else — in Explore, the games and
