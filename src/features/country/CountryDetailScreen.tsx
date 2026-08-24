@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import { Screen } from '@/components/Screen';
+import { SpeakButton } from '@/components/SpeakButton';
 import { paths } from '@/app/routes';
 import { getCountryById } from '@/data';
 import { assetUrl } from '@/lib/assets';
@@ -58,7 +59,11 @@ export function CountryDetailScreen() {
   }
 
   return (
-    <Screen title={country.name} subtitle={`${country.continent} • ${country.region}`}>
+    <Screen
+      title={country.name}
+      subtitle={`${country.continent} • ${country.region}`}
+      titleAction={<SpeakButton text={country.name} />}
+    >
       <img
         className="country-flag"
         src={assetUrl(country.flagAsset)}
@@ -79,7 +84,12 @@ export function CountryDetailScreen() {
       <dl className="detail-list">
         <div className="detail-list__row">
           <dt>Capital</dt>
-          <dd>{country.capital}</dd>
+          <dd>
+            <span className="detail-list__value-with-audio">
+              {country.capital}
+              <SpeakButton text={country.capital} />
+            </span>
+          </dd>
         </div>
         <div className="detail-list__row">
           <dt>Continent</dt>
@@ -90,6 +100,8 @@ export function CountryDetailScreen() {
           <dd>{country.region}</dd>
         </div>
       </dl>
+
+      {country.capitalNote ? <p className="detail-note">ℹ️ {country.capitalNote}</p> : null}
 
       <h2 className="section-heading">Good to know</h2>
       <dl className="detail-list">

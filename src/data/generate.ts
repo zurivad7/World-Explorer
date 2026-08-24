@@ -16,6 +16,11 @@ export interface GeneratorInputs {
   /** Difficulty hints keyed by country id. */
   hints: Map<string, Pick<CountrySource, 'mapSize' | 'similarFlag'>>;
   templates: FlagTemplate[];
+  /**
+   * Authored "commonly mistaken for the capital" cities keyed by country id, used
+   * as teachable distractors in the capital quiz (e.g. Lagos for Nigeria).
+   */
+  trickyCapitals?: Map<string, string[]>;
 }
 
 const AGE_BY_DIFFICULTY: Record<Difficulty, AgeBand[]> = {
@@ -112,7 +117,7 @@ function mapDifficulty(hint?: Pick<CountrySource, 'mapSize' | 'similarFlag'>): D
 }
 
 export function generateQuestions(inputs: GeneratorInputs): Question[] {
-  const { countries, hints, templates } = inputs;
+  const { countries, hints, templates, trickyCapitals } = inputs;
   const questions: Question[] = [];
   const byId = new Map(countries.map((c) => [c.id, c]));
 
@@ -172,11 +177,27 @@ export function generateQuestions(inputs: GeneratorInputs): Question[] {
     // --- Capital Challenge: country → capital ---
     {
       const difficulty = mapDifficulty(hint);
-      const distractors = pickDistractors(c, countries, 3, index + 2);
-      const options = seededShuffle(
-        [c.capital, ...distractors.map((d) => d.capital)],
-        `cap-c-${c.id}`
-      );
+      // Include authored "commonly mistaken for the capital" cities as teachable
+      // distractors (e.g. Lagos for Nigeria), dropping any that equal the real
+      // capital; then fill the remaining slots with other countries' capitals.
+      const traps = (trickyCapitals?.get(c.id) ?? [])
+        .filter((t) => t.toLowerCase() !== c.capital.toLowerCase())
+        .slice(0, 2);
+      const seen = new Set<string>([c.capital.toLowerCase(), ...traps.map((t) => t.toLowerCase())]);
+      const need = 3 - traps.length;
+      const fillers: string[] = [];
+      for (const d of pickDistractors(c, countries, need + 3, index + 2)) {
+        if (fillers.length >= need) break;
+        const key = d.capital.toLowerCase();
+        if (!seen.has(key)) {
+          seen.add(key);
+          fillers.push(d.capital);
+        }
+      }
+      const options = seededShuffle([c.capital, ...traps, ...fillers], `cap-c-${c.id}`);
+      const explanation = c.capitalNote
+        ? `The capital of ${c.name} is ${c.capital}. ${c.capitalNote}`
+        : `The capital of ${c.name} is ${c.capital}.`;
       questions.push({
         id: `capital-challenge-capital-${c.id}`,
         type: 'capital-challenge',
@@ -186,7 +207,7 @@ export function generateQuestions(inputs: GeneratorInputs): Question[] {
         prompt: `What is the capital of ${c.name}?`,
         options,
         correctAnswer: c.capital,
-        explanation: `The capital of ${c.name} is ${c.capital}.`,
+        explanation,
         countryId: c.id,
         active: true,
         source: SOURCE,

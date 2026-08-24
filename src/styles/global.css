@@ -1099,6 +1099,60 @@ body {
   font-weight: 600;
 }
 
+/* Pronounce ("hear it") button next to names. */
+.screen__title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.speak-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 40px;
+  min-height: 40px;
+  padding: 0;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: 1.1rem;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: transform 0.1s ease, background 0.1s ease;
+}
+
+.speak-button:hover {
+  background: var(--color-bg);
+}
+
+.speak-button:active {
+  transform: scale(0.92);
+}
+
+.speak-button:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.detail-list__value-with-audio {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.detail-note {
+  margin: -4px 0 8px;
+  padding: 10px 14px;
+  background: #eef4ff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-muted);
+  font-size: 0.92rem;
+}
+
 /* Offline state banner (PRD §18/§20). */
 .offline-banner {
   display: flex;

@@ -1959,10 +1959,10 @@
     "topic": "capitals",
     "prompt": "What is the capital of Australia?",
     "options": [
+      "Nuku'alofa",
       "Funafuti",
-      "Port Vila",
       "Canberra",
-      "Nuku'alofa"
+      "Sydney"
     ],
     "correctAnswer": "Canberra",
     "explanation": "The capital of Australia is Canberra.",
@@ -4106,9 +4106,9 @@
     "prompt": "What is the capital of Belize?",
     "options": [
       "Belmopan",
-      "Port of Spain",
       "Kingstown",
-      "Washington D.C."
+      "Belize City",
+      "Port of Spain"
     ],
     "correctAnswer": "Belmopan",
     "explanation": "The capital of Belize is Belmopan.",
@@ -4823,13 +4823,13 @@
     "topic": "capitals",
     "prompt": "What is the capital of Bolivia?",
     "options": [
+      "La Paz",
       "Manama",
       "Dhaka",
-      "Bridgetown",
       "Sucre"
     ],
     "correctAnswer": "Sucre",
-    "explanation": "The capital of Bolivia is Sucre.",
+    "explanation": "The capital of Bolivia is Sucre. Bolivia has two capitals: Sucre is the constitutional capital and La Paz is the seat of government.",
     "countryId": "bo",
     "active": true,
     "source": "generated:world-explorer"
@@ -5543,10 +5543,10 @@
     "topic": "capitals",
     "prompt": "What is the capital of Brazil?",
     "options": [
-      "Brussels",
       "Minsk",
+      "Rio de Janeiro",
       "Brasília",
-      "Belmopan"
+      "Brussels"
     ],
     "correctAnswer": "Brasília",
     "explanation": "The capital of Brazil is Brasília.",
@@ -7218,9 +7218,9 @@
     "prompt": "What is the capital of Canada?",
     "options": [
       "Ottawa",
-      "Dhaka",
       "Manama",
-      "Minsk"
+      "Toronto",
+      "Dhaka"
     ],
     "correctAnswer": "Ottawa",
     "explanation": "The capital of Canada is Ottawa.",
@@ -8413,10 +8413,10 @@
     "topic": "capitals",
     "prompt": "What is the capital of China?",
     "options": [
-      "Bangkok",
-      "Ankara",
+      "Shanghai",
+      "Dili",
       "Beijing",
-      "Dili"
+      "Bangkok"
     ],
     "correctAnswer": "Beijing",
     "explanation": "The capital of China is Beijing.",
@@ -17722,9 +17722,9 @@
     "topic": "capitals",
     "prompt": "What is the capital of India?",
     "options": [
-      "Havana",
-      "Prague",
+      "Mumbai",
       "Nicosia",
+      "Havana",
       "New Delhi"
     ],
     "correctAnswer": "New Delhi",
@@ -19390,13 +19390,13 @@
     "topic": "capitals",
     "prompt": "What is the capital of Ivory Coast?",
     "options": [
-      "Prague",
       "Nicosia",
+      "Abidjan",
       "Yamoussoukro",
-      "Copenhagen"
+      "Prague"
     ],
     "correctAnswer": "Yamoussoukro",
-    "explanation": "The capital of Ivory Coast is Yamoussoukro.",
+    "explanation": "The capital of Ivory Coast is Yamoussoukro. Yamoussoukro is the official capital of Ivory Coast, while Abidjan is the largest city and former capital.",
     "countryId": "ci",
     "active": true,
     "source": "generated:world-explorer"
@@ -20345,10 +20345,10 @@
     "topic": "capitals",
     "prompt": "What is the capital of Kazakhstan?",
     "options": [
-      "Malabo",
+      "Almaty",
       "Astana",
-      "Tallinn",
-      "Asmara"
+      "Asmara",
+      "Malabo"
     ],
     "correctAnswer": "Astana",
     "explanation": "The capital of Kazakhstan is Astana.",
@@ -27236,10 +27236,10 @@
     "topic": "capitals",
     "prompt": "What is the capital of Morocco?",
     "options": [
+      "Kuwait City",
       "Bishkek",
-      "Vientiane",
       "Rabat",
-      "Kuwait City"
+      "Casablanca"
     ],
     "correctAnswer": "Rabat",
     "explanation": "The capital of Morocco is Rabat.",
@@ -27717,9 +27717,9 @@
     "prompt": "What is the capital of Myanmar?",
     "options": [
       "Naypyidaw",
-      "Vilnius",
       "Vaduz",
-      "Tripoli"
+      "Tripoli",
+      "Yangon"
     ],
     "correctAnswer": "Naypyidaw",
     "explanation": "The capital of Myanmar is Naypyidaw.",
@@ -28906,9 +28906,9 @@
     "prompt": "What is the capital of New Zealand?",
     "options": [
       "Wellington",
+      "Auckland",
       "Maputo",
-      "Naypyidaw",
-      "Windhoek"
+      "Naypyidaw"
     ],
     "correctAnswer": "Wellington",
     "explanation": "The capital of New Zealand is Wellington.",
@@ -29624,13 +29624,13 @@
     "topic": "capitals",
     "prompt": "What is the capital of Nigeria?",
     "options": [
-      "Valletta",
-      "Mexico City",
+      "Lagos",
       "Majuro",
+      "Valletta",
       "Abuja"
     ],
     "correctAnswer": "Abuja",
-    "explanation": "The capital of Nigeria is Abuja.",
+    "explanation": "The capital of Nigeria is Abuja. Abuja became Nigeria’s capital in 1991, replacing the much larger city of Lagos.",
     "countryId": "ng",
     "active": true,
     "source": "generated:world-explorer"
@@ -30821,10 +30821,10 @@
     "topic": "capitals",
     "prompt": "What is the capital of Pakistan?",
     "options": [
+      "Karachi",
       "Chișinău",
-      "Podgorica",
       "Islamabad",
-      "Monaco"
+      "Lahore"
     ],
     "correctAnswer": "Islamabad",
     "explanation": "The capital of Pakistan is Islamabad.",
@@ -32258,9 +32258,9 @@
     "prompt": "What is the capital of Philippines?",
     "options": [
       "Manila",
+      "Cebu City",
       "Yaren",
-      "Amsterdam",
-      "Wellington"
+      "Amsterdam"
     ],
     "correctAnswer": "Manila",
     "explanation": "The capital of Philippines is Manila.",
@@ -33693,10 +33693,10 @@
     "topic": "capitals",
     "prompt": "What is the capital of Russia?",
     "options": [
-      "Port Moresby",
+      "Panama City",
       "Moscow",
-      "Ngerulmud",
-      "Panama City"
+      "Saint Petersburg",
+      "Ngerulmud"
     ],
     "correctAnswer": "Moscow",
     "explanation": "The capital of Russia is Moscow.",
@@ -37970,13 +37970,13 @@
     "topic": "capitals",
     "prompt": "What is the capital of South Africa?",
     "options": [
-      "Singapore",
+      "Belgrade",
       "Pretoria",
-      "Riyadh",
-      "Belgrade"
+      "Johannesburg",
+      "Riyadh"
     ],
     "correctAnswer": "Pretoria",
-    "explanation": "The capital of South Africa is Pretoria.",
+    "explanation": "The capital of South Africa is Pretoria. South Africa has three capitals: Pretoria (executive), Cape Town (legislative) and Bloemfontein (judicial). We use Pretoria.",
     "countryId": "za",
     "active": true,
     "source": "generated:world-explorer"
@@ -39887,9 +39887,9 @@
     "topic": "capitals",
     "prompt": "What is the capital of Switzerland?",
     "options": [
+      "Zurich",
       "Paramaribo",
-      "Dushanbe",
-      "Damascus",
+      "Geneva",
       "Bern"
     ],
     "correctAnswer": "Bern",
@@ -40128,9 +40128,9 @@
     "prompt": "What is the capital of Syria?",
     "options": [
       "Damascus",
+      "Aleppo",
       "Pretoria",
-      "Juba",
-      "Madrid"
+      "Juba"
     ],
     "correctAnswer": "Damascus",
     "explanation": "The capital of Syria is Damascus.",
@@ -40608,9 +40608,9 @@
     "prompt": "What is the capital of Tanzania?",
     "options": [
       "Dodoma",
-      "Dushanbe",
       "Damascus",
-      "Bern"
+      "Bern",
+      "Dar es Salaam"
     ],
     "correctAnswer": "Dodoma",
     "explanation": "The capital of Tanzania is Dodoma.",
@@ -42276,10 +42276,10 @@
     "topic": "capitals",
     "prompt": "What is the capital of Türkiye?",
     "options": [
+      "Nuku'alofa",
       "Port of Spain",
-      "Tunis",
       "Ankara",
-      "Nuku'alofa"
+      "Istanbul"
     ],
     "correctAnswer": "Ankara",
     "explanation": "The capital of Türkiye is Ankara.",
@@ -43953,9 +43953,9 @@
     "prompt": "What is the capital of United States?",
     "options": [
       "Washington D.C.",
+      "New York",
       "Port Vila",
-      "Vatican City",
-      "Caracas"
+      "Vatican City"
     ],
     "correctAnswer": "Washington D.C.",
     "explanation": "The capital of United States is Washington D.C..",
@@ -45384,9 +45384,9 @@
     "prompt": "What is the capital of Vietnam?",
     "options": [
       "Hanoi",
-      "Kabul",
       "Harare",
-      "Yerevan"
+      "Ho Chi Minh City",
+      "Kabul"
     ],
     "correctAnswer": "Hanoi",
     "explanation": "The capital of Vietnam is Hanoi.",

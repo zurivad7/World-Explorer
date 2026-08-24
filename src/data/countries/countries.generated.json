@@ -783,6 +783,7 @@
     "callingCode": "+591",
     "tld": ".bo",
     "demonym": "Bolivian",
+    "capitalNote": "Bolivia has two capitals: Sucre is the constitutional capital and La Paz is the seat of government.",
     "latlng": [
       -17,
       -65
@@ -3261,6 +3262,7 @@
     "callingCode": "+225",
     "tld": ".ci",
     "demonym": "Ivorian",
+    "capitalNote": "Yamoussoukro is the official capital of Ivory Coast, while Abidjan is the largest city and former capital.",
     "latlng": [
       8,
       -5
@@ -4913,6 +4915,7 @@
     "tld": ".ng",
     "demonym": "Nigerian",
     "notableRiver": "Niger",
+    "capitalNote": "Abuja became Nigeria’s capital in 1991, replacing the much larger city of Lagos.",
     "latlng": [
       10,
       8
@@ -6281,6 +6284,7 @@
     "tld": ".za",
     "demonym": "South African",
     "notableRiver": "Orange",
+    "capitalNote": "South Africa has three capitals: Pretoria (executive), Cape Town (legislative) and Bloemfontein (judicial). We use Pretoria.",
     "latlng": [
       -29,
       24

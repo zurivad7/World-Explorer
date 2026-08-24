@@ -29,6 +29,7 @@ export const countrySchema = z.object({
   iso3,
   name: z.string().min(1),
   capital: z.string().min(1),
+  capitalNote: z.string().optional(),
   continent: continentSchema,
   region: z.string().min(1),
   flagAsset: z.string().min(1),

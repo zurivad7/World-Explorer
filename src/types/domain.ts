@@ -88,6 +88,8 @@ export interface Country {
   iso3: string;
   name: string;
   capital: string;
+  /** Authored note for capital nuance (multiple capitals, official vs best-known). */
+  capitalNote?: string;
   continent: Continent;
   region: string;
   flagAsset: string;
