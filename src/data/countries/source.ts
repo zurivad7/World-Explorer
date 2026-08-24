@@ -506,3 +506,48 @@ export const NOTABLE_RIVERS: Record<string, string> = {
   fj: 'Rewa',
   pg: 'Sepik',
 };
+
+/**
+ * Authored, reviewed famous cities that are **often mistaken for the capital** but
+ * are not (iso2 → city names). Used only by the capital quiz as tempting, teachable
+ * distractors (e.g. Lagos for Nigeria, Abidjan for Ivory Coast). Every entry is a
+ * real, well-known city that is NOT that country's taught capital; the generator
+ * additionally drops any that happen to equal the capital, so this is always safe.
+ */
+export const CAPITAL_TRAP_CITIES: Record<string, string[]> = {
+  ng: ['Lagos'], // capital Abuja
+  ci: ['Abidjan'], // capital Yamoussoukro
+  za: ['Johannesburg'], // taught capital Pretoria
+  us: ['New York'], // capital Washington D.C.
+  br: ['Rio de Janeiro'], // capital Brasília
+  au: ['Sydney'], // capital Canberra
+  ca: ['Toronto'], // capital Ottawa
+  tr: ['Istanbul'], // capital Ankara
+  in: ['Mumbai'], // capital New Delhi
+  ch: ['Zurich', 'Geneva'], // capital Bern
+  nz: ['Auckland'], // capital Wellington
+  kz: ['Almaty'], // capital Astana
+  mm: ['Yangon'], // capital Naypyidaw
+  pk: ['Karachi', 'Lahore'], // capital Islamabad
+  ma: ['Casablanca'], // capital Rabat
+  tz: ['Dar es Salaam'], // capital Dodoma
+  vn: ['Ho Chi Minh City'], // capital Hanoi
+  cn: ['Shanghai'], // capital Beijing
+  bo: ['La Paz'], // constitutional capital Sucre
+  bz: ['Belize City'], // capital Belmopan
+  ru: ['Saint Petersburg'], // capital Moscow
+  sy: ['Aleppo'], // capital Damascus
+  ph: ['Cebu City'], // capital Manila
+};
+
+/**
+ * Authored, reviewed notes for countries whose capital carries nuance (multiple
+ * capitals, or an official capital that differs from the best-known city). Shown on
+ * Country Detail and used to enrich the capital quiz explanation (PRD §7.3, §15).
+ */
+export const CAPITAL_NOTES: Record<string, string> = {
+  za: 'South Africa has three capitals: Pretoria (executive), Cape Town (legislative) and Bloemfontein (judicial). We use Pretoria.',
+  ci: 'Yamoussoukro is the official capital of Ivory Coast, while Abidjan is the largest city and former capital.',
+  bo: 'Bolivia has two capitals: Sucre is the constitutional capital and La Paz is the seat of government.',
+  ng: 'Abuja became Nigeria’s capital in 1991, replacing the much larger city of Lagos.',
+};

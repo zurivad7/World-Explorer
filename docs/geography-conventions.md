@@ -53,7 +53,25 @@ partly in Europe and partly in Asia") without making it the quiz answer.
 
 - The first entry in `world-countries` `capital` is used.
 - South Africa has three capitals; we teach **Pretoria** (the executive capital)
-  as the single answer and may note the others in facts later.
+  as the single answer, and note the others via `CAPITAL_NOTES` (see below).
+- **`CAPITAL_NOTES`** (`source.ts`, iso2 → note) is authored, reviewed text for
+  countries whose capital carries nuance — multiple capitals (South Africa,
+  Bolivia) or an official capital that differs from the best-known city (Ivory
+  Coast). Shown on Country Detail and appended to that country's capital-quiz
+  explanation. Never fabricated; present only where written.
+- **`CAPITAL_TRAP_CITIES`** (`source.ts`, iso2 → city names) is authored, reviewed
+  list of famous cities **commonly mistaken for the capital** but which are not
+  (e.g. Lagos for Nigeria, Abidjan for Ivory Coast, Johannesburg for South Africa).
+  Used only as teachable distractors in the capital quiz. The generator drops any
+  entry that equals the real capital, so a correct answer is never offered twice.
+
+## Pronunciation audio
+
+- Country names and capitals carry a "hear it" button that uses the browser's
+  built-in **Web Speech API** (`src/lib/speech.ts`) — client-side, no external
+  service (PRD §17), using the device's own voices so it works offline where the
+  platform provides them. Feature-detected: the button renders only where speech
+  is supported and never blocks the UI if a voice is missing.
 
 ## Neighbours
 

@@ -16,7 +16,12 @@ import { feature } from 'topojson-client';
 import type { Topology } from 'topojson-specification';
 import type { FeatureCollection, Geometry } from 'geojson';
 import type { Continent, Country, Currency, Question } from '../src/types/index.ts';
-import { COUNTRY_SOURCES, NOTABLE_RIVERS } from '../src/data/countries/source.ts';
+import {
+  CAPITAL_NOTES,
+  CAPITAL_TRAP_CITIES,
+  COUNTRY_SOURCES,
+  NOTABLE_RIVERS,
+} from '../src/data/countries/source.ts';
 import { FLAG_TEMPLATES } from '../src/data/flags/templates.ts';
 import { generateQuestions } from '../src/data/generate.ts';
 import { validateCompleteness, validateContent } from '../src/data/validate.ts';
@@ -151,6 +156,8 @@ const countries: Country[] = included
     if (demonym) country.demonym = demonym;
     const river = NOTABLE_RIVERS[id];
     if (river) country.notableRiver = river;
+    const capitalNote = CAPITAL_NOTES[id];
+    if (capitalNote) country.capitalNote = capitalNote;
     // Representative point [lat, lng] — used to pin countries too small to draw.
     if (Array.isArray(wc.latlng) && wc.latlng.length === 2) {
       country.latlng = [wc.latlng[0]!, wc.latlng[1]!];
@@ -177,7 +184,13 @@ const hints = new Map(
     return [c.id, overlay?.similarFlag ? { mapSize, similarFlag: true } : { mapSize }] as const;
   })
 );
-const questions: Question[] = generateQuestions({ countries, hints, templates: FLAG_TEMPLATES });
+const trickyCapitals = new Map(Object.entries(CAPITAL_TRAP_CITIES));
+const questions: Question[] = generateQuestions({
+  countries,
+  hints,
+  templates: FLAG_TEMPLATES,
+  trickyCapitals,
+});
 
 // Build country geometry (PRD §16): convert Natural Earth (via world-atlas)
 // TopoJSON to GeoJSON, keep only the slice, key each feature by geometryId.
