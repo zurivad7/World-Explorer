@@ -11,6 +11,7 @@ const TOPIC_LABELS: Record<Topic, string> = {
   location: 'Finding on the map',
   clues: 'Geography clues',
   facts: 'Good to know',
+  shapes: 'Country shapes',
 };
 
 const TOPICS = Object.keys(TOPIC_LABELS) as Topic[];

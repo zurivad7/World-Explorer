@@ -65,6 +65,20 @@ partly in Europe and partly in Asia") without making it the quiz answer.
   Used only as teachable distractors in the capital quiz. The generator drops any
   entry that equals the real capital, so a correct answer is never offered twice.
 
+## Country shapes (Shape Detective)
+
+- The **Shape Detective** game shows a country's outline only — no basemap, labels
+  or neighbours — and asks the player to name it from four options.
+- Silhouettes are generated at build time (`scripts/build-content.ts`) into
+  `src/data/geometry/shapes.generated.json` as normalized SVG paths. Each is the
+  country's **largest landmass** (so the USA is its contiguous mainland and France
+  is metropolitan France — outlying territories are dropped for recognizability),
+  projected with a cos(latitude) longitude correction and lightly simplified.
+  Countries split across multiple source features (e.g. Australia) are de-duplicated
+  by keeping the largest piece.
+- Only countries with a land area ≥ 50,000 km² get a silhouette (mirrors the Find It
+  threshold), so shapes stay recognizable. Questions use the **shapes** topic.
+
 ## Pronunciation audio
 
 - Country names and capitals carry a "hear it" button that uses the browser's

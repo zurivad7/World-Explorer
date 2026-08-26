@@ -184,14 +184,6 @@ const hints = new Map(
     return [c.id, overlay?.similarFlag ? { mapSize, similarFlag: true } : { mapSize }] as const;
   })
 );
-const trickyCapitals = new Map(Object.entries(CAPITAL_TRAP_CITIES));
-const questions: Question[] = generateQuestions({
-  countries,
-  hints,
-  templates: FLAG_TEMPLATES,
-  trickyCapitals,
-});
-
 // Build country geometry (PRD §16): convert Natural Earth (via world-atlas)
 // TopoJSON to GeoJSON, keep only the slice, key each feature by geometryId.
 const topo = require('world-atlas/countries-50m.json') as Topology;
@@ -235,6 +227,112 @@ function unwrapGeometry(geom: Geometry): Geometry {
   return geom;
 }
 
+// --- Country silhouettes (Shape Detective) ---
+// A recognizable outline is the country's *largest landmass* (so the USA is its
+// contiguous mainland, France is metropolitan France) projected to a normalized
+// SVG path. Small far-flung territories are dropped, and there is no basemap,
+// labels or neighbours — just the shape.
+interface Silhouette {
+  id: string;
+  path: string;
+  width: number;
+  height: number;
+}
+/** Silhouette plus the source area, used only to dedupe split countries (e.g. Australia). */
+interface SizedSilhouette extends Silhouette {
+  area: number;
+}
+const round1 = (n: number): number => Math.round(n * 10) / 10;
+
+function ringAreaAbs(ring: Ring): number {
+  let a = 0;
+  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+    a += ring[j]![0]! * ring[i]![1]! - ring[i]![0]! * ring[j]![1]!;
+  }
+  return Math.abs(a) / 2;
+}
+
+/** Rings [outer, ...holes] of the largest polygon in a (Multi)Polygon geometry. */
+function largestPolygonRings(geom: Geometry): { rings: Ring[]; area: number } | null {
+  let best: Ring[] | null = null;
+  let bestArea = -1;
+  const consider = (poly: Ring[]): void => {
+    const outer = poly[0];
+    if (!outer) return;
+    const area = ringAreaAbs(outer);
+    if (area > bestArea) {
+      bestArea = area;
+      best = poly;
+    }
+  };
+  if (geom.type === 'Polygon') consider(geom.coordinates as Ring[]);
+  else if (geom.type === 'MultiPolygon') for (const poly of geom.coordinates as Ring[][]) consider(poly);
+  return best ? { rings: best, area: bestArea } : null;
+}
+
+/** Normalized SVG silhouette of a country's largest landmass, or null if none. */
+function silhouetteFor(id: string, geom: Geometry): SizedSilhouette | null {
+  const largest = largestPolygonRings(geom);
+  if (!largest) return null;
+  const rings = largest.rings;
+  if (rings.length === 0) return null;
+  const outer = rings[0]!;
+  const meanLat = outer.reduce((s, p) => s + p[1]!, 0) / outer.length;
+  const kx = Math.cos((meanLat * Math.PI) / 180); // shrink longitude toward the poles
+  let minX = Infinity;
+  let maxX = -Infinity;
+  let minY = Infinity;
+  let maxY = -Infinity;
+  const projected = rings.map((ring) =>
+    ring.map(([lng, lat]) => {
+      const x = lng! * kx;
+      const y = lat!;
+      if (x < minX) minX = x;
+      if (x > maxX) maxX = x;
+      if (y < minY) minY = y;
+      if (y > maxY) maxY = y;
+      return [x, y] as [number, number];
+    })
+  );
+  const w = maxX - minX;
+  const h = maxY - minY;
+  if (!(w > 0) || !(h > 0)) return null;
+  const scale = 100 / Math.max(w, h);
+  // Radial-distance simplification: drop points closer than MIN_STEP (in the 0–100
+  // space) to the last kept one. This thins dense coastlines a lot while keeping the
+  // outline recognizable (~0.5 unit ≈ 1–2 px at display size).
+  const MIN_STEP = 0.5;
+  const parts: string[] = [];
+  for (const ring of projected) {
+    let d = '';
+    let lastX = NaN;
+    let lastY = NaN;
+    let kept = 0;
+    for (const [x, y] of ring) {
+      const px = round1((x - minX) * scale);
+      const py = round1((maxY - y) * scale); // flip y
+      if (kept > 0) {
+        const dx = px - lastX;
+        const dy = py - lastY;
+        if (dx * dx + dy * dy < MIN_STEP * MIN_STEP) continue;
+      }
+      d += (kept === 0 ? 'M' : 'L') + `${px},${py} `;
+      lastX = px;
+      lastY = py;
+      kept++;
+    }
+    if (kept >= 3) parts.push(`${d.trim()} Z`); // skip rings that collapse to a sliver
+  }
+  if (parts.length === 0) return null;
+  return {
+    id,
+    path: parts.join(' '),
+    width: round1(w * scale),
+    height: round1(h * scale),
+    area: largest.area,
+  };
+}
+
 const features = worldFc.features
   .filter((f) => f.id != null && ccn3ToId.has(String(f.id)))
   .map((f) => {
@@ -255,6 +353,35 @@ const features = worldFc.features
 const withoutGeometry = countries.filter((c) => !features.some((f) => f.id === c.id));
 const geometryFc: FeatureCollection<Geometry> = { type: 'FeatureCollection', features };
 
+// Silhouettes for the Shape Detective game — countries big enough for a
+// recognizable outline (mirrors the Find It threshold).
+const SHAPE_MIN_AREA_KM2 = 50_000;
+const areaById = new Map(countries.map((c) => [c.id, c.area]));
+// A few countries are split across multiple Natural Earth features (e.g. Australia);
+// keep the one with the largest landmass so the outline is the recognizable one.
+const silhouetteById = new Map<string, SizedSilhouette>();
+for (const f of features) {
+  if ((areaById.get(f.id) ?? 0) < SHAPE_MIN_AREA_KM2) continue;
+  const s = silhouetteFor(f.id, f.geometry);
+  if (!s) continue;
+  const existing = silhouetteById.get(s.id);
+  if (!existing || s.area > existing.area) silhouetteById.set(s.id, s);
+}
+const silhouettes: Silhouette[] = [...silhouetteById.values()]
+  .map(({ area: _area, ...rest }) => rest)
+  .sort((a, b) => a.id.localeCompare(b.id));
+const shapeCountryIds = new Set(silhouettes.map((s) => s.id));
+
+// Generate the question bank now that shape-eligible countries are known.
+const trickyCapitals = new Map(Object.entries(CAPITAL_TRAP_CITIES));
+const questions: Question[] = generateQuestions({
+  countries,
+  hints,
+  templates: FLAG_TEMPLATES,
+  trickyCapitals,
+  shapeCountryIds,
+});
+
 // Write generated data (stable, pretty-printed for review where practical).
 const dataDir = resolve(root, 'src/data');
 writeFileSync(
@@ -270,6 +397,10 @@ mkdirSync(resolve(dataDir, 'geometry'), { recursive: true });
 writeFileSync(
   resolve(dataDir, 'geometry/countries.geo.json'),
   JSON.stringify(geometryFc) + '\n'
+);
+writeFileSync(
+  resolve(dataDir, 'geometry/shapes.generated.json'),
+  JSON.stringify(silhouettes) + '\n'
 );
 
 // Validate before finishing so a bad build fails loudly.
@@ -289,7 +420,7 @@ const perMode = questions.reduce<Record<string, number>>((acc, q) => {
   return acc;
 }, {});
 console.log(
-  `Built ${countries.length} countries, ${questions.length} questions, ${features.length} map geometries, copied ${countries.length} flags.`
+  `Built ${countries.length} countries, ${questions.length} questions, ${features.length} map geometries, ${silhouettes.length} silhouettes, copied ${countries.length} flags.`
 );
 if (withoutGeometry.length > 0) {
   console.log(

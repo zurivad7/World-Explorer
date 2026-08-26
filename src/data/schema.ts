@@ -13,7 +13,15 @@ export const continentSchema = z.enum(CONTINENTS as unknown as [string, ...strin
 export const ageBandSchema = z.enum(AGE_BANDS as unknown as [string, ...string[]]);
 export const difficultySchema = z.enum(DIFFICULTIES as unknown as [string, ...string[]]);
 export const gameModeSchema = z.enum(GAME_MODES as unknown as [string, ...string[]]);
-export const topicSchema = z.enum(['flags', 'capitals', 'continents', 'location', 'clues', 'facts']);
+export const topicSchema = z.enum([
+  'flags',
+  'capitals',
+  'continents',
+  'location',
+  'clues',
+  'facts',
+  'shapes',
+]);
 
 const iso2 = z.string().regex(/^[a-z]{2}$/, 'iso2 must be two lowercase letters');
 const iso3 = z.string().regex(/^[A-Z]{3}$/, 'iso3 must be three uppercase letters');
