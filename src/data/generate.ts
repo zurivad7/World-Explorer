@@ -21,6 +21,8 @@ export interface GeneratorInputs {
    * as teachable distractors in the capital quiz (e.g. Lagos for Nigeria).
    */
   trickyCapitals?: Map<string, string[]>;
+  /** Country ids that have a silhouette, so a Shape Detective question can be made. */
+  shapeCountryIds?: ReadonlySet<string>;
 }
 
 const AGE_BY_DIFFICULTY: Record<Difficulty, AgeBand[]> = {
@@ -117,7 +119,7 @@ function mapDifficulty(hint?: Pick<CountrySource, 'mapSize' | 'similarFlag'>): D
 }
 
 export function generateQuestions(inputs: GeneratorInputs): Question[] {
-  const { countries, hints, templates, trickyCapitals } = inputs;
+  const { countries, hints, templates, trickyCapitals, shapeCountryIds } = inputs;
   const questions: Question[] = [];
   const byId = new Map(countries.map((c) => [c.id, c]));
 
@@ -304,6 +306,27 @@ export function generateQuestions(inputs: GeneratorInputs): Question[] {
         options,
         correctAnswer: c.id,
         explanation: `The answer is ${c.name}, in ${c.continent}, capital ${c.capital}.`,
+        countryId: c.id,
+        active: true,
+        source: SOURCE,
+      });
+    }
+
+    // --- Shape Detective: name the country from its outline ---
+    if (shapeCountryIds?.has(c.id)) {
+      const difficulty = mapDifficulty(hint);
+      const distractors = pickDistractors(c, countries, 3, index + 6);
+      const options = seededShuffle([c.id, ...distractors.map((d) => d.id)], `shape-${c.id}`);
+      questions.push({
+        id: `shape-detective-${c.id}`,
+        type: 'shape-detective',
+        difficulty,
+        ageBands: ageBands(difficulty),
+        topic: 'shapes',
+        prompt: 'Which country has this shape?',
+        options,
+        correctAnswer: c.id,
+        explanation: `This is the outline of ${c.name}, in ${c.continent}. Its capital is ${c.capital}.`,
         countryId: c.id,
         active: true,
         source: SOURCE,

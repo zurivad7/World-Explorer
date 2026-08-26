@@ -53,6 +53,13 @@ export const GAME_MODE_META: GameModeMeta[] = [
     blurb: 'Build a flag from its pieces.',
     mapBased: false,
   },
+  {
+    mode: 'shape-detective',
+    title: 'Shape Detective',
+    icon: '🧩',
+    blurb: 'Name the country from its outline.',
+    mapBased: false,
+  },
 ];
 
 export function getGameModeMeta(mode: string): GameModeMeta | undefined {

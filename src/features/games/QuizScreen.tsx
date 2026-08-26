@@ -28,8 +28,10 @@ import {
   isMapQuestion,
   optionKind,
   promptShowsFlag,
+  promptShowsShape,
 } from './quizConfig';
 import { LazyWorldMap } from '@/features/map/LazyWorldMap';
+import { CountrySilhouette } from '@/components/CountrySilhouette';
 
 const DAILY = 'daily';
 
@@ -214,6 +216,10 @@ export function QuizScreen() {
           width={160}
           height={120}
         />
+      ) : null}
+
+      {promptShowsShape(question) && question.countryId ? (
+        <CountrySilhouette id={question.countryId} className="quiz-prompt-shape" />
       ) : null}
 
       <p className="quiz-prompt">{question.prompt}</p>

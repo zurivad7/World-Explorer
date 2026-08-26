@@ -154,6 +154,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-af",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "cn",
+      "kh",
+      "af",
+      "ge"
+    ],
+    "correctAnswer": "af",
+    "explanation": "This is the outline of Afghanistan, in Asia. Its capital is Kabul.",
+    "countryId": "af",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-af",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -626,6 +648,28 @@
     ],
     "correctAnswer": "dz",
     "explanation": "The answer is Algeria, in Africa, capital Algiers.",
+    "countryId": "dz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-dz",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "td",
+      "dj",
+      "dz",
+      "km"
+    ],
+    "correctAnswer": "dz",
+    "explanation": "This is the outline of Algeria, in Africa. Its capital is Algiers.",
     "countryId": "dz",
     "active": true,
     "source": "generated:world-explorer"
@@ -1108,6 +1152,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-ao",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "cd",
+      "eg",
+      "dj",
+      "ao"
+    ],
+    "correctAnswer": "ao",
+    "explanation": "This is the outline of Angola, in Africa. Its capital is Luanda.",
+    "countryId": "ao",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-ao",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -1579,6 +1645,28 @@
     ],
     "correctAnswer": "ar",
     "explanation": "The answer is Argentina, in South America, capital Buenos Aires.",
+    "countryId": "ar",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-ar",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ar",
+      "al",
+      "dz",
+      "ad"
+    ],
+    "correctAnswer": "ar",
+    "explanation": "This is the outline of Argentina, in South America. Its capital is Buenos Aires.",
     "countryId": "ar",
     "active": true,
     "source": "generated:world-explorer"
@@ -2058,6 +2146,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-au",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "al",
+      "au",
+      "ad",
+      "dz"
+    ],
+    "correctAnswer": "au",
+    "explanation": "This is the outline of Australia, in Oceania. Its capital is Canberra.",
+    "countryId": "au",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-au",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -2298,6 +2408,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-at",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "is",
+      "ie",
+      "at",
+      "hu"
+    ],
+    "correctAnswer": "at",
+    "explanation": "This is the outline of Austria, in Europe. Its capital is Vienna.",
+    "countryId": "at",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-at",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -2533,6 +2665,28 @@
     ],
     "correctAnswer": "az",
     "explanation": "The answer is Azerbaijan, in Asia, capital Baku.",
+    "countryId": "az",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-az",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "kw",
+      "kz",
+      "az",
+      "kg"
+    ],
+    "correctAnswer": "az",
+    "explanation": "This is the outline of Azerbaijan, in Asia. Its capital is Baku.",
     "countryId": "az",
     "active": true,
     "source": "generated:world-explorer"
@@ -3250,6 +3404,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-bd",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "my",
+      "bd",
+      "la",
+      "lb"
+    ],
+    "correctAnswer": "bd",
+    "explanation": "This is the outline of Bangladesh, in Asia. Its capital is Dhaka.",
+    "countryId": "bd",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-bd",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -3721,6 +3897,28 @@
     ],
     "correctAnswer": "by",
     "explanation": "The answer is Belarus, in Europe, capital Minsk.",
+    "countryId": "by",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-by",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "by",
+      "lu",
+      "mt",
+      "lt"
+    ],
+    "correctAnswer": "by",
+    "explanation": "This is the outline of Belarus, in Europe. Its capital is Minsk.",
     "countryId": "by",
     "active": true,
     "source": "generated:world-explorer"
@@ -4443,6 +4641,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-bj",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "lr",
+      "ly",
+      "ls",
+      "bj"
+    ],
+    "correctAnswer": "bj",
+    "explanation": "This is the outline of Benin, in Africa. Its capital is Porto-Novo.",
+    "countryId": "bj",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-bj",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -4923,6 +5143,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-bo",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "bo",
+      "bz",
+      "be",
+      "bj"
+    ],
+    "correctAnswer": "bo",
+    "explanation": "This is the outline of Bolivia, in South America. Its capital is Sucre.",
+    "countryId": "bo",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-bo",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -5158,6 +5400,28 @@
     ],
     "correctAnswer": "ba",
     "explanation": "The answer is Bosnia and Herzegovina, in Europe, capital Sarajevo.",
+    "countryId": "ba",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-ba",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ba",
+      "no",
+      "mk",
+      "nl"
+    ],
+    "correctAnswer": "ba",
+    "explanation": "This is the outline of Bosnia and Herzegovina, in Europe. Its capital is Sarajevo.",
     "countryId": "ba",
     "active": true,
     "source": "generated:world-explorer"
@@ -5403,6 +5667,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-bw",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "bw",
+      "mw",
+      "ml",
+      "mr"
+    ],
+    "correctAnswer": "bw",
+    "explanation": "This is the outline of Botswana, in Africa. Its capital is Gaborone.",
+    "countryId": "bw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-bw",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -5638,6 +5924,28 @@
     ],
     "correctAnswer": "br",
     "explanation": "The answer is Brazil, in South America, capital Brasília.",
+    "countryId": "br",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-br",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "bt",
+      "bw",
+      "ba",
+      "br"
+    ],
+    "correctAnswer": "br",
+    "explanation": "This is the outline of Brazil, in South America. Its capital is Brasília.",
     "countryId": "br",
     "active": true,
     "source": "generated:world-explorer"
@@ -6120,6 +6428,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-bg",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ro",
+      "pt",
+      "bg",
+      "ru"
+    ],
+    "correctAnswer": "bg",
+    "explanation": "This is the outline of Bulgaria, in Europe. Its capital is Sofia.",
+    "countryId": "bg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-bg",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -6355,6 +6685,28 @@
     ],
     "correctAnswer": "bf",
     "explanation": "The answer is Burkina Faso, in Africa, capital Ouagadougou.",
+    "countryId": "bf",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-bf",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ma",
+      "na",
+      "mz",
+      "bf"
+    ],
+    "correctAnswer": "bf",
+    "explanation": "This is the outline of Burkina Faso, in Africa. Its capital is Ouagadougou.",
     "countryId": "bf",
     "active": true,
     "source": "generated:world-explorer"
@@ -6837,6 +7189,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-kh",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "sy",
+      "lk",
+      "kh",
+      "tj"
+    ],
+    "correctAnswer": "kh",
+    "explanation": "This is the outline of Cambodia, in Asia. Its capital is Phnom Penh.",
+    "countryId": "kh",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-kh",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -7077,6 +7451,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-cm",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ne",
+      "cg",
+      "ng",
+      "cm"
+    ],
+    "correctAnswer": "cm",
+    "explanation": "This is the outline of Cameroon, in Africa. Its capital is Yaoundé.",
+    "countryId": "cm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-cm",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -7312,6 +7708,28 @@
     ],
     "correctAnswer": "ca",
     "explanation": "The answer is Canada, in North America, capital Ottawa.",
+    "countryId": "ca",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-ca",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "bj",
+      "bt",
+      "bo",
+      "ca"
+    ],
+    "correctAnswer": "ca",
+    "explanation": "This is the outline of Canada, in North America. Its capital is Ottawa.",
     "countryId": "ca",
     "active": true,
     "source": "generated:world-explorer"
@@ -7793,6 +8211,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-cf",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "cf",
+      "st",
+      "sn",
+      "rw"
+    ],
+    "correctAnswer": "cf",
+    "explanation": "This is the outline of Central African Republic, in Africa. Its capital is Bangui.",
+    "countryId": "cf",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-cf",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -8028,6 +8468,28 @@
     ],
     "correctAnswer": "td",
     "explanation": "The answer is Chad, in Africa, capital N'Djamena.",
+    "countryId": "td",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-td",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "st",
+      "sn",
+      "sc",
+      "td"
+    ],
+    "correctAnswer": "td",
+    "explanation": "This is the outline of Chad, in Africa. Its capital is N'Djamena.",
     "countryId": "td",
     "active": true,
     "source": "generated:world-explorer"
@@ -8273,6 +8735,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-cl",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "td",
+      "cf",
+      "cl",
+      "cn"
+    ],
+    "correctAnswer": "cl",
+    "explanation": "This is the outline of Chile, in South America. Its capital is Santiago.",
+    "countryId": "cl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-cl",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -8513,6 +8997,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-cn",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "cn",
+      "vn",
+      "uz",
+      "ae"
+    ],
+    "correctAnswer": "cn",
+    "explanation": "This is the outline of China, in Asia. Its capital is Beijing.",
+    "countryId": "cn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-cn",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -8746,6 +9252,28 @@
     ],
     "correctAnswer": "co",
     "explanation": "The answer is Colombia, in South America, capital Bogotá.",
+    "countryId": "co",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-co",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "cr",
+      "co",
+      "cn",
+      "km"
+    ],
+    "correctAnswer": "co",
+    "explanation": "This is the outline of Colombia, in South America. Its capital is Bogotá.",
     "countryId": "co",
     "active": true,
     "source": "generated:world-explorer"
@@ -9224,6 +9752,27 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-cr",
+    "type": "shape-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "cr",
+      "bi",
+      "kh",
+      "bf"
+    ],
+    "correctAnswer": "cr",
+    "explanation": "This is the outline of Costa Rica, in North America. Its capital is San José.",
+    "countryId": "cr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-cr",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -9464,6 +10013,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-hr",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ag",
+      "hr",
+      "dz",
+      "ao"
+    ],
+    "correctAnswer": "hr",
+    "explanation": "This is the outline of Croatia, in Europe. Its capital is Zagreb.",
+    "countryId": "hr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-hr",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -9695,6 +10266,27 @@
     ],
     "correctAnswer": "cu",
     "explanation": "The answer is Cuba, in North America, capital Havana.",
+    "countryId": "cu",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-cu",
+    "type": "shape-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "kh",
+      "cv",
+      "cm",
+      "cu"
+    ],
+    "correctAnswer": "cu",
+    "explanation": "This is the outline of Cuba, in North America. Its capital is Havana.",
     "countryId": "cu",
     "active": true,
     "source": "generated:world-explorer"
@@ -10171,6 +10763,28 @@
     ],
     "correctAnswer": "cz",
     "explanation": "The answer is Czechia, in Europe, capital Prague.",
+    "countryId": "cz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-cz",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "cz",
+      "au",
+      "am",
+      "ar"
+    ],
+    "correctAnswer": "cz",
+    "explanation": "This is the outline of Czechia, in Europe. Its capital is Prague.",
     "countryId": "cz",
     "active": true,
     "source": "generated:world-explorer"
@@ -11369,6 +11983,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-cd",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "cd",
+      "af",
+      "al",
+      "ad"
+    ],
+    "correctAnswer": "cd",
+    "explanation": "This is the outline of DR Congo, in Africa. Its capital is Kinshasa.",
+    "countryId": "cd",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-cd",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -11609,6 +12245,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-ec",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "eg",
+      "gq",
+      "sv",
+      "ec"
+    ],
+    "correctAnswer": "ec",
+    "explanation": "This is the outline of Ecuador, in South America. Its capital is Quito.",
+    "countryId": "ec",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-ec",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -11844,6 +12502,28 @@
     ],
     "correctAnswer": "eg",
     "explanation": "The answer is Egypt, in Africa, capital Cairo.",
+    "countryId": "eg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-eg",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ad",
+      "ag",
+      "ar",
+      "eg"
+    ],
+    "correctAnswer": "eg",
+    "explanation": "This is the outline of Egypt, in Africa. Its capital is Cairo.",
     "countryId": "eg",
     "active": true,
     "source": "generated:world-explorer"
@@ -12558,6 +13238,28 @@
     ],
     "correctAnswer": "er",
     "explanation": "The answer is Eritrea, in Africa, capital Asmara.",
+    "countryId": "er",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-er",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "er",
+      "au",
+      "am",
+      "at"
+    ],
+    "correctAnswer": "er",
+    "explanation": "This is the outline of Eritrea, in Africa. Its capital is Asmara.",
     "countryId": "er",
     "active": true,
     "source": "generated:world-explorer"
@@ -13280,6 +13982,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-et",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "et",
+      "bs",
+      "bh",
+      "az"
+    ],
+    "correctAnswer": "et",
+    "explanation": "This is the outline of Ethiopia, in Africa. Its capital is Addis Ababa.",
+    "countryId": "et",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-et",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -13756,6 +14480,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-fi",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "fi",
+      "kh",
+      "bi",
+      "bf"
+    ],
+    "correctAnswer": "fi",
+    "explanation": "This is the outline of Finland, in Europe. Its capital is Helsinki.",
+    "countryId": "fi",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-fi",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -13996,6 +14742,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-fr",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "bi",
+      "cm",
+      "kh",
+      "fr"
+    ],
+    "correctAnswer": "fr",
+    "explanation": "This is the outline of France, in Europe. Its capital is Paris.",
+    "countryId": "fr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-fr",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -14231,6 +14999,28 @@
     ],
     "correctAnswer": "ga",
     "explanation": "The answer is Gabon, in Africa, capital Libreville.",
+    "countryId": "ga",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-ga",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "by",
+      "be",
+      "bb",
+      "ga"
+    ],
+    "correctAnswer": "ga",
+    "explanation": "This is the outline of Gabon, in Africa. Its capital is Libreville.",
     "countryId": "ga",
     "active": true,
     "source": "generated:world-explorer"
@@ -14713,6 +15503,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-ge",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ca",
+      "cv",
+      "cf",
+      "ge"
+    ],
+    "correctAnswer": "ge",
+    "explanation": "This is the outline of Georgia, in Asia. Its capital is Tbilisi.",
+    "countryId": "ge",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-ge",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -14948,6 +15760,28 @@
     ],
     "correctAnswer": "de",
     "explanation": "The answer is Germany, in Europe, capital Berlin.",
+    "countryId": "de",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-de",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "de",
+      "cf",
+      "cv",
+      "td"
+    ],
+    "correctAnswer": "de",
+    "explanation": "This is the outline of Germany, in Europe. Its capital is Berlin.",
     "countryId": "de",
     "active": true,
     "source": "generated:world-explorer"
@@ -15193,6 +16027,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-gh",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "bo",
+      "bt",
+      "gh",
+      "ba"
+    ],
+    "correctAnswer": "gh",
+    "explanation": "This is the outline of Ghana, in Africa. Its capital is Accra.",
+    "countryId": "gh",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-gh",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -15428,6 +16284,28 @@
     ],
     "correctAnswer": "gr",
     "explanation": "The answer is Greece, in Europe, capital Athens.",
+    "countryId": "gr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-gr",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "gr",
+      "cl",
+      "cn",
+      "td"
+    ],
+    "correctAnswer": "gr",
+    "explanation": "This is the outline of Greece, in Europe. Its capital is Athens.",
     "countryId": "gr",
     "active": true,
     "source": "generated:world-explorer"
@@ -15906,6 +16784,27 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-gt",
+    "type": "shape-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "gt",
+      "ge",
+      "gm",
+      "de"
+    ],
+    "correctAnswer": "gt",
+    "explanation": "This is the outline of Guatemala, in North America. Its capital is Guatemala City.",
+    "countryId": "gt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-gt",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -16141,6 +17040,28 @@
     ],
     "correctAnswer": "gn",
     "explanation": "The answer is Guinea, in Africa, capital Conakry.",
+    "countryId": "gn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-gn",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "gn",
+      "kh",
+      "bg",
+      "bn"
+    ],
+    "correctAnswer": "gn",
+    "explanation": "This is the outline of Guinea, in Africa. Its capital is Conakry.",
     "countryId": "gn",
     "active": true,
     "source": "generated:world-explorer"
@@ -16626,6 +17547,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-gy",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "hn",
+      "is",
+      "hu",
+      "gy"
+    ],
+    "correctAnswer": "gy",
+    "explanation": "This is the outline of Guyana, in South America. Its capital is Georgetown.",
+    "countryId": "gy",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-gy",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -17103,6 +18046,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-hn",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "gy",
+      "hn",
+      "gn",
+      "gw"
+    ],
+    "correctAnswer": "hn",
+    "explanation": "This is the outline of Honduras, in North America. Its capital is Tegucigalpa.",
+    "countryId": "hn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-hn",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -17343,6 +18308,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-hu",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "hu",
+      "dm",
+      "do",
+      "cd"
+    ],
+    "correctAnswer": "hu",
+    "explanation": "This is the outline of Hungary, in Europe. Its capital is Budapest.",
+    "countryId": "hu",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-hu",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -17577,6 +18564,28 @@
     ],
     "correctAnswer": "is",
     "explanation": "The answer is Iceland, in Europe, capital Reykjavik.",
+    "countryId": "is",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-is",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "do",
+      "cd",
+      "ec",
+      "is"
+    ],
+    "correctAnswer": "is",
+    "explanation": "This is the outline of Iceland, in Europe. Its capital is Reykjavik.",
     "countryId": "is",
     "active": true,
     "source": "generated:world-explorer"
@@ -17822,6 +18831,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-in",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "in",
+      "dj",
+      "dm",
+      "do"
+    ],
+    "correctAnswer": "in",
+    "explanation": "This is the outline of India, in Asia. Its capital is New Delhi.",
+    "countryId": "in",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-in",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -18055,6 +19086,28 @@
     ],
     "correctAnswer": "id",
     "explanation": "The answer is Indonesia, in Asia, capital Jakarta.",
+    "countryId": "id",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-id",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "id",
+      "cd",
+      "do",
+      "dm"
+    ],
+    "correctAnswer": "id",
+    "explanation": "This is the outline of Indonesia, in Asia. Its capital is Jakarta.",
     "countryId": "id",
     "active": true,
     "source": "generated:world-explorer"
@@ -18300,6 +19353,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-ir",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ir",
+      "cd",
+      "do",
+      "ec"
+    ],
+    "correctAnswer": "ir",
+    "explanation": "This is the outline of Iran, in Asia. Its capital is Tehran.",
+    "countryId": "ir",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-ir",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -18540,6 +19615,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-iq",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "cd",
+      "iq",
+      "eg",
+      "ec"
+    ],
+    "correctAnswer": "iq",
+    "explanation": "This is the outline of Iraq, in Asia. Its capital is Baghdad.",
+    "countryId": "iq",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-iq",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -18770,6 +19867,27 @@
     ],
     "correctAnswer": "ie",
     "explanation": "The answer is Ireland, in Europe, capital Dublin.",
+    "countryId": "ie",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-ie",
+    "type": "shape-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "sz",
+      "ie",
+      "gq",
+      "er"
+    ],
+    "correctAnswer": "ie",
+    "explanation": "This is the outline of Ireland, in Europe. Its capital is Dublin.",
     "countryId": "ie",
     "active": true,
     "source": "generated:world-explorer"
@@ -19250,6 +20368,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-it",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "it",
+      "fj",
+      "et",
+      "sz"
+    ],
+    "correctAnswer": "it",
+    "explanation": "This is the outline of Italy, in Europe. Its capital is Rome.",
+    "countryId": "it",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-it",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -19485,6 +20625,28 @@
     ],
     "correctAnswer": "ci",
     "explanation": "The answer is Ivory Coast, in Africa, capital Yamoussoukro.",
+    "countryId": "ci",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-ci",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "do",
+      "sv",
+      "ec",
+      "ci"
+    ],
+    "correctAnswer": "ci",
+    "explanation": "This is the outline of Ivory Coast, in Africa. Its capital is Yamoussoukro.",
     "countryId": "ci",
     "active": true,
     "source": "generated:world-explorer"
@@ -19965,6 +21127,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-jp",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "et",
+      "jp",
+      "ee",
+      "sz"
+    ],
+    "correctAnswer": "jp",
+    "explanation": "This is the outline of Japan, in Asia. Its capital is Tokyo.",
+    "countryId": "jp",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-jp",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -20200,6 +21384,28 @@
     ],
     "correctAnswer": "jo",
     "explanation": "The answer is Jordan, in Asia, capital Amman.",
+    "countryId": "jo",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-jo",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "jo",
+      "et",
+      "sz",
+      "fj"
+    ],
+    "correctAnswer": "jo",
+    "explanation": "This is the outline of Jordan, in Asia. Its capital is Amman.",
     "countryId": "jo",
     "active": true,
     "source": "generated:world-explorer"
@@ -20445,6 +21651,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-kz",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "kz",
+      "fj",
+      "fi",
+      "et"
+    ],
+    "correctAnswer": "kz",
+    "explanation": "This is the outline of Kazakhstan, in Asia. Its capital is Astana.",
+    "countryId": "kz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-kz",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -20680,6 +21908,28 @@
     ],
     "correctAnswer": "ke",
     "explanation": "The answer is Kenya, in Africa, capital Nairobi.",
+    "countryId": "ke",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-ke",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "fr",
+      "ge",
+      "fi",
+      "ke"
+    ],
+    "correctAnswer": "ke",
+    "explanation": "This is the outline of Kenya, in Africa. Its capital is Nairobi.",
     "countryId": "ke",
     "active": true,
     "source": "generated:world-explorer"
@@ -21398,6 +22648,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-kg",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ga",
+      "de",
+      "kg",
+      "gm"
+    ],
+    "correctAnswer": "kg",
+    "explanation": "This is the outline of Kyrgyzstan, in Asia. Its capital is Bishkek.",
+    "countryId": "kg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-kg",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -21638,6 +22910,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-la",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "de",
+      "gm",
+      "la",
+      "gh"
+    ],
+    "correctAnswer": "la",
+    "explanation": "This is the outline of Laos, in Asia. Its capital is Vientiane.",
+    "countryId": "la",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-la",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -21873,6 +23167,28 @@
     ],
     "correctAnswer": "lv",
     "explanation": "The answer is Latvia, in Europe, capital Riga.",
+    "countryId": "lv",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-lv",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "hn",
+      "lv",
+      "gy",
+      "ht"
+    ],
+    "correctAnswer": "lv",
+    "explanation": "This is the outline of Latvia, in Europe. Its capital is Riga.",
     "countryId": "lv",
     "active": true,
     "source": "generated:world-explorer"
@@ -22595,6 +23911,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-lr",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ht",
+      "hu",
+      "lr",
+      "hn"
+    ],
+    "correctAnswer": "lr",
+    "explanation": "This is the outline of Liberia, in Africa. Its capital is Monrovia.",
+    "countryId": "lr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-lr",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -22830,6 +24168,28 @@
     ],
     "correctAnswer": "ly",
     "explanation": "The answer is Libya, in Africa, capital Tripoli.",
+    "countryId": "ly",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-ly",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ly",
+      "hu",
+      "hn",
+      "is"
+    ],
+    "correctAnswer": "ly",
+    "explanation": "This is the outline of Libya, in Africa. Its capital is Tripoli.",
     "countryId": "ly",
     "active": true,
     "source": "generated:world-explorer"
@@ -23312,6 +24672,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-lt",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "iq",
+      "ci",
+      "il",
+      "lt"
+    ],
+    "correctAnswer": "lt",
+    "explanation": "This is the outline of Lithuania, in Europe. Its capital is Vilnius.",
+    "countryId": "lt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-lt",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -23788,6 +25170,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-mg",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "id",
+      "ir",
+      "iq",
+      "mg"
+    ],
+    "correctAnswer": "mg",
+    "explanation": "This is the outline of Madagascar, in Africa. Its capital is Antananarivo.",
+    "countryId": "mg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-mg",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -24028,6 +25432,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-mw",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "iq",
+      "ie",
+      "ir",
+      "mw"
+    ],
+    "correctAnswer": "mw",
+    "explanation": "This is the outline of Malawi, in Africa. Its capital is Lilongwe.",
+    "countryId": "mw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-mw",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -24263,6 +25689,28 @@
     ],
     "correctAnswer": "my",
     "explanation": "The answer is Malaysia, in Asia, capital Kuala Lumpur.",
+    "countryId": "my",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-my",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "hu",
+      "ie",
+      "my",
+      "is"
+    ],
+    "correctAnswer": "my",
+    "explanation": "This is the outline of Malaysia, in Asia. Its capital is Kuala Lumpur.",
     "countryId": "my",
     "active": true,
     "source": "generated:world-explorer"
@@ -24737,6 +26185,28 @@
     ],
     "correctAnswer": "ml",
     "explanation": "The answer is Mali, in Africa, capital Bamako.",
+    "countryId": "ml",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-ml",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ml",
+      "it",
+      "jm",
+      "il"
+    ],
+    "correctAnswer": "ml",
+    "explanation": "This is the outline of Mali, in Africa. Its capital is Bamako.",
     "countryId": "ml",
     "active": true,
     "source": "generated:world-explorer"
@@ -25454,6 +26924,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-mr",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "mr",
+      "jo",
+      "jp",
+      "kz"
+    ],
+    "correctAnswer": "mr",
+    "explanation": "This is the outline of Mauritania, in Africa. Its capital is Nouakchott.",
+    "countryId": "mr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-mr",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -25923,6 +27415,28 @@
     ],
     "correctAnswer": "mx",
     "explanation": "The answer is Mexico, in North America, capital Mexico City.",
+    "countryId": "mx",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-mx",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "mx",
+      "fm",
+      "md",
+      "mu"
+    ],
+    "correctAnswer": "mx",
+    "explanation": "This is the outline of Mexico, in North America. Its capital is Mexico City.",
     "countryId": "mx",
     "active": true,
     "source": "generated:world-explorer"
@@ -26859,6 +28373,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-mn",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "mn",
+      "ly",
+      "li",
+      "lt"
+    ],
+    "correctAnswer": "mn",
+    "explanation": "This is the outline of Mongolia, in Asia. Its capital is Ulan Bator.",
+    "countryId": "mn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-mn",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -27336,6 +28872,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-ma",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "lt",
+      "ma",
+      "lb",
+      "li"
+    ],
+    "correctAnswer": "ma",
+    "explanation": "This is the outline of Morocco, in Africa. Its capital is Rabat.",
+    "countryId": "ma",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-ma",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -27571,6 +29129,28 @@
     ],
     "correctAnswer": "mz",
     "explanation": "The answer is Mozambique, in Africa, capital Maputo.",
+    "countryId": "mz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-mz",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "mz",
+      "li",
+      "lt",
+      "lu"
+    ],
+    "correctAnswer": "mz",
+    "explanation": "This is the outline of Mozambique, in Africa. Its capital is Maputo.",
     "countryId": "mz",
     "active": true,
     "source": "generated:world-explorer"
@@ -27816,6 +29396,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-mm",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "mg",
+      "ml",
+      "mm",
+      "mw"
+    ],
+    "correctAnswer": "mm",
+    "explanation": "This is the outline of Myanmar, in Asia. Its capital is Naypyidaw.",
+    "countryId": "mm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-mm",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -28051,6 +29653,28 @@
     ],
     "correctAnswer": "na",
     "explanation": "The answer is Namibia, in Africa, capital Windhoek.",
+    "countryId": "na",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-na",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "na",
+      "my",
+      "mv",
+      "lu"
+    ],
+    "correctAnswer": "na",
+    "explanation": "This is the outline of Namibia, in Africa. Its capital is Windhoek.",
     "countryId": "na",
     "active": true,
     "source": "generated:world-explorer"
@@ -28532,6 +30156,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-np",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "mt",
+      "np",
+      "mr",
+      "mh"
+    ],
+    "correctAnswer": "np",
+    "explanation": "This is the outline of Nepal, in Asia. Its capital is Kathmandu.",
+    "countryId": "np",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-np",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -29004,6 +30650,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-nz",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "nl",
+      "ne",
+      "ni",
+      "nz"
+    ],
+    "correctAnswer": "nz",
+    "explanation": "This is the outline of New Zealand, in Oceania. Its capital is Wellington.",
+    "countryId": "nz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-nz",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -29239,6 +30907,28 @@
     ],
     "correctAnswer": "ni",
     "explanation": "The answer is Nicaragua, in North America, capital Managua.",
+    "countryId": "ni",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-ni",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ng",
+      "kp",
+      "ni",
+      "ne"
+    ],
+    "correctAnswer": "ni",
+    "explanation": "This is the outline of Nicaragua, in North America. Its capital is Managua.",
     "countryId": "ni",
     "active": true,
     "source": "generated:world-explorer"
@@ -29484,6 +31174,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-ne",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ne",
+      "mc",
+      "md",
+      "fm"
+    ],
+    "correctAnswer": "ne",
+    "explanation": "This is the outline of Niger, in Africa. Its capital is Niamey.",
+    "countryId": "ne",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-ne",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -29724,6 +31436,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-ng",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "mc",
+      "md",
+      "ng",
+      "mn"
+    ],
+    "correctAnswer": "ng",
+    "explanation": "This is the outline of Nigeria, in Africa. Its capital is Abuja.",
+    "countryId": "ng",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-ng",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -29959,6 +31693,28 @@
     ],
     "correctAnswer": "kp",
     "explanation": "The answer is North Korea, in Asia, capital Pyongyang.",
+    "countryId": "kp",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-kp",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "kp",
+      "mc",
+      "md",
+      "me"
+    ],
+    "correctAnswer": "kp",
+    "explanation": "This is the outline of North Korea, in Asia. Its capital is Pyongyang.",
     "countryId": "kp",
     "active": true,
     "source": "generated:world-explorer"
@@ -30441,6 +32197,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-no",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "no",
+      "na",
+      "nr",
+      "np"
+    ],
+    "correctAnswer": "no",
+    "explanation": "This is the outline of Norway, in Europe. Its capital is Oslo.",
+    "countryId": "no",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-no",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -30681,6 +32459,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-om",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ma",
+      "mz",
+      "na",
+      "om"
+    ],
+    "correctAnswer": "om",
+    "explanation": "This is the outline of Oman, in Asia. Its capital is Muscat.",
+    "countryId": "om",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-om",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -30916,6 +32716,28 @@
     ],
     "correctAnswer": "pk",
     "explanation": "The answer is Pakistan, in Asia, capital Islamabad.",
+    "countryId": "pk",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-pk",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "pk",
+      "nr",
+      "na",
+      "mz"
+    ],
+    "correctAnswer": "pk",
+    "explanation": "This is the outline of Pakistan, in Asia. Its capital is Islamabad.",
     "countryId": "pk",
     "active": true,
     "source": "generated:world-explorer"
@@ -31397,6 +33219,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-pa",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "pa",
+      "py",
+      "pe",
+      "ph"
+    ],
+    "correctAnswer": "pa",
+    "explanation": "This is the outline of Panama, in North America. Its capital is Panama City.",
+    "countryId": "pa",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-pa",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -31632,6 +33476,28 @@
     ],
     "correctAnswer": "pg",
     "explanation": "The answer is Papua New Guinea, in Oceania, capital Port Moresby.",
+    "countryId": "pg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-pg",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ph",
+      "pl",
+      "pg",
+      "pe"
+    ],
+    "correctAnswer": "pg",
+    "explanation": "This is the outline of Papua New Guinea, in Oceania. Its capital is Port Moresby.",
     "countryId": "pg",
     "active": true,
     "source": "generated:world-explorer"
@@ -31877,6 +33743,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-py",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "py",
+      "qa",
+      "pt",
+      "cg"
+    ],
+    "correctAnswer": "py",
+    "explanation": "This is the outline of Paraguay, in South America. Its capital is Asunción.",
+    "countryId": "py",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-py",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -32117,6 +34005,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-pe",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "pe",
+      "cg",
+      "qa",
+      "ro"
+    ],
+    "correctAnswer": "pe",
+    "explanation": "This is the outline of Peru, in South America. Its capital is Lima.",
+    "countryId": "pe",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-pe",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -32351,6 +34261,28 @@
     ],
     "correctAnswer": "ph",
     "explanation": "The answer is Philippines, in Asia, capital Manila.",
+    "countryId": "ph",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-ph",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ne",
+      "mk",
+      "ng",
+      "ph"
+    ],
+    "correctAnswer": "ph",
+    "explanation": "This is the outline of Philippines, in Asia. Its capital is Manila.",
     "countryId": "ph",
     "active": true,
     "source": "generated:world-explorer"
@@ -32596,6 +34528,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-pl",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "pw",
+      "pa",
+      "pk",
+      "pl"
+    ],
+    "correctAnswer": "pl",
+    "explanation": "This is the outline of Poland, in Europe. Its capital is Warsaw.",
+    "countryId": "pl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-pl",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -32831,6 +34785,28 @@
     ],
     "correctAnswer": "pt",
     "explanation": "The answer is Portugal, in Europe, capital Lisbon.",
+    "countryId": "pt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-pt",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "pa",
+      "pg",
+      "pw",
+      "pt"
+    ],
+    "correctAnswer": "pt",
+    "explanation": "This is the outline of Portugal, in Europe. Its capital is Lisbon.",
     "countryId": "pt",
     "active": true,
     "source": "generated:world-explorer"
@@ -33313,6 +35289,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-cg",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "pw",
+      "pg",
+      "cg",
+      "pa"
+    ],
+    "correctAnswer": "cg",
+    "explanation": "This is the outline of Republic of the Congo, in Africa. Its capital is Brazzaville.",
+    "countryId": "cg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-cg",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -33553,6 +35551,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-ro",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ro",
+      "pe",
+      "py",
+      "ph"
+    ],
+    "correctAnswer": "ro",
+    "explanation": "This is the outline of Romania, in Europe. Its capital is Bucharest.",
+    "countryId": "ro",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-ro",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -33788,6 +35808,28 @@
     ],
     "correctAnswer": "ru",
     "explanation": "The answer is Russia, in Europe, capital Moscow.",
+    "countryId": "ru",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-ru",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ru",
+      "qa",
+      "ph",
+      "pe"
+    ],
+    "correctAnswer": "ru",
+    "explanation": "This is the outline of Russia, in Europe. Its capital is Moscow.",
     "countryId": "ru",
     "active": true,
     "source": "generated:world-explorer"
@@ -35687,6 +37729,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-sa",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "rw",
+      "kn",
+      "lc",
+      "sa"
+    ],
+    "correctAnswer": "sa",
+    "explanation": "This is the outline of Saudi Arabia, in Asia. Its capital is Riyadh.",
+    "countryId": "sa",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-sa",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -35920,6 +37984,28 @@
     ],
     "correctAnswer": "sn",
     "explanation": "The answer is Senegal, in Africa, capital Dakar.",
+    "countryId": "sn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-sn",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "sn",
+      "vc",
+      "lc",
+      "kn"
+    ],
+    "correctAnswer": "sn",
+    "explanation": "This is the outline of Senegal, in Africa. Its capital is Dakar.",
     "countryId": "sn",
     "active": true,
     "source": "generated:world-explorer"
@@ -36160,6 +38246,28 @@
     ],
     "correctAnswer": "rs",
     "explanation": "The answer is Serbia, in Europe, capital Belgrade.",
+    "countryId": "rs",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-rs",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "rs",
+      "sn",
+      "sa",
+      "sc"
+    ],
+    "correctAnswer": "rs",
+    "explanation": "This is the outline of Serbia, in Europe. Its capital is Belgrade.",
     "countryId": "rs",
     "active": true,
     "source": "generated:world-explorer"
@@ -36636,6 +38744,28 @@
     ],
     "correctAnswer": "sl",
     "explanation": "The answer is Sierra Leone, in Africa, capital Freetown.",
+    "countryId": "sl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-sl",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "sm",
+      "ws",
+      "sl",
+      "sa"
+    ],
+    "correctAnswer": "sl",
+    "explanation": "This is the outline of Sierra Leone, in Africa. Its capital is Freetown.",
     "countryId": "sl",
     "active": true,
     "source": "generated:world-explorer"
@@ -37830,6 +39960,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-so",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "sb",
+      "so",
+      "sk",
+      "si"
+    ],
+    "correctAnswer": "so",
+    "explanation": "This is the outline of Somalia, in Africa. Its capital is Mogadishu.",
+    "countryId": "so",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-so",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -38070,6 +40222,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-za",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "za",
+      "kr",
+      "sb",
+      "si"
+    ],
+    "correctAnswer": "za",
+    "explanation": "This is the outline of South Africa, in Africa. Its capital is Pretoria.",
+    "countryId": "za",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-za",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -38302,6 +40476,27 @@
     ],
     "correctAnswer": "kr",
     "explanation": "The answer is South Korea, in Asia, capital Seoul.",
+    "countryId": "kr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-kr",
+    "type": "shape-detective",
+    "difficulty": "hard",
+    "ageBands": [
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "si",
+      "sb",
+      "kr",
+      "sk"
+    ],
+    "correctAnswer": "kr",
+    "explanation": "This is the outline of South Korea, in Asia. Its capital is Seoul.",
     "countryId": "kr",
     "active": true,
     "source": "generated:world-explorer"
@@ -38547,6 +40742,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-ss",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "lk",
+      "ss",
+      "kr",
+      "es"
+    ],
+    "correctAnswer": "ss",
+    "explanation": "This is the outline of South Sudan, in Africa. Its capital is Juba.",
+    "countryId": "ss",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-ss",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -38782,6 +40999,28 @@
     ],
     "correctAnswer": "es",
     "explanation": "The answer is Spain, in Europe, capital Madrid.",
+    "countryId": "es",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-es",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "sd",
+      "sr",
+      "sy",
+      "es"
+    ],
+    "correctAnswer": "es",
+    "explanation": "This is the outline of Spain, in Europe. Its capital is Madrid.",
     "countryId": "es",
     "active": true,
     "source": "generated:world-explorer"
@@ -39027,6 +41266,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-lk",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "za",
+      "ss",
+      "lk",
+      "so"
+    ],
+    "correctAnswer": "lk",
+    "explanation": "This is the outline of Sri Lanka, in Asia. Its capital is Colombo.",
+    "countryId": "lk",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-lk",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -39262,6 +41523,28 @@
     ],
     "correctAnswer": "sd",
     "explanation": "The answer is Sudan, in Africa, capital Khartoum.",
+    "countryId": "sd",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-sd",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "sd",
+      "sr",
+      "se",
+      "ch"
+    ],
+    "correctAnswer": "sd",
+    "explanation": "This is the outline of Sudan, in Africa. Its capital is Khartoum.",
     "countryId": "sd",
     "active": true,
     "source": "generated:world-explorer"
@@ -39507,6 +41790,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-sr",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "sr",
+      "tl",
+      "th",
+      "tz"
+    ],
+    "correctAnswer": "sr",
+    "explanation": "This is the outline of Suriname, in South America. Its capital is Paramaribo.",
+    "countryId": "sr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-sr",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -39742,6 +42047,28 @@
     ],
     "correctAnswer": "se",
     "explanation": "The answer is Sweden, in Europe, capital Stockholm.",
+    "countryId": "se",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-se",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "th",
+      "tl",
+      "tz",
+      "se"
+    ],
+    "correctAnswer": "se",
+    "explanation": "This is the outline of Sweden, in Europe. Its capital is Stockholm.",
     "countryId": "se",
     "active": true,
     "source": "generated:world-explorer"
@@ -40227,6 +42554,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-sy",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "sr",
+      "se",
+      "ch",
+      "sy"
+    ],
+    "correctAnswer": "sy",
+    "explanation": "This is the outline of Syria, in Asia. Its capital is Damascus.",
+    "countryId": "sy",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-sy",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -40462,6 +42811,28 @@
     ],
     "correctAnswer": "tj",
     "explanation": "The answer is Tajikistan, in Asia, capital Dushanbe.",
+    "countryId": "tj",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-tj",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "se",
+      "tz",
+      "tj",
+      "ch"
+    ],
+    "correctAnswer": "tj",
+    "explanation": "This is the outline of Tajikistan, in Asia. Its capital is Dushanbe.",
     "countryId": "tj",
     "active": true,
     "source": "generated:world-explorer"
@@ -40707,6 +43078,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-tz",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "tt",
+      "tz",
+      "tl",
+      "to"
+    ],
+    "correctAnswer": "tz",
+    "explanation": "This is the outline of Tanzania, in Africa. Its capital is Dodoma.",
+    "countryId": "tz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-tz",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -40942,6 +43335,28 @@
     ],
     "correctAnswer": "th",
     "explanation": "The answer is Thailand, in Asia, capital Bangkok.",
+    "countryId": "th",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-th",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "tg",
+      "to",
+      "tz",
+      "th"
+    ],
+    "correctAnswer": "th",
+    "explanation": "This is the outline of Thailand, in Asia. Its capital is Bangkok.",
     "countryId": "th",
     "active": true,
     "source": "generated:world-explorer"
@@ -41419,6 +43834,28 @@
     ],
     "correctAnswer": "tg",
     "explanation": "The answer is Togo, in Africa, capital Lomé.",
+    "countryId": "tg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-tg",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "tm",
+      "tv",
+      "tg",
+      "tr"
+    ],
+    "correctAnswer": "tg",
+    "explanation": "This is the outline of Togo, in Africa. Its capital is Lomé.",
     "countryId": "tg",
     "active": true,
     "source": "generated:world-explorer"
@@ -42136,6 +44573,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-tn",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "gb",
+      "tn",
+      "ua",
+      "ae"
+    ],
+    "correctAnswer": "tn",
+    "explanation": "This is the outline of Tunisia, in Africa. Its capital is Tunis.",
+    "countryId": "tn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-tn",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -42376,6 +44835,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-tr",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ug",
+      "tr",
+      "gb",
+      "ua"
+    ],
+    "correctAnswer": "tr",
+    "explanation": "This is the outline of Türkiye, in Asia. Its capital is Ankara.",
+    "countryId": "tr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-tr",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -42611,6 +45092,28 @@
     ],
     "correctAnswer": "tm",
     "explanation": "The answer is Turkmenistan, in Asia, capital Ashgabat.",
+    "countryId": "tm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-tm",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "gb",
+      "ua",
+      "tm",
+      "us"
+    ],
+    "correctAnswer": "tm",
+    "explanation": "This is the outline of Turkmenistan, in Asia. Its capital is Ashgabat.",
     "countryId": "tm",
     "active": true,
     "source": "generated:world-explorer"
@@ -43092,6 +45595,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-ug",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "uy",
+      "uz",
+      "vu",
+      "ug"
+    ],
+    "correctAnswer": "ug",
+    "explanation": "This is the outline of Uganda, in Africa. Its capital is Kampala.",
+    "countryId": "ug",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-ug",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -43327,6 +45852,28 @@
     ],
     "correctAnswer": "ua",
     "explanation": "The answer is Ukraine, in Europe, capital Kyiv.",
+    "countryId": "ua",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-ua",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "vn",
+      "ua",
+      "vu",
+      "ve"
+    ],
+    "correctAnswer": "ua",
+    "explanation": "This is the outline of Ukraine, in Europe. Its capital is Kyiv.",
     "countryId": "ua",
     "active": true,
     "source": "generated:world-explorer"
@@ -43572,6 +46119,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-ae",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ve",
+      "ae",
+      "vu",
+      "va"
+    ],
+    "correctAnswer": "ae",
+    "explanation": "This is the outline of United Arab Emirates, in Asia. Its capital is Abu Dhabi.",
+    "countryId": "ae",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-ae",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -43807,6 +46376,28 @@
     ],
     "correctAnswer": "gb",
     "explanation": "The answer is United Kingdom, in Europe, capital London.",
+    "countryId": "gb",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-gb",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "gb",
+      "ye",
+      "zm",
+      "vn"
+    ],
+    "correctAnswer": "gb",
+    "explanation": "This is the outline of United Kingdom, in Europe. Its capital is London.",
     "countryId": "gb",
     "active": true,
     "source": "generated:world-explorer"
@@ -44052,6 +46643,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-us",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "zm",
+      "zw",
+      "ye",
+      "us"
+    ],
+    "correctAnswer": "us",
+    "explanation": "This is the outline of United States, in North America. Its capital is Washington D.C..",
+    "countryId": "us",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-us",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -44292,6 +46905,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-uy",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "zm",
+      "uy",
+      "ar",
+      "zw"
+    ],
+    "correctAnswer": "uy",
+    "explanation": "This is the outline of Uruguay, in South America. Its capital is Montevideo.",
+    "countryId": "uy",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-uy",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -44527,6 +47162,28 @@
     ],
     "correctAnswer": "uz",
     "explanation": "The answer is Uzbekistan, in Asia, capital Tashkent.",
+    "countryId": "uz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-uz",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "uz",
+      "af",
+      "zw",
+      "am"
+    ],
+    "correctAnswer": "uz",
+    "explanation": "This is the outline of Uzbekistan, in Asia. Its capital is Tashkent.",
     "countryId": "uz",
     "active": true,
     "source": "generated:world-explorer"
@@ -45243,6 +47900,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-ve",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "ve",
+      "co",
+      "cl",
+      "br"
+    ],
+    "correctAnswer": "ve",
+    "explanation": "This is the outline of Venezuela, in South America. Its capital is Caracas.",
+    "countryId": "ve",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-ve",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -45478,6 +48157,28 @@
     ],
     "correctAnswer": "vn",
     "explanation": "The answer is Vietnam, in Asia, capital Hanoi.",
+    "countryId": "vn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-vn",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "bh",
+      "bd",
+      "bt",
+      "vn"
+    ],
+    "correctAnswer": "vn",
+    "explanation": "This is the outline of Vietnam, in Asia. Its capital is Hanoi.",
     "countryId": "vn",
     "active": true,
     "source": "generated:world-explorer"
@@ -45723,6 +48424,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-ye",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "bd",
+      "ye",
+      "bn",
+      "bt"
+    ],
+    "correctAnswer": "ye",
+    "explanation": "This is the outline of Yemen, in Asia. Its capital is Sana'a.",
+    "countryId": "ye",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-ye",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -45963,6 +48686,28 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "shape-detective-zm",
+    "type": "shape-detective",
+    "difficulty": "easy",
+    "ageBands": [
+      "5-7",
+      "8-10"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "cm",
+      "cv",
+      "zm",
+      "bi"
+    ],
+    "correctAnswer": "zm",
+    "explanation": "This is the outline of Zambia, in Africa. Its capital is Lusaka.",
+    "countryId": "zm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "good-to-know-language-zm",
     "type": "good-to-know",
     "difficulty": "medium",
@@ -46198,6 +48943,28 @@
     ],
     "correctAnswer": "zw",
     "explanation": "The answer is Zimbabwe, in Africa, capital Harare.",
+    "countryId": "zw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "shape-detective-zw",
+    "type": "shape-detective",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "shapes",
+    "prompt": "Which country has this shape?",
+    "options": [
+      "cv",
+      "cm",
+      "zw",
+      "cf"
+    ],
+    "correctAnswer": "zw",
+    "explanation": "This is the outline of Zimbabwe, in Africa. Its capital is Harare.",
     "countryId": "zw",
     "active": true,
     "source": "generated:world-explorer"

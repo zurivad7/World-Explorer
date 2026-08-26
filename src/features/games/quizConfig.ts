@@ -26,6 +26,7 @@ export function optionKind(question: Question): OptionKind {
       return question.id.startsWith('flag-detective-country-') ? 'country-flag' : 'country-name';
     case 'map-find-it':
     case 'geography-detective':
+    case 'shape-detective':
     default:
       return 'country-name';
   }
@@ -34,6 +35,11 @@ export function optionKind(question: Question): OptionKind {
 /** Whether the prompt itself should display a flag (flag → country direction). */
 export function promptShowsFlag(question: Question): boolean {
   return question.type === 'flag-detective' && question.id.startsWith('flag-detective-flag-');
+}
+
+/** Whether the prompt should display a country silhouette to identify. */
+export function promptShowsShape(question: Question): boolean {
+  return question.type === 'shape-detective';
 }
 
 /** Map-based question that should offer the interactive map (with a non-map fallback). */

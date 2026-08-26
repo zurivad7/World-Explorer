@@ -1099,6 +1099,26 @@ body {
   font-weight: 600;
 }
 
+/* Country silhouette (Shape Detective). */
+.country-silhouette {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 220px;
+  margin: 0 auto 8px;
+}
+
+.country-silhouette path {
+  fill: var(--color-ink-blue);
+  stroke: var(--color-primary-dark);
+  stroke-width: 0.5;
+  stroke-linejoin: round;
+}
+
+.quiz-prompt-shape {
+  margin-bottom: 4px;
+}
+
 /* Pronounce ("hear it") button next to names. */
 .screen__title-row {
   display: flex;
