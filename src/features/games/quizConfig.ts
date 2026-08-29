@@ -16,8 +16,12 @@ export function optionKind(question: Question): OptionKind {
       return 'colours';
     case 'continent-challenge':
     case 'good-to-know':
-      // Language / currency / dialing code / domain — plain text options.
+    case 'find-the-lie':
+      // Language / currency / dialing code / domain / true-false statements — plain text.
       return 'text';
+    case 'odd-one-out':
+      // Options are the countries themselves; show their names.
+      return 'country-name';
     case 'capital-challenge':
       // "capital" direction: options are capital-city strings.
       return question.id.startsWith('capital-challenge-capital-') ? 'text' : 'country-name';

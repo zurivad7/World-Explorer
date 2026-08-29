@@ -21,6 +21,7 @@ export const topicSchema = z.enum([
   'clues',
   'facts',
   'shapes',
+  'reasoning',
 ]);
 
 const iso2 = z.string().regex(/^[a-z]{2}$/, 'iso2 must be two lowercase letters');
