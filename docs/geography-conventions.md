@@ -76,6 +76,16 @@ partly in Europe and partly in Asia") without making it the quiz answer.
   claim), and each lie is generated from real data with its correction shown.
 - Both use the **reasoning** topic and are generated deterministically at build
   time from country data — never fabricated. They are `medium` difficulty (ages 8+).
+- Odd One Out rotates through **continent / currency / language / hemisphere**
+  traits (landlocked/coast is only a rare fallback), so the questions stay varied.
+
+## Distance (LOCATE pillar)
+
+- **Closest Country** asks which of four options is nearest to an anchor country,
+  using a great-circle (haversine) distance between country `latlng` points.
+  Direct neighbours are excluded (so it tests distance intuition, not borders) and
+  the three distractors are spread across clearly-further countries so the nearest
+  is unambiguous. Uses the **location** topic.
 
 ## Country shapes (Shape Detective)
 
