@@ -115,6 +115,19 @@ partly in Europe and partly in Asia") without making it the quiz answer.
 - Only countries with at least one land neighbour get a question (island nations are
   skipped). Uses the **location** topic, `medium` difficulty (ages 8+).
 
+## Scoring games (COMPETE pillar)
+
+- **Bet Your Knowledge** is a *wager layer* over ordinary questions, not its own
+  question type. It draws a mixed, adaptive set from the whole bank (excluding map
+  and select-all questions, so every answer is a single tap). Before the options
+  unlock, the player bets how sure they are — **Safe (10) / Sure (20) / Certain
+  (30)** points. A correct answer wins the wager; a wrong one loses it, but the
+  running total never drops below zero (`scoreBet`), so a bold wrong guess stings
+  without being punishing for younger players. The end screen shows total points.
+- The wager and running score are pure/UI concerns; each question still updates
+  topic and country mastery through the normal answer path, so playing Bet Your
+  Knowledge also advances learning progress.
+
 ## Country shapes (Shape Detective)
 
 - The **Shape Detective** game shows a country's outline only — no basemap, labels
