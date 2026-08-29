@@ -120,6 +120,13 @@ function mapDifficulty(hint?: Pick<CountrySource, 'mapSize' | 'similarFlag'>): D
 
 const northern = (c: Country): boolean => (c.latlng ? c.latlng[0] >= 0 : true);
 
+/**
+ * Canonical encoding of a multi-select answer: the chosen ids sorted and joined, so a
+ * player's picks compare equal to the correct set by plain string equality (letting
+ * the existing single-string answer engine score "select all that apply" unchanged).
+ */
+export const encodeSelection = (ids: string[]): string => [...ids].sort().join('+');
+
 /** Great-circle distance in km between two [lat, lng] points (haversine). */
 function distanceKm(a: readonly [number, number], b: readonly [number, number]): number {
   const R = 6371;
@@ -165,6 +172,55 @@ function makeClosest(c: Country, countries: Country[]): Question | null {
     options,
     correctAnswer: nearest.x.id,
     explanation: `${nearest.x.name} is the closest to ${c.name} of these four.`,
+    countryId: c.id,
+    active: true,
+    source: SOURCE,
+  };
+}
+
+/**
+ * "Border Battle" (multi-select): given an anchor country, pick every option that
+ * shares a land border with it. Options are a mix of real neighbours (up to three) and
+ * same-continent non-neighbours; the correct answer is the canonical set of the
+ * neighbour option ids (see encodeSelection). Only countries with at least one land
+ * neighbour get a question, and there are always some non-neighbours so it is a real
+ * "select all that apply".
+ */
+function makeBorderBattle(
+  c: Country,
+  countries: Country[],
+  byId: Map<string, Country>,
+  index: number
+): Question | null {
+  const neighbourIds = c.neighbours.filter((n) => byId.has(n));
+  if (neighbourIds.length === 0) return null;
+  const neighbourSet = new Set(c.neighbours);
+  const correctPick = seededShuffle(neighbourIds, `border-n-${c.id}`)
+    .slice(0, Math.min(3, neighbourIds.length))
+    .map((id) => byId.get(id)!);
+  const need = 5 - correctPick.length; // five options total
+  const distractors = pickDistractors(
+    c,
+    countries.filter((x) => x.id === c.id || !neighbourSet.has(x.id)),
+    need,
+    index
+  );
+  if (distractors.length < need) return null; // not enough non-neighbours to fill out
+  const options = seededShuffle(
+    [...correctPick.map((x) => x.id), ...distractors.map((x) => x.id)],
+    `border-opt-${c.id}`
+  );
+  const correctIds = options.filter((id) => neighbourSet.has(id));
+  return {
+    id: `border-battle-${c.id}`,
+    type: 'border-battle',
+    difficulty: 'medium',
+    ageBands: ageBands('medium'),
+    topic: 'location',
+    prompt: `Which of these countries share a border with ${c.name}? Pick all that apply.`,
+    options,
+    correctAnswer: encodeSelection(correctIds),
+    explanation: `${c.name} shares a land border with ${correctPick.map((x) => x.name).join(', ')}.`,
     countryId: c.id,
     active: true,
     source: SOURCE,
@@ -951,6 +1007,10 @@ export function generateQuestions(inputs: GeneratorInputs): Question[] {
     // --- Distance (LOCATE pillar): closest country ---
     const closest = makeClosest(c, countries);
     if (closest) questions.push(closest);
+
+    // --- Borders (LOCATE pillar): pick every neighbour (multi-select) ---
+    const border = makeBorderBattle(c, countries, byId, index);
+    if (border) questions.push(border);
 
     // --- Reasoning (THINK pillar): what do these three share? ---
     const common = makeInCommon(

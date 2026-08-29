@@ -327,6 +327,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-af",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Afghanistan? Pick all that apply.",
+    "options": [
+      "tm",
+      "am",
+      "pk",
+      "tj",
+      "az"
+    ],
+    "correctAnswer": "pk+tj+tm",
+    "explanation": "Afghanistan shares a land border with Turkmenistan, Tajikistan, Pakistan.",
+    "countryId": "af",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-af",
     "type": "in-common",
     "difficulty": "medium",
@@ -651,6 +674,29 @@
     ],
     "correctAnswer": "rs",
     "explanation": "Serbia is the closest to Albania of these four.",
+    "countryId": "al",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-al",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Albania? Pick all that apply.",
+    "options": [
+      "me",
+      "by",
+      "mk",
+      "at",
+      "gr"
+    ],
+    "correctAnswer": "gr+me+mk",
+    "explanation": "Albania shares a land border with Montenegro, North Macedonia, Greece.",
     "countryId": "al",
     "active": true,
     "source": "generated:world-explorer"
@@ -1010,6 +1056,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-dz",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Algeria? Pick all that apply.",
+    "options": [
+      "mr",
+      "bf",
+      "ml",
+      "ne",
+      "bw"
+    ],
+    "correctAnswer": "ml+mr+ne",
+    "explanation": "Algeria shares a land border with Niger, Mali, Mauritania.",
+    "countryId": "dz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-dz",
     "type": "in-common",
     "difficulty": "medium",
@@ -1334,6 +1403,29 @@
     ],
     "correctAnswer": "mc",
     "explanation": "Monaco is the closest to Andorra of these four.",
+    "countryId": "ad",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-ad",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Andorra? Pick all that apply.",
+    "options": [
+      "es",
+      "be",
+      "fr",
+      "bg",
+      "ba"
+    ],
+    "correctAnswer": "es+fr",
+    "explanation": "Andorra shares a land border with Spain, France.",
     "countryId": "ad",
     "active": true,
     "source": "generated:world-explorer"
@@ -1688,6 +1780,29 @@
     ],
     "correctAnswer": "bw",
     "explanation": "Botswana is the closest to Angola of these four.",
+    "countryId": "ao",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-ao",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Angola? Pick all that apply.",
+    "options": [
+      "zm",
+      "cm",
+      "bi",
+      "cd",
+      "cg"
+    ],
+    "correctAnswer": "cd+cg+zm",
+    "explanation": "Angola shares a land border with Republic of the Congo, Zambia, DR Congo.",
     "countryId": "ao",
     "active": true,
     "source": "generated:world-explorer"
@@ -2375,6 +2490,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-ar",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Argentina? Pick all that apply.",
+    "options": [
+      "py",
+      "af",
+      "br",
+      "al",
+      "uy"
+    ],
+    "correctAnswer": "br+py+uy",
+    "explanation": "Argentina shares a land border with Brazil, Uruguay, Paraguay.",
+    "countryId": "ar",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ar",
     "type": "in-common",
     "difficulty": "medium",
@@ -2699,6 +2837,29 @@
     ],
     "correctAnswer": "iq",
     "explanation": "Iraq is the closest to Armenia of these four.",
+    "countryId": "am",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-am",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Armenia? Pick all that apply.",
+    "options": [
+      "ge",
+      "in",
+      "tr",
+      "ir",
+      "id"
+    ],
+    "correctAnswer": "ge+ir+tr",
+    "explanation": "Armenia shares a land border with Iran, Türkiye, Georgia.",
     "countryId": "am",
     "active": true,
     "source": "generated:world-explorer"
@@ -3409,6 +3570,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-at",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Austria? Pick all that apply.",
+    "options": [
+      "it",
+      "fi",
+      "li",
+      "ee",
+      "de"
+    ],
+    "correctAnswer": "de+it+li",
+    "explanation": "Austria shares a land border with Italy, Germany, Liechtenstein.",
+    "countryId": "at",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-at",
     "type": "in-common",
     "difficulty": "medium",
@@ -3758,6 +3942,29 @@
     ],
     "correctAnswer": "iq",
     "explanation": "Iraq is the closest to Azerbaijan of these four.",
+    "countryId": "az",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-az",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Azerbaijan? Pick all that apply.",
+    "options": [
+      "ir",
+      "il",
+      "jp",
+      "tr",
+      "ge"
+    ],
+    "correctAnswer": "ge+ir+tr",
+    "explanation": "Azerbaijan shares a land border with Georgia, Türkiye, Iran.",
     "countryId": "az",
     "active": true,
     "source": "generated:world-explorer"
@@ -4773,6 +4980,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-bd",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Bangladesh? Pick all that apply.",
+    "options": [
+      "jp",
+      "jo",
+      "kz",
+      "mm",
+      "in"
+    ],
+    "correctAnswer": "in+mm",
+    "explanation": "Bangladesh shares a land border with Myanmar, India.",
+    "countryId": "bd",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-bd",
     "type": "in-common",
     "difficulty": "medium",
@@ -5455,6 +5685,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-by",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Belarus? Pick all that apply.",
+    "options": [
+      "ua",
+      "ru",
+      "lv",
+      "hu",
+      "is"
+    ],
+    "correctAnswer": "lv+ru+ua",
+    "explanation": "Belarus shares a land border with Latvia, Russia, Ukraine.",
+    "countryId": "by",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-by",
     "type": "in-common",
     "difficulty": "medium",
@@ -5787,6 +6040,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-be",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Belgium? Pick all that apply.",
+    "options": [
+      "de",
+      "fr",
+      "lu",
+      "it",
+      "lv"
+    ],
+    "correctAnswer": "de+fr+lu",
+    "explanation": "Belgium shares a land border with Germany, Luxembourg, France.",
+    "countryId": "be",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-be",
     "type": "in-common",
     "difficulty": "medium",
@@ -6111,6 +6387,29 @@
     ],
     "correctAnswer": "hn",
     "explanation": "Honduras is the closest to Belize of these four.",
+    "countryId": "bz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-bz",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Belize? Pick all that apply.",
+    "options": [
+      "tt",
+      "mx",
+      "gt",
+      "vc",
+      "us"
+    ],
+    "correctAnswer": "gt+mx",
+    "explanation": "Belize shares a land border with Mexico, Guatemala.",
     "countryId": "bz",
     "active": true,
     "source": "generated:world-explorer"
@@ -6470,6 +6769,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-bj",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Benin? Pick all that apply.",
+    "options": [
+      "tg",
+      "gn",
+      "gh",
+      "bf",
+      "ne"
+    ],
+    "correctAnswer": "bf+ne+tg",
+    "explanation": "Benin shares a land border with Niger, Togo, Burkina Faso.",
+    "countryId": "bj",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-bj",
     "type": "in-common",
     "difficulty": "medium",
@@ -6797,6 +7119,29 @@
     ],
     "correctAnswer": "bd",
     "explanation": "Bangladesh is the closest to Bhutan of these four.",
+    "countryId": "bt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-bt",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Bhutan? Pick all that apply.",
+    "options": [
+      "cn",
+      "my",
+      "mn",
+      "in",
+      "mv"
+    ],
+    "correctAnswer": "cn+in",
+    "explanation": "Bhutan shares a land border with India, China.",
     "countryId": "bt",
     "active": true,
     "source": "generated:world-explorer"
@@ -7156,6 +7501,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-bo",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Bolivia? Pick all that apply.",
+    "options": [
+      "br",
+      "by",
+      "cl",
+      "be",
+      "py"
+    ],
+    "correctAnswer": "br+cl+py",
+    "explanation": "Bolivia shares a land border with Brazil, Paraguay, Chile.",
+    "countryId": "bo",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-bo",
     "type": "in-common",
     "difficulty": "medium",
@@ -7505,6 +7873,29 @@
     ],
     "correctAnswer": "si",
     "explanation": "Slovenia is the closest to Bosnia and Herzegovina of these four.",
+    "countryId": "ba",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-ba",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Bosnia and Herzegovina? Pick all that apply.",
+    "options": [
+      "me",
+      "hr",
+      "mt",
+      "lu",
+      "rs"
+    ],
+    "correctAnswer": "hr+me+rs",
+    "explanation": "Bosnia and Herzegovina shares a land border with Montenegro, Serbia, Croatia.",
     "countryId": "ba",
     "active": true,
     "source": "generated:world-explorer"
@@ -7864,6 +8255,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-bw",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Botswana? Pick all that apply.",
+    "options": [
+      "na",
+      "ci",
+      "ke",
+      "zw",
+      "zm"
+    ],
+    "correctAnswer": "na+zm+zw",
+    "explanation": "Botswana shares a land border with Namibia, Zimbabwe, Zambia.",
+    "countryId": "bw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-bw",
     "type": "in-common",
     "difficulty": "medium",
@@ -8218,6 +8632,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-br",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Brazil? Pick all that apply.",
+    "options": [
+      "bn",
+      "pe",
+      "bg",
+      "bo",
+      "co"
+    ],
+    "correctAnswer": "bo+co+pe",
+    "explanation": "Brazil shares a land border with Peru, Colombia, Bolivia.",
+    "countryId": "br",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-br",
     "type": "in-common",
     "difficulty": "medium",
@@ -8542,6 +8979,29 @@
     ],
     "correctAnswer": "id",
     "explanation": "Indonesia is the closest to Brunei of these four.",
+    "countryId": "bn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-bn",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Brunei? Pick all that apply.",
+    "options": [
+      "np",
+      "my",
+      "pk",
+      "kp",
+      "om"
+    ],
+    "correctAnswer": "my",
+    "explanation": "Brunei shares a land border with Malaysia.",
     "countryId": "bn",
     "active": true,
     "source": "generated:world-explorer"
@@ -8901,6 +9361,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-bg",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Bulgaria? Pick all that apply.",
+    "options": [
+      "ro",
+      "me",
+      "nl",
+      "rs",
+      "mk"
+    ],
+    "correctAnswer": "mk+ro+rs",
+    "explanation": "Bulgaria shares a land border with North Macedonia, Serbia, Romania.",
+    "countryId": "bg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-bg",
     "type": "in-common",
     "difficulty": "medium",
@@ -9255,6 +9738,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-bf",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Burkina Faso? Pick all that apply.",
+    "options": [
+      "ml",
+      "ci",
+      "mr",
+      "mu",
+      "tg"
+    ],
+    "correctAnswer": "ci+ml+tg",
+    "explanation": "Burkina Faso shares a land border with Ivory Coast, Mali, Togo.",
+    "countryId": "bf",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-bf",
     "type": "in-common",
     "difficulty": "medium",
@@ -9579,6 +10085,29 @@
     ],
     "correctAnswer": "ug",
     "explanation": "Uganda is the closest to Burundi of these four.",
+    "countryId": "bi",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-bi",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Burundi? Pick all that apply.",
+    "options": [
+      "rw",
+      "ml",
+      "tz",
+      "mw",
+      "cd"
+    ],
+    "correctAnswer": "cd+rw+tz",
+    "explanation": "Burundi shares a land border with Rwanda, Tanzania, DR Congo.",
     "countryId": "bi",
     "active": true,
     "source": "generated:world-explorer"
@@ -9938,6 +10467,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-kh",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Cambodia? Pick all that apply.",
+    "options": [
+      "vn",
+      "ph",
+      "th",
+      "qa",
+      "la"
+    ],
+    "correctAnswer": "la+th+vn",
+    "explanation": "Cambodia shares a land border with Thailand, Laos, Vietnam.",
+    "countryId": "kh",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-kh",
     "type": "in-common",
     "difficulty": "medium",
@@ -10292,6 +10844,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-cm",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Cameroon? Pick all that apply.",
+    "options": [
+      "mz",
+      "gq",
+      "cf",
+      "td",
+      "na"
+    ],
+    "correctAnswer": "cf+gq+td",
+    "explanation": "Cameroon shares a land border with Equatorial Guinea, Central African Republic, Chad.",
+    "countryId": "cm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-cm",
     "type": "in-common",
     "difficulty": "medium",
@@ -10641,6 +11216,29 @@
     ],
     "correctAnswer": "is",
     "explanation": "Iceland is the closest to Canada of these four.",
+    "countryId": "ca",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-ca",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Canada? Pick all that apply.",
+    "options": [
+      "bd",
+      "by",
+      "az",
+      "bh",
+      "us"
+    ],
+    "correctAnswer": "us",
+    "explanation": "Canada shares a land border with United States.",
     "countryId": "ca",
     "active": true,
     "source": "generated:world-explorer"
@@ -11328,6 +11926,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-cf",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Central African Republic? Pick all that apply.",
+    "options": [
+      "cm",
+      "cg",
+      "ng",
+      "ne",
+      "ss"
+    ],
+    "correctAnswer": "cg+cm+ss",
+    "explanation": "Central African Republic shares a land border with South Sudan, Republic of the Congo, Cameroon.",
+    "countryId": "cf",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-cf",
     "type": "in-common",
     "difficulty": "medium",
@@ -11677,6 +12298,29 @@
     ],
     "correctAnswer": "ss",
     "explanation": "South Sudan is the closest to Chad of these four.",
+    "countryId": "td",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-td",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Chad? Pick all that apply.",
+    "options": [
+      "st",
+      "ne",
+      "cf",
+      "cm",
+      "rw"
+    ],
+    "correctAnswer": "cf+cm+ne",
+    "explanation": "Chad shares a land border with Niger, Central African Republic, Cameroon.",
     "countryId": "td",
     "active": true,
     "source": "generated:world-explorer"
@@ -12036,6 +12680,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-cl",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Chile? Pick all that apply.",
+    "options": [
+      "bo",
+      "ca",
+      "cm",
+      "pe",
+      "ar"
+    ],
+    "correctAnswer": "ar+bo+pe",
+    "explanation": "Chile shares a land border with Bolivia, Peru, Argentina.",
+    "countryId": "cl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-cl",
     "type": "in-common",
     "difficulty": "medium",
@@ -12390,6 +13057,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-cn",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with China? Pick all that apply.",
+    "options": [
+      "bt",
+      "ag",
+      "af",
+      "ao",
+      "mn"
+    ],
+    "correctAnswer": "af+bt+mn",
+    "explanation": "China shares a land border with Afghanistan, Mongolia, Bhutan.",
+    "countryId": "cn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-cn",
     "type": "in-common",
     "difficulty": "medium",
@@ -12737,6 +13427,29 @@
     ],
     "correctAnswer": "tt",
     "explanation": "Trinidad and Tobago is the closest to Colombia of these four.",
+    "countryId": "co",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-co",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Colombia? Pick all that apply.",
+    "options": [
+      "td",
+      "cf",
+      "pa",
+      "br",
+      "pe"
+    ],
+    "correctAnswer": "br+pa+pe",
+    "explanation": "Colombia shares a land border with Brazil, Peru, Panama.",
     "countryId": "co",
     "active": true,
     "source": "generated:world-explorer"
@@ -13420,6 +14133,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-cr",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Costa Rica? Pick all that apply.",
+    "options": [
+      "bn",
+      "bw",
+      "pa",
+      "br",
+      "ni"
+    ],
+    "correctAnswer": "ni+pa",
+    "explanation": "Costa Rica shares a land border with Nicaragua, Panama.",
+    "countryId": "cr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-cr",
     "type": "in-common",
     "difficulty": "medium",
@@ -13769,6 +14505,29 @@
     ],
     "correctAnswer": "sm",
     "explanation": "San Marino is the closest to Croatia of these four.",
+    "countryId": "hr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-hr",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Croatia? Pick all that apply.",
+    "options": [
+      "rs",
+      "dz",
+      "si",
+      "me",
+      "af"
+    ],
+    "correctAnswer": "me+rs+si",
+    "explanation": "Croatia shares a land border with Montenegro, Serbia, Slovenia.",
     "countryId": "hr",
     "active": true,
     "source": "generated:world-explorer"
@@ -14805,6 +15564,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-cz",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Czechia? Pick all that apply.",
+    "options": [
+      "at",
+      "pl",
+      "ag",
+      "ao",
+      "de"
+    ],
+    "correctAnswer": "at+de+pl",
+    "explanation": "Czechia shares a land border with Austria, Germany, Poland.",
+    "countryId": "cz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-cz",
     "type": "in-common",
     "difficulty": "medium",
@@ -15137,6 +15919,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-dk",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Denmark? Pick all that apply.",
+    "options": [
+      "de",
+      "dz",
+      "af",
+      "ag",
+      "ao"
+    ],
+    "correctAnswer": "de",
+    "explanation": "Denmark shares a land border with Germany.",
+    "countryId": "dk",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-dk",
     "type": "in-common",
     "difficulty": "medium",
@@ -15461,6 +16266,29 @@
     ],
     "correctAnswer": "ye",
     "explanation": "Yemen is the closest to Djibouti of these four.",
+    "countryId": "dj",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-dj",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Djibouti? Pick all that apply.",
+    "options": [
+      "et",
+      "er",
+      "tz",
+      "tg",
+      "so"
+    ],
+    "correctAnswer": "er+et+so",
+    "explanation": "Djibouti shares a land border with Somalia, Ethiopia, Eritrea.",
     "countryId": "dj",
     "active": true,
     "source": "generated:world-explorer"
@@ -16126,6 +16954,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-do",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Dominican Republic? Pick all that apply.",
+    "options": [
+      "ht",
+      "cv",
+      "cm",
+      "cf",
+      "td"
+    ],
+    "correctAnswer": "ht",
+    "explanation": "Dominican Republic shares a land border with Haiti.",
+    "countryId": "do",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-do",
     "type": "in-common",
     "difficulty": "medium",
@@ -16475,6 +17326,29 @@
     ],
     "correctAnswer": "ke",
     "explanation": "Kenya is the closest to DR Congo of these four.",
+    "countryId": "cd",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-cd",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with DR Congo? Pick all that apply.",
+    "options": [
+      "rw",
+      "ag",
+      "cf",
+      "ar",
+      "cg"
+    ],
+    "correctAnswer": "cf+cg+rw",
+    "explanation": "DR Congo shares a land border with Rwanda, Republic of the Congo, Central African Republic.",
     "countryId": "cd",
     "active": true,
     "source": "generated:world-explorer"
@@ -16834,6 +17708,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-ec",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Ecuador? Pick all that apply.",
+    "options": [
+      "co",
+      "dm",
+      "pe",
+      "do",
+      "dj"
+    ],
+    "correctAnswer": "co+pe",
+    "explanation": "Ecuador shares a land border with Peru, Colombia.",
+    "countryId": "ec",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ec",
     "type": "in-common",
     "difficulty": "medium",
@@ -17188,6 +18085,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-eg",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Egypt? Pick all that apply.",
+    "options": [
+      "zw",
+      "zm",
+      "il",
+      "ly",
+      "sd"
+    ],
+    "correctAnswer": "il+ly+sd",
+    "explanation": "Egypt shares a land border with Israel, Sudan, Libya.",
+    "countryId": "eg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-eg",
     "type": "in-common",
     "difficulty": "medium",
@@ -17517,6 +18437,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-sv",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with El Salvador? Pick all that apply.",
+    "options": [
+      "gt",
+      "hn",
+      "cn",
+      "km",
+      "co"
+    ],
+    "correctAnswer": "gt+hn",
+    "explanation": "El Salvador shares a land border with Guatemala, Honduras.",
+    "countryId": "sv",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-sv",
     "type": "in-common",
     "difficulty": "medium",
@@ -17841,6 +18784,29 @@
     ],
     "correctAnswer": "st",
     "explanation": "São Tomé and Príncipe is the closest to Equatorial Guinea of these four.",
+    "countryId": "gq",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-gq",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Equatorial Guinea? Pick all that apply.",
+    "options": [
+      "ad",
+      "ga",
+      "al",
+      "af",
+      "cm"
+    ],
+    "correctAnswer": "cm+ga",
+    "explanation": "Equatorial Guinea shares a land border with Gabon, Cameroon.",
     "countryId": "gq",
     "active": true,
     "source": "generated:world-explorer"
@@ -18200,6 +19166,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-er",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Eritrea? Pick all that apply.",
+    "options": [
+      "et",
+      "ag",
+      "sd",
+      "dj",
+      "ad"
+    ],
+    "correctAnswer": "dj+et+sd",
+    "explanation": "Eritrea shares a land border with Ethiopia, Djibouti, Sudan.",
+    "countryId": "er",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-er",
     "type": "in-common",
     "difficulty": "medium",
@@ -18532,6 +19521,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-ee",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Estonia? Pick all that apply.",
+    "options": [
+      "lv",
+      "bj",
+      "bb",
+      "ru",
+      "bz"
+    ],
+    "correctAnswer": "lv+ru",
+    "explanation": "Estonia shares a land border with Russia, Latvia.",
+    "countryId": "ee",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ee",
     "type": "in-common",
     "difficulty": "medium",
@@ -18856,6 +19868,29 @@
     ],
     "correctAnswer": "ls",
     "explanation": "Lesotho is the closest to Eswatini of these four.",
+    "countryId": "sz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-sz",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Eswatini? Pick all that apply.",
+    "options": [
+      "mz",
+      "ag",
+      "za",
+      "am",
+      "ar"
+    ],
+    "correctAnswer": "mz+za",
+    "explanation": "Eswatini shares a land border with Mozambique, South Africa.",
     "countryId": "sz",
     "active": true,
     "source": "generated:world-explorer"
@@ -19210,6 +20245,29 @@
     ],
     "correctAnswer": "ug",
     "explanation": "Uganda is the closest to Ethiopia of these four.",
+    "countryId": "et",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-et",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Ethiopia? Pick all that apply.",
+    "options": [
+      "ke",
+      "so",
+      "dj",
+      "az",
+      "bs"
+    ],
+    "correctAnswer": "dj+ke+so",
+    "explanation": "Ethiopia shares a land border with Djibouti, Somalia, Kenya.",
     "countryId": "et",
     "active": true,
     "source": "generated:world-explorer"
@@ -19897,6 +20955,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-fi",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Finland? Pick all that apply.",
+    "options": [
+      "br",
+      "se",
+      "ru",
+      "bw",
+      "no"
+    ],
+    "correctAnswer": "no+ru+se",
+    "explanation": "Finland shares a land border with Russia, Sweden, Norway.",
+    "countryId": "fi",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-fi",
     "type": "in-common",
     "difficulty": "medium",
@@ -20246,6 +21327,29 @@
     ],
     "correctAnswer": "li",
     "explanation": "Liechtenstein is the closest to France of these four.",
+    "countryId": "fr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-fr",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with France? Pick all that apply.",
+    "options": [
+      "cm",
+      "be",
+      "de",
+      "es",
+      "ca"
+    ],
+    "correctAnswer": "be+de+es",
+    "explanation": "France shares a land border with Belgium, Germany, Spain.",
     "countryId": "fr",
     "active": true,
     "source": "generated:world-explorer"
@@ -20605,6 +21709,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-ga",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Gabon? Pick all that apply.",
+    "options": [
+      "cm",
+      "bs",
+      "cg",
+      "gq",
+      "bh"
+    ],
+    "correctAnswer": "cg+cm+gq",
+    "explanation": "Gabon shares a land border with Republic of the Congo, Cameroon, Equatorial Guinea.",
+    "countryId": "ga",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ga",
     "type": "in-common",
     "difficulty": "medium",
@@ -20929,6 +22056,29 @@
     ],
     "correctAnswer": "gw",
     "explanation": "Guinea-Bissau is the closest to Gambia of these four.",
+    "countryId": "gm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-gm",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Gambia? Pick all that apply.",
+    "options": [
+      "az",
+      "bh",
+      "bd",
+      "bs",
+      "sn"
+    ],
+    "correctAnswer": "sn",
+    "explanation": "Gambia shares a land border with Senegal.",
     "countryId": "gm",
     "active": true,
     "source": "generated:world-explorer"
@@ -21288,6 +22438,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-ge",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Georgia? Pick all that apply.",
+    "options": [
+      "bi",
+      "bf",
+      "tr",
+      "az",
+      "am"
+    ],
+    "correctAnswer": "am+az+tr",
+    "explanation": "Georgia shares a land border with Türkiye, Armenia, Azerbaijan.",
+    "countryId": "ge",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ge",
     "type": "in-common",
     "difficulty": "medium",
@@ -21637,6 +22810,29 @@
     ],
     "correctAnswer": "li",
     "explanation": "Liechtenstein is the closest to Germany of these four.",
+    "countryId": "de",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-de",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Germany? Pick all that apply.",
+    "options": [
+      "be",
+      "cl",
+      "ch",
+      "cn",
+      "cz"
+    ],
+    "correctAnswer": "be+ch+cz",
+    "explanation": "Germany shares a land border with Belgium, Czechia, Switzerland.",
     "countryId": "de",
     "active": true,
     "source": "generated:world-explorer"
@@ -21996,6 +23192,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-gh",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Ghana? Pick all that apply.",
+    "options": [
+      "tg",
+      "ci",
+      "by",
+      "be",
+      "bf"
+    ],
+    "correctAnswer": "bf+ci+tg",
+    "explanation": "Ghana shares a land border with Togo, Burkina Faso, Ivory Coast.",
+    "countryId": "gh",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-gh",
     "type": "in-common",
     "difficulty": "medium",
@@ -22345,6 +23564,29 @@
     ],
     "correctAnswer": "me",
     "explanation": "Montenegro is the closest to Greece of these four.",
+    "countryId": "gr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-gr",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Greece? Pick all that apply.",
+    "options": [
+      "al",
+      "mk",
+      "bg",
+      "cv",
+      "ca"
+    ],
+    "correctAnswer": "al+bg+mk",
+    "explanation": "Greece shares a land border with Albania, Bulgaria, North Macedonia.",
     "countryId": "gr",
     "active": true,
     "source": "generated:world-explorer"
@@ -23028,6 +24270,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-gt",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Guatemala? Pick all that apply.",
+    "options": [
+      "mx",
+      "fr",
+      "bz",
+      "ga",
+      "sv"
+    ],
+    "correctAnswer": "bz+mx+sv",
+    "explanation": "Guatemala shares a land border with Mexico, El Salvador, Belize.",
+    "countryId": "gt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-gt",
     "type": "in-common",
     "difficulty": "medium",
@@ -23382,6 +24647,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-gn",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Guinea? Pick all that apply.",
+    "options": [
+      "lr",
+      "gw",
+      "bg",
+      "bn",
+      "ci"
+    ],
+    "correctAnswer": "ci+gw+lr",
+    "explanation": "Guinea shares a land border with Liberia, Guinea-Bissau, Ivory Coast.",
+    "countryId": "gn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-gn",
     "type": "in-common",
     "difficulty": "medium",
@@ -23709,6 +24997,29 @@
     ],
     "correctAnswer": "gm",
     "explanation": "Gambia is the closest to Guinea-Bissau of these four.",
+    "countryId": "gw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-gw",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Guinea-Bissau? Pick all that apply.",
+    "options": [
+      "gn",
+      "br",
+      "ba",
+      "sn",
+      "bo"
+    ],
+    "correctAnswer": "gn+sn",
+    "explanation": "Guinea-Bissau shares a land border with Senegal, Guinea.",
     "countryId": "gw",
     "active": true,
     "source": "generated:world-explorer"
@@ -24068,6 +25379,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-gy",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Guyana? Pick all that apply.",
+    "options": [
+      "sr",
+      "gw",
+      "gn",
+      "ve",
+      "br"
+    ],
+    "correctAnswer": "br+sr+ve",
+    "explanation": "Guyana shares a land border with Brazil, Suriname, Venezuela.",
+    "countryId": "gy",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-gy",
     "type": "in-common",
     "difficulty": "medium",
@@ -24392,6 +25726,29 @@
     ],
     "correctAnswer": "jm",
     "explanation": "Jamaica is the closest to Haiti of these four.",
+    "countryId": "ht",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-ht",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Haiti? Pick all that apply.",
+    "options": [
+      "de",
+      "do",
+      "ga",
+      "gm",
+      "ge"
+    ],
+    "correctAnswer": "do",
+    "explanation": "Haiti shares a land border with Dominican Republic.",
     "countryId": "ht",
     "active": true,
     "source": "generated:world-explorer"
@@ -24751,6 +26108,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-hn",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Honduras? Pick all that apply.",
+    "options": [
+      "gt",
+      "de",
+      "ni",
+      "gh",
+      "sv"
+    ],
+    "correctAnswer": "gt+ni+sv",
+    "explanation": "Honduras shares a land border with El Salvador, Nicaragua, Guatemala.",
+    "countryId": "hn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-hn",
     "type": "in-common",
     "difficulty": "medium",
@@ -25100,6 +26480,29 @@
     ],
     "correctAnswer": "ba",
     "explanation": "Bosnia and Herzegovina is the closest to Hungary of these four.",
+    "countryId": "hu",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-hu",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Hungary? Pick all that apply.",
+    "options": [
+      "hr",
+      "ua",
+      "do",
+      "cd",
+      "ro"
+    ],
+    "correctAnswer": "hr+ro+ua",
+    "explanation": "Hungary shares a land border with Croatia, Romania, Ukraine.",
     "countryId": "hu",
     "active": true,
     "source": "generated:world-explorer"
@@ -25812,6 +27215,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-in",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with India? Pick all that apply.",
+    "options": [
+      "cn",
+      "dm",
+      "bd",
+      "mm",
+      "dj"
+    ],
+    "correctAnswer": "bd+cn+mm",
+    "explanation": "India shares a land border with China, Myanmar, Bangladesh.",
+    "countryId": "in",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-in",
     "type": "in-common",
     "difficulty": "medium",
@@ -26159,6 +27585,29 @@
     ],
     "correctAnswer": "bn",
     "explanation": "Brunei is the closest to Indonesia of these four.",
+    "countryId": "id",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-id",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Indonesia? Pick all that apply.",
+    "options": [
+      "tl",
+      "pg",
+      "cz",
+      "cy",
+      "my"
+    ],
+    "correctAnswer": "my+pg+tl",
+    "explanation": "Indonesia shares a land border with Timor-Leste, Malaysia, Papua New Guinea.",
     "countryId": "id",
     "active": true,
     "source": "generated:world-explorer"
@@ -26518,6 +27967,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-ir",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Iran? Pick all that apply.",
+    "options": [
+      "am",
+      "ec",
+      "tr",
+      "tm",
+      "cd"
+    ],
+    "correctAnswer": "am+tm+tr",
+    "explanation": "Iran shares a land border with Armenia, Turkmenistan, Türkiye.",
+    "countryId": "ir",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ir",
     "type": "in-common",
     "difficulty": "medium",
@@ -26872,6 +28344,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-iq",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Iraq? Pick all that apply.",
+    "options": [
+      "sa",
+      "sy",
+      "cd",
+      "jo",
+      "ec"
+    ],
+    "correctAnswer": "jo+sa+sy",
+    "explanation": "Iraq shares a land border with Jordan, Saudi Arabia, Syria.",
+    "countryId": "iq",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-iq",
     "type": "in-common",
     "difficulty": "medium",
@@ -27220,6 +28715,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-ie",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Ireland? Pick all that apply.",
+    "options": [
+      "cd",
+      "eg",
+      "do",
+      "gb",
+      "ec"
+    ],
+    "correctAnswer": "gb",
+    "explanation": "Ireland shares a land border with United Kingdom.",
+    "countryId": "ie",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ie",
     "type": "in-common",
     "difficulty": "medium",
@@ -27544,6 +29062,29 @@
     ],
     "correctAnswer": "cy",
     "explanation": "Cyprus is the closest to Israel of these four.",
+    "countryId": "il",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-il",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Israel? Pick all that apply.",
+    "options": [
+      "lb",
+      "cd",
+      "jo",
+      "do",
+      "eg"
+    ],
+    "correctAnswer": "eg+jo+lb",
+    "explanation": "Israel shares a land border with Lebanon, Jordan, Egypt.",
     "countryId": "il",
     "active": true,
     "source": "generated:world-explorer"
@@ -27901,6 +29442,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-it",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Italy? Pick all that apply.",
+    "options": [
+      "sm",
+      "va",
+      "fr",
+      "et",
+      "sz"
+    ],
+    "correctAnswer": "fr+sm+va",
+    "explanation": "Italy shares a land border with San Marino, France, Vatican City.",
+    "countryId": "it",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-it",
     "type": "in-common",
     "difficulty": "medium",
@@ -28250,6 +29814,29 @@
     ],
     "correctAnswer": "tg",
     "explanation": "Togo is the closest to Ivory Coast of these four.",
+    "countryId": "ci",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-ci",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Ivory Coast? Pick all that apply.",
+    "options": [
+      "dm",
+      "bf",
+      "do",
+      "gh",
+      "ml"
+    ],
+    "correctAnswer": "bf+gh+ml",
+    "explanation": "Ivory Coast shares a land border with Burkina Faso, Mali, Ghana.",
     "countryId": "ci",
     "active": true,
     "source": "generated:world-explorer"
@@ -29290,6 +30877,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-jo",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Jordan? Pick all that apply.",
+    "options": [
+      "il",
+      "sy",
+      "ee",
+      "sa",
+      "er"
+    ],
+    "correctAnswer": "il+sa+sy",
+    "explanation": "Jordan shares a land border with Israel, Saudi Arabia, Syria.",
+    "countryId": "jo",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-jo",
     "type": "in-common",
     "difficulty": "medium",
@@ -29644,6 +31254,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-kz",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Kazakhstan? Pick all that apply.",
+    "options": [
+      "tm",
+      "cn",
+      "kg",
+      "sz",
+      "ee"
+    ],
+    "correctAnswer": "cn+kg+tm",
+    "explanation": "Kazakhstan shares a land border with Turkmenistan, China, Kyrgyzstan.",
+    "countryId": "kz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-kz",
     "type": "in-common",
     "difficulty": "medium",
@@ -29993,6 +31626,29 @@
     ],
     "correctAnswer": "rw",
     "explanation": "Rwanda is the closest to Kenya of these four.",
+    "countryId": "ke",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-ke",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Kenya? Pick all that apply.",
+    "options": [
+      "so",
+      "ss",
+      "fj",
+      "fi",
+      "et"
+    ],
+    "correctAnswer": "et+so+ss",
+    "explanation": "Kenya shares a land border with South Sudan, Somalia, Ethiopia.",
     "countryId": "ke",
     "active": true,
     "source": "generated:world-explorer"
@@ -30655,6 +32311,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-kw",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Kuwait? Pick all that apply.",
+    "options": [
+      "fj",
+      "et",
+      "iq",
+      "sa",
+      "sz"
+    ],
+    "correctAnswer": "iq+sa",
+    "explanation": "Kuwait shares a land border with Saudi Arabia, Iraq.",
+    "countryId": "kw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-kw",
     "type": "in-common",
     "difficulty": "medium",
@@ -31004,6 +32683,29 @@
     ],
     "correctAnswer": "af",
     "explanation": "Afghanistan is the closest to Kyrgyzstan of these four.",
+    "countryId": "kg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-kg",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Kyrgyzstan? Pick all that apply.",
+    "options": [
+      "tj",
+      "uz",
+      "fi",
+      "kz",
+      "fr"
+    ],
+    "correctAnswer": "kz+tj+uz",
+    "explanation": "Kyrgyzstan shares a land border with Kazakhstan, Tajikistan, Uzbekistan.",
     "countryId": "kg",
     "active": true,
     "source": "generated:world-explorer"
@@ -31363,6 +33065,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-la",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Laos? Pick all that apply.",
+    "options": [
+      "th",
+      "gm",
+      "vn",
+      "mm",
+      "ga"
+    ],
+    "correctAnswer": "mm+th+vn",
+    "explanation": "Laos shares a land border with Vietnam, Myanmar, Thailand.",
+    "countryId": "la",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-la",
     "type": "in-common",
     "difficulty": "medium",
@@ -31717,6 +33442,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-lv",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Latvia? Pick all that apply.",
+    "options": [
+      "ru",
+      "gw",
+      "gn",
+      "lt",
+      "ee"
+    ],
+    "correctAnswer": "ee+lt+ru",
+    "explanation": "Latvia shares a land border with Lithuania, Russia, Estonia.",
+    "countryId": "lv",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-lv",
     "type": "in-common",
     "difficulty": "medium",
@@ -32041,6 +33789,29 @@
     ],
     "correctAnswer": "cy",
     "explanation": "Cyprus is the closest to Lebanon of these four.",
+    "countryId": "lb",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-lb",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Lebanon? Pick all that apply.",
+    "options": [
+      "fr",
+      "ga",
+      "il",
+      "sy",
+      "gm"
+    ],
+    "correctAnswer": "il+sy",
+    "explanation": "Lebanon shares a land border with Syria, Israel.",
     "countryId": "lb",
     "active": true,
     "source": "generated:world-explorer"
@@ -32373,6 +34144,29 @@
     ],
     "correctAnswer": "sz",
     "explanation": "Eswatini is the closest to Lesotho of these four.",
+    "countryId": "ls",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-ls",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Lesotho? Pick all that apply.",
+    "options": [
+      "de",
+      "ge",
+      "za",
+      "gr",
+      "gd"
+    ],
+    "correctAnswer": "za",
+    "explanation": "Lesotho shares a land border with South Africa.",
     "countryId": "ls",
     "active": true,
     "source": "generated:world-explorer"
@@ -32732,6 +34526,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-lr",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Liberia? Pick all that apply.",
+    "options": [
+      "gt",
+      "gn",
+      "gd",
+      "ci",
+      "sl"
+    ],
+    "correctAnswer": "ci+gn+sl",
+    "explanation": "Liberia shares a land border with Ivory Coast, Sierra Leone, Guinea.",
+    "countryId": "lr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-lr",
     "type": "in-common",
     "difficulty": "medium",
@@ -33086,6 +34903,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-ly",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Libya? Pick all that apply.",
+    "options": [
+      "ne",
+      "dz",
+      "hn",
+      "hu",
+      "sd"
+    ],
+    "correctAnswer": "dz+ne+sd",
+    "explanation": "Libya shares a land border with Niger, Sudan, Algeria.",
+    "countryId": "ly",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ly",
     "type": "in-common",
     "difficulty": "medium",
@@ -33410,6 +35250,29 @@
     ],
     "correctAnswer": "lu",
     "explanation": "Luxembourg is the closest to Liechtenstein of these four.",
+    "countryId": "li",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-li",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Liechtenstein? Pick all that apply.",
+    "options": [
+      "at",
+      "hn",
+      "ht",
+      "ch",
+      "in"
+    ],
+    "correctAnswer": "at+ch",
+    "explanation": "Liechtenstein shares a land border with Austria, Switzerland.",
     "countryId": "li",
     "active": true,
     "source": "generated:world-explorer"
@@ -33769,6 +35632,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-lt",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Lithuania? Pick all that apply.",
+    "options": [
+      "id",
+      "ir",
+      "ru",
+      "by",
+      "lv"
+    ],
+    "correctAnswer": "by+lv+ru",
+    "explanation": "Lithuania shares a land border with Latvia, Russia, Belarus.",
+    "countryId": "lt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-lt",
     "type": "in-common",
     "difficulty": "medium",
@@ -34093,6 +35979,29 @@
     ],
     "correctAnswer": "nl",
     "explanation": "Netherlands is the closest to Luxembourg of these four.",
+    "countryId": "lu",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-lu",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Luxembourg? Pick all that apply.",
+    "options": [
+      "de",
+      "ir",
+      "fr",
+      "be",
+      "id"
+    ],
+    "correctAnswer": "be+de+fr",
+    "explanation": "Luxembourg shares a land border with Germany, Belgium, France.",
     "countryId": "lu",
     "active": true,
     "source": "generated:world-explorer"
@@ -34805,6 +36714,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-mw",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Malawi? Pick all that apply.",
+    "options": [
+      "is",
+      "in",
+      "tz",
+      "zm",
+      "mz"
+    ],
+    "correctAnswer": "mz+tz+zm",
+    "explanation": "Malawi shares a land border with Mozambique, Tanzania, Zambia.",
+    "countryId": "mw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-mw",
     "type": "in-common",
     "difficulty": "medium",
@@ -35154,6 +37086,29 @@
     ],
     "correctAnswer": "sg",
     "explanation": "Singapore is the closest to Malaysia of these four.",
+    "countryId": "my",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-my",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Malaysia? Pick all that apply.",
+    "options": [
+      "id",
+      "bn",
+      "gy",
+      "th",
+      "ht"
+    ],
+    "correctAnswer": "bn+id+th",
+    "explanation": "Malaysia shares a land border with Thailand, Indonesia, Brunei.",
     "countryId": "my",
     "active": true,
     "source": "generated:world-explorer"
@@ -35834,6 +37789,29 @@
     ],
     "correctAnswer": "gh",
     "explanation": "Ghana is the closest to Mali of these four.",
+    "countryId": "ml",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-ml",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Mali? Pick all that apply.",
+    "options": [
+      "bf",
+      "gn",
+      "ci",
+      "jm",
+      "it"
+    ],
+    "correctAnswer": "bf+ci+gn",
+    "explanation": "Mali shares a land border with Ivory Coast, Guinea, Burkina Faso.",
     "countryId": "ml",
     "active": true,
     "source": "generated:world-explorer"
@@ -36849,6 +38827,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-mr",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Mauritania? Pick all that apply.",
+    "options": [
+      "ml",
+      "il",
+      "sn",
+      "dz",
+      "it"
+    ],
+    "correctAnswer": "dz+ml+sn",
+    "explanation": "Mauritania shares a land border with Mali, Algeria, Senegal.",
+    "countryId": "mr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-mr",
     "type": "in-common",
     "difficulty": "medium",
@@ -37529,6 +39530,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-mx",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Mexico? Pick all that apply.",
+    "options": [
+      "gt",
+      "mh",
+      "bz",
+      "mt",
+      "us"
+    ],
+    "correctAnswer": "bz+gt+us",
+    "explanation": "Mexico shares a land border with Guatemala, Belize, United States.",
+    "countryId": "mx",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-mx",
     "type": "in-common",
     "difficulty": "medium",
@@ -38167,6 +40191,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-md",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Moldova? Pick all that apply.",
+    "options": [
+      "kw",
+      "ua",
+      "ro",
+      "kg",
+      "la"
+    ],
+    "correctAnswer": "ro+ua",
+    "explanation": "Moldova shares a land border with Romania, Ukraine.",
+    "countryId": "md",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-md",
     "type": "in-common",
     "difficulty": "medium",
@@ -38491,6 +40538,29 @@
     ],
     "correctAnswer": "ch",
     "explanation": "Switzerland is the closest to Monaco of these four.",
+    "countryId": "mc",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-mc",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Monaco? Pick all that apply.",
+    "options": [
+      "lb",
+      "fr",
+      "kw",
+      "kg",
+      "la"
+    ],
+    "correctAnswer": "fr",
+    "explanation": "Monaco shares a land border with France.",
     "countryId": "mc",
     "active": true,
     "source": "generated:world-explorer"
@@ -38850,6 +40920,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-mn",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Mongolia? Pick all that apply.",
+    "options": [
+      "cn",
+      "ki",
+      "ke",
+      "ru",
+      "lv"
+    ],
+    "correctAnswer": "cn+ru",
+    "explanation": "Mongolia shares a land border with China, Russia.",
+    "countryId": "mn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-mn",
     "type": "in-common",
     "difficulty": "medium",
@@ -39174,6 +41267,29 @@
     ],
     "correctAnswer": "mk",
     "explanation": "North Macedonia is the closest to Montenegro of these four.",
+    "countryId": "me",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-me",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Montenegro? Pick all that apply.",
+    "options": [
+      "ly",
+      "lr",
+      "ba",
+      "hr",
+      "rs"
+    ],
+    "correctAnswer": "ba+hr+rs",
+    "explanation": "Montenegro shares a land border with Croatia, Serbia, Bosnia and Herzegovina.",
     "countryId": "me",
     "active": true,
     "source": "generated:world-explorer"
@@ -39533,6 +41649,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-ma",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Morocco? Pick all that apply.",
+    "options": [
+      "dz",
+      "kw",
+      "kg",
+      "es",
+      "ki"
+    ],
+    "correctAnswer": "dz+es",
+    "explanation": "Morocco shares a land border with Spain, Algeria.",
+    "countryId": "ma",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ma",
     "type": "in-common",
     "difficulty": "medium",
@@ -39882,6 +42021,29 @@
     ],
     "correctAnswer": "km",
     "explanation": "Comoros is the closest to Mozambique of these four.",
+    "countryId": "mz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-mz",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Mozambique? Pick all that apply.",
+    "options": [
+      "za",
+      "lt",
+      "mw",
+      "zm",
+      "li"
+    ],
+    "correctAnswer": "mw+za+zm",
+    "explanation": "Mozambique shares a land border with Malawi, Zambia, South Africa.",
     "countryId": "mz",
     "active": true,
     "source": "generated:world-explorer"
@@ -40241,6 +42403,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-mm",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Myanmar? Pick all that apply.",
+    "options": [
+      "in",
+      "lu",
+      "la",
+      "mg",
+      "th"
+    ],
+    "correctAnswer": "in+la+th",
+    "explanation": "Myanmar shares a land border with Thailand, India, Laos.",
+    "countryId": "mm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-mm",
     "type": "in-common",
     "difficulty": "medium",
@@ -40590,6 +42775,29 @@
     ],
     "correctAnswer": "zw",
     "explanation": "Zimbabwe is the closest to Namibia of these four.",
+    "countryId": "na",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-na",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Namibia? Pick all that apply.",
+    "options": [
+      "za",
+      "lt",
+      "ao",
+      "li",
+      "bw"
+    ],
+    "correctAnswer": "ao+bw+za",
+    "explanation": "Namibia shares a land border with Angola, Botswana, South Africa.",
     "countryId": "na",
     "active": true,
     "source": "generated:world-explorer"
@@ -41277,6 +43485,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-np",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Nepal? Pick all that apply.",
+    "options": [
+      "cn",
+      "mg",
+      "lu",
+      "mw",
+      "in"
+    ],
+    "correctAnswer": "cn+in",
+    "explanation": "Nepal shares a land border with India, China.",
+    "countryId": "np",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-np",
     "type": "in-common",
     "difficulty": "medium",
@@ -41599,6 +43830,29 @@
     ],
     "correctAnswer": "lu",
     "explanation": "Luxembourg is the closest to Netherlands of these four.",
+    "countryId": "nl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-nl",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Netherlands? Pick all that apply.",
+    "options": [
+      "mh",
+      "ml",
+      "mv",
+      "de",
+      "be"
+    ],
+    "correctAnswer": "be+de",
+    "explanation": "Netherlands shares a land border with Germany, Belgium.",
     "countryId": "nl",
     "active": true,
     "source": "generated:world-explorer"
@@ -42309,6 +44563,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-ni",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Nicaragua? Pick all that apply.",
+    "options": [
+      "nl",
+      "hn",
+      "cr",
+      "np",
+      "nr"
+    ],
+    "correctAnswer": "cr+hn",
+    "explanation": "Nicaragua shares a land border with Costa Rica, Honduras.",
+    "countryId": "ni",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ni",
     "type": "in-common",
     "difficulty": "medium",
@@ -42658,6 +44935,29 @@
     ],
     "correctAnswer": "tg",
     "explanation": "Togo is the closest to Niger of these four.",
+    "countryId": "ne",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-ne",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Niger? Pick all that apply.",
+    "options": [
+      "ng",
+      "ly",
+      "mc",
+      "md",
+      "bj"
+    ],
+    "correctAnswer": "bj+ly+ng",
+    "explanation": "Niger shares a land border with Benin, Libya, Nigeria.",
     "countryId": "ne",
     "active": true,
     "source": "generated:world-explorer"
@@ -43017,6 +45317,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-ng",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Nigeria? Pick all that apply.",
+    "options": [
+      "ne",
+      "mx",
+      "bj",
+      "fm",
+      "td"
+    ],
+    "correctAnswer": "bj+ne+td",
+    "explanation": "Nigeria shares a land border with Niger, Chad, Benin.",
+    "countryId": "ng",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ng",
     "type": "in-common",
     "difficulty": "medium",
@@ -43371,6 +45694,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-kp",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with North Korea? Pick all that apply.",
+    "options": [
+      "ru",
+      "mr",
+      "mu",
+      "cn",
+      "kr"
+    ],
+    "correctAnswer": "cn+kr+ru",
+    "explanation": "North Korea shares a land border with South Korea, China, Russia.",
+    "countryId": "kp",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-kp",
     "type": "in-common",
     "difficulty": "medium",
@@ -43695,6 +46041,29 @@
     ],
     "correctAnswer": "me",
     "explanation": "Montenegro is the closest to North Macedonia of these four.",
+    "countryId": "mk",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-mk",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with North Macedonia? Pick all that apply.",
+    "options": [
+      "ma",
+      "rs",
+      "al",
+      "mz",
+      "bg"
+    ],
+    "correctAnswer": "al+bg+rs",
+    "explanation": "North Macedonia shares a land border with Serbia, Albania, Bulgaria.",
     "countryId": "mk",
     "active": true,
     "source": "generated:world-explorer"
@@ -44054,6 +46423,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-no",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Norway? Pick all that apply.",
+    "options": [
+      "ru",
+      "mz",
+      "ma",
+      "se",
+      "fi"
+    ],
+    "correctAnswer": "fi+ru+se",
+    "explanation": "Norway shares a land border with Russia, Sweden, Finland.",
+    "countryId": "no",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-no",
     "type": "in-common",
     "difficulty": "medium",
@@ -44408,6 +46800,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-om",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Oman? Pick all that apply.",
+    "options": [
+      "ye",
+      "mc",
+      "ae",
+      "sa",
+      "md"
+    ],
+    "correctAnswer": "ae+sa+ye",
+    "explanation": "Oman shares a land border with United Arab Emirates, Yemen, Saudi Arabia.",
+    "countryId": "om",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-om",
     "type": "in-common",
     "difficulty": "medium",
@@ -44757,6 +47172,29 @@
     ],
     "correctAnswer": "tj",
     "explanation": "Tajikistan is the closest to Pakistan of these four.",
+    "countryId": "pk",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-pk",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Pakistan? Pick all that apply.",
+    "options": [
+      "in",
+      "cn",
+      "ma",
+      "me",
+      "af"
+    ],
+    "correctAnswer": "af+cn+in",
+    "explanation": "Pakistan shares a land border with India, China, Afghanistan.",
     "countryId": "pk",
     "active": true,
     "source": "generated:world-explorer"
@@ -45444,6 +47882,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-pa",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Panama? Pick all that apply.",
+    "options": [
+      "om",
+      "pk",
+      "co",
+      "cr",
+      "pw"
+    ],
+    "correctAnswer": "co+cr",
+    "explanation": "Panama shares a land border with Colombia, Costa Rica.",
+    "countryId": "pa",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-pa",
     "type": "in-common",
     "difficulty": "medium",
@@ -45793,6 +48254,29 @@
     ],
     "correctAnswer": "sb",
     "explanation": "Solomon Islands is the closest to Papua New Guinea of these four.",
+    "countryId": "pg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-pg",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Papua New Guinea? Pick all that apply.",
+    "options": [
+      "pa",
+      "om",
+      "no",
+      "pk",
+      "id"
+    ],
+    "correctAnswer": "id",
+    "explanation": "Papua New Guinea shares a land border with Indonesia.",
     "countryId": "pg",
     "active": true,
     "source": "generated:world-explorer"
@@ -46152,6 +48636,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-py",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Paraguay? Pick all that apply.",
+    "options": [
+      "bo",
+      "br",
+      "pg",
+      "ph",
+      "ar"
+    ],
+    "correctAnswer": "ar+bo+br",
+    "explanation": "Paraguay shares a land border with Bolivia, Argentina, Brazil.",
+    "countryId": "py",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-py",
     "type": "in-common",
     "difficulty": "medium",
@@ -46501,6 +49008,29 @@
     ],
     "correctAnswer": "pa",
     "explanation": "Panama is the closest to Peru of these four.",
+    "countryId": "pe",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-pe",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Peru? Pick all that apply.",
+    "options": [
+      "br",
+      "qa",
+      "ec",
+      "cl",
+      "pt"
+    ],
+    "correctAnswer": "br+cl+ec",
+    "explanation": "Peru shares a land border with Brazil, Chile, Ecuador.",
     "countryId": "pe",
     "active": true,
     "source": "generated:world-explorer"
@@ -47213,6 +49743,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-pl",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Poland? Pick all that apply.",
+    "options": [
+      "cz",
+      "ru",
+      "pw",
+      "pa",
+      "by"
+    ],
+    "correctAnswer": "by+cz+ru",
+    "explanation": "Poland shares a land border with Russia, Czechia, Belarus.",
+    "countryId": "pl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-pl",
     "type": "in-common",
     "difficulty": "medium",
@@ -47567,6 +50120,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-pt",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Portugal? Pick all that apply.",
+    "options": [
+      "om",
+      "es",
+      "kp",
+      "ng",
+      "ne"
+    ],
+    "correctAnswer": "es",
+    "explanation": "Portugal shares a land border with Spain.",
+    "countryId": "pt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-pt",
     "type": "in-common",
     "difficulty": "medium",
@@ -47891,6 +50467,29 @@
     ],
     "correctAnswer": "bh",
     "explanation": "Bahrain is the closest to Qatar of these four.",
+    "countryId": "qa",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-qa",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Qatar? Pick all that apply.",
+    "options": [
+      "nz",
+      "ne",
+      "ni",
+      "ng",
+      "sa"
+    ],
+    "correctAnswer": "sa",
+    "explanation": "Qatar shares a land border with Saudi Arabia.",
     "countryId": "qa",
     "active": true,
     "source": "generated:world-explorer"
@@ -48250,6 +50849,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-cg",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Republic of the Congo? Pick all that apply.",
+    "options": [
+      "cm",
+      "ga",
+      "pk",
+      "pw",
+      "ao"
+    ],
+    "correctAnswer": "ao+cm+ga",
+    "explanation": "Republic of the Congo shares a land border with Angola, Cameroon, Gabon.",
+    "countryId": "cg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-cg",
     "type": "in-common",
     "difficulty": "medium",
@@ -48599,6 +51221,29 @@
     ],
     "correctAnswer": "sk",
     "explanation": "Slovakia is the closest to Romania of these four.",
+    "countryId": "ro",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-ro",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Romania? Pick all that apply.",
+    "options": [
+      "hu",
+      "pg",
+      "py",
+      "ua",
+      "rs"
+    ],
+    "correctAnswer": "hu+rs+ua",
+    "explanation": "Romania shares a land border with Hungary, Ukraine, Serbia.",
     "countryId": "ro",
     "active": true,
     "source": "generated:world-explorer"
@@ -48958,6 +51603,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-ru",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Russia? Pick all that apply.",
+    "options": [
+      "kp",
+      "fi",
+      "st",
+      "ws",
+      "lt"
+    ],
+    "correctAnswer": "fi+kp+lt",
+    "explanation": "Russia shares a land border with North Korea, Lithuania, Finland.",
+    "countryId": "ru",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ru",
     "type": "in-common",
     "difficulty": "medium",
@@ -49282,6 +51950,29 @@
     ],
     "correctAnswer": "ke",
     "explanation": "Kenya is the closest to Rwanda of these four.",
+    "countryId": "rw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-rw",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Rwanda? Pick all that apply.",
+    "options": [
+      "ug",
+      "pa",
+      "bi",
+      "tz",
+      "pg"
+    ],
+    "correctAnswer": "bi+tz+ug",
+    "explanation": "Rwanda shares a land border with Burundi, Tanzania, Uganda.",
     "countryId": "rw",
     "active": true,
     "source": "generated:world-explorer"
@@ -50928,6 +53619,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-sm",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with San Marino? Pick all that apply.",
+    "options": [
+      "ph",
+      "cg",
+      "rw",
+      "qa",
+      "it"
+    ],
+    "correctAnswer": "it",
+    "explanation": "San Marino shares a land border with Italy.",
+    "countryId": "sm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-sm",
     "type": "in-common",
     "difficulty": "medium",
@@ -51610,6 +54324,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-sa",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Saudi Arabia? Pick all that apply.",
+    "options": [
+      "jo",
+      "lc",
+      "ae",
+      "om",
+      "kn"
+    ],
+    "correctAnswer": "ae+jo+om",
+    "explanation": "Saudi Arabia shares a land border with United Arab Emirates, Jordan, Oman.",
+    "countryId": "sa",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-sa",
     "type": "in-common",
     "difficulty": "medium",
@@ -51957,6 +54694,29 @@
     ],
     "correctAnswer": "sl",
     "explanation": "Sierra Leone is the closest to Senegal of these four.",
+    "countryId": "sn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-sn",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Senegal? Pick all that apply.",
+    "options": [
+      "gn",
+      "ml",
+      "kn",
+      "ru",
+      "gm"
+    ],
+    "correctAnswer": "gm+gn+ml",
+    "explanation": "Senegal shares a land border with Guinea, Mali, Gambia.",
     "countryId": "sn",
     "active": true,
     "source": "generated:world-explorer"
@@ -52311,6 +55071,29 @@
     ],
     "correctAnswer": "al",
     "explanation": "Albania is the closest to Serbia of these four.",
+    "countryId": "rs",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-rs",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Serbia? Pick all that apply.",
+    "options": [
+      "bg",
+      "sn",
+      "hr",
+      "sc",
+      "me"
+    ],
+    "correctAnswer": "bg+hr+me",
+    "explanation": "Serbia shares a land border with Croatia, Montenegro, Bulgaria.",
     "countryId": "rs",
     "active": true,
     "source": "generated:world-explorer"
@@ -52998,6 +55781,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-sl",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Sierra Leone? Pick all that apply.",
+    "options": [
+      "gn",
+      "ru",
+      "lc",
+      "lr",
+      "kn"
+    ],
+    "correctAnswer": "gn+lr",
+    "explanation": "Sierra Leone shares a land border with Guinea, Liberia.",
+    "countryId": "sl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-sl",
     "type": "in-common",
     "difficulty": "medium",
@@ -53658,6 +56464,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-sk",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Slovakia? Pick all that apply.",
+    "options": [
+      "at",
+      "sl",
+      "sg",
+      "hu",
+      "pl"
+    ],
+    "correctAnswer": "at+hu+pl",
+    "explanation": "Slovakia shares a land border with Hungary, Poland, Austria.",
+    "countryId": "sk",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-sk",
     "type": "in-common",
     "difficulty": "medium",
@@ -53982,6 +56811,29 @@
     ],
     "correctAnswer": "sm",
     "explanation": "San Marino is the closest to Slovenia of these four.",
+    "countryId": "si",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-si",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Slovenia? Pick all that apply.",
+    "options": [
+      "at",
+      "sl",
+      "hr",
+      "it",
+      "sg"
+    ],
+    "correctAnswer": "at+hr+it",
+    "explanation": "Slovenia shares a land border with Croatia, Austria, Italy.",
     "countryId": "si",
     "active": true,
     "source": "generated:world-explorer"
@@ -54669,6 +57521,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-so",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Somalia? Pick all that apply.",
+    "options": [
+      "et",
+      "sa",
+      "ke",
+      "dj",
+      "rs"
+    ],
+    "correctAnswer": "dj+et+ke",
+    "explanation": "Somalia shares a land border with Djibouti, Kenya, Ethiopia.",
+    "countryId": "so",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-so",
     "type": "in-common",
     "difficulty": "medium",
@@ -55023,6 +57898,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-za",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with South Africa? Pick all that apply.",
+    "options": [
+      "mz",
+      "bw",
+      "sz",
+      "sb",
+      "si"
+    ],
+    "correctAnswer": "bw+mz+sz",
+    "explanation": "South Africa shares a land border with Mozambique, Eswatini, Botswana.",
+    "countryId": "za",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-za",
     "type": "in-common",
     "difficulty": "medium",
@@ -55368,6 +58266,29 @@
     ],
     "correctAnswer": "jp",
     "explanation": "Japan is the closest to South Korea of these four.",
+    "countryId": "kr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-kr",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with South Korea? Pick all that apply.",
+    "options": [
+      "kp",
+      "st",
+      "sn",
+      "rs",
+      "sc"
+    ],
+    "correctAnswer": "kp",
+    "explanation": "South Korea shares a land border with North Korea.",
     "countryId": "kr",
     "active": true,
     "source": "generated:world-explorer"
@@ -55727,6 +58648,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-ss",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with South Sudan? Pick all that apply.",
+    "options": [
+      "es",
+      "kr",
+      "ke",
+      "cf",
+      "et"
+    ],
+    "correctAnswer": "cf+et+ke",
+    "explanation": "South Sudan shares a land border with Central African Republic, Kenya, Ethiopia.",
+    "countryId": "ss",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ss",
     "type": "in-common",
     "difficulty": "medium",
@@ -56076,6 +59020,29 @@
     ],
     "correctAnswer": "mc",
     "explanation": "Monaco is the closest to Spain of these four.",
+    "countryId": "es",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-es",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Spain? Pick all that apply.",
+    "options": [
+      "ss",
+      "lk",
+      "ad",
+      "pt",
+      "fr"
+    ],
+    "correctAnswer": "ad+fr+pt",
+    "explanation": "Spain shares a land border with France, Andorra, Portugal.",
     "countryId": "es",
     "active": true,
     "source": "generated:world-explorer"
@@ -56435,6 +59402,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-lk",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Sri Lanka? Pick all that apply.",
+    "options": [
+      "in",
+      "sl",
+      "sc",
+      "si",
+      "sk"
+    ],
+    "correctAnswer": "in",
+    "explanation": "Sri Lanka shares a land border with India.",
+    "countryId": "lk",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-lk",
     "type": "in-common",
     "difficulty": "medium",
@@ -56784,6 +59774,29 @@
     ],
     "correctAnswer": "dj",
     "explanation": "Djibouti is the closest to Sudan of these four.",
+    "countryId": "sd",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-sd",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Sudan? Pick all that apply.",
+    "options": [
+      "ss",
+      "ch",
+      "se",
+      "et",
+      "td"
+    ],
+    "correctAnswer": "et+ss+td",
+    "explanation": "Sudan shares a land border with South Sudan, Ethiopia, Chad.",
     "countryId": "sd",
     "active": true,
     "source": "generated:world-explorer"
@@ -57143,6 +60156,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-sr",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Suriname? Pick all that apply.",
+    "options": [
+      "br",
+      "gy",
+      "sy",
+      "ch",
+      "se"
+    ],
+    "correctAnswer": "br+gy",
+    "explanation": "Suriname shares a land border with Brazil, Guyana.",
+    "countryId": "sr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-sr",
     "type": "in-common",
     "difficulty": "medium",
@@ -57497,6 +60533,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-se",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Sweden? Pick all that apply.",
+    "options": [
+      "fi",
+      "sr",
+      "no",
+      "sd",
+      "sy"
+    ],
+    "correctAnswer": "fi+no",
+    "explanation": "Sweden shares a land border with Norway, Finland.",
+    "countryId": "se",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-se",
     "type": "in-common",
     "difficulty": "medium",
@@ -57824,6 +60883,29 @@
     ],
     "correctAnswer": "lu",
     "explanation": "Luxembourg is the closest to Switzerland of these four.",
+    "countryId": "ch",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-ch",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Switzerland? Pick all that apply.",
+    "options": [
+      "de",
+      "it",
+      "tz",
+      "fr",
+      "th"
+    ],
+    "correctAnswer": "de+fr+it",
+    "explanation": "Switzerland shares a land border with Germany, France, Italy.",
     "countryId": "ch",
     "active": true,
     "source": "generated:world-explorer"
@@ -58183,6 +61265,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-sy",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Syria? Pick all that apply.",
+    "options": [
+      "sr",
+      "tr",
+      "sd",
+      "iq",
+      "jo"
+    ],
+    "correctAnswer": "iq+jo+tr",
+    "explanation": "Syria shares a land border with Türkiye, Jordan, Iraq.",
+    "countryId": "sy",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-sy",
     "type": "in-common",
     "difficulty": "medium",
@@ -58532,6 +61637,29 @@
     ],
     "correctAnswer": "tm",
     "explanation": "Turkmenistan is the closest to Tajikistan of these four.",
+    "countryId": "tj",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-tj",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Tajikistan? Pick all that apply.",
+    "options": [
+      "uz",
+      "sr",
+      "cn",
+      "kg",
+      "sd"
+    ],
+    "correctAnswer": "cn+kg+uz",
+    "explanation": "Tajikistan shares a land border with Kyrgyzstan, Uzbekistan, China.",
     "countryId": "tj",
     "active": true,
     "source": "generated:world-explorer"
@@ -58891,6 +62019,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-tz",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Tanzania? Pick all that apply.",
+    "options": [
+      "ug",
+      "tt",
+      "mw",
+      "tr",
+      "mz"
+    ],
+    "correctAnswer": "mw+mz+ug",
+    "explanation": "Tanzania shares a land border with Mozambique, Uganda, Malawi.",
+    "countryId": "tz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-tz",
     "type": "in-common",
     "difficulty": "medium",
@@ -59245,6 +62396,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-th",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Thailand? Pick all that apply.",
+    "options": [
+      "se",
+      "la",
+      "ch",
+      "kh",
+      "my"
+    ],
+    "correctAnswer": "kh+la+my",
+    "explanation": "Thailand shares a land border with Laos, Malaysia, Cambodia.",
+    "countryId": "th",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-th",
     "type": "in-common",
     "difficulty": "medium",
@@ -59569,6 +62743,29 @@
     ],
     "correctAnswer": "bn",
     "explanation": "Brunei is the closest to Timor-Leste of these four.",
+    "countryId": "tl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-tl",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Timor-Leste? Pick all that apply.",
+    "options": [
+      "se",
+      "id",
+      "sd",
+      "ch",
+      "sr"
+    ],
+    "correctAnswer": "id",
+    "explanation": "Timor-Leste shares a land border with Indonesia.",
     "countryId": "tl",
     "active": true,
     "source": "generated:world-explorer"
@@ -59923,6 +63120,29 @@
     ],
     "correctAnswer": "ci",
     "explanation": "Ivory Coast is the closest to Togo of these four.",
+    "countryId": "tg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-tg",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Togo? Pick all that apply.",
+    "options": [
+      "gh",
+      "bf",
+      "to",
+      "tl",
+      "bj"
+    ],
+    "correctAnswer": "bf+bj+gh",
+    "explanation": "Togo shares a land border with Benin, Burkina Faso, Ghana.",
     "countryId": "tg",
     "active": true,
     "source": "generated:world-explorer"
@@ -60938,6 +64158,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-tn",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Tunisia? Pick all that apply.",
+    "options": [
+      "tm",
+      "tt",
+      "tr",
+      "ly",
+      "dz"
+    ],
+    "correctAnswer": "dz+ly",
+    "explanation": "Tunisia shares a land border with Libya, Algeria.",
+    "countryId": "tn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-tn",
     "type": "in-common",
     "difficulty": "medium",
@@ -61292,6 +64535,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-tr",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Türkiye? Pick all that apply.",
+    "options": [
+      "az",
+      "gb",
+      "us",
+      "gr",
+      "ge"
+    ],
+    "correctAnswer": "az+ge+gr",
+    "explanation": "Türkiye shares a land border with Greece, Georgia, Azerbaijan.",
+    "countryId": "tr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-tr",
     "type": "in-common",
     "difficulty": "medium",
@@ -61641,6 +64907,29 @@
     ],
     "correctAnswer": "tj",
     "explanation": "Tajikistan is the closest to Turkmenistan of these four.",
+    "countryId": "tm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-tm",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Turkmenistan? Pick all that apply.",
+    "options": [
+      "ug",
+      "tv",
+      "af",
+      "uz",
+      "kz"
+    ],
+    "correctAnswer": "af+kz+uz",
+    "explanation": "Turkmenistan shares a land border with Kazakhstan, Uzbekistan, Afghanistan.",
     "countryId": "tm",
     "active": true,
     "source": "generated:world-explorer"
@@ -62328,6 +65617,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-ug",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Uganda? Pick all that apply.",
+    "options": [
+      "tz",
+      "cd",
+      "us",
+      "ke",
+      "uy"
+    ],
+    "correctAnswer": "cd+ke+tz",
+    "explanation": "Uganda shares a land border with DR Congo, Tanzania, Kenya.",
+    "countryId": "ug",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ug",
     "type": "in-common",
     "difficulty": "medium",
@@ -62677,6 +65989,29 @@
     ],
     "correctAnswer": "bg",
     "explanation": "Bulgaria is the closest to Ukraine of these four.",
+    "countryId": "ua",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-ua",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Ukraine? Pick all that apply.",
+    "options": [
+      "by",
+      "ve",
+      "vn",
+      "ro",
+      "pl"
+    ],
+    "correctAnswer": "by+pl+ro",
+    "explanation": "Ukraine shares a land border with Romania, Poland, Belarus.",
     "countryId": "ua",
     "active": true,
     "source": "generated:world-explorer"
@@ -63036,6 +66371,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-ae",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with United Arab Emirates? Pick all that apply.",
+    "options": [
+      "om",
+      "ua",
+      "gb",
+      "us",
+      "sa"
+    ],
+    "correctAnswer": "om+sa",
+    "explanation": "United Arab Emirates shares a land border with Saudi Arabia, Oman.",
+    "countryId": "ae",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ae",
     "type": "in-common",
     "difficulty": "medium",
@@ -63385,6 +66743,29 @@
     ],
     "correctAnswer": "be",
     "explanation": "Belgium is the closest to United Kingdom of these four.",
+    "countryId": "gb",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-gb",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with United Kingdom? Pick all that apply.",
+    "options": [
+      "ie",
+      "vu",
+      "uy",
+      "uz",
+      "us"
+    ],
+    "correctAnswer": "ie",
+    "explanation": "United Kingdom shares a land border with Ireland.",
     "countryId": "gb",
     "active": true,
     "source": "generated:world-explorer"
@@ -63744,6 +67125,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-us",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with United States? Pick all that apply.",
+    "options": [
+      "ca",
+      "mx",
+      "va",
+      "vu",
+      "ve"
+    ],
+    "correctAnswer": "ca+mx",
+    "explanation": "United States shares a land border with Mexico, Canada.",
+    "countryId": "us",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-us",
     "type": "in-common",
     "difficulty": "medium",
@@ -64098,6 +67502,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-uy",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Uruguay? Pick all that apply.",
+    "options": [
+      "ar",
+      "vu",
+      "va",
+      "br",
+      "vn"
+    ],
+    "correctAnswer": "ar+br",
+    "explanation": "Uruguay shares a land border with Brazil, Argentina.",
+    "countryId": "uy",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-uy",
     "type": "in-common",
     "difficulty": "medium",
@@ -64447,6 +67874,29 @@
     ],
     "correctAnswer": "pk",
     "explanation": "Pakistan is the closest to Uzbekistan of these four.",
+    "countryId": "uz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-uz",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Uzbekistan? Pick all that apply.",
+    "options": [
+      "kg",
+      "zw",
+      "kz",
+      "tj",
+      "zm"
+    ],
+    "correctAnswer": "kg+kz+tj",
+    "explanation": "Uzbekistan shares a land border with Kyrgyzstan, Tajikistan, Kazakhstan.",
     "countryId": "uz",
     "active": true,
     "source": "generated:world-explorer"
@@ -65109,6 +68559,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-va",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Vatican City? Pick all that apply.",
+    "options": [
+      "it",
+      "vn",
+      "ye",
+      "zm",
+      "zw"
+    ],
+    "correctAnswer": "it",
+    "explanation": "Vatican City shares a land border with Italy.",
+    "countryId": "va",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-va",
     "type": "in-common",
     "difficulty": "medium",
@@ -65456,6 +68929,29 @@
     ],
     "correctAnswer": "tt",
     "explanation": "Trinidad and Tobago is the closest to Venezuela of these four.",
+    "countryId": "ve",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-ve",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Venezuela? Pick all that apply.",
+    "options": [
+      "co",
+      "br",
+      "gy",
+      "ar",
+      "zw"
+    ],
+    "correctAnswer": "br+co+gy",
+    "explanation": "Venezuela shares a land border with Colombia, Brazil, Guyana.",
     "countryId": "ve",
     "active": true,
     "source": "generated:world-explorer"
@@ -65815,6 +69311,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-vn",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Vietnam? Pick all that apply.",
+    "options": [
+      "la",
+      "af",
+      "am",
+      "kh",
+      "cn"
+    ],
+    "correctAnswer": "cn+kh+la",
+    "explanation": "Vietnam shares a land border with China, Laos, Cambodia.",
+    "countryId": "vn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-vn",
     "type": "in-common",
     "difficulty": "medium",
@@ -66164,6 +69683,29 @@
     ],
     "correctAnswer": "so",
     "explanation": "Somalia is the closest to Yemen of these four.",
+    "countryId": "ye",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-ye",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Yemen? Pick all that apply.",
+    "options": [
+      "om",
+      "af",
+      "am",
+      "sa",
+      "az"
+    ],
+    "correctAnswer": "om+sa",
+    "explanation": "Yemen shares a land border with Saudi Arabia, Oman.",
     "countryId": "ye",
     "active": true,
     "source": "generated:world-explorer"
@@ -66523,6 +70065,29 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "border-battle-zm",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Zambia? Pick all that apply.",
+    "options": [
+      "km",
+      "bw",
+      "cd",
+      "td",
+      "tz"
+    ],
+    "correctAnswer": "bw+cd+tz",
+    "explanation": "Zambia shares a land border with Tanzania, DR Congo, Botswana.",
+    "countryId": "zm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-zm",
     "type": "in-common",
     "difficulty": "medium",
@@ -66872,6 +70437,29 @@
     ],
     "correctAnswer": "sz",
     "explanation": "Eswatini is the closest to Zimbabwe of these four.",
+    "countryId": "zw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "border-battle-zw",
+    "type": "border-battle",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "location",
+    "prompt": "Which of these countries share a border with Zimbabwe? Pick all that apply.",
+    "options": [
+      "zm",
+      "bi",
+      "cm",
+      "za",
+      "bw"
+    ],
+    "correctAnswer": "bw+za+zm",
+    "explanation": "Zimbabwe shares a land border with Botswana, South Africa, Zambia.",
     "countryId": "zw",
     "active": true,
     "source": "generated:world-explorer"

@@ -65,7 +65,19 @@ export function validateContent(input: ContentInput): ValidationResult {
   for (const q of input.questions) {
     if (seenQuestion.has(q.id)) errors.push(`duplicate question id: ${q.id}`);
     seenQuestion.add(q.id);
-    if (!q.options.includes(q.correctAnswer)) {
+    if (q.type === 'border-battle') {
+      // Multi-select: correctAnswer is a canonical set of option ids joined with "+".
+      // Every id must be an option, and the set must be non-empty.
+      const ids = q.correctAnswer ? q.correctAnswer.split('+') : [];
+      if (ids.length === 0) {
+        errors.push(`question ${q.id}: multi-select correctAnswer is empty`);
+      }
+      for (const id of ids) {
+        if (!q.options.includes(id)) {
+          errors.push(`question ${q.id}: correct id "${id}" is not one of its options`);
+        }
+      }
+    } else if (!q.options.includes(q.correctAnswer)) {
       errors.push(`question ${q.id}: correctAnswer "${q.correctAnswer}" is not one of its options`);
     }
     if (q.countryId && !countryIds.has(q.countryId)) {

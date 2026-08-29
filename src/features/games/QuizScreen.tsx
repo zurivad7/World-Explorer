@@ -25,7 +25,10 @@ import { getGameModeMeta } from './gameModes';
 import {
   COLOUR_HEX,
   DEFAULT_SESSION_LENGTH,
+  encodeSelection,
   isMapQuestion,
+  isMultiSelect,
+  multiSelectCorrectIds,
   optionKind,
   promptShowsFlag,
   promptShowsShape,
@@ -81,6 +84,8 @@ export function QuizScreen() {
   const [session, setSession] = useState<QuizSession>(() => createSession([]));
   const [built, setBuilt] = useState(false);
   const [feedback, setFeedback] = useState<{ chosen: string; result: AnswerResult } | null>(null);
+  // Pending picks for "select all that apply" questions (Border Battle), reset per question.
+  const [selected, setSelected] = useState<Set<string>>(new Set());
   const recordedRef = useRef(false);
 
   // Build the session once the player's progress has loaded (so selection is adaptive).
@@ -115,13 +120,28 @@ export function QuizScreen() {
   const goNext = useCallback(() => {
     setSession((s) => advance(s));
     setFeedback(null);
+    setSelected(new Set());
   }, []);
 
   const playAgain = useCallback(() => {
     recordedRef.current = false;
     setSession(createSession(buildQuestions()));
     setFeedback(null);
+    setSelected(new Set());
   }, [buildQuestions]);
+
+  const toggleSelected = useCallback(
+    (id: string) => {
+      if (feedback) return;
+      setSelected((prev) => {
+        const next = new Set(prev);
+        if (next.has(id)) next.delete(id);
+        else next.add(id);
+        return next;
+      });
+    },
+    [feedback]
+  );
 
   if (!valid) {
     return (
@@ -191,11 +211,22 @@ export function QuizScreen() {
   const number = session.index + 1;
   const kind = optionKind(question);
   const correct = question.correctAnswer;
+  const multi = isMultiSelect(question);
+  const correctIds = multi ? new Set(multiSelectCorrectIds(question)) : null;
 
   function optionClass(option: string): string {
     if (!feedback) return 'quiz-option';
     if (option === correct) return 'quiz-option quiz-option--correct';
     if (option === feedback.chosen) return 'quiz-option quiz-option--wrong';
+    return 'quiz-option quiz-option--dim';
+  }
+
+  // Multi-select colouring: after answering, every neighbour is marked correct (green),
+  // any non-neighbour the player picked is marked wrong, and the rest are dimmed.
+  function multiOptionClass(id: string): string {
+    if (!feedback) return selected.has(id) ? 'quiz-option quiz-option--selected' : 'quiz-option';
+    if (correctIds!.has(id)) return 'quiz-option quiz-option--correct';
+    if (feedback.chosen.split('+').includes(id)) return 'quiz-option quiz-option--wrong';
     return 'quiz-option quiz-option--dim';
   }
 
@@ -257,39 +288,69 @@ export function QuizScreen() {
         </>
       ) : null}
 
-      <div className={kind === 'country-flag' ? 'quiz-options quiz-options--flags' : 'quiz-options'}>
-        {question.options.map((option) => (
-          <button
-            key={option}
-            type="button"
-            className={optionClass(option)}
-            disabled={Boolean(feedback)}
-            aria-label={labelForOption(question, option)}
-            onClick={() => choose(option)}
-          >
-            {kind === 'country-flag' ? (
-              <img
-                src={assetUrl(getCountryById(option)?.flagAsset ?? '')}
-                alt={labelForOption(question, option)}
-                width={96}
-                height={72}
-              />
-            ) : kind === 'colours' ? (
-              <span className="swatch-row" aria-hidden="true">
-                {option.split('-').map((c, i) => (
-                  <span
-                    key={`${c}-${i}`}
-                    className="swatch"
-                    style={{ background: COLOUR_HEX[c] ?? c }}
-                  />
-                ))}
-              </span>
-            ) : (
-              labelForOption(question, option)
-            )}
-          </button>
-        ))}
-      </div>
+      {multi ? (
+        <>
+          <div className="quiz-options quiz-options--multi">
+            {question.options.map((option) => (
+              <button
+                key={option}
+                type="button"
+                className={multiOptionClass(option)}
+                disabled={Boolean(feedback)}
+                aria-pressed={selected.has(option)}
+                aria-label={labelForOption(question, option)}
+                onClick={() => toggleSelected(option)}
+              >
+                {labelForOption(question, option)}
+              </button>
+            ))}
+          </div>
+          {!feedback ? (
+            <button
+              type="button"
+              className="button button--primary quiz-check"
+              disabled={selected.size === 0}
+              onClick={() => choose(encodeSelection(selected))}
+            >
+              Check answer
+            </button>
+          ) : null}
+        </>
+      ) : (
+        <div className={kind === 'country-flag' ? 'quiz-options quiz-options--flags' : 'quiz-options'}>
+          {question.options.map((option) => (
+            <button
+              key={option}
+              type="button"
+              className={optionClass(option)}
+              disabled={Boolean(feedback)}
+              aria-label={labelForOption(question, option)}
+              onClick={() => choose(option)}
+            >
+              {kind === 'country-flag' ? (
+                <img
+                  src={assetUrl(getCountryById(option)?.flagAsset ?? '')}
+                  alt={labelForOption(question, option)}
+                  width={96}
+                  height={72}
+                />
+              ) : kind === 'colours' ? (
+                <span className="swatch-row" aria-hidden="true">
+                  {option.split('-').map((c, i) => (
+                    <span
+                      key={`${c}-${i}`}
+                      className="swatch"
+                      style={{ background: COLOUR_HEX[c] ?? c }}
+                    />
+                  ))}
+                </span>
+              ) : (
+                labelForOption(question, option)
+              )}
+            </button>
+          ))}
+        </div>
+      )}
 
       {feedback ? (
         <div
