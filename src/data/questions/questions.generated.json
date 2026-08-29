@@ -338,9 +338,9 @@
     "prompt": "What do these three countries have in common?",
     "options": [
       "They are all in Asia.",
-      "They are all in Oceania.",
-      "They are all in Europe.",
-      "They are all in North America."
+      "They all use the Mozambican metical.",
+      "They all use the Djiboutian franc.",
+      "They all use the Zambian kwacha."
     ],
     "correctAnswer": "They are all in Asia.",
     "explanation": "Afghanistan, Turkmenistan, Malaysia are all in Asia.",
@@ -666,18 +666,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
+      "They all speak Filipino.",
       "They are all in Africa.",
-      "They are all in Asia.",
-      "They are all in Europe.",
-      "They are all in Oceania."
+      "They are all north of the equator.",
+      "They all use the Belarusian ruble."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Albania, San Marino, Bulgaria are all in Europe.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Albania, Qatar, Micronesia are all north of the equator.",
     "countryId": "al",
     "subjectIds": [
       "al",
-      "sm",
-      "bg"
+      "qa",
+      "fm"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -1020,17 +1020,17 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Albanian.",
-      "They all speak Swahili.",
-      "They all speak Sami.",
-      "They all speak Arabic."
+      "They all use the Hungarian forint.",
+      "They all use the Comorian franc.",
+      "They all use the Sudanese pound.",
+      "They are all north of the equator."
     ],
-    "correctAnswer": "They all speak Arabic.",
-    "explanation": "Algeria, Bahrain, Iraq all speak Arabic.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Algeria, Eritrea, Iraq are all north of the equator.",
     "countryId": "dz",
     "subjectIds": [
       "dz",
-      "bh",
+      "er",
       "iq"
     ],
     "active": true,
@@ -1349,18 +1349,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Europe.",
+      "They are all east of the Prime Meridian (Eastern Hemisphere).",
+      "They all use the Barbadian dollar.",
       "They are all in South America.",
-      "They are all in Africa.",
-      "They are all in Oceania."
+      "They all use the Iraqi dinar."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Andorra, Switzerland, Ukraine are all in Europe.",
+    "correctAnswer": "They are all east of the Prime Meridian (Eastern Hemisphere).",
+    "explanation": "Andorra, Kyrgyzstan, Kenya are all east of the Prime Meridian (Eastern Hemisphere).",
     "countryId": "ad",
     "subjectIds": [
       "ad",
-      "ch",
-      "ua"
+      "kg",
+      "ke"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -1703,18 +1703,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Nepali.",
-      "They all speak Portuguese.",
-      "They all speak Ukrainian.",
-      "They all speak Catalan."
+      "They all speak Maldivian.",
+      "They all lie in the tropics, close to the equator.",
+      "They all use the Bhutanese ngultrum.",
+      "They all speak Tetum."
     ],
-    "correctAnswer": "They all speak Portuguese.",
-    "explanation": "Angola, Brazil, Cape Verde all speak Portuguese.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Angola, Nicaragua, Mexico all lie in the tropics, close to the equator.",
     "countryId": "ao",
     "subjectIds": [
       "ao",
-      "br",
-      "cv"
+      "ni",
+      "mx"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -2031,18 +2031,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Kalanga.",
-      "They all speak Armenian.",
-      "They all speak English.",
-      "They all speak Kazakh."
+      "They all use the Brunei dollar.",
+      "They all speak Comorian.",
+      "They all use the Eastern Caribbean dollar.",
+      "They all use the Colombian peso."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Antigua and Barbuda, Saint Kitts and Nevis, Mauritius all speak English.",
+    "correctAnswer": "They all use the Eastern Caribbean dollar.",
+    "explanation": "Antigua and Barbuda, Saint Lucia, Dominica all use the Eastern Caribbean dollar.",
     "countryId": "ag",
     "subjectIds": [
       "ag",
-      "kn",
-      "mu"
+      "lc",
+      "dm"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -2385,18 +2385,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in South America.",
-      "They are all in Europe.",
-      "They are all in North America.",
-      "They are all in Oceania."
+      "They all have a sea coast.",
+      "They all speak Romanian.",
+      "They all speak Afrikaans.",
+      "They all use the Indonesian rupiah."
     ],
-    "correctAnswer": "They are all in South America.",
-    "explanation": "Argentina, Suriname, Ecuador are all in South America.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Argentina, Bosnia and Herzegovina, Brunei all have a sea coast.",
     "countryId": "ar",
     "subjectIds": [
       "ar",
-      "sr",
-      "ec"
+      "ba",
+      "bn"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -2714,9 +2714,9 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in South America.",
-      "They are all in Oceania.",
+      "They are all in Europe.",
+      "They all speak Amharic.",
+      "They all use the Indonesian rupiah.",
       "They are all in Asia."
     ],
     "correctAnswer": "They are all in Asia.",
@@ -3065,9 +3065,9 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Bengali.",
-      "They all speak Kalanga.",
-      "They all speak Dari.",
+      "They all speak Nauru.",
+      "They all use the Namibian dollar.",
+      "They all speak Malay.",
       "They all speak English."
     ],
     "correctAnswer": "They all speak English.",
@@ -3419,18 +3419,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Europe.",
-      "They are all in Asia.",
-      "They are all in Oceania.",
-      "They are all in Africa."
+      "They are all north of the equator.",
+      "They all speak Bosnian.",
+      "They all use the Tajikistani somoni.",
+      "They all use the Jamaican dollar."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Austria, Andorra, Cyprus are all in Europe.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Austria, Afghanistan, Bahrain are all north of the equator.",
     "countryId": "at",
     "subjectIds": [
       "at",
-      "ad",
-      "cy"
+      "af",
+      "bh"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -3773,18 +3773,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Gilbertese.",
-      "They all speak Marshallese.",
-      "They all speak Russian.",
-      "They all speak Kirundi."
+      "They all speak Sinhala.",
+      "They all use the Central African CFA franc.",
+      "They are all east of the Prime Meridian (Eastern Hemisphere).",
+      "They all use the Japanese yen."
     ],
-    "correctAnswer": "They all speak Russian.",
-    "explanation": "Azerbaijan, Tajikistan, Russia all speak Russian.",
+    "correctAnswer": "They are all east of the Prime Meridian (Eastern Hemisphere).",
+    "explanation": "Azerbaijan, Sweden, Tajikistan are all east of the Prime Meridian (Eastern Hemisphere).",
     "countryId": "az",
     "subjectIds": [
       "az",
-      "tj",
-      "ru"
+      "se",
+      "tj"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -4101,18 +4101,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Austro-Bavarian German.",
-      "They all speak Guaraní.",
-      "They all speak English.",
-      "They all speak Shona."
+      "They all speak Lozi.",
+      "They all speak Kyrgyz.",
+      "They all have a sea coast.",
+      "They all use the South African rand."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Bahamas, Trinidad and Tobago, Papua New Guinea all speak English.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Bahamas, Malta, Argentina all have a sea coast.",
     "countryId": "bs",
     "subjectIds": [
       "bs",
-      "tt",
-      "pg"
+      "mt",
+      "ar"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -4429,18 +4429,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Oceania.",
-      "They are all in North America.",
-      "They are all in Africa.",
-      "They are all in Asia."
+      "They all use the Nicaraguan córdoba.",
+      "They are all in South America.",
+      "They all speak Hebrew.",
+      "They all have a sea coast."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Bahrain, Turkmenistan, Uzbekistan are all in Asia.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Bahrain, Syria, Australia all have a sea coast.",
     "countryId": "bh",
     "subjectIds": [
       "bh",
-      "tm",
-      "uz"
+      "sy",
+      "au"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -4783,18 +4783,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in North America.",
-      "They are all in South America.",
-      "They are all in Asia."
+      "They all speak Swedish.",
+      "They all use the Bosnia and Herzegovina convertible mark.",
+      "They all speak Azerbaijani.",
+      "They all have a sea coast."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Bangladesh, Lebanon, Iran are all in Asia.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Bangladesh, Algeria, Sierra Leone all have a sea coast.",
     "countryId": "bd",
     "subjectIds": [
       "bd",
-      "lb",
-      "ir"
+      "dz",
+      "sl"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -5111,18 +5111,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Uzbek.",
-      "They all speak English.",
-      "They all speak Aramaic.",
-      "They all speak Chewa."
+      "They all use the Cape Verdean escudo.",
+      "They are all in North America.",
+      "They all use the Swazi lilangeni.",
+      "They all use the Colombian peso."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Barbados, Namibia, Belize all speak English.",
+    "correctAnswer": "They are all in North America.",
+    "explanation": "Barbados, Belize, Bahamas are all in North America.",
     "countryId": "bb",
     "subjectIds": [
       "bb",
-      "na",
-      "bz"
+      "bz",
+      "bs"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -5465,18 +5465,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in South America.",
-      "They are all in Europe.",
-      "They are all in Oceania."
+      "They all speak Malay.",
+      "They all speak Tongan.",
+      "They all speak Russian.",
+      "They all use the Burmese kyat."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Belarus, Bulgaria, Romania are all in Europe.",
+    "correctAnswer": "They all speak Russian.",
+    "explanation": "Belarus, Tajikistan, Kyrgyzstan all speak Russian.",
     "countryId": "by",
     "subjectIds": [
       "by",
-      "bg",
-      "ro"
+      "tj",
+      "kg"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -5797,18 +5797,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all use the Euro.",
-      "They all use the Eastern Caribbean dollar.",
-      "They all use the Albanian lek.",
-      "They all use the Angolan kwanza."
+      "They are all north of the equator.",
+      "They all use the Swazi lilangeni.",
+      "They all use the Armenian dram.",
+      "They all use the United States dollar."
     ],
-    "correctAnswer": "They all use the Euro.",
-    "explanation": "Belgium, Vatican City, Ireland all use the Euro.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Belgium, San Marino, Kyrgyzstan are all north of the equator.",
     "countryId": "be",
     "subjectIds": [
       "be",
-      "va",
-      "ie"
+      "sm",
+      "kg"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -6126,18 +6126,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Swazi.",
-      "They all speak English.",
-      "They all speak Comorian.",
-      "They all speak Macedonian."
+      "They all use the Chinese yuan.",
+      "They are all west of the Prime Meridian (Western Hemisphere).",
+      "They are all in Asia.",
+      "They all speak Fijian."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Belize, Pakistan, Barbados all speak English.",
+    "correctAnswer": "They are all west of the Prime Meridian (Western Hemisphere).",
+    "explanation": "Belize, Dominican Republic, Liberia are all west of the Prime Meridian (Western Hemisphere).",
     "countryId": "bz",
     "subjectIds": [
       "bz",
-      "pk",
-      "bb"
+      "do",
+      "lr"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -6480,18 +6480,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in North America.",
-      "They are all in South America.",
-      "They are all in Africa.",
-      "They are all in Europe."
+      "They all use the Dominican peso.",
+      "They all speak Tamil.",
+      "They all lie in the tropics, close to the equator.",
+      "They all use the Guinean franc."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Benin, Gabon, Republic of the Congo are all in Africa.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Benin, Brazil, Brunei all lie in the tropics, close to the equator.",
     "countryId": "bj",
     "subjectIds": [
       "bj",
-      "ga",
-      "cg"
+      "br",
+      "bn"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -6812,18 +6812,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Oceania.",
-      "They are all in North America.",
-      "They are all in Africa.",
-      "They are all in Asia."
+      "They all speak Seychellois Creole.",
+      "They all use the Swiss franc.",
+      "They all speak Haitian Creole.",
+      "They are all landlocked, with no sea coast."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Bhutan, Syria, Yemen are all in Asia.",
+    "correctAnswer": "They are all landlocked, with no sea coast.",
+    "explanation": "Bhutan, Laos, Slovakia are all landlocked, with no sea coast.",
     "countryId": "bt",
     "subjectIds": [
       "bt",
-      "sy",
-      "ye"
+      "la",
+      "sk"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -7166,18 +7166,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Spanish.",
-      "They all speak Arabic.",
-      "They all speak Austro-Bavarian German.",
-      "They all speak Sinhala."
+      "They are all landlocked, with no sea coast.",
+      "They all speak Pashto.",
+      "They all use the Botswana pula.",
+      "They all speak Kwangali."
     ],
-    "correctAnswer": "They all speak Spanish.",
-    "explanation": "Bolivia, Mexico, Uruguay all speak Spanish.",
+    "correctAnswer": "They are all landlocked, with no sea coast.",
+    "explanation": "Bolivia, Azerbaijan, Malawi are all landlocked, with no sea coast.",
     "countryId": "bo",
     "subjectIds": [
       "bo",
-      "mx",
-      "uy"
+      "az",
+      "mw"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -7521,9 +7521,9 @@
     "prompt": "What do these three countries have in common?",
     "options": [
       "They are all in Europe.",
-      "They are all in Oceania.",
-      "They are all in Asia.",
-      "They are all in Africa."
+      "They all speak Bulgarian.",
+      "They all speak Vietnamese.",
+      "They all use the Russian ruble."
     ],
     "correctAnswer": "They are all in Europe.",
     "explanation": "Bosnia and Herzegovina, Andorra, Slovenia are all in Europe.",
@@ -7875,9 +7875,9 @@
     "prompt": "What do these three countries have in common?",
     "options": [
       "They all speak Tswana.",
-      "They all speak Belarusian.",
-      "They all speak Jamaican Patois.",
-      "They all speak Lozi."
+      "They all use the Czech koruna.",
+      "They all use the Mauritian rupee.",
+      "They all use the Swiss franc."
     ],
     "correctAnswer": "They all speak Tswana.",
     "explanation": "Botswana, South Africa, Zimbabwe all speak Tswana.",
@@ -8228,18 +8228,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Czech.",
-      "They all speak Portuguese.",
-      "They all speak Khoisan.",
-      "They all speak Northern Sotho."
+      "They all use the Singapore dollar.",
+      "They are all south of the equator.",
+      "They all speak Herero.",
+      "They all use the Malaysian ringgit."
     ],
-    "correctAnswer": "They all speak Portuguese.",
-    "explanation": "Brazil, Angola, Equatorial Guinea all speak Portuguese.",
+    "correctAnswer": "They are all south of the equator.",
+    "explanation": "Brazil, Republic of the Congo, Vanuatu are all south of the equator.",
     "countryId": "br",
     "subjectIds": [
       "br",
-      "ao",
-      "gq"
+      "cg",
+      "vu"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -8557,18 +8557,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in Asia.",
-      "They are all in North America.",
-      "They are all in South America."
+      "They all speak Norwegian Bokmål.",
+      "They are all east of the Prime Meridian (Eastern Hemisphere).",
+      "They all speak Haitian Creole.",
+      "They all use the Burundian franc."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Brunei, Bahrain, China are all in Asia.",
+    "correctAnswer": "They are all east of the Prime Meridian (Eastern Hemisphere).",
+    "explanation": "Brunei, Mozambique, Bhutan are all east of the Prime Meridian (Eastern Hemisphere).",
     "countryId": "bn",
     "subjectIds": [
       "bn",
-      "bh",
-      "cn"
+      "mz",
+      "bt"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -8911,18 +8911,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Oceania.",
-      "They are all in North America.",
-      "They are all in Europe.",
-      "They are all in Asia."
+      "They all use the Indian rupee.",
+      "They all speak Filipino.",
+      "They all have a sea coast.",
+      "They all use the Israeli new shekel."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Bulgaria, Russia, Ireland are all in Europe.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Bulgaria, New Zealand, Sri Lanka all have a sea coast.",
     "countryId": "bg",
     "subjectIds": [
       "bg",
-      "ru",
-      "ie"
+      "nz",
+      "lk"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -9265,18 +9265,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Albanian.",
-      "They all speak French.",
-      "They all speak Maltese.",
-      "They all speak Bengali."
+      "They all use the Bahraini dinar.",
+      "They all use the West African CFA franc.",
+      "They all speak Greek.",
+      "They all use the Uruguayan peso."
     ],
-    "correctAnswer": "They all speak French.",
-    "explanation": "Burkina Faso, DR Congo, Vanuatu all speak French.",
+    "correctAnswer": "They all use the West African CFA franc.",
+    "explanation": "Burkina Faso, Guinea-Bissau, Niger all use the West African CFA franc.",
     "countryId": "bf",
     "subjectIds": [
       "bf",
-      "cd",
-      "vu"
+      "gw",
+      "ne"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -9594,18 +9594,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in South America.",
-      "They are all in Asia.",
-      "They are all in Europe."
+      "They are all landlocked, with no sea coast.",
+      "They are all west of the Prime Meridian (Western Hemisphere).",
+      "They all speak Upper Guinea Creole.",
+      "They all use the Mexican peso."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Burundi, Mauritania, Gabon are all in Africa.",
+    "correctAnswer": "They are all landlocked, with no sea coast.",
+    "explanation": "Burundi, Vatican City, Armenia are all landlocked, with no sea coast.",
     "countryId": "bi",
     "subjectIds": [
       "bi",
-      "mr",
-      "ga"
+      "va",
+      "am"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -9948,10 +9948,10 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Oceania.",
-      "They are all in South America.",
+      "They all use the United States dollar.",
+      "They all speak Northern Ndebele.",
       "They are all in Asia.",
-      "They are all in Europe."
+      "They all speak Tsonga."
     ],
     "correctAnswer": "They are all in Asia.",
     "explanation": "Cambodia, Yemen, Singapore are all in Asia.",
@@ -10302,18 +10302,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Albanian.",
-      "They all speak Arabic.",
-      "They all speak English.",
-      "They all speak Zulu."
+      "They are all in South America.",
+      "They all speak Hindi.",
+      "They all speak French.",
+      "They all use the Norwegian krone."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Cameroon, Mauritius, Barbados all speak English.",
+    "correctAnswer": "They all speak French.",
+    "explanation": "Cameroon, Switzerland, Lebanon all speak French.",
     "countryId": "cm",
     "subjectIds": [
       "cm",
-      "mu",
-      "bb"
+      "ch",
+      "lb"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -10656,18 +10656,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Asia.",
-      "They are all in North America.",
       "They are all in South America.",
-      "They are all in Europe."
+      "They are all north of the equator.",
+      "They all speak Northern Ndebele.",
+      "They all use the Costa Rican colón."
     ],
-    "correctAnswer": "They are all in North America.",
-    "explanation": "Canada, El Salvador, Costa Rica are all in North America.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Canada, Azerbaijan, Iran are all north of the equator.",
     "countryId": "ca",
     "subjectIds": [
       "ca",
-      "sv",
-      "cr"
+      "az",
+      "ir"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -10984,18 +10984,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Southern Ndebele.",
-      "They all speak Sorani.",
-      "They all speak Portuguese.",
-      "They all speak Montenegrin."
+      "They are all south of the equator.",
+      "They all use the South African rand.",
+      "They are all west of the Prime Meridian (Western Hemisphere).",
+      "They all speak Herero."
     ],
-    "correctAnswer": "They all speak Portuguese.",
-    "explanation": "Cape Verde, Brazil, Guinea-Bissau all speak Portuguese.",
+    "correctAnswer": "They are all west of the Prime Meridian (Western Hemisphere).",
+    "explanation": "Cape Verde, Argentina, Barbados are all west of the Prime Meridian (Western Hemisphere).",
     "countryId": "cv",
     "subjectIds": [
       "cv",
-      "br",
-      "gw"
+      "ar",
+      "bb"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -11338,18 +11338,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak French.",
-      "They all speak Comorian.",
-      "They all speak Swiss German.",
-      "They all speak Nauru."
+      "They all lie in the tropics, close to the equator.",
+      "They all speak Sinhala.",
+      "They all use the Jamaican dollar.",
+      "They all speak Khoekhoe."
     ],
-    "correctAnswer": "They all speak French.",
-    "explanation": "Central African Republic, Belgium, Burkina Faso all speak French.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Central African Republic, Brunei, Sierra Leone all lie in the tropics, close to the equator.",
     "countryId": "cf",
     "subjectIds": [
       "cf",
-      "be",
-      "bf"
+      "bn",
+      "sl"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -11692,18 +11692,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Europe.",
-      "They are all in Africa.",
-      "They are all in South America.",
-      "They are all in North America."
+      "They all speak Marshallese.",
+      "They all use the Central African CFA franc.",
+      "They all use the Ugandan shilling.",
+      "They all use the Indian rupee."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Chad, Angola, Botswana are all in Africa.",
+    "correctAnswer": "They all use the Central African CFA franc.",
+    "explanation": "Chad, Central African Republic, Cameroon all use the Central African CFA franc.",
     "countryId": "td",
     "subjectIds": [
       "td",
-      "ao",
-      "bw"
+      "cf",
+      "cm"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -12046,18 +12046,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Spanish.",
-      "They all speak Mongolian.",
-      "They all speak Hebrew.",
-      "They all speak Burmese."
+      "They all have a sea coast.",
+      "They all use the Omani rial.",
+      "They all use the Egyptian pound.",
+      "They all use the Bolivian boliviano."
     ],
-    "correctAnswer": "They all speak Spanish.",
-    "explanation": "Chile, El Salvador, Uruguay all speak Spanish.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Chile, Somalia, Nauru all have a sea coast.",
     "countryId": "cl",
     "subjectIds": [
       "cl",
-      "sv",
-      "uy"
+      "so",
+      "nr"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -12401,9 +12401,9 @@
     "prompt": "What do these three countries have in common?",
     "options": [
       "They are all in Asia.",
-      "They are all in Europe.",
-      "They are all in South America.",
-      "They are all in Oceania."
+      "They all use the Bosnia and Herzegovina convertible mark.",
+      "They all speak Portuguese.",
+      "They all use the Venezuelan bolívar soberano."
     ],
     "correctAnswer": "They are all in Asia.",
     "explanation": "China, Afghanistan, Uzbekistan are all in Asia.",
@@ -12752,18 +12752,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Oceania.",
-      "They are all in Africa.",
-      "They are all in Europe.",
-      "They are all in South America."
+      "They all speak Guaraní.",
+      "They all speak German.",
+      "They all speak Estonian.",
+      "They all speak Spanish."
     ],
-    "correctAnswer": "They are all in South America.",
-    "explanation": "Colombia, Bolivia, Brazil are all in South America.",
+    "correctAnswer": "They all speak Spanish.",
+    "explanation": "Colombia, Belize, Cuba all speak Spanish.",
     "countryId": "co",
     "subjectIds": [
       "co",
-      "bo",
-      "br"
+      "bz",
+      "cu"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -13080,18 +13080,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Amharic.",
-      "They all speak Somali.",
-      "They all speak French.",
-      "They all speak Chibarwe."
+      "They are all in Oceania.",
+      "They all speak Macedonian.",
+      "They are all south of the equator.",
+      "They all use the Japanese yen."
     ],
-    "correctAnswer": "They all speak French.",
-    "explanation": "Comoros, Haiti, Mauritius all speak French.",
+    "correctAnswer": "They are all south of the equator.",
+    "explanation": "Comoros, Gabon, Zimbabwe are all south of the equator.",
     "countryId": "km",
     "subjectIds": [
       "km",
-      "ht",
-      "mu"
+      "ga",
+      "zw"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -13430,18 +13430,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Spanish.",
-      "They all speak Hiri Motu.",
-      "They all speak Albanian.",
-      "They all speak Lingala."
+      "They are all west of the Prime Meridian (Western Hemisphere).",
+      "They all use the Chilean peso.",
+      "They all speak Berber.",
+      "They all use the Afghan afghani."
     ],
-    "correctAnswer": "They all speak Spanish.",
-    "explanation": "Costa Rica, Guatemala, Chile all speak Spanish.",
+    "correctAnswer": "They are all west of the Prime Meridian (Western Hemisphere).",
+    "explanation": "Costa Rica, Haiti, Dominica are all west of the Prime Meridian (Western Hemisphere).",
     "countryId": "cr",
     "subjectIds": [
       "cr",
-      "gt",
-      "cl"
+      "ht",
+      "dm"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -13784,18 +13784,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in South America.",
-      "They are all in Oceania.",
-      "They are all in Europe."
+      "They all use the Namibian dollar.",
+      "They all use the Costa Rican colón.",
+      "They all use the São Tomé and Príncipe dobra.",
+      "They all use the Euro."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Croatia, Luxembourg, North Macedonia are all in Europe.",
+    "correctAnswer": "They all use the Euro.",
+    "explanation": "Croatia, Andorra, Italy all use the Euro.",
     "countryId": "hr",
     "subjectIds": [
       "hr",
-      "lu",
-      "mk"
+      "ad",
+      "it"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -14133,18 +14133,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Chewa.",
-      "They all speak Spanish.",
-      "They all speak Ndau.",
-      "They all speak Estonian."
+      "They all speak Finnish.",
+      "They all have a sea coast.",
+      "They all speak Thai.",
+      "They all use the United States dollar."
     ],
-    "correctAnswer": "They all speak Spanish.",
-    "explanation": "Cuba, Belize, Bolivia all speak Spanish.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Cuba, Mauritius, Iraq all have a sea coast.",
     "countryId": "cu",
     "subjectIds": [
       "cu",
-      "bz",
-      "bo"
+      "mu",
+      "iq"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -14461,18 +14461,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in North America.",
-      "They are all in Europe.",
-      "They are all in Africa.",
+      "They all use the Venezuelan bolívar soberano.",
+      "They all have a sea coast.",
+      "They all use the Paraguayan guaraní.",
       "They are all in South America."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Cyprus, Albania, Italy are all in Europe.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Cyprus, Costa Rica, Bahrain all have a sea coast.",
     "countryId": "cy",
     "subjectIds": [
       "cy",
-      "al",
-      "it"
+      "cr",
+      "bh"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -14816,9 +14816,9 @@
     "prompt": "What do these three countries have in common?",
     "options": [
       "They are all in Europe.",
-      "They are all in Africa.",
-      "They are all in Oceania.",
-      "They are all in Asia."
+      "They all speak Xhosa.",
+      "They all use the Belarusian ruble.",
+      "They all use the Peruvian sol."
     ],
     "correctAnswer": "They are all in Europe.",
     "explanation": "Czechia, Russia, Denmark are all in Europe.",
@@ -15147,18 +15147,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Europe.",
-      "They are all in Asia.",
-      "They are all in Oceania.",
-      "They are all in South America."
+      "They are all north of the equator.",
+      "They all use the Sri Lankan rupee.",
+      "They all use the Algerian dinar.",
+      "They all use the Pakistani rupee."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Denmark, Norway, Italy are all in Europe.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Denmark, North Korea, Vatican City are all north of the equator.",
     "countryId": "dk",
     "subjectIds": [
       "dk",
-      "no",
-      "it"
+      "kp",
+      "va"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -15476,18 +15476,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Comorian.",
-      "They all speak Serbian.",
-      "They all speak Chibarwe.",
-      "They all speak Arabic."
+      "They all use the British pound.",
+      "They all speak Romansh.",
+      "They are all in Oceania.",
+      "They are all north of the equator."
     ],
-    "correctAnswer": "They all speak Arabic.",
-    "explanation": "Djibouti, Chad, Lebanon all speak Arabic.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Djibouti, Armenia, Mexico are all north of the equator.",
     "countryId": "dj",
     "subjectIds": [
       "dj",
-      "td",
-      "lb"
+      "am",
+      "mx"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -15804,18 +15804,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Oceania.",
-      "They are all in Europe.",
-      "They are all in North America.",
-      "They are all in South America."
+      "They all use the British pound.",
+      "They all speak Italian.",
+      "They are all west of the Prime Meridian (Western Hemisphere).",
+      "They all use the Tongan paʻanga."
     ],
-    "correctAnswer": "They are all in North America.",
-    "explanation": "Dominica, Honduras, Costa Rica are all in North America.",
+    "correctAnswer": "They are all west of the Prime Meridian (Western Hemisphere).",
+    "explanation": "Dominica, Morocco, Brazil are all west of the Prime Meridian (Western Hemisphere).",
     "countryId": "dm",
     "subjectIds": [
       "dm",
-      "hn",
-      "cr"
+      "ma",
+      "br"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -16136,18 +16136,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Spanish.",
-      "They all speak Icelandic.",
-      "They all speak Belizean Creole.",
-      "They all speak English."
+      "They all lie in the tropics, close to the equator.",
+      "They all use the Maldivian rufiyaa.",
+      "They all use the Bahamian dollar.",
+      "They all use the Vietnamese đồng."
     ],
-    "correctAnswer": "They all speak Spanish.",
-    "explanation": "Dominican Republic, Mexico, Uruguay all speak Spanish.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Dominican Republic, Benin, Senegal all lie in the tropics, close to the equator.",
     "countryId": "do",
     "subjectIds": [
       "do",
-      "mx",
-      "uy"
+      "bj",
+      "sn"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -16490,18 +16490,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Hindi.",
-      "They all speak Hebrew.",
-      "They all speak French.",
-      "They all speak Afrikaans."
+      "They all speak Czech.",
+      "They all speak Finnish.",
+      "They all have a sea coast.",
+      "They all use the Czech koruna."
     ],
-    "correctAnswer": "They all speak French.",
-    "explanation": "DR Congo, Equatorial Guinea, Comoros all speak French.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "DR Congo, Grenada, Angola all have a sea coast.",
     "countryId": "cd",
     "subjectIds": [
       "cd",
-      "gq",
-      "km"
+      "gd",
+      "ao"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -16844,18 +16844,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Europe.",
-      "They are all in South America.",
-      "They are all in Africa.",
-      "They are all in Asia."
+      "They all use the Albanian lek.",
+      "They all have a sea coast.",
+      "They all use the Angolan kwanza.",
+      "They all use the Central African CFA franc."
     ],
-    "correctAnswer": "They are all in South America.",
-    "explanation": "Ecuador, Bolivia, Peru are all in South America.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Ecuador, Bosnia and Herzegovina, Cambodia all have a sea coast.",
     "countryId": "ec",
     "subjectIds": [
       "ec",
-      "bo",
-      "pe"
+      "ba",
+      "kh"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -17198,18 +17198,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Comorian.",
-      "They all speak Haitian Creole.",
-      "They all speak Arabic.",
-      "They all speak Tswana."
+      "They all use the Azerbaijani manat.",
+      "They all use the Tajikistani somoni.",
+      "They are all in Africa.",
+      "They all use the Nigerian naira."
     ],
-    "correctAnswer": "They all speak Arabic.",
-    "explanation": "Egypt, Jordan, Chad all speak Arabic.",
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Egypt, Central African Republic, South Africa are all in Africa.",
     "countryId": "eg",
     "subjectIds": [
       "eg",
-      "jo",
-      "td"
+      "cf",
+      "za"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -17528,9 +17528,9 @@
     "prompt": "What do these three countries have in common?",
     "options": [
       "They all speak Spanish.",
-      "They all speak Nepali.",
-      "They all speak Slovak.",
-      "They all speak Swazi."
+      "They all speak Swazi.",
+      "They all use the Armenian dram.",
+      "They all use the Seychellois rupee."
     ],
     "correctAnswer": "They all speak Spanish.",
     "explanation": "El Salvador, Cuba, Dominican Republic all speak Spanish.",
@@ -17856,18 +17856,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Asia.",
-      "They are all in Africa.",
-      "They are all in North America.",
-      "They are all in Europe."
+      "They all use the Vietnamese đồng.",
+      "They are all north of the equator.",
+      "They all use the Barbadian dollar.",
+      "They all speak Tonga."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Equatorial Guinea, Ghana, Botswana are all in Africa.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Equatorial Guinea, Cape Verde, Kuwait are all north of the equator.",
     "countryId": "gq",
     "subjectIds": [
       "gq",
-      "gh",
-      "bw"
+      "cv",
+      "kw"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -18210,18 +18210,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Arabic.",
-      "They all speak Hiri Motu.",
-      "They all speak Aramaic.",
-      "They all speak Kinyarwanda."
+      "They are all east of the Prime Meridian (Eastern Hemisphere).",
+      "They all use the Nepalese rupee.",
+      "They all speak Samoan.",
+      "They all use the Dominican peso."
     ],
-    "correctAnswer": "They all speak Arabic.",
-    "explanation": "Eritrea, Comoros, Algeria all speak Arabic.",
+    "correctAnswer": "They are all east of the Prime Meridian (Eastern Hemisphere).",
+    "explanation": "Eritrea, Kyrgyzstan, Georgia are all east of the Prime Meridian (Eastern Hemisphere).",
     "countryId": "er",
     "subjectIds": [
       "er",
-      "km",
-      "dz"
+      "kg",
+      "ge"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -18542,18 +18542,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Oceania.",
-      "They are all in South America.",
-      "They are all in Africa.",
-      "They are all in Europe."
+      "They all speak Icelandic.",
+      "They are all in Asia.",
+      "They all use the Egyptian pound.",
+      "They all use the Euro."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Estonia, Bulgaria, Liechtenstein are all in Europe.",
+    "correctAnswer": "They all use the Euro.",
+    "explanation": "Estonia, Belgium, Netherlands all use the Euro.",
     "countryId": "ee",
     "subjectIds": [
       "ee",
-      "bg",
-      "li"
+      "be",
+      "nl"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -18871,18 +18871,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Asia.",
-      "They are all in South America.",
-      "They are all in Africa.",
-      "They are all in Oceania."
+      "They all use the Bangladeshi taka.",
+      "They all use the Afghan afghani.",
+      "They are all landlocked, with no sea coast.",
+      "They are all in Europe."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Eswatini, Nigeria, Morocco are all in Africa.",
+    "correctAnswer": "They are all landlocked, with no sea coast.",
+    "explanation": "Eswatini, Laos, Botswana are all landlocked, with no sea coast.",
     "countryId": "sz",
     "subjectIds": [
       "sz",
-      "ng",
-      "ma"
+      "la",
+      "bw"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -19225,18 +19225,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in Asia.",
-      "They are all in Oceania.",
-      "They are all in South America."
+      "They are all landlocked, with no sea coast.",
+      "They all use the Algerian dinar.",
+      "They all speak Thai.",
+      "They all use the Dominican peso."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Ethiopia, Uganda, Benin are all in Africa.",
+    "correctAnswer": "They are all landlocked, with no sea coast.",
+    "explanation": "Ethiopia, Bhutan, Andorra are all landlocked, with no sea coast.",
     "countryId": "et",
     "subjectIds": [
       "et",
-      "ug",
-      "bj"
+      "bt",
+      "ad"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -19553,18 +19553,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Estonian.",
-      "They all speak English.",
-      "They all speak Filipino.",
-      "They all speak Chewa."
+      "They all use the Ethiopian birr.",
+      "They are all in Oceania.",
+      "They all use the Bahamian dollar.",
+      "They all speak Romanian."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Fiji, Belize, Saint Lucia all speak English.",
+    "correctAnswer": "They are all in Oceania.",
+    "explanation": "Fiji, Tonga, Nauru are all in Oceania.",
     "countryId": "fj",
     "subjectIds": [
       "fj",
-      "bz",
-      "lc"
+      "to",
+      "nr"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -19907,18 +19907,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in Asia.",
-      "They are all in Europe.",
-      "They are all in Oceania."
+      "They all use the South Sudanese pound.",
+      "They all speak Tswana.",
+      "They are all north of the equator.",
+      "They all use the Danish krone."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Finland, Spain, Greece are all in Europe.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Finland, Antigua and Barbuda, Luxembourg are all north of the equator.",
     "countryId": "fi",
     "subjectIds": [
       "fi",
-      "es",
-      "gr"
+      "ag",
+      "lu"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -20261,18 +20261,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all use the Moldovan leu.",
-      "They all use the Malawian kwacha.",
-      "They all use the Euro.",
-      "They all use the United Arab Emirates dirham."
+      "They are all in South America.",
+      "They all speak Lao.",
+      "They are all north of the equator.",
+      "They all use the Bulgarian lev."
     ],
-    "correctAnswer": "They all use the Euro.",
-    "explanation": "France, Spain, Estonia all use the Euro.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "France, Dominican Republic, Croatia are all north of the equator.",
     "countryId": "fr",
     "subjectIds": [
       "fr",
-      "es",
-      "ee"
+      "do",
+      "hr"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -20615,18 +20615,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Berber.",
-      "They all speak French.",
-      "They all speak German.",
-      "They all speak Aramaic."
+      "They are all in South America.",
+      "They are all east of the Prime Meridian (Eastern Hemisphere).",
+      "They all use the Cuban convertible peso.",
+      "They all speak Venda."
     ],
-    "correctAnswer": "They all speak French.",
-    "explanation": "Gabon, Seychelles, Burundi all speak French.",
+    "correctAnswer": "They are all east of the Prime Meridian (Eastern Hemisphere).",
+    "explanation": "Gabon, Philippines, Syria are all east of the Prime Meridian (Eastern Hemisphere).",
     "countryId": "ga",
     "subjectIds": [
       "ga",
-      "sc",
-      "bi"
+      "ph",
+      "sy"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -20944,18 +20944,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Asia.",
-      "They are all in Africa.",
-      "They are all in South America.",
-      "They are all in Europe."
+      "They all speak Azerbaijani.",
+      "They all lie in the tropics, close to the equator.",
+      "They all speak Maltese.",
+      "They all speak Berber."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Gambia, Eritrea, Chad are all in Africa.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Gambia, Tonga, Belize all lie in the tropics, close to the equator.",
     "countryId": "gm",
     "subjectIds": [
       "gm",
-      "er",
-      "td"
+      "to",
+      "bz"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -21298,18 +21298,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
+      "They all use the Danish krone.",
+      "They all have a sea coast.",
       "They are all in North America.",
-      "They are all in Asia.",
-      "They are all in Africa.",
-      "They are all in South America."
+      "They all speak Lao."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Georgia, Tajikistan, Malaysia are all in Asia.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Georgia, Algeria, Netherlands all have a sea coast.",
     "countryId": "ge",
     "subjectIds": [
       "ge",
-      "tj",
-      "my"
+      "dz",
+      "nl"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -21652,18 +21652,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak German.",
-      "They all speak Fijian.",
-      "They all speak Catalan.",
-      "They all speak Arabic."
+      "They all have a sea coast.",
+      "They all speak Zimbabwean Sign Language.",
+      "They all speak Spanish.",
+      "They all use the Malawian kwacha."
     ],
-    "correctAnswer": "They all speak German.",
-    "explanation": "Germany, Belgium, Namibia all speak German.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Germany, Senegal, Cambodia all have a sea coast.",
     "countryId": "de",
     "subjectIds": [
       "de",
-      "be",
-      "na"
+      "sn",
+      "kh"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -22007,9 +22007,9 @@
     "prompt": "What do these three countries have in common?",
     "options": [
       "They are all in Africa.",
-      "They are all in Oceania.",
-      "They are all in North America.",
-      "They are all in Europe."
+      "They all use the Guyanese dollar.",
+      "They all speak New Zealand Sign Language.",
+      "They are all in South America."
     ],
     "correctAnswer": "They are all in Africa.",
     "explanation": "Ghana, Senegal, Libya are all in Africa.",
@@ -22360,18 +22360,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all use the Euro.",
-      "They all use the Mozambican metical.",
-      "They all use the Albanian lek.",
-      "They all use the Armenian dram."
+      "They are all north of the equator.",
+      "They all speak Venda.",
+      "They all speak Thai.",
+      "They all use the Albanian lek."
     ],
-    "correctAnswer": "They all use the Euro.",
-    "explanation": "Greece, Lithuania, Portugal all use the Euro.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Greece, Hungary, Türkiye are all north of the equator.",
     "countryId": "gr",
     "subjectIds": [
       "gr",
-      "lt",
-      "pt"
+      "hu",
+      "tr"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -22688,18 +22688,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak English.",
-      "They all speak Chewa.",
-      "They all speak Sango.",
-      "They all speak Chinese."
+      "They are all north of the equator.",
+      "They all speak Portuguese.",
+      "They all use the Kazakhstani tenge.",
+      "They all use the Mongolian tögrög."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Grenada, South Sudan, Gambia all speak English.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Grenada, Vatican City, Poland are all north of the equator.",
     "countryId": "gd",
     "subjectIds": [
       "gd",
-      "ss",
-      "gm"
+      "va",
+      "pl"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -23038,18 +23038,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in North America.",
-      "They are all in Asia.",
-      "They are all in Oceania.",
-      "They are all in Europe."
+      "They are all west of the Prime Meridian (Western Hemisphere).",
+      "They all use the Colombian peso.",
+      "They all speak Tok Pisin.",
+      "They all use the Tunisian dinar."
     ],
-    "correctAnswer": "They are all in North America.",
-    "explanation": "Guatemala, Trinidad and Tobago, El Salvador are all in North America.",
+    "correctAnswer": "They are all west of the Prime Meridian (Western Hemisphere).",
+    "explanation": "Guatemala, Ireland, Sierra Leone are all west of the Prime Meridian (Western Hemisphere).",
     "countryId": "gt",
     "subjectIds": [
       "gt",
-      "tt",
-      "sv"
+      "ie",
+      "sl"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -23392,18 +23392,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak French.",
-      "They all speak Malagasy.",
-      "They all speak Ukrainian.",
-      "They all speak Japanese."
+      "They all lie in the tropics, close to the equator.",
+      "They all speak Sango.",
+      "They all speak Khoisan.",
+      "They all speak Latvian."
     ],
-    "correctAnswer": "They all speak French.",
-    "explanation": "Guinea, Burkina Faso, Burundi all speak French.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Guinea, Tonga, Benin all lie in the tropics, close to the equator.",
     "countryId": "gn",
     "subjectIds": [
       "gn",
-      "bf",
-      "bi"
+      "to",
+      "bj"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -23724,18 +23724,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Thai.",
-      "They all speak Ndau.",
-      "They all speak Chibarwe.",
-      "They all speak Portuguese."
+      "They all speak Nauru.",
+      "They all use the Hungarian forint.",
+      "They all use the Papua New Guinean kina.",
+      "They all use the West African CFA franc."
     ],
-    "correctAnswer": "They all speak Portuguese.",
-    "explanation": "Guinea-Bissau, Angola, São Tomé and Príncipe all speak Portuguese.",
+    "correctAnswer": "They all use the West African CFA franc.",
+    "explanation": "Guinea-Bissau, Burkina Faso, Ivory Coast all use the West African CFA franc.",
     "countryId": "gw",
     "subjectIds": [
       "gw",
-      "ao",
-      "st"
+      "bf",
+      "ci"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -24078,18 +24078,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Oceania.",
-      "They are all in Asia.",
-      "They are all in South America.",
-      "They are all in Europe."
+      "They all use the Uruguayan peso.",
+      "They all speak Sorani.",
+      "They all have a sea coast.",
+      "They all speak Georgian."
     ],
-    "correctAnswer": "They are all in South America.",
-    "explanation": "Guyana, Bolivia, Ecuador are all in South America.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Guyana, Gambia, United Kingdom all have a sea coast.",
     "countryId": "gy",
     "subjectIds": [
       "gy",
-      "bo",
-      "ec"
+      "gm",
+      "gb"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -24407,18 +24407,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Afrikaans.",
-      "They all speak French.",
-      "They all speak Irish.",
-      "They all speak Amharic."
+      "They all use the Bahraini dinar.",
+      "They are all in North America.",
+      "They all use the Argentine peso.",
+      "They are all in Oceania."
     ],
-    "correctAnswer": "They all speak French.",
-    "explanation": "Haiti, Mali, Senegal all speak French.",
+    "correctAnswer": "They are all in North America.",
+    "explanation": "Haiti, Cuba, Canada are all in North America.",
     "countryId": "ht",
     "subjectIds": [
       "ht",
-      "ml",
-      "sn"
+      "cu",
+      "ca"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -24761,9 +24761,9 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Romanian.",
-      "They all speak Latvian.",
-      "They all speak Mongolian.",
+      "They are all in Oceania.",
+      "They all use the Nigerian naira.",
+      "They all use the Canadian dollar.",
       "They all speak Spanish."
     ],
     "correctAnswer": "They all speak Spanish.",
@@ -25115,18 +25115,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in North America.",
-      "They are all in Oceania.",
-      "They are all in Europe.",
-      "They are all in Asia."
+      "They all speak Czech.",
+      "They all use the Thai baht.",
+      "They are all north of the equator.",
+      "They all use the Algerian dinar."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Hungary, France, Denmark are all in Europe.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Hungary, Iraq, Grenada are all north of the equator.",
     "countryId": "hu",
     "subjectIds": [
       "hu",
-      "fr",
-      "dk"
+      "iq",
+      "gd"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -25468,18 +25468,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in South America.",
-      "They are all in Africa.",
-      "They are all in Europe.",
-      "They are all in Asia."
+      "They all use the Guatemalan quetzal.",
+      "They all use the Yemeni rial.",
+      "They are all west of the Prime Meridian (Western Hemisphere).",
+      "They all speak Portuguese."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Iceland, North Macedonia, Cyprus are all in Europe.",
+    "correctAnswer": "They are all west of the Prime Meridian (Western Hemisphere).",
+    "explanation": "Iceland, Antigua and Barbuda, Belize are all west of the Prime Meridian (Western Hemisphere).",
     "countryId": "is",
     "subjectIds": [
       "is",
-      "mk",
-      "cy"
+      "ag",
+      "bz"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -25822,18 +25822,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Macedonian.",
-      "They all speak Zulu.",
-      "They all speak Tamil.",
-      "They all speak Dzongkha."
+      "They all use the Sudanese pound.",
+      "They all speak Bengali.",
+      "They all lie in the tropics, close to the equator.",
+      "They all speak Tonga."
     ],
-    "correctAnswer": "They all speak Tamil.",
-    "explanation": "India, Sri Lanka, Singapore all speak Tamil.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "India, Angola, Benin all lie in the tropics, close to the equator.",
     "countryId": "in",
     "subjectIds": [
       "in",
-      "lk",
-      "sg"
+      "ao",
+      "bj"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -26174,18 +26174,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Asia.",
-      "They are all in Europe.",
-      "They are all in South America.",
-      "They are all in Oceania."
+      "They all have a sea coast.",
+      "They all lie in the tropics, close to the equator.",
+      "They all use the South Korean won.",
+      "They all use the Argentine peso."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Indonesia, Afghanistan, North Korea are all in Asia.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Indonesia, Panama, Poland all have a sea coast.",
     "countryId": "id",
     "subjectIds": [
       "id",
-      "af",
-      "kp"
+      "pa",
+      "pl"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -26528,18 +26528,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Asia.",
-      "They are all in South America.",
-      "They are all in Oceania.",
-      "They are all in Europe."
+      "They all have a sea coast.",
+      "They all speak Aramaic.",
+      "They all use the Indian rupee.",
+      "They all use the Czech koruna."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Iran, Turkmenistan, Bahrain are all in Asia.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Iran, Slovenia, Brazil all have a sea coast.",
     "countryId": "ir",
     "subjectIds": [
       "ir",
-      "tm",
-      "bh"
+      "si",
+      "br"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -26882,18 +26882,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Burmese.",
-      "They all speak Sotho.",
-      "They all speak Croatian.",
-      "They all speak Arabic."
+      "They all use the Moroccan dirham.",
+      "They all speak Guaraní.",
+      "They all use the Bhutanese ngultrum.",
+      "They are all in Asia."
     ],
-    "correctAnswer": "They all speak Arabic.",
-    "explanation": "Iraq, Chad, Oman all speak Arabic.",
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Iraq, Philippines, Myanmar are all in Asia.",
     "countryId": "iq",
     "subjectIds": [
       "iq",
-      "td",
-      "om"
+      "ph",
+      "mm"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -27230,18 +27230,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in South America.",
-      "They are all in North America.",
-      "They are all in Africa.",
-      "They are all in Europe."
+      "They all use the Libyan dinar.",
+      "They all use the Afghan afghani.",
+      "They all use the Australian dollar.",
+      "They all speak English."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Ireland, Austria, North Macedonia are all in Europe.",
+    "correctAnswer": "They all speak English.",
+    "explanation": "Ireland, Canada, Eritrea all speak English.",
     "countryId": "ie",
     "subjectIds": [
       "ie",
-      "at",
-      "mk"
+      "ca",
+      "er"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -27559,18 +27559,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Arabic.",
-      "They all speak Urdu.",
-      "They all speak Mongolian.",
-      "They all speak Hiri Motu."
+      "They are all north of the equator.",
+      "They all use the Cambodian riel.",
+      "They all speak Swiss German.",
+      "They all use the Jamaican dollar."
     ],
-    "correctAnswer": "They all speak Arabic.",
-    "explanation": "Israel, Oman, Yemen all speak Arabic.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Israel, Montenegro, Malta are all north of the equator.",
     "countryId": "il",
     "subjectIds": [
       "il",
-      "om",
-      "ye"
+      "me",
+      "mt"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -27911,18 +27911,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Italian.",
-      "They all speak Tongan.",
-      "They all speak Shona.",
-      "They all speak Kalanga."
+      "They are all east of the Prime Meridian (Eastern Hemisphere).",
+      "They all use the Chilean peso.",
+      "They all use the Dominican peso.",
+      "They all speak Burmese."
     ],
-    "correctAnswer": "They all speak Italian.",
-    "explanation": "Italy, Switzerland, Vatican City all speak Italian.",
+    "correctAnswer": "They are all east of the Prime Meridian (Eastern Hemisphere).",
+    "explanation": "Italy, Nauru, Bosnia and Herzegovina are all east of the Prime Meridian (Eastern Hemisphere).",
     "countryId": "it",
     "subjectIds": [
       "it",
-      "ch",
-      "va"
+      "nr",
+      "ba"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -28265,18 +28265,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Asia.",
-      "They are all in Europe.",
-      "They are all in Africa.",
-      "They are all in North America."
+      "They all use the Polish złoty.",
+      "They all use the Brunei dollar.",
+      "They all lie in the tropics, close to the equator.",
+      "They all speak Quechua."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Ivory Coast, Djibouti, Ghana are all in Africa.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Ivory Coast, Antigua and Barbuda, São Tomé and Príncipe all lie in the tropics, close to the equator.",
     "countryId": "ci",
     "subjectIds": [
       "ci",
-      "dj",
-      "gh"
+      "ag",
+      "st"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -28593,18 +28593,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Icelandic.",
-      "They all speak Seychellois Creole.",
-      "They all speak English.",
-      "They all speak Russian."
+      "They all speak Bulgarian.",
+      "They all use the Azerbaijani manat.",
+      "They all have a sea coast.",
+      "They all use the Kyrgyzstani som."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Jamaica, Dominica, Bahamas all speak English.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Jamaica, Benin, Angola all have a sea coast.",
     "countryId": "jm",
     "subjectIds": [
       "jm",
-      "dm",
-      "bs"
+      "bj",
+      "ao"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -28946,18 +28946,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in Oceania.",
-      "They are all in North America.",
-      "They are all in Asia."
+      "They all speak Uzbek.",
+      "They all speak Italian.",
+      "They all speak Montenegrin.",
+      "They all have a sea coast."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Japan, Armenia, Kuwait are all in Asia.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Japan, Algeria, Antigua and Barbuda all have a sea coast.",
     "countryId": "jp",
     "subjectIds": [
       "jp",
-      "am",
-      "kw"
+      "dz",
+      "ag"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -29301,9 +29301,9 @@
     "prompt": "What do these three countries have in common?",
     "options": [
       "They are all in Asia.",
-      "They are all in Europe.",
-      "They are all in Oceania.",
-      "They are all in North America."
+      "They all use the Argentine peso.",
+      "They all speak Tshiluba.",
+      "They all use the Nepalese rupee."
     ],
     "correctAnswer": "They are all in Asia.",
     "explanation": "Jordan, Bangladesh, India are all in Asia.",
@@ -29654,10 +29654,10 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Kikongo.",
-      "They all speak Swazi.",
+      "They all use the Angolan kwanza.",
+      "They are all in North America.",
       "They all speak Russian.",
-      "They all speak Hiri Motu."
+      "They all speak Tsonga."
     ],
     "correctAnswer": "They all speak Russian.",
     "explanation": "Kazakhstan, Kyrgyzstan, Turkmenistan all speak Russian.",
@@ -30008,18 +30008,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Albanian.",
-      "They all speak English.",
-      "They all speak Estonian.",
-      "They all speak Aramaic."
+      "They all speak Ukrainian.",
+      "They are all north of the equator.",
+      "They all use the Syrian pound.",
+      "They all use the Albanian lek."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Kenya, Gambia, Kiribati all speak English.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Kenya, Switzerland, Belgium are all north of the equator.",
     "countryId": "ke",
     "subjectIds": [
       "ke",
-      "gm",
-      "ki"
+      "ch",
+      "be"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -30336,18 +30336,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Europe.",
-      "They are all in Oceania.",
-      "They are all in South America.",
-      "They are all in Asia."
+      "They all use the Uruguayan peso.",
+      "They are all east of the Prime Meridian (Eastern Hemisphere).",
+      "They all speak Somali.",
+      "They all speak Khmer."
     ],
-    "correctAnswer": "They are all in Oceania.",
-    "explanation": "Kiribati, Nauru, Micronesia are all in Oceania.",
+    "correctAnswer": "They are all east of the Prime Meridian (Eastern Hemisphere).",
+    "explanation": "Kiribati, Palau, Kazakhstan are all east of the Prime Meridian (Eastern Hemisphere).",
     "countryId": "ki",
     "subjectIds": [
       "ki",
-      "nr",
-      "fm"
+      "pw",
+      "kz"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -30665,18 +30665,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Amharic.",
-      "They all speak Kinyarwanda.",
-      "They all speak Aymara.",
-      "They all speak Arabic."
+      "They all speak Gilbertese.",
+      "They all use the Armenian dram.",
+      "They all use the Malaysian ringgit.",
+      "They all have a sea coast."
     ],
-    "correctAnswer": "They all speak Arabic.",
-    "explanation": "Kuwait, Algeria, Sudan all speak Arabic.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Kuwait, India, Antigua and Barbuda all have a sea coast.",
     "countryId": "kw",
     "subjectIds": [
       "kw",
-      "dz",
-      "sd"
+      "in",
+      "ag"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -31019,18 +31019,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Bengali.",
-      "They all speak Czech.",
-      "They all speak Somali.",
-      "They all speak Russian."
+      "They are all in Africa.",
+      "They all use the Iraqi dinar.",
+      "They all use the Iranian rial.",
+      "They are all landlocked, with no sea coast."
     ],
-    "correctAnswer": "They all speak Russian.",
-    "explanation": "Kyrgyzstan, Belarus, Kazakhstan all speak Russian.",
+    "correctAnswer": "They are all landlocked, with no sea coast.",
+    "explanation": "Kyrgyzstan, Andorra, Laos are all landlocked, with no sea coast.",
     "countryId": "kg",
     "subjectIds": [
       "kg",
-      "by",
-      "kz"
+      "ad",
+      "la"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -31373,18 +31373,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Oceania.",
-      "They are all in Europe.",
-      "They are all in Asia.",
-      "They are all in North America."
+      "They all use the Azerbaijani manat.",
+      "They all speak Swiss German.",
+      "They are all landlocked, with no sea coast.",
+      "They all speak Czech."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Laos, Azerbaijan, Thailand are all in Asia.",
+    "correctAnswer": "They are all landlocked, with no sea coast.",
+    "explanation": "Laos, Botswana, Hungary are all landlocked, with no sea coast.",
     "countryId": "la",
     "subjectIds": [
       "la",
-      "az",
-      "th"
+      "bw",
+      "hu"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -31727,18 +31727,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all use the Argentine peso.",
-      "They all use the Danish krone.",
-      "They all use the Brazilian real.",
-      "They all use the Euro."
+      "They all use the Fijian dollar.",
+      "They all use the Barbadian dollar.",
+      "They all use the Solomon Islands dollar.",
+      "They are all in Europe."
     ],
-    "correctAnswer": "They all use the Euro.",
-    "explanation": "Latvia, Cyprus, Estonia all use the Euro.",
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Latvia, Finland, Spain are all in Europe.",
     "countryId": "lv",
     "subjectIds": [
       "lv",
-      "cy",
-      "ee"
+      "fi",
+      "es"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -32056,9 +32056,9 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Amharic.",
-      "They all speak Czech.",
-      "They all speak Aymara.",
+      "They all speak Ukrainian.",
+      "They all use the denar.",
+      "They all speak Māori.",
       "They all speak Arabic."
     ],
     "correctAnswer": "They all speak Arabic.",
@@ -32388,18 +32388,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in Oceania.",
-      "They are all in Europe.",
-      "They are all in South America."
+      "They are all south of the equator.",
+      "They all use the São Tomé and Príncipe dobra.",
+      "They all use the Bolivian boliviano.",
+      "They are all in Oceania."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Lesotho, Burkina Faso, Central African Republic are all in Africa.",
+    "correctAnswer": "They are all south of the equator.",
+    "explanation": "Lesotho, Tanzania, Ecuador are all south of the equator.",
     "countryId": "ls",
     "subjectIds": [
       "ls",
-      "bf",
-      "cf"
+      "tz",
+      "ec"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -32742,18 +32742,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Greek.",
-      "They all speak Jamaican Patois.",
-      "They all speak Albanian.",
-      "They all speak English."
+      "They all use the Bangladeshi taka.",
+      "They all speak Czech.",
+      "They all speak Korean.",
+      "They are all west of the Prime Meridian (Western Hemisphere)."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Liberia, Pakistan, Lesotho all speak English.",
+    "correctAnswer": "They are all west of the Prime Meridian (Western Hemisphere).",
+    "explanation": "Liberia, Gambia, Burkina Faso are all west of the Prime Meridian (Western Hemisphere).",
     "countryId": "lr",
     "subjectIds": [
       "lr",
-      "pk",
-      "ls"
+      "gm",
+      "bf"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -33096,18 +33096,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Arabic.",
-      "They all speak Khoekhoe.",
-      "They all speak Comorian.",
-      "They all speak Afrikaans."
+      "They all have a sea coast.",
+      "They all use the Paraguayan guaraní.",
+      "They all speak New Zealand Sign Language.",
+      "They all speak Comorian."
     ],
-    "correctAnswer": "They all speak Arabic.",
-    "explanation": "Libya, Saudi Arabia, Tunisia all speak Arabic.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Libya, Argentina, Samoa all have a sea coast.",
     "countryId": "ly",
     "subjectIds": [
       "ly",
-      "sa",
-      "tn"
+      "ar",
+      "ws"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -33425,18 +33425,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Europe.",
-      "They are all in North America.",
-      "They are all in Oceania.",
-      "They are all in Asia."
+      "They are all landlocked, with no sea coast.",
+      "They all use the Bahamian dollar.",
+      "They all speak Persian (Farsi).",
+      "They all use the Mauritian rupee."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Liechtenstein, Bulgaria, Romania are all in Europe.",
+    "correctAnswer": "They are all landlocked, with no sea coast.",
+    "explanation": "Liechtenstein, Tajikistan, Rwanda are all landlocked, with no sea coast.",
     "countryId": "li",
     "subjectIds": [
       "li",
-      "bg",
-      "ro"
+      "tj",
+      "rw"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -33779,18 +33779,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all use the Bangladeshi taka.",
-      "They all use the Euro.",
-      "They all use the lari.",
-      "They all use the Mauritian rupee."
+      "They all speak Montenegrin.",
+      "They all have a sea coast.",
+      "They all use the Egyptian pound.",
+      "They all speak Comorian."
     ],
-    "correctAnswer": "They all use the Euro.",
-    "explanation": "Lithuania, Latvia, Finland all use the Euro.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Lithuania, South Africa, Chile all have a sea coast.",
     "countryId": "lt",
     "subjectIds": [
       "lt",
-      "lv",
-      "fi"
+      "za",
+      "cl"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -34108,18 +34108,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak German.",
-      "They all speak Dzongkha.",
-      "They all speak Aramaic.",
-      "They all speak Southern Sotho."
+      "They are all in Europe.",
+      "They all use the Moldovan leu.",
+      "They all use the Danish krone.",
+      "They all use the Brunei dollar."
     ],
-    "correctAnswer": "They all speak German.",
-    "explanation": "Luxembourg, Belgium, Namibia all speak German.",
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Luxembourg, Latvia, Ukraine are all in Europe.",
     "countryId": "lu",
     "subjectIds": [
       "lu",
-      "be",
-      "na"
+      "lv",
+      "ua"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -34461,18 +34461,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in North America.",
-      "They are all in Asia.",
-      "They are all in Africa.",
-      "They are all in Europe."
+      "They all speak Zimbabwean Sign Language.",
+      "They all speak Tok Pisin.",
+      "They all speak French.",
+      "They all speak Slovene."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Madagascar, Mozambique, Botswana are all in Africa.",
+    "correctAnswer": "They all speak French.",
+    "explanation": "Madagascar, Chad, Djibouti all speak French.",
     "countryId": "mg",
     "subjectIds": [
       "mg",
-      "mz",
-      "bw"
+      "td",
+      "dj"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -34815,18 +34815,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Armenian.",
-      "They all speak English.",
-      "They all speak Kirundi.",
-      "They all speak Belarusian."
+      "They all use the Fijian dollar.",
+      "They are all south of the equator.",
+      "They all speak Croatian.",
+      "They all use the Albanian lek."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Malawi, Botswana, Nigeria all speak English.",
+    "correctAnswer": "They are all south of the equator.",
+    "explanation": "Malawi, Peru, Tuvalu are all south of the equator.",
     "countryId": "mw",
     "subjectIds": [
       "mw",
-      "bw",
-      "ng"
+      "pe",
+      "tv"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -35169,18 +35169,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Amharic.",
-      "They all speak Serbian.",
-      "They all speak Tonga.",
-      "They all speak English."
+      "They all use the New Zealand dollar.",
+      "They all speak Haitian Creole.",
+      "They all speak Macedonian.",
+      "They are all east of the Prime Meridian (Eastern Hemisphere)."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Malaysia, Gambia, Zambia all speak English.",
+    "correctAnswer": "They are all east of the Prime Meridian (Eastern Hemisphere).",
+    "explanation": "Malaysia, Moldova, Latvia are all east of the Prime Meridian (Eastern Hemisphere).",
     "countryId": "my",
     "subjectIds": [
       "my",
-      "gm",
-      "zm"
+      "md",
+      "lv"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -35497,18 +35497,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Asia.",
-      "They are all in Oceania.",
-      "They are all in North America.",
-      "They are all in South America."
+      "They all lie in the tropics, close to the equator.",
+      "They all speak Kalanga.",
+      "They all use the Turkish lira.",
+      "They are all in Europe."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Maldives, Azerbaijan, Türkiye are all in Asia.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Maldives, Colombia, Guinea-Bissau all lie in the tropics, close to the equator.",
     "countryId": "mv",
     "subjectIds": [
       "mv",
-      "az",
-      "tr"
+      "co",
+      "gw"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -35850,9 +35850,9 @@
     "prompt": "What do these three countries have in common?",
     "options": [
       "They all use the West African CFA franc.",
-      "They all use the Ghanaian cedi.",
-      "They all use the Armenian dram.",
-      "They all use the Guyanese dollar."
+      "They all use the Icelandic króna.",
+      "They all speak Indonesian.",
+      "They all use the Thai baht."
     ],
     "correctAnswer": "They all use the West African CFA franc.",
     "explanation": "Mali, Benin, Guinea-Bissau all use the West African CFA franc.",
@@ -36177,18 +36177,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Bosnian.",
-      "They all speak Indonesian.",
-      "They all speak English.",
-      "They all speak Azerbaijani."
+      "They all speak Dutch.",
+      "They are all in North America.",
+      "They all have a sea coast.",
+      "They all speak Tetum."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Malta, Jamaica, New Zealand all speak English.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Malta, Iceland, Israel all have a sea coast.",
     "countryId": "mt",
     "subjectIds": [
       "mt",
-      "jm",
-      "nz"
+      "is",
+      "il"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -36505,10 +36505,10 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in North America.",
+      "They all use the Japanese yen.",
+      "They all speak Amharic.",
       "They are all in Oceania.",
-      "They are all in Asia."
+      "They all use the Israeli new shekel."
     ],
     "correctAnswer": "They are all in Oceania.",
     "explanation": "Marshall Islands, Samoa, Kiribati are all in Oceania.",
@@ -36860,9 +36860,9 @@
     "prompt": "What do these three countries have in common?",
     "options": [
       "They all speak Arabic.",
-      "They all speak Spanish.",
-      "They all speak Turkmen.",
-      "They all speak Zimbabwean Sign Language."
+      "They all use the Guatemalan quetzal.",
+      "They all use the Solomon Islands dollar.",
+      "They are all in Europe."
     ],
     "correctAnswer": "They all speak Arabic.",
     "explanation": "Mauritania, Somalia, Egypt all speak Arabic.",
@@ -37187,18 +37187,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Albanian.",
-      "They all speak Icelandic.",
-      "They all speak Bulgarian.",
-      "They all speak French."
+      "They all use the Brunei dollar.",
+      "They all use the Guyanese dollar.",
+      "They all use the North Korean won.",
+      "They are all south of the equator."
     ],
-    "correctAnswer": "They all speak French.",
-    "explanation": "Mauritius, Haiti, Burundi all speak French.",
+    "correctAnswer": "They are all south of the equator.",
+    "explanation": "Mauritius, Argentina, Madagascar are all south of the equator.",
     "countryId": "mu",
     "subjectIds": [
       "mu",
-      "ht",
-      "bi"
+      "ar",
+      "mg"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -37539,18 +37539,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in North America.",
-      "They are all in South America.",
-      "They are all in Asia.",
-      "They are all in Oceania."
+      "They are all west of the Prime Meridian (Western Hemisphere).",
+      "They all speak Lozi.",
+      "They all use the West African CFA franc.",
+      "They all speak Catalan."
     ],
-    "correctAnswer": "They are all in North America.",
-    "explanation": "Mexico, Belize, Canada are all in North America.",
+    "correctAnswer": "They are all west of the Prime Meridian (Western Hemisphere).",
+    "explanation": "Mexico, Argentina, Barbados are all west of the Prime Meridian (Western Hemisphere).",
     "countryId": "mx",
     "subjectIds": [
       "mx",
-      "bz",
-      "ca"
+      "ar",
+      "bb"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -37845,18 +37845,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak English.",
-      "They all speak Norwegian Bokmål.",
-      "They all speak Afrikaans.",
-      "They all speak Kwangali."
+      "They all lie in the tropics, close to the equator.",
+      "They all use the Trinidad and Tobago dollar.",
+      "They all use the Guyanese dollar.",
+      "They all use the Tunisian dinar."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Micronesia, Dominica, Pakistan all speak English.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Micronesia, Angola, Dominican Republic all lie in the tropics, close to the equator.",
     "countryId": "fm",
     "subjectIds": [
       "fm",
-      "dm",
-      "pk"
+      "ao",
+      "do"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -38177,18 +38177,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Europe.",
-      "They are all in Oceania.",
-      "They are all in Africa.",
-      "They are all in South America."
+      "They are all landlocked, with no sea coast.",
+      "They all have a sea coast.",
+      "They all use the Tongan paʻanga.",
+      "They all use the Colombian peso."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Moldova, Malta, Russia are all in Europe.",
+    "correctAnswer": "They are all landlocked, with no sea coast.",
+    "explanation": "Moldova, Kyrgyzstan, Burundi are all landlocked, with no sea coast.",
     "countryId": "md",
     "subjectIds": [
       "md",
-      "mt",
-      "ru"
+      "kg",
+      "bi"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -38506,18 +38506,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in North America.",
-      "They are all in Europe.",
-      "They are all in South America.",
-      "They are all in Asia."
+      "They all use the Bhutanese ngultrum.",
+      "They all have a sea coast.",
+      "They all use the Belarusian ruble.",
+      "They all use the Indonesian rupiah."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Monaco, Austria, Bosnia and Herzegovina are all in Europe.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Monaco, Denmark, Pakistan all have a sea coast.",
     "countryId": "mc",
     "subjectIds": [
       "mc",
-      "at",
-      "ba"
+      "dk",
+      "pk"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -38860,10 +38860,10 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in South America.",
-      "They are all in Oceania.",
+      "They all use the Botswana pula.",
+      "They are all in North America.",
       "They are all in Asia.",
-      "They are all in Europe."
+      "They all use the Albanian lek."
     ],
     "correctAnswer": "They are all in Asia.",
     "explanation": "Mongolia, India, Nepal are all in Asia.",
@@ -39189,18 +39189,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Oceania.",
-      "They are all in North America.",
-      "They are all in Africa.",
-      "They are all in Europe."
+      "They all use the South African rand.",
+      "They all speak Danish.",
+      "They all speak Kirundi.",
+      "They are all north of the equator."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Montenegro, Spain, Cyprus are all in Europe.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Montenegro, Benin, Haiti are all north of the equator.",
     "countryId": "me",
     "subjectIds": [
       "me",
-      "es",
-      "cy"
+      "bj",
+      "ht"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -39543,18 +39543,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Asia.",
-      "They are all in North America.",
-      "They are all in Oceania.",
-      "They are all in Africa."
+      "They all speak Catalan.",
+      "They all use the Australian dollar.",
+      "They all use the Bahamian dollar.",
+      "They are all north of the equator."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Morocco, Togo, Burundi are all in Africa.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Morocco, Eritrea, Estonia are all north of the equator.",
     "countryId": "ma",
     "subjectIds": [
       "ma",
-      "tg",
-      "bi"
+      "er",
+      "ee"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -39897,18 +39897,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Georgian.",
-      "They all speak Fiji Hindi.",
-      "They all speak Portuguese.",
-      "They all speak Aramaic."
+      "They all use the Pakistani rupee.",
+      "They all speak Gilbertese.",
+      "They are all east of the Prime Meridian (Eastern Hemisphere).",
+      "They all speak Kazakh."
     ],
-    "correctAnswer": "They all speak Portuguese.",
-    "explanation": "Mozambique, Brazil, Portugal all speak Portuguese.",
+    "correctAnswer": "They are all east of the Prime Meridian (Eastern Hemisphere).",
+    "explanation": "Mozambique, Armenia, Bahrain are all east of the Prime Meridian (Eastern Hemisphere).",
     "countryId": "mz",
     "subjectIds": [
       "mz",
-      "br",
-      "pt"
+      "am",
+      "bh"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -40251,18 +40251,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in South America.",
-      "They are all in North America.",
-      "They are all in Asia."
+      "They all use the Panamanian balboa.",
+      "They all use the South African rand.",
+      "They all use the North Korean won.",
+      "They all lie in the tropics, close to the equator."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Myanmar, Brunei, Thailand are all in Asia.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Myanmar, Antigua and Barbuda, Mali all lie in the tropics, close to the equator.",
     "countryId": "mm",
     "subjectIds": [
       "mm",
-      "bn",
-      "th"
+      "ag",
+      "ml"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -40605,18 +40605,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in South America.",
-      "They are all in Europe.",
-      "They are all in Oceania."
+      "They all have a sea coast.",
+      "They all speak Xhosa.",
+      "They all speak Aymara.",
+      "They all use the Afghan afghani."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Namibia, Comoros, Burkina Faso are all in Africa.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Namibia, Argentina, El Salvador all have a sea coast.",
     "countryId": "na",
     "subjectIds": [
       "na",
-      "km",
-      "bf"
+      "ar",
+      "sv"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -40933,18 +40933,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all use the Namibian dollar.",
-      "They all use the Australian dollar.",
-      "They all use the Saudi riyal.",
-      "They all use the United Arab Emirates dirham."
+      "They are all in North America.",
+      "They all have a sea coast.",
+      "They all use the Barbadian dollar.",
+      "They all speak Aramaic."
     ],
-    "correctAnswer": "They all use the Australian dollar.",
-    "explanation": "Nauru, Kiribati, Tuvalu all use the Australian dollar.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Nauru, Syria, Seychelles all have a sea coast.",
     "countryId": "nr",
     "subjectIds": [
       "nr",
-      "ki",
-      "tv"
+      "sy",
+      "sc"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -41287,9 +41287,9 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in South America.",
-      "They are all in Oceania.",
-      "They are all in North America.",
+      "They all use the New Zealand dollar.",
+      "They all use the Panamanian balboa.",
+      "They all speak Chewa.",
       "They are all in Asia."
     ],
     "correctAnswer": "They are all in Asia.",
@@ -41614,18 +41614,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Oceania.",
-      "They are all in Africa.",
-      "They are all in North America.",
-      "They are all in Europe."
+      "They all speak Finnish.",
+      "They all use the Central African CFA franc.",
+      "They all speak Czech.",
+      "They all speak Dutch."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Netherlands, Albania, Ireland are all in Europe.",
+    "correctAnswer": "They all speak Dutch.",
+    "explanation": "Netherlands, Suriname, Belgium all speak Dutch.",
     "countryId": "nl",
     "subjectIds": [
       "nl",
-      "al",
-      "ie"
+      "sr",
+      "be"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -41965,18 +41965,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Russian.",
-      "They all speak English.",
-      "They all speak Bosnian.",
-      "They all speak Austro-Bavarian German."
+      "They all use the Afghan afghani.",
+      "They are all south of the equator.",
+      "They all use the Nepalese rupee.",
+      "They all use the Lebanese pound."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "New Zealand, South Sudan, Malta all speak English.",
+    "correctAnswer": "They are all south of the equator.",
+    "explanation": "New Zealand, Botswana, Angola are all south of the equator.",
     "countryId": "nz",
     "subjectIds": [
       "nz",
-      "ss",
-      "mt"
+      "bw",
+      "ao"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -42319,18 +42319,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Albanian.",
-      "They all speak Belizean Creole.",
-      "They all speak Spanish.",
-      "They all speak Vietnamese."
+      "They are all in Asia.",
+      "They all use the Canadian dollar.",
+      "They are all west of the Prime Meridian (Western Hemisphere).",
+      "They all use the Eastern Caribbean dollar."
     ],
-    "correctAnswer": "They all speak Spanish.",
-    "explanation": "Nicaragua, Honduras, Equatorial Guinea all speak Spanish.",
+    "correctAnswer": "They are all west of the Prime Meridian (Western Hemisphere).",
+    "explanation": "Nicaragua, El Salvador, Burkina Faso are all west of the Prime Meridian (Western Hemisphere).",
     "countryId": "ni",
     "subjectIds": [
       "ni",
-      "hn",
-      "gq"
+      "sv",
+      "bf"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -42673,18 +42673,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in Asia.",
-      "They are all in Europe.",
-      "They are all in Oceania."
+      "They all lie in the tropics, close to the equator.",
+      "They all use the Algerian dinar.",
+      "They all speak Bulgarian.",
+      "They all use the South Sudanese pound."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Niger, Central African Republic, Eswatini are all in Africa.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Niger, Dominican Republic, Cuba all lie in the tropics, close to the equator.",
     "countryId": "ne",
     "subjectIds": [
       "ne",
-      "cf",
-      "sz"
+      "do",
+      "cu"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -43027,18 +43027,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Bislama.",
-      "They all speak Vietnamese.",
-      "They all speak English.",
-      "They all speak Mauritian Creole."
+      "They are all in South America.",
+      "They all use the Afghan afghani.",
+      "They all have a sea coast.",
+      "They all use the Brazilian real."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Nigeria, Rwanda, Samoa all speak English.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Nigeria, Marshall Islands, Germany all have a sea coast.",
     "countryId": "ng",
     "subjectIds": [
       "ng",
-      "rw",
-      "ws"
+      "mh",
+      "de"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -43381,18 +43381,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Asia.",
-      "They are all in South America.",
-      "They are all in North America.",
-      "They are all in Europe."
+      "They all have a sea coast.",
+      "They all speak Bulgarian.",
+      "They all use the Philippine peso.",
+      "They all use the Czech koruna."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "North Korea, Israel, Azerbaijan are all in Asia.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "North Korea, Iceland, Libya all have a sea coast.",
     "countryId": "kp",
     "subjectIds": [
       "kp",
-      "il",
-      "az"
+      "is",
+      "ly"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -43710,10 +43710,10 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
+      "They all use the Albanian lek.",
       "They are all in Europe.",
-      "They are all in North America.",
-      "They are all in Asia."
+      "They all speak Hebrew.",
+      "They all use the Armenian dram."
     ],
     "correctAnswer": "They are all in Europe.",
     "explanation": "North Macedonia, Hungary, Austria are all in Europe.",
@@ -44064,18 +44064,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Europe.",
-      "They are all in Oceania.",
-      "They are all in Asia.",
-      "They are all in North America."
+      "They are all north of the equator.",
+      "They all use the Congolese franc.",
+      "They all use the Lesotho loti.",
+      "They all speak Swedish."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Norway, Croatia, Ireland are all in Europe.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Norway, Trinidad and Tobago, Cyprus are all north of the equator.",
     "countryId": "no",
     "subjectIds": [
       "no",
-      "hr",
-      "ie"
+      "tt",
+      "cy"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -44418,18 +44418,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Southern Sotho.",
-      "They all speak Arabic.",
-      "They all speak Afrikaans.",
-      "They all speak Chibarwe."
+      "They all use the Malawian kwacha.",
+      "They are all north of the equator.",
+      "They all speak Kazakh.",
+      "They all use the Vanuatu vatu."
     ],
-    "correctAnswer": "They all speak Arabic.",
-    "explanation": "Oman, Chad, Kuwait all speak Arabic.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Oman, Niger, Vietnam are all north of the equator.",
     "countryId": "om",
     "subjectIds": [
       "om",
-      "td",
-      "kw"
+      "ne",
+      "vn"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -44772,18 +44772,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Oceania.",
-      "They are all in South America.",
-      "They are all in Asia.",
-      "They are all in Africa."
+      "They all speak Aramaic.",
+      "They all use the Costa Rican colón.",
+      "They are all east of the Prime Meridian (Eastern Hemisphere).",
+      "They are all in South America."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Pakistan, Iran, Malaysia are all in Asia.",
+    "correctAnswer": "They are all east of the Prime Meridian (Eastern Hemisphere).",
+    "explanation": "Pakistan, Albania, Chad are all east of the Prime Meridian (Eastern Hemisphere).",
     "countryId": "pk",
     "subjectIds": [
       "pk",
-      "ir",
-      "my"
+      "al",
+      "td"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -45100,18 +45100,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all use the United States dollar.",
-      "They all use the Hungarian forint.",
-      "They all use the Sierra Leonean leone.",
-      "They all use the Botswana pula."
+      "They all lie in the tropics, close to the equator.",
+      "They all use the Libyan dinar.",
+      "They all speak Persian (Farsi).",
+      "They all speak Uzbek."
     ],
-    "correctAnswer": "They all use the United States dollar.",
-    "explanation": "Palau, Ecuador, El Salvador all use the United States dollar.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Palau, Sierra Leone, Guinea-Bissau all lie in the tropics, close to the equator.",
     "countryId": "pw",
     "subjectIds": [
       "pw",
-      "ec",
-      "sv"
+      "sl",
+      "gw"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -45454,18 +45454,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Spanish.",
-      "They all speak Turkish.",
-      "They all speak Kwangali.",
-      "They all speak Persian (Farsi)."
+      "They all have a sea coast.",
+      "They all use the Indonesian rupiah.",
+      "They all speak Austro-Bavarian German.",
+      "They all use the Burmese kyat."
     ],
-    "correctAnswer": "They all speak Spanish.",
-    "explanation": "Panama, Bolivia, Cuba all speak Spanish.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Panama, Türkiye, Palau all have a sea coast.",
     "countryId": "pa",
     "subjectIds": [
       "pa",
-      "bo",
-      "cu"
+      "tr",
+      "pw"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -45808,18 +45808,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in North America.",
-      "They are all in South America.",
-      "They are all in Oceania.",
-      "They are all in Africa."
+      "They all use the Haitian gourde.",
+      "They all speak Quechua.",
+      "They all have a sea coast.",
+      "They all speak Southern Sotho."
     ],
-    "correctAnswer": "They are all in Oceania.",
-    "explanation": "Papua New Guinea, Australia, Fiji are all in Oceania.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Papua New Guinea, Brazil, Poland all have a sea coast.",
     "countryId": "pg",
     "subjectIds": [
       "pg",
-      "au",
-      "fj"
+      "br",
+      "pl"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -46162,18 +46162,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Chinese.",
-      "They all speak Polish.",
-      "They all speak Spanish.",
-      "They all speak Albanian."
+      "They all speak French.",
+      "They all speak Dutch.",
+      "They are all in South America.",
+      "They all use the Costa Rican colón."
     ],
-    "correctAnswer": "They all speak Spanish.",
-    "explanation": "Paraguay, Ecuador, Peru all speak Spanish.",
+    "correctAnswer": "They are all in South America.",
+    "explanation": "Paraguay, Argentina, Brazil are all in South America.",
     "countryId": "py",
     "subjectIds": [
       "py",
-      "ec",
-      "pe"
+      "ar",
+      "br"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -46517,9 +46517,9 @@
     "prompt": "What do these three countries have in common?",
     "options": [
       "They all speak Spanish.",
-      "They all speak Venda.",
-      "They all speak Slovene.",
-      "They all speak Latin."
+      "They are all in Asia.",
+      "They all speak Korean.",
+      "They all speak Jamaican Patois."
     ],
     "correctAnswer": "They all speak Spanish.",
     "explanation": "Peru, Bolivia, Colombia all speak Spanish.",
@@ -46869,17 +46869,17 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in North America.",
-      "They are all in Asia.",
-      "They are all in Africa.",
-      "They are all in Europe."
+      "They all use the Afghan afghani.",
+      "They are all north of the equator.",
+      "They all use the Moroccan dirham.",
+      "They all use the Cuban convertible peso."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Philippines, Laos, Pakistan are all in Asia.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Philippines, Greece, Pakistan are all north of the equator.",
     "countryId": "ph",
     "subjectIds": [
       "ph",
-      "la",
+      "gr",
       "pk"
     ],
     "active": true,
@@ -47223,18 +47223,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in Europe.",
       "They are all in North America.",
-      "They are all in Asia."
+      "They are all east of the Prime Meridian (Eastern Hemisphere).",
+      "They all speak Nepali.",
+      "They all use the Tanzanian shilling."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Poland, Bulgaria, Lithuania are all in Europe.",
+    "correctAnswer": "They are all east of the Prime Meridian (Eastern Hemisphere).",
+    "explanation": "Poland, Australia, Comoros are all east of the Prime Meridian (Eastern Hemisphere).",
     "countryId": "pl",
     "subjectIds": [
       "pl",
-      "bg",
-      "lt"
+      "au",
+      "km"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -47577,18 +47577,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Afrikaans.",
-      "They all speak Portuguese.",
-      "They all speak Latin.",
-      "They all speak Polish."
+      "They all use the Samoan tālā.",
+      "They all use the Euro.",
+      "They all use the Fijian dollar.",
+      "They all use the Bolivian boliviano."
     ],
-    "correctAnswer": "They all speak Portuguese.",
-    "explanation": "Portugal, Guinea-Bissau, Mozambique all speak Portuguese.",
+    "correctAnswer": "They all use the Euro.",
+    "explanation": "Portugal, Andorra, Estonia all use the Euro.",
     "countryId": "pt",
     "subjectIds": [
       "pt",
-      "gw",
-      "mz"
+      "ad",
+      "ee"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -47906,18 +47906,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Oceania.",
-      "They are all in North America.",
-      "They are all in South America.",
-      "They are all in Asia."
+      "They all speak Sotho.",
+      "They all use the Central African CFA franc.",
+      "They all speak Tok Pisin.",
+      "They all have a sea coast."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Qatar, Georgia, Bahrain are all in Asia.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Qatar, Djibouti, Spain all have a sea coast.",
     "countryId": "qa",
     "subjectIds": [
       "qa",
-      "ge",
-      "bh"
+      "dj",
+      "es"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -48260,18 +48260,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all use the Algerian dinar.",
-      "They all use the Guinean franc.",
-      "They all use the Brunei dollar.",
-      "They all use the Central African CFA franc."
+      "They all speak Hebrew.",
+      "They all speak Bengali.",
+      "They all use the Paraguayan guaraní.",
+      "They all have a sea coast."
     ],
-    "correctAnswer": "They all use the Central African CFA franc.",
-    "explanation": "Republic of the Congo, Chad, Equatorial Guinea all use the Central African CFA franc.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Republic of the Congo, Yemen, Antigua and Barbuda all have a sea coast.",
     "countryId": "cg",
     "subjectIds": [
       "cg",
-      "td",
-      "gq"
+      "ye",
+      "ag"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -48615,9 +48615,9 @@
     "prompt": "What do these three countries have in common?",
     "options": [
       "They are all in Europe.",
-      "They are all in North America.",
-      "They are all in Oceania.",
-      "They are all in Asia."
+      "They all use the British pound.",
+      "They all use the Mexican peso.",
+      "They all use the Somali shilling."
     ],
     "correctAnswer": "They are all in Europe.",
     "explanation": "Romania, Estonia, Slovenia are all in Europe.",
@@ -48968,18 +48968,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Europe.",
-      "They are all in South America.",
-      "They are all in Asia.",
-      "They are all in Oceania."
+      "They all speak Russian.",
+      "They all use the Albanian lek.",
+      "They all use the Bangladeshi taka.",
+      "They all speak Japanese."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Russia, Norway, Slovenia are all in Europe.",
+    "correctAnswer": "They all speak Russian.",
+    "explanation": "Russia, Azerbaijan, Belarus all speak Russian.",
     "countryId": "ru",
     "subjectIds": [
       "ru",
-      "no",
-      "si"
+      "az",
+      "by"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -49297,18 +49297,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Hiri Motu.",
-      "They all speak Romansh.",
-      "They all speak English.",
-      "They all speak Danish."
+      "They all use the Thai baht.",
+      "They all use the Swedish krona.",
+      "They are all south of the equator.",
+      "They are all in Europe."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Rwanda, Saint Lucia, Gambia all speak English.",
+    "correctAnswer": "They are all south of the equator.",
+    "explanation": "Rwanda, Australia, Comoros are all south of the equator.",
     "countryId": "rw",
     "subjectIds": [
       "rw",
-      "lc",
-      "gm"
+      "au",
+      "km"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -49625,18 +49625,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak English.",
-      "They all speak Upper Guinea Creole.",
-      "They all speak Norwegian Bokmål.",
-      "They all speak Lingala."
+      "They are all west of the Prime Meridian (Western Hemisphere).",
+      "They all speak Ndau.",
+      "They all use the Jamaican dollar.",
+      "They all use the Bosnia and Herzegovina convertible mark."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Saint Kitts and Nevis, Dominica, Belize all speak English.",
+    "correctAnswer": "They are all west of the Prime Meridian (Western Hemisphere).",
+    "explanation": "Saint Kitts and Nevis, Dominican Republic, Venezuela are all west of the Prime Meridian (Western Hemisphere).",
     "countryId": "kn",
     "subjectIds": [
       "kn",
-      "dm",
-      "bz"
+      "do",
+      "ve"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -49953,18 +49953,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in North America.",
-      "They are all in Africa.",
-      "They are all in Asia.",
-      "They are all in Oceania."
+      "They all lie in the tropics, close to the equator.",
+      "They all speak Aymara.",
+      "They all speak Azerbaijani.",
+      "They all use the Guyanese dollar."
     ],
-    "correctAnswer": "They are all in North America.",
-    "explanation": "Saint Lucia, Belize, Dominican Republic are all in North America.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Saint Lucia, Angola, Solomon Islands all lie in the tropics, close to the equator.",
     "countryId": "lc",
     "subjectIds": [
       "lc",
-      "bz",
-      "do"
+      "ao",
+      "sb"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -50281,10 +50281,10 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all use the Libyan dinar.",
-      "They all use the Colombian peso.",
+      "They all use the denar.",
+      "They all use the Mozambican metical.",
       "They all use the Eastern Caribbean dollar.",
-      "They all use the Guatemalan quetzal."
+      "They all speak Ndonga."
     ],
     "correctAnswer": "They all use the Eastern Caribbean dollar.",
     "explanation": "Saint Vincent and the Grenadines, Saint Lucia, Saint Kitts and Nevis all use the Eastern Caribbean dollar.",
@@ -50609,18 +50609,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Hindi.",
-      "They all speak Japanese.",
-      "They all speak Fijian.",
-      "They all speak English."
+      "They are all in South America.",
+      "They all speak Amharic.",
+      "They all speak Ukrainian.",
+      "They all have a sea coast."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Samoa, Botswana, Eritrea all speak English.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Samoa, Portugal, France all have a sea coast.",
     "countryId": "ws",
     "subjectIds": [
       "ws",
-      "bw",
-      "er"
+      "pt",
+      "fr"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -50938,10 +50938,10 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
+      "They all use the Nigerian naira.",
       "They are all in Europe.",
-      "They are all in North America.",
-      "They are all in South America."
+      "They all use the Kyrgyzstani som.",
+      "They all use the Israeli new shekel."
     ],
     "correctAnswer": "They are all in Europe.",
     "explanation": "San Marino, Finland, Liechtenstein are all in Europe.",
@@ -51267,9 +51267,9 @@
     "prompt": "What do these three countries have in common?",
     "options": [
       "They all speak Portuguese.",
-      "They all speak Swazi.",
-      "They all speak Maldivian.",
-      "They all speak Ndonga."
+      "They all speak Mauritian Creole.",
+      "They are all south of the equator.",
+      "They all speak Sinhala."
     ],
     "correctAnswer": "They all speak Portuguese.",
     "explanation": "São Tomé and Príncipe, Cape Verde, Equatorial Guinea all speak Portuguese.",
@@ -51620,18 +51620,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Bislama.",
-      "They all speak Arabic.",
-      "They all speak Armenian.",
-      "They all speak Bengali."
+      "They all use the Philippine peso.",
+      "They are all north of the equator.",
+      "They all use the Kyrgyzstani som.",
+      "They all speak Ukrainian."
     ],
-    "correctAnswer": "They all speak Arabic.",
-    "explanation": "Saudi Arabia, Djibouti, Yemen all speak Arabic.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Saudi Arabia, Suriname, Armenia are all north of the equator.",
     "countryId": "sa",
     "subjectIds": [
       "sa",
-      "dj",
-      "ye"
+      "sr",
+      "am"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -51972,18 +51972,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Asia.",
-      "They are all in Oceania.",
-      "They are all in Africa.",
-      "They are all in Europe."
+      "They all use the Moldovan leu.",
+      "They all speak Finnish.",
+      "They are all west of the Prime Meridian (Western Hemisphere).",
+      "They all use the dalasi."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Senegal, Liberia, Eswatini are all in Africa.",
+    "correctAnswer": "They are all west of the Prime Meridian (Western Hemisphere).",
+    "explanation": "Senegal, Nicaragua, Mauritania are all west of the Prime Meridian (Western Hemisphere).",
     "countryId": "sn",
     "subjectIds": [
       "sn",
-      "lr",
-      "sz"
+      "ni",
+      "mr"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -52326,18 +52326,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Europe.",
-      "They are all in Oceania.",
-      "They are all in North America.",
-      "They are all in South America."
+      "They are all landlocked, with no sea coast.",
+      "They all speak Urdu.",
+      "They all use the Brazilian real.",
+      "They all speak Armenian."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Serbia, Bosnia and Herzegovina, Ireland are all in Europe.",
+    "correctAnswer": "They are all landlocked, with no sea coast.",
+    "explanation": "Serbia, Mongolia, Burundi are all landlocked, with no sea coast.",
     "countryId": "rs",
     "subjectIds": [
       "rs",
-      "ba",
-      "ie"
+      "mn",
+      "bi"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -52654,18 +52654,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Amharic.",
-      "They all speak Albanian.",
-      "They all speak Dzongkha.",
-      "They all speak English."
+      "They all use the Turkish lira.",
+      "They all speak Greek.",
+      "They all use the Swazi lilangeni.",
+      "They all have a sea coast."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Seychelles, Nigeria, Papua New Guinea all speak English.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Seychelles, United Kingdom, Chile all have a sea coast.",
     "countryId": "sc",
     "subjectIds": [
       "sc",
-      "ng",
-      "pg"
+      "gb",
+      "cl"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -53008,18 +53008,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in South America.",
-      "They are all in North America.",
+      "They all have a sea coast.",
+      "They all use the Costa Rican colón.",
+      "They all use the Haitian gourde.",
       "They are all in Europe."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Sierra Leone, Eswatini, Kenya are all in Africa.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Sierra Leone, Seychelles, Djibouti all have a sea coast.",
     "countryId": "sl",
     "subjectIds": [
       "sl",
-      "sz",
-      "ke"
+      "sc",
+      "dj"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -53336,18 +53336,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak German.",
-      "They all speak Burmese.",
-      "They all speak Dzongkha.",
-      "They all speak English."
+      "They all use the Argentine peso.",
+      "They all speak French.",
+      "They all use the Tanzanian shilling.",
+      "They are all in Asia."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Singapore, Australia, Fiji all speak English.",
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Singapore, Iran, Azerbaijan are all in Asia.",
     "countryId": "sg",
     "subjectIds": [
       "sg",
-      "au",
-      "fj"
+      "ir",
+      "az"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -53668,18 +53668,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Oceania.",
-      "They are all in North America.",
-      "They are all in Africa.",
-      "They are all in Europe."
+      "They all use the Malaysian ringgit.",
+      "They all use the Bahamian dollar.",
+      "They all use the Afghan afghani.",
+      "They are all north of the equator."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Slovakia, Belgium, Monaco are all in Europe.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Slovakia, Ghana, Central African Republic are all north of the equator.",
     "countryId": "sk",
     "subjectIds": [
       "sk",
-      "be",
-      "mc"
+      "gh",
+      "cf"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -53997,18 +53997,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in North America.",
-      "They are all in Africa.",
-      "They are all in Europe.",
-      "They are all in Asia."
+      "They all use the Papua New Guinean kina.",
+      "They all speak Tuvaluan.",
+      "They are all north of the equator.",
+      "They all use the Romanian leu."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Slovenia, Hungary, Iceland are all in Europe.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Slovenia, United States, Afghanistan are all north of the equator.",
     "countryId": "si",
     "subjectIds": [
       "si",
-      "hu",
-      "is"
+      "us",
+      "af"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -54325,18 +54325,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Southern Ndebele.",
-      "They all speak Afrikaans.",
-      "They all speak English.",
-      "They all speak Berber."
+      "They all speak Venda.",
+      "They all use the Tunisian dinar.",
+      "They are all east of the Prime Meridian (Eastern Hemisphere).",
+      "They all use the Belize dollar."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Solomon Islands, Trinidad and Tobago, Bahamas all speak English.",
+    "correctAnswer": "They are all east of the Prime Meridian (Eastern Hemisphere).",
+    "explanation": "Solomon Islands, Mauritius, Mongolia are all east of the Prime Meridian (Eastern Hemisphere).",
     "countryId": "sb",
     "subjectIds": [
       "sb",
-      "tt",
-      "bs"
+      "mu",
+      "mn"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -54679,18 +54679,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Hiri Motu.",
-      "They all speak Khoisan.",
-      "They all speak Vietnamese.",
-      "They all speak Arabic."
+      "They all speak Swiss German.",
+      "They all use the Bahamian dollar.",
+      "They all use the Afghan afghani.",
+      "They all lie in the tropics, close to the equator."
     ],
-    "correctAnswer": "They all speak Arabic.",
-    "explanation": "Somalia, Algeria, Sudan all speak Arabic.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Somalia, India, Oman all lie in the tropics, close to the equator.",
     "countryId": "so",
     "subjectIds": [
       "so",
-      "dz",
-      "sd"
+      "in",
+      "om"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -55033,18 +55033,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Asia.",
-      "They are all in Europe.",
-      "They are all in Africa.",
-      "They are all in Oceania."
+      "They all use the Rwandan franc.",
+      "They all speak Swedish.",
+      "They all have a sea coast.",
+      "They all use the Guinean franc."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "South Africa, Mali, Sudan are all in Africa.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "South Africa, Seychelles, Germany all have a sea coast.",
     "countryId": "za",
     "subjectIds": [
       "za",
-      "ml",
-      "sd"
+      "sc",
+      "de"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -55383,18 +55383,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Asia.",
-      "They are all in Europe.",
-      "They are all in Oceania.",
-      "They are all in Africa."
+      "They all have a sea coast.",
+      "They all speak Northern Sotho.",
+      "They all speak Slovene.",
+      "They all speak Zimbabwean Sign Language."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "South Korea, Afghanistan, Tajikistan are all in Asia.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "South Korea, Bulgaria, Senegal all have a sea coast.",
     "countryId": "kr",
     "subjectIds": [
       "kr",
-      "af",
-      "tj"
+      "bg",
+      "sn"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -55737,18 +55737,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Khoisan.",
-      "They all speak French.",
-      "They all speak Swazi.",
-      "They all speak English."
+      "They all speak Kinyarwanda.",
+      "They all speak Lingala.",
+      "They all speak Kyrgyz.",
+      "They are all in Africa."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "South Sudan, Australia, Guyana all speak English.",
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "South Sudan, Nigeria, Mali are all in Africa.",
     "countryId": "ss",
     "subjectIds": [
       "ss",
-      "au",
-      "gy"
+      "ng",
+      "ml"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -56091,18 +56091,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in South America.",
-      "They are all in Europe.",
-      "They are all in North America.",
-      "They are all in Asia."
+      "They all speak Italian.",
+      "They all speak Spanish.",
+      "They all use the Serbian dinar.",
+      "They are all in South America."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Spain, Albania, United Kingdom are all in Europe.",
+    "correctAnswer": "They all speak Spanish.",
+    "explanation": "Spain, Belize, Costa Rica all speak Spanish.",
     "countryId": "es",
     "subjectIds": [
       "es",
-      "al",
-      "gb"
+      "bz",
+      "cr"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -56445,18 +56445,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Tamil.",
-      "They all speak Albanian.",
-      "They all speak Swazi.",
-      "They all speak Bulgarian."
+      "They are all north of the equator.",
+      "They all use the Angolan kwanza.",
+      "They all speak Lao.",
+      "They all use the Israeli new shekel."
     ],
-    "correctAnswer": "They all speak Tamil.",
-    "explanation": "Sri Lanka, Singapore, India all speak Tamil.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Sri Lanka, Kenya, North Macedonia are all north of the equator.",
     "countryId": "lk",
     "subjectIds": [
       "lk",
-      "sg",
-      "in"
+      "ke",
+      "mk"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -56799,18 +56799,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Dzongkha.",
-      "They all speak Catalan.",
-      "They all speak English.",
-      "They all speak Aymara."
+      "They all speak Kyrgyz.",
+      "They all speak Slovak.",
+      "They are all east of the Prime Meridian (Eastern Hemisphere).",
+      "They all speak Belarusian."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Sudan, Kiribati, Grenada all speak English.",
+    "correctAnswer": "They are all east of the Prime Meridian (Eastern Hemisphere).",
+    "explanation": "Sudan, Bahrain, Armenia are all east of the Prime Meridian (Eastern Hemisphere).",
     "countryId": "sd",
     "subjectIds": [
       "sd",
-      "ki",
-      "gd"
+      "bh",
+      "am"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -57153,18 +57153,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in South America.",
-      "They are all in Africa.",
-      "They are all in North America.",
-      "They are all in Asia."
+      "They all lie in the tropics, close to the equator.",
+      "They all use the Algerian dinar.",
+      "They all speak Fijian.",
+      "They all use the Brazilian real."
     ],
-    "correctAnswer": "They are all in South America.",
-    "explanation": "Suriname, Guyana, Brazil are all in South America.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Suriname, Equatorial Guinea, Ghana all lie in the tropics, close to the equator.",
     "countryId": "sr",
     "subjectIds": [
       "sr",
-      "gy",
-      "br"
+      "gq",
+      "gh"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -57507,18 +57507,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in South America.",
-      "They are all in Europe.",
+      "They all use the Ghanaian cedi.",
+      "They all have a sea coast.",
       "They are all in Africa.",
       "They are all in Asia."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Sweden, Belgium, Austria are all in Europe.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Sweden, Grenada, Saint Vincent and the Grenadines all have a sea coast.",
     "countryId": "se",
     "subjectIds": [
       "se",
-      "be",
-      "at"
+      "gd",
+      "vc"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -57839,18 +57839,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Armenian.",
-      "They all speak Norwegian Nynorsk.",
-      "They all speak Italian.",
-      "They all speak Swedish."
+      "They all use the Ghanaian cedi.",
+      "They all have a sea coast.",
+      "They are all landlocked, with no sea coast.",
+      "They all use the Barbadian dollar."
     ],
-    "correctAnswer": "They all speak Italian.",
-    "explanation": "Switzerland, San Marino, Italy all speak Italian.",
+    "correctAnswer": "They are all landlocked, with no sea coast.",
+    "explanation": "Switzerland, Botswana, Bhutan are all landlocked, with no sea coast.",
     "countryId": "ch",
     "subjectIds": [
       "ch",
-      "sm",
-      "it"
+      "bw",
+      "bt"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -58193,10 +58193,10 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in South America.",
+      "They all speak Kwangali.",
       "They are all in Asia.",
-      "They are all in Africa.",
-      "They are all in North America."
+      "They all speak Austro-Bavarian German.",
+      "They all use the Afghan afghani."
     ],
     "correctAnswer": "They are all in Asia.",
     "explanation": "Syria, Brunei, Bahrain are all in Asia.",
@@ -58547,9 +58547,9 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Turkish.",
-      "They all speak Comorian.",
-      "They all speak Kikongo.",
+      "They all use the Maldivian rufiyaa.",
+      "They are all in Oceania.",
+      "They all use the Mauritian rupee.",
       "They all speak Russian."
     ],
     "correctAnswer": "They all speak Russian.",
@@ -58901,18 +58901,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Persian (Farsi).",
-      "They all speak Southern Sotho.",
-      "They all speak Afrikaans.",
-      "They all speak English."
+      "They all use the Colombian peso.",
+      "They all speak Tigrinya.",
+      "They all speak Russian.",
+      "They are all south of the equator."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Tanzania, Singapore, Sudan all speak English.",
+    "correctAnswer": "They are all south of the equator.",
+    "explanation": "Tanzania, Australia, Mozambique are all south of the equator.",
     "countryId": "tz",
     "subjectIds": [
       "tz",
-      "sg",
-      "sd"
+      "au",
+      "mz"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -59255,18 +59255,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in South America.",
-      "They are all in North America.",
-      "They are all in Asia.",
-      "They are all in Europe."
+      "They all use the Romanian leu.",
+      "They all speak Maltese.",
+      "They are all east of the Prime Meridian (Eastern Hemisphere).",
+      "They all speak Haitian Creole."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Thailand, Japan, Timor-Leste are all in Asia.",
+    "correctAnswer": "They are all east of the Prime Meridian (Eastern Hemisphere).",
+    "explanation": "Thailand, Afghanistan, Bhutan are all east of the Prime Meridian (Eastern Hemisphere).",
     "countryId": "th",
     "subjectIds": [
       "th",
-      "jp",
-      "tl"
+      "af",
+      "bt"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -59584,18 +59584,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all use the Jamaican dollar.",
-      "They all use the United States dollar.",
-      "They all use the South African rand.",
-      "They all use the Vanuatu vatu."
+      "They all use the Kenyan shilling.",
+      "They all lie in the tropics, close to the equator.",
+      "They all use the Omani rial.",
+      "They all use the Albanian lek."
     ],
-    "correctAnswer": "They all use the United States dollar.",
-    "explanation": "Timor-Leste, El Salvador, United States all use the United States dollar.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Timor-Leste, Ghana, Thailand all lie in the tropics, close to the equator.",
     "countryId": "tl",
     "subjectIds": [
       "tl",
-      "sv",
-      "us"
+      "gh",
+      "th"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -59938,18 +59938,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Luxembourgish.",
-      "They all speak Austro-Bavarian German.",
-      "They all speak French.",
-      "They all speak English."
+      "They all speak Palauan.",
+      "They all use the Bahamian dollar.",
+      "They all use the West African CFA franc.",
+      "They all speak Lozi."
     ],
-    "correctAnswer": "They all speak French.",
-    "explanation": "Togo, Burkina Faso, Senegal all speak French.",
+    "correctAnswer": "They all use the West African CFA franc.",
+    "explanation": "Togo, Benin, Guinea-Bissau all use the West African CFA franc.",
     "countryId": "tg",
     "subjectIds": [
       "tg",
-      "bf",
-      "sn"
+      "bj",
+      "gw"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -60266,18 +60266,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Oceania.",
-      "They are all in Africa.",
-      "They are all in Asia.",
-      "They are all in North America."
+      "They all have a sea coast.",
+      "They all speak Malagasy.",
+      "They all use the Nicaraguan córdoba.",
+      "They are all in South America."
     ],
-    "correctAnswer": "They are all in Oceania.",
-    "explanation": "Tonga, Australia, Solomon Islands are all in Oceania.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Tonga, Benin, Germany all have a sea coast.",
     "countryId": "to",
     "subjectIds": [
       "to",
-      "au",
-      "sb"
+      "bj",
+      "de"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -60594,18 +60594,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Croatian.",
-      "They all speak Burmese.",
-      "They all speak English.",
-      "They all speak Danish."
+      "They all use the Bolivian boliviano.",
+      "They all use the Bangladeshi taka.",
+      "They are all in North America.",
+      "They all use the Russian ruble."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Trinidad and Tobago, New Zealand, Palau all speak English.",
+    "correctAnswer": "They are all in North America.",
+    "explanation": "Trinidad and Tobago, Saint Kitts and Nevis, Canada are all in North America.",
     "countryId": "tt",
     "subjectIds": [
       "tt",
-      "nz",
-      "pw"
+      "kn",
+      "ca"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -60948,9 +60948,9 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Armenian.",
-      "They all speak Amharic.",
-      "They all speak Bulgarian.",
+      "They are all in Europe.",
+      "They all speak Chewa.",
+      "They all use the São Tomé and Príncipe dobra.",
       "They all speak Arabic."
     ],
     "correctAnswer": "They all speak Arabic.",
@@ -61302,18 +61302,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in North America.",
-      "They are all in Oceania.",
-      "They are all in Asia."
+      "They all speak Ukrainian.",
+      "They all use the Yemeni rial.",
+      "They all lie in the tropics, close to the equator.",
+      "They are all north of the equator."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Türkiye, Cambodia, Timor-Leste are all in Asia.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Türkiye, United States, South Korea are all north of the equator.",
     "countryId": "tr",
     "subjectIds": [
       "tr",
-      "kh",
-      "tl"
+      "us",
+      "kr"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -61656,18 +61656,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Tamil.",
-      "They all speak German.",
-      "They all speak Russian.",
-      "They all speak Thai."
+      "They all use the Angolan kwanza.",
+      "They all use the Botswana pula.",
+      "They are all east of the Prime Meridian (Eastern Hemisphere).",
+      "They all use the Eritrean nakfa."
     ],
-    "correctAnswer": "They all speak Russian.",
-    "explanation": "Turkmenistan, Azerbaijan, Kazakhstan all speak Russian.",
+    "correctAnswer": "They are all east of the Prime Meridian (Eastern Hemisphere).",
+    "explanation": "Turkmenistan, Madagascar, Cyprus are all east of the Prime Meridian (Eastern Hemisphere).",
     "countryId": "tm",
     "subjectIds": [
       "tm",
-      "az",
-      "kz"
+      "mg",
+      "cy"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -61984,18 +61984,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Czech.",
-      "They all speak Khoekhoe.",
-      "They all speak Spanish.",
-      "They all speak English."
+      "They are all in South America.",
+      "They all speak Nauru.",
+      "They all speak Quechua.",
+      "They all lie in the tropics, close to the equator."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Tuvalu, Micronesia, Lesotho all speak English.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Tuvalu, Malawi, Myanmar all lie in the tropics, close to the equator.",
     "countryId": "tv",
     "subjectIds": [
       "tv",
-      "fm",
-      "ls"
+      "mw",
+      "mm"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -62338,18 +62338,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in North America.",
-      "They are all in Asia.",
-      "They are all in Africa.",
-      "They are all in Europe."
+      "They all speak Estonian.",
+      "They all speak Southern Ndebele.",
+      "They are all landlocked, with no sea coast.",
+      "They all use the West African CFA franc."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Uganda, Mauritius, Liberia are all in Africa.",
+    "correctAnswer": "They are all landlocked, with no sea coast.",
+    "explanation": "Uganda, Austria, Czechia are all landlocked, with no sea coast.",
     "countryId": "ug",
     "subjectIds": [
       "ug",
-      "mu",
-      "lr"
+      "at",
+      "cz"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -62692,18 +62692,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in South America.",
-      "They are all in Oceania.",
-      "They are all in Europe."
+      "They all speak Turkmen.",
+      "They all use the Samoan tālā.",
+      "They are all in North America.",
+      "They all have a sea coast."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "Ukraine, Monaco, Slovakia are all in Europe.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Ukraine, Monaco, Finland all have a sea coast.",
     "countryId": "ua",
     "subjectIds": [
       "ua",
       "mc",
-      "sk"
+      "fi"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -63046,18 +63046,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Swazi.",
-      "They all speak Maldivian.",
-      "They all speak Indonesian.",
-      "They all speak Arabic."
+      "They all speak Latin.",
+      "They all use the Mongolian tögrög.",
+      "They all speak Polish.",
+      "They are all in Asia."
     ],
-    "correctAnswer": "They all speak Arabic.",
-    "explanation": "United Arab Emirates, Morocco, Eritrea all speak Arabic.",
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "United Arab Emirates, Armenia, Myanmar are all in Asia.",
     "countryId": "ae",
     "subjectIds": [
       "ae",
-      "ma",
-      "er"
+      "am",
+      "mm"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -63400,18 +63400,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Europe.",
-      "They are all in Oceania.",
-      "They are all in Asia.",
-      "They are all in South America."
+      "They all speak English.",
+      "They all use the Jamaican dollar.",
+      "They all use the North Korean won.",
+      "They all use the Iraqi dinar."
     ],
-    "correctAnswer": "They are all in Europe.",
-    "explanation": "United Kingdom, Ukraine, Belarus are all in Europe.",
+    "correctAnswer": "They all speak English.",
+    "explanation": "United Kingdom, Tuvalu, Saint Vincent and the Grenadines all speak English.",
     "countryId": "gb",
     "subjectIds": [
       "gb",
-      "ua",
-      "by"
+      "tv",
+      "vc"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -63754,18 +63754,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all use the Egyptian pound.",
-      "They all use the Cape Verdean escudo.",
-      "They all use the United States dollar.",
-      "They all use the Cuban convertible peso."
+      "They all use the Sri Lankan rupee.",
+      "They all speak Slovak.",
+      "They are all north of the equator.",
+      "They all use the Honduran lempira."
     ],
-    "correctAnswer": "They all use the United States dollar.",
-    "explanation": "United States, El Salvador, Palau all use the United States dollar.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "United States, Pakistan, Bosnia and Herzegovina are all north of the equator.",
     "countryId": "us",
     "subjectIds": [
       "us",
-      "sv",
-      "pw"
+      "pk",
+      "ba"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -64108,18 +64108,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Irish.",
-      "They all speak Greek.",
-      "They all speak Quechua.",
-      "They all speak Spanish."
+      "They all use the Serbian dinar.",
+      "They all speak Jamaican Patois.",
+      "They all use the Lesotho loti.",
+      "They are all west of the Prime Meridian (Western Hemisphere)."
     ],
-    "correctAnswer": "They all speak Spanish.",
-    "explanation": "Uruguay, Belize, Chile all speak Spanish.",
+    "correctAnswer": "They are all west of the Prime Meridian (Western Hemisphere).",
+    "explanation": "Uruguay, Bahamas, Brazil are all west of the Prime Meridian (Western Hemisphere).",
     "countryId": "uy",
     "subjectIds": [
       "uy",
-      "bz",
-      "cl"
+      "bs",
+      "br"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -64462,18 +64462,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Asia.",
-      "They are all in South America.",
-      "They are all in Oceania.",
-      "They are all in Europe."
+      "They are all landlocked, with no sea coast.",
+      "They all use the Mozambican metical.",
+      "They all use the Bangladeshi taka.",
+      "They all use the Argentine peso."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Uzbekistan, Kuwait, Indonesia are all in Asia.",
+    "correctAnswer": "They are all landlocked, with no sea coast.",
+    "explanation": "Uzbekistan, Mongolia, Bolivia are all landlocked, with no sea coast.",
     "countryId": "uz",
     "subjectIds": [
       "uz",
-      "kw",
-      "id"
+      "mn",
+      "bo"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -64790,18 +64790,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Hungarian.",
-      "They all speak Fiji Hindi.",
-      "They all speak English.",
-      "They all speak Tsonga."
+      "They all use the Fijian dollar.",
+      "They all use the Algerian dinar.",
+      "They all have a sea coast.",
+      "They all use the Belize dollar."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Vanuatu, Antigua and Barbuda, United States all speak English.",
+    "correctAnswer": "They all have a sea coast.",
+    "explanation": "Vanuatu, South Africa, Gambia all have a sea coast.",
     "countryId": "vu",
     "subjectIds": [
       "vu",
-      "ag",
-      "us"
+      "za",
+      "gm"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -65119,18 +65119,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Italian.",
-      "They all speak Turkish.",
-      "They all speak Samoan.",
-      "They all speak Belizean Creole."
+      "They are all landlocked, with no sea coast.",
+      "They all use the Botswana pula.",
+      "They all speak Moldavian.",
+      "They all speak Southern Ndebele."
     ],
-    "correctAnswer": "They all speak Italian.",
-    "explanation": "Vatican City, San Marino, Switzerland all speak Italian.",
+    "correctAnswer": "They are all landlocked, with no sea coast.",
+    "explanation": "Vatican City, Afghanistan, Kyrgyzstan are all landlocked, with no sea coast.",
     "countryId": "va",
     "subjectIds": [
       "va",
-      "sm",
-      "ch"
+      "af",
+      "kg"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -65472,9 +65472,9 @@
     "prompt": "What do these three countries have in common?",
     "options": [
       "They are all in South America.",
-      "They are all in Oceania.",
-      "They are all in North America.",
-      "They are all in Asia."
+      "They all use the Eritrean nakfa.",
+      "They all use the Malawian kwacha.",
+      "They are all in Africa."
     ],
     "correctAnswer": "They are all in South America.",
     "explanation": "Venezuela, Brazil, Bolivia are all in South America.",
@@ -65825,18 +65825,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in North America.",
-      "They are all in Africa.",
-      "They are all in Asia.",
-      "They are all in South America."
+      "They all speak Dari.",
+      "They all speak Afrikaans.",
+      "They are all north of the equator.",
+      "They all speak Slovak."
     ],
-    "correctAnswer": "They are all in Asia.",
-    "explanation": "Vietnam, Armenia, Turkmenistan are all in Asia.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Vietnam, Tunisia, Colombia are all north of the equator.",
     "countryId": "vn",
     "subjectIds": [
       "vn",
-      "am",
-      "tm"
+      "tn",
+      "co"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -66179,18 +66179,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak Māori.",
-      "They all speak Palauan.",
-      "They all speak Swedish.",
-      "They all speak Arabic."
+      "They all use the Qatari riyal.",
+      "They are all in Oceania.",
+      "They all use the United States dollar.",
+      "They are all north of the equator."
     ],
-    "correctAnswer": "They all speak Arabic.",
-    "explanation": "Yemen, Algeria, Chad all speak Arabic.",
+    "correctAnswer": "They are all north of the equator.",
+    "explanation": "Yemen, Bahrain, Lithuania are all north of the equator.",
     "countryId": "ye",
     "subjectIds": [
       "ye",
-      "dz",
-      "td"
+      "bh",
+      "lt"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -66533,18 +66533,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They are all in Africa.",
-      "They are all in Europe.",
-      "They are all in Asia.",
-      "They are all in South America."
+      "They are all east of the Prime Meridian (Eastern Hemisphere).",
+      "They all speak Turkmen.",
+      "They all use the Belize dollar.",
+      "They all speak Swazi."
     ],
-    "correctAnswer": "They are all in Africa.",
-    "explanation": "Zambia, Guinea-Bissau, Madagascar are all in Africa.",
+    "correctAnswer": "They are all east of the Prime Meridian (Eastern Hemisphere).",
+    "explanation": "Zambia, North Korea, Russia are all east of the Prime Meridian (Eastern Hemisphere).",
     "countryId": "zm",
     "subjectIds": [
       "zm",
-      "gw",
-      "mg"
+      "kp",
+      "ru"
     ],
     "active": true,
     "source": "generated:world-explorer"
@@ -66887,18 +66887,18 @@
     "topic": "reasoning",
     "prompt": "What do these three countries have in common?",
     "options": [
-      "They all speak English.",
-      "They all speak Aymara.",
-      "They all speak Arabic.",
-      "They all speak Norwegian Nynorsk."
+      "They all lie in the tropics, close to the equator.",
+      "They all use the Tajikistani somoni.",
+      "They all use the Azerbaijani manat.",
+      "They all use the Namibian dollar."
     ],
-    "correctAnswer": "They all speak English.",
-    "explanation": "Zimbabwe, Nigeria, Kiribati all speak English.",
+    "correctAnswer": "They all lie in the tropics, close to the equator.",
+    "explanation": "Zimbabwe, Guatemala, Kenya all lie in the tropics, close to the equator.",
     "countryId": "zw",
     "subjectIds": [
       "zw",
-      "ng",
-      "ki"
+      "gt",
+      "ke"
     ],
     "active": true,
     "source": "generated:world-explorer"

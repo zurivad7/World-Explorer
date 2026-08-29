@@ -399,14 +399,73 @@ function makeFindTheLie(
 interface CommonGroup {
   group: Country[]; // the three subject countries (includes c)
   truth: string; // statement true of all three
-  falsePool: string[]; // statements guaranteed false for all three
+}
+
+/** Latitude of the tropics (±23.5°); within this band a country is "in the tropics". */
+const TROPIC_LAT = 23.5;
+
+/**
+ * Every statement that is guaranteed **false** for the whole `group`, across many
+ * categories (continent, currency, language, hemisphere N/S, hemisphere E/W, the
+ * tropics, and landlocked/coast). Because distractors are drawn from this mixed pool
+ * rather than a single category, the four options vary from question to question
+ * instead of always being "four continents" or "four currencies". A statement is
+ * only added when it is false for *every* member, so the one true option stays unique.
+ */
+function commonFalseStatements(
+  group: Country[],
+  truth: string,
+  allContinents: string[],
+  allCurrencies: string[],
+  allLanguages: string[],
+  seed: string
+): string[] {
+  const out: string[] = [];
+  const push = (s: string): void => {
+    if (s !== truth && !out.includes(s)) out.push(s);
+  };
+
+  // Continents / currencies / languages that NO member has, so "they all …" is false.
+  const groupContinents = new Set<string>(group.map((g) => g.continent));
+  for (const k of allContinents.filter((k) => !groupContinents.has(k))) push(`They are all in ${k}.`);
+
+  const groupCurrencies = new Set(
+    group.map((g) => g.currency?.name).filter((n): n is string => Boolean(n))
+  );
+  for (const n of allCurrencies.filter((n) => !groupCurrencies.has(n))) push(`They all use the ${n}.`);
+
+  const groupLangs = new Set(group.flatMap((g) => g.languages));
+  for (const l of allLanguages.filter((l) => !groupLangs.has(l))) push(`They all speak ${l}.`);
+
+  // Position statements — added only when actually false for the whole group.
+  if (group.every((g) => g.latlng)) {
+    const lat = (g: Country): number => g.latlng![0];
+    const lng = (g: Country): number => g.latlng![1];
+    if (!group.every((g) => lat(g) >= 0)) push('They are all north of the equator.');
+    if (!group.every((g) => lat(g) < 0)) push('They are all south of the equator.');
+    if (!group.every((g) => lng(g) >= 0))
+      push('They are all east of the Prime Meridian (Eastern Hemisphere).');
+    if (!group.every((g) => lng(g) < 0))
+      push('They are all west of the Prime Meridian (Western Hemisphere).');
+    if (!group.every((g) => Math.abs(lat(g)) <= TROPIC_LAT))
+      push('They all lie in the tropics, close to the equator.');
+  }
+
+  // Landlocked / coast.
+  if (!group.every((g) => g.landlocked)) push('They are all landlocked, with no sea coast.');
+  if (!group.every((g) => !g.landlocked)) push('They all have a sea coast.');
+
+  return seededShuffle(out, seed);
 }
 
 /**
  * "In Common": show three countries and ask what they share. Exactly one option is
- * true of all three (they share a continent, currency, or language); the three
- * distractors are statements guaranteed false for *every* country in the group, so
- * there is always a single correct answer. The three flags are shown via subjectIds.
+ * true of all three; the trait is rotated across many kinds — continent, an
+ * (obscure-first) shared language, hemisphere north/south, hemisphere east/west, the
+ * tropics, a shared currency, and landlocked/coast — so questions do not feel repetitive
+ * and use varied country groupings. The three distractors are drawn from a mixed pool
+ * of statements guaranteed false for the whole group (see commonFalseStatements), so
+ * there is always exactly one correct answer. The three flags are shown via subjectIds.
  */
 function makeInCommon(
   c: Country,
@@ -414,74 +473,98 @@ function makeInCommon(
   allContinents: string[],
   allCurrencies: string[],
   allLanguages: string[],
+  langFreq: Map<string, number>,
   index: number
 ): Question | null {
   const pool = countries.filter((x) => x.id !== c.id);
+  const mates = (predicate: (x: Country) => boolean, seed: string): Country[] =>
+    seededShuffle(pool.filter(predicate), seed).slice(0, 2);
 
   const byContinent = (): CommonGroup | null => {
-    const mates = seededShuffle(
-      pool.filter((x) => x.continent === c.continent),
-      `common-cont-${c.id}`
-    ).slice(0, 2);
-    if (mates.length < 2) return null;
-    const falseConts = seededShuffle(
-      allContinents.filter((k) => k !== c.continent),
-      `common-cont-f-${c.id}`
-    ).slice(0, 3);
-    if (falseConts.length < 3) return null;
-    return {
-      group: [c, ...mates],
-      truth: `They are all in ${c.continent}.`,
-      falsePool: falseConts.map((k) => `They are all in ${k}.`),
-    };
+    const m = mates((x) => x.continent === c.continent, `common-cont-${c.id}`);
+    if (m.length < 2) return null;
+    return { group: [c, ...m], truth: `They are all in ${c.continent}.` };
   };
 
   const byCurrency = (): CommonGroup | null => {
     if (!c.currency) return null;
-    const currency = c.currency;
-    const mates = seededShuffle(
-      pool.filter((x) => x.currency?.code === currency.code),
-      `common-cur-${c.id}`
-    ).slice(0, 2);
-    if (mates.length < 2) return null;
-    const falseCurs = seededShuffle(
-      allCurrencies.filter((n) => n !== currency.name),
-      `common-cur-f-${c.id}`
-    ).slice(0, 3);
-    if (falseCurs.length < 3) return null;
-    return {
-      group: [c, ...mates],
-      truth: `They all use the ${currency.name}.`,
-      falsePool: falseCurs.map((n) => `They all use the ${n}.`),
-    };
+    const { code, name } = c.currency;
+    const m = mates((x) => x.currency?.code === code, `common-cur-${c.id}`);
+    if (m.length < 2) return null;
+    return { group: [c, ...m], truth: `They all use the ${name}.` };
   };
 
   const byLanguage = (): CommonGroup | null => {
-    for (const lang of seededShuffle(c.languages, `common-lang-pick-${c.id}`)) {
-      const mates = seededShuffle(
-        pool.filter((x) => x.languages.includes(lang)),
-        `common-lang-${lang}-${c.id}`
-      ).slice(0, 2);
-      if (mates.length < 2) continue;
-      const group = [c, ...mates];
-      // A distractor language must be spoken by none of the three, so "they all
-      // speak it" is guaranteed false even if one member happens to speak it too.
-      const spokenByGroup = new Set(group.flatMap((g) => g.languages));
-      const falseLangs = seededShuffle(
-        allLanguages.filter((l) => !spokenByGroup.has(l)),
-        `common-lang-f-${c.id}`
-      ).slice(0, 3);
-      if (falseLangs.length < 3) continue;
-      return {
-        group,
-        truth: `They all speak ${lang}.`,
-        falsePool: falseLangs.map((l) => `They all speak ${l}.`),
-      };
+    // Prefer the most "obscure" of c's languages (fewest speakers worldwide) that
+    // still has at least two other speakers, so groupings are varied and less obvious
+    // than always defaulting to a widely-spoken language.
+    const langs = [...c.languages].sort(
+      (a, b) => (langFreq.get(a) ?? 0) - (langFreq.get(b) ?? 0)
+    );
+    for (const lang of langs) {
+      const m = mates((x) => x.languages.includes(lang), `common-lang-${lang}-${c.id}`);
+      if (m.length < 2) continue;
+      return { group: [c, ...m], truth: `They all speak ${lang}.` };
     }
     return null;
   };
 
-  const builders = [byContinent, byCurrency, byLanguage];
+  const byNorthSouth = (): CommonGroup | null => {
+    if (!c.latlng) return null;
+    const north = c.latlng[0] >= 0;
+    const m = mates((x) => Boolean(x.latlng) && x.latlng![0] >= 0 === north, `common-ns-${c.id}`);
+    if (m.length < 2) return null;
+    return {
+      group: [c, ...m],
+      truth: north ? 'They are all north of the equator.' : 'They are all south of the equator.',
+    };
+  };
+
+  const byEastWest = (): CommonGroup | null => {
+    if (!c.latlng) return null;
+    const east = c.latlng[1] >= 0;
+    const m = mates((x) => Boolean(x.latlng) && x.latlng![1] >= 0 === east, `common-ew-${c.id}`);
+    if (m.length < 2) return null;
+    return {
+      group: [c, ...m],
+      truth: east
+        ? 'They are all east of the Prime Meridian (Eastern Hemisphere).'
+        : 'They are all west of the Prime Meridian (Western Hemisphere).',
+    };
+  };
+
+  const byTropics = (): CommonGroup | null => {
+    if (!c.latlng || Math.abs(c.latlng[0]) > TROPIC_LAT) return null;
+    const m = mates(
+      (x) => Boolean(x.latlng) && Math.abs(x.latlng![0]) <= TROPIC_LAT,
+      `common-trop-${c.id}`
+    );
+    if (m.length < 2) return null;
+    return { group: [c, ...m], truth: 'They all lie in the tropics, close to the equator.' };
+  };
+
+  const byLandlocked = (): CommonGroup | null => {
+    const m = mates((x) => x.landlocked === c.landlocked, `common-ll-${c.id}`);
+    if (m.length < 2) return null;
+    return {
+      group: [c, ...m],
+      truth: c.landlocked
+        ? 'They are all landlocked, with no sea coast.'
+        : 'They all have a sea coast.',
+    };
+  };
+
+  // Rotate through the trait builders by index so consecutive countries lead with a
+  // different kind of shared trait (and therefore different country groupings).
+  const builders = [
+    byContinent,
+    byLanguage,
+    byNorthSouth,
+    byEastWest,
+    byTropics,
+    byCurrency,
+    byLandlocked,
+  ];
   const start = index % builders.length;
   const order = [...builders.slice(start), ...builders.slice(0, start)];
   let built: CommonGroup | null = null;
@@ -491,7 +574,16 @@ function makeInCommon(
   }
   if (!built) return null;
 
-  const options = seededShuffle([built.truth, ...built.falsePool.slice(0, 3)], `common-opt-${c.id}`);
+  const distractors = commonFalseStatements(
+    built.group,
+    built.truth,
+    allContinents,
+    allCurrencies,
+    allLanguages,
+    `common-f-${c.id}`
+  );
+  if (distractors.length < 3) return null;
+  const options = seededShuffle([built.truth, ...distractors.slice(0, 3)], `common-opt-${c.id}`);
   if (new Set(options).size !== 4) return null; // a distractor coincided; skip
   const names = built.group.map((g) => g.name).join(', ');
   return {
@@ -522,6 +614,11 @@ export function generateQuestions(inputs: GeneratorInputs): Question[] {
   const allLanguages = uniq(countries.flatMap((c) => c.languages));
   const allCurrencies = uniq(countries.map((c) => c.currency?.name ?? '').filter(Boolean));
   const allContinents = uniq(countries.map((c) => c.continent));
+  // How many countries speak each language, so "In Common" can prefer obscure ties.
+  const langFreq = new Map<string, number>();
+  for (const c of countries) {
+    for (const l of c.languages) langFreq.set(l, (langFreq.get(l) ?? 0) + 1);
+  }
   const allCallingCodes = uniq(countries.map((c) => c.callingCode ?? '').filter(Boolean));
   const allTlds = uniq(countries.map((c) => c.tld ?? '').filter(Boolean));
 
@@ -856,7 +953,15 @@ export function generateQuestions(inputs: GeneratorInputs): Question[] {
     if (closest) questions.push(closest);
 
     // --- Reasoning (THINK pillar): what do these three share? ---
-    const common = makeInCommon(c, countries, allContinents, allCurrencies, allLanguages, index);
+    const common = makeInCommon(
+      c,
+      countries,
+      allContinents,
+      allCurrencies,
+      allLanguages,
+      langFreq,
+      index
+    );
     if (common) questions.push(common);
   });
 
