@@ -869,6 +869,79 @@ body {
   margin-top: 4px;
 }
 
+/* Bet Your Knowledge: running score, wager tiers, locked options and points feedback. */
+.quiz-points {
+  font-weight: 800;
+  color: var(--color-primary);
+}
+
+.wager {
+  margin: 4px 0 12px;
+}
+
+.wager__label {
+  margin: 0 0 8px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.wager__tiers {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.wager__tier {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 12px 8px;
+  font: inherit;
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.12s ease, border-color 0.12s ease;
+}
+
+.wager__tier:not(:disabled):hover {
+  transform: translateY(-2px);
+  border-color: var(--color-primary);
+}
+
+.wager__tier--on {
+  border-color: var(--color-primary);
+  background: var(--color-primary-bg, var(--color-surface));
+  box-shadow: var(--shadow);
+}
+
+.wager__icon {
+  font-size: 1.5rem;
+}
+
+.wager__tier-label {
+  font-weight: 700;
+}
+
+.wager__points {
+  font-size: 0.85rem;
+  color: var(--color-muted, inherit);
+}
+
+/* Options stay dimmed and non-interactive until a bet is placed. */
+.quiz-options--locked {
+  opacity: 0.5;
+}
+
+.quiz-feedback__points {
+  margin: 0 0 6px;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
+
 .swatch-row {
   display: inline-flex;
   border-radius: 6px;

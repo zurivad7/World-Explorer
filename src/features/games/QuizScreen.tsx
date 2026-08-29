@@ -22,6 +22,7 @@ import {
 } from '@/lib/game-engine';
 import type { Question } from '@/types';
 import { getGameModeMeta } from './gameModes';
+import { WAGER_TIERS, scoreBet } from './bet';
 import {
   COLOUR_HEX,
   DEFAULT_SESSION_LENGTH,
@@ -59,6 +60,9 @@ export function QuizScreen() {
   const isCountry = Boolean(countryId);
   const isDaily = mode === DAILY;
   const meta = mode && !isDaily ? getGameModeMeta(mode) : undefined;
+  // Bet Your Knowledge is a wager layer over a mixed set of ordinary questions,
+  // not its own question type — so it draws from the whole bank, not one mode.
+  const isBet = meta?.mode === 'bet-your-knowledge';
   const valid = isCountry ? Boolean(country) : isDaily || Boolean(meta);
 
   const buildQuestions = useCallback((): Question[] => {
@@ -72,6 +76,17 @@ export function QuizScreen() {
       );
     }
     if (isDaily) return dailyChallengeQuestions(allQuestions, localDateKey(), DEFAULT_SESSION_LENGTH);
+    if (isBet) {
+      // A mixed, single-tap set (no map or select-all questions), adaptive to mastery.
+      const pool = allQuestions.filter(
+        (q) => q.active && q.type !== 'map-find-it' && q.type !== 'border-battle'
+      );
+      return selectQuestions(
+        pool,
+        { ageBand, progress: progress.progressByKey, seed: `bet-${Date.now()}` },
+        DEFAULT_SESSION_LENGTH
+      );
+    }
     if (!meta) return [];
     // Adaptive selection reads the player's stored mastery (persisted across sessions).
     return selectQuestions(
@@ -79,13 +94,18 @@ export function QuizScreen() {
       { ageBand, progress: progress.progressByKey, seed: `${mode}-${Date.now()}` },
       DEFAULT_SESSION_LENGTH
     );
-  }, [isCountry, country, isDaily, meta, ageBand, mode, progress.progressByKey]);
+  }, [isCountry, country, isDaily, isBet, meta, ageBand, mode, progress.progressByKey]);
 
   const [session, setSession] = useState<QuizSession>(() => createSession([]));
   const [built, setBuilt] = useState(false);
   const [feedback, setFeedback] = useState<{ chosen: string; result: AnswerResult } | null>(null);
   // Pending picks for "select all that apply" questions (Border Battle), reset per question.
   const [selected, setSelected] = useState<Set<string>>(new Set());
+  // Bet Your Knowledge: the current question's wager, the running total, and the
+  // points won/lost on the last answer (for feedback).
+  const [wager, setWager] = useState<number | null>(null);
+  const [points, setPoints] = useState(0);
+  const [betDelta, setBetDelta] = useState<number | null>(null);
   const recordedRef = useRef(false);
 
   // Build the session once the player's progress has loaded (so selection is adaptive).
@@ -109,18 +129,26 @@ export function QuizScreen() {
   const choose = useCallback(
     (option: string) => {
       if (feedback || !question) return;
+      if (isBet && wager === null) return; // must place a bet first
       const { session: next, result } = answerCurrent(session, option);
       setSession(next);
       setFeedback({ chosen: option, result });
+      if (isBet && wager !== null) {
+        const outcome = scoreBet(result.correct, wager, points);
+        setPoints(outcome.total);
+        setBetDelta(outcome.delta);
+      }
       void progress.recordAnswer(question, result.correct);
     },
-    [feedback, question, session, progress]
+    [feedback, question, session, progress, isBet, wager, points]
   );
 
   const goNext = useCallback(() => {
     setSession((s) => advance(s));
     setFeedback(null);
     setSelected(new Set());
+    setWager(null);
+    setBetDelta(null);
   }, []);
 
   const playAgain = useCallback(() => {
@@ -128,6 +156,9 @@ export function QuizScreen() {
     setSession(createSession(buildQuestions()));
     setFeedback(null);
     setSelected(new Set());
+    setWager(null);
+    setBetDelta(null);
+    setPoints(0);
   }, [buildQuestions]);
 
   const toggleSelected = useCallback(
@@ -188,10 +219,21 @@ export function QuizScreen() {
     return (
       <Screen title="Great exploring!" subtitle={`${title} complete`}>
         <div className="quiz-summary">
-          <p className="quiz-summary__score">
-            You got {summary.correct} out of {summary.total}!
-          </p>
-          <p className="quiz-summary__pct">{pct}%</p>
+          {isBet ? (
+            <>
+              <p className="quiz-summary__score">You scored {points} points!</p>
+              <p className="quiz-summary__pct">
+                {summary.correct} of {summary.total} right
+              </p>
+            </>
+          ) : (
+            <>
+              <p className="quiz-summary__score">
+                You got {summary.correct} out of {summary.total}!
+              </p>
+              <p className="quiz-summary__pct">{pct}%</p>
+            </>
+          )}
         </div>
         <div className="quiz-actions">
           <button type="button" className="button button--primary" onClick={playAgain}>
@@ -213,6 +255,8 @@ export function QuizScreen() {
   const correct = question.correctAnswer;
   const multi = isMultiSelect(question);
   const correctIds = multi ? new Set(multiSelectCorrectIds(question)) : null;
+  // In Bet mode the answer options stay locked until a wager is placed.
+  const betLocked = isBet && !feedback && wager === null;
 
   function optionClass(option: string): string {
     if (!feedback) return 'quiz-option';
@@ -237,6 +281,7 @@ export function QuizScreen() {
       </div>
       <p className="quiz-progress__label">
         Question {number} of {total}
+        {isBet ? <span className="quiz-points"> · ⭐ {points} points</span> : null}
       </p>
 
       {promptShowsFlag(question) && question.countryId ? (
@@ -288,6 +333,29 @@ export function QuizScreen() {
         </>
       ) : null}
 
+      {isBet && !feedback ? (
+        <div className="wager">
+          <p className="wager__label">How sure are you? Bet your points!</p>
+          <div className="wager__tiers">
+            {WAGER_TIERS.map((tier) => (
+              <button
+                key={tier.points}
+                type="button"
+                className={wager === tier.points ? 'wager__tier wager__tier--on' : 'wager__tier'}
+                aria-pressed={wager === tier.points}
+                onClick={() => setWager(tier.points)}
+              >
+                <span className="wager__icon" aria-hidden="true">
+                  {tier.icon}
+                </span>
+                <span className="wager__tier-label">{tier.label}</span>
+                <span className="wager__points">{tier.points} pts</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      ) : null}
+
       {multi ? (
         <>
           <div className="quiz-options quiz-options--multi">
@@ -317,13 +385,15 @@ export function QuizScreen() {
           ) : null}
         </>
       ) : (
-        <div className={kind === 'country-flag' ? 'quiz-options quiz-options--flags' : 'quiz-options'}>
+        <div
+          className={`${kind === 'country-flag' ? 'quiz-options quiz-options--flags' : 'quiz-options'}${betLocked ? ' quiz-options--locked' : ''}`}
+        >
           {question.options.map((option) => (
             <button
               key={option}
               type="button"
               className={optionClass(option)}
-              disabled={Boolean(feedback)}
+              disabled={Boolean(feedback) || betLocked}
               aria-label={labelForOption(question, option)}
               onClick={() => choose(option)}
             >
@@ -360,6 +430,11 @@ export function QuizScreen() {
           <p className="quiz-feedback__headline">
             {feedback.result.correct ? '✅ Correct!' : '💡 Good try!'}
           </p>
+          {isBet && betDelta !== null ? (
+            <p className="quiz-feedback__points">
+              {betDelta >= 0 ? `+${betDelta}` : betDelta} points
+            </p>
+          ) : null}
           <p className="quiz-feedback__explanation">{feedback.result.explanation}</p>
           <button type="button" className="button button--primary" onClick={goNext}>
             {number >= total ? 'See results' : 'Next'}

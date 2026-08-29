@@ -95,6 +95,13 @@ export const GAME_MODE_META: GameModeMeta[] = [
     blurb: 'Pick every neighbour that shares a border.',
     mapBased: false,
   },
+  {
+    mode: 'bet-your-knowledge',
+    title: 'Bet Your Knowledge',
+    icon: '🎲',
+    blurb: 'Bet points on how sure you are.',
+    mapBased: false,
+  },
 ];
 
 export function getGameModeMeta(mode: string): GameModeMeta | undefined {
