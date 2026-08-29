@@ -396,6 +396,121 @@ function makeFindTheLie(
   };
 }
 
+interface CommonGroup {
+  group: Country[]; // the three subject countries (includes c)
+  truth: string; // statement true of all three
+  falsePool: string[]; // statements guaranteed false for all three
+}
+
+/**
+ * "In Common": show three countries and ask what they share. Exactly one option is
+ * true of all three (they share a continent, currency, or language); the three
+ * distractors are statements guaranteed false for *every* country in the group, so
+ * there is always a single correct answer. The three flags are shown via subjectIds.
+ */
+function makeInCommon(
+  c: Country,
+  countries: Country[],
+  allContinents: string[],
+  allCurrencies: string[],
+  allLanguages: string[],
+  index: number
+): Question | null {
+  const pool = countries.filter((x) => x.id !== c.id);
+
+  const byContinent = (): CommonGroup | null => {
+    const mates = seededShuffle(
+      pool.filter((x) => x.continent === c.continent),
+      `common-cont-${c.id}`
+    ).slice(0, 2);
+    if (mates.length < 2) return null;
+    const falseConts = seededShuffle(
+      allContinents.filter((k) => k !== c.continent),
+      `common-cont-f-${c.id}`
+    ).slice(0, 3);
+    if (falseConts.length < 3) return null;
+    return {
+      group: [c, ...mates],
+      truth: `They are all in ${c.continent}.`,
+      falsePool: falseConts.map((k) => `They are all in ${k}.`),
+    };
+  };
+
+  const byCurrency = (): CommonGroup | null => {
+    if (!c.currency) return null;
+    const currency = c.currency;
+    const mates = seededShuffle(
+      pool.filter((x) => x.currency?.code === currency.code),
+      `common-cur-${c.id}`
+    ).slice(0, 2);
+    if (mates.length < 2) return null;
+    const falseCurs = seededShuffle(
+      allCurrencies.filter((n) => n !== currency.name),
+      `common-cur-f-${c.id}`
+    ).slice(0, 3);
+    if (falseCurs.length < 3) return null;
+    return {
+      group: [c, ...mates],
+      truth: `They all use the ${currency.name}.`,
+      falsePool: falseCurs.map((n) => `They all use the ${n}.`),
+    };
+  };
+
+  const byLanguage = (): CommonGroup | null => {
+    for (const lang of seededShuffle(c.languages, `common-lang-pick-${c.id}`)) {
+      const mates = seededShuffle(
+        pool.filter((x) => x.languages.includes(lang)),
+        `common-lang-${lang}-${c.id}`
+      ).slice(0, 2);
+      if (mates.length < 2) continue;
+      const group = [c, ...mates];
+      // A distractor language must be spoken by none of the three, so "they all
+      // speak it" is guaranteed false even if one member happens to speak it too.
+      const spokenByGroup = new Set(group.flatMap((g) => g.languages));
+      const falseLangs = seededShuffle(
+        allLanguages.filter((l) => !spokenByGroup.has(l)),
+        `common-lang-f-${c.id}`
+      ).slice(0, 3);
+      if (falseLangs.length < 3) continue;
+      return {
+        group,
+        truth: `They all speak ${lang}.`,
+        falsePool: falseLangs.map((l) => `They all speak ${l}.`),
+      };
+    }
+    return null;
+  };
+
+  const builders = [byContinent, byCurrency, byLanguage];
+  const start = index % builders.length;
+  const order = [...builders.slice(start), ...builders.slice(0, start)];
+  let built: CommonGroup | null = null;
+  for (const build of order) {
+    built = build();
+    if (built) break;
+  }
+  if (!built) return null;
+
+  const options = seededShuffle([built.truth, ...built.falsePool.slice(0, 3)], `common-opt-${c.id}`);
+  if (new Set(options).size !== 4) return null; // a distractor coincided; skip
+  const names = built.group.map((g) => g.name).join(', ');
+  return {
+    id: `in-common-${c.id}`,
+    type: 'in-common',
+    difficulty: 'medium',
+    ageBands: ageBands('medium'),
+    topic: 'reasoning',
+    prompt: 'What do these three countries have in common?',
+    options,
+    correctAnswer: built.truth,
+    explanation: `${names} ${built.truth.replace(/^They /, '')}`,
+    countryId: c.id,
+    subjectIds: built.group.map((g) => g.id),
+    active: true,
+    source: SOURCE,
+  };
+}
+
 export function generateQuestions(inputs: GeneratorInputs): Question[] {
   const { countries, hints, templates, trickyCapitals, shapeCountryIds } = inputs;
   const questions: Question[] = [];
@@ -406,6 +521,7 @@ export function generateQuestions(inputs: GeneratorInputs): Question[] {
   const uniq = (values: string[]): string[] => [...new Set(values)].sort();
   const allLanguages = uniq(countries.flatMap((c) => c.languages));
   const allCurrencies = uniq(countries.map((c) => c.currency?.name ?? '').filter(Boolean));
+  const allContinents = uniq(countries.map((c) => c.continent));
   const allCallingCodes = uniq(countries.map((c) => c.callingCode ?? '').filter(Boolean));
   const allTlds = uniq(countries.map((c) => c.tld ?? '').filter(Boolean));
 
@@ -738,6 +854,10 @@ export function generateQuestions(inputs: GeneratorInputs): Question[] {
     // --- Distance (LOCATE pillar): closest country ---
     const closest = makeClosest(c, countries);
     if (closest) questions.push(closest);
+
+    // --- Reasoning (THINK pillar): what do these three share? ---
+    const common = makeInCommon(c, countries, allContinents, allCurrencies, allLanguages, index);
+    if (common) questions.push(common);
   });
 
   // --- Flag Builder: order the colour bands (only for templated flags) ---

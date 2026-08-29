@@ -50,7 +50,8 @@ export type GameMode =
   | 'shape-detective'
   | 'odd-one-out'
   | 'find-the-lie'
-  | 'closest-country';
+  | 'closest-country'
+  | 'in-common';
 
 export const GAME_MODES: readonly GameMode[] = [
   'flag-detective',
@@ -64,6 +65,7 @@ export const GAME_MODES: readonly GameMode[] = [
   'odd-one-out',
   'find-the-lie',
   'closest-country',
+  'in-common',
 ] as const;
 
 /** A learning topic used for mastery tracking and question selection (PRD §10). */
@@ -149,6 +151,8 @@ export interface Question {
   correctAnswer: string;
   explanation: string;
   countryId?: string;
+  /** Multiple subject countries to display (e.g. the flags in a "what's in common" question). */
+  subjectIds?: string[];
   active: boolean;
   source: string;
   reviewedAt?: string;

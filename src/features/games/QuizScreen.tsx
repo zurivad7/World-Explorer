@@ -222,6 +222,25 @@ export function QuizScreen() {
         <CountrySilhouette id={question.countryId} className="quiz-prompt-shape" />
       ) : null}
 
+      {question.subjectIds && question.subjectIds.length > 0 ? (
+        <ul className="quiz-subjects" aria-label="Countries in this question">
+          {question.subjectIds.map((id) => {
+            const subject = getCountryById(id);
+            return (
+              <li key={id} className="quiz-subject">
+                <img
+                  src={assetUrl(subject?.flagAsset ?? '')}
+                  alt={`Flag of ${subject?.name ?? id}`}
+                  width={72}
+                  height={54}
+                />
+                <span className="quiz-subject__name">{subject?.name ?? id}</span>
+              </li>
+            );
+          })}
+        </ul>
+      ) : null}
+
       <p className="quiz-prompt">{question.prompt}</p>
 
       {isMapQuestion(question) ? (
