@@ -49,7 +49,8 @@ export type GameMode =
   | 'good-to-know'
   | 'shape-detective'
   | 'odd-one-out'
-  | 'find-the-lie';
+  | 'find-the-lie'
+  | 'closest-country';
 
 export const GAME_MODES: readonly GameMode[] = [
   'flag-detective',
@@ -62,6 +63,7 @@ export const GAME_MODES: readonly GameMode[] = [
   'shape-detective',
   'odd-one-out',
   'find-the-lie',
+  'closest-country',
 ] as const;
 
 /** A learning topic used for mastery tracking and question selection (PRD §10). */

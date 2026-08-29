@@ -120,42 +120,76 @@ function mapDifficulty(hint?: Pick<CountrySource, 'mapSize' | 'similarFlag'>): D
 
 const northern = (c: Country): boolean => (c.latlng ? c.latlng[0] >= 0 : true);
 
+/** Great-circle distance in km between two [lat, lng] points (haversine). */
+function distanceKm(a: readonly [number, number], b: readonly [number, number]): number {
+  const R = 6371;
+  const toRad = (d: number): number => (d * Math.PI) / 180;
+  const dLat = toRad(b[0] - a[0]);
+  const dLng = toRad(b[1] - a[1]);
+  const h =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRad(a[0])) * Math.cos(toRad(b[0])) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+
 /**
- * "Odd One Out": three countries share one clear trait and `c` does not, so `c`
- * is the intended answer. Traits rotate (continent / landlocked / hemisphere) with
- * a continent fallback, and the explanation always states the intended grouping.
+ * "Closest Country": given an anchor country, which of four options is nearest to
+ * it? Direct neighbours are excluded (so it tests distance intuition, not borders),
+ * and the three distractors are drawn from clearly-further countries so the nearest
+ * is unambiguous.
+ */
+function makeClosest(c: Country, countries: Country[]): Question | null {
+  if (!c.latlng) return null;
+  const anchor = c.latlng;
+  const ranked = countries
+    .filter((x) => x.id !== c.id && x.latlng && !c.neighbours.includes(x.id))
+    .map((x) => ({ x, d: distanceKm(anchor, x.latlng!) }))
+    .sort((a, b) => a.d - b.d);
+  if (ranked.length < 6) return null;
+  const nearest = ranked[0]!;
+  const further = ranked.slice(1);
+  // Spread the distractors across the "further" range so none rivals the nearest.
+  const distractors = [0.2, 0.5, 0.85]
+    .map((f) => further[Math.min(further.length - 1, Math.floor(further.length * f))]!)
+    .map((r) => r.x);
+  const optionIds = [nearest.x.id, ...distractors.map((d) => d.id)];
+  if (new Set(optionIds).size !== 4) return null; // a distractor coincided; skip
+  const options = seededShuffle(optionIds, `close-opt-${c.id}`);
+  return {
+    id: `closest-country-${c.id}`,
+    type: 'closest-country',
+    difficulty: 'medium',
+    ageBands: ageBands('medium'),
+    topic: 'location',
+    prompt: `Which of these countries is closest to ${c.name}?`,
+    options,
+    correctAnswer: nearest.x.id,
+    explanation: `${nearest.x.name} is the closest to ${c.name} of these four.`,
+    countryId: c.id,
+    active: true,
+    source: SOURCE,
+  };
+}
+
+interface OddGroup {
+  group: Country[];
+  explanation: string;
+}
+
+/**
+ * "Odd One Out": three countries share one clear trait and `c` does not, so `c` is
+ * the intended answer. Several traits are tried in a rotated order (continent,
+ * currency, language, hemisphere, and — last, so it stays rare — landlocked/coast),
+ * which keeps the questions varied. The explanation always states the grouping.
  */
 function makeOddOneOut(c: Country, countries: Country[], index: number): Question | null {
   const pool = seededShuffle(
     countries.filter((x) => x.id !== c.id),
     `odd-${c.id}`
   );
-  let group: Country[] = [];
-  let explanation = '';
+  const names = (g: Country[]): string => g.map((x) => x.name).join(', ');
 
-  const trait = index % 3;
-  if (trait === 1) {
-    // Landlocked vs sea coast — three of the opposite kind to c.
-    const want = !c.landlocked;
-    group = pool.filter((x) => x.landlocked === want).slice(0, 3);
-    if (group.length === 3) {
-      explanation = want
-        ? `${group.map((g) => g.name).join(', ')} are all landlocked, but ${c.name} has a sea coast.`
-        : `${group.map((g) => g.name).join(', ')} all have a sea coast, but ${c.name} is landlocked.`;
-    }
-  } else if (trait === 2 && c.latlng) {
-    // Hemisphere — three in the opposite half of the world to c.
-    const cNorth = northern(c);
-    group = pool.filter((x) => x.latlng && northern(x) !== cNorth).slice(0, 3);
-    if (group.length === 3) {
-      explanation = cNorth
-        ? `${group.map((g) => g.name).join(', ')} are all south of the equator, but ${c.name} is north of it.`
-        : `${group.map((g) => g.name).join(', ')} are all north of the equator, but ${c.name} is south of it.`;
-    }
-  }
-
-  if (group.length < 3) {
-    // Fallback: three countries from a single continent that is not c's.
+  const byContinent = (): OddGroup | null => {
     const continents = seededShuffle(
       [...new Set(pool.map((x) => x.continent))].filter((k) => k !== c.continent),
       `odd-cont-${c.id}`
@@ -163,15 +197,90 @@ function makeOddOneOut(c: Country, countries: Country[], index: number): Questio
     for (const continent of continents) {
       const g = pool.filter((x) => x.continent === continent).slice(0, 3);
       if (g.length === 3) {
-        group = g;
-        explanation = `${g.map((x) => x.name).join(', ')} are all in ${continent}, but ${c.name} is in ${c.continent}.`;
-        break;
+        return { group: g, explanation: `${names(g)} are all in ${continent}, but ${c.name} is in ${c.continent}.` };
       }
     }
-  }
+    return null;
+  };
 
-  if (group.length < 3) return null;
-  const options = seededShuffle([c.id, ...group.map((g) => g.id)], `odd-opt-${c.id}`);
+  const byCurrency = (): OddGroup | null => {
+    if (!c.currency) return null;
+    const buckets = new Map<string, Country[]>();
+    for (const x of pool) {
+      if (x.currency && x.currency.code !== c.currency.code) {
+        (buckets.get(x.currency.code) ?? buckets.set(x.currency.code, []).get(x.currency.code)!).push(x);
+      }
+    }
+    for (const code of seededShuffle([...buckets.keys()], `odd-cur-${c.id}`)) {
+      const g = buckets.get(code)!.slice(0, 3);
+      if (g.length === 3) {
+        return {
+          group: g,
+          explanation: `${names(g)} all use the ${g[0]!.currency!.name}, but ${c.name} uses the ${c.currency.name}.`,
+        };
+      }
+    }
+    return null;
+  };
+
+  const byLanguage = (): OddGroup | null => {
+    if (c.languages.length === 0) return null;
+    const cLangs = new Set(c.languages);
+    const buckets = new Map<string, Country[]>();
+    for (const x of pool) {
+      for (const lang of x.languages) {
+        if (!cLangs.has(lang)) {
+          (buckets.get(lang) ?? buckets.set(lang, []).get(lang)!).push(x);
+        }
+      }
+    }
+    for (const lang of seededShuffle([...buckets.keys()], `odd-lang-${c.id}`)) {
+      const g = buckets.get(lang)!.slice(0, 3);
+      if (g.length === 3) {
+        return { group: g, explanation: `${names(g)} all speak ${lang}, but ${c.name} does not.` };
+      }
+    }
+    return null;
+  };
+
+  const byHemisphere = (): OddGroup | null => {
+    if (!c.latlng) return null;
+    const cNorth = northern(c);
+    const g = pool.filter((x) => x.latlng && northern(x) !== cNorth).slice(0, 3);
+    if (g.length !== 3) return null;
+    return {
+      group: g,
+      explanation: cNorth
+        ? `${names(g)} are all south of the equator, but ${c.name} is north of it.`
+        : `${names(g)} are all north of the equator, but ${c.name} is south of it.`,
+    };
+  };
+
+  const byLandlocked = (): OddGroup | null => {
+    const want = !c.landlocked;
+    const g = pool.filter((x) => x.landlocked === want).slice(0, 3);
+    if (g.length !== 3) return null;
+    return {
+      group: g,
+      explanation: want
+        ? `${names(g)} are all landlocked, but ${c.name} has a sea coast.`
+        : `${names(g)} all have a sea coast, but ${c.name} is landlocked.`,
+    };
+  };
+
+  // Rotate the four varied traits; landlocked/coast is appended last (never rotated
+  // to the front) so it only appears as a rare fallback when the others can't apply.
+  const rotatable = [byContinent, byCurrency, byLanguage, byHemisphere];
+  const start = index % rotatable.length;
+  const order = [...rotatable.slice(start), ...rotatable.slice(0, start), byLandlocked];
+  let built: OddGroup | null = null;
+  for (const build of order) {
+    built = build();
+    if (built) break;
+  }
+  if (!built) return null;
+
+  const options = seededShuffle([c.id, ...built.group.map((g) => g.id)], `odd-opt-${c.id}`);
   return {
     id: `odd-one-out-${c.id}`,
     type: 'odd-one-out',
@@ -181,7 +290,7 @@ function makeOddOneOut(c: Country, countries: Country[], index: number): Questio
     prompt: 'Three of these belong together. Which is the odd one out?',
     options,
     correctAnswer: c.id,
-    explanation,
+    explanation: built.explanation,
     countryId: c.id,
     active: true,
     source: SOURCE,
@@ -625,6 +734,10 @@ export function generateQuestions(inputs: GeneratorInputs): Question[] {
     if (odd) questions.push(odd);
     const lie = makeFindTheLie(c, countries, byId, index);
     if (lie) questions.push(lie);
+
+    // --- Distance (LOCATE pillar): closest country ---
+    const closest = makeClosest(c, countries);
+    if (closest) questions.push(closest);
   });
 
   // --- Flag Builder: order the colour bands (only for templated flags) ---

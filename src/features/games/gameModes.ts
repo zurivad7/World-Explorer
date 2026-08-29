@@ -74,6 +74,13 @@ export const GAME_MODE_META: GameModeMeta[] = [
     blurb: 'Two facts are true, one is false.',
     mapBased: false,
   },
+  {
+    mode: 'closest-country',
+    title: 'Closest Country',
+    icon: '📏',
+    blurb: 'Which country is nearest to another?',
+    mapBased: false,
+  },
 ];
 
 export function getGameModeMeta(mode: string): GameModeMeta | undefined {
