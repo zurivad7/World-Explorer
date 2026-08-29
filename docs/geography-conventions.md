@@ -79,11 +79,19 @@ partly in Europe and partly in Asia") without making it the quiz answer.
 - Odd One Out rotates through **continent / currency / language / hemisphere**
   traits (landlocked/coast is only a rare fallback), so the questions stay varied.
 - **In Common** shows three countries (their flags via `subjectIds`) and asks what
-  they share. Exactly one option is true of all three (they share a continent,
-  currency, or language); the three distractors are statements **guaranteed false**
-  for every country in the group — a continent none is in, a currency none uses, or
-  a language none speaks — so there is always a single correct answer. The trait is
-  rotated by index for variety. Uses the **reasoning** topic, `medium` difficulty.
+  they share. Exactly one option is true of all three. The shared trait is rotated
+  by index across many kinds so the game does not feel repetitive and uses varied
+  country groupings: same **continent**; a shared **language** (the *most obscure* of
+  the anchor's languages that still has two other speakers is preferred, over a
+  widely-spoken default); **hemisphere north/south** of the equator; **hemisphere
+  east/west** of the Prime Meridian; the **tropics** (|lat| ≤ 23.5°); a shared
+  **currency**; or **landlocked / has a sea coast**. The three distractors are drawn
+  from a *mixed* pool of statements **guaranteed false for every country in the
+  group** (a continent none is in, a currency none uses, a language none speaks, or a
+  position statement checked false against every member), so the four options vary
+  from question to question and there is always a single correct answer. Uses the
+  **reasoning** topic, `medium` difficulty. Position traits require each country's
+  `latlng`; the same coordinates are shown on the Country Detail "good to know" card.
 
 ## Distance (LOCATE pillar)
 

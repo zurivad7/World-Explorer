@@ -5,6 +5,7 @@ import { paths } from '@/app/routes';
 import { getCountryById } from '@/data';
 import { assetUrl } from '@/lib/assets';
 import { LazyWorldMap } from '@/features/map/LazyWorldMap';
+import { formatLatLng } from './format';
 
 /** S04 Country Detail — flag, capital, continent, region, neighbours, facts (PRD §8, §13). */
 export function CountryDetailScreen() {
@@ -56,6 +57,9 @@ export function CountryDetailScreen() {
   }
   if (country.demonym) {
     goodToKnow.push({ label: 'People are called', value: country.demonym });
+  }
+  if (country.latlng) {
+    goodToKnow.push({ label: 'Latitude & longitude', value: formatLatLng(country.latlng) });
   }
 
   return (
