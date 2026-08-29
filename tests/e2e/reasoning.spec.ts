@@ -30,3 +30,12 @@ test('Closest Country asks which of four is nearest', async ({ page }) => {
   await expect(page.getByText(/closest to/i)).toBeVisible();
   expect(await page.locator('.quiz-options .quiz-option').count()).toBe(4);
 });
+
+test('In Common shows three flags and four statements', async ({ page }) => {
+  await onboardOlder(page);
+  await page.getByText('In Common').click();
+  await expect(page).toHaveURL(/\/play\/in-common$/);
+  await expect(page.getByText(/what do these three countries have in common/i)).toBeVisible();
+  expect(await page.locator('.quiz-subjects .quiz-subject').count()).toBe(3);
+  expect(await page.locator('.quiz-options .quiz-option').count()).toBe(4);
+});

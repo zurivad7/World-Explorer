@@ -73,6 +73,7 @@ export const questionSchema = z.object({
   correctAnswer: z.string().min(1),
   explanation: z.string().min(1),
   countryId: z.string().optional(),
+  subjectIds: z.array(z.string()).optional(),
   active: z.boolean(),
   source: z.string().min(1),
   reviewedAt: z.string().optional(),

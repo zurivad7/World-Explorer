@@ -327,6 +327,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-af",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in Oceania.",
+      "They are all in Europe.",
+      "They are all in North America."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Afghanistan, Turkmenistan, Malaysia are all in Asia.",
+    "countryId": "af",
+    "subjectIds": [
+      "af",
+      "tm",
+      "my"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-al",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -625,6 +652,33 @@
     "correctAnswer": "rs",
     "explanation": "Serbia is the closest to Albania of these four.",
     "countryId": "al",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-al",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in Asia.",
+      "They are all in Europe.",
+      "They are all in Oceania."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Albania, San Marino, Bulgaria are all in Europe.",
+    "countryId": "al",
+    "subjectIds": [
+      "al",
+      "sm",
+      "bg"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -956,6 +1010,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-dz",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Albanian.",
+      "They all speak Swahili.",
+      "They all speak Sami.",
+      "They all speak Arabic."
+    ],
+    "correctAnswer": "They all speak Arabic.",
+    "explanation": "Algeria, Bahrain, Iraq all speak Arabic.",
+    "countryId": "dz",
+    "subjectIds": [
+      "dz",
+      "bh",
+      "iq"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-ad",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -1254,6 +1335,33 @@
     "correctAnswer": "mc",
     "explanation": "Monaco is the closest to Andorra of these four.",
     "countryId": "ad",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-ad",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Europe.",
+      "They are all in South America.",
+      "They are all in Africa.",
+      "They are all in Oceania."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Andorra, Switzerland, Ukraine are all in Europe.",
+    "countryId": "ad",
+    "subjectIds": [
+      "ad",
+      "ch",
+      "ua"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -1585,6 +1693,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ao",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Nepali.",
+      "They all speak Portuguese.",
+      "They all speak Ukrainian.",
+      "They all speak Catalan."
+    ],
+    "correctAnswer": "They all speak Portuguese.",
+    "explanation": "Angola, Brazil, Cape Verde all speak Portuguese.",
+    "countryId": "ao",
+    "subjectIds": [
+      "ao",
+      "br",
+      "cv"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-ag",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -1882,6 +2017,33 @@
     "correctAnswer": "kn",
     "explanation": "Saint Kitts and Nevis is the closest to Antigua and Barbuda of these four.",
     "countryId": "ag",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-ag",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Kalanga.",
+      "They all speak Armenian.",
+      "They all speak English.",
+      "They all speak Kazakh."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Antigua and Barbuda, Saint Kitts and Nevis, Mauritius all speak English.",
+    "countryId": "ag",
+    "subjectIds": [
+      "ag",
+      "kn",
+      "mu"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -2213,6 +2375,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ar",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in South America.",
+      "They are all in Europe.",
+      "They are all in North America.",
+      "They are all in Oceania."
+    ],
+    "correctAnswer": "They are all in South America.",
+    "explanation": "Argentina, Suriname, Ecuador are all in South America.",
+    "countryId": "ar",
+    "subjectIds": [
+      "ar",
+      "sr",
+      "ec"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-am",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -2511,6 +2700,33 @@
     "correctAnswer": "iq",
     "explanation": "Iraq is the closest to Armenia of these four.",
     "countryId": "am",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-am",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in South America.",
+      "They are all in Oceania.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Armenia, Qatar, Bangladesh are all in Asia.",
+    "countryId": "am",
+    "subjectIds": [
+      "am",
+      "qa",
+      "bd"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -2835,6 +3051,33 @@
     "correctAnswer": "tl",
     "explanation": "Timor-Leste is the closest to Australia of these four.",
     "countryId": "au",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-au",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Bengali.",
+      "They all speak Kalanga.",
+      "They all speak Dari.",
+      "They all speak English."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Australia, Belize, Antigua and Barbuda all speak English.",
+    "countryId": "au",
+    "subjectIds": [
+      "au",
+      "bz",
+      "ag"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -3166,6 +3409,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-at",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Europe.",
+      "They are all in Asia.",
+      "They are all in Oceania.",
+      "They are all in Africa."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Austria, Andorra, Cyprus are all in Europe.",
+    "countryId": "at",
+    "subjectIds": [
+      "at",
+      "ad",
+      "cy"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-az",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -3493,6 +3763,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-az",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Gilbertese.",
+      "They all speak Marshallese.",
+      "They all speak Russian.",
+      "They all speak Kirundi."
+    ],
+    "correctAnswer": "They all speak Russian.",
+    "explanation": "Azerbaijan, Tajikistan, Russia all speak Russian.",
+    "countryId": "az",
+    "subjectIds": [
+      "az",
+      "tj",
+      "ru"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-bs",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -3794,6 +4091,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-bs",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Austro-Bavarian German.",
+      "They all speak Guaraní.",
+      "They all speak English.",
+      "They all speak Shona."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Bahamas, Trinidad and Tobago, Papua New Guinea all speak English.",
+    "countryId": "bs",
+    "subjectIds": [
+      "bs",
+      "tt",
+      "pg"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-bh",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -4091,6 +4415,33 @@
     "correctAnswer": "qa",
     "explanation": "Qatar is the closest to Bahrain of these four.",
     "countryId": "bh",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-bh",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Oceania.",
+      "They are all in North America.",
+      "They are all in Africa.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Bahrain, Turkmenistan, Uzbekistan are all in Asia.",
+    "countryId": "bh",
+    "subjectIds": [
+      "bh",
+      "tm",
+      "uz"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -4422,6 +4773,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-bd",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in North America.",
+      "They are all in South America.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Bangladesh, Lebanon, Iran are all in Asia.",
+    "countryId": "bd",
+    "subjectIds": [
+      "bd",
+      "lb",
+      "ir"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-bb",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -4719,6 +5097,33 @@
     "correctAnswer": "lc",
     "explanation": "Saint Lucia is the closest to Barbados of these four.",
     "countryId": "bb",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-bb",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Uzbek.",
+      "They all speak English.",
+      "They all speak Aramaic.",
+      "They all speak Chewa."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Barbados, Namibia, Belize all speak English.",
+    "countryId": "bb",
+    "subjectIds": [
+      "bb",
+      "na",
+      "bz"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -5050,6 +5455,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-by",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in South America.",
+      "They are all in Europe.",
+      "They are all in Oceania."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Belarus, Bulgaria, Romania are all in Europe.",
+    "countryId": "by",
+    "subjectIds": [
+      "by",
+      "bg",
+      "ro"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-be",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -5355,6 +5787,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-be",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all use the Euro.",
+      "They all use the Eastern Caribbean dollar.",
+      "They all use the Albanian lek.",
+      "They all use the Angolan kwanza."
+    ],
+    "correctAnswer": "They all use the Euro.",
+    "explanation": "Belgium, Vatican City, Ireland all use the Euro.",
+    "countryId": "be",
+    "subjectIds": [
+      "be",
+      "va",
+      "ie"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-bz",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -5653,6 +6112,33 @@
     "correctAnswer": "hn",
     "explanation": "Honduras is the closest to Belize of these four.",
     "countryId": "bz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-bz",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Swazi.",
+      "They all speak English.",
+      "They all speak Comorian.",
+      "They all speak Macedonian."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Belize, Pakistan, Barbados all speak English.",
+    "countryId": "bz",
+    "subjectIds": [
+      "bz",
+      "pk",
+      "bb"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -5984,6 +6470,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-bj",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in North America.",
+      "They are all in South America.",
+      "They are all in Africa.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Benin, Gabon, Republic of the Congo are all in Africa.",
+    "countryId": "bj",
+    "subjectIds": [
+      "bj",
+      "ga",
+      "cg"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-bt",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -6285,6 +6798,33 @@
     "correctAnswer": "bd",
     "explanation": "Bangladesh is the closest to Bhutan of these four.",
     "countryId": "bt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-bt",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Oceania.",
+      "They are all in North America.",
+      "They are all in Africa.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Bhutan, Syria, Yemen are all in Asia.",
+    "countryId": "bt",
+    "subjectIds": [
+      "bt",
+      "sy",
+      "ye"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -6616,6 +7156,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-bo",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Spanish.",
+      "They all speak Arabic.",
+      "They all speak Austro-Bavarian German.",
+      "They all speak Sinhala."
+    ],
+    "correctAnswer": "They all speak Spanish.",
+    "explanation": "Bolivia, Mexico, Uruguay all speak Spanish.",
+    "countryId": "bo",
+    "subjectIds": [
+      "bo",
+      "mx",
+      "uy"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-ba",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -6939,6 +7506,33 @@
     "correctAnswer": "si",
     "explanation": "Slovenia is the closest to Bosnia and Herzegovina of these four.",
     "countryId": "ba",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-ba",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Europe.",
+      "They are all in Oceania.",
+      "They are all in Asia.",
+      "They are all in Africa."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Bosnia and Herzegovina, Andorra, Slovenia are all in Europe.",
+    "countryId": "ba",
+    "subjectIds": [
+      "ba",
+      "ad",
+      "si"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -7270,6 +7864,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-bw",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Tswana.",
+      "They all speak Belarusian.",
+      "They all speak Jamaican Patois.",
+      "They all speak Lozi."
+    ],
+    "correctAnswer": "They all speak Tswana.",
+    "explanation": "Botswana, South Africa, Zimbabwe all speak Tswana.",
+    "countryId": "bw",
+    "subjectIds": [
+      "bw",
+      "za",
+      "zw"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-br",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -7597,6 +8218,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-br",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Czech.",
+      "They all speak Portuguese.",
+      "They all speak Khoisan.",
+      "They all speak Northern Sotho."
+    ],
+    "correctAnswer": "They all speak Portuguese.",
+    "explanation": "Brazil, Angola, Equatorial Guinea all speak Portuguese.",
+    "countryId": "br",
+    "subjectIds": [
+      "br",
+      "ao",
+      "gq"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-bn",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -7895,6 +8543,33 @@
     "correctAnswer": "id",
     "explanation": "Indonesia is the closest to Brunei of these four.",
     "countryId": "bn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-bn",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in Asia.",
+      "They are all in North America.",
+      "They are all in South America."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Brunei, Bahrain, China are all in Asia.",
+    "countryId": "bn",
+    "subjectIds": [
+      "bn",
+      "bh",
+      "cn"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -8226,6 +8901,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-bg",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Oceania.",
+      "They are all in North America.",
+      "They are all in Europe.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Bulgaria, Russia, Ireland are all in Europe.",
+    "countryId": "bg",
+    "subjectIds": [
+      "bg",
+      "ru",
+      "ie"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-bf",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -8553,6 +9255,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-bf",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Albanian.",
+      "They all speak French.",
+      "They all speak Maltese.",
+      "They all speak Bengali."
+    ],
+    "correctAnswer": "They all speak French.",
+    "explanation": "Burkina Faso, DR Congo, Vanuatu all speak French.",
+    "countryId": "bf",
+    "subjectIds": [
+      "bf",
+      "cd",
+      "vu"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-bi",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -8851,6 +9580,33 @@
     "correctAnswer": "ug",
     "explanation": "Uganda is the closest to Burundi of these four.",
     "countryId": "bi",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-bi",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in South America.",
+      "They are all in Asia.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Burundi, Mauritania, Gabon are all in Africa.",
+    "countryId": "bi",
+    "subjectIds": [
+      "bi",
+      "mr",
+      "ga"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -9182,6 +9938,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-kh",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Oceania.",
+      "They are all in South America.",
+      "They are all in Asia.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Cambodia, Yemen, Singapore are all in Asia.",
+    "countryId": "kh",
+    "subjectIds": [
+      "kh",
+      "ye",
+      "sg"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-cm",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -9505,6 +10288,33 @@
     "correctAnswer": "st",
     "explanation": "São Tomé and Príncipe is the closest to Cameroon of these four.",
     "countryId": "cm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-cm",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Albanian.",
+      "They all speak Arabic.",
+      "They all speak English.",
+      "They all speak Zulu."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Cameroon, Mauritius, Barbados all speak English.",
+    "countryId": "cm",
+    "subjectIds": [
+      "cm",
+      "mu",
+      "bb"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -9836,6 +10646,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ca",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in North America.",
+      "They are all in South America.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in North America.",
+    "explanation": "Canada, El Salvador, Costa Rica are all in North America.",
+    "countryId": "ca",
+    "subjectIds": [
+      "ca",
+      "sv",
+      "cr"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-cv",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -10133,6 +10970,33 @@
     "correctAnswer": "gm",
     "explanation": "Gambia is the closest to Cape Verde of these four.",
     "countryId": "cv",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-cv",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Southern Ndebele.",
+      "They all speak Sorani.",
+      "They all speak Portuguese.",
+      "They all speak Montenegrin."
+    ],
+    "correctAnswer": "They all speak Portuguese.",
+    "explanation": "Cape Verde, Brazil, Guinea-Bissau all speak Portuguese.",
+    "countryId": "cv",
+    "subjectIds": [
+      "cv",
+      "br",
+      "gw"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -10464,6 +11328,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-cf",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak French.",
+      "They all speak Comorian.",
+      "They all speak Swiss German.",
+      "They all speak Nauru."
+    ],
+    "correctAnswer": "They all speak French.",
+    "explanation": "Central African Republic, Belgium, Burkina Faso all speak French.",
+    "countryId": "cf",
+    "subjectIds": [
+      "cf",
+      "be",
+      "bf"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-td",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -10787,6 +11678,33 @@
     "correctAnswer": "ss",
     "explanation": "South Sudan is the closest to Chad of these four.",
     "countryId": "td",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-td",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Europe.",
+      "They are all in Africa.",
+      "They are all in South America.",
+      "They are all in North America."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Chad, Angola, Botswana are all in Africa.",
+    "countryId": "td",
+    "subjectIds": [
+      "td",
+      "ao",
+      "bw"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -11118,6 +12036,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-cl",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Spanish.",
+      "They all speak Mongolian.",
+      "They all speak Hebrew.",
+      "They all speak Burmese."
+    ],
+    "correctAnswer": "They all speak Spanish.",
+    "explanation": "Chile, El Salvador, Uruguay all speak Spanish.",
+    "countryId": "cl",
+    "subjectIds": [
+      "cl",
+      "sv",
+      "uy"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-cn",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -11441,6 +12386,33 @@
     "correctAnswer": "bd",
     "explanation": "Bangladesh is the closest to China of these four.",
     "countryId": "cn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-cn",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in Europe.",
+      "They are all in South America.",
+      "They are all in Oceania."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "China, Afghanistan, Uzbekistan are all in Asia.",
+    "countryId": "cn",
+    "subjectIds": [
+      "cn",
+      "af",
+      "uz"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -11770,6 +12742,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-co",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Oceania.",
+      "They are all in Africa.",
+      "They are all in Europe.",
+      "They are all in South America."
+    ],
+    "correctAnswer": "They are all in South America.",
+    "explanation": "Colombia, Bolivia, Brazil are all in South America.",
+    "countryId": "co",
+    "subjectIds": [
+      "co",
+      "bo",
+      "br"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-km",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -12067,6 +13066,33 @@
     "correctAnswer": "mg",
     "explanation": "Madagascar is the closest to Comoros of these four.",
     "countryId": "km",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-km",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Amharic.",
+      "They all speak Somali.",
+      "They all speak French.",
+      "They all speak Chibarwe."
+    ],
+    "correctAnswer": "They all speak French.",
+    "explanation": "Comoros, Haiti, Mauritius all speak French.",
+    "countryId": "km",
+    "subjectIds": [
+      "km",
+      "ht",
+      "mu"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -12390,6 +13416,33 @@
     "correctAnswer": "hn",
     "explanation": "Honduras is the closest to Costa Rica of these four.",
     "countryId": "cr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-cr",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Spanish.",
+      "They all speak Hiri Motu.",
+      "They all speak Albanian.",
+      "They all speak Lingala."
+    ],
+    "correctAnswer": "They all speak Spanish.",
+    "explanation": "Costa Rica, Guatemala, Chile all speak Spanish.",
+    "countryId": "cr",
+    "subjectIds": [
+      "cr",
+      "gt",
+      "cl"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -12721,6 +13774,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-hr",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in South America.",
+      "They are all in Oceania.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Croatia, Luxembourg, North Macedonia are all in Europe.",
+    "countryId": "hr",
+    "subjectIds": [
+      "hr",
+      "lu",
+      "mk"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-cu",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -13043,6 +14123,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-cu",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Chewa.",
+      "They all speak Spanish.",
+      "They all speak Ndau.",
+      "They all speak Estonian."
+    ],
+    "correctAnswer": "They all speak Spanish.",
+    "explanation": "Cuba, Belize, Bolivia all speak Spanish.",
+    "countryId": "cu",
+    "subjectIds": [
+      "cu",
+      "bz",
+      "bo"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-cy",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -13340,6 +14447,33 @@
     "correctAnswer": "lb",
     "explanation": "Lebanon is the closest to Cyprus of these four.",
     "countryId": "cy",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-cy",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in North America.",
+      "They are all in Europe.",
+      "They are all in Africa.",
+      "They are all in South America."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Cyprus, Albania, Italy are all in Europe.",
+    "countryId": "cy",
+    "subjectIds": [
+      "cy",
+      "al",
+      "it"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -13671,6 +14805,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-cz",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Europe.",
+      "They are all in Africa.",
+      "They are all in Oceania.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Czechia, Russia, Denmark are all in Europe.",
+    "countryId": "cz",
+    "subjectIds": [
+      "cz",
+      "ru",
+      "dk"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-dk",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -13972,6 +15133,33 @@
     "correctAnswer": "nl",
     "explanation": "Netherlands is the closest to Denmark of these four.",
     "countryId": "dk",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-dk",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Europe.",
+      "They are all in Asia.",
+      "They are all in Oceania.",
+      "They are all in South America."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Denmark, Norway, Italy are all in Europe.",
+    "countryId": "dk",
+    "subjectIds": [
+      "dk",
+      "no",
+      "it"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -14278,6 +15466,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-dj",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Comorian.",
+      "They all speak Serbian.",
+      "They all speak Chibarwe.",
+      "They all speak Arabic."
+    ],
+    "correctAnswer": "They all speak Arabic.",
+    "explanation": "Djibouti, Chad, Lebanon all speak Arabic.",
+    "countryId": "dj",
+    "subjectIds": [
+      "dj",
+      "td",
+      "lb"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-dm",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -14575,6 +15790,33 @@
     "correctAnswer": "lc",
     "explanation": "Saint Lucia is the closest to Dominica of these four.",
     "countryId": "dm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-dm",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Oceania.",
+      "They are all in Europe.",
+      "They are all in North America.",
+      "They are all in South America."
+    ],
+    "correctAnswer": "They are all in North America.",
+    "explanation": "Dominica, Honduras, Costa Rica are all in North America.",
+    "countryId": "dm",
+    "subjectIds": [
+      "dm",
+      "hn",
+      "cr"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -14880,6 +16122,33 @@
     "correctAnswer": "jm",
     "explanation": "Jamaica is the closest to Dominican Republic of these four.",
     "countryId": "do",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-do",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Spanish.",
+      "They all speak Icelandic.",
+      "They all speak Belizean Creole.",
+      "They all speak English."
+    ],
+    "correctAnswer": "They all speak Spanish.",
+    "explanation": "Dominican Republic, Mexico, Uruguay all speak Spanish.",
+    "countryId": "do",
+    "subjectIds": [
+      "do",
+      "mx",
+      "uy"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -15211,6 +16480,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-cd",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Hindi.",
+      "They all speak Hebrew.",
+      "They all speak French.",
+      "They all speak Afrikaans."
+    ],
+    "correctAnswer": "They all speak French.",
+    "explanation": "DR Congo, Equatorial Guinea, Comoros all speak French.",
+    "countryId": "cd",
+    "subjectIds": [
+      "cd",
+      "gq",
+      "km"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-ec",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -15534,6 +16830,33 @@
     "correctAnswer": "pa",
     "explanation": "Panama is the closest to Ecuador of these four.",
     "countryId": "ec",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-ec",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Europe.",
+      "They are all in South America.",
+      "They are all in Africa.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in South America.",
+    "explanation": "Ecuador, Bolivia, Peru are all in South America.",
+    "countryId": "ec",
+    "subjectIds": [
+      "ec",
+      "bo",
+      "pe"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -15865,6 +17188,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-eg",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Comorian.",
+      "They all speak Haitian Creole.",
+      "They all speak Arabic.",
+      "They all speak Tswana."
+    ],
+    "correctAnswer": "They all speak Arabic.",
+    "explanation": "Egypt, Jordan, Chad all speak Arabic.",
+    "countryId": "eg",
+    "subjectIds": [
+      "eg",
+      "jo",
+      "td"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-sv",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -16167,6 +17517,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-sv",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Spanish.",
+      "They all speak Nepali.",
+      "They all speak Slovak.",
+      "They all speak Swazi."
+    ],
+    "correctAnswer": "They all speak Spanish.",
+    "explanation": "El Salvador, Cuba, Dominican Republic all speak Spanish.",
+    "countryId": "sv",
+    "subjectIds": [
+      "sv",
+      "cu",
+      "do"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-gq",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -16465,6 +17842,33 @@
     "correctAnswer": "st",
     "explanation": "São Tomé and Príncipe is the closest to Equatorial Guinea of these four.",
     "countryId": "gq",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-gq",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in Africa.",
+      "They are all in North America.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Equatorial Guinea, Ghana, Botswana are all in Africa.",
+    "countryId": "gq",
+    "subjectIds": [
+      "gq",
+      "gh",
+      "bw"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -16796,6 +18200,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-er",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Arabic.",
+      "They all speak Hiri Motu.",
+      "They all speak Aramaic.",
+      "They all speak Kinyarwanda."
+    ],
+    "correctAnswer": "They all speak Arabic.",
+    "explanation": "Eritrea, Comoros, Algeria all speak Arabic.",
+    "countryId": "er",
+    "subjectIds": [
+      "er",
+      "km",
+      "dz"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-ee",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -17101,6 +18532,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ee",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Oceania.",
+      "They are all in South America.",
+      "They are all in Africa.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Estonia, Bulgaria, Liechtenstein are all in Europe.",
+    "countryId": "ee",
+    "subjectIds": [
+      "ee",
+      "bg",
+      "li"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-sz",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -17399,6 +18857,33 @@
     "correctAnswer": "ls",
     "explanation": "Lesotho is the closest to Eswatini of these four.",
     "countryId": "sz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-sz",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in South America.",
+      "They are all in Africa.",
+      "They are all in Oceania."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Eswatini, Nigeria, Morocco are all in Africa.",
+    "countryId": "sz",
+    "subjectIds": [
+      "sz",
+      "ng",
+      "ma"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -17730,6 +19215,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-et",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in Asia.",
+      "They are all in Oceania.",
+      "They are all in South America."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Ethiopia, Uganda, Benin are all in Africa.",
+    "countryId": "et",
+    "subjectIds": [
+      "et",
+      "ug",
+      "bj"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-fj",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -18027,6 +19539,33 @@
     "correctAnswer": "vu",
     "explanation": "Vanuatu is the closest to Fiji of these four.",
     "countryId": "fj",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-fj",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Estonian.",
+      "They all speak English.",
+      "They all speak Filipino.",
+      "They all speak Chewa."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Fiji, Belize, Saint Lucia all speak English.",
+    "countryId": "fj",
+    "subjectIds": [
+      "fj",
+      "bz",
+      "lc"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -18358,6 +19897,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-fi",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in Asia.",
+      "They are all in Europe.",
+      "They are all in Oceania."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Finland, Spain, Greece are all in Europe.",
+    "countryId": "fi",
+    "subjectIds": [
+      "fi",
+      "es",
+      "gr"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-fr",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -18681,6 +20247,33 @@
     "correctAnswer": "li",
     "explanation": "Liechtenstein is the closest to France of these four.",
     "countryId": "fr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-fr",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all use the Moldovan leu.",
+      "They all use the Malawian kwacha.",
+      "They all use the Euro.",
+      "They all use the United Arab Emirates dirham."
+    ],
+    "correctAnswer": "They all use the Euro.",
+    "explanation": "France, Spain, Estonia all use the Euro.",
+    "countryId": "fr",
+    "subjectIds": [
+      "fr",
+      "es",
+      "ee"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -19012,6 +20605,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ga",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Berber.",
+      "They all speak French.",
+      "They all speak German.",
+      "They all speak Aramaic."
+    ],
+    "correctAnswer": "They all speak French.",
+    "explanation": "Gabon, Seychelles, Burundi all speak French.",
+    "countryId": "ga",
+    "subjectIds": [
+      "ga",
+      "sc",
+      "bi"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-gm",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -19310,6 +20930,33 @@
     "correctAnswer": "gw",
     "explanation": "Guinea-Bissau is the closest to Gambia of these four.",
     "countryId": "gm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-gm",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in Africa.",
+      "They are all in South America.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Gambia, Eritrea, Chad are all in Africa.",
+    "countryId": "gm",
+    "subjectIds": [
+      "gm",
+      "er",
+      "td"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -19641,6 +21288,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ge",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in North America.",
+      "They are all in Asia.",
+      "They are all in Africa.",
+      "They are all in South America."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Georgia, Tajikistan, Malaysia are all in Asia.",
+    "countryId": "ge",
+    "subjectIds": [
+      "ge",
+      "tj",
+      "my"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-de",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -19964,6 +21638,33 @@
     "correctAnswer": "li",
     "explanation": "Liechtenstein is the closest to Germany of these four.",
     "countryId": "de",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-de",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak German.",
+      "They all speak Fijian.",
+      "They all speak Catalan.",
+      "They all speak Arabic."
+    ],
+    "correctAnswer": "They all speak German.",
+    "explanation": "Germany, Belgium, Namibia all speak German.",
+    "countryId": "de",
+    "subjectIds": [
+      "de",
+      "be",
+      "na"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -20295,6 +21996,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-gh",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in Oceania.",
+      "They are all in North America.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Ghana, Senegal, Libya are all in Africa.",
+    "countryId": "gh",
+    "subjectIds": [
+      "gh",
+      "sn",
+      "ly"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-gr",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -20622,6 +22350,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-gr",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all use the Euro.",
+      "They all use the Mozambican metical.",
+      "They all use the Albanian lek.",
+      "They all use the Armenian dram."
+    ],
+    "correctAnswer": "They all use the Euro.",
+    "explanation": "Greece, Lithuania, Portugal all use the Euro.",
+    "countryId": "gr",
+    "subjectIds": [
+      "gr",
+      "lt",
+      "pt"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-gd",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -20919,6 +22674,33 @@
     "correctAnswer": "vc",
     "explanation": "Saint Vincent and the Grenadines is the closest to Grenada of these four.",
     "countryId": "gd",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-gd",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak English.",
+      "They all speak Chewa.",
+      "They all speak Sango.",
+      "They all speak Chinese."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Grenada, South Sudan, Gambia all speak English.",
+    "countryId": "gd",
+    "subjectIds": [
+      "gd",
+      "ss",
+      "gm"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -21242,6 +23024,33 @@
     "correctAnswer": "ni",
     "explanation": "Nicaragua is the closest to Guatemala of these four.",
     "countryId": "gt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-gt",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in North America.",
+      "They are all in Asia.",
+      "They are all in Oceania.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in North America.",
+    "explanation": "Guatemala, Trinidad and Tobago, El Salvador are all in North America.",
+    "countryId": "gt",
+    "subjectIds": [
+      "gt",
+      "tt",
+      "sv"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -21573,6 +23382,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-gn",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak French.",
+      "They all speak Malagasy.",
+      "They all speak Ukrainian.",
+      "They all speak Japanese."
+    ],
+    "correctAnswer": "They all speak French.",
+    "explanation": "Guinea, Burkina Faso, Burundi all speak French.",
+    "countryId": "gn",
+    "subjectIds": [
+      "gn",
+      "bf",
+      "bi"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-gw",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -21874,6 +23710,33 @@
     "correctAnswer": "gm",
     "explanation": "Gambia is the closest to Guinea-Bissau of these four.",
     "countryId": "gw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-gw",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Thai.",
+      "They all speak Ndau.",
+      "They all speak Chibarwe.",
+      "They all speak Portuguese."
+    ],
+    "correctAnswer": "They all speak Portuguese.",
+    "explanation": "Guinea-Bissau, Angola, São Tomé and Príncipe all speak Portuguese.",
+    "countryId": "gw",
+    "subjectIds": [
+      "gw",
+      "ao",
+      "st"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -22205,6 +24068,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-gy",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Oceania.",
+      "They are all in Asia.",
+      "They are all in South America.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in South America.",
+    "explanation": "Guyana, Bolivia, Ecuador are all in South America.",
+    "countryId": "gy",
+    "subjectIds": [
+      "gy",
+      "bo",
+      "ec"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-ht",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -22503,6 +24393,33 @@
     "correctAnswer": "jm",
     "explanation": "Jamaica is the closest to Haiti of these four.",
     "countryId": "ht",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-ht",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Afrikaans.",
+      "They all speak French.",
+      "They all speak Irish.",
+      "They all speak Amharic."
+    ],
+    "correctAnswer": "They all speak French.",
+    "explanation": "Haiti, Mali, Senegal all speak French.",
+    "countryId": "ht",
+    "subjectIds": [
+      "ht",
+      "ml",
+      "sn"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -22834,6 +24751,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-hn",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Romanian.",
+      "They all speak Latvian.",
+      "They all speak Mongolian.",
+      "They all speak Spanish."
+    ],
+    "correctAnswer": "They all speak Spanish.",
+    "explanation": "Honduras, Belize, Dominican Republic all speak Spanish.",
+    "countryId": "hn",
+    "subjectIds": [
+      "hn",
+      "bz",
+      "do"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-hu",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -23161,6 +25105,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-hu",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in North America.",
+      "They are all in Oceania.",
+      "They are all in Europe.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Hungary, France, Denmark are all in Europe.",
+    "countryId": "hu",
+    "subjectIds": [
+      "hu",
+      "fr",
+      "dk"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-is",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -23483,6 +25454,33 @@
     "correctAnswer": "no",
     "explanation": "Norway is the closest to Iceland of these four.",
     "countryId": "is",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-is",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in South America.",
+      "They are all in Africa.",
+      "They are all in Europe.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Iceland, North Macedonia, Cyprus are all in Europe.",
+    "countryId": "is",
+    "subjectIds": [
+      "is",
+      "mk",
+      "cy"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -23814,6 +25812,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-in",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Macedonian.",
+      "They all speak Zulu.",
+      "They all speak Tamil.",
+      "They all speak Dzongkha."
+    ],
+    "correctAnswer": "They all speak Tamil.",
+    "explanation": "India, Sri Lanka, Singapore all speak Tamil.",
+    "countryId": "in",
+    "subjectIds": [
+      "in",
+      "lk",
+      "sg"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-id",
     "type": "flag-detective",
     "difficulty": "hard",
@@ -24135,6 +26160,33 @@
     "correctAnswer": "bn",
     "explanation": "Brunei is the closest to Indonesia of these four.",
     "countryId": "id",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-id",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in Europe.",
+      "They are all in South America.",
+      "They are all in Oceania."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Indonesia, Afghanistan, North Korea are all in Asia.",
+    "countryId": "id",
+    "subjectIds": [
+      "id",
+      "af",
+      "kp"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -24466,6 +26518,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ir",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in South America.",
+      "They are all in Oceania.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Iran, Turkmenistan, Bahrain are all in Asia.",
+    "countryId": "ir",
+    "subjectIds": [
+      "ir",
+      "tm",
+      "bh"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-iq",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -24793,6 +26872,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-iq",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Burmese.",
+      "They all speak Sotho.",
+      "They all speak Croatian.",
+      "They all speak Arabic."
+    ],
+    "correctAnswer": "They all speak Arabic.",
+    "explanation": "Iraq, Chad, Oman all speak Arabic.",
+    "countryId": "iq",
+    "subjectIds": [
+      "iq",
+      "td",
+      "om"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-ie",
     "type": "flag-detective",
     "difficulty": "hard",
@@ -25114,6 +27220,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ie",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in South America.",
+      "They are all in North America.",
+      "They are all in Africa.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Ireland, Austria, North Macedonia are all in Europe.",
+    "countryId": "ie",
+    "subjectIds": [
+      "ie",
+      "at",
+      "mk"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-il",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -25412,6 +27545,33 @@
     "correctAnswer": "cy",
     "explanation": "Cyprus is the closest to Israel of these four.",
     "countryId": "il",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-il",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Arabic.",
+      "They all speak Urdu.",
+      "They all speak Mongolian.",
+      "They all speak Hiri Motu."
+    ],
+    "correctAnswer": "They all speak Arabic.",
+    "explanation": "Israel, Oman, Yemen all speak Arabic.",
+    "countryId": "il",
+    "subjectIds": [
+      "il",
+      "om",
+      "ye"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -25737,6 +27897,33 @@
     "correctAnswer": "hr",
     "explanation": "Croatia is the closest to Italy of these four.",
     "countryId": "it",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-it",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Italian.",
+      "They all speak Tongan.",
+      "They all speak Shona.",
+      "They all speak Kalanga."
+    ],
+    "correctAnswer": "They all speak Italian.",
+    "explanation": "Italy, Switzerland, Vatican City all speak Italian.",
+    "countryId": "it",
+    "subjectIds": [
+      "it",
+      "ch",
+      "va"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -26068,6 +28255,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ci",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in Europe.",
+      "They are all in Africa.",
+      "They are all in North America."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Ivory Coast, Djibouti, Ghana are all in Africa.",
+    "countryId": "ci",
+    "subjectIds": [
+      "ci",
+      "dj",
+      "gh"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-jm",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -26365,6 +28579,33 @@
     "correctAnswer": "cu",
     "explanation": "Cuba is the closest to Jamaica of these four.",
     "countryId": "jm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-jm",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Icelandic.",
+      "They all speak Seychellois Creole.",
+      "They all speak English.",
+      "They all speak Russian."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Jamaica, Dominica, Bahamas all speak English.",
+    "countryId": "jm",
+    "subjectIds": [
+      "jm",
+      "dm",
+      "bs"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -26691,6 +28932,33 @@
     "correctAnswer": "kr",
     "explanation": "South Korea is the closest to Japan of these four.",
     "countryId": "jp",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-jp",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in Oceania.",
+      "They are all in North America.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Japan, Armenia, Kuwait are all in Asia.",
+    "countryId": "jp",
+    "subjectIds": [
+      "jp",
+      "am",
+      "kw"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -27022,6 +29290,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-jo",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in Europe.",
+      "They are all in Oceania.",
+      "They are all in North America."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Jordan, Bangladesh, India are all in Asia.",
+    "countryId": "jo",
+    "subjectIds": [
+      "jo",
+      "bd",
+      "in"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-kz",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -27345,6 +29640,33 @@
     "correctAnswer": "tj",
     "explanation": "Tajikistan is the closest to Kazakhstan of these four.",
     "countryId": "kz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-kz",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Kikongo.",
+      "They all speak Swazi.",
+      "They all speak Russian.",
+      "They all speak Hiri Motu."
+    ],
+    "correctAnswer": "They all speak Russian.",
+    "explanation": "Kazakhstan, Kyrgyzstan, Turkmenistan all speak Russian.",
+    "countryId": "kz",
+    "subjectIds": [
+      "kz",
+      "kg",
+      "tm"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -27676,6 +29998,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ke",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Albanian.",
+      "They all speak English.",
+      "They all speak Estonian.",
+      "They all speak Aramaic."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Kenya, Gambia, Kiribati all speak English.",
+    "countryId": "ke",
+    "subjectIds": [
+      "ke",
+      "gm",
+      "ki"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-ki",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -27973,6 +30322,33 @@
     "correctAnswer": "nr",
     "explanation": "Nauru is the closest to Kiribati of these four.",
     "countryId": "ki",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-ki",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Europe.",
+      "They are all in Oceania.",
+      "They are all in South America.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Oceania.",
+    "explanation": "Kiribati, Nauru, Micronesia are all in Oceania.",
+    "countryId": "ki",
+    "subjectIds": [
+      "ki",
+      "nr",
+      "fm"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -28275,6 +30651,33 @@
     "correctAnswer": "bh",
     "explanation": "Bahrain is the closest to Kuwait of these four.",
     "countryId": "kw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-kw",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Amharic.",
+      "They all speak Kinyarwanda.",
+      "They all speak Aymara.",
+      "They all speak Arabic."
+    ],
+    "correctAnswer": "They all speak Arabic.",
+    "explanation": "Kuwait, Algeria, Sudan all speak Arabic.",
+    "countryId": "kw",
+    "subjectIds": [
+      "kw",
+      "dz",
+      "sd"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -28606,6 +31009,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-kg",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Bengali.",
+      "They all speak Czech.",
+      "They all speak Somali.",
+      "They all speak Russian."
+    ],
+    "correctAnswer": "They all speak Russian.",
+    "explanation": "Kyrgyzstan, Belarus, Kazakhstan all speak Russian.",
+    "countryId": "kg",
+    "subjectIds": [
+      "kg",
+      "by",
+      "kz"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-la",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -28929,6 +31359,33 @@
     "correctAnswer": "bd",
     "explanation": "Bangladesh is the closest to Laos of these four.",
     "countryId": "la",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-la",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Oceania.",
+      "They are all in Europe.",
+      "They are all in Asia.",
+      "They are all in North America."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Laos, Azerbaijan, Thailand are all in Asia.",
+    "countryId": "la",
+    "subjectIds": [
+      "la",
+      "az",
+      "th"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -29260,6 +31717,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-lv",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all use the Argentine peso.",
+      "They all use the Danish krone.",
+      "They all use the Brazilian real.",
+      "They all use the Euro."
+    ],
+    "correctAnswer": "They all use the Euro.",
+    "explanation": "Latvia, Cyprus, Estonia all use the Euro.",
+    "countryId": "lv",
+    "subjectIds": [
+      "lv",
+      "cy",
+      "ee"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-lb",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -29558,6 +32042,33 @@
     "correctAnswer": "cy",
     "explanation": "Cyprus is the closest to Lebanon of these four.",
     "countryId": "lb",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-lb",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Amharic.",
+      "They all speak Czech.",
+      "They all speak Aymara.",
+      "They all speak Arabic."
+    ],
+    "correctAnswer": "They all speak Arabic.",
+    "explanation": "Lebanon, Chad, Djibouti all speak Arabic.",
+    "countryId": "lb",
+    "subjectIds": [
+      "lb",
+      "td",
+      "dj"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -29863,6 +32374,33 @@
     "correctAnswer": "sz",
     "explanation": "Eswatini is the closest to Lesotho of these four.",
     "countryId": "ls",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-ls",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in Oceania.",
+      "They are all in Europe.",
+      "They are all in South America."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Lesotho, Burkina Faso, Central African Republic are all in Africa.",
+    "countryId": "ls",
+    "subjectIds": [
+      "ls",
+      "bf",
+      "cf"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -30194,6 +32732,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-lr",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Greek.",
+      "They all speak Jamaican Patois.",
+      "They all speak Albanian.",
+      "They all speak English."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Liberia, Pakistan, Lesotho all speak English.",
+    "countryId": "lr",
+    "subjectIds": [
+      "lr",
+      "pk",
+      "ls"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-ly",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -30521,6 +33086,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ly",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Arabic.",
+      "They all speak Khoekhoe.",
+      "They all speak Comorian.",
+      "They all speak Afrikaans."
+    ],
+    "correctAnswer": "They all speak Arabic.",
+    "explanation": "Libya, Saudi Arabia, Tunisia all speak Arabic.",
+    "countryId": "ly",
+    "subjectIds": [
+      "ly",
+      "sa",
+      "tn"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-li",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -30819,6 +33411,33 @@
     "correctAnswer": "lu",
     "explanation": "Luxembourg is the closest to Liechtenstein of these four.",
     "countryId": "li",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-li",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Europe.",
+      "They are all in North America.",
+      "They are all in Oceania.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Liechtenstein, Bulgaria, Romania are all in Europe.",
+    "countryId": "li",
+    "subjectIds": [
+      "li",
+      "bg",
+      "ro"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -31150,6 +33769,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-lt",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all use the Bangladeshi taka.",
+      "They all use the Euro.",
+      "They all use the lari.",
+      "They all use the Mauritian rupee."
+    ],
+    "correctAnswer": "They all use the Euro.",
+    "explanation": "Lithuania, Latvia, Finland all use the Euro.",
+    "countryId": "lt",
+    "subjectIds": [
+      "lt",
+      "lv",
+      "fi"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-lu",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -31448,6 +34094,33 @@
     "correctAnswer": "nl",
     "explanation": "Netherlands is the closest to Luxembourg of these four.",
     "countryId": "lu",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-lu",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak German.",
+      "They all speak Dzongkha.",
+      "They all speak Aramaic.",
+      "They all speak Southern Sotho."
+    ],
+    "correctAnswer": "They all speak German.",
+    "explanation": "Luxembourg, Belgium, Namibia all speak German.",
+    "countryId": "lu",
+    "subjectIds": [
+      "lu",
+      "be",
+      "na"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -31774,6 +34447,33 @@
     "correctAnswer": "km",
     "explanation": "Comoros is the closest to Madagascar of these four.",
     "countryId": "mg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-mg",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in North America.",
+      "They are all in Asia.",
+      "They are all in Africa.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Madagascar, Mozambique, Botswana are all in Africa.",
+    "countryId": "mg",
+    "subjectIds": [
+      "mg",
+      "mz",
+      "bw"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -32105,6 +34805,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-mw",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Armenian.",
+      "They all speak English.",
+      "They all speak Kirundi.",
+      "They all speak Belarusian."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Malawi, Botswana, Nigeria all speak English.",
+    "countryId": "mw",
+    "subjectIds": [
+      "mw",
+      "bw",
+      "ng"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-my",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -32432,6 +35159,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-my",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Amharic.",
+      "They all speak Serbian.",
+      "They all speak Tonga.",
+      "They all speak English."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Malaysia, Gambia, Zambia all speak English.",
+    "countryId": "my",
+    "subjectIds": [
+      "my",
+      "gm",
+      "zm"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-mv",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -32729,6 +35483,33 @@
     "correctAnswer": "lk",
     "explanation": "Sri Lanka is the closest to Maldives of these four.",
     "countryId": "mv",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-mv",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in Oceania.",
+      "They are all in North America.",
+      "They are all in South America."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Maldives, Azerbaijan, Türkiye are all in Asia.",
+    "countryId": "mv",
+    "subjectIds": [
+      "mv",
+      "az",
+      "tr"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -33058,6 +35839,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ml",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all use the West African CFA franc.",
+      "They all use the Ghanaian cedi.",
+      "They all use the Armenian dram.",
+      "They all use the Guyanese dollar."
+    ],
+    "correctAnswer": "They all use the West African CFA franc.",
+    "explanation": "Mali, Benin, Guinea-Bissau all use the West African CFA franc.",
+    "countryId": "ml",
+    "subjectIds": [
+      "ml",
+      "bj",
+      "gw"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-mt",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -33359,6 +36167,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-mt",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Bosnian.",
+      "They all speak Indonesian.",
+      "They all speak English.",
+      "They all speak Azerbaijani."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Malta, Jamaica, New Zealand all speak English.",
+    "countryId": "mt",
+    "subjectIds": [
+      "mt",
+      "jm",
+      "nz"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-mh",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -33656,6 +36491,33 @@
     "correctAnswer": "ki",
     "explanation": "Kiribati is the closest to Marshall Islands of these four.",
     "countryId": "mh",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-mh",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in North America.",
+      "They are all in Oceania.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Oceania.",
+    "explanation": "Marshall Islands, Samoa, Kiribati are all in Oceania.",
+    "countryId": "mh",
+    "subjectIds": [
+      "mh",
+      "ws",
+      "ki"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -33987,6 +36849,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-mr",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Arabic.",
+      "They all speak Spanish.",
+      "They all speak Turkmen.",
+      "They all speak Zimbabwean Sign Language."
+    ],
+    "correctAnswer": "They all speak Arabic.",
+    "explanation": "Mauritania, Somalia, Egypt all speak Arabic.",
+    "countryId": "mr",
+    "subjectIds": [
+      "mr",
+      "so",
+      "eg"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-mu",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -34284,6 +37173,33 @@
     "correctAnswer": "mg",
     "explanation": "Madagascar is the closest to Mauritius of these four.",
     "countryId": "mu",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-mu",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Albanian.",
+      "They all speak Icelandic.",
+      "They all speak Bulgarian.",
+      "They all speak French."
+    ],
+    "correctAnswer": "They all speak French.",
+    "explanation": "Mauritius, Haiti, Burundi all speak French.",
+    "countryId": "mu",
+    "subjectIds": [
+      "mu",
+      "ht",
+      "bi"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -34613,6 +37529,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-mx",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in North America.",
+      "They are all in South America.",
+      "They are all in Asia.",
+      "They are all in Oceania."
+    ],
+    "correctAnswer": "They are all in North America.",
+    "explanation": "Mexico, Belize, Canada are all in North America.",
+    "countryId": "mx",
+    "subjectIds": [
+      "mx",
+      "bz",
+      "ca"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-fm",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -34888,6 +37831,33 @@
     "correctAnswer": "mh",
     "explanation": "Marshall Islands is the closest to Micronesia of these four.",
     "countryId": "fm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-fm",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak English.",
+      "They all speak Norwegian Bokmål.",
+      "They all speak Afrikaans.",
+      "They all speak Kwangali."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Micronesia, Dominica, Pakistan all speak English.",
+    "countryId": "fm",
+    "subjectIds": [
+      "fm",
+      "dm",
+      "pk"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -35197,6 +38167,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-md",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Europe.",
+      "They are all in Oceania.",
+      "They are all in Africa.",
+      "They are all in South America."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Moldova, Malta, Russia are all in Europe.",
+    "countryId": "md",
+    "subjectIds": [
+      "md",
+      "mt",
+      "ru"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-mc",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -35495,6 +38492,33 @@
     "correctAnswer": "ch",
     "explanation": "Switzerland is the closest to Monaco of these four.",
     "countryId": "mc",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-mc",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in North America.",
+      "They are all in Europe.",
+      "They are all in South America.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Monaco, Austria, Bosnia and Herzegovina are all in Europe.",
+    "countryId": "mc",
+    "subjectIds": [
+      "mc",
+      "at",
+      "ba"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -35826,6 +38850,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-mn",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in South America.",
+      "They are all in Oceania.",
+      "They are all in Asia.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Mongolia, India, Nepal are all in Asia.",
+    "countryId": "mn",
+    "subjectIds": [
+      "mn",
+      "in",
+      "np"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-me",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -36124,6 +39175,33 @@
     "correctAnswer": "mk",
     "explanation": "North Macedonia is the closest to Montenegro of these four.",
     "countryId": "me",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-me",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Oceania.",
+      "They are all in North America.",
+      "They are all in Africa.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Montenegro, Spain, Cyprus are all in Europe.",
+    "countryId": "me",
+    "subjectIds": [
+      "me",
+      "es",
+      "cy"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -36455,6 +39533,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ma",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in North America.",
+      "They are all in Oceania.",
+      "They are all in Africa."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Morocco, Togo, Burundi are all in Africa.",
+    "countryId": "ma",
+    "subjectIds": [
+      "ma",
+      "tg",
+      "bi"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-mz",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -36778,6 +39883,33 @@
     "correctAnswer": "km",
     "explanation": "Comoros is the closest to Mozambique of these four.",
     "countryId": "mz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-mz",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Georgian.",
+      "They all speak Fiji Hindi.",
+      "They all speak Portuguese.",
+      "They all speak Aramaic."
+    ],
+    "correctAnswer": "They all speak Portuguese.",
+    "explanation": "Mozambique, Brazil, Portugal all speak Portuguese.",
+    "countryId": "mz",
+    "subjectIds": [
+      "mz",
+      "br",
+      "pt"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -37109,6 +40241,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-mm",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in South America.",
+      "They are all in North America.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Myanmar, Brunei, Thailand are all in Asia.",
+    "countryId": "mm",
+    "subjectIds": [
+      "mm",
+      "bn",
+      "th"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-na",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -37436,6 +40595,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-na",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in South America.",
+      "They are all in Europe.",
+      "They are all in Oceania."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Namibia, Comoros, Burkina Faso are all in Africa.",
+    "countryId": "na",
+    "subjectIds": [
+      "na",
+      "km",
+      "bf"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-nr",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -37733,6 +40919,33 @@
     "correctAnswer": "ki",
     "explanation": "Kiribati is the closest to Nauru of these four.",
     "countryId": "nr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-nr",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all use the Namibian dollar.",
+      "They all use the Australian dollar.",
+      "They all use the Saudi riyal.",
+      "They all use the United Arab Emirates dirham."
+    ],
+    "correctAnswer": "They all use the Australian dollar.",
+    "explanation": "Nauru, Kiribati, Tuvalu all use the Australian dollar.",
+    "countryId": "nr",
+    "subjectIds": [
+      "nr",
+      "ki",
+      "tv"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -38064,6 +41277,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-np",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in South America.",
+      "They are all in Oceania.",
+      "They are all in North America.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Nepal, Lebanon, Tajikistan are all in Asia.",
+    "countryId": "np",
+    "subjectIds": [
+      "np",
+      "lb",
+      "tj"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-nl",
     "type": "flag-detective",
     "difficulty": "hard",
@@ -38360,6 +41600,33 @@
     "correctAnswer": "lu",
     "explanation": "Luxembourg is the closest to Netherlands of these four.",
     "countryId": "nl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-nl",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Oceania.",
+      "They are all in Africa.",
+      "They are all in North America.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Netherlands, Albania, Ireland are all in Europe.",
+    "countryId": "nl",
+    "subjectIds": [
+      "nl",
+      "al",
+      "ie"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -38684,6 +41951,33 @@
     "correctAnswer": "to",
     "explanation": "Tonga is the closest to New Zealand of these four.",
     "countryId": "nz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-nz",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Russian.",
+      "They all speak English.",
+      "They all speak Bosnian.",
+      "They all speak Austro-Bavarian German."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "New Zealand, South Sudan, Malta all speak English.",
+    "countryId": "nz",
+    "subjectIds": [
+      "nz",
+      "ss",
+      "mt"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -39015,6 +42309,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ni",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Albanian.",
+      "They all speak Belizean Creole.",
+      "They all speak Spanish.",
+      "They all speak Vietnamese."
+    ],
+    "correctAnswer": "They all speak Spanish.",
+    "explanation": "Nicaragua, Honduras, Equatorial Guinea all speak Spanish.",
+    "countryId": "ni",
+    "subjectIds": [
+      "ni",
+      "hn",
+      "gq"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-ne",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -39338,6 +42659,33 @@
     "correctAnswer": "tg",
     "explanation": "Togo is the closest to Niger of these four.",
     "countryId": "ne",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-ne",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in Asia.",
+      "They are all in Europe.",
+      "They are all in Oceania."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Niger, Central African Republic, Eswatini are all in Africa.",
+    "countryId": "ne",
+    "subjectIds": [
+      "ne",
+      "cf",
+      "sz"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -39669,6 +43017,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ng",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Bislama.",
+      "They all speak Vietnamese.",
+      "They all speak English.",
+      "They all speak Mauritian Creole."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Nigeria, Rwanda, Samoa all speak English.",
+    "countryId": "ng",
+    "subjectIds": [
+      "ng",
+      "rw",
+      "ws"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-kp",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -39996,6 +43371,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-kp",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in South America.",
+      "They are all in North America.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "North Korea, Israel, Azerbaijan are all in Asia.",
+    "countryId": "kp",
+    "subjectIds": [
+      "kp",
+      "il",
+      "az"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-mk",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -40294,6 +43696,33 @@
     "correctAnswer": "me",
     "explanation": "Montenegro is the closest to North Macedonia of these four.",
     "countryId": "mk",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-mk",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in Europe.",
+      "They are all in North America.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "North Macedonia, Hungary, Austria are all in Europe.",
+    "countryId": "mk",
+    "subjectIds": [
+      "mk",
+      "hu",
+      "at"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -40625,6 +44054,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-no",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Europe.",
+      "They are all in Oceania.",
+      "They are all in Asia.",
+      "They are all in North America."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Norway, Croatia, Ireland are all in Europe.",
+    "countryId": "no",
+    "subjectIds": [
+      "no",
+      "hr",
+      "ie"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-om",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -40948,6 +44404,33 @@
     "correctAnswer": "qa",
     "explanation": "Qatar is the closest to Oman of these four.",
     "countryId": "om",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-om",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Southern Sotho.",
+      "They all speak Arabic.",
+      "They all speak Afrikaans.",
+      "They all speak Chibarwe."
+    ],
+    "correctAnswer": "They all speak Arabic.",
+    "explanation": "Oman, Chad, Kuwait all speak Arabic.",
+    "countryId": "om",
+    "subjectIds": [
+      "om",
+      "td",
+      "kw"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -41279,6 +44762,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-pk",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Oceania.",
+      "They are all in South America.",
+      "They are all in Asia.",
+      "They are all in Africa."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Pakistan, Iran, Malaysia are all in Asia.",
+    "countryId": "pk",
+    "subjectIds": [
+      "pk",
+      "ir",
+      "my"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-pw",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -41576,6 +45086,33 @@
     "correctAnswer": "ph",
     "explanation": "Philippines is the closest to Palau of these four.",
     "countryId": "pw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-pw",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all use the United States dollar.",
+      "They all use the Hungarian forint.",
+      "They all use the Sierra Leonean leone.",
+      "They all use the Botswana pula."
+    ],
+    "correctAnswer": "They all use the United States dollar.",
+    "explanation": "Palau, Ecuador, El Salvador all use the United States dollar.",
+    "countryId": "pw",
+    "subjectIds": [
+      "pw",
+      "ec",
+      "sv"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -41907,6 +45444,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-pa",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Spanish.",
+      "They all speak Turkish.",
+      "They all speak Kwangali.",
+      "They all speak Persian (Farsi)."
+    ],
+    "correctAnswer": "They all speak Spanish.",
+    "explanation": "Panama, Bolivia, Cuba all speak Spanish.",
+    "countryId": "pa",
+    "subjectIds": [
+      "pa",
+      "bo",
+      "cu"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-pg",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -42230,6 +45794,33 @@
     "correctAnswer": "sb",
     "explanation": "Solomon Islands is the closest to Papua New Guinea of these four.",
     "countryId": "pg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-pg",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in North America.",
+      "They are all in South America.",
+      "They are all in Oceania.",
+      "They are all in Africa."
+    ],
+    "correctAnswer": "They are all in Oceania.",
+    "explanation": "Papua New Guinea, Australia, Fiji are all in Oceania.",
+    "countryId": "pg",
+    "subjectIds": [
+      "pg",
+      "au",
+      "fj"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -42561,6 +46152,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-py",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Chinese.",
+      "They all speak Polish.",
+      "They all speak Spanish.",
+      "They all speak Albanian."
+    ],
+    "correctAnswer": "They all speak Spanish.",
+    "explanation": "Paraguay, Ecuador, Peru all speak Spanish.",
+    "countryId": "py",
+    "subjectIds": [
+      "py",
+      "ec",
+      "pe"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-pe",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -42888,6 +46506,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-pe",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Spanish.",
+      "They all speak Venda.",
+      "They all speak Slovene.",
+      "They all speak Latin."
+    ],
+    "correctAnswer": "They all speak Spanish.",
+    "explanation": "Peru, Bolivia, Colombia all speak Spanish.",
+    "countryId": "pe",
+    "subjectIds": [
+      "pe",
+      "bo",
+      "co"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-ph",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -43210,6 +46855,33 @@
     "correctAnswer": "bn",
     "explanation": "Brunei is the closest to Philippines of these four.",
     "countryId": "ph",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-ph",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in North America.",
+      "They are all in Asia.",
+      "They are all in Africa.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Philippines, Laos, Pakistan are all in Asia.",
+    "countryId": "ph",
+    "subjectIds": [
+      "ph",
+      "la",
+      "pk"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -43541,6 +47213,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-pl",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in Europe.",
+      "They are all in North America.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Poland, Bulgaria, Lithuania are all in Europe.",
+    "countryId": "pl",
+    "subjectIds": [
+      "pl",
+      "bg",
+      "lt"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-pt",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -43868,6 +47567,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-pt",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Afrikaans.",
+      "They all speak Portuguese.",
+      "They all speak Latin.",
+      "They all speak Polish."
+    ],
+    "correctAnswer": "They all speak Portuguese.",
+    "explanation": "Portugal, Guinea-Bissau, Mozambique all speak Portuguese.",
+    "countryId": "pt",
+    "subjectIds": [
+      "pt",
+      "gw",
+      "mz"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-qa",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -44166,6 +47892,33 @@
     "correctAnswer": "bh",
     "explanation": "Bahrain is the closest to Qatar of these four.",
     "countryId": "qa",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-qa",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Oceania.",
+      "They are all in North America.",
+      "They are all in South America.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Qatar, Georgia, Bahrain are all in Asia.",
+    "countryId": "qa",
+    "subjectIds": [
+      "qa",
+      "ge",
+      "bh"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -44497,6 +48250,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-cg",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all use the Algerian dinar.",
+      "They all use the Guinean franc.",
+      "They all use the Brunei dollar.",
+      "They all use the Central African CFA franc."
+    ],
+    "correctAnswer": "They all use the Central African CFA franc.",
+    "explanation": "Republic of the Congo, Chad, Equatorial Guinea all use the Central African CFA franc.",
+    "countryId": "cg",
+    "subjectIds": [
+      "cg",
+      "td",
+      "gq"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-ro",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -44820,6 +48600,33 @@
     "correctAnswer": "sk",
     "explanation": "Slovakia is the closest to Romania of these four.",
     "countryId": "ro",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-ro",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Europe.",
+      "They are all in North America.",
+      "They are all in Oceania.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Romania, Estonia, Slovenia are all in Europe.",
+    "countryId": "ro",
+    "subjectIds": [
+      "ro",
+      "ee",
+      "si"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -45151,6 +48958,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ru",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Europe.",
+      "They are all in South America.",
+      "They are all in Asia.",
+      "They are all in Oceania."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Russia, Norway, Slovenia are all in Europe.",
+    "countryId": "ru",
+    "subjectIds": [
+      "ru",
+      "no",
+      "si"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-rw",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -45449,6 +49283,33 @@
     "correctAnswer": "ke",
     "explanation": "Kenya is the closest to Rwanda of these four.",
     "countryId": "rw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-rw",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Hiri Motu.",
+      "They all speak Romansh.",
+      "They all speak English.",
+      "They all speak Danish."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Rwanda, Saint Lucia, Gambia all speak English.",
+    "countryId": "rw",
+    "subjectIds": [
+      "rw",
+      "lc",
+      "gm"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -45754,6 +49615,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-kn",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak English.",
+      "They all speak Upper Guinea Creole.",
+      "They all speak Norwegian Bokmål.",
+      "They all speak Lingala."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Saint Kitts and Nevis, Dominica, Belize all speak English.",
+    "countryId": "kn",
+    "subjectIds": [
+      "kn",
+      "dm",
+      "bz"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-lc",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -46051,6 +49939,33 @@
     "correctAnswer": "vc",
     "explanation": "Saint Vincent and the Grenadines is the closest to Saint Lucia of these four.",
     "countryId": "lc",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-lc",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in North America.",
+      "They are all in Africa.",
+      "They are all in Asia.",
+      "They are all in Oceania."
+    ],
+    "correctAnswer": "They are all in North America.",
+    "explanation": "Saint Lucia, Belize, Dominican Republic are all in North America.",
+    "countryId": "lc",
+    "subjectIds": [
+      "lc",
+      "bz",
+      "do"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -46356,6 +50271,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-vc",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all use the Libyan dinar.",
+      "They all use the Colombian peso.",
+      "They all use the Eastern Caribbean dollar.",
+      "They all use the Guatemalan quetzal."
+    ],
+    "correctAnswer": "They all use the Eastern Caribbean dollar.",
+    "explanation": "Saint Vincent and the Grenadines, Saint Lucia, Saint Kitts and Nevis all use the Eastern Caribbean dollar.",
+    "countryId": "vc",
+    "subjectIds": [
+      "vc",
+      "lc",
+      "kn"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-ws",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -46653,6 +50595,33 @@
     "correctAnswer": "to",
     "explanation": "Tonga is the closest to Samoa of these four.",
     "countryId": "ws",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-ws",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Hindi.",
+      "They all speak Japanese.",
+      "They all speak Fijian.",
+      "They all speak English."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Samoa, Botswana, Eritrea all speak English.",
+    "countryId": "ws",
+    "subjectIds": [
+      "ws",
+      "bw",
+      "er"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -46959,6 +50928,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-sm",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in Europe.",
+      "They are all in North America.",
+      "They are all in South America."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "San Marino, Finland, Liechtenstein are all in Europe.",
+    "countryId": "sm",
+    "subjectIds": [
+      "sm",
+      "fi",
+      "li"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-st",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -47256,6 +51252,33 @@
     "correctAnswer": "gq",
     "explanation": "Equatorial Guinea is the closest to São Tomé and Príncipe of these four.",
     "countryId": "st",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-st",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Portuguese.",
+      "They all speak Swazi.",
+      "They all speak Maldivian.",
+      "They all speak Ndonga."
+    ],
+    "correctAnswer": "They all speak Portuguese.",
+    "explanation": "São Tomé and Príncipe, Cape Verde, Equatorial Guinea all speak Portuguese.",
+    "countryId": "st",
+    "subjectIds": [
+      "st",
+      "cv",
+      "gq"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -47587,6 +51610,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-sa",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Bislama.",
+      "They all speak Arabic.",
+      "They all speak Armenian.",
+      "They all speak Bengali."
+    ],
+    "correctAnswer": "They all speak Arabic.",
+    "explanation": "Saudi Arabia, Djibouti, Yemen all speak Arabic.",
+    "countryId": "sa",
+    "subjectIds": [
+      "sa",
+      "dj",
+      "ye"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-sn",
     "type": "flag-detective",
     "difficulty": "hard",
@@ -47908,6 +51958,33 @@
     "correctAnswer": "sl",
     "explanation": "Sierra Leone is the closest to Senegal of these four.",
     "countryId": "sn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-sn",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in Oceania.",
+      "They are all in Africa.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Senegal, Liberia, Eswatini are all in Africa.",
+    "countryId": "sn",
+    "subjectIds": [
+      "sn",
+      "lr",
+      "sz"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -48239,6 +52316,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-rs",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Europe.",
+      "They are all in Oceania.",
+      "They are all in North America.",
+      "They are all in South America."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Serbia, Bosnia and Herzegovina, Ireland are all in Europe.",
+    "countryId": "rs",
+    "subjectIds": [
+      "rs",
+      "ba",
+      "ie"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-sc",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -48536,6 +52640,33 @@
     "correctAnswer": "km",
     "explanation": "Comoros is the closest to Seychelles of these four.",
     "countryId": "sc",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-sc",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Amharic.",
+      "They all speak Albanian.",
+      "They all speak Dzongkha.",
+      "They all speak English."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Seychelles, Nigeria, Papua New Guinea all speak English.",
+    "countryId": "sc",
+    "subjectIds": [
+      "sc",
+      "ng",
+      "pg"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -48867,6 +52998,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-sl",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in South America.",
+      "They are all in North America.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Sierra Leone, Eswatini, Kenya are all in Africa.",
+    "countryId": "sl",
+    "subjectIds": [
+      "sl",
+      "sz",
+      "ke"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-sg",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -49164,6 +53322,33 @@
     "correctAnswer": "my",
     "explanation": "Malaysia is the closest to Singapore of these four.",
     "countryId": "sg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-sg",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak German.",
+      "They all speak Burmese.",
+      "They all speak Dzongkha.",
+      "They all speak English."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Singapore, Australia, Fiji all speak English.",
+    "countryId": "sg",
+    "subjectIds": [
+      "sg",
+      "au",
+      "fj"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -49473,6 +53658,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-sk",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Oceania.",
+      "They are all in North America.",
+      "They are all in Africa.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Slovakia, Belgium, Monaco are all in Europe.",
+    "countryId": "sk",
+    "subjectIds": [
+      "sk",
+      "be",
+      "mc"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-si",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -49775,6 +53987,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-si",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in North America.",
+      "They are all in Africa.",
+      "They are all in Europe.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Slovenia, Hungary, Iceland are all in Europe.",
+    "countryId": "si",
+    "subjectIds": [
+      "si",
+      "hu",
+      "is"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-sb",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -50072,6 +54311,33 @@
     "correctAnswer": "nr",
     "explanation": "Nauru is the closest to Solomon Islands of these four.",
     "countryId": "sb",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-sb",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Southern Ndebele.",
+      "They all speak Afrikaans.",
+      "They all speak English.",
+      "They all speak Berber."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Solomon Islands, Trinidad and Tobago, Bahamas all speak English.",
+    "countryId": "sb",
+    "subjectIds": [
+      "sb",
+      "tt",
+      "bs"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -50403,6 +54669,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-so",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Hiri Motu.",
+      "They all speak Khoisan.",
+      "They all speak Vietnamese.",
+      "They all speak Arabic."
+    ],
+    "correctAnswer": "They all speak Arabic.",
+    "explanation": "Somalia, Algeria, Sudan all speak Arabic.",
+    "countryId": "so",
+    "subjectIds": [
+      "so",
+      "dz",
+      "sd"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-za",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -50730,6 +55023,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-za",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in Europe.",
+      "They are all in Africa.",
+      "They are all in Oceania."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "South Africa, Mali, Sudan are all in Africa.",
+    "countryId": "za",
+    "subjectIds": [
+      "za",
+      "ml",
+      "sd"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-kr",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -51049,6 +55369,33 @@
     "correctAnswer": "jp",
     "explanation": "Japan is the closest to South Korea of these four.",
     "countryId": "kr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-kr",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in Europe.",
+      "They are all in Oceania.",
+      "They are all in Africa."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "South Korea, Afghanistan, Tajikistan are all in Asia.",
+    "countryId": "kr",
+    "subjectIds": [
+      "kr",
+      "af",
+      "tj"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -51380,6 +55727,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ss",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Khoisan.",
+      "They all speak French.",
+      "They all speak Swazi.",
+      "They all speak English."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "South Sudan, Australia, Guyana all speak English.",
+    "countryId": "ss",
+    "subjectIds": [
+      "ss",
+      "au",
+      "gy"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-es",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -51703,6 +56077,33 @@
     "correctAnswer": "mc",
     "explanation": "Monaco is the closest to Spain of these four.",
     "countryId": "es",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-es",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in South America.",
+      "They are all in Europe.",
+      "They are all in North America.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Spain, Albania, United Kingdom are all in Europe.",
+    "countryId": "es",
+    "subjectIds": [
+      "es",
+      "al",
+      "gb"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -52034,6 +56435,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-lk",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Tamil.",
+      "They all speak Albanian.",
+      "They all speak Swazi.",
+      "They all speak Bulgarian."
+    ],
+    "correctAnswer": "They all speak Tamil.",
+    "explanation": "Sri Lanka, Singapore, India all speak Tamil.",
+    "countryId": "lk",
+    "subjectIds": [
+      "lk",
+      "sg",
+      "in"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-sd",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -52357,6 +56785,33 @@
     "correctAnswer": "dj",
     "explanation": "Djibouti is the closest to Sudan of these four.",
     "countryId": "sd",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-sd",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Dzongkha.",
+      "They all speak Catalan.",
+      "They all speak English.",
+      "They all speak Aymara."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Sudan, Kiribati, Grenada all speak English.",
+    "countryId": "sd",
+    "subjectIds": [
+      "sd",
+      "ki",
+      "gd"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -52688,6 +57143,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-sr",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in South America.",
+      "They are all in Africa.",
+      "They are all in North America.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in South America.",
+    "explanation": "Suriname, Guyana, Brazil are all in South America.",
+    "countryId": "sr",
+    "subjectIds": [
+      "sr",
+      "gy",
+      "br"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-se",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -53015,6 +57497,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-se",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in South America.",
+      "They are all in Europe.",
+      "They are all in Africa.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Sweden, Belgium, Austria are all in Europe.",
+    "countryId": "se",
+    "subjectIds": [
+      "se",
+      "be",
+      "at"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-ch",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -53316,6 +57825,33 @@
     "correctAnswer": "lu",
     "explanation": "Luxembourg is the closest to Switzerland of these four.",
     "countryId": "ch",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-ch",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Armenian.",
+      "They all speak Norwegian Nynorsk.",
+      "They all speak Italian.",
+      "They all speak Swedish."
+    ],
+    "correctAnswer": "They all speak Italian.",
+    "explanation": "Switzerland, San Marino, Italy all speak Italian.",
+    "countryId": "ch",
+    "subjectIds": [
+      "ch",
+      "sm",
+      "it"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -53647,6 +58183,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-sy",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in South America.",
+      "They are all in Asia.",
+      "They are all in Africa.",
+      "They are all in North America."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Syria, Brunei, Bahrain are all in Asia.",
+    "countryId": "sy",
+    "subjectIds": [
+      "sy",
+      "bn",
+      "bh"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-tj",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -53970,6 +58533,33 @@
     "correctAnswer": "tm",
     "explanation": "Turkmenistan is the closest to Tajikistan of these four.",
     "countryId": "tj",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-tj",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Turkish.",
+      "They all speak Comorian.",
+      "They all speak Kikongo.",
+      "They all speak Russian."
+    ],
+    "correctAnswer": "They all speak Russian.",
+    "explanation": "Tajikistan, Belarus, Turkmenistan all speak Russian.",
+    "countryId": "tj",
+    "subjectIds": [
+      "tj",
+      "by",
+      "tm"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -54301,6 +58891,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-tz",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Persian (Farsi).",
+      "They all speak Southern Sotho.",
+      "They all speak Afrikaans.",
+      "They all speak English."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Tanzania, Singapore, Sudan all speak English.",
+    "countryId": "tz",
+    "subjectIds": [
+      "tz",
+      "sg",
+      "sd"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-th",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -54628,6 +59245,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-th",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in South America.",
+      "They are all in North America.",
+      "They are all in Asia.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Thailand, Japan, Timor-Leste are all in Asia.",
+    "countryId": "th",
+    "subjectIds": [
+      "th",
+      "jp",
+      "tl"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-tl",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -54926,6 +59570,33 @@
     "correctAnswer": "bn",
     "explanation": "Brunei is the closest to Timor-Leste of these four.",
     "countryId": "tl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-tl",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all use the Jamaican dollar.",
+      "They all use the United States dollar.",
+      "They all use the South African rand.",
+      "They all use the Vanuatu vatu."
+    ],
+    "correctAnswer": "They all use the United States dollar.",
+    "explanation": "Timor-Leste, El Salvador, United States all use the United States dollar.",
+    "countryId": "tl",
+    "subjectIds": [
+      "tl",
+      "sv",
+      "us"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -55257,6 +59928,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-tg",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Luxembourgish.",
+      "They all speak Austro-Bavarian German.",
+      "They all speak French.",
+      "They all speak English."
+    ],
+    "correctAnswer": "They all speak French.",
+    "explanation": "Togo, Burkina Faso, Senegal all speak French.",
+    "countryId": "tg",
+    "subjectIds": [
+      "tg",
+      "bf",
+      "sn"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-to",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -55558,6 +60256,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-to",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Oceania.",
+      "They are all in Africa.",
+      "They are all in Asia.",
+      "They are all in North America."
+    ],
+    "correctAnswer": "They are all in Oceania.",
+    "explanation": "Tonga, Australia, Solomon Islands are all in Oceania.",
+    "countryId": "to",
+    "subjectIds": [
+      "to",
+      "au",
+      "sb"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-tt",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -55855,6 +60580,33 @@
     "correctAnswer": "gd",
     "explanation": "Grenada is the closest to Trinidad and Tobago of these four.",
     "countryId": "tt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-tt",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Croatian.",
+      "They all speak Burmese.",
+      "They all speak English.",
+      "They all speak Danish."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Trinidad and Tobago, New Zealand, Palau all speak English.",
+    "countryId": "tt",
+    "subjectIds": [
+      "tt",
+      "nz",
+      "pw"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -56186,6 +60938,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-tn",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Armenian.",
+      "They all speak Amharic.",
+      "They all speak Bulgarian.",
+      "They all speak Arabic."
+    ],
+    "correctAnswer": "They all speak Arabic.",
+    "explanation": "Tunisia, Djibouti, Libya all speak Arabic.",
+    "countryId": "tn",
+    "subjectIds": [
+      "tn",
+      "dj",
+      "ly"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-tr",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -56509,6 +61288,33 @@
     "correctAnswer": "cy",
     "explanation": "Cyprus is the closest to Türkiye of these four.",
     "countryId": "tr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-tr",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in North America.",
+      "They are all in Oceania.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Türkiye, Cambodia, Timor-Leste are all in Asia.",
+    "countryId": "tr",
+    "subjectIds": [
+      "tr",
+      "kh",
+      "tl"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -56840,6 +61646,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-tm",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Tamil.",
+      "They all speak German.",
+      "They all speak Russian.",
+      "They all speak Thai."
+    ],
+    "correctAnswer": "They all speak Russian.",
+    "explanation": "Turkmenistan, Azerbaijan, Kazakhstan all speak Russian.",
+    "countryId": "tm",
+    "subjectIds": [
+      "tm",
+      "az",
+      "kz"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-tv",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -57137,6 +61970,33 @@
     "correctAnswer": "fj",
     "explanation": "Fiji is the closest to Tuvalu of these four.",
     "countryId": "tv",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-tv",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Czech.",
+      "They all speak Khoekhoe.",
+      "They all speak Spanish.",
+      "They all speak English."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Tuvalu, Micronesia, Lesotho all speak English.",
+    "countryId": "tv",
+    "subjectIds": [
+      "tv",
+      "fm",
+      "ls"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -57468,6 +62328,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ug",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in North America.",
+      "They are all in Asia.",
+      "They are all in Africa.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Uganda, Mauritius, Liberia are all in Africa.",
+    "countryId": "ug",
+    "subjectIds": [
+      "ug",
+      "mu",
+      "lr"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-ua",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -57791,6 +62678,33 @@
     "correctAnswer": "bg",
     "explanation": "Bulgaria is the closest to Ukraine of these four.",
     "countryId": "ua",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-ua",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in South America.",
+      "They are all in Oceania.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "Ukraine, Monaco, Slovakia are all in Europe.",
+    "countryId": "ua",
+    "subjectIds": [
+      "ua",
+      "mc",
+      "sk"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -58122,6 +63036,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-ae",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Swazi.",
+      "They all speak Maldivian.",
+      "They all speak Indonesian.",
+      "They all speak Arabic."
+    ],
+    "correctAnswer": "They all speak Arabic.",
+    "explanation": "United Arab Emirates, Morocco, Eritrea all speak Arabic.",
+    "countryId": "ae",
+    "subjectIds": [
+      "ae",
+      "ma",
+      "er"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-gb",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -58445,6 +63386,33 @@
     "correctAnswer": "be",
     "explanation": "Belgium is the closest to United Kingdom of these four.",
     "countryId": "gb",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-gb",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Europe.",
+      "They are all in Oceania.",
+      "They are all in Asia.",
+      "They are all in South America."
+    ],
+    "correctAnswer": "They are all in Europe.",
+    "explanation": "United Kingdom, Ukraine, Belarus are all in Europe.",
+    "countryId": "gb",
+    "subjectIds": [
+      "gb",
+      "ua",
+      "by"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -58776,6 +63744,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-us",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all use the Egyptian pound.",
+      "They all use the Cape Verdean escudo.",
+      "They all use the United States dollar.",
+      "They all use the Cuban convertible peso."
+    ],
+    "correctAnswer": "They all use the United States dollar.",
+    "explanation": "United States, El Salvador, Palau all use the United States dollar.",
+    "countryId": "us",
+    "subjectIds": [
+      "us",
+      "sv",
+      "pw"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-uy",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -59099,6 +64094,33 @@
     "correctAnswer": "py",
     "explanation": "Paraguay is the closest to Uruguay of these four.",
     "countryId": "uy",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-uy",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Irish.",
+      "They all speak Greek.",
+      "They all speak Quechua.",
+      "They all speak Spanish."
+    ],
+    "correctAnswer": "They all speak Spanish.",
+    "explanation": "Uruguay, Belize, Chile all speak Spanish.",
+    "countryId": "uy",
+    "subjectIds": [
+      "uy",
+      "bz",
+      "cl"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -59430,6 +64452,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-uz",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Asia.",
+      "They are all in South America.",
+      "They are all in Oceania.",
+      "They are all in Europe."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Uzbekistan, Kuwait, Indonesia are all in Asia.",
+    "countryId": "uz",
+    "subjectIds": [
+      "uz",
+      "kw",
+      "id"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-vu",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -59727,6 +64776,33 @@
     "correctAnswer": "fj",
     "explanation": "Fiji is the closest to Vanuatu of these four.",
     "countryId": "vu",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-vu",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Hungarian.",
+      "They all speak Fiji Hindi.",
+      "They all speak English.",
+      "They all speak Tsonga."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Vanuatu, Antigua and Barbuda, United States all speak English.",
+    "countryId": "vu",
+    "subjectIds": [
+      "vu",
+      "ag",
+      "us"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -60029,6 +65105,33 @@
     "correctAnswer": "sm",
     "explanation": "San Marino is the closest to Vatican City of these four.",
     "countryId": "va",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-va",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Italian.",
+      "They all speak Turkish.",
+      "They all speak Samoan.",
+      "They all speak Belizean Creole."
+    ],
+    "correctAnswer": "They all speak Italian.",
+    "explanation": "Vatican City, San Marino, Switzerland all speak Italian.",
+    "countryId": "va",
+    "subjectIds": [
+      "va",
+      "sm",
+      "ch"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -60354,6 +65457,33 @@
     "correctAnswer": "tt",
     "explanation": "Trinidad and Tobago is the closest to Venezuela of these four.",
     "countryId": "ve",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-ve",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in South America.",
+      "They are all in Oceania.",
+      "They are all in North America.",
+      "They are all in Asia."
+    ],
+    "correctAnswer": "They are all in South America.",
+    "explanation": "Venezuela, Brazil, Bolivia are all in South America.",
+    "countryId": "ve",
+    "subjectIds": [
+      "ve",
+      "br",
+      "bo"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -60685,6 +65815,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-vn",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in North America.",
+      "They are all in Africa.",
+      "They are all in Asia.",
+      "They are all in South America."
+    ],
+    "correctAnswer": "They are all in Asia.",
+    "explanation": "Vietnam, Armenia, Turkmenistan are all in Asia.",
+    "countryId": "vn",
+    "subjectIds": [
+      "vn",
+      "am",
+      "tm"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-ye",
     "type": "flag-detective",
     "difficulty": "easy",
@@ -61008,6 +66165,33 @@
     "correctAnswer": "so",
     "explanation": "Somalia is the closest to Yemen of these four.",
     "countryId": "ye",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-ye",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak Māori.",
+      "They all speak Palauan.",
+      "They all speak Swedish.",
+      "They all speak Arabic."
+    ],
+    "correctAnswer": "They all speak Arabic.",
+    "explanation": "Yemen, Algeria, Chad all speak Arabic.",
+    "countryId": "ye",
+    "subjectIds": [
+      "ye",
+      "dz",
+      "td"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -61339,6 +66523,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "in-common-zm",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They are all in Africa.",
+      "They are all in Europe.",
+      "They are all in Asia.",
+      "They are all in South America."
+    ],
+    "correctAnswer": "They are all in Africa.",
+    "explanation": "Zambia, Guinea-Bissau, Madagascar are all in Africa.",
+    "countryId": "zm",
+    "subjectIds": [
+      "zm",
+      "gw",
+      "mg"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "flag-detective-flag-zw",
     "type": "flag-detective",
     "difficulty": "medium",
@@ -61662,6 +66873,33 @@
     "correctAnswer": "sz",
     "explanation": "Eswatini is the closest to Zimbabwe of these four.",
     "countryId": "zw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "in-common-zw",
+    "type": "in-common",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13"
+    ],
+    "topic": "reasoning",
+    "prompt": "What do these three countries have in common?",
+    "options": [
+      "They all speak English.",
+      "They all speak Aymara.",
+      "They all speak Arabic.",
+      "They all speak Norwegian Nynorsk."
+    ],
+    "correctAnswer": "They all speak English.",
+    "explanation": "Zimbabwe, Nigeria, Kiribati all speak English.",
+    "countryId": "zw",
+    "subjectIds": [
+      "zw",
+      "ng",
+      "ki"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },

@@ -17,7 +17,8 @@ export function optionKind(question: Question): OptionKind {
     case 'continent-challenge':
     case 'good-to-know':
     case 'find-the-lie':
-      // Language / currency / dialing code / domain / true-false statements — plain text.
+    case 'in-common':
+      // Language / currency / dialing code / domain / statement options — plain text.
       return 'text';
     case 'odd-one-out':
       // Options are the countries themselves; show their names.

@@ -81,6 +81,13 @@ export const GAME_MODE_META: GameModeMeta[] = [
     blurb: 'Which country is nearest to another?',
     mapBased: false,
   },
+  {
+    mode: 'in-common',
+    title: 'In Common',
+    icon: '🔗',
+    blurb: 'What do these countries share?',
+    mapBased: false,
+  },
 ];
 
 export function getGameModeMeta(mode: string): GameModeMeta | undefined {

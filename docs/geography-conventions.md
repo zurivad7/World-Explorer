@@ -78,6 +78,12 @@ partly in Europe and partly in Asia") without making it the quiz answer.
   time from country data — never fabricated. They are `medium` difficulty (ages 8+).
 - Odd One Out rotates through **continent / currency / language / hemisphere**
   traits (landlocked/coast is only a rare fallback), so the questions stay varied.
+- **In Common** shows three countries (their flags via `subjectIds`) and asks what
+  they share. Exactly one option is true of all three (they share a continent,
+  currency, or language); the three distractors are statements **guaranteed false**
+  for every country in the group — a continent none is in, a currency none uses, or
+  a language none speaks — so there is always a single correct answer. The trait is
+  rotated by index for variety. Uses the **reasoning** topic, `medium` difficulty.
 
 ## Distance (LOCATE pillar)
 
