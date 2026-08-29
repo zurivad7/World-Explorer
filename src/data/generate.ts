@@ -118,6 +118,175 @@ function mapDifficulty(hint?: Pick<CountrySource, 'mapSize' | 'similarFlag'>): D
   return 'medium';
 }
 
+const northern = (c: Country): boolean => (c.latlng ? c.latlng[0] >= 0 : true);
+
+/**
+ * "Odd One Out": three countries share one clear trait and `c` does not, so `c`
+ * is the intended answer. Traits rotate (continent / landlocked / hemisphere) with
+ * a continent fallback, and the explanation always states the intended grouping.
+ */
+function makeOddOneOut(c: Country, countries: Country[], index: number): Question | null {
+  const pool = seededShuffle(
+    countries.filter((x) => x.id !== c.id),
+    `odd-${c.id}`
+  );
+  let group: Country[] = [];
+  let explanation = '';
+
+  const trait = index % 3;
+  if (trait === 1) {
+    // Landlocked vs sea coast — three of the opposite kind to c.
+    const want = !c.landlocked;
+    group = pool.filter((x) => x.landlocked === want).slice(0, 3);
+    if (group.length === 3) {
+      explanation = want
+        ? `${group.map((g) => g.name).join(', ')} are all landlocked, but ${c.name} has a sea coast.`
+        : `${group.map((g) => g.name).join(', ')} all have a sea coast, but ${c.name} is landlocked.`;
+    }
+  } else if (trait === 2 && c.latlng) {
+    // Hemisphere — three in the opposite half of the world to c.
+    const cNorth = northern(c);
+    group = pool.filter((x) => x.latlng && northern(x) !== cNorth).slice(0, 3);
+    if (group.length === 3) {
+      explanation = cNorth
+        ? `${group.map((g) => g.name).join(', ')} are all south of the equator, but ${c.name} is north of it.`
+        : `${group.map((g) => g.name).join(', ')} are all north of the equator, but ${c.name} is south of it.`;
+    }
+  }
+
+  if (group.length < 3) {
+    // Fallback: three countries from a single continent that is not c's.
+    const continents = seededShuffle(
+      [...new Set(pool.map((x) => x.continent))].filter((k) => k !== c.continent),
+      `odd-cont-${c.id}`
+    );
+    for (const continent of continents) {
+      const g = pool.filter((x) => x.continent === continent).slice(0, 3);
+      if (g.length === 3) {
+        group = g;
+        explanation = `${g.map((x) => x.name).join(', ')} are all in ${continent}, but ${c.name} is in ${c.continent}.`;
+        break;
+      }
+    }
+  }
+
+  if (group.length < 3) return null;
+  const options = seededShuffle([c.id, ...group.map((g) => g.id)], `odd-opt-${c.id}`);
+  return {
+    id: `odd-one-out-${c.id}`,
+    type: 'odd-one-out',
+    difficulty: 'medium',
+    ageBands: ageBands('medium'),
+    topic: 'reasoning',
+    prompt: 'Three of these belong together. Which is the odd one out?',
+    options,
+    correctAnswer: c.id,
+    explanation,
+    countryId: c.id,
+    active: true,
+    source: SOURCE,
+  };
+}
+
+type FactCategory = 'capital' | 'continent' | 'coast' | 'border' | 'currency';
+interface Fact {
+  text: string;
+  cat: FactCategory;
+}
+interface FalseFact extends Fact {
+  why: string;
+}
+
+/**
+ * "Find the Lie" (two truths and a lie): two verifiable true statements about `c`
+ * plus one false one; the player picks the false statement. The lie is always about
+ * a *different* attribute than the two truths (so a true "capital is Paris" never
+ * sits beside a false "capital is …"), and every lie carries its correction.
+ */
+function makeFindTheLie(
+  c: Country,
+  countries: Country[],
+  byId: Map<string, Country>,
+  index: number
+): Question | null {
+  const trueFacts: Fact[] = [
+    { text: `${c.name}'s capital city is ${c.capital}.`, cat: 'capital' },
+    { text: `${c.name} is in ${c.continent}.`, cat: 'continent' },
+    {
+      text: c.landlocked ? `${c.name} is landlocked, with no sea coast.` : `${c.name} has a sea coast.`,
+      cat: 'coast',
+    },
+  ];
+  const neighbourName = c.neighbours.map((n) => byId.get(n)?.name).find(Boolean);
+  if (neighbourName) {
+    trueFacts.push({ text: `${c.name} shares a land border with ${neighbourName}.`, cat: 'border' });
+  }
+  if (c.currency) trueFacts.push({ text: `${c.name} uses the ${c.currency.name}.`, cat: 'currency' });
+
+  const others = pickDistractors(c, countries, 5, index);
+  const falseFacts: FalseFact[] = [];
+  const wrongCapital = others.find((o) => o.capital !== c.capital)?.capital;
+  if (wrongCapital) {
+    falseFacts.push({
+      text: `${c.name}'s capital city is ${wrongCapital}.`,
+      why: `${c.name}'s capital is actually ${c.capital}.`,
+      cat: 'capital',
+    });
+  }
+  const wrongContinent = seededShuffle(
+    [...new Set(countries.map((x) => x.continent))].filter((k) => k !== c.continent),
+    `lie-cont-${c.id}`
+  )[0];
+  if (wrongContinent) {
+    falseFacts.push({
+      text: `${c.name} is in ${wrongContinent}.`,
+      why: `${c.name} is actually in ${c.continent}.`,
+      cat: 'continent',
+    });
+  }
+  const nonNeighbour = others.find((o) => o.id !== c.id && !c.neighbours.includes(o.id));
+  if (nonNeighbour) {
+    falseFacts.push({
+      text: `${c.name} shares a land border with ${nonNeighbour.name}.`,
+      why: `${c.name} does not share a land border with ${nonNeighbour.name}.`,
+      cat: 'border',
+    });
+  }
+  falseFacts.push(
+    c.landlocked
+      ? { text: `${c.name} has a long sea coast.`, why: `${c.name} is actually landlocked.`, cat: 'coast' }
+      : {
+          text: `${c.name} is landlocked, with no sea coast.`,
+          why: `${c.name} actually has a sea coast.`,
+          cat: 'coast',
+        }
+  );
+
+  const trues = seededShuffle(trueFacts, `lie-true-${c.id}`).slice(0, 2);
+  if (trues.length < 2) return null;
+  const usedCats = new Set(trues.map((t) => t.cat));
+  const lie =
+    seededShuffle(falseFacts, `lie-false-${c.id}`).find((f) => !usedCats.has(f.cat)) ?? null;
+  if (!lie) return null;
+  const optionSet = [...trues.map((t) => t.text), lie.text];
+  if (new Set(optionSet).size !== optionSet.length) return null; // guard against a coincidental clash
+  const options = seededShuffle(optionSet, `lie-opt-${c.id}`);
+  return {
+    id: `find-the-lie-${c.id}`,
+    type: 'find-the-lie',
+    difficulty: 'medium',
+    ageBands: ageBands('medium'),
+    topic: 'reasoning',
+    prompt: `Two of these facts about ${c.name} are true and one is false. Which one is the lie?`,
+    options,
+    correctAnswer: lie.text,
+    explanation: lie.why,
+    countryId: c.id,
+    active: true,
+    source: SOURCE,
+  };
+}
+
 export function generateQuestions(inputs: GeneratorInputs): Question[] {
   const { countries, hints, templates, trickyCapitals, shapeCountryIds } = inputs;
   const questions: Question[] = [];
@@ -450,6 +619,12 @@ export function generateQuestions(inputs: GeneratorInputs): Question[] {
         });
       }
     }
+
+    // --- Reasoning (THINK pillar): odd-one-out and two-truths-and-a-lie ---
+    const odd = makeOddOneOut(c, countries, index);
+    if (odd) questions.push(odd);
+    const lie = makeFindTheLie(c, countries, byId, index);
+    if (lie) questions.push(lie);
   });
 
   // --- Flag Builder: order the colour bands (only for templated flags) ---

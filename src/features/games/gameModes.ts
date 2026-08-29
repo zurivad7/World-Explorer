@@ -60,6 +60,20 @@ export const GAME_MODE_META: GameModeMeta[] = [
     blurb: 'Name the country from its outline.',
     mapBased: false,
   },
+  {
+    mode: 'odd-one-out',
+    title: 'Odd One Out',
+    icon: '🚫',
+    blurb: 'Spot the country that does not belong.',
+    mapBased: false,
+  },
+  {
+    mode: 'find-the-lie',
+    title: 'Find the Lie',
+    icon: '🕵️‍♀️',
+    blurb: 'Two facts are true, one is false.',
+    mapBased: false,
+  },
 ];
 
 export function getGameModeMeta(mode: string): GameModeMeta | undefined {

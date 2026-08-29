@@ -65,6 +65,18 @@ partly in Europe and partly in Asia") without making it the quiz answer.
   Used only as teachable distractors in the capital quiz. The generator drops any
   entry that equals the real capital, so a correct answer is never offered twice.
 
+## Reasoning games (THINK pillar)
+
+- **Odd One Out** shows four countries where three share one clear trait
+  (continent, landlocked/coast, or hemisphere) and one does not; the explanation
+  always states the intended grouping, since alternative groupings can exist.
+- **Find the Lie** (two truths and a lie) shows two verifiable true statements and
+  one false one about a country. The lie is always about a **different** attribute
+  than the two truths (so a true "capital is X" never sits beside a false capital
+  claim), and each lie is generated from real data with its correction shown.
+- Both use the **reasoning** topic and are generated deterministically at build
+  time from country data — never fabricated. They are `medium` difficulty (ages 8+).
+
 ## Country shapes (Shape Detective)
 
 - The **Shape Detective** game shows a country's outline only — no basemap, labels

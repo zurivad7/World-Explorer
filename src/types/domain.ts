@@ -47,7 +47,9 @@ export type GameMode =
   | 'geography-detective'
   | 'flag-builder'
   | 'good-to-know'
-  | 'shape-detective';
+  | 'shape-detective'
+  | 'odd-one-out'
+  | 'find-the-lie';
 
 export const GAME_MODES: readonly GameMode[] = [
   'flag-detective',
@@ -58,10 +60,20 @@ export const GAME_MODES: readonly GameMode[] = [
   'flag-builder',
   'good-to-know',
   'shape-detective',
+  'odd-one-out',
+  'find-the-lie',
 ] as const;
 
 /** A learning topic used for mastery tracking and question selection (PRD §10). */
-export type Topic = 'flags' | 'capitals' | 'continents' | 'location' | 'clues' | 'facts' | 'shapes';
+export type Topic =
+  | 'flags'
+  | 'capitals'
+  | 'continents'
+  | 'location'
+  | 'clues'
+  | 'facts'
+  | 'shapes'
+  | 'reasoning';
 
 /**
  * Metadata about the provenance of a factual record. Every factual content
