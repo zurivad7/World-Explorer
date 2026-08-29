@@ -52,6 +52,21 @@ export function isMapQuestion(question: Question): boolean {
   return question.type === 'map-find-it';
 }
 
+/** "Select all that apply" question — the answer is a *set* of options, not one. */
+export function isMultiSelect(question: Question): boolean {
+  return question.type === 'border-battle';
+}
+
+/** The option ids that make up the correct set for a multi-select question. */
+export function multiSelectCorrectIds(question: Question): string[] {
+  return question.correctAnswer ? question.correctAnswer.split('+') : [];
+}
+
+/** Encode a set of chosen option ids into the canonical answer string (sorted, joined). */
+export function encodeSelection(ids: Iterable<string>): string {
+  return [...ids].sort().join('+');
+}
+
 /** Display colours for Flag Builder swatches. */
 export const COLOUR_HEX: Record<string, string> = {
   red: '#d7141a',

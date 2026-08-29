@@ -101,6 +101,20 @@ partly in Europe and partly in Asia") without making it the quiz answer.
   the three distractors are spread across clearly-further countries so the nearest
   is unambiguous. Uses the **location** topic.
 
+## Borders (LOCATE pillar) — multi-select
+
+- **Border Battle** is the first *select-all-that-apply* game: given an anchor
+  country, pick **every** option that shares a land border with it. Each question
+  has five options — up to three real neighbours plus same-continent non-neighbours,
+  always with at least one of each — so it is a genuine multi-select.
+- The answer is stored as a **canonical set**: the neighbour option ids sorted and
+  joined with `+` (see `encodeSelection`). The player's picks are encoded the same
+  way, so the existing single-string answer engine scores the set by plain equality —
+  no special-casing in the engine. The content validator (`validate.ts`) knows
+  `border-battle` answers are sets and checks each id is one of the options.
+- Only countries with at least one land neighbour get a question (island nations are
+  skipped). Uses the **location** topic, `medium` difficulty (ages 8+).
+
 ## Country shapes (Shape Detective)
 
 - The **Shape Detective** game shows a country's outline only — no basemap, labels

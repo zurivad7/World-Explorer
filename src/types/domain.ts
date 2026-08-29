@@ -51,7 +51,8 @@ export type GameMode =
   | 'odd-one-out'
   | 'find-the-lie'
   | 'closest-country'
-  | 'in-common';
+  | 'in-common'
+  | 'border-battle';
 
 export const GAME_MODES: readonly GameMode[] = [
   'flag-detective',
@@ -66,6 +67,7 @@ export const GAME_MODES: readonly GameMode[] = [
   'find-the-lie',
   'closest-country',
   'in-common',
+  'border-battle',
 ] as const;
 
 /** A learning topic used for mastery tracking and question selection (PRD §10). */

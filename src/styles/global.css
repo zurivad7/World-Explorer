@@ -839,6 +839,36 @@ body {
   cursor: default;
 }
 
+/* Multi-select (Border Battle): a picked-but-not-yet-checked option, and a badge that
+   shows selection with a ✓ so it does not rely on colour alone. */
+.quiz-option--selected {
+  border-color: var(--color-primary);
+  background: var(--color-primary-bg, var(--color-surface));
+  box-shadow: var(--shadow);
+}
+
+.quiz-option--selected::after {
+  content: '✓';
+  position: absolute;
+  top: -10px;
+  right: -8px;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 900;
+  box-shadow: var(--shadow-sm);
+}
+
+.quiz-check {
+  margin-top: 4px;
+}
+
 .swatch-row {
   display: inline-flex;
   border-radius: 6px;

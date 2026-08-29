@@ -88,6 +88,13 @@ export const GAME_MODE_META: GameModeMeta[] = [
     blurb: 'What do these countries share?',
     mapBased: false,
   },
+  {
+    mode: 'border-battle',
+    title: 'Border Battle',
+    icon: '🧭',
+    blurb: 'Pick every neighbour that shares a border.',
+    mapBased: false,
+  },
 ];
 
 export function getGameModeMeta(mode: string): GameModeMeta | undefined {
