@@ -2,7 +2,8 @@ name: Deploy to GitHub Pages
 
 # Builds the app and publishes it to GitHub Pages on every push to main.
 # One-time setup: repo Settings → Pages → Build and deployment → Source: "GitHub Actions".
-# The app is served under a sub-path (/World-Explorer/), set via PAGES_BASE.
+# Served at the apex custom domain worldexplorer.cc (see public/CNAME), so the base
+# path is the root "/". (For the github.io sub-path it would be "/World-Explorer/".)
 
 on:
   push:
@@ -33,7 +34,7 @@ jobs:
       - run: npm ci
       - name: Build
         env:
-          PAGES_BASE: /World-Explorer/
+          PAGES_BASE: /
         run: npm run build
       - name: Validate content
         run: npm run validate:content
