@@ -77,6 +77,15 @@ describe('selectionScore — adaptivity (AC-10)', () => {
     expect(selectionScore(hard, strong)).toBeGreaterThan(selectionScore(easy, strong));
   });
 
+  it('the expert tier prefers hard questions regardless of mastery', () => {
+    // A fresh expert (mastery at the default, which would otherwise target "medium")
+    // should still rank a hard question above an easy one.
+    const expert = { ageBand: 'expert' as AgeBand };
+    const easy = q({ topic: 'capitals', difficulty: 'easy', ageBands: ['expert'] });
+    const hard = q({ topic: 'capitals', difficulty: 'hard', ageBands: ['expert'] });
+    expect(selectionScore(hard, expert)).toBeGreaterThan(selectionScore(easy, expert));
+  });
+
   it('prioritises weaker topics when difficulty fit is equal', () => {
     const progress = new Map([
       [topicKey('flags'), { ...createProgress(topicKey('flags')), masteryScore: 20 }],

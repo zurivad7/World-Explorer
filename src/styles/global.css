@@ -191,6 +191,34 @@ body {
   gap: 14px;
 }
 
+/* ---- Pillar sections group the game cards (KNOW / LOCATE / DISCOVER / THINK / COMPETE) ---- */
+.pillar {
+  margin-top: 22px;
+}
+
+.pillar__heading {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+}
+
+.pillar__icon {
+  font-size: 1.2rem;
+}
+
+.pillar__title {
+  font-weight: 800;
+}
+
+.pillar__blurb {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--color-muted, inherit);
+}
+
 .tile,
 .game-card {
   display: flex;

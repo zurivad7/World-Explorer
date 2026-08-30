@@ -1,4 +1,4 @@
-import type { GameMode, Question } from '@/types';
+import type { AgeBand, GameMode, Question } from '@/types';
 import { seededShuffle } from './random';
 
 /**
@@ -20,14 +20,22 @@ export function localDateKey(date: Date = new Date()): string {
 /**
  * Pick `count` questions for the given day, spread across game modes. Round-robins
  * one question per mode (in a day-seeded mode order) before taking a second from
- * any mode, so a short daily set samples different games.
+ * any mode, so a short daily set samples different games — now including every newer
+ * mode (reasoning, distance, borders, …) since it draws from the whole bank.
+ *
+ * When `ageBand` is given the pool is first filtered to age-appropriate questions,
+ * so a younger player's daily never surfaces a harder-tier question (and an expert's
+ * daily leans hard). The set stays deterministic per day (and per age band).
  */
 export function dailyChallengeQuestions(
   pool: readonly Question[],
   dateKey: string = localDateKey(),
-  count = 5
+  count = 5,
+  ageBand?: AgeBand
 ): Question[] {
-  const active = pool.filter((q) => q.active);
+  const active = pool.filter(
+    (q) => q.active && (ageBand === undefined || q.ageBands.includes(ageBand))
+  );
   if (active.length === 0) return [];
 
   const byMode = new Map<GameMode, Question[]>();

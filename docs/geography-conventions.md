@@ -115,6 +115,34 @@ partly in Europe and partly in Asia") without making it the quiz answer.
 - Only countries with at least one land neighbour get a question (island nations are
   skipped). Uses the **location** topic, `medium` difficulty (ages 8+).
 
+## Difficulty tiers and the Expert (grown-up) band
+
+- Players pick a band at onboarding: **5–7**, **8–10**, **11–13**, or **Expert**
+  (grown-up). A question's `ageBands` come from its difficulty (`AGE_BY_DIFFICULTY`
+  in `generate.ts`): easy → 5–7/8–10, medium → 8–10/11–13, hard → 11–13. **Expert is
+  eligible for every difficulty** so all game modes have content for it.
+- The adaptive selector (`selection.ts`) normally targets the difficulty band the
+  player's mastery has reached. **Expert always targets `hard`**, so where a mode has
+  hard questions they dominate an expert's session, while easy-only modes still work.
+
+## The five pillars (Game Hub organisation)
+
+- Every standalone game belongs to exactly one learning pillar
+  (`gameModes.ts`): **KNOW** (flags, capitals, facts), **LOCATE** (map, distance,
+  borders), **DISCOVER** (recognise countries by shape), **THINK** (reasoning
+  puzzles), **COMPETE** (scored/wager play). The Game Hub renders one section per
+  pillar so the growing set of cards stays scannable. `good-to-know` has no card —
+  it only feeds the per-country quiz and the daily challenge.
+
+## Daily Challenge (universal + age-appropriate)
+
+- The daily draws from the **whole** question bank and round-robins across game
+  modes, so it now samples every newer mode (reasoning, distance, borders, in-common)
+  automatically. It is deterministic per calendar day.
+- When a player's age band is passed, the daily first filters to age-appropriate
+  questions, so a younger player never gets a harder-tier question and an expert's
+  daily leans hard. The set stays deterministic per day *and* per band.
+
 ## Scoring games (COMPETE pillar)
 
 - **Bet Your Knowledge** is a *wager layer* over ordinary questions, not its own

@@ -40,7 +40,9 @@ export function selectionScore(question: Question, ctx: SelectionContext): numbe
   if (ctx.recentQuestionIds?.has(question.id)) return -Infinity;
 
   const mastery = topicMastery(question.topic, ctx);
-  const target = difficultyForMastery(mastery);
+  // The expert (grown-up) tier always targets the hardest questions; everyone else
+  // is matched to the difficulty band their current mastery has reached.
+  const target: Difficulty = ctx.ageBand === 'expert' ? 'hard' : difficultyForMastery(mastery);
   const distance = Math.abs(DIFFICULTY_ORDER[question.difficulty] - DIFFICULTY_ORDER[target]);
   const difficultyFit = 1 - distance / 2; // 1 when matched, 0.5 adjacent, 0 far
 

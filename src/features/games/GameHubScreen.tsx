@@ -4,7 +4,7 @@ import { paths } from '@/app/routes';
 import { useProfile } from '@/app/providers/ProfileProvider';
 import { useProgress } from '@/app/providers/ProgressProvider';
 import { localDateKey } from '@/lib/game-engine';
-import { GAME_MODE_META } from './gameModes';
+import { PILLAR_META, gameModesForPillar } from './gameModes';
 import { isSpeedRunAllowed } from './speedrun/age';
 
 /** S05 Game Hub — six game cards + daily challenge + Speed Run (PRD §13). */
@@ -42,17 +42,32 @@ export function GameHubScreen() {
         </Link>
       ) : null}
 
-      <div className="card-grid">
-        {GAME_MODE_META.map((meta) => (
-          <Link key={meta.mode} to={paths.game(meta.mode)} className="game-card">
-            <span className="game-card__icon" aria-hidden="true">
-              {meta.icon}
-            </span>
-            <span className="game-card__title">{meta.title}</span>
-            <span className="game-card__blurb">{meta.blurb}</span>
-          </Link>
-        ))}
-      </div>
+      {PILLAR_META.map((pillar) => {
+        const modes = gameModesForPillar(pillar.pillar);
+        if (modes.length === 0) return null;
+        return (
+          <section key={pillar.pillar} className="pillar" aria-label={pillar.title}>
+            <h2 className="pillar__heading">
+              <span className="pillar__icon" aria-hidden="true">
+                {pillar.icon}
+              </span>
+              <span className="pillar__title">{pillar.title}</span>
+              <span className="pillar__blurb">{pillar.blurb}</span>
+            </h2>
+            <div className="card-grid">
+              {modes.map((meta) => (
+                <Link key={meta.mode} to={paths.game(meta.mode)} className="game-card">
+                  <span className="game-card__icon" aria-hidden="true">
+                    {meta.icon}
+                  </span>
+                  <span className="game-card__title">{meta.title}</span>
+                  <span className="game-card__blurb">{meta.blurb}</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        );
+      })}
     </Screen>
   );
 }

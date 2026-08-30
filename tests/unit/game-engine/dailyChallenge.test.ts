@@ -61,4 +61,16 @@ describe('dailyChallengeQuestions', () => {
   it('returns nothing for an empty pool', () => {
     expect(dailyChallengeQuestions([], '2026-08-22', 5)).toEqual([]);
   });
+
+  it('filters to age-appropriate questions when an age band is given', () => {
+    const younger: Question = { ...q('flag-detective'), id: 'young', ageBands: ['5-7'] };
+    const older: Question = { ...q('flag-detective'), id: 'old', ageBands: ['11-13'] };
+    const mixed = [younger, older];
+    const forYoung = dailyChallengeQuestions(mixed, '2026-08-22', 5, '5-7').map((x) => x.id);
+    expect(forYoung).toContain('young');
+    expect(forYoung).not.toContain('old');
+    // Without an age band, both are eligible.
+    const all = dailyChallengeQuestions(mixed, '2026-08-22', 5).map((x) => x.id);
+    expect(all.sort()).toEqual(['old', 'young']);
+  });
 });

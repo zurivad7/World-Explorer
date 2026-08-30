@@ -25,9 +25,13 @@ export const CONTINENTS: readonly Continent[] = [
   'South America',
 ] as const;
 
-export type AgeBand = '5-7' | '8-10' | '11-13';
+/**
+ * Player age/skill band. `expert` is not a childhood age range — it is the
+ * grown-up / expert tier that surfaces the hardest questions (PRD §10, adult play).
+ */
+export type AgeBand = '5-7' | '8-10' | '11-13' | 'expert';
 
-export const AGE_BANDS: readonly AgeBand[] = ['5-7', '8-10', '11-13'] as const;
+export const AGE_BANDS: readonly AgeBand[] = ['5-7', '8-10', '11-13', 'expert'] as const;
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
