@@ -1,4 +1,4 @@
-import type { AgeBand, Country, Difficulty, Question } from '@/types';
+import { AGE_BANDS, type AgeBand, type Country, type Difficulty, type Question } from '@/types';
 import type { CountrySource } from './countries/source';
 import type { FlagTemplate } from './flags/templates';
 
@@ -797,7 +797,10 @@ export function generateQuestions(inputs: GeneratorInputs): Question[] {
         id: `continent-challenge-${c.id}`,
         type: 'continent-challenge',
         difficulty: 'easy',
-        ageBands: ageBands('easy'),
+        // Naming a country's continent is a fundamental skill every band should be
+        // able to practise, so it is offered to all ages (not just the easy tier's
+        // 5–7 / 8–10) — the adaptive selector still ranks it by mastery.
+        ageBands: [...AGE_BANDS],
         topic: 'continents',
         prompt: `Which continent is ${c.name} in?`,
         options,
