@@ -18,17 +18,46 @@ Vitest + React Testing Library + Playwright · ESLint + Prettier.
 
 Local-first and privacy-conscious: no backend, no accounts, no ads, no tracking.
 
-## Live preview
+## Live site
+
+**https://worldexplorer.cc**
 
 Pushes to `main` auto-deploy to GitHub Pages via
-[`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml):
+[`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml). One-time
+setup: in the repo, **Settings → Pages → Build and deployment → Source: "GitHub
+Actions"**. After that, each push to `main` publishes automatically.
 
-**https://zurivad7.github.io/World-Explorer/**
+The site is served at the apex custom domain, so the build uses `PAGES_BASE=/`
+(root base). The old `zurivad7.github.io/World-Explorer/` URL now redirects to
+`worldexplorer.cc` automatically — see [Custom domain](#custom-domain).
 
-One-time setup: in the repo, **Settings → Pages → Build and deployment → Source:
-"GitHub Actions"**. After that, each push to `main` publishes automatically. The
-app is served under the `/World-Explorer/` sub-path (configured via `PAGES_BASE`);
-for a commercial root-domain host, `base` defaults to `/`.
+## Custom domain
+
+The app is served at the apex domain **worldexplorer.cc**. Two things make that work,
+and both are already in place:
+
+- **[`public/CNAME`](public/CNAME)** contains `worldexplorer.cc`. Vite copies it into
+  `dist/`, so every Actions deploy re-asserts the custom domain in the published
+  artifact (an Actions deploy would otherwise drop the Pages custom-domain setting).
+- The deploy workflow builds with **`PAGES_BASE=/`** so assets, the SPA fallback, and
+  the PWA resolve from the domain root instead of `/World-Explorer/`.
+
+DNS (at the registrar) points the apex at GitHub Pages, **DNS-only (no proxy)**:
+
+| Type  | Host  | Value |
+| ----- | ----- | ----- |
+| A     | `@`   | `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` |
+| AAAA  | `@`   | `2606:50c0:8000::153`, `…:8001::153`, `…:8002::153`, `…:8003::153` |
+| CNAME | `www` | `zurivad7.github.io` |
+
+Then **Settings → Pages → Custom domain** = `worldexplorer.cc` with **Enforce HTTPS**
+on. GitHub issues the TLS certificate and redirects both `www` → apex and the old
+`github.io` URL → `worldexplorer.cc`.
+
+To move to a **different** domain: change `public/CNAME` and the registrar's DNS,
+keep `PAGES_BASE=/`, and update the Pages custom-domain setting. To go back to the
+**github.io sub-path**: delete `public/CNAME`, set `PAGES_BASE=/World-Explorer/`, and
+clear the custom domain in Settings.
 
 ## Getting started
 

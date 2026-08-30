@@ -16,6 +16,31 @@ open questions to resolve. The product source of truth is [`docs/PRD.md`](docs/P
 | 6 Offline/PWA | ✅ Complete |
 | 7 QA | ⏳ Next |
 
+## Deployment & custom domain
+
+- **CI/CD** — every push to `main` runs [`.github/workflows/deploy-pages.yml`]
+  (`.github/workflows/deploy-pages.yml`): build → `validate:content` → upload artifact
+  → deploy to GitHub Pages. The build sets **`PAGES_BASE=/`** (root base) because the
+  site is served at an apex custom domain; Vite's `base` otherwise defaults to `/`.
+  The workflow also copies `index.html` → `404.html` (SPA fallback) and `touch`es
+  `.nojekyll`.
+- **Custom domain** — the app lives at **`worldexplorer.cc`**. [`public/CNAME`]
+  (`public/CNAME`) holds the domain and Vite copies it into `dist/`, so each Actions
+  deploy re-asserts the custom domain in the published artifact (an Actions deploy
+  would otherwise clear the Pages custom-domain setting).
+- **DNS** is at the registrar, **DNS-only (no proxy/CDN in front)** so GitHub can run
+  its domain check and issue the TLS cert: apex `@` → the four GitHub Pages `A`
+  records (`185.199.108–111.153`) and matching `AAAA` (`2606:50c0:8000–8003::153`),
+  plus `www` → `zurivad7.github.io` (CNAME). **Settings → Pages → Custom domain** =
+  `worldexplorer.cc`, **Enforce HTTPS** on.
+- **Redirects are automatic** — GitHub redirects `www` → apex and the old
+  `zurivad7.github.io/World-Explorer/` URL → `worldexplorer.cc`; no redirect code.
+- **Base-path coupling** — the custom domain and `PAGES_BASE` must change together:
+  an apex domain needs `/`, the `github.io/<repo>` sub-path needs `/World-Explorer/`.
+  The service worker's `navigateFallback` is `${base}index.html`, so it follows
+  whichever base is built. After switching base, hard-refresh once so the old SW does
+  not keep serving the previous base.
+
 ## Offline & PWA (Phase 6)
 
 - **Manifest & service worker** are provided by `vite-plugin-pwa` (`registerType:
