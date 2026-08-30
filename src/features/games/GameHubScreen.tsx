@@ -4,7 +4,8 @@ import { paths } from '@/app/routes';
 import { useProfile } from '@/app/providers/ProfileProvider';
 import { useProgress } from '@/app/providers/ProgressProvider';
 import { localDateKey } from '@/lib/game-engine';
-import { PILLAR_META, gameModesForPillar } from './gameModes';
+import { PILLAR_META } from './gameModes';
+import { availableGameModes } from './availability';
 import { isSpeedRunAllowed } from './speedrun/age';
 
 /** S05 Game Hub — six game cards + daily challenge + Speed Run (PRD §13). */
@@ -12,7 +13,11 @@ export function GameHubScreen() {
   const { profile } = useProfile();
   const { stats } = useProgress();
   const dailyDone = stats.lastDailyDate === localDateKey();
+  const ageBand = profile?.ageBand ?? '8-10';
   const showSpeedRun = isSpeedRunAllowed(profile?.ageBand);
+  // Only show cards the player's age band actually has questions for, so a card never
+  // opens to an empty "no questions" screen (QA — see availability.ts).
+  const available = availableGameModes(ageBand);
 
   return (
     <Screen title="Choose a game" subtitle="Pick a challenge and start exploring.">
@@ -43,7 +48,7 @@ export function GameHubScreen() {
       ) : null}
 
       {PILLAR_META.map((pillar) => {
-        const modes = gameModesForPillar(pillar.pillar);
+        const modes = available.filter((m) => m.pillar === pillar.pillar);
         if (modes.length === 0) return null;
         return (
           <section key={pillar.pillar} className="pillar" aria-label={pillar.title}>

@@ -14,7 +14,32 @@ open questions to resolve. The product source of truth is [`docs/PRD.md`](docs/P
 | 4 Games | ✅ Complete |
 | 5 Progress | ✅ Complete |
 | 6 Offline/PWA | ✅ Complete |
-| 7 QA | ⏳ Next |
+| 7 QA | ✅ Complete |
+
+## QA (Phase 7)
+
+A quality pass after the rapid Phase-A game additions.
+
+- **Dead-end Game Hub cards (fixed).** An availability audit found eight
+  card→age-band combinations that opened to a "no questions" screen: the `medium`
+  reasoning/advanced games (Odd One Out, Find the Lie, In Common, Border Battle,
+  Closest Country, Geography Detective, Flag Builder) have nothing for the **5–7**
+  band, and — a real content bug — **Continent Challenge was empty for 11–13**
+  because those questions are all `easy` (and the easy tier excludes 11–13).
+  - Continent Challenge is now offered to **every** band (`ageBands: [...AGE_BANDS]`
+    in the generator) since naming a country's continent is a fundamental skill.
+  - The hub only renders cards the player's age band has questions for
+    (`availableGameModes` in `src/features/games/availability.ts`), so no card is
+    ever a dead end. 5–7 sees the five basics (+ Bet + Daily); 8+ see all.
+  - Guarded by unit tests (`availability.test.ts`, run against the real bank) and an
+    e2e (5–7 does not see the reasoning cards).
+- **Content integrity** — a full scan of the 3,203 generated questions found zero
+  duplicate options, empty explanations, missing/decoy answers, empty age bands, or
+  malformed `subjectIds`; every mode has ≥12 questions.
+- **Accessibility** — every `<img>` carries an `alt` (decorative flags in lists use
+  `alt=""` so screen readers don't echo the adjacent country name).
+- **Gate** — typecheck, lint, `validate:content`, 158 unit tests, 42 e2e (Chromium +
+  mobile-safari), and the production PWA build all green.
 
 ## Deployment & custom domain
 
