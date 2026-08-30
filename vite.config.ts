@@ -9,10 +9,30 @@ import { VitePWA } from 'vite-plugin-pwa';
 // via the PAGES_BASE env var in the deploy workflow.
 const base = process.env.PAGES_BASE || '/';
 
+/**
+ * Injects the Cloudflare Web Analytics beacon into the built HTML — only when a token
+ * is provided (via CF_BEACON_TOKEN in the deploy workflow) and only for `vite build`,
+ * so dev and tests stay beacon-free. Cloudflare's beacon is cookieless, sets no
+ * storage, and collects no personal data — see README "Analytics".
+ */
+function cloudflareAnalytics() {
+  const token = process.env.CF_BEACON_TOKEN?.trim();
+  return {
+    name: 'cloudflare-web-analytics',
+    apply: 'build' as const,
+    transformIndexHtml(html: string) {
+      if (!token) return html;
+      const tag = `<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"${token}"}'></script>`;
+      return html.replace('</body>', `  ${tag}\n  </body>`);
+    },
+  };
+}
+
 export default defineConfig({
   base,
   plugins: [
     react(),
+    cloudflareAnalytics(),
     VitePWA({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'icons/apple-touch-icon.png'],

@@ -55,8 +55,9 @@ export function OnboardingScreen() {
       </label>
 
       <p className="safety-note">
-        No account needed. We don't ask for your name, location, or anything personal. Your progress
-        stays on this device.
+        No account, no sign-in, no cookies. We never ask for your name or anything personal, and
+        your progress stays on this device. We only count visits anonymously, so we know how many
+        explorers stop by.
       </p>
 
       <button type="button" className="button button--primary" disabled={!ageBand} onClick={start}>
