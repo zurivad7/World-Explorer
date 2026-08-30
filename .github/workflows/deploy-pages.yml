@@ -35,6 +35,10 @@ jobs:
       - name: Build
         env:
           PAGES_BASE: /
+          # Cloudflare Web Analytics beacon token (public, cookieless). Set it as a
+          # repo Actions secret named CF_BEACON_TOKEN to enable analytics; when unset
+          # the build simply omits the beacon.
+          CF_BEACON_TOKEN: ${{ secrets.CF_BEACON_TOKEN }}
         run: npm run build
       - name: Validate content
         run: npm run validate:content
