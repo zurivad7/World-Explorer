@@ -9,6 +9,7 @@ const AGE_LABELS: Record<AgeBand, string> = {
   '5-7': 'Ages 5–7',
   '8-10': 'Ages 8–10',
   '11-13': 'Ages 11–13',
+  expert: 'Grown-up (Expert)',
 };
 
 /** S02 Onboarding — age band, optional nickname, brief safety note (PRD §13). */
@@ -25,7 +26,7 @@ export function OnboardingScreen() {
   }
 
   return (
-    <Screen title="Let's get ready to explore!" subtitle="Choose how old you are so the games are just right.">
+    <Screen title="Let's get ready to explore!" subtitle="Choose your level so the games are just right.">
       <fieldset className="choice-group">
         <legend className="choice-group__legend">How old are you?</legend>
         {AGE_BANDS.map((band) => (

@@ -5,7 +5,11 @@ import { MemoryRouter } from 'react-router-dom';
 import { ProfileProvider } from '@/app/providers/ProfileProvider';
 import { ProgressProvider } from '@/app/providers/ProgressProvider';
 import { GameHubScreen } from '@/features/games/GameHubScreen';
-import { GAME_MODE_META } from '@/features/games/gameModes';
+import {
+  GAME_MODE_META,
+  PILLAR_META,
+  gameModesForPillar,
+} from '@/features/games/gameModes';
 
 function renderScreen() {
   return render(
@@ -32,5 +36,24 @@ describe('GameHubScreen', () => {
     renderScreen();
     const link = screen.getByText('Flag Detective').closest('a');
     expect(link).toHaveAttribute('href', '/play/flag-detective');
+  });
+
+  it('groups every game under exactly one of the five pillars', () => {
+    // The pillar sections partition the cards: no card is lost or duplicated.
+    const grouped = PILLAR_META.flatMap((p) => gameModesForPillar(p.pillar));
+    expect(grouped).toHaveLength(GAME_MODE_META.length);
+    expect(new Set(grouped.map((m) => m.mode)).size).toBe(GAME_MODE_META.length);
+    for (const meta of GAME_MODE_META) {
+      expect(grouped).toContain(meta);
+    }
+  });
+
+  it('renders the pillar section headings', () => {
+    renderScreen();
+    for (const pillar of PILLAR_META) {
+      if (gameModesForPillar(pillar.pillar).length > 0) {
+        expect(screen.getByRole('heading', { name: new RegExp(pillar.title, 'i') })).toBeInTheDocument();
+      }
+    }
   });
 });

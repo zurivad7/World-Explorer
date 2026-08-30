@@ -75,7 +75,8 @@ export function QuizScreen() {
         DEFAULT_SESSION_LENGTH
       );
     }
-    if (isDaily) return dailyChallengeQuestions(allQuestions, localDateKey(), DEFAULT_SESSION_LENGTH);
+    if (isDaily)
+      return dailyChallengeQuestions(allQuestions, localDateKey(), DEFAULT_SESSION_LENGTH, ageBand);
     if (isBet) {
       // A mixed, single-tap set (no map or select-all questions), adaptive to mastery.
       const pool = allQuestions.filter(

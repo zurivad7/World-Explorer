@@ -25,10 +25,12 @@ export interface GeneratorInputs {
   shapeCountryIds?: ReadonlySet<string>;
 }
 
+// The `expert` (grown-up) tier is eligible for every difficulty so all game modes
+// have content; the selector then biases it toward the hard questions (see selection.ts).
 const AGE_BY_DIFFICULTY: Record<Difficulty, AgeBand[]> = {
-  easy: ['5-7', '8-10'],
-  medium: ['8-10', '11-13'],
-  hard: ['11-13'],
+  easy: ['5-7', '8-10', 'expert'],
+  medium: ['8-10', '11-13', 'expert'],
+  hard: ['11-13', 'expert'],
 };
 
 const SOURCE = 'generated:world-explorer';
