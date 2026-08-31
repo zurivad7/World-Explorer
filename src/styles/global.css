@@ -1175,6 +1175,79 @@ body {
   color: var(--color-danger);
 }
 
+/* Country Letters — variant picker, the big letter, and the named list. */
+.letter-modes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 6px 0 18px;
+}
+
+.letter-mode {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: left;
+  padding: 14px 16px;
+  font: inherit;
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius);
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.12s ease, border-color 0.12s ease;
+}
+
+.letter-mode:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-primary);
+}
+
+.letter-mode--on {
+  border-color: var(--color-primary);
+  background: var(--color-primary-bg, var(--color-surface));
+  box-shadow: var(--shadow);
+}
+
+.letter-mode__title {
+  font-weight: 800;
+  font-size: 1.05rem;
+}
+
+.letter-mode__sub {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+}
+
+.letter-prompt {
+  margin: 6px auto 2px;
+  width: 96px;
+  height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background: linear-gradient(135deg, var(--color-primary), #14507f);
+  color: #fff;
+  font-size: 3.4rem;
+  font-weight: 900;
+  box-shadow: var(--shadow);
+}
+
+.letter-named {
+  margin-top: 14px;
+}
+
+.chip--good {
+  border-color: var(--color-success);
+  background: var(--color-success-bg);
+  color: var(--color-success);
+  cursor: default;
+}
+.chip--good:hover {
+  transform: none;
+}
+
 /* App footer with the Contact link. */
 .app-footer {
   margin-top: auto;

@@ -24,6 +24,11 @@ const SpeedRunHubScreen = lazy(() =>
 const SpeedRunScreen = lazy(() =>
   import('@/features/games/speedrun/SpeedRunScreen').then((m) => ({ default: m.SpeedRunScreen }))
 );
+const CountryLettersScreen = lazy(() =>
+  import('@/features/games/speedrun/CountryLettersScreen').then((m) => ({
+    default: m.CountryLettersScreen,
+  }))
+);
 
 /** Send first-time users through onboarding before the main app (PRD core experience §6). */
 function RequireProfile({ children }: { children: ReactNode }) {
@@ -55,6 +60,14 @@ function AppRoutes() {
           element={
             <Suspense fallback={<div className="loading">Loading…</div>}>
               <SpeedRunHubScreen />
+            </Suspense>
+          }
+        />
+        <Route
+          path={paths.speedRunLetters}
+          element={
+            <Suspense fallback={<div className="loading">Loading…</div>}>
+              <CountryLettersScreen />
             </Suspense>
           }
         />

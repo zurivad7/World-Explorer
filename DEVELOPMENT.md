@@ -108,6 +108,15 @@ A quality pass after the rapid Phase-A game additions.
     and `speedRunDeck.ts` (`shuffledDeck`, `choiceOptions`).
   - Progress: each item updates topic + country mastery via the normal `recordAnswer`
     path; a finished run is logged as a **Speed Run** activity (`recordGameCompleted`).
+  - **Country Letters** (`countryLetters.ts` + `CountryLettersScreen.tsx`) is a fourth,
+    *name-as-many-as-you-can* Speed Run on its own route (`/play/speed/letters/game`):
+    given a letter, type every country that **starts with** it (45s) or **contains** it
+    (60s). Pure helpers pick a letter that has enough countries (so a round is never a
+    dead end — this also drops W/X, which start no country), resolve typed input to a
+    country through a forgiving lookup (canonical name + `and`/`saint` variants +
+    authored aliases like "USA"/"St Lucia"), and `judgeGuess` classifies each guess
+    (correct / duplicate / wrong-letter / unknown). The round ends early with a win when
+    every country is named. The end screen reveals the ones missed.
 - **Contact link** — `AppFooter` renders a footer on every screen with a "Contact Me"
   mailto for feedback/suggestions/corrections. The address is a single constant
   (`FEEDBACK_EMAIL` in `AppFooter.tsx`); until it is set the footer shows a neutral
