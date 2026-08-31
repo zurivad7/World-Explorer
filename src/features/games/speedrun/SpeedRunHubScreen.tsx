@@ -23,7 +23,7 @@ export function SpeedRunHubScreen() {
   }
 
   return (
-    <Screen title="Speed Run" subtitle="How many can you get in 30 seconds?">
+    <Screen title="Speed Run" subtitle="How many can you get before the clock runs out?">
       <div className="card-grid">
         {SPEED_RUN_MODES.map((mode) => (
           <Link key={mode.kind} to={paths.speedRunGame(mode.kind)} className="game-card game-card--speed">
@@ -34,6 +34,15 @@ export function SpeedRunHubScreen() {
             <span className="game-card__blurb">{mode.blurb}</span>
           </Link>
         ))}
+        <Link to={paths.speedRunLetters} className="game-card game-card--speed">
+          <span className="game-card__icon" aria-hidden="true">
+            🔤
+          </span>
+          <span className="game-card__title">Country Letters</span>
+          <span className="game-card__blurb">
+            Name every country that starts with — or contains — a letter.
+          </span>
+        </Link>
       </div>
       <Link to={paths.play} className="button">
         Back to games

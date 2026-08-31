@@ -16,6 +16,7 @@ export const paths = {
   speedRun: '/play/speed', // Speed Run hub (8+)
   speedRunGame: (kind: string) => `/play/speed/${kind}`,
   speedRunPattern: '/play/speed/:kind',
+  speedRunLetters: '/play/speed/letters/game', // Country Letters (its own screen)
   passport: '/passport', // S08
   achievements: '/achievements', // S09
   progress: '/progress', // S10
