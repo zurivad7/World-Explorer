@@ -57,7 +57,8 @@ export type GameMode =
   | 'closest-country'
   | 'in-common'
   | 'border-battle'
-  | 'bet-your-knowledge';
+  | 'bet-your-knowledge'
+  | 'meet-the-neighbours';
 
 export const GAME_MODES: readonly GameMode[] = [
   'flag-detective',
@@ -74,6 +75,7 @@ export const GAME_MODES: readonly GameMode[] = [
   'in-common',
   'border-battle',
   'bet-your-knowledge',
+  'meet-the-neighbours',
 ] as const;
 
 /** A learning topic used for mastery tracking and question selection (PRD §10). */
