@@ -6,10 +6,12 @@ import { useProfile } from '@/app/providers/ProfileProvider';
 import { useProgress } from '@/app/providers/ProgressProvider';
 import { assetUrl } from '@/lib/assets';
 import { answerMatches } from '@/lib/game-engine';
+import { getCountryById } from '@/data';
 import type { Country, Question } from '@/types';
 import { LazyWorldMap } from '@/features/map/LazyWorldMap';
-import { getSpeedRunMode, speedRunPool, SPEED_RUN_SECONDS } from './speedRunModes';
+import { getSpeedRunMode, neighbourPair, speedRunPool, SPEED_RUN_SECONDS } from './speedRunModes';
 import { choiceOptions, shuffledDeck } from './speedRunDeck';
+import { buildResolver } from './countryLetters';
 import { isSpeedRunAllowed } from './age';
 
 type Phase = 'ready' | 'running' | 'done';
@@ -25,21 +27,24 @@ function answerLabel(kind: string, country: Country): string {
   return kind === 'capital' ? country.capital : country.name;
 }
 
-/** S07b Speed Run — a 30-second blitz (flags / find-it / typed capitals), ages 8+. */
+/** S07b Speed Run — a timed blitz (flags / find-it / typed capitals / neighbours), ages 8+. */
 export function SpeedRunScreen() {
   const { kind } = useParams<{ kind: string }>();
   const { profile } = useProfile();
   const progress = useProgress();
   const mode = kind ? getSpeedRunMode(kind) : undefined;
   const allowed = isSpeedRunAllowed(profile?.ageBand);
+  const seconds = mode?.seconds ?? SPEED_RUN_SECONDS;
 
   const [seed, setSeed] = useState(() => String(Date.now()));
   const pool = useMemo(() => (mode ? speedRunPool(mode.kind) : []), [mode]);
   const deck = useMemo(() => shuffledDeck(pool, seed), [pool, seed]);
+  // Forgiving typed-answer lookup for the Neighbours Blitz (accepts USA, UK, …).
+  const resolver = useMemo(() => buildResolver(), []);
 
   const [phase, setPhase] = useState<Phase>('ready');
   const [index, setIndex] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(SPEED_RUN_SECONDS);
+  const [timeLeft, setTimeLeft] = useState(seconds);
   const [correct, setCorrect] = useState(0);
   const [attempted, setAttempted] = useState(0);
   const [feedback, setFeedback] = useState<Feedback | null>(null);
@@ -112,13 +117,13 @@ export function SpeedRunScreen() {
     recordedRef.current = false;
     setSeed(String(Date.now()));
     setIndex(0);
-    setTimeLeft(SPEED_RUN_SECONDS);
+    setTimeLeft(seconds);
     setCorrect(0);
     setAttempted(0);
     setFeedback(null);
     setText('');
     setPhase('running');
-  }, []);
+  }, [seconds]);
 
   if (!mode) {
     return (
@@ -143,7 +148,7 @@ export function SpeedRunScreen() {
 
   if (phase === 'ready') {
     return (
-      <Screen title={mode.title} subtitle="Ready? You have 30 seconds.">
+      <Screen title={mode.title} subtitle={`Ready? You have ${seconds} seconds.`}>
         <p className="speedrun-intro">{mode.blurb}</p>
         <button type="button" className="button button--primary" onClick={restart}>
           Start the clock
@@ -185,6 +190,7 @@ export function SpeedRunScreen() {
   }
 
   const options = mode.kind === 'flag' ? choiceOptions(current, pool, `${seed}-${index}`) : [];
+  const pair = mode.kind === 'neighbours' ? neighbourPair(current, `${seed}-${index}`) : [];
   // Highlight state for the Find It map during feedback (show target + what was tapped).
   const mapHighlight =
     mode.kind === 'find-it' && feedback
@@ -271,6 +277,49 @@ export function SpeedRunScreen() {
               autoCapitalize="words"
               spellCheck={false}
               aria-label={`Type the capital of ${current.name}`}
+              value={text}
+              onChange={(e) => setText(e.target.value)}
+              disabled={Boolean(feedback)}
+              autoFocus
+            />
+            <button type="submit" className="button button--primary" disabled={Boolean(feedback)}>
+              Enter
+            </button>
+          </form>
+        </>
+      ) : null}
+
+      {mode.kind === 'neighbours' ? (
+        <>
+          <ul className="quiz-subjects" aria-label="Two neighbouring countries">
+            {pair.map((n) => (
+              <li key={n.id} className="quiz-subject">
+                <img
+                  src={assetUrl(getCountryById(n.id)?.flagAsset ?? '')}
+                  alt={`Flag of ${n.name}`}
+                  width={72}
+                  height={54}
+                />
+                <span className="quiz-subject__name">{n.name}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="quiz-prompt">Which country shares a border with both of these?</p>
+          <form
+            className="speedrun-typing"
+            onSubmit={(e) => {
+              e.preventDefault();
+              if (!feedback) answer(resolver.resolve(text)?.id === current.id);
+            }}
+          >
+            <input
+              className="speedrun-input"
+              type="text"
+              autoComplete="off"
+              autoCorrect="off"
+              autoCapitalize="words"
+              spellCheck={false}
+              aria-label="Type the country that borders both"
               value={text}
               onChange={(e) => setText(e.target.value)}
               disabled={Boolean(feedback)}
