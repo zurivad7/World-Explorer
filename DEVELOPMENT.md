@@ -108,6 +108,13 @@ A quality pass after the rapid Phase-A game additions.
     and `speedRunDeck.ts` (`shuffledDeck`, `choiceOptions`).
   - Progress: each item updates topic + country mastery via the normal `recordAnswer`
     path; a finished run is logged as a **Speed Run** activity (`recordGameCompleted`).
+  - **Neighbours Blitz** (`kind: 'neighbours'`, **60s**) is a fourth per-item blitz on
+    the shared `SpeedRunScreen`: two of the target's neighbours' flags are shown
+    (`neighbourPair`, from countries with ≥2 in-dataset neighbours) and the player
+    **types** the country between them — no choices. Typed answers are resolved
+    forgivingly with `buildResolver` (reused from Country Letters, so "USA"/"UK" count).
+    Per-mode length comes from an optional `seconds` on `SpeedRunModeMeta` (defaults to
+    `SPEED_RUN_SECONDS = 30`).
   - **Country Letters** (`countryLetters.ts` + `CountryLettersScreen.tsx`) is a fourth,
     *name-as-many-as-you-can* Speed Run on its own route (`/play/speed/letters/game`):
     given a letter, type every country that **starts with** it (45s) or **contains** it

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Country } from '@/types';
-import { speedRunPool } from '@/features/games/speedrun/speedRunModes';
+import { speedRunPool, neighbourPair } from '@/features/games/speedrun/speedRunModes';
 import { choiceOptions, shuffledDeck } from '@/features/games/speedrun/speedRunDeck';
 import { isSpeedRunAllowed } from '@/features/games/speedrun/age';
 
@@ -66,6 +66,29 @@ describe('shuffledDeck', () => {
     expect(deck).toHaveLength(4);
     expect(new Set(deck.map((c) => c.id)).size).toBe(4);
     expect(shuffledDeck(sample, 'abc')).toEqual(deck);
+  });
+});
+
+describe('speedRunPool — neighbours', () => {
+  // A tiny graph: only mid has >= 2 in-dataset neighbours.
+  const withNeighbours: Country[] = [
+    { ...country('mid', 100), neighbours: ['n1', 'n2', 'gone'] },
+    { ...country('n1', 100), neighbours: ['mid'] },
+    { ...country('n2', 100), neighbours: ['mid'] },
+    { ...country('lonely', 100), neighbours: [] },
+  ];
+
+  it('includes only countries with at least two in-dataset neighbours', () => {
+    const ids = speedRunPool('neighbours', withNeighbours).map((c) => c.id);
+    expect(ids).toEqual(['mid']); // n1/n2 have one; lonely has none; "gone" is not in the set
+  });
+
+  it('neighbourPair returns two of the country’s neighbours, deterministically', () => {
+    const mid = withNeighbours[0]!;
+    const pair = neighbourPair(mid, 'seed', withNeighbours).map((c) => c.id);
+    expect(pair).toHaveLength(2);
+    expect(pair.every((id) => ['n1', 'n2'].includes(id))).toBe(true);
+    expect(neighbourPair(mid, 'seed', withNeighbours).map((c) => c.id)).toEqual(pair);
   });
 });
 
