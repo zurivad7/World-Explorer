@@ -367,6 +367,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-af",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "af",
+      "am",
+      "az",
+      "bh"
+    ],
+    "correctAnswer": "af",
+    "explanation": "Afghanistan borders both Iran and Uzbekistan.",
+    "countryId": "af",
+    "subjectIds": [
+      "ir",
+      "uz"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-af",
     "type": "in-common",
     "difficulty": "medium",
@@ -732,6 +759,33 @@
     "correctAnswer": "gr+me+mk",
     "explanation": "Albania shares a land border with Montenegro, North Macedonia, Greece.",
     "countryId": "al",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-al",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "by",
+      "be",
+      "al",
+      "at"
+    ],
+    "correctAnswer": "al",
+    "explanation": "Albania borders both Greece and North Macedonia.",
+    "countryId": "al",
+    "subjectIds": [
+      "gr",
+      "mk"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -1131,6 +1185,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-dz",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "bw",
+      "bi",
+      "dz",
+      "bf"
+    ],
+    "correctAnswer": "dz",
+    "explanation": "Algeria borders both Libya and Mali.",
+    "countryId": "dz",
+    "subjectIds": [
+      "ly",
+      "ml"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-dz",
     "type": "in-common",
     "difficulty": "medium",
@@ -1496,6 +1577,33 @@
     "correctAnswer": "es+fr",
     "explanation": "Andorra shares a land border with Spain, France.",
     "countryId": "ad",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-ad",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ad",
+      "ba",
+      "bg",
+      "be"
+    ],
+    "correctAnswer": "ad",
+    "explanation": "Andorra borders both France and Spain.",
+    "countryId": "ad",
+    "subjectIds": [
+      "fr",
+      "es"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -1891,6 +1999,33 @@
     "correctAnswer": "cd+cg+zm",
     "explanation": "Angola shares a land border with Republic of the Congo, Zambia, DR Congo.",
     "countryId": "ao",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-ao",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "bi",
+      "cm",
+      "cv",
+      "ao"
+    ],
+    "correctAnswer": "ao",
+    "explanation": "Angola borders both DR Congo and Namibia.",
+    "countryId": "ao",
+    "subjectIds": [
+      "cd",
+      "na"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -2634,6 +2769,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-ar",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "af",
+      "ve",
+      "ar",
+      "al"
+    ],
+    "correctAnswer": "ar",
+    "explanation": "Argentina borders both Bolivia and Brazil.",
+    "countryId": "ar",
+    "subjectIds": [
+      "bo",
+      "br"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ar",
     "type": "in-common",
     "difficulty": "medium",
@@ -2999,6 +3161,33 @@
     "correctAnswer": "ge+ir+tr",
     "explanation": "Armenia shares a land border with Iran, Türkiye, Georgia.",
     "countryId": "am",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-am",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "in",
+      "am",
+      "ir",
+      "id"
+    ],
+    "correctAnswer": "am",
+    "explanation": "Armenia borders both Azerbaijan and Georgia.",
+    "countryId": "am",
+    "subjectIds": [
+      "az",
+      "ge"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -3766,6 +3955,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-at",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "at",
+      "fi",
+      "fr",
+      "ee"
+    ],
+    "correctAnswer": "at",
+    "explanation": "Austria borders both Czechia and Slovenia.",
+    "countryId": "at",
+    "subjectIds": [
+      "cz",
+      "si"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-at",
     "type": "in-common",
     "difficulty": "medium",
@@ -4157,6 +4373,33 @@
     "correctAnswer": "ge+ir+tr",
     "explanation": "Azerbaijan shares a land border with Georgia, Türkiye, Iran.",
     "countryId": "az",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-az",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "az",
+      "il",
+      "iq",
+      "jp"
+    ],
+    "correctAnswer": "az",
+    "explanation": "Azerbaijan borders both Armenia and Georgia.",
+    "countryId": "az",
+    "subjectIds": [
+      "am",
+      "ge"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -5244,6 +5487,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-bd",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "jo",
+      "kw",
+      "bd",
+      "kz"
+    ],
+    "correctAnswer": "bd",
+    "explanation": "Bangladesh borders both India and Myanmar.",
+    "countryId": "bd",
+    "subjectIds": [
+      "in",
+      "mm"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-bd",
     "type": "in-common",
     "difficulty": "medium",
@@ -5983,6 +6253,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-by",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "by",
+      "is",
+      "ie",
+      "hu"
+    ],
+    "correctAnswer": "by",
+    "explanation": "Belarus borders both Lithuania and Poland.",
+    "countryId": "by",
+    "subjectIds": [
+      "lt",
+      "pl"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-by",
     "type": "in-common",
     "difficulty": "medium",
@@ -6355,6 +6652,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-be",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "be",
+      "lv",
+      "li",
+      "it"
+    ],
+    "correctAnswer": "be",
+    "explanation": "Belgium borders both France and Luxembourg.",
+    "countryId": "be",
+    "subjectIds": [
+      "fr",
+      "lu"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-be",
     "type": "in-common",
     "difficulty": "medium",
@@ -6720,6 +7044,33 @@
     "correctAnswer": "gt+mx",
     "explanation": "Belize shares a land border with Mexico, Guatemala.",
     "countryId": "bz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-bz",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "tt",
+      "us",
+      "vc",
+      "bz"
+    ],
+    "correctAnswer": "bz",
+    "explanation": "Belize borders both Guatemala and Mexico.",
+    "countryId": "bz",
+    "subjectIds": [
+      "gt",
+      "mx"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -7119,6 +7470,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-bj",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "gn",
+      "gw",
+      "gh",
+      "bj"
+    ],
+    "correctAnswer": "bj",
+    "explanation": "Benin borders both Burkina Faso and Nigeria.",
+    "countryId": "bj",
+    "subjectIds": [
+      "bf",
+      "ng"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-bj",
     "type": "in-common",
     "difficulty": "medium",
@@ -7487,6 +7865,33 @@
     "correctAnswer": "cn+in",
     "explanation": "Bhutan shares a land border with India, China.",
     "countryId": "bt",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-bt",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "mn",
+      "bt",
+      "my",
+      "mv"
+    ],
+    "correctAnswer": "bt",
+    "explanation": "Bhutan borders both China and India.",
+    "countryId": "bt",
+    "subjectIds": [
+      "cn",
+      "in"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -7886,6 +8291,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-bo",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "bo",
+      "bb",
+      "bd",
+      "by"
+    ],
+    "correctAnswer": "bo",
+    "explanation": "Bolivia borders both Chile and Paraguay.",
+    "countryId": "bo",
+    "subjectIds": [
+      "cl",
+      "py"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-bo",
     "type": "in-common",
     "difficulty": "medium",
@@ -8277,6 +8709,33 @@
     "correctAnswer": "hr+me+rs",
     "explanation": "Bosnia and Herzegovina shares a land border with Montenegro, Serbia, Croatia.",
     "countryId": "ba",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-ba",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ba",
+      "md",
+      "mt",
+      "lu"
+    ],
+    "correctAnswer": "ba",
+    "explanation": "Bosnia and Herzegovina borders both Serbia and Montenegro.",
+    "countryId": "ba",
+    "subjectIds": [
+      "rs",
+      "me"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -8676,6 +9135,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-bw",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ke",
+      "ci",
+      "bw",
+      "ls"
+    ],
+    "correctAnswer": "bw",
+    "explanation": "Botswana borders both South Africa and Namibia.",
+    "countryId": "bw",
+    "subjectIds": [
+      "za",
+      "na"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-bw",
     "type": "in-common",
     "difficulty": "medium",
@@ -9067,6 +9553,33 @@
     "correctAnswer": "bo+co+pe",
     "explanation": "Brazil shares a land border with Peru, Colombia, Bolivia.",
     "countryId": "br",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-br",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "be",
+      "bz",
+      "bj",
+      "br"
+    ],
+    "correctAnswer": "br",
+    "explanation": "Brazil borders both Bolivia and Paraguay.",
+    "countryId": "br",
+    "subjectIds": [
+      "bo",
+      "py"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -9835,6 +10348,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-bg",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "bg",
+      "me",
+      "nl",
+      "no"
+    ],
+    "correctAnswer": "bg",
+    "explanation": "Bulgaria borders both Türkiye and North Macedonia.",
+    "countryId": "bg",
+    "subjectIds": [
+      "tr",
+      "mk"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-bg",
     "type": "in-common",
     "difficulty": "medium",
@@ -10230,6 +10770,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-bf",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "mw",
+      "mr",
+      "mg",
+      "bf"
+    ],
+    "correctAnswer": "bf",
+    "explanation": "Burkina Faso borders both Niger and Mali.",
+    "countryId": "bf",
+    "subjectIds": [
+      "ne",
+      "ml"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-bf",
     "type": "in-common",
     "difficulty": "medium",
@@ -10595,6 +11162,33 @@
     "correctAnswer": "cd+rw+tz",
     "explanation": "Burundi shares a land border with Rwanda, Tanzania, DR Congo.",
     "countryId": "bi",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-bi",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "bi",
+      "ml",
+      "mr",
+      "mw"
+    ],
+    "correctAnswer": "bi",
+    "explanation": "Burundi borders both Tanzania and Rwanda.",
+    "countryId": "bi",
+    "subjectIds": [
+      "tz",
+      "rw"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -10994,6 +11588,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-kh",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "sa",
+      "qa",
+      "kh",
+      "sg"
+    ],
+    "correctAnswer": "kh",
+    "explanation": "Cambodia borders both Laos and Vietnam.",
+    "countryId": "kh",
+    "subjectIds": [
+      "la",
+      "vn"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-kh",
     "type": "in-common",
     "difficulty": "medium",
@@ -11385,6 +12006,33 @@
     "correctAnswer": "cf+gq+td",
     "explanation": "Cameroon shares a land border with Equatorial Guinea, Central African Republic, Chad.",
     "countryId": "cm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-cm",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ma",
+      "mz",
+      "mu",
+      "cm"
+    ],
+    "correctAnswer": "cm",
+    "explanation": "Cameroon borders both Central African Republic and Nigeria.",
+    "countryId": "cm",
+    "subjectIds": [
+      "cf",
+      "ng"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -12523,6 +13171,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-cf",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "mz",
+      "na",
+      "cf",
+      "ma"
+    ],
+    "correctAnswer": "cf",
+    "explanation": "Central African Republic borders both Republic of the Congo and Sudan.",
+    "countryId": "cf",
+    "subjectIds": [
+      "cg",
+      "sd"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-cf",
     "type": "in-common",
     "difficulty": "medium",
@@ -12914,6 +13589,33 @@
     "correctAnswer": "cf+cm+ne",
     "explanation": "Chad shares a land border with Niger, Central African Republic, Cameroon.",
     "countryId": "td",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-td",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ne",
+      "ng",
+      "cg",
+      "td"
+    ],
+    "correctAnswer": "td",
+    "explanation": "Chad borders both Central African Republic and Libya.",
+    "countryId": "td",
+    "subjectIds": [
+      "cf",
+      "ly"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -13313,6 +14015,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-cl",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "cl",
+      "ca",
+      "cv",
+      "cf"
+    ],
+    "correctAnswer": "cl",
+    "explanation": "Chile borders both Argentina and Peru.",
+    "countryId": "cl",
+    "subjectIds": [
+      "ar",
+      "pe"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-cl",
     "type": "in-common",
     "difficulty": "medium",
@@ -13708,6 +14437,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-cn",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "cn",
+      "tl",
+      "tr",
+      "th"
+    ],
+    "correctAnswer": "cn",
+    "explanation": "China borders both Bhutan and Kyrgyzstan.",
+    "countryId": "cn",
+    "subjectIds": [
+      "bt",
+      "kg"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-cn",
     "type": "in-common",
     "difficulty": "medium",
@@ -14097,6 +14853,33 @@
     "correctAnswer": "br+pa+pe",
     "explanation": "Colombia shares a land border with Brazil, Peru, Panama.",
     "countryId": "co",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-co",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "cv",
+      "td",
+      "co",
+      "cf"
+    ],
+    "correctAnswer": "co",
+    "explanation": "Colombia borders both Venezuela and Brazil.",
+    "countryId": "co",
+    "subjectIds": [
+      "ve",
+      "br"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -14836,6 +15619,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-cr",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "cr",
+      "bn",
+      "br",
+      "bw"
+    ],
+    "correctAnswer": "cr",
+    "explanation": "Costa Rica borders both Panama and Nicaragua.",
+    "countryId": "cr",
+    "subjectIds": [
+      "pa",
+      "ni"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-cr",
     "type": "in-common",
     "difficulty": "medium",
@@ -15227,6 +16037,33 @@
     "correctAnswer": "me+rs+si",
     "explanation": "Croatia shares a land border with Montenegro, Serbia, Slovenia.",
     "countryId": "hr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-hr",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "af",
+      "hr",
+      "gb",
+      "va"
+    ],
+    "correctAnswer": "hr",
+    "explanation": "Croatia borders both Serbia and Bosnia and Herzegovina.",
+    "countryId": "hr",
+    "subjectIds": [
+      "rs",
+      "ba"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -16336,6 +17173,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-cz",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ag",
+      "ar",
+      "cz",
+      "ao"
+    ],
+    "correctAnswer": "cz",
+    "explanation": "Czechia borders both Germany and Slovakia.",
+    "countryId": "cz",
+    "subjectIds": [
+      "de",
+      "sk"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-cz",
     "type": "in-common",
     "difficulty": "medium",
@@ -17073,6 +17937,33 @@
     "correctAnswer": "er+et+so",
     "explanation": "Djibouti shares a land border with Somalia, Ethiopia, Eritrea.",
     "countryId": "dj",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-dj",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "tz",
+      "tn",
+      "dj",
+      "tg"
+    ],
+    "correctAnswer": "dj",
+    "explanation": "Djibouti borders both Ethiopia and Eritrea.",
+    "countryId": "dj",
+    "subjectIds": [
+      "et",
+      "er"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -18188,6 +19079,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-cd",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "cd",
+      "zw",
+      "zm",
+      "af"
+    ],
+    "correctAnswer": "cd",
+    "explanation": "DR Congo borders both Rwanda and Tanzania.",
+    "countryId": "cd",
+    "subjectIds": [
+      "rw",
+      "tz"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-cd",
     "type": "in-common",
     "difficulty": "medium",
@@ -18579,6 +19497,33 @@
     "correctAnswer": "co+pe",
     "explanation": "Ecuador shares a land border with Peru, Colombia.",
     "countryId": "ec",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-ec",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "do",
+      "cd",
+      "dm",
+      "ec"
+    ],
+    "correctAnswer": "ec",
+    "explanation": "Ecuador borders both Colombia and Peru.",
+    "countryId": "ec",
+    "subjectIds": [
+      "co",
+      "pe"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -18978,6 +19923,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-eg",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ug",
+      "zw",
+      "zm",
+      "eg"
+    ],
+    "correctAnswer": "eg",
+    "explanation": "Egypt borders both Sudan and Israel.",
+    "countryId": "eg",
+    "subjectIds": [
+      "sd",
+      "il"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-eg",
     "type": "in-common",
     "difficulty": "medium",
@@ -19347,6 +20319,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-sv",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "sv",
+      "co",
+      "km",
+      "cn"
+    ],
+    "correctAnswer": "sv",
+    "explanation": "El Salvador borders both Honduras and Guatemala.",
+    "countryId": "sv",
+    "subjectIds": [
+      "hn",
+      "gt"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-sv",
     "type": "in-common",
     "difficulty": "medium",
@@ -19712,6 +20711,33 @@
     "correctAnswer": "cm+ga",
     "explanation": "Equatorial Guinea shares a land border with Gabon, Cameroon.",
     "countryId": "gq",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-gq",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "al",
+      "ag",
+      "ad",
+      "gq"
+    ],
+    "correctAnswer": "gq",
+    "explanation": "Equatorial Guinea borders both Cameroon and Gabon.",
+    "countryId": "gq",
+    "subjectIds": [
+      "cm",
+      "ga"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -20111,6 +21137,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-er",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "er",
+      "ad",
+      "ag",
+      "ar"
+    ],
+    "correctAnswer": "er",
+    "explanation": "Eritrea borders both Sudan and Ethiopia.",
+    "countryId": "er",
+    "subjectIds": [
+      "sd",
+      "et"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-er",
     "type": "in-common",
     "difficulty": "medium",
@@ -20483,6 +21536,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-ee",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "bo",
+      "ee",
+      "bj",
+      "bt"
+    ],
+    "correctAnswer": "ee",
+    "explanation": "Estonia borders both Latvia and Russia.",
+    "countryId": "ee",
+    "subjectIds": [
+      "lv",
+      "ru"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ee",
     "type": "in-common",
     "difficulty": "medium",
@@ -20848,6 +21928,33 @@
     "correctAnswer": "mz+za",
     "explanation": "Eswatini shares a land border with Mozambique, South Africa.",
     "countryId": "sz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-sz",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "sz",
+      "au",
+      "am",
+      "ar"
+    ],
+    "correctAnswer": "sz",
+    "explanation": "Eswatini borders both South Africa and Mozambique.",
+    "countryId": "sz",
+    "subjectIds": [
+      "za",
+      "mz"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -21243,6 +22350,33 @@
     "correctAnswer": "dj+ke+so",
     "explanation": "Ethiopia shares a land border with Djibouti, Somalia, Kenya.",
     "countryId": "et",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-et",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "et",
+      "at",
+      "au",
+      "am"
+    ],
+    "correctAnswer": "et",
+    "explanation": "Ethiopia borders both Eritrea and South Sudan.",
+    "countryId": "et",
+    "subjectIds": [
+      "er",
+      "ss"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -21986,6 +23120,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-fi",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "fi",
+      "bw",
+      "br",
+      "bo"
+    ],
+    "correctAnswer": "fi",
+    "explanation": "Finland borders both Norway and Sweden.",
+    "countryId": "fi",
+    "subjectIds": [
+      "no",
+      "se"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-fi",
     "type": "in-common",
     "difficulty": "medium",
@@ -22381,6 +23542,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-fr",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "bw",
+      "br",
+      "bn",
+      "fr"
+    ],
+    "correctAnswer": "fr",
+    "explanation": "France borders both Spain and Germany.",
+    "countryId": "fr",
+    "subjectIds": [
+      "es",
+      "de"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-fr",
     "type": "in-common",
     "difficulty": "medium",
@@ -22772,6 +23960,33 @@
     "correctAnswer": "cg+cm+gq",
     "explanation": "Gabon shares a land border with Republic of the Congo, Cameroon, Equatorial Guinea.",
     "countryId": "ga",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-ga",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "bh",
+      "bd",
+      "bs",
+      "ga"
+    ],
+    "correctAnswer": "ga",
+    "explanation": "Gabon borders both Cameroon and Republic of the Congo.",
+    "countryId": "ga",
+    "subjectIds": [
+      "cm",
+      "cg"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -23540,6 +24755,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-ge",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "bg",
+      "bf",
+      "bi",
+      "ge"
+    ],
+    "correctAnswer": "ge",
+    "explanation": "Georgia borders both Armenia and Russia.",
+    "countryId": "ge",
+    "subjectIds": [
+      "am",
+      "ru"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ge",
     "type": "in-common",
     "difficulty": "medium",
@@ -23931,6 +25173,33 @@
     "correctAnswer": "be+ch+cz",
     "explanation": "Germany shares a land border with Belgium, Czechia, Switzerland.",
     "countryId": "de",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-de",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "de",
+      "cm",
+      "kh",
+      "ca"
+    ],
+    "correctAnswer": "de",
+    "explanation": "Germany borders both Switzerland and Belgium.",
+    "countryId": "de",
+    "subjectIds": [
+      "ch",
+      "be"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -24330,6 +25599,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-gh",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "be",
+      "by",
+      "gh",
+      "bz"
+    ],
+    "correctAnswer": "gh",
+    "explanation": "Ghana borders both Togo and Ivory Coast.",
+    "countryId": "gh",
+    "subjectIds": [
+      "tg",
+      "ci"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-gh",
     "type": "in-common",
     "difficulty": "medium",
@@ -24721,6 +26017,33 @@
     "correctAnswer": "al+bg+mk",
     "explanation": "Greece shares a land border with Albania, Bulgaria, North Macedonia.",
     "countryId": "gr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-gr",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "gr",
+      "cf",
+      "cv",
+      "ca"
+    ],
+    "correctAnswer": "gr",
+    "explanation": "Greece borders both Bulgaria and North Macedonia.",
+    "countryId": "gr",
+    "subjectIds": [
+      "bg",
+      "mk"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -25460,6 +26783,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-gt",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "gt",
+      "fj",
+      "fi",
+      "fr"
+    ],
+    "correctAnswer": "gt",
+    "explanation": "Guatemala borders both Honduras and El Salvador.",
+    "countryId": "gt",
+    "subjectIds": [
+      "hn",
+      "sv"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-gt",
     "type": "in-common",
     "difficulty": "medium",
@@ -25855,6 +27205,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-gn",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "gn",
+      "ba",
+      "bo",
+      "bt"
+    ],
+    "correctAnswer": "gn",
+    "explanation": "Guinea borders both Sierra Leone and Mali.",
+    "countryId": "gn",
+    "subjectIds": [
+      "sl",
+      "ml"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-gn",
     "type": "in-common",
     "difficulty": "medium",
@@ -26223,6 +27600,33 @@
     "correctAnswer": "gn+sn",
     "explanation": "Guinea-Bissau shares a land border with Senegal, Guinea.",
     "countryId": "gw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-gw",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ba",
+      "bn",
+      "gw",
+      "br"
+    ],
+    "correctAnswer": "gw",
+    "explanation": "Guinea-Bissau borders both Guinea and Senegal.",
+    "countryId": "gw",
+    "subjectIds": [
+      "gn",
+      "sn"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -26618,6 +28022,33 @@
     "correctAnswer": "br+sr+ve",
     "explanation": "Guyana shares a land border with Brazil, Suriname, Venezuela.",
     "countryId": "gy",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-gy",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "gt",
+      "gn",
+      "gw",
+      "gy"
+    ],
+    "correctAnswer": "gy",
+    "explanation": "Guyana borders both Suriname and Brazil.",
+    "countryId": "gy",
+    "subjectIds": [
+      "sr",
+      "br"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -27386,6 +28817,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-hn",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ge",
+      "gh",
+      "hn",
+      "de"
+    ],
+    "correctAnswer": "hn",
+    "explanation": "Honduras borders both Nicaragua and Guatemala.",
+    "countryId": "hn",
+    "subjectIds": [
+      "ni",
+      "gt"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-hn",
     "type": "in-common",
     "difficulty": "medium",
@@ -27777,6 +29235,33 @@
     "correctAnswer": "hr+ro+ua",
     "explanation": "Hungary shares a land border with Croatia, Romania, Ukraine.",
     "countryId": "hu",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-hu",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "cu",
+      "cr",
+      "hu",
+      "dj"
+    ],
+    "correctAnswer": "hu",
+    "explanation": "Hungary borders both Austria and Slovenia.",
+    "countryId": "hu",
+    "subjectIds": [
+      "at",
+      "si"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -28546,6 +30031,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-in",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "in",
+      "cu",
+      "cy",
+      "cz"
+    ],
+    "correctAnswer": "in",
+    "explanation": "India borders both Myanmar and Bangladesh.",
+    "countryId": "in",
+    "subjectIds": [
+      "mm",
+      "bd"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-in",
     "type": "in-common",
     "difficulty": "medium",
@@ -28935,6 +30447,33 @@
     "correctAnswer": "my+pg+tl",
     "explanation": "Indonesia shares a land border with Timor-Leste, Malaysia, Papua New Guinea.",
     "countryId": "id",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-id",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "id",
+      "cz",
+      "cy",
+      "cu"
+    ],
+    "correctAnswer": "id",
+    "explanation": "Indonesia borders both Timor-Leste and Papua New Guinea.",
+    "countryId": "id",
+    "subjectIds": [
+      "tl",
+      "pg"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -29334,6 +30873,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-ir",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ir",
+      "dk",
+      "dj",
+      "dm"
+    ],
+    "correctAnswer": "ir",
+    "explanation": "Iran borders both Afghanistan and Turkmenistan.",
+    "countryId": "ir",
+    "subjectIds": [
+      "af",
+      "tm"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ir",
     "type": "in-common",
     "difficulty": "medium",
@@ -29725,6 +31291,33 @@
     "correctAnswer": "jo+sa+sy",
     "explanation": "Iraq shares a land border with Jordan, Saudi Arabia, Syria.",
     "countryId": "iq",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-iq",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "dj",
+      "iq",
+      "do",
+      "dm"
+    ],
+    "correctAnswer": "iq",
+    "explanation": "Iraq borders both Kuwait and Jordan.",
+    "countryId": "iq",
+    "subjectIds": [
+      "kw",
+      "jo"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -30487,6 +32080,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-il",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "il",
+      "cd",
+      "ec",
+      "do"
+    ],
+    "correctAnswer": "il",
+    "explanation": "Israel borders both Jordan and Lebanon.",
+    "countryId": "il",
+    "subjectIds": [
+      "jo",
+      "lb"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-il",
     "type": "in-common",
     "difficulty": "medium",
@@ -30876,6 +32496,33 @@
     "correctAnswer": "fr+sm+va",
     "explanation": "Italy shares a land border with San Marino, France, Vatican City.",
     "countryId": "it",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-it",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "gq",
+      "er",
+      "it",
+      "sv"
+    ],
+    "correctAnswer": "it",
+    "explanation": "Italy borders both Switzerland and France.",
+    "countryId": "it",
+    "subjectIds": [
+      "ch",
+      "fr"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -31271,6 +32918,33 @@
     "correctAnswer": "bf+gh+ml",
     "explanation": "Ivory Coast shares a land border with Burkina Faso, Mali, Ghana.",
     "countryId": "ci",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-ci",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "cz",
+      "dk",
+      "dm",
+      "ci"
+    ],
+    "correctAnswer": "ci",
+    "explanation": "Ivory Coast borders both Mali and Guinea.",
+    "countryId": "ci",
+    "subjectIds": [
+      "ml",
+      "gn"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -32384,6 +34058,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-jo",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "er",
+      "gq",
+      "jo",
+      "ee"
+    ],
+    "correctAnswer": "jo",
+    "explanation": "Jordan borders both Syria and Israel.",
+    "countryId": "jo",
+    "subjectIds": [
+      "sy",
+      "il"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-jo",
     "type": "in-common",
     "difficulty": "medium",
@@ -32779,6 +34480,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-kz",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "kz",
+      "er",
+      "gq",
+      "sv"
+    ],
+    "correctAnswer": "kz",
+    "explanation": "Kazakhstan borders both Russia and Turkmenistan.",
+    "countryId": "kz",
+    "subjectIds": [
+      "ru",
+      "tm"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-kz",
     "type": "in-common",
     "difficulty": "medium",
@@ -33170,6 +34898,33 @@
     "correctAnswer": "et+so+ss",
     "explanation": "Kenya shares a land border with South Sudan, Somalia, Ethiopia.",
     "countryId": "ke",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-ke",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ee",
+      "fj",
+      "sv",
+      "ke"
+    ],
+    "correctAnswer": "ke",
+    "explanation": "Kenya borders both South Sudan and Uganda.",
+    "countryId": "ke",
+    "subjectIds": [
+      "ss",
+      "ug"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -33887,6 +35642,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-kw",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "et",
+      "fi",
+      "kw",
+      "fj"
+    ],
+    "correctAnswer": "kw",
+    "explanation": "Kuwait borders both Iraq and Saudi Arabia.",
+    "countryId": "kw",
+    "subjectIds": [
+      "iq",
+      "sa"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-kw",
     "type": "in-common",
     "difficulty": "medium",
@@ -34278,6 +36060,33 @@
     "correctAnswer": "kz+tj+uz",
     "explanation": "Kyrgyzstan shares a land border with Kazakhstan, Tajikistan, Uzbekistan.",
     "countryId": "kg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-kg",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "et",
+      "fi",
+      "kg",
+      "fj"
+    ],
+    "correctAnswer": "kg",
+    "explanation": "Kyrgyzstan borders both China and Kazakhstan.",
+    "countryId": "kg",
+    "subjectIds": [
+      "cn",
+      "kz"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -34677,6 +36486,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-la",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "fi",
+      "fj",
+      "la",
+      "fr"
+    ],
+    "correctAnswer": "la",
+    "explanation": "Laos borders both China and Vietnam.",
+    "countryId": "la",
+    "subjectIds": [
+      "cn",
+      "vn"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-la",
     "type": "in-common",
     "difficulty": "medium",
@@ -35072,6 +36908,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-lv",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "gn",
+      "gy",
+      "lv",
+      "gw"
+    ],
+    "correctAnswer": "lv",
+    "explanation": "Latvia borders both Belarus and Lithuania.",
+    "countryId": "lv",
+    "subjectIds": [
+      "by",
+      "lt"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-lv",
     "type": "in-common",
     "difficulty": "medium",
@@ -35437,6 +37300,33 @@
     "correctAnswer": "il+sy",
     "explanation": "Lebanon shares a land border with Syria, Israel.",
     "countryId": "lb",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-lb",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "de",
+      "lb",
+      "ga",
+      "gm"
+    ],
+    "correctAnswer": "lb",
+    "explanation": "Lebanon borders both Israel and Syria.",
+    "countryId": "lb",
+    "subjectIds": [
+      "il",
+      "sy"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -36208,6 +38098,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-lr",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "gd",
+      "lr",
+      "gy",
+      "gt"
+    ],
+    "correctAnswer": "lr",
+    "explanation": "Liberia borders both Sierra Leone and Ivory Coast.",
+    "countryId": "lr",
+    "subjectIds": [
+      "sl",
+      "ci"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-lr",
     "type": "in-common",
     "difficulty": "medium",
@@ -36603,6 +38520,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-ly",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ly",
+      "gd",
+      "gt",
+      "gy"
+    ],
+    "correctAnswer": "ly",
+    "explanation": "Libya borders both Egypt and Sudan.",
+    "countryId": "ly",
+    "subjectIds": [
+      "eg",
+      "sd"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ly",
     "type": "in-common",
     "difficulty": "medium",
@@ -36968,6 +38912,33 @@
     "correctAnswer": "at+ch",
     "explanation": "Liechtenstein shares a land border with Austria, Switzerland.",
     "countryId": "li",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-li",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "li",
+      "id",
+      "in",
+      "ir"
+    ],
+    "correctAnswer": "li",
+    "explanation": "Liechtenstein borders both Switzerland and Austria.",
+    "countryId": "li",
+    "subjectIds": [
+      "ch",
+      "at"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -37367,6 +39338,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-lt",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ir",
+      "iq",
+      "id",
+      "lt"
+    ],
+    "correctAnswer": "lt",
+    "explanation": "Lithuania borders both Poland and Russia.",
+    "countryId": "lt",
+    "subjectIds": [
+      "pl",
+      "ru"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-lt",
     "type": "in-common",
     "difficulty": "medium",
@@ -37732,6 +39730,33 @@
     "correctAnswer": "be+de+fr",
     "explanation": "Luxembourg shares a land border with Germany, Belgium, France.",
     "countryId": "lu",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-lu",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "lu",
+      "id",
+      "ir",
+      "iq"
+    ],
+    "correctAnswer": "lu",
+    "explanation": "Luxembourg borders both Belgium and France.",
+    "countryId": "lu",
+    "subjectIds": [
+      "be",
+      "fr"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -38501,6 +40526,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-mw",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "in",
+      "ir",
+      "id",
+      "mw"
+    ],
+    "correctAnswer": "mw",
+    "explanation": "Malawi borders both Tanzania and Zambia.",
+    "countryId": "mw",
+    "subjectIds": [
+      "tz",
+      "zm"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-mw",
     "type": "in-common",
     "difficulty": "medium",
@@ -38892,6 +40944,33 @@
     "correctAnswer": "bn+id+th",
     "explanation": "Malaysia shares a land border with Thailand, Indonesia, Brunei.",
     "countryId": "my",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-my",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ht",
+      "my",
+      "gw",
+      "gy"
+    ],
+    "correctAnswer": "my",
+    "explanation": "Malaysia borders both Thailand and Brunei.",
+    "countryId": "my",
+    "subjectIds": [
+      "th",
+      "bn"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -39629,6 +41708,33 @@
     "correctAnswer": "bf+ci+gn",
     "explanation": "Mali shares a land border with Ivory Coast, Guinea, Burkina Faso.",
     "countryId": "ml",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-ml",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ir",
+      "iq",
+      "ml",
+      "id"
+    ],
+    "correctAnswer": "ml",
+    "explanation": "Mali borders both Burkina Faso and Senegal.",
+    "countryId": "ml",
+    "subjectIds": [
+      "bf",
+      "sn"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -40716,6 +42822,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-mr",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "mr",
+      "il",
+      "it",
+      "jm"
+    ],
+    "correctAnswer": "mr",
+    "explanation": "Mauritania borders both Senegal and Mali.",
+    "countryId": "mr",
+    "subjectIds": [
+      "sn",
+      "ml"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-mr",
     "type": "in-common",
     "difficulty": "medium",
@@ -41453,6 +43586,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-mx",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "mx",
+      "mh",
+      "mt",
+      "ml"
+    ],
+    "correctAnswer": "mx",
+    "explanation": "Mexico borders both Belize and Guatemala.",
+    "countryId": "mx",
+    "subjectIds": [
+      "bz",
+      "gt"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-mx",
     "type": "in-common",
     "difficulty": "medium",
@@ -42142,6 +44302,33 @@
     "correctAnswer": "ro+ua",
     "explanation": "Moldova shares a land border with Romania, Ukraine.",
     "countryId": "md",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-md",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "md",
+      "lb",
+      "la",
+      "kg"
+    ],
+    "correctAnswer": "md",
+    "explanation": "Moldova borders both Ukraine and Romania.",
+    "countryId": "md",
+    "subjectIds": [
+      "ua",
+      "ro"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -42910,6 +45097,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-mn",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "mn",
+      "ls",
+      "lv",
+      "lr"
+    ],
+    "correctAnswer": "mn",
+    "explanation": "Mongolia borders both Russia and China.",
+    "countryId": "mn",
+    "subjectIds": [
+      "ru",
+      "cn"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-mn",
     "type": "in-common",
     "difficulty": "medium",
@@ -43275,6 +45489,33 @@
     "correctAnswer": "ba+hr+rs",
     "explanation": "Montenegro shares a land border with Croatia, Serbia, Bosnia and Herzegovina.",
     "countryId": "me",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-me",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ly",
+      "me",
+      "ls",
+      "lr"
+    ],
+    "correctAnswer": "me",
+    "explanation": "Montenegro borders both Croatia and Bosnia and Herzegovina.",
+    "countryId": "me",
+    "subjectIds": [
+      "hr",
+      "ba"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -43674,6 +45915,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-ma",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ki",
+      "kg",
+      "ma",
+      "kw"
+    ],
+    "correctAnswer": "ma",
+    "explanation": "Morocco borders both Algeria and Spain.",
+    "countryId": "ma",
+    "subjectIds": [
+      "dz",
+      "es"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ma",
     "type": "in-common",
     "difficulty": "medium",
@@ -44065,6 +46333,33 @@
     "correctAnswer": "mw+za+zm",
     "explanation": "Mozambique shares a land border with Malawi, Zambia, South Africa.",
     "countryId": "mz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-mz",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "lv",
+      "la",
+      "mz",
+      "lb"
+    ],
+    "correctAnswer": "mz",
+    "explanation": "Mozambique borders both South Africa and Zimbabwe.",
+    "countryId": "mz",
+    "subjectIds": [
+      "za",
+      "zw"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -44464,6 +46759,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-mm",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "li",
+      "mm",
+      "lu",
+      "lt"
+    ],
+    "correctAnswer": "mm",
+    "explanation": "Myanmar borders both Laos and Thailand.",
+    "countryId": "mm",
+    "subjectIds": [
+      "la",
+      "th"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-mm",
     "type": "in-common",
     "difficulty": "medium",
@@ -44855,6 +47177,33 @@
     "correctAnswer": "ao+bw+za",
     "explanation": "Namibia shares a land border with Angola, Botswana, South Africa.",
     "countryId": "na",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-na",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "na",
+      "li",
+      "lt",
+      "lb"
+    ],
+    "correctAnswer": "na",
+    "explanation": "Namibia borders both Botswana and South Africa.",
+    "countryId": "na",
+    "subjectIds": [
+      "bw",
+      "za"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -45598,6 +47947,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-np",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ml",
+      "mh",
+      "np",
+      "mt"
+    ],
+    "correctAnswer": "np",
+    "explanation": "Nepal borders both China and India.",
+    "countryId": "np",
+    "subjectIds": [
+      "cn",
+      "in"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-np",
     "type": "in-common",
     "difficulty": "medium",
@@ -45961,6 +48337,33 @@
     "correctAnswer": "be+de",
     "explanation": "Netherlands shares a land border with Germany, Belgium.",
     "countryId": "nl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-nl",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "mh",
+      "nl",
+      "mu",
+      "mr"
+    ],
+    "correctAnswer": "nl",
+    "explanation": "Netherlands borders both Belgium and Germany.",
+    "countryId": "nl",
+    "subjectIds": [
+      "be",
+      "de"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -46728,6 +49131,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-ni",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ni",
+      "nl",
+      "np",
+      "nr"
+    ],
+    "correctAnswer": "ni",
+    "explanation": "Nicaragua borders both Honduras and Costa Rica.",
+    "countryId": "ni",
+    "subjectIds": [
+      "hn",
+      "cr"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ni",
     "type": "in-common",
     "difficulty": "medium",
@@ -47119,6 +49549,33 @@
     "correctAnswer": "bj+ly+ng",
     "explanation": "Niger shares a land border with Benin, Libya, Nigeria.",
     "countryId": "ne",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-ne",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ne",
+      "mx",
+      "mh",
+      "mt"
+    ],
+    "correctAnswer": "ne",
+    "explanation": "Niger borders both Mali and Algeria.",
+    "countryId": "ne",
+    "subjectIds": [
+      "ml",
+      "dz"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -47518,6 +49975,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-ng",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "mh",
+      "mt",
+      "ng",
+      "mx"
+    ],
+    "correctAnswer": "ng",
+    "explanation": "Nigeria borders both Cameroon and Benin.",
+    "countryId": "ng",
+    "subjectIds": [
+      "cm",
+      "bj"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ng",
     "type": "in-common",
     "difficulty": "medium",
@@ -47913,6 +50397,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-kp",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "kp",
+      "mx",
+      "mu",
+      "fm"
+    ],
+    "correctAnswer": "kp",
+    "explanation": "North Korea borders both China and Russia.",
+    "countryId": "kp",
+    "subjectIds": [
+      "cn",
+      "ru"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-kp",
     "type": "in-common",
     "difficulty": "medium",
@@ -48278,6 +50789,33 @@
     "correctAnswer": "al+bg+rs",
     "explanation": "North Macedonia shares a land border with Serbia, Albania, Bulgaria.",
     "countryId": "mk",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-mk",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "mn",
+      "ma",
+      "mz",
+      "mk"
+    ],
+    "correctAnswer": "mk",
+    "explanation": "North Macedonia borders both Greece and Serbia.",
+    "countryId": "mk",
+    "subjectIds": [
+      "gr",
+      "rs"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -48677,6 +51215,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-no",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "no",
+      "ma",
+      "mn",
+      "mz"
+    ],
+    "correctAnswer": "no",
+    "explanation": "Norway borders both Finland and Russia.",
+    "countryId": "no",
+    "subjectIds": [
+      "fi",
+      "ru"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-no",
     "type": "in-common",
     "difficulty": "medium",
@@ -49072,6 +51637,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-om",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "fm",
+      "mc",
+      "md",
+      "om"
+    ],
+    "correctAnswer": "om",
+    "explanation": "Oman borders both Saudi Arabia and United Arab Emirates.",
+    "countryId": "om",
+    "subjectIds": [
+      "sa",
+      "ae"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-om",
     "type": "in-common",
     "difficulty": "medium",
@@ -49463,6 +52055,33 @@
     "correctAnswer": "af+cn+in",
     "explanation": "Pakistan shares a land border with India, China, Afghanistan.",
     "countryId": "pk",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-pk",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "pk",
+      "mc",
+      "me",
+      "md"
+    ],
+    "correctAnswer": "pk",
+    "explanation": "Pakistan borders both India and Iran.",
+    "countryId": "pk",
+    "subjectIds": [
+      "in",
+      "ir"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -50202,6 +52821,33 @@
     "correctAnswer": "co+cr",
     "explanation": "Panama shares a land border with Colombia, Costa Rica.",
     "countryId": "pa",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-pa",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "pa",
+      "pk",
+      "om",
+      "pw"
+    ],
+    "correctAnswer": "pa",
+    "explanation": "Panama borders both Costa Rica and Colombia.",
+    "countryId": "pa",
+    "subjectIds": [
+      "cr",
+      "co"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -50996,6 +53642,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-py",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "py",
+      "ph",
+      "pl",
+      "pt"
+    ],
+    "correctAnswer": "py",
+    "explanation": "Paraguay borders both Argentina and Bolivia.",
+    "countryId": "py",
+    "subjectIds": [
+      "ar",
+      "bo"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-py",
     "type": "in-common",
     "difficulty": "medium",
@@ -51387,6 +54060,33 @@
     "correctAnswer": "br+cl+ec",
     "explanation": "Peru shares a land border with Brazil, Chile, Ecuador.",
     "countryId": "pe",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-pe",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ph",
+      "pg",
+      "pe",
+      "pl"
+    ],
+    "correctAnswer": "pe",
+    "explanation": "Peru borders both Chile and Ecuador.",
+    "countryId": "pe",
+    "subjectIds": [
+      "cl",
+      "ec"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -52152,6 +54852,33 @@
     "correctAnswer": "by+cz+ru",
     "explanation": "Poland shares a land border with Russia, Czechia, Belarus.",
     "countryId": "pl",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-pl",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ng",
+      "kp",
+      "om",
+      "pl"
+    ],
+    "correctAnswer": "pl",
+    "explanation": "Poland borders both Czechia and Germany.",
+    "countryId": "pl",
+    "subjectIds": [
+      "cz",
+      "de"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -53315,6 +56042,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-cg",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "mk",
+      "cg",
+      "om",
+      "no"
+    ],
+    "correctAnswer": "cg",
+    "explanation": "Republic of the Congo borders both DR Congo and Gabon.",
+    "countryId": "cg",
+    "subjectIds": [
+      "cd",
+      "ga"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-cg",
     "type": "in-common",
     "difficulty": "medium",
@@ -53706,6 +56460,33 @@
     "correctAnswer": "hu+rs+ua",
     "explanation": "Romania shares a land border with Hungary, Ukraine, Serbia.",
     "countryId": "ro",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-ro",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ro",
+      "pw",
+      "pk",
+      "pa"
+    ],
+    "correctAnswer": "ro",
+    "explanation": "Romania borders both Ukraine and Moldova.",
+    "countryId": "ro",
+    "subjectIds": [
+      "ua",
+      "md"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -54105,6 +56886,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-ru",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ru",
+      "pa",
+      "pg",
+      "pw"
+    ],
+    "correctAnswer": "ru",
+    "explanation": "Russia borders both Finland and Georgia.",
+    "countryId": "ru",
+    "subjectIds": [
+      "fi",
+      "ge"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ru",
     "type": "in-common",
     "difficulty": "medium",
@@ -54470,6 +57278,33 @@
     "correctAnswer": "bi+tz+ug",
     "explanation": "Rwanda shares a land border with Burundi, Tanzania, Uganda.",
     "countryId": "rw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-rw",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "rw",
+      "pa",
+      "pg",
+      "py"
+    ],
+    "correctAnswer": "rw",
+    "explanation": "Rwanda borders both DR Congo and Uganda.",
+    "countryId": "rw",
+    "subjectIds": [
+      "cd",
+      "ug"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -56958,6 +59793,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-sa",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "pt",
+      "cg",
+      "ro",
+      "sa"
+    ],
+    "correctAnswer": "sa",
+    "explanation": "Saudi Arabia borders both Yemen and Kuwait.",
+    "countryId": "sa",
+    "subjectIds": [
+      "ye",
+      "kw"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-sa",
     "type": "in-common",
     "difficulty": "medium",
@@ -57347,6 +60209,33 @@
     "correctAnswer": "gm+gn+ml",
     "explanation": "Senegal shares a land border with Guinea, Mali, Gambia.",
     "countryId": "sn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-sn",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "sn",
+      "ru",
+      "ro",
+      "qa"
+    ],
+    "correctAnswer": "sn",
+    "explanation": "Senegal borders both Guinea-Bissau and Mali.",
+    "countryId": "sn",
+    "subjectIds": [
+      "gw",
+      "ml"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -57742,6 +60631,33 @@
     "correctAnswer": "bg+hr+me",
     "explanation": "Serbia shares a land border with Croatia, Montenegro, Bulgaria.",
     "countryId": "rs",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-rs",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "vc",
+      "lc",
+      "rs",
+      "ws"
+    ],
+    "correctAnswer": "rs",
+    "explanation": "Serbia borders both Romania and Bulgaria.",
+    "countryId": "rs",
+    "subjectIds": [
+      "ro",
+      "bg"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -58485,6 +61401,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-sl",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "lc",
+      "kn",
+      "sl",
+      "vc"
+    ],
+    "correctAnswer": "sl",
+    "explanation": "Sierra Leone borders both Liberia and Guinea.",
+    "countryId": "sl",
+    "subjectIds": [
+      "lr",
+      "gn"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-sl",
     "type": "in-common",
     "difficulty": "medium",
@@ -59201,6 +62144,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-sk",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "sn",
+      "sl",
+      "sk",
+      "sc"
+    ],
+    "correctAnswer": "sk",
+    "explanation": "Slovakia borders both Czechia and Poland.",
+    "countryId": "sk",
+    "subjectIds": [
+      "cz",
+      "pl"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-sk",
     "type": "in-common",
     "difficulty": "medium",
@@ -59566,6 +62536,33 @@
     "correctAnswer": "at+hr+it",
     "explanation": "Slovenia shares a land border with Croatia, Austria, Italy.",
     "countryId": "si",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-si",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "sl",
+      "sg",
+      "sc",
+      "si"
+    ],
+    "correctAnswer": "si",
+    "explanation": "Slovenia borders both Hungary and Italy.",
+    "countryId": "si",
+    "subjectIds": [
+      "hu",
+      "it"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -60309,6 +63306,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-so",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "sg",
+      "so",
+      "sa",
+      "rs"
+    ],
+    "correctAnswer": "so",
+    "explanation": "Somalia borders both Ethiopia and Kenya.",
+    "countryId": "so",
+    "subjectIds": [
+      "et",
+      "ke"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-so",
     "type": "in-common",
     "difficulty": "medium",
@@ -60700,6 +63724,33 @@
     "correctAnswer": "bw+mz+sz",
     "explanation": "South Africa shares a land border with Mozambique, Eswatini, Botswana.",
     "countryId": "za",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-za",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "za",
+      "sg",
+      "rs",
+      "sa"
+    ],
+    "correctAnswer": "za",
+    "explanation": "South Africa borders both Lesotho and Namibia.",
+    "countryId": "za",
+    "subjectIds": [
+      "ls",
+      "na"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -61490,6 +64541,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-ss",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "sk",
+      "ss",
+      "sb",
+      "si"
+    ],
+    "correctAnswer": "ss",
+    "explanation": "South Sudan borders both Ethiopia and Central African Republic.",
+    "countryId": "ss",
+    "subjectIds": [
+      "et",
+      "cf"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ss",
     "type": "in-common",
     "difficulty": "medium",
@@ -61881,6 +64959,33 @@
     "correctAnswer": "ad+fr+pt",
     "explanation": "Spain shares a land border with France, Andorra, Portugal.",
     "countryId": "es",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-es",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "kr",
+      "ss",
+      "za",
+      "es"
+    ],
+    "correctAnswer": "es",
+    "explanation": "Spain borders both Andorra and Morocco.",
+    "countryId": "es",
+    "subjectIds": [
+      "ad",
+      "ma"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -62675,6 +65780,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-sd",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "sd",
+      "kr",
+      "es",
+      "lk"
+    ],
+    "correctAnswer": "sd",
+    "explanation": "Sudan borders both Chad and Libya.",
+    "countryId": "sd",
+    "subjectIds": [
+      "td",
+      "ly"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-sd",
     "type": "in-common",
     "difficulty": "medium",
@@ -63066,6 +66198,33 @@
     "correctAnswer": "br+gy",
     "explanation": "Suriname shares a land border with Brazil, Guyana.",
     "countryId": "sr",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-sr",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "sy",
+      "tj",
+      "sr",
+      "ch"
+    ],
+    "correctAnswer": "sr",
+    "explanation": "Suriname borders both Guyana and Brazil.",
+    "countryId": "sr",
+    "subjectIds": [
+      "gy",
+      "br"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -63465,6 +66624,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-se",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "sy",
+      "tj",
+      "sr",
+      "se"
+    ],
+    "correctAnswer": "se",
+    "explanation": "Sweden borders both Finland and Norway.",
+    "countryId": "se",
+    "subjectIds": [
+      "fi",
+      "no"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-se",
     "type": "in-common",
     "difficulty": "medium",
@@ -63833,6 +67019,33 @@
     "correctAnswer": "de+fr+it",
     "explanation": "Switzerland shares a land border with Germany, France, Italy.",
     "countryId": "ch",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-ch",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ch",
+      "tz",
+      "tj",
+      "th"
+    ],
+    "correctAnswer": "ch",
+    "explanation": "Switzerland borders both Austria and France.",
+    "countryId": "ch",
+    "subjectIds": [
+      "at",
+      "fr"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -64232,6 +67445,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-sy",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "za",
+      "es",
+      "ss",
+      "sy"
+    ],
+    "correctAnswer": "sy",
+    "explanation": "Syria borders both Iraq and Lebanon.",
+    "countryId": "sy",
+    "subjectIds": [
+      "iq",
+      "lb"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-sy",
     "type": "in-common",
     "difficulty": "medium",
@@ -64623,6 +67863,33 @@
     "correctAnswer": "cn+kg+uz",
     "explanation": "Tajikistan shares a land border with Kyrgyzstan, Uzbekistan, China.",
     "countryId": "tj",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-tj",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "es",
+      "tj",
+      "sr",
+      "sd"
+    ],
+    "correctAnswer": "tj",
+    "explanation": "Tajikistan borders both Kyrgyzstan and China.",
+    "countryId": "tj",
+    "subjectIds": [
+      "kg",
+      "cn"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -65022,6 +68289,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-tz",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ch",
+      "tz",
+      "tj",
+      "sy"
+    ],
+    "correctAnswer": "tz",
+    "explanation": "Tanzania borders both Mozambique and Kenya.",
+    "countryId": "tz",
+    "subjectIds": [
+      "mz",
+      "ke"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-tz",
     "type": "in-common",
     "difficulty": "medium",
@@ -65413,6 +68707,33 @@
     "correctAnswer": "kh+la+my",
     "explanation": "Thailand shares a land border with Laos, Malaysia, Cambodia.",
     "countryId": "th",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-th",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "sd",
+      "sr",
+      "se",
+      "th"
+    ],
+    "correctAnswer": "th",
+    "explanation": "Thailand borders both Cambodia and Malaysia.",
+    "countryId": "th",
+    "subjectIds": [
+      "kh",
+      "my"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -66177,6 +69498,33 @@
     "correctAnswer": "bf+bj+gh",
     "explanation": "Togo shares a land border with Benin, Burkina Faso, Ghana.",
     "countryId": "tg",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-tg",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "to",
+      "tt",
+      "tg",
+      "tl"
+    ],
+    "correctAnswer": "tg",
+    "explanation": "Togo borders both Ghana and Benin.",
+    "countryId": "tg",
+    "subjectIds": [
+      "gh",
+      "bj"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -67264,6 +70612,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-tn",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "tr",
+      "tv",
+      "tn",
+      "tm"
+    ],
+    "correctAnswer": "tn",
+    "explanation": "Tunisia borders both Algeria and Libya.",
+    "countryId": "tn",
+    "subjectIds": [
+      "dz",
+      "ly"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-tn",
     "type": "in-common",
     "difficulty": "medium",
@@ -67659,6 +71034,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-tr",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "to",
+      "tn",
+      "tr",
+      "tt"
+    ],
+    "correctAnswer": "tr",
+    "explanation": "Türkiye borders both Bulgaria and Iran.",
+    "countryId": "tr",
+    "subjectIds": [
+      "bg",
+      "ir"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-tr",
     "type": "in-common",
     "difficulty": "medium",
@@ -68050,6 +71452,33 @@
     "correctAnswer": "af+kz+uz",
     "explanation": "Turkmenistan shares a land border with Kazakhstan, Uzbekistan, Afghanistan.",
     "countryId": "tm",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-tm",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "tm",
+      "tn",
+      "tv",
+      "ug"
+    ],
+    "correctAnswer": "tm",
+    "explanation": "Turkmenistan borders both Iran and Afghanistan.",
+    "countryId": "tm",
+    "subjectIds": [
+      "ir",
+      "af"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -68793,6 +72222,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-ug",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ae",
+      "gb",
+      "us",
+      "ug"
+    ],
+    "correctAnswer": "ug",
+    "explanation": "Uganda borders both Kenya and Rwanda.",
+    "countryId": "ug",
+    "subjectIds": [
+      "ke",
+      "rw"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ug",
     "type": "in-common",
     "difficulty": "medium",
@@ -69188,6 +72644,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-ua",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "uz",
+      "ua",
+      "us",
+      "uy"
+    ],
+    "correctAnswer": "ua",
+    "explanation": "Ukraine borders both Hungary and Poland.",
+    "countryId": "ua",
+    "subjectIds": [
+      "hu",
+      "pl"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ua",
     "type": "in-common",
     "difficulty": "medium",
@@ -69579,6 +73062,33 @@
     "correctAnswer": "om+sa",
     "explanation": "United Arab Emirates shares a land border with Saudi Arabia, Oman.",
     "countryId": "ae",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-ae",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "gb",
+      "uy",
+      "ae",
+      "us"
+    ],
+    "correctAnswer": "ae",
+    "explanation": "United Arab Emirates borders both Oman and Saudi Arabia.",
+    "countryId": "ae",
+    "subjectIds": [
+      "om",
+      "sa"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -70373,6 +73883,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-us",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "vu",
+      "va",
+      "ve",
+      "us"
+    ],
+    "correctAnswer": "us",
+    "explanation": "United States borders both Canada and Mexico.",
+    "countryId": "us",
+    "subjectIds": [
+      "ca",
+      "mx"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-us",
     "type": "in-common",
     "difficulty": "medium",
@@ -70768,6 +74305,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-uy",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "vn",
+      "zm",
+      "uy",
+      "ye"
+    ],
+    "correctAnswer": "uy",
+    "explanation": "Uruguay borders both Argentina and Brazil.",
+    "countryId": "uy",
+    "subjectIds": [
+      "ar",
+      "br"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-uy",
     "type": "in-common",
     "difficulty": "medium",
@@ -71159,6 +74723,33 @@
     "correctAnswer": "kg+kz+tj",
     "explanation": "Uzbekistan shares a land border with Kyrgyzstan, Tajikistan, Kazakhstan.",
     "countryId": "uz",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-uz",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "uz",
+      "vu",
+      "va",
+      "ve"
+    ],
+    "correctAnswer": "uz",
+    "explanation": "Uzbekistan borders both Turkmenistan and Kazakhstan.",
+    "countryId": "uz",
+    "subjectIds": [
+      "tm",
+      "kz"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -72269,6 +75860,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-ve",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "ve",
+      "bo",
+      "ar",
+      "zw"
+    ],
+    "correctAnswer": "ve",
+    "explanation": "Venezuela borders both Brazil and Guyana.",
+    "countryId": "ve",
+    "subjectIds": [
+      "br",
+      "gy"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ve",
     "type": "in-common",
     "difficulty": "medium",
@@ -72660,6 +76278,33 @@
     "correctAnswer": "cn+kh+la",
     "explanation": "Vietnam shares a land border with China, Laos, Cambodia.",
     "countryId": "vn",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-vn",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "af",
+      "am",
+      "az",
+      "vn"
+    ],
+    "correctAnswer": "vn",
+    "explanation": "Vietnam borders both Cambodia and Laos.",
+    "countryId": "vn",
+    "subjectIds": [
+      "kh",
+      "la"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },
@@ -73059,6 +76704,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-ye",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "bh",
+      "ye",
+      "am",
+      "az"
+    ],
+    "correctAnswer": "ye",
+    "explanation": "Yemen borders both Oman and Saudi Arabia.",
+    "countryId": "ye",
+    "subjectIds": [
+      "om",
+      "sa"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-ye",
     "type": "in-common",
     "difficulty": "medium",
@@ -73454,6 +77126,33 @@
     "source": "generated:world-explorer"
   },
   {
+    "id": "meet-the-neighbours-zm",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "zm",
+      "bf",
+      "bw",
+      "bj"
+    ],
+    "correctAnswer": "zm",
+    "explanation": "Zambia borders both Namibia and Mozambique.",
+    "countryId": "zm",
+    "subjectIds": [
+      "na",
+      "mz"
+    ],
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
     "id": "in-common-zm",
     "type": "in-common",
     "difficulty": "medium",
@@ -73845,6 +77544,33 @@
     "correctAnswer": "bw+za+zm",
     "explanation": "Zimbabwe shares a land border with Botswana, South Africa, Zambia.",
     "countryId": "zw",
+    "active": true,
+    "source": "generated:world-explorer"
+  },
+  {
+    "id": "meet-the-neighbours-zw",
+    "type": "meet-the-neighbours",
+    "difficulty": "medium",
+    "ageBands": [
+      "8-10",
+      "11-13",
+      "expert"
+    ],
+    "topic": "location",
+    "prompt": "Which country shares a border with both of these?",
+    "options": [
+      "zw",
+      "bi",
+      "bf",
+      "cm"
+    ],
+    "correctAnswer": "zw",
+    "explanation": "Zimbabwe borders both Zambia and Botswana.",
+    "countryId": "zw",
+    "subjectIds": [
+      "zm",
+      "bw"
+    ],
     "active": true,
     "source": "generated:world-explorer"
   },

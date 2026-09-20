@@ -26,7 +26,7 @@ function renderScreen() {
 describe('GameHubScreen', () => {
   it('renders a card for every standalone game mode', () => {
     renderScreen();
-    expect(GAME_MODE_META).toHaveLength(13);
+    expect(GAME_MODE_META).toHaveLength(14);
     for (const meta of GAME_MODE_META) {
       expect(screen.getByText(meta.title)).toBeInTheDocument();
     }

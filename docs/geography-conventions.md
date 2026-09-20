@@ -114,6 +114,11 @@ partly in Europe and partly in Asia") without making it the quiz answer.
   `border-battle` answers are sets and checks each id is one of the options.
 - Only countries with at least one land neighbour get a question (island nations are
   skipped). Uses the **location** topic, `medium` difficulty (ages 8+).
+- **Meet the Neighbours** shows the flags of **two** of a country's neighbours (via
+  `subjectIds`) and asks which country borders **both**. Only countries with at least
+  two land neighbours qualify. A distractor is excluded if it also borders both shown
+  neighbours, so exactly one option is correct. Standard four-option, single-answer
+  question on the **location** topic, `medium` difficulty (ages 8+).
 
 ## Difficulty tiers and the Expert (grown-up) band
 

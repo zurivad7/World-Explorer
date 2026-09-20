@@ -229,6 +229,50 @@ function makeBorderBattle(
   };
 }
 
+/**
+ * "Meet the Neighbours": show the flags of two of a country's neighbours and ask which
+ * country borders both of them. Only countries with at least two land neighbours qualify.
+ * A distractor is excluded if it also borders both shown neighbours, so the answer is
+ * unique among the four options. The two neighbour flags are shown via subjectIds.
+ */
+function makeMeetTheNeighbours(
+  c: Country,
+  countries: Country[],
+  byId: Map<string, Country>,
+  index: number
+): Question | null {
+  const neighbourIds = c.neighbours.filter((n) => byId.has(n));
+  if (neighbourIds.length < 2) return null;
+  const [n1, n2] = seededShuffle(neighbourIds, `mtn-n-${c.id}`)
+    .slice(0, 2)
+    .map((id) => byId.get(id)!);
+  if (!n1 || !n2) return null;
+  // A distractor must NOT border both shown neighbours, or it would be a second valid answer.
+  const bordersBoth = (x: Country): boolean =>
+    x.neighbours.includes(n1.id) && x.neighbours.includes(n2.id);
+  const pool = countries.filter(
+    (x) => x.id === c.id || (x.id !== n1.id && x.id !== n2.id && !bordersBoth(x))
+  );
+  const distractors = pickDistractors(c, pool, 3, index);
+  if (distractors.length < 3) return null;
+  const options = seededShuffle([c.id, ...distractors.map((d) => d.id)], `mtn-opt-${c.id}`);
+  return {
+    id: `meet-the-neighbours-${c.id}`,
+    type: 'meet-the-neighbours',
+    difficulty: 'medium',
+    ageBands: ageBands('medium'),
+    topic: 'location',
+    prompt: 'Which country shares a border with both of these?',
+    options,
+    correctAnswer: c.id,
+    explanation: `${c.name} borders both ${n1.name} and ${n2.name}.`,
+    countryId: c.id,
+    subjectIds: [n1.id, n2.id],
+    active: true,
+    source: SOURCE,
+  };
+}
+
 interface OddGroup {
   group: Country[];
   explanation: string;
@@ -1016,6 +1060,10 @@ export function generateQuestions(inputs: GeneratorInputs): Question[] {
     // --- Borders (LOCATE pillar): pick every neighbour (multi-select) ---
     const border = makeBorderBattle(c, countries, byId, index);
     if (border) questions.push(border);
+
+    // --- Borders (LOCATE pillar): name the country from two neighbours' flags ---
+    const neighbours = makeMeetTheNeighbours(c, countries, byId, index);
+    if (neighbours) questions.push(neighbours);
 
     // --- Reasoning (THINK pillar): what do these three share? ---
     const common = makeInCommon(

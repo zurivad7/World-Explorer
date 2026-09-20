@@ -93,6 +93,14 @@ export const GAME_MODE_META: GameModeMeta[] = [
     mapBased: false,
   },
   {
+    mode: 'meet-the-neighbours',
+    title: 'Meet the Neighbours',
+    icon: '🏘️',
+    blurb: "Name the country from two of its neighbours' flags.",
+    pillar: 'LOCATE',
+    mapBased: false,
+  },
+  {
     mode: 'shape-detective',
     title: 'Shape Detective',
     icon: '🧩',
