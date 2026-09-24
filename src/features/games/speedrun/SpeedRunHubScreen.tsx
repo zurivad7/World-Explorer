@@ -43,6 +43,15 @@ export function SpeedRunHubScreen() {
             Name every country that starts with — or contains — a letter.
           </span>
         </Link>
+        <Link to={paths.speedRunLengths} className="game-card game-card--speed">
+          <span className="game-card__icon" aria-hidden="true">
+            🔢
+          </span>
+          <span className="game-card__title">Letter Count Blitz</span>
+          <span className="game-card__blurb">
+            Name every one-word country with an exact number of letters.
+          </span>
+        </Link>
       </div>
       <Link to={paths.play} className="button">
         Back to games

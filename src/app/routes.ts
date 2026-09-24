@@ -17,6 +17,7 @@ export const paths = {
   speedRunGame: (kind: string) => `/play/speed/${kind}`,
   speedRunPattern: '/play/speed/:kind',
   speedRunLetters: '/play/speed/letters/game', // Country Letters (its own screen)
+  speedRunLengths: '/play/speed/lengths/game', // Letter Count Blitz (its own screen)
   passport: '/passport', // S08
   achievements: '/achievements', // S09
   progress: '/progress', // S10

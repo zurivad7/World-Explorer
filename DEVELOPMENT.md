@@ -124,6 +124,17 @@ A quality pass after the rapid Phase-A game additions.
     authored aliases like "USA"/"St Lucia"), and `judgeGuess` classifies each guess
     (correct / duplicate / wrong-letter / unknown). The round ends early with a win when
     every country is named. The end screen reveals the ones missed.
+  - **Letter Count Blitz** (`letterCount.ts` + `LetterCountScreen.tsx`) is another
+    *name-as-many-as-you-can* Speed Run on its own route (`/play/speed/lengths/game`, 60s):
+    given a number, type every **one-word** country whose name has exactly that many
+    letters (5 → India, China, Niger; 7 → Nigeria). By design only single-word names are
+    answerable, so "how many letters?" is never ambiguous (no arguing over "South Korea").
+    Pure helpers pick a length that has enough one-word countries (the playable band is
+    4–10; 11+ has too few to be fun), and `judgeLengthGuess` classifies each guess
+    (correct / duplicate / wrong-length[multi-word|length] / unknown). It reuses Country
+    Letters' `buildResolver` and `nameLetters`, so "USA"/"St Lucia" resolve and accents are
+    stripped before counting. Ends early with a win when every country is named; the end
+    screen reveals the ones missed.
 - **Contact link** — `AppFooter` renders a footer on every screen with a "Contact Me"
   mailto for feedback/suggestions/corrections. The address is a single constant
   (`FEEDBACK_EMAIL` in `AppFooter.tsx`); until it is set the footer shows a neutral
