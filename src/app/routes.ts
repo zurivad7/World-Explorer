@@ -18,6 +18,7 @@ export const paths = {
   speedRunPattern: '/play/speed/:kind',
   speedRunLetters: '/play/speed/letters/game', // Country Letters (its own screen)
   speedRunLengths: '/play/speed/lengths/game', // Letter Count Blitz (its own screen)
+  speedRunCapitals: '/play/speed/capitals/game', // Capital Letters (its own screen)
   passport: '/passport', // S08
   achievements: '/achievements', // S09
   progress: '/progress', // S10

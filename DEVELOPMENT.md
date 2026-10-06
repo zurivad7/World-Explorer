@@ -135,6 +135,15 @@ A quality pass after the rapid Phase-A game additions.
     Letters' `buildResolver` and `nameLetters`, so "USA"/"St Lucia" resolve and accents are
     stripped before counting. Ends early with a win when every country is named; the end
     screen reveals the ones missed.
+  - **Capital Letters** (`capitalLetters.ts` + `CapitalLettersScreen.tsx`) is the capitals
+    sibling of Country Letters on its own route (`/play/speed/capitals/game`, **120s**):
+    given a letter, type every **capital city** that starts with it. Pure helpers pick a
+    letter with enough capitals (`MIN_FOR_LETTER = 6`, so a two-minute round isn't a quick
+    dead end — yields A/B/C/D/K/L/M/N/P/R/S/T/V and drops I/Q/U/Z…), and `judgeCapitalGuess`
+    classifies each guess (correct / duplicate / wrong-letter / unknown). `buildCapitalResolver`
+    maps capital→country forgivingly (normalised name, the part before a comma so
+    "Washington" resolves "Washington, D.C.", and saint/st variants). Ends early with a win;
+    the end screen reveals the missed capitals (with their countries).
 - **Contact link** — `AppFooter` renders a footer on every screen with a "Contact Me"
   mailto for feedback/suggestions/corrections. The address is a single constant
   (`FEEDBACK_EMAIL` in `AppFooter.tsx`); until it is set the footer shows a neutral
