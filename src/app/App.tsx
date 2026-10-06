@@ -34,6 +34,11 @@ const LetterCountScreen = lazy(() =>
     default: m.LetterCountScreen,
   }))
 );
+const CapitalLettersScreen = lazy(() =>
+  import('@/features/games/speedrun/CapitalLettersScreen').then((m) => ({
+    default: m.CapitalLettersScreen,
+  }))
+);
 
 /** Send first-time users through onboarding before the main app (PRD core experience §6). */
 function RequireProfile({ children }: { children: ReactNode }) {
@@ -81,6 +86,14 @@ function AppRoutes() {
           element={
             <Suspense fallback={<div className="loading">Loading…</div>}>
               <LetterCountScreen />
+            </Suspense>
+          }
+        />
+        <Route
+          path={paths.speedRunCapitals}
+          element={
+            <Suspense fallback={<div className="loading">Loading…</div>}>
+              <CapitalLettersScreen />
             </Suspense>
           }
         />
